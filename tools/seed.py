@@ -53,19 +53,34 @@ def dump(path: Path, data: dict) -> None:
 
 
 def protect(text: str) -> tuple[str, list[str]]:
-    """Wrap placeholders in <x>…</x> so DeepL leaves them alone."""
-    parts = []
+    """Wrap placeholders in <x>…</x> + XML-escape literal `<`, `>`, `&`
+    so DeepL's xml tag_handling doesn't mis-parse the source.
+    """
+    parts: list[str] = []
+
     def sub(m):
         parts.append(m.group(0))
-        return f"<x>{len(parts) - 1}</x>"
-    protected = PLACEHOLDER_RE.sub(sub, text)
+        return f"\x00PH{len(parts) - 1}\x00"
+
+    # 1. swap placeholders out for a non-XML sentinel
+    tmp = PLACEHOLDER_RE.sub(sub, text)
+    # 2. escape any remaining XML-special chars in the literal content
+    tmp = tmp.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    # 3. restore placeholders as <x> tags
+    def back(m):
+        return f"<x>{m.group(1)}</x>"
+    protected = re.sub(r"\x00PH(\d+)\x00", back, tmp)
     return protected, parts
 
 
 def restore(text: str, parts: list[str]) -> str:
+    # 1. expand <x>N</x> tags back to placeholder strings
     def sub(m):
         return parts[int(m.group(1))]
-    return re.sub(r"<x>(\d+)</x>", sub, text)
+    out = re.sub(r"<x>(\d+)</x>", sub, text)
+    # 2. unescape XML entities
+    out = out.replace("&lt;", "<").replace("&gt;", ">").replace("&amp;", "&")
+    return out
 
 
 def load_glossary_tsv(path: Path) -> list[tuple[str, str]]:
@@ -82,14 +97,23 @@ def load_glossary_tsv(path: Path) -> list[tuple[str, str]]:
     return rows
 
 
-def translate_string(
+def translate_batch(
     translator: deepl.Translator,
-    text: str,
+    texts: list[str],
     target_lang: str,
     glossary_id: str | None,
-) -> str:
-    protected, parts = protect(text)
-    result = translator.translate_text(
+) -> list[str]:
+    """Translate a batch of strings in one DeepL API call. DeepL accepts
+    up to 50 texts per request; this caller already chunks to that.
+    """
+    protected: list[str] = []
+    parts_lists: list[list[str]] = []
+    for t in texts:
+        p, parts = protect(t)
+        protected.append(p)
+        parts_lists.append(parts)
+
+    results = translator.translate_text(
         protected,
         source_lang="EN",
         target_lang=target_lang,
@@ -97,7 +121,14 @@ def translate_string(
         tag_handling="xml",
         ignore_tags=["x"],
     )
-    return restore(result.text, parts)
+    # deepl returns a TextResult list (1:1 with input) for list input,
+    # or a single TextResult for a single string. Normalize.
+    if not isinstance(results, list):
+        results = [results]
+    return [restore(r.text, parts_lists[i]) for i, r in enumerate(results)]
+
+
+BATCH_SIZE = 50
 
 
 def needs_translation(entry) -> bool:
@@ -165,7 +196,8 @@ def main() -> int:
             glossary_id = g.glossary_id
 
         data = load(path)
-        seeded = 0
+        # Gather every (key, source) that still needs translating
+        pending: list[tuple[str, str]] = []
         for k, v in en.items():
             if k == "_meta":
                 continue
@@ -176,18 +208,27 @@ def main() -> int:
             src = en_value(v)
             if src is None:
                 continue
+            pending.append((k, src))
+
+        seeded = 0
+        for i in range(0, len(pending), BATCH_SIZE):
+            chunk = pending[i:i + BATCH_SIZE]
+            keys = [k for k, _ in chunk]
+            texts = [s for _, s in chunk]
             try:
-                tr = translate_string(translator, src, target, glossary_id)
+                translations = translate_batch(translator, texts, target, glossary_id)
             except Exception as e:
-                print(f"  {k}: DeepL error: {_sanitize(str(e), SECRET)}", file=sys.stderr)
+                print(f"  batch {i}-{i + len(chunk)}: DeepL error: "
+                      f"{_sanitize(str(e), SECRET)}", file=sys.stderr)
                 continue
-            data[k] = {"value": tr, "_ai": True, "_seeded": TODAY}
-            seeded += 1
+            for k, tr in zip(keys, translations):
+                data[k] = {"value": tr, "_ai": True, "_seeded": TODAY}
+                seeded += 1
 
         if seeded:
             data.setdefault("_meta", {"language": lang})["updated"] = TODAY
             dump(path, data)
-            print(f"{lang}: seeded {seeded} keys")
+            print(f"{lang}: seeded {seeded} keys (batched, {(seeded + BATCH_SIZE - 1) // BATCH_SIZE} requests)")
         else:
             print(f"{lang}: nothing to seed")
 

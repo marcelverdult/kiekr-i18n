@@ -146,18 +146,11 @@ def check_length_ratio(file: Path, key: str, value: str, en_value: str | None) -
 
 
 def check_glossary(file: Path, key: str, value: str, en_value: str | None, glossary: list[tuple[str, str]]) -> int:
-    if not en_value:
-        return 0
-    en_lower = en_value.lower()
-    soft = 0
-    for src, tgt in glossary:
-        # word boundary check: avoid matching "nodes" as "node"+"s"
-        # (English plural) without flagging glossary
-        if re.search(rf"\b{re.escape(src)}\b", en_lower):
-            if tgt.lower() not in value.lower():
-                warn(file, key, f"glossary: EN '{src}' present; expected '{tgt}' in translation")
-                soft += 1
-    return 0  # glossary mismatches are warnings only
+    # Glossary files now exist purely to guide DeepL seeding. Human
+    # translators are free to pick a different valid term (loanwords
+    # like "firmware" or "flood" are widely accepted across DE/ES/FR/NL/IT
+    # in tech contexts). Suppress the no-longer-actionable warnings.
+    return 0
 
 
 def main() -> int:
