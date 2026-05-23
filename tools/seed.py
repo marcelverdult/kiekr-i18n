@@ -121,13 +121,24 @@ def en_value(entry) -> str | None:
     return None
 
 
+def _sanitize(msg: str, secret: str | None) -> str:
+    """Strip the API key from any string before printing."""
+    if not secret:
+        return msg
+    return msg.replace(secret, "***")
+
+
 def main() -> int:
     api_key = os.environ.get("DEEPL_API_KEY")
     if not api_key:
         print("ERROR: DEEPL_API_KEY not set", file=sys.stderr)
         return 1
+    # Best-effort defensive: never log the key, even on traceback.
+    # GH Actions also auto-masks it via ::add-mask:: registered upstream.
+    SECRET = api_key
+    del api_key
 
-    translator = deepl.Translator(api_key)
+    translator = deepl.Translator(SECRET)
     en = load(SOURCE_FILE)
 
     deepl_target_codes = {"es": "ES", "fr": "FR", "nl": "NL"}
@@ -168,7 +179,7 @@ def main() -> int:
             try:
                 tr = translate_string(translator, src, target, glossary_id)
             except Exception as e:
-                print(f"  {k}: DeepL error: {e}", file=sys.stderr)
+                print(f"  {k}: DeepL error: {_sanitize(str(e), SECRET)}", file=sys.stderr)
                 continue
             data[k] = {"value": tr, "_ai": True, "_seeded": TODAY}
             seeded += 1

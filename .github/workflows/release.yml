@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   tag-and-release:
@@ -16,6 +17,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - id: meta
         run: |
@@ -42,3 +44,33 @@ jobs:
             kiekr-i18n.tar.gz
             kiekr-i18n.tar.gz.sha256
           fail_on_unmatched_files: true
+
+      - name: Prune prior runs of this workflow
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          WF: ${{ github.workflow }}
+          CURRENT: ${{ github.run_id }}
+        run: |
+          gh run list --repo "$REPO" --workflow "$WF" \
+            --limit 100 --json databaseId \
+            --jq ".[] | select(.databaseId != $CURRENT) | .databaseId" |
+            while read -r id; do
+              [ -n "$id" ] && gh run delete --repo "$REPO" "$id" || true
+            done
+
+      - name: Prune older releases (keep latest only)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          KEEP: ${{ steps.meta.outputs.tag }}
+        run: |
+          gh release list --repo "$REPO" --limit 100 \
+            --json tagName --jq ".[].tagName" |
+            while read -r tag; do
+              if [ "$tag" != "$KEEP" ] && [ -n "$tag" ]; then
+                gh release delete --repo "$REPO" "$tag" --cleanup-tag --yes || true
+              fi
+            done

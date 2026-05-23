@@ -11,12 +11,17 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   seed:
     runs-on: ubuntu-latest
     steps:
+      - name: Register DEEPL_API_KEY as masked
+        run: echo "::add-mask::${{ secrets.DEEPL_API_KEY }}"
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -45,3 +50,18 @@ jobs:
               - Flip `_ai: true` to `_human: true` (or replace the
                 whole object with a plain string) on approval.
           labels: bot, ai-seed
+
+      - name: Prune prior runs of this workflow
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          WF: ${{ github.workflow }}
+          CURRENT: ${{ github.run_id }}
+        run: |
+          gh run list --repo "$REPO" --workflow "$WF" \
+            --limit 100 --json databaseId \
+            --jq ".[] | select(.databaseId != $CURRENT) | .databaseId" |
+            while read -r id; do
+              [ -n "$id" ] && gh run delete --repo "$REPO" "$id" || true
+            done
