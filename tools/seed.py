@@ -141,7 +141,7 @@ def main() -> int:
     translator = deepl.Translator(SECRET)
     en = load(SOURCE_FILE)
 
-    deepl_target_codes = {"es": "ES", "fr": "FR", "nl": "NL"}
+    deepl_target_codes = {"es": "ES", "fr": "FR", "nl": "NL", "it": "IT"}
 
     for path in sorted(LOCALES_DIR.glob("*.json")):
         if path.name in OWNED:

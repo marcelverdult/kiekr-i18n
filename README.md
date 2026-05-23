@@ -12,6 +12,7 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 | Español        | `es` |        -- | community  |
 | Français       | `fr` |        -- | community  |
 | Nederlands     | `nl` |        -- | community  |
+| Italiano       | `it` |        0% | community  |
 
 (Completion percentages auto-updated by CI on every merge.)
 

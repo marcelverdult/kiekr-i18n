@@ -38,6 +38,7 @@ PROFANITY: dict[str, set[str]] = {
     "es": {"mierda", "puta", "cabrón", "polla", "coño", "joder"},
     "fr": {"merde", "putain", "salope", "connard", "enculé", "pute"},
     "nl": {"kut", "kanker", "neuken", "godverdomme", "klootzak", "lul"},
+    "it": {"merda", "cazzo", "vaffanculo", "stronzo", "puttana", "troia", "frocio"},
 }
 
 # Bidi overrides + zero-width — can be used to hide trojan text.
