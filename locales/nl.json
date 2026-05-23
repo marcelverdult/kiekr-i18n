@@ -1665,14 +1665,46 @@
     "value": "Klaar",
     "_human": true
   },
-  "nodes_admin_error_build": null,
-  "nodes_admin_error_contact_missing": null,
-  "nodes_admin_error_crypto": null,
-  "nodes_admin_error_dialect_mismatch": null,
-  "nodes_admin_error_generic": null,
-  "nodes_admin_error_not_ready": null,
-  "nodes_admin_error_seed_sign": null,
-  "nodes_admin_error_storage": null,
+  "nodes_admin_error_build": {
+    "value": "Het verzoek kon niet worden verwerkt. Probeer het nog eens.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_contact_missing": {
+    "value": "Repeater-contact niet gevonden.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_crypto": {
+    "value": "Er is een fout opgetreden bij het versleutelen. Log opnieuw in of probeer het nog eens.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_dialect_mismatch": {
+    "value": "Deze functie wordt op deze repeater nog niet ondersteund.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_generic": {
+    "value": "Er is een fout opgetreden. Probeer het nog eens.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_not_ready": {
+    "value": "Het apparaat is nog bezig met synchroniseren — probeer het straks nog eens.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_seed_sign": {
+    "value": "Het verzoek om telemetriegegevens kon niet worden ondertekend. Log opnieuw in of probeer het nog eens.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_storage": {
+    "value": "Fout bij lokale opslag. Probeer het nog eens.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_admin_firmware_label": {
     "value": "Firmware",
     "_human": true
@@ -2001,7 +2033,11 @@
     "value": "Geen buren gemeld",
     "_human": true
   },
-  "nodes_detail_no_owner_info": null,
+  "nodes_detail_no_owner_info": {
+    "value": "Eigenaarsgegevens zijn nog niet opgehaald",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_detail_no_region": {
     "value": "Geen",
     "_human": true
@@ -2010,7 +2046,11 @@
     "value": "Nog geen regio's ontdekt",
     "_human": true
   },
-  "nodes_detail_owner_section": null,
+  "nodes_detail_owner_section": {
+    "value": "Eigenaar",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_detail_path_bytes": {
     "value": "%1$dB",
     "_human": true
@@ -4843,8 +4883,16 @@
     "value": "Tonen",
     "_human": true
   },
-  "settings_retries_anon_interval_label": null,
-  "settings_retries_anon_retries_label": null,
+  "settings_retries_anon_interval_label": {
+    "value": "Herhalingsinterval (sec.)",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_anon_retries_label": {
+    "value": "Herpogingen",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_retries_cd_back": {
     "value": "Terug",
     "_human": true
@@ -4885,10 +4933,26 @@
     "value": "Max. pogingen",
     "_human": true
   },
-  "settings_retries_owner_info_footer": null,
-  "settings_retries_owner_info_header": null,
-  "settings_retries_region_discovery_footer": null,
-  "settings_retries_region_discovery_header": null,
+  "settings_retries_owner_info_footer": {
+    "value": "Hoe vaak de app een verzoek om eigenaarsgegevens opnieuw verstuurt als er geen antwoord komt, en hoe lang er tussen de pogingen wordt gewacht. Standaard: 1 poging, interval van 8 seconden. Eén poging is meestal voldoende — het verzoek wordt naar een specifieke repeater gestuurd, dus de verbindingskwaliteit is voorspelbaar.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_owner_info_header": {
+    "value": "Gegevens eigenaar",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_region_discovery_footer": {
+    "value": "Hoe vaak de app een verzoek om regio-detectie opnieuw verstuurt als er geen antwoord komt, en hoe lang er tussen de pogingen wordt gewacht. Standaard 2 pogingen, met een interval van 8 seconden. Verhoog het aantal pogingen bij mesh-netwerken met veel ruis; verleng het interval bij trage of overbelaste verbindingen.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_region_discovery_header": {
+    "value": "Ontdek de regio",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_retries_title": {
     "value": "Pogingen & time-outs",
     "_human": true

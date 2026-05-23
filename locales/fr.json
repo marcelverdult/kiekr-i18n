@@ -1665,14 +1665,46 @@
     "value": "OK",
     "_human": true
   },
-  "nodes_admin_error_build": null,
-  "nodes_admin_error_contact_missing": null,
-  "nodes_admin_error_crypto": null,
-  "nodes_admin_error_dialect_mismatch": null,
-  "nodes_admin_error_generic": null,
-  "nodes_admin_error_not_ready": null,
-  "nodes_admin_error_seed_sign": null,
-  "nodes_admin_error_storage": null,
+  "nodes_admin_error_build": {
+    "value": "Impossible de traiter la requête. Veuillez réessayer.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_contact_missing": {
+    "value": "Contact du répéteur introuvable.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_crypto": {
+    "value": "Erreur de cryptage. Veuillez vous reconnecter ou réessayer.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_dialect_mismatch": {
+    "value": "Cette fonction n'est pas encore prise en charge sur ce répéteur.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_generic": {
+    "value": "Une erreur s'est produite. Veuillez réessayer.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_not_ready": {
+    "value": "L'appareil est toujours en cours de synchronisation. Veuillez réessayer dans quelques instants.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_seed_sign": {
+    "value": "Impossible de signer la demande de télémétrie. Veuillez vous reconnecter ou réessayer.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_storage": {
+    "value": "Erreur de stockage local. Veuillez réessayer.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_admin_firmware_label": {
     "value": "Firmware",
     "_human": true
@@ -2001,7 +2033,11 @@
     "value": "Aucun voisin signalé",
     "_human": true
   },
-  "nodes_detail_no_owner_info": null,
+  "nodes_detail_no_owner_info": {
+    "value": "Les informations sur le propriétaire n'ont pas encore été récupérées",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_detail_no_region": {
     "value": "Aucune",
     "_human": true
@@ -2010,7 +2046,11 @@
     "value": "Aucune région découverte pour l'instant",
     "_human": true
   },
-  "nodes_detail_owner_section": null,
+  "nodes_detail_owner_section": {
+    "value": "Propriétaire",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_detail_path_bytes": {
     "value": "%1$d o",
     "_human": true
@@ -4843,8 +4883,16 @@
     "value": "Afficher",
     "_human": true
   },
-  "settings_retries_anon_interval_label": null,
-  "settings_retries_anon_retries_label": null,
+  "settings_retries_anon_interval_label": {
+    "value": "Intervalle entre les tentatives (en secondes)",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_anon_retries_label": {
+    "value": "Nouvelles tentatives",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_retries_cd_back": {
     "value": "Retour",
     "_human": true
@@ -4885,10 +4933,26 @@
     "value": "Tentatives max",
     "_human": true
   },
-  "settings_retries_owner_info_footer": null,
-  "settings_retries_owner_info_header": null,
-  "settings_retries_region_discovery_footer": null,
-  "settings_retries_region_discovery_header": null,
+  "settings_retries_owner_info_footer": {
+    "value": "Combien de fois l'application renvoie une requête d'informations sur le propriétaire en l'absence de réponse, et quel est le délai d'attente entre chaque tentative ? Par défaut : 1 nouvelle tentative, avec un intervalle de 8 secondes. Une seule tentative suffit généralement : la requête est adressée à un répéteur spécifique, la qualité de la liaison est donc prévisible.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_owner_info_header": {
+    "value": "Informations sur le propriétaire",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_region_discovery_footer": {
+    "value": "Combien de fois l'application renvoie une requête de découverte de région en l'absence de réponse, et quel est le délai d'attente entre chaque tentative. Par défaut : 2 tentatives, intervalle de 8 s. Augmentez le nombre de tentatives sur les maillages bruyants ; augmentez l'intervalle sur les liaisons lentes ou encombrées.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_region_discovery_header": {
+    "value": "Découverte de la région",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_retries_title": {
     "value": "Tentatives & délais",
     "_human": true
