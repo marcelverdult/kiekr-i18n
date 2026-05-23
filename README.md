@@ -5,19 +5,27 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 
 ## Status
 
-| Language       | Code | Completion | Human | AI seeded | Manager     |
-|----------------|------|-----------:|------:|----------:|-------------|
-| English        | `en` |       100% |  1298 |         0 | kiekr-team  |
-| Deutsch        | `de` |       100% |  1298 |         0 | kiekr-team  |
-| Español        | `es` |       100% |  1282 |        16 | community   |
-| Français       | `fr` |       100% |  1282 |        16 | community   |
-| Nederlands     | `nl` |       100% |  1282 |        16 | community   |
-| Italiano       | `it` |      99.9% |     0 |      1297 | community   |
+<!-- status:begin -->
+
+| Language       | Code | Completion | Human | AI seeded | Manager    |
+|----------------|------|-----------:|------:|----------:|------------|
+| English        | `en` |       100% |  1298 |         0 | kiekr-team |
+| Deutsch        | `de` |       100% |  1298 |         0 | kiekr-team |
+| Español        | `es` |       100% |  1282 |        16 | community  |
+| Français       | `fr` |       100% |  1282 |        16 | community  |
+| Nederlands     | `nl` |       100% |  1282 |        16 | community  |
+| Italiano       | `it` |      99.9% |     0 |      1297 | community  |
+
+<!-- status:end -->
 
 "AI seeded" rows are flagged `_ai: true` in the locale JSON — they
 were machine-translated by DeepL and await human review. Flip to
 `_human: true` (or replace the entry with a plain string) once a
 native speaker has approved.
+
+The table is regenerated automatically by
+[`tools/update_readme.py`](tools/update_readme.py) on every push that
+touches `locales/` — do not edit it by hand.
 
 ## What this repo is
 
