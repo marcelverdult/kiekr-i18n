@@ -1665,14 +1665,46 @@
     "value": "Hecho",
     "_human": true
   },
-  "nodes_admin_error_build": null,
-  "nodes_admin_error_contact_missing": null,
-  "nodes_admin_error_crypto": null,
-  "nodes_admin_error_dialect_mismatch": null,
-  "nodes_admin_error_generic": null,
-  "nodes_admin_error_not_ready": null,
-  "nodes_admin_error_seed_sign": null,
-  "nodes_admin_error_storage": null,
+  "nodes_admin_error_build": {
+    "value": "No se ha podido procesar la solicitud. Inténtalo de nuevo.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_contact_missing": {
+    "value": "No se ha encontrado el contacto del repetidor.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_crypto": {
+    "value": "Error de cifrado. Inicia sesión de nuevo o vuelve a intentarlo.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_dialect_mismatch": {
+    "value": "Esta acción aún no es compatible con este repetidor.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_generic": {
+    "value": "Ha ocurrido un error. Inténtalo de nuevo.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_not_ready": {
+    "value": "El dispositivo aún se está sincronizando; inténtalo de nuevo dentro de un momento.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_seed_sign": {
+    "value": "No se ha podido firmar la solicitud de telemetría. Intenta volver a iniciar sesión o vuelve a intentarlo.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "nodes_admin_error_storage": {
+    "value": "Error de almacenamiento local. Inténtalo de nuevo.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_admin_firmware_label": {
     "value": "Firmware",
     "_human": true
@@ -2001,7 +2033,11 @@
     "value": "No se han notificado vecinos",
     "_human": true
   },
-  "nodes_detail_no_owner_info": null,
+  "nodes_detail_no_owner_info": {
+    "value": "Aún no se ha recuperado la información del propietario",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_detail_no_region": {
     "value": "Ninguno",
     "_human": true
@@ -2010,7 +2046,11 @@
     "value": "Aún no se han descubierto regiones",
     "_human": true
   },
-  "nodes_detail_owner_section": null,
+  "nodes_detail_owner_section": {
+    "value": "Propietario",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_detail_path_bytes": {
     "value": "%1$d B",
     "_human": true
@@ -4843,8 +4883,16 @@
     "value": "Mostrar",
     "_human": true
   },
-  "settings_retries_anon_interval_label": null,
-  "settings_retries_anon_retries_label": null,
+  "settings_retries_anon_interval_label": {
+    "value": "Intervalo entre reintentos (s)",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_anon_retries_label": {
+    "value": "Reintentos",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_retries_cd_back": {
     "value": "Atrás",
     "_human": true
@@ -4885,10 +4933,26 @@
     "value": "Reintentos máx.",
     "_human": true
   },
-  "settings_retries_owner_info_footer": null,
-  "settings_retries_owner_info_header": null,
-  "settings_retries_region_discovery_footer": null,
-  "settings_retries_region_discovery_header": null,
+  "settings_retries_owner_info_footer": {
+    "value": "¿Cuántas veces reenvía la aplicación una solicitud de información del propietario si no recibe respuesta, y cuánto tiempo espera entre cada intento? Por defecto, un intento y un intervalo de 8 segundos. Normalmente basta con un intento: la solicitud se envía a un repetidor concreto, por lo que la calidad de la conexión es predecible.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_owner_info_header": {
+    "value": "Datos del propietario",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_region_discovery_footer": {
+    "value": "¿Cuántas veces reenvía la aplicación una solicitud de detección de región si no recibe respuesta, y cuánto tiempo espera entre cada intento? Por defecto, 2 reintentos con un intervalo de 8 segundos. Aumenta el número de reintentos en mallas con interferencias; aumenta el intervalo en enlaces lentos o congestionados.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "settings_retries_region_discovery_header": {
+    "value": "Descubrimiento de la región",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_retries_title": {
     "value": "Reintentos y tiempos de espera",
     "_human": true
