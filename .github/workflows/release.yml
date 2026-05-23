@@ -1,0 +1,44 @@
+name: release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+
+permissions:
+  contents: write
+
+jobs:
+  tag-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - id: meta
+        run: |
+          DATE=$(date -u +%Y.%m.%d)
+          SHA=$(git rev-parse --short HEAD)
+          TAG="v${DATE}-${SHA}"
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+
+      - name: Package locales
+        run: |
+          tar -C . -czf kiekr-i18n.tar.gz locales/
+          sha256sum kiekr-i18n.tar.gz > kiekr-i18n.tar.gz.sha256
+          cat kiekr-i18n.tar.gz.sha256
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.tag }}
+          body: |
+            Auto-cut translation snapshot. KiekR app release builds
+            fetch the latest tag from this workflow.
+          files: |
+            kiekr-i18n.tar.gz
+            kiekr-i18n.tar.gz.sha256
+          fail_on_unmatched_files: true

@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KiekR locale file",
+  "type": "object",
+  "required": ["_meta"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["language"],
+      "properties": {
+        "language":   { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$" },
+        "name":       { "type": "string" },
+        "managed_by": { "type": "string", "enum": ["kiekr-team", "community"] },
+        "updated":    { "type": "string", "format": "date" },
+        "completion": { "type": "number", "minimum": 0, "maximum": 1 },
+        "notes":      { "type": "object", "additionalProperties": { "type": "string" } }
+      },
+      "additionalProperties": false
+    }
+  },
+  "patternProperties": {
+    "^[a-z][a-z0-9_]*$": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "value":   { "type": "string" },
+            "_ai":     { "type": "boolean" },
+            "_human":  { "type": "boolean" },
+            "_seeded": { "type": "string", "format": "date" },
+            "plural":  {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["other"],
+              "properties": {
+                "zero":  { "type": "string" },
+                "one":   { "type": "string" },
+                "two":   { "type": "string" },
+                "few":   { "type": "string" },
+                "many":  { "type": "string" },
+                "other": { "type": "string" }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}

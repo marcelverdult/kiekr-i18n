@@ -1,0 +1,190 @@
+#!/usr/bin/env python3
+"""Seed missing translations in non-source locales using DeepL.
+
+For each locale other than en/de:
+  - find every key whose value is None (after sync_keys.py)
+  - translate from en.json using DeepL with the per-language glossary
+  - write back as { "value": "...", "_ai": true, "_seeded": "<today>" }
+
+Requires:
+  pip install deepl
+  env: DEEPL_API_KEY
+
+Plurals: each category translated independently.
+Placeholders: DeepL preserves %1$s / %@ via XML-tag handling.
+"""
+
+from __future__ import annotations
+
+import csv
+import json
+import os
+import re
+import sys
+from datetime import date
+from pathlib import Path
+
+try:
+    import deepl
+except ImportError:
+    print("ERROR: deepl not installed; run `pip install deepl`", file=sys.stderr)
+    sys.exit(1)
+
+
+ROOT = Path(__file__).resolve().parent.parent
+LOCALES_DIR = ROOT / "locales"
+GLOSSARY_DIR = ROOT / "glossary"
+SOURCE_FILE = LOCALES_DIR / "en.json"
+OWNED = {"en.json", "de.json"}
+TODAY = date.today().isoformat()
+
+PLACEHOLDER_RE = re.compile(r"(%\d+\$[sd]|%[sd@]|%(?:\.\d+)?[fld]+|#)")
+
+
+def load(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def dump(path: Path, data: dict) -> None:
+    path.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False, sort_keys=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+def protect(text: str) -> tuple[str, list[str]]:
+    """Wrap placeholders in <x>…</x> so DeepL leaves them alone."""
+    parts = []
+    def sub(m):
+        parts.append(m.group(0))
+        return f"<x>{len(parts) - 1}</x>"
+    protected = PLACEHOLDER_RE.sub(sub, text)
+    return protected, parts
+
+
+def restore(text: str, parts: list[str]) -> str:
+    def sub(m):
+        return parts[int(m.group(1))]
+    return re.sub(r"<x>(\d+)</x>", sub, text)
+
+
+def load_glossary_tsv(path: Path) -> list[tuple[str, str]]:
+    if not path.exists():
+        return []
+    rows = []
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip("\n")
+            if not line or "\t" not in line:
+                continue
+            en, tr = line.split("\t", 1)
+            rows.append((en.strip(), tr.strip()))
+    return rows
+
+
+def translate_string(
+    translator: deepl.Translator,
+    text: str,
+    target_lang: str,
+    glossary_id: str | None,
+) -> str:
+    protected, parts = protect(text)
+    result = translator.translate_text(
+        protected,
+        source_lang="EN",
+        target_lang=target_lang,
+        glossary=glossary_id,
+        tag_handling="xml",
+        ignore_tags=["x"],
+    )
+    return restore(result.text, parts)
+
+
+def needs_translation(entry) -> bool:
+    if entry is None:
+        return True
+    if isinstance(entry, dict):
+        if "_ai" in entry and not entry.get("_human"):
+            return False  # already AI-seeded; let humans take it
+        if "value" in entry:
+            return False
+        if "plural" in entry:
+            return False  # plurals seeded by separate pass
+    return False
+
+
+def en_value(entry) -> str | None:
+    if isinstance(entry, str):
+        return entry
+    if isinstance(entry, dict):
+        return entry.get("value")
+    return None
+
+
+def main() -> int:
+    api_key = os.environ.get("DEEPL_API_KEY")
+    if not api_key:
+        print("ERROR: DEEPL_API_KEY not set", file=sys.stderr)
+        return 1
+
+    translator = deepl.Translator(api_key)
+    en = load(SOURCE_FILE)
+
+    deepl_target_codes = {"es": "ES", "fr": "FR", "nl": "NL"}
+
+    for path in sorted(LOCALES_DIR.glob("*.json")):
+        if path.name in OWNED:
+            continue
+        lang = path.stem
+        target = deepl_target_codes.get(lang)
+        if not target:
+            print(f"skip {lang}: no DeepL target code mapped")
+            continue
+
+        # build or fetch glossary for this language
+        glossary_id = None
+        tsv = load_glossary_tsv(GLOSSARY_DIR / f"{lang}.tsv")
+        if tsv:
+            g = translator.create_glossary(
+                name=f"kiekr-{lang}-{TODAY}",
+                source_lang="EN",
+                target_lang=target,
+                entries={src: tr for src, tr in tsv},
+            )
+            glossary_id = g.glossary_id
+
+        data = load(path)
+        seeded = 0
+        for k, v in en.items():
+            if k == "_meta":
+                continue
+            if k not in data:
+                continue
+            if not needs_translation(data[k]):
+                continue
+            src = en_value(v)
+            if src is None:
+                continue
+            try:
+                tr = translate_string(translator, src, target, glossary_id)
+            except Exception as e:
+                print(f"  {k}: DeepL error: {e}", file=sys.stderr)
+                continue
+            data[k] = {"value": tr, "_ai": True, "_seeded": TODAY}
+            seeded += 1
+
+        if seeded:
+            data.setdefault("_meta", {"language": lang})["updated"] = TODAY
+            dump(path, data)
+            print(f"{lang}: seeded {seeded} keys")
+        else:
+            print(f"{lang}: nothing to seed")
+
+        if glossary_id:
+            translator.delete_glossary(glossary_id)
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

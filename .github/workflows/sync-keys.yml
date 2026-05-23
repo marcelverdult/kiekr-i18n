@@ -1,0 +1,35 @@
+name: sync-keys
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/en.json'
+      - 'locales/de.json'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/sync_keys.py
+      - name: Open PR if changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/sync-keys
+          delete-branch: true
+          title: "chore(sync): align community locales to en.json keyset"
+          commit-message: "chore(sync): align community locales to en.json keyset"
+          body: |
+            Automated alignment of community locale files to the
+            current `en.json` keyset. New keys land as `null`;
+            removed keys are dropped.
+          labels: bot, sync

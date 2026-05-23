@@ -1,0 +1,47 @@
+name: seed-translations
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/en.json'
+      - 'locales/de.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install deepl
+      - run: python tools/seed.py
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+      - name: Open PR with AI seeds
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/ai-seed
+          delete-branch: true
+          title: "chore(seed): DeepL translations for new/missing keys"
+          commit-message: "chore(seed): DeepL translations for new/missing keys"
+          body: |
+            Machine-translated seeds for keys that were `null` in
+            community locale files. Each value is flagged
+            `_ai: true` until a human translator reviews it.
+
+            Review tips:
+              - Skim for placeholder integrity (`%1$s`, `%@`).
+              - Check glossary terms — these went through the
+                `glossary/<lang>.tsv` so consistent terminology
+                should be preserved.
+              - Flip `_ai: true` to `_human: true` (or replace the
+                whole object with a plain string) on approval.
+          labels: bot, ai-seed
