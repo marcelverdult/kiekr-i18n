@@ -950,8 +950,16 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "map_legend_aged": null,
-  "map_legend_fresh": null,
+  "map_legend_aged": {
+    "value": "< 30 giorni",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
+  "map_legend_fresh": {
+    "value": "< 7 giorni",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "map_legend_stale": {
     "value": "più vecchio",
     "_ai": true,
@@ -1122,7 +1130,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "map_snr_edge_label": null,
+  "map_snr_edge_label": {
+    "value": "< %1$.0f dB",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "map_snr_legend_title": {
     "value": "SNR",
     "_ai": true,
@@ -1428,7 +1440,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "mynode_lora_preset_and_region": null,
+  "mynode_lora_preset_and_region": {
+    "value": "Impostazioni predefinite e regione",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "mynode_lora_radio_row_title": {
     "value": "Radio LoRa",
     "_ai": true,
@@ -2964,7 +2980,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "nodes_manage_regions_discard_and_leave": null,
+  "nodes_manage_regions_discard_and_leave": {
+    "value": "Elimina e esci",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "nodes_manage_regions_err_login_rejected": {
     "value": "Accesso amministratore rifiutato. Reinserire la password.",
     "_ai": true,
@@ -4450,7 +4470,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_channel_detail_notify_mention_fallback": null,
+  "settings_channel_detail_notify_mention_fallback": {
+    "value": "<il tuo nome>",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_channel_detail_notify_mentions": {
     "value": "Riferimenti",
     "_ai": true,
@@ -5446,7 +5470,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_help_title": null,
+  "settings_help_title": {
+    "value": "Aiuto e assistenza",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_home_entry_autoadd": {
     "value": "Aggiungi automaticamente",
     "_ai": true,
@@ -5487,13 +5515,21 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_home_entry_help": null,
+  "settings_home_entry_help": {
+    "value": "Aiuto e assistenza",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_home_entry_notifications": {
     "value": "Notifiche",
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_home_entry_paths_lookup": null,
+  "settings_home_entry_paths_lookup": {
+    "value": "Percorsi e ricerca",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_home_entry_regions": {
     "value": "Regioni",
     "_ai": true,
@@ -5504,13 +5540,21 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_home_entry_retries_timeouts": null,
+  "settings_home_entry_retries_timeouts": {
+    "value": "Nuovi tentativi e timeout",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_home_entry_stats": {
     "value": "Statistiche",
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_home_group_alerts_power": null,
+  "settings_home_group_alerts_power": {
+    "value": "Avvisi e alimentazione",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_home_group_app": {
     "value": "App",
     "_ai": true,
@@ -5626,7 +5670,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_notifications_per_channel_footer": null,
+  "settings_notifications_per_channel_footer": {
+    "value": "Ogni canale dispone delle proprie impostazioni \"tutti\", \"menzioni\" e \"disattivato\". Le menzioni corrispondono a `@<IL_TUO_NOME>` nel testo in chiaro decriptato.",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_notifications_per_channel_header": {
     "value": "Per canale",
     "_ai": true,
@@ -5732,7 +5780,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_pathlookup_title": null,
+  "settings_pathlookup_title": {
+    "value": "Percorsi e ricerca",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_region_discovery_add": {
     "value": "Aggiungi",
     "_ai": true,
@@ -6118,7 +6170,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_retries_title": null,
+  "settings_retries_title": {
+    "value": "Nuovi tentativi e timeout",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_stats_adverts_heard": {
     "value": "Annunci ascoltati",
     "_ai": true,
@@ -6174,7 +6230,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_tools_autostart_title": null,
+  "settings_tools_autostart_title": {
+    "value": "Avvio automatico e limiti in background",
+    "_ai": true,
+    "_seeded": "2026-05-23"
+  },
   "settings_tools_background_footer": {
     "value": "Android sospende le connessioni di rete delle app quando lo schermo è spento. Escludi KiekR dall'ottimizzazione della batteria — e dai limiti di avvio automatico imposti dal produttore del tuo telefono — in modo che il collegamento di accompagnamento rimanga attivo in background.",
     "_ai": true,
