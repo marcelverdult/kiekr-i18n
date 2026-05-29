@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: read
-  actions: write
 
 jobs:
   check:
@@ -25,18 +24,3 @@ jobs:
       - run: pip install jsonschema
       - run: python tools/validate.py
       - run: python tools/safety_check.py
-
-      - name: Prune prior runs of this workflow
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-          WF: ${{ github.workflow }}
-          CURRENT: ${{ github.run_id }}
-        run: |
-          gh run list --repo "$REPO" --workflow "$WF" \
-            --limit 100 --json databaseId \
-            --jq ".[] | select(.databaseId != $CURRENT) | .databaseId" |
-            while read -r id; do
-              [ -n "$id" ] && gh run delete --repo "$REPO" "$id" || true
-            done
