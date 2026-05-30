@@ -2318,7 +2318,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "nodes_detail_acl_footer": null,
+  "nodes_detail_acl_footer": {
+    "value": "Zalogowanie się powoduje dodanie tego modułu do listy ACL przekaźnika, dzięki czemu działają funkcje wykrywania ścieżek, wykrywania sąsiadów i telemetrii. Pozostaw pole hasła puste, aby zalogować się jako gość lub ponownie przypisać istniejący wpis ACL, albo wprowadź hasło administratora lub gościa, aby uzyskać szerszy dostęp.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_add_to_favorites": {
     "value": "Dodaj do ulubionych",
     "_ai": true,
@@ -2434,8 +2438,16 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "nodes_detail_login_hint_empty": null,
-  "nodes_detail_login_hint_non_empty": null,
+  "nodes_detail_login_hint_empty": {
+    "value": "Pozostaw puste, aby spróbować uzyskać dostęp jako gość lub ponownie połączyć się, jeśli Twój klucz znajduje się już na liście dostępu tego przekaźnika.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
+  "nodes_detail_login_hint_non_empty": {
+    "value": "Zapisywane po pomyślnym zalogowaniu.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_login_hint_overlength": {
     "value": "Hasło do przekaźnika może mieć maksymalnie 15 znaków — wszystko, co jest dłuższe, zostanie skrócone podczas logowania.",
     "_ai": true,

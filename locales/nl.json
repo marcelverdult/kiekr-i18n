@@ -3,7 +3,7 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-05-29"
+    "updated": "2026-05-30"
   },
   "app_upgrade_body": {
     "value": "Heropen de app om het laden van de nieuwe versie te voltooien.",
@@ -1865,7 +1865,11 @@
     "value": "Node volledig verwijderen?",
     "_human": true
   },
-  "nodes_detail_acl_footer": null,
+  "nodes_detail_acl_footer": {
+    "value": "Als u inlogt, wordt deze connector toegevoegd aan de ACL van de repeater, zodat paddetectie, buren en telemetrie werken. Laat het wachtwoord leeg om als gast in te loggen of een bestaande ACL-vermelding opnieuw te koppelen, of voer het admin- of gastwachtwoord in voor meer toegangsrechten.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_add_to_favorites": {
     "value": "Aan favorieten toevoegen",
     "_human": true
@@ -1958,8 +1962,16 @@
     "value": "Ingelogd (%1$s)",
     "_human": true
   },
-  "nodes_detail_login_hint_empty": null,
-  "nodes_detail_login_hint_non_empty": null,
+  "nodes_detail_login_hint_empty": {
+    "value": "Laat dit veld leeg om toegang als gast te verkrijgen, of om opnieuw verbinding te maken als uw sleutel al in de toegangslijst van deze repeater staat.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
+  "nodes_detail_login_hint_non_empty": {
+    "value": "Wordt opgeslagen na een succesvolle aanmelding.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_login_hint_overlength": {
     "value": "Een repeater-wachtwoord is beperkt tot 15 tekens — alles daarboven wordt afgekapt bij het inloggen.",
     "_human": true

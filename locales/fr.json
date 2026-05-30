@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-05-29"
+    "updated": "2026-05-30"
   },
   "app_upgrade_body": {
     "value": "Rouvrez l'app pour terminer le chargement de la nouvelle version.",
@@ -1865,7 +1865,11 @@
     "value": "Supprimer entièrement le nœud ?",
     "_human": true
   },
-  "nodes_detail_acl_footer": null,
+  "nodes_detail_acl_footer": {
+    "value": "La connexion ajoute ce connecteur à la liste ACL du répéteur afin que la découverte de chemin, la gestion des voisins et la télémétrie fonctionnent correctement. Laissez le champ « Mot de passe » vide pour vous connecter en tant qu'invité ou pour réassocier une entrée ACL existante, ou saisissez le mot de passe « admin » ou « guest » pour bénéficier d'un accès plus étendu.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_add_to_favorites": {
     "value": "Ajouter aux favoris",
     "_human": true
@@ -1958,8 +1962,16 @@
     "value": "Connecté (%1$s)",
     "_human": true
   },
-  "nodes_detail_login_hint_empty": null,
-  "nodes_detail_login_hint_non_empty": null,
+  "nodes_detail_login_hint_empty": {
+    "value": "Laissez ce champ vide pour tenter un accès en tant qu'invité, ou pour vous reconnecter si votre clé figure déjà dans la liste d'accès de ce répéteur.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
+  "nodes_detail_login_hint_non_empty": {
+    "value": "Enregistré après une connexion réussie.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_login_hint_overlength": {
     "value": "Le mot de passe d’un répéteur est limité à 15 caractères — tout dépassement est tronqué à la connexion.",
     "_human": true
