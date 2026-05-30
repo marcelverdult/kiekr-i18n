@@ -2320,7 +2320,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "nodes_detail_acl_footer": null,
+  "nodes_detail_acl_footer": {
+    "value": "Ao fazer login, este conector é adicionado à ACL do repetidor para que a descoberta de caminhos, os vizinhos e a telemetria funcionem. Deixe o campo de senha em branco para fazer login como convidado ou para vincular novamente uma entrada existente na ACL, ou digite a senha de administrador ou de convidado para obter mais acesso.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_add_to_favorites": {
     "value": "Adicionar aos favoritos",
     "_ai": true,
@@ -2436,8 +2440,16 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "nodes_detail_login_hint_empty": null,
-  "nodes_detail_login_hint_non_empty": null,
+  "nodes_detail_login_hint_empty": {
+    "value": "Deixe em branco para tentar o acesso como convidado ou para se reconectar caso sua chave já esteja na lista de acesso deste repetidor.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
+  "nodes_detail_login_hint_non_empty": {
+    "value": "Armazenado após um login bem-sucedido.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_login_hint_overlength": {
     "value": "A senha do repetidor está limitada a 15 caracteres — qualquer texto mais longo será cortado no momento do login.",
     "_ai": true,

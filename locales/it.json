@@ -1857,7 +1857,11 @@
     "value": "Eliminare completamente il nodo?",
     "_human": true
   },
-  "nodes_detail_acl_footer": null,
+  "nodes_detail_acl_footer": {
+    "value": "Effettuando l'accesso, questo connettore viene aggiunto all'ACL del ripetitore, consentendo il corretto funzionamento delle funzioni di individuazione del percorso, dei vicini e della telemetria. Lasciare il campo della password vuoto per accedere come ospite o per riassociare una voce ACL esistente, oppure inserire la password di amministratore o ospite per ottenere maggiori privilegi di accesso.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_add_to_favorites": {
     "value": "Aggiungi ai preferiti",
     "_human": true
@@ -1950,8 +1954,16 @@
     "value": "Hai effettuato l'accesso (%1$s)",
     "_human": true
   },
-  "nodes_detail_login_hint_empty": null,
-  "nodes_detail_login_hint_non_empty": null,
+  "nodes_detail_login_hint_empty": {
+    "value": "Lasciare vuoto per tentare l'accesso come ospite o per ricollegarsi se la tua chiave è già presente nell'elenco degli accessi di questo ripetitore.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
+  "nodes_detail_login_hint_non_empty": {
+    "value": "Viene salvato dopo aver effettuato correttamente l'accesso.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_login_hint_overlength": {
     "value": "La password del ripetitore non può superare i 15 caratteri: se è più lunga, verrà troncata al momento dell'accesso.",
     "_human": true

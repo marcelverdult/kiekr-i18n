@@ -3,7 +3,7 @@
     "language": "es",
     "name": "Español",
     "managed_by": "community",
-    "updated": "2026-05-29"
+    "updated": "2026-05-30"
   },
   "app_upgrade_body": {
     "value": "Vuelve a abrir la app para terminar de cargar la nueva versión.",
@@ -1865,7 +1865,11 @@
     "value": "¿Eliminar el nodo por completo?",
     "_human": true
   },
-  "nodes_detail_acl_footer": null,
+  "nodes_detail_acl_footer": {
+    "value": "Al iniciar sesión, se añade este conector a la lista de control de acceso (ACL) del repetidor para que funcionen la detección de rutas, los vecinos y la telemetría. Deja el campo de contraseña en blanco para iniciar sesión como invitado o volver a vincular una entrada de ACL existente, o introduce la contraseña de administrador o de invitado para obtener más permisos de acceso.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_add_to_favorites": {
     "value": "Añadir a favoritos",
     "_human": true
@@ -1958,8 +1962,16 @@
     "value": "Sesión iniciada (%1$s)",
     "_human": true
   },
-  "nodes_detail_login_hint_empty": null,
-  "nodes_detail_login_hint_non_empty": null,
+  "nodes_detail_login_hint_empty": {
+    "value": "Dé este campo en blanco para intentar el acceso como invitado, o para volver a conectarse si su clave ya figura en la lista de acceso de este repetidor.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
+  "nodes_detail_login_hint_non_empty": {
+    "value": "Se guarda tras iniciar sesión correctamente.",
+    "_ai": true,
+    "_seeded": "2026-05-30"
+  },
   "nodes_detail_login_hint_overlength": {
     "value": "La contraseña de un repetidor está limitada a 15 caracteres; lo que exceda se recorta al iniciar sesión.",
     "_human": true
