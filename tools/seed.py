@@ -229,6 +229,14 @@ def main() -> int:
                       f"{_sanitize(str(e), SECRET)}", file=sys.stderr)
                 continue
             for k, tr in zip(keys, translations):
+                # Hard invariant: we only ever fill `null`. If the entry
+                # somehow holds a real value here, abort rather than
+                # overwrite human / already-reviewed text.
+                if data[k] is not None:
+                    raise RuntimeError(
+                        f"refusing to overwrite non-null entry {k!r} "
+                        f"in {path.name} (value: {data[k]!r})"
+                    )
                 data[k] = {"value": tr, "_ai": True, "_seeded": TODAY}
                 seeded += 1
 

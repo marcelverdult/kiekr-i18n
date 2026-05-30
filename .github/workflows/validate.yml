@@ -6,6 +6,7 @@ on:
       - 'locales/**'
       - 'schema/**'
       - 'tools/validate.py'
+      - 'tools/check_human_protection.py'
       - '.github/workflows/validate.yml'
 
 permissions:
@@ -18,9 +19,17 @@ jobs:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
+          fetch-depth: 0          # need base history for the bot-PR guard
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - run: pip install jsonschema
       - run: python tools/validate.py
       - run: python tools/safety_check.py
+      - name: Protect human text on bot PRs
+        if: startsWith(github.head_ref, 'bot/')
+        env:
+          BASE_REF: origin/${{ github.base_ref }}
+        run: |
+          git fetch --no-tags origin "${{ github.base_ref }}"
+          python tools/check_human_protection.py
