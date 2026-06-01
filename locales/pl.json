@@ -6487,70 +6487,334 @@
     "_ai": true,
     "_seeded": "2026-05-30"
   },
-  "nodes_detail_info_section": null,
-  "nodes_detail_position_label": null,
-  "nodes_detail_tools_section": null,
-  "nodes_detail_rate_limited": null,
-  "nodes_detail_cd_refresh_owner": null,
-  "nodes_admin_reboot_repeater": null,
-  "nodes_admin_reboot_title": null,
-  "nodes_admin_reboot_body": null,
-  "nodes_admin_reboot_confirm": null,
-  "nodes_admin_reboot_cancel": null,
-  "nodes_admin_reboot_sent": null,
-  "nodes_detail_refresh_session": null,
-  "nodes_admin_forget_password": null,
-  "nodes_admin_advert": null,
-  "nodes_detail_needs_login": null,
-  "nodes_detail_needs_login_footer": null,
-  "nodes_detail_lock_stats": null,
-  "nodes_detail_lock_neighbours": null,
-  "nodes_detail_lock_telemetry": null,
-  "nodes_detail_lock_admin": null,
-  "nodes_admin_rename_title": null,
-  "nodes_admin_rename_field": null,
-  "nodes_admin_rename_confirm": null,
-  "nodes_admin_clkreboot_action": null,
-  "nodes_admin_clkreboot_title": null,
-  "nodes_admin_clkreboot_body": null,
-  "nodes_admin_clkreboot_sent": null,
-  "nodes_admin_position_title": null,
-  "nodes_admin_position_lat": null,
-  "nodes_admin_position_lon": null,
-  "nodes_admin_position_hint": null,
-  "nodes_admin_position_save": null,
-  "nodes_detail_cd_edit_position": null,
-  "repeater_cli_version": null,
-  "repeater_cli_advert": null,
-  "repeater_cli_clock_sync": null,
-  "repeater_cli_clock": null,
-  "repeater_cli_role": null,
-  "repeater_cli_get_radio": null,
-  "repeater_cli_get_tx": null,
-  "repeater_cli_get_name": null,
-  "repeater_cli_public_key": null,
-  "repeater_cli_get_owner": null,
-  "repeater_cli_neighbours": null,
-  "repeater_cli_clear_stats": null,
-  "repeater_cli_password": null,
-  "repeater_cli_start_ota": null,
-  "repeater_cli_reboot": null,
-  "repeater_cli_poweroff": null,
-  "repeater_cli_group_actions": null,
-  "repeater_cli_group_read": null,
-  "repeater_cli_group_radio": null,
-  "repeater_cli_group_node": null,
-  "repeater_cli_group_forwarding": null,
-  "repeater_cli_group_danger": null,
-  "nodes_cli_confirm_title": null,
-  "nodes_cli_confirm_reboot": null,
-  "nodes_cli_confirm_poweroff": null,
-  "nodes_cli_confirm_ota": null,
-  "nodes_cli_confirm_clear_stats": null,
-  "nodes_cli_confirm_generic": null,
-  "nodes_manual_picker_no_saved": null,
-  "nodes_manual_picker_no_matches_short": null,
-  "nodes_manual_picker_empty_desc": null,
-  "nodes_admin_channel_cat_environment": null,
-  "nodes_admin_channel_cat_power": null
+  "nodes_detail_info_section": {
+    "value": "Informacje",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_position_label": {
+    "value": "Stanowisko",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_tools_section": {
+    "value": "Narzędzia",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_rate_limited": {
+    "value": "Ograniczona częstotliwość — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Odśwież informacje o właścicielu",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Ponowne uruchomienie przekaźnika",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Zrestartować przekaźnik?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Przekaźnik uruchamia się ponownie i na krótko traci połączenie z siatką. Nie wysyła potwierdzenia.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Ponowne uruchomienie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Anuluj",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Wysłano polecenie ponownego uruchomienia.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Odśwież sesję",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_forget_password": {
+    "value": "Nie pamiętam hasła",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_advert": {
+    "value": "Ogłoszenie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login": {
+    "value": "Wymagane jest zalogowanie się",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Zaloguj się (jako gość), aby uzyskać dostęp do statystyk, sąsiadów, danych telemetrycznych i firmware’u · zaloguj się jako administrator, aby uzyskać dostęp do konfiguracji i interfejsu CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Statystyki i sygnał",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Sąsiedzi",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Telemetria i firmware",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Administrator: edycja, regiony, interfejs wiersza poleceń, ponowne uruchomienie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Zmień nazwę przekaźnika",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Nazwa węzła",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Zmień nazwę",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Zresetuj zegar i uruchom ponownie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Zresetować zegar i uruchomić komputer od nowa?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Przywraca zegar przekaźnika do wartości domyślnej (15.05.2024) i uruchamia go ponownie, a następnie należy kliknąć ikonę synchronizacji, aby zsynchronizować aktualny czas. Po ponownym uruchomieniu nie pojawia się żadne potwierdzenie.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Wysłano sygnał resetowania zegara i ponownego uruchomienia.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_title": {
+    "value": "Ustaw pozycję",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Szerokość geograficzna",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Długość geograficzna",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_hint": {
+    "value": "Ustawia pozycję nadawaną przez przekaźnik. Należy wprowadzić wartości w stopniach dziesiętnych; w przyszłości planowane jest dodanie narzędzia do wyboru lokalizacji na mapie.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_save": {
+    "value": "Zapisz",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_edit_position": {
+    "value": "Edytuj pozycję",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_version": {
+    "value": "Wersja",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_advert": {
+    "value": "Ogłoszenie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Synchronizacja zegara",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock": {
+    "value": "Zegar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_role": {
+    "value": "Rola",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_tx": {
+    "value": "Moc TX",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_name": {
+    "value": "Imię",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_public_key": {
+    "value": "Klucz publiczny",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Informacje o właścicielu",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Sąsiedzi",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Wyczyść statystyki",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_password": {
+    "value": "Hasło",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Rozpocznij aktualizację OTA",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_reboot": {
+    "value": "Ponowne uruchomienie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Wyłącz zasilanie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Działania",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_read": {
+    "value": "Przeczytaj",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_node": {
+    "value": "Węzeł",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Przekazywanie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Strefa zagrożenia",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Uruchomić „%1$s”?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Podczas ponownego uruchamiania przekaźnik odłącza się od siatki. Nie wysyła żadnej odpowiedzi.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Przekaźnik wyłącza się i nie wraca do działania, dopóki nie zostanie fizycznie zrestartowany. Nie wysyła żadnej odpowiedzi.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Przełącza przekaźnik w tryb aktualizacji firmware'u.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Resetuje liczniki ruchu przekaźnika do zera.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Tej czynności nie można cofnąć.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Brak zapisanych przekaźników",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Brak wyników",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_empty_desc": {
+    "value": "W tym miejscu wyświetlane są przekaźniki i serwery pokojowe zapisane jako kontakty.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_environment": {
+    "value": "otoczenie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "moc",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  }
 }

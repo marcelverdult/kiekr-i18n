@@ -5208,70 +5208,334 @@
     "_ai": true,
     "_seeded": "2026-05-30"
   },
-  "nodes_detail_info_section": null,
-  "nodes_detail_position_label": null,
-  "nodes_detail_tools_section": null,
-  "nodes_detail_rate_limited": null,
-  "nodes_detail_cd_refresh_owner": null,
-  "nodes_admin_reboot_repeater": null,
-  "nodes_admin_reboot_title": null,
-  "nodes_admin_reboot_body": null,
-  "nodes_admin_reboot_confirm": null,
-  "nodes_admin_reboot_cancel": null,
-  "nodes_admin_reboot_sent": null,
-  "nodes_detail_refresh_session": null,
-  "nodes_admin_forget_password": null,
-  "nodes_admin_advert": null,
-  "nodes_detail_needs_login": null,
-  "nodes_detail_needs_login_footer": null,
-  "nodes_detail_lock_stats": null,
-  "nodes_detail_lock_neighbours": null,
-  "nodes_detail_lock_telemetry": null,
-  "nodes_detail_lock_admin": null,
-  "nodes_admin_rename_title": null,
-  "nodes_admin_rename_field": null,
-  "nodes_admin_rename_confirm": null,
-  "nodes_admin_clkreboot_action": null,
-  "nodes_admin_clkreboot_title": null,
-  "nodes_admin_clkreboot_body": null,
-  "nodes_admin_clkreboot_sent": null,
-  "nodes_admin_position_title": null,
-  "nodes_admin_position_lat": null,
-  "nodes_admin_position_lon": null,
-  "nodes_admin_position_hint": null,
-  "nodes_admin_position_save": null,
-  "nodes_detail_cd_edit_position": null,
-  "repeater_cli_version": null,
-  "repeater_cli_advert": null,
-  "repeater_cli_clock_sync": null,
-  "repeater_cli_clock": null,
-  "repeater_cli_role": null,
-  "repeater_cli_get_radio": null,
-  "repeater_cli_get_tx": null,
-  "repeater_cli_get_name": null,
-  "repeater_cli_public_key": null,
-  "repeater_cli_get_owner": null,
-  "repeater_cli_neighbours": null,
-  "repeater_cli_clear_stats": null,
-  "repeater_cli_password": null,
-  "repeater_cli_start_ota": null,
-  "repeater_cli_reboot": null,
-  "repeater_cli_poweroff": null,
-  "repeater_cli_group_actions": null,
-  "repeater_cli_group_read": null,
-  "repeater_cli_group_radio": null,
-  "repeater_cli_group_node": null,
-  "repeater_cli_group_forwarding": null,
-  "repeater_cli_group_danger": null,
-  "nodes_cli_confirm_title": null,
-  "nodes_cli_confirm_reboot": null,
-  "nodes_cli_confirm_poweroff": null,
-  "nodes_cli_confirm_ota": null,
-  "nodes_cli_confirm_clear_stats": null,
-  "nodes_cli_confirm_generic": null,
-  "nodes_manual_picker_no_saved": null,
-  "nodes_manual_picker_no_matches_short": null,
-  "nodes_manual_picker_empty_desc": null,
-  "nodes_admin_channel_cat_environment": null,
-  "nodes_admin_channel_cat_power": null
+  "nodes_detail_info_section": {
+    "value": "Informazioni",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_position_label": {
+    "value": "Posizione",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_tools_section": {
+    "value": "Strumenti",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_rate_limited": {
+    "value": "Limite di velocità — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Aggiorna le informazioni sul proprietario",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Riavvio del ripetitore",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Riavviare il ripetitore?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Il ripetitore si riavvia e si disconnette momentaneamente dalla rete mesh. Non invia alcuna conferma.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Riavvio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Annulla",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Comando di riavvio inviato.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Aggiorna sessione",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_forget_password": {
+    "value": "Hai dimenticato la password?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_advert": {
+    "value": "Annuncio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login": {
+    "value": "È necessario effettuare l'accesso",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Accedi (come ospite) per statistiche, vicini, telemetria e firmware · Accedi come amministratore per configurazione e CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Statistiche e segnale",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "I vicini",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Telemetria e firmware",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Amministratore: modifica, regioni, CLI, riavvio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Rinomina ripetitore",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Nome del nodo",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Rinomina",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Reimposta l'orologio e riavvia il sistema",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Azzerare l'orologio e riavviare il sistema?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Reimposta l'orologio del ripetitore su una data di riferimento (15/05/2024) e lo riavvia; quindi, tocca l'icona di sincronizzazione per applicare l'ora corrente. Il riavvio non invia alcuna conferma.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Reset dell'orologio e riavvio inviati.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_title": {
+    "value": "Imposta posizione",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Latitudine",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Longitudine",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_hint": {
+    "value": "Imposta la posizione segnalata dal ripetitore. Inserire i gradi decimali; è in programma l'aggiunta di uno strumento di selezione sulla mappa.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_save": {
+    "value": "Salva",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_edit_position": {
+    "value": "Modifica posizione",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_version": {
+    "value": "Versione",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_advert": {
+    "value": "Annuncio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Sincronizzazione dell'orologio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock": {
+    "value": "Orologio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_role": {
+    "value": "Ruolo",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX Power",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_name": {
+    "value": "Nome",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_public_key": {
+    "value": "Chiave pubblica",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Informazioni sul proprietario",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_neighbours": {
+    "value": "I vicini",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Cancella statistiche",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_password": {
+    "value": "Password",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Avvia l'aggiornamento OTA",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_reboot": {
+    "value": "Riavvio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Spegnere",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Azioni",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_read": {
+    "value": "Leggi",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Inoltro",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Zona di pericolo",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Vuoi provare \"%1$s\"?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Il ripetitore si disconnette dalla rete mesh durante il riavvio. Non viene inviata alcuna risposta.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Il ripetitore si spegne e non riprende a funzionare finché non viene riavviato manualmente. Non viene inviata alcuna risposta.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Imposta il ripetitore in modalità aggiornamento firmware.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Azzerano i contatori di traffico del ripetitore.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Questa operazione non può essere annullata.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Nessun ripetitore salvato",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Nessun risultato",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Qui vengono visualizzati i ripetitori e i server di sala che hai salvato come contatti.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_environment": {
+    "value": "ambiente",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "potenza",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  }
 }
