@@ -5224,70 +5224,334 @@
     "_ai": true,
     "_seeded": "2026-05-29"
   },
-  "nodes_detail_info_section": null,
-  "nodes_detail_position_label": null,
-  "nodes_detail_tools_section": null,
-  "nodes_detail_rate_limited": null,
-  "nodes_detail_cd_refresh_owner": null,
-  "nodes_admin_reboot_repeater": null,
-  "nodes_admin_reboot_title": null,
-  "nodes_admin_reboot_body": null,
-  "nodes_admin_reboot_confirm": null,
-  "nodes_admin_reboot_cancel": null,
-  "nodes_admin_reboot_sent": null,
-  "nodes_detail_refresh_session": null,
-  "nodes_admin_forget_password": null,
-  "nodes_admin_advert": null,
-  "nodes_detail_needs_login": null,
-  "nodes_detail_needs_login_footer": null,
-  "nodes_detail_lock_stats": null,
-  "nodes_detail_lock_neighbours": null,
-  "nodes_detail_lock_telemetry": null,
-  "nodes_detail_lock_admin": null,
-  "nodes_admin_rename_title": null,
-  "nodes_admin_rename_field": null,
-  "nodes_admin_rename_confirm": null,
-  "nodes_admin_clkreboot_action": null,
-  "nodes_admin_clkreboot_title": null,
-  "nodes_admin_clkreboot_body": null,
-  "nodes_admin_clkreboot_sent": null,
-  "nodes_admin_position_title": null,
-  "nodes_admin_position_lat": null,
-  "nodes_admin_position_lon": null,
-  "nodes_admin_position_hint": null,
-  "nodes_admin_position_save": null,
-  "nodes_detail_cd_edit_position": null,
-  "repeater_cli_version": null,
-  "repeater_cli_advert": null,
-  "repeater_cli_clock_sync": null,
-  "repeater_cli_clock": null,
-  "repeater_cli_role": null,
-  "repeater_cli_get_radio": null,
-  "repeater_cli_get_tx": null,
-  "repeater_cli_get_name": null,
-  "repeater_cli_public_key": null,
-  "repeater_cli_get_owner": null,
-  "repeater_cli_neighbours": null,
-  "repeater_cli_clear_stats": null,
-  "repeater_cli_password": null,
-  "repeater_cli_start_ota": null,
-  "repeater_cli_reboot": null,
-  "repeater_cli_poweroff": null,
-  "repeater_cli_group_actions": null,
-  "repeater_cli_group_read": null,
-  "repeater_cli_group_radio": null,
-  "repeater_cli_group_node": null,
-  "repeater_cli_group_forwarding": null,
-  "repeater_cli_group_danger": null,
-  "nodes_cli_confirm_title": null,
-  "nodes_cli_confirm_reboot": null,
-  "nodes_cli_confirm_poweroff": null,
-  "nodes_cli_confirm_ota": null,
-  "nodes_cli_confirm_clear_stats": null,
-  "nodes_cli_confirm_generic": null,
-  "nodes_manual_picker_no_saved": null,
-  "nodes_manual_picker_no_matches_short": null,
-  "nodes_manual_picker_empty_desc": null,
-  "nodes_admin_channel_cat_environment": null,
-  "nodes_admin_channel_cat_power": null
+  "nodes_detail_info_section": {
+    "value": "Informations",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_position_label": {
+    "value": "Poste",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_tools_section": {
+    "value": "Outils",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_rate_limited": {
+    "value": "Limitation de débit — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Actualiser les informations sur le propriétaire",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Redémarrer le répéteur",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Redémarrer le répéteur ?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Le répéteur redémarre et se déconnecte brièvement du maillage. Il n'envoie aucune confirmation.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Redémarrer",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Annuler",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Commande de redémarrage envoyée.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Actualiser la session",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_forget_password": {
+    "value": "Mot de passe oublié",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_advert": {
+    "value": "Annonce",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login": {
+    "value": "Connexion requise",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Connectez-vous (en tant qu'invité) pour accéder aux statistiques, aux voisins, à la télémétrie et au micrologiciel · Connectez-vous en tant qu'administrateur pour la configuration et l'interface en ligne de commande.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Statistiques et signal",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Voisins",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Télémétrie et micrologiciel",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Admin : modification, régions, interface en ligne de commande, redémarrage",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Renommer le répéteur",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Nom du nœud",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Renommer",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Réinitialiser l'horloge et redémarrer",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Réinitialiser l'horloge et redémarrer ?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Réinitialise l'horloge du répéteur à une date de référence (15/05/2024) et le redémarre, puis appuyez sur l'icône de synchronisation pour appliquer l'heure actuelle. Le redémarrage ne génère aucune confirmation.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Réinitialisation de l'horloge et redémarrage envoyés.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_title": {
+    "value": "Régler la position",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Latitude",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Longitude",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_hint": {
+    "value": "Définit la position annoncée du répéteur. Entrez les coordonnées en degrés décimaux ; un sélecteur de carte est prévu ultérieurement.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_save": {
+    "value": "Enregistrer",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_edit_position": {
+    "value": "Modifier la position",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_version": {
+    "value": "Version",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_advert": {
+    "value": "Annonce",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Synchronisation de l'horloge",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock": {
+    "value": "Horloge",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_role": {
+    "value": "Fonction",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX power",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_name": {
+    "value": "Nom",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_public_key": {
+    "value": "Clé publique",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Informations sur le propriétaire",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Voisins",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Effacer les statistiques",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_password": {
+    "value": "Mot de passe",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Lancer la mise à jour OTA",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_reboot": {
+    "value": "Redémarrer",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Mettre hors tension",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Actions",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_read": {
+    "value": "Lire",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_node": {
+    "value": "Nœud",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Transmission",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Zone dangereuse",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Exécuter « %1$s » ?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Le répéteur se déconnecte du maillage pendant son redémarrage. Aucune réponse n'est envoyée.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Le répéteur s'éteint et ne se rallume pas tant qu'il n'a pas été redémarré manuellement. Aucune réponse n'est envoyée.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Met le répéteur en mode de mise à jour du micrologiciel.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Remet à zéro les compteurs de trafic du répéteur.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Cette action ne peut pas être annulée.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Aucun répéteur enregistré",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Aucun résultat",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Les répéteurs et les serveurs de salle que vous avez enregistrés dans vos contacts apparaissent ici.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_environment": {
+    "value": "environnement",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "puissance",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  }
 }
