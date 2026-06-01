@@ -3,7 +3,7 @@
     "language": "en",
     "name": "English",
     "managed_by": "kiekr-team",
-    "updated": "2026-05-24"
+    "updated": "2026-06-01"
   },
   "app_upgrade_body": "Reopen the app to finish loading the new version.",
   "app_upgrade_button": "Reopen now",
@@ -1308,5 +1308,38 @@
       "other": "Found %1$d nodes"
     }
   },
-  "node_detail_retrieve_firmware": "Retrieve firmware version"
+  "node_detail_retrieve_firmware": "Retrieve firmware version",
+  "nodes_detail_info_section": "Info",
+  "nodes_detail_position_label": "Position",
+  "nodes_detail_tools_section": "Tools",
+  "nodes_detail_rate_limited": "Rate limited — %1$ds",
+  "nodes_detail_cd_refresh_owner": "Refresh owner info",
+  "nodes_admin_reboot_repeater": "Reboot repeater",
+  "nodes_admin_reboot_title": "Reboot repeater?",
+  "nodes_admin_reboot_body": "The repeater restarts and briefly drops off the mesh. It sends no confirmation.",
+  "nodes_admin_reboot_confirm": "Reboot",
+  "nodes_admin_reboot_cancel": "Cancel",
+  "nodes_admin_reboot_sent": "Reboot command sent.",
+  "nodes_detail_refresh_session": "Refresh session",
+  "nodes_admin_forget_password": "Forget password",
+  "nodes_admin_advert": "Advert",
+  "nodes_detail_needs_login": "Needs login",
+  "nodes_detail_needs_login_footer": "Log in (guest) for stats, neighbours, telemetry & firmware · admin for config & CLI.",
+  "nodes_detail_lock_stats": "Stats & signal",
+  "nodes_detail_lock_neighbours": "Neighbours",
+  "nodes_detail_lock_telemetry": "Telemetry & firmware",
+  "nodes_detail_lock_admin": "Admin: edit, regions, CLI, reboot",
+  "nodes_admin_rename_title": "Rename repeater",
+  "nodes_admin_rename_field": "Node name",
+  "nodes_admin_rename_confirm": "Rename",
+  "nodes_admin_clkreboot_action": "Reset clock & reboot",
+  "nodes_admin_clkreboot_title": "Reset clock & reboot?",
+  "nodes_admin_clkreboot_body": "Resets the repeater's clock to a baseline (2024-05-15) and reboots it, then tap the sync icon to push the current time. The reboot sends no confirmation.",
+  "nodes_admin_clkreboot_sent": "Clock reset & reboot sent.",
+  "nodes_admin_position_title": "Set position",
+  "nodes_admin_position_lat": "Latitude",
+  "nodes_admin_position_lon": "Longitude",
+  "nodes_admin_position_hint": "Sets the repeater's advertised position. Enter decimal degrees; a map picker is a planned follow-up.",
+  "nodes_admin_position_save": "Save",
+  "nodes_detail_cd_edit_position": "Edit position"
 }
