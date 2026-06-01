@@ -11,9 +11,9 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 |----------------|------|-----------:|------:|----------:|------------|
 | English        | `en` |       100% |  1365 |         0 | kiekr-team |
 | Deutsch        | `de` |       100% |  1365 |         0 | kiekr-team |
-| Español        | `es` |      95.2% |  1279 |        20 | community  |
-| Français       | `fr` |      95.2% |  1279 |        20 | community  |
-| Nederlands     | `nl` |      95.2% |  1279 |        20 | community  |
+| Español        | `es` |       100% |  1279 |        86 | community  |
+| Français       | `fr` |       100% |  1279 |        86 | community  |
+| Nederlands     | `nl` |       100% |  1279 |        86 | community  |
 | Italiano       | `it` |      95.2% |  1295 |         4 | community  |
 | Português (Brasil) | `pt-BR` |      95.1% |     0 |      1298 | community  |
 | Polski         | `pl` |      95.1% |     9 |      1289 | community  |
