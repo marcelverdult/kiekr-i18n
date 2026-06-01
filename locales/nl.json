@@ -5224,70 +5224,334 @@
     "_ai": true,
     "_seeded": "2026-05-29"
   },
-  "nodes_detail_info_section": null,
-  "nodes_detail_position_label": null,
-  "nodes_detail_tools_section": null,
-  "nodes_detail_rate_limited": null,
-  "nodes_detail_cd_refresh_owner": null,
-  "nodes_admin_reboot_repeater": null,
-  "nodes_admin_reboot_title": null,
-  "nodes_admin_reboot_body": null,
-  "nodes_admin_reboot_confirm": null,
-  "nodes_admin_reboot_cancel": null,
-  "nodes_admin_reboot_sent": null,
-  "nodes_detail_refresh_session": null,
-  "nodes_admin_forget_password": null,
-  "nodes_admin_advert": null,
-  "nodes_detail_needs_login": null,
-  "nodes_detail_needs_login_footer": null,
-  "nodes_detail_lock_stats": null,
-  "nodes_detail_lock_neighbours": null,
-  "nodes_detail_lock_telemetry": null,
-  "nodes_detail_lock_admin": null,
-  "nodes_admin_rename_title": null,
-  "nodes_admin_rename_field": null,
-  "nodes_admin_rename_confirm": null,
-  "nodes_admin_clkreboot_action": null,
-  "nodes_admin_clkreboot_title": null,
-  "nodes_admin_clkreboot_body": null,
-  "nodes_admin_clkreboot_sent": null,
-  "nodes_admin_position_title": null,
-  "nodes_admin_position_lat": null,
-  "nodes_admin_position_lon": null,
-  "nodes_admin_position_hint": null,
-  "nodes_admin_position_save": null,
-  "nodes_detail_cd_edit_position": null,
-  "repeater_cli_version": null,
-  "repeater_cli_advert": null,
-  "repeater_cli_clock_sync": null,
-  "repeater_cli_clock": null,
-  "repeater_cli_role": null,
-  "repeater_cli_get_radio": null,
-  "repeater_cli_get_tx": null,
-  "repeater_cli_get_name": null,
-  "repeater_cli_public_key": null,
-  "repeater_cli_get_owner": null,
-  "repeater_cli_neighbours": null,
-  "repeater_cli_clear_stats": null,
-  "repeater_cli_password": null,
-  "repeater_cli_start_ota": null,
-  "repeater_cli_reboot": null,
-  "repeater_cli_poweroff": null,
-  "repeater_cli_group_actions": null,
-  "repeater_cli_group_read": null,
-  "repeater_cli_group_radio": null,
-  "repeater_cli_group_node": null,
-  "repeater_cli_group_forwarding": null,
-  "repeater_cli_group_danger": null,
-  "nodes_cli_confirm_title": null,
-  "nodes_cli_confirm_reboot": null,
-  "nodes_cli_confirm_poweroff": null,
-  "nodes_cli_confirm_ota": null,
-  "nodes_cli_confirm_clear_stats": null,
-  "nodes_cli_confirm_generic": null,
-  "nodes_manual_picker_no_saved": null,
-  "nodes_manual_picker_no_matches_short": null,
-  "nodes_manual_picker_empty_desc": null,
-  "nodes_admin_channel_cat_environment": null,
-  "nodes_admin_channel_cat_power": null
+  "nodes_detail_info_section": {
+    "value": "Info",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_position_label": {
+    "value": "Functie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_tools_section": {
+    "value": "Hulpmiddelen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_rate_limited": {
+    "value": "Beperkte snelheid — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Eigenaarsgegevens vernieuwen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Herstart repeater",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "De repeater opnieuw opstarten?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "De repeater start opnieuw op en valt even uit het mesh. Hij stuurt geen bevestiging.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Annuleren",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Het commando 'Reboot' is verzonden.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Sessie vernieuwen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_forget_password": {
+    "value": "Wachtwoord vergeten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_advert": {
+    "value": "Advertentie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login": {
+    "value": "Inloggen vereist",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Log in (gast) voor statistieken, buren, telemetrie en firmware · admin voor configuratie en CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Statistieken & signaal",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Buren",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Telemetrie en firmware",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Beheerder: bewerken, regio's, CLI, opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_title": {
+    "value": "De repeater een andere naam geven",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Naam van de node",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Hernoemen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Klok resetten en opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Klok resetten en opnieuw opstarten?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Hiermee wordt de klok van de repeater teruggezet naar de standaardinstelling (15-05-2024) en wordt het apparaat opnieuw opgestart. Tik vervolgens op het synchronisatiepictogram om de huidige tijd door te geven. Bij het opnieuw opstarten wordt geen bevestiging weergegeven.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Klok gereset en systeem opnieuw opgestart.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_title": {
+    "value": "Positie instellen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Breedtegraad",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Lengtegraad",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_hint": {
+    "value": "Hiermee stelt u de door de repeater doorgegeven positie in. Voer decimale graden in; een kaartkiezer is in de planning opgenomen.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_save": {
+    "value": "Opslaan",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_cd_edit_position": {
+    "value": "Positie bewerken",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_version": {
+    "value": "Versie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_advert": {
+    "value": "Advertentie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Kloksynchronisatie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock": {
+    "value": "Klok",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_role": {
+    "value": "Functie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX-vermogen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_name": {
+    "value": "Naam",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_public_key": {
+    "value": "Openbare sleutel",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Gegevens eigenaar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Buren",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Statistieken wissen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_password": {
+    "value": "Wachtwoord",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Start OTA",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_reboot": {
+    "value": "Opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Uitschakelen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Acties",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_read": {
+    "value": "Lees",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Doorsturen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Gevarenzone",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "\"%1$s\" uitvoeren?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "The repeater falls out of the mesh while it starts up again. No answer is sent.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "De repeater schakelt uit en komt pas weer in werking nadat hij handmatig opnieuw is opgestart. Er wordt geen antwoord verzonden.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Zet de repeater in de modus voor het bijwerken van de firmware.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Hiermee worden de verkeerstellers van de repeater op nul gezet.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Deze handeling kan niet ongedaan worden gemaakt.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Geen opgeslagen repeaters",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Geen resultaten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Hier worden de repeaters en room servers weergegeven die je als contacten hebt opgeslagen.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_environment": {
+    "value": "milieu",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "vermogen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  }
 }
