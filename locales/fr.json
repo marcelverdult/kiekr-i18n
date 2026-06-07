@@ -4830,12 +4830,36 @@
     "value": "Aucune (Flood simple)",
     "_human": true
   },
-  "settings_regions_remove": null,
-  "settings_regions_remove_anyway": null,
-  "settings_regions_remove_in_use_both": null,
-  "settings_regions_remove_in_use_channels": null,
-  "settings_regions_remove_in_use_contacts": null,
-  "settings_regions_remove_in_use_title": null,
+  "settings_regions_remove": {
+    "value": "Supprimer",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_anyway": {
+    "value": "Supprimer quand même",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_both": {
+    "value": "« %1$s » est toujours attribué au ou aux canaux %2$d et au ou aux contacts %3$d. Sa suppression les réinitialise sans région (diffusion standard).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_channels": {
+    "value": "« %1$s » est toujours attribué à un ou plusieurs canaux d%2$d. Sa suppression réinitialise ces canaux pour qu’ils n’appartiennent à aucune région (diffusion standard).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_contacts": {
+    "value": "« %1$s » est toujours attribué à un ou plusieurs contacts de l'%2$d. Sa suppression réinitialise ces contacts en les associant à aucune région (diffusion standard).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_title": {
+    "value": "Région toujours en service",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_requires_protocol_11": {
     "value": "Nécessite le niveau de protocole 11+",
     "_human": true
@@ -4880,7 +4904,11 @@
     "value": "Régions",
     "_human": true
   },
-  "settings_regions_toast_added": null,
+  "settings_regions_toast_added": {
+    "value": "Ajout de la région «%1$s»",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_toast_already_in_list": {
     "value": "La région %1$s est déjà dans votre liste",
     "_human": true

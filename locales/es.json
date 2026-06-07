@@ -4830,12 +4830,36 @@
     "value": "Ninguna (Flood simple)",
     "_human": true
   },
-  "settings_regions_remove": null,
-  "settings_regions_remove_anyway": null,
-  "settings_regions_remove_in_use_both": null,
-  "settings_regions_remove_in_use_channels": null,
-  "settings_regions_remove_in_use_contacts": null,
-  "settings_regions_remove_in_use_title": null,
+  "settings_regions_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_anyway": {
+    "value": "Eliminar de todos modos",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_both": {
+    "value": "«%1$s» sigue asignado a un canal o canales de %2$d y a un contacto o contactos de %3$d. Al eliminarlo, se restablecerá su configuración a «sin región» (inundación sin especificar).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_channels": {
+    "value": "«%1$s» sigue asignado a uno o varios canales de «%2$d». Al eliminarlo, estos canales se restablecerán a «sin región» (inundación sin especificar).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_contacts": {
+    "value": "«%1$s» sigue asignado a uno o varios contactos de «%2$d». Si se elimina, estos contactos volverán a estar sin asignar a ninguna región (inundación sin especificar).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_title": {
+    "value": "Región aún en uso",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_requires_protocol_11": {
     "value": "Requiere nivel de protocolo 11 o superior",
     "_human": true
@@ -4880,7 +4904,11 @@
     "value": "Regiones",
     "_human": true
   },
-  "settings_regions_toast_added": null,
+  "settings_regions_toast_added": {
+    "value": "Se ha añadido la región «%1$s»",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_toast_already_in_list": {
     "value": "La región %1$s ya está en tu lista",
     "_human": true

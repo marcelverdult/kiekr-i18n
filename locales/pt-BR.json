@@ -6021,12 +6021,36 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_regions_remove": null,
-  "settings_regions_remove_anyway": null,
-  "settings_regions_remove_in_use_both": null,
-  "settings_regions_remove_in_use_channels": null,
-  "settings_regions_remove_in_use_contacts": null,
-  "settings_regions_remove_in_use_title": null,
+  "settings_regions_remove": {
+    "value": "Remover",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_anyway": {
+    "value": "Remover mesmo assim",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_both": {
+    "value": "O \"%1$s\" ainda está atribuído a um ou mais canais %2$d e a um ou mais contatos %3$d. Ao removê-lo, eles serão redefinidos para nenhuma região (flood simples).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_channels": {
+    "value": "O \"%1$s\" ainda está atribuído a um ou mais canais d%2$d. Ao removê-lo, esses canais serão redefinidos para nenhuma região (flood simples).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_contacts": {
+    "value": "“%1$s” ainda está atribuído a um ou mais contatos d%2$d. Ao removê-lo, esses contatos serão redefinidos para nenhuma região (flood simples).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_title": {
+    "value": "Região ainda em uso",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_requires_protocol_11": {
     "value": "Requer o nível de protocolo 11 ou superior",
     "_ai": true,
@@ -6082,7 +6106,11 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_regions_toast_added": null,
+  "settings_regions_toast_added": {
+    "value": "Adicionada a região de%1$s",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_toast_already_in_list": {
     "value": "A região %1$s já está na sua lista",
     "_ai": true,
