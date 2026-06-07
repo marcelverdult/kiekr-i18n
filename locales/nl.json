@@ -4830,12 +4830,36 @@
     "value": "Geen (gewone Flood)",
     "_human": true
   },
-  "settings_regions_remove": null,
-  "settings_regions_remove_anyway": null,
-  "settings_regions_remove_in_use_both": null,
-  "settings_regions_remove_in_use_channels": null,
-  "settings_regions_remove_in_use_contacts": null,
-  "settings_regions_remove_in_use_title": null,
+  "settings_regions_remove": {
+    "value": "Verwijderen",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_anyway": {
+    "value": "Toch verwijderen",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_both": {
+    "value": "\"%1$s\" is nog steeds toegewezen aan %2$d-kanalen en %3$d-contactpersonen. Als je dit verwijdert, worden deze teruggezet naar geen regio (gewone Flood).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_channels": {
+    "value": "\"%1$s\" is nog steeds toegewezen aan %2$d-kanalen. Als je dit verwijdert, worden deze teruggezet naar geen regio (gewoon flood).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_contacts": {
+    "value": "\"%1$s\" is nog steeds toegewezen aan contactpersoon(en) van de %2$d. Als je dit verwijdert, worden ze teruggezet naar geen regio (gewone flood).",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
+  "settings_regions_remove_in_use_title": {
+    "value": "Regio nog steeds in gebruik",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_requires_protocol_11": {
     "value": "Vereist protocolniveau 11+",
     "_human": true
@@ -4880,7 +4904,11 @@
     "value": "Regio's",
     "_human": true
   },
-  "settings_regions_toast_added": null,
+  "settings_regions_toast_added": {
+    "value": "Regio '%1$s' toegevoegd",
+    "_ai": true,
+    "_seeded": "2026-06-07"
+  },
   "settings_regions_toast_already_in_list": {
     "value": "Regio %1$s staat al in je lijst",
     "_human": true
