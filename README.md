@@ -9,14 +9,14 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
-| English        | `en` |       100% |  1372 |         0 | kiekr-team |
-| Deutsch        | `de` |       100% |  1372 |         0 | kiekr-team |
-| Español        | `es` |       100% |  1279 |        93 | community  |
-| Français       | `fr` |       100% |  1279 |        93 | community  |
-| Nederlands     | `nl` |       100% |  1279 |        93 | community  |
-| Italiano       | `it` |       100% |  1365 |         7 | community  |
-| Português (Brasil) | `pt-BR` |       100% |     1 |      1371 | community  |
-| Polski         | `pl` |       100% |    11 |      1361 | community  |
+| English        | `en` |       100% |  1373 |         0 | kiekr-team |
+| Deutsch        | `de` |       100% |  1373 |         0 | kiekr-team |
+| Español        | `es` |      99.9% |  1279 |        93 | community  |
+| Français       | `fr` |      99.9% |  1279 |        93 | community  |
+| Nederlands     | `nl` |      99.9% |  1279 |        93 | community  |
+| Italiano       | `it` |      99.9% |  1365 |         7 | community  |
+| Português (Brasil) | `pt-BR` |      99.9% |     1 |      1371 | community  |
+| Polski         | `pl` |      99.9% |    11 |      1361 | community  |
 
 <!-- status:end -->
 
