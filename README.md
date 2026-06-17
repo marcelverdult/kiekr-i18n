@@ -11,12 +11,12 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 |----------------|------|-----------:|------:|----------:|------------|
 | English        | `en` |       100% |  1387 |         0 | kiekr-team |
 | Deutsch        | `de` |       100% |  1387 |         0 | kiekr-team |
-| Español        | `es` |      99.3% |  1279 |        98 | community  |
-| Français       | `fr` |      99.3% |  1279 |        98 | community  |
-| Nederlands     | `nl` |      99.3% |  1279 |        98 | community  |
-| Italiano       | `it` |      99.3% |  1365 |        12 | community  |
-| Português (Brasil) | `pt-BR` |      99.3% |     1 |      1376 | community  |
-| Polski         | `pl` |      99.3% |    11 |      1366 | community  |
+| Español        | `es` |       100% |  1279 |       108 | community  |
+| Français       | `fr` |       100% |  1279 |       108 | community  |
+| Nederlands     | `nl` |       100% |  1279 |       108 | community  |
+| Italiano       | `it` |       100% |  1365 |        22 | community  |
+| Português (Brasil) | `pt-BR` |       100% |     1 |      1386 | community  |
+| Polski         | `pl` |       100% |    11 |      1376 | community  |
 
 <!-- status:end -->
 
