@@ -24,7 +24,7 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 | Eesti          | `et` |      99.9% |     0 |      1392 | community  |
 | Suomi          | `fi` |      99.9% |     0 |      1392 | community  |
 | Gaeilge        | `ga` |      99.9% |     0 |      1392 | community  |
-| Hrvatski       | `hr` |      99.9% |     0 |      1391 | community  |
+| Hrvatski       | `hr` |      99.9% |     0 |      1392 | community  |
 | Magyar         | `hu` |      99.9% |     0 |      1392 | community  |
 | Lietuvių       | `lt` |      99.9% |     0 |      1392 | community  |
 | Latviešu       | `lv` |      99.9% |     0 |      1392 | community  |
