@@ -179,6 +179,28 @@ def main() -> int:
         "it":    "IT",
         "pt-BR": "PT-BR",
         "pl":    "PL",
+        # Remaining EU official languages
+        "bg":    "BG",
+        "hr":    "HR",
+        "cs":    "CS",
+        "da":    "DA",
+        "et":    "ET",
+        "fi":    "FI",
+        "el":    "EL",
+        "ga":    "GA",
+        "hu":    "HU",
+        "lv":    "LV",
+        "lt":    "LT",
+        "mt":    "MT",
+        "ro":    "RO",
+        "sk":    "SK",
+        "sl":    "SL",
+        "sv":    "SV",
+        "pt-PT": "PT-PT",
+        # European neighbours (non-EU)
+        "nb":    "NB",
+        "ru":    "RU",
+        "uk":    "UK",
     }
 
     for path in sorted(LOCALES_DIR.glob("*.json")):

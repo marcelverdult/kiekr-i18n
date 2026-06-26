@@ -17,6 +17,26 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 | Italiano       | `it` |      99.6% |  1365 |        22 | community  |
 | Português (Brasil) | `pt-BR` |      99.6% |     1 |      1386 | community  |
 | Polski         | `pl` |      99.6% |    11 |      1376 | community  |
+| Български      | `bg` |       0.0% |     0 |         0 | community  |
+| Čeština        | `cs` |       0.0% |     0 |         0 | community  |
+| Dansk          | `da` |       0.0% |     0 |         0 | community  |
+| Ελληνικά       | `el` |       0.0% |     0 |         0 | community  |
+| Eesti          | `et` |       0.0% |     0 |         0 | community  |
+| Suomi          | `fi` |       0.0% |     0 |         0 | community  |
+| Gaeilge        | `ga` |       0.0% |     0 |         0 | community  |
+| Hrvatski       | `hr` |       0.0% |     0 |         0 | community  |
+| Magyar         | `hu` |       0.0% |     0 |         0 | community  |
+| Lietuvių       | `lt` |       0.0% |     0 |         0 | community  |
+| Latviešu       | `lv` |       0.0% |     0 |         0 | community  |
+| Malti          | `mt` |       0.0% |     0 |         0 | community  |
+| Norsk bokmål   | `nb` |       0.0% |     0 |         0 | community  |
+| Português (Portugal) | `pt-PT` |       0.0% |     0 |         0 | community  |
+| Română         | `ro` |       0.0% |     0 |         0 | community  |
+| Русский        | `ru` |       0.0% |     0 |         0 | community  |
+| Slovenčina     | `sk` |       0.0% |     0 |         0 | community  |
+| Slovenščina    | `sl` |       0.0% |     0 |         0 | community  |
+| Svenska        | `sv` |       0.0% |     0 |         0 | community  |
+| Українська     | `uk` |       0.0% |     0 |         0 | community  |
 
 <!-- status:end -->
 
