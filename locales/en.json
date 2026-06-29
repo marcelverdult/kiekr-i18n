@@ -3,7 +3,7 @@
     "language": "en",
     "name": "English",
     "managed_by": "kiekr-team",
-    "updated": "2026-06-27"
+    "updated": "2026-06-29"
   },
   "app_upgrade_body": "Reopen the app to finish loading the new version.",
   "app_upgrade_button": "Reopen now",
@@ -256,7 +256,7 @@
   "mynode_device_actions_footer": "Reboot restarts the paired node. Factory reset wipes the device's contacts, channels, and prefs — the app's local data is not touched.",
   "mynode_dialog_broadcast_advert_body": "Other nodes need our advert before they can decrypt our DMs. Pick reach:",
   "mynode_dialog_broadcast_advert_title": "Broadcast advert",
-  "mynode_disconnect_footer": "Disconnect drops the link but keeps the cached bond — tap Connect to reattach without re-pairing. Forget unpairs and clears the cache; the node must be re-paired to come back.",
+  "mynode_disconnect_footer": "Drops the link. Reconnect any time from the companion list above.",
   "mynode_disconnect_row_title": "Disconnect",
   "mynode_disconnect_wifi_footer": "Closes the TCP link. Reconnect any time from the WiFi entry below.",
   "mynode_disconnect_wifi_row_title": "Disconnect WiFi",
@@ -1408,5 +1408,7 @@
   "settings_community_coverage_interval_minutes": "%1$d min",
   "settings_community_coverage_precise_hint": "Coverage needs precise location to place what you hear in the right map cell. Allow precise location for KiekR — otherwise coverage collects nothing on this phone.",
   "settings_community_coverage_open_settings": "Open location settings",
-  "settings_community_coverage_allow_precise": "Allow precise location"
+  "settings_community_coverage_allow_precise": "Allow precise location",
+  "mynode_known_companions": "Known companions",
+  "mynode_known_companions_footer": "Tap a companion to reconnect. Swipe to delete it from this list."
 }
