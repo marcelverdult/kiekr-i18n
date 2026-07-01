@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "kiekr-team",
-    "updated": "2026-06-30"
+    "updated": "2026-07-01"
   },
   "app_upgrade_body": {
     "value": "Öffne die App erneut, um die neue Version fertig zu laden.",
@@ -5618,6 +5618,142 @@
   },
   "mynode_scan_searching_hint": {
     "value": "Stelle sicher, dass dein Node eingeschaltet und in der Nähe ist.",
+    "_human": true
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_human": true
+  },
+  "ping_sent": {
+    "value": "Gesendet",
+    "_human": true
+  },
+  "ping_received": {
+    "value": "Empfangen",
+    "_human": true
+  },
+  "ping_timeouts": {
+    "value": "Timeouts",
+    "_human": true
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_human": true
+  },
+  "ping_uplink_snr": {
+    "value": "Uplink-SNR",
+    "_human": true
+  },
+  "ping_downlink_snr": {
+    "value": "Downlink-SNR",
+    "_human": true
+  },
+  "ping_waiting_reply": {
+    "value": "Warte auf Antwort…",
+    "_human": true
+  },
+  "settings_timeout": {
+    "value": "Timeout",
+    "_human": true
+  },
+  "settings_path_discovery": {
+    "value": "Pfadsuche",
+    "_human": true
+  },
+  "ping_samples": {
+    "value": "Stichproben",
+    "_human": true
+  },
+  "ping_sample_interval": {
+    "value": "Stichproben-Intervall",
+    "_human": true
+  },
+  "ping_sample_timeout": {
+    "value": "Stichproben-Timeout",
+    "_human": true
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_human": true
+  },
+  "ping_detail_blurb": {
+    "value": "Misst Round-Trip-Zeit und Uplink-/Downlink-Signal zu diesem Repeater.",
+    "_human": true
+  },
+  "ping_settings_footer": {
+    "value": "Ein Ping sendet N Ein-Hop-Proben an einen Repeater und meldet Round-Trip-Zeit sowie Uplink-/Downlink-Signal. Die Proben gehen nacheinander raus (im Intervall-Abstand); jede wartet bis zum Timeout auf eine Antwort. Standard: 3 Proben, 2000 ms Intervall, 5000 ms Timeout.",
+    "_human": true
+  },
+  "traceroute_settings_footer": {
+    "value": "Ein Traceroute prüft eine von dir Hop für Hop gewählte Route und meldet das Signal je Hop. Einmalig (keine Wiederholung) — du hast den Pfad gewählt. Standard 30 s Timeout.",
+    "_human": true
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Füge Repeater in der Reihenfolge hinzu, in der die Probe sie besuchen soll.",
+    "_human": true
+  },
+  "traceroute_add_repeater": {
+    "value": "Repeater hinzufügen",
+    "_human": true
+  },
+  "traceroute_hops": {
+    "value": "Hops",
+    "_human": true
+  },
+  "traceroute_reachability_hint": {
+    "value": "Der erste Repeater muss dich hören und du musst die Antwort des letzten hören — wähle einen erreichbaren Pfad.",
+    "_human": true
+  },
+  "traceroute_run": {
+    "value": "Traceroute starten",
+    "_human": true
+  },
+  "traceroute_return_snr": {
+    "value": "Rückweg-SNR",
+    "_human": true
+  },
+  "traceroute_result": {
+    "value": "Ergebnis",
+    "_human": true
+  },
+  "traceroute_no_response": {
+    "value": "Keine Antwort — der Pfad ist möglicherweise nicht erreichbar.",
+    "_human": true
+  },
+  "tools_diagnostics": {
+    "value": "Diagnose",
+    "_human": true
+  },
+  "tools_traceroute_blurb": {
+    "value": "Prüfe eine Hop-für-Hop gewählte Route und lies das Signal an jedem Hop.",
+    "_human": true
+  },
+  "traceroute_search_hint": {
+    "value": "Nach Name oder Hex-Präfix",
+    "_human": true
+  },
+  "map_show_on_map": {
+    "value": "Auf Karte zeigen",
+    "_human": true
+  },
+  "map_you": {
+    "value": "Du",
+    "_human": true
+  },
+  "traceroute_roundtrip": {
+    "value": "Round-Trip",
+    "_human": true
+  },
+  "traceroute_target_heard_only": {
+    "value": "nur gehört",
+    "_human": true
+  },
+  "traceroute_choose_on_map": {
+    "value": "Auf Karte wählen",
+    "_human": true
+  },
+  "traceroute_map_select_hint": {
+    "value": "Repeater in Besuchsreihenfolge antippen",
     "_human": true
   }
 }
