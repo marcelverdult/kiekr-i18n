@@ -3,7 +3,7 @@
     "language": "cs",
     "name": "Čeština",
     "managed_by": "community",
-    "updated": "2026-06-29"
+    "updated": "2026-07-02"
   },
   "app_upgrade_body": {
     "value": "Znovu spusťte aplikaci, aby se dokončilo načtení nové verze.",
@@ -7005,5 +7005,185 @@
     "value": "Klepnutím na zařízení v seznamu jej znovu připojíte. Přejetím prstem jej ze seznamu odstraníte.",
     "_ai": true,
     "_seeded": "2026-06-29"
+  },
+  "mynode_scan_searching": {
+    "value": "Hledání uzlů…",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Ujistěte se, že je váš uzel zapnutý a nachází se poblíž.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_sent": {
+    "value": "Odesláno",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_received": {
+    "value": "Přijato",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_timeouts": {
+    "value": "Časové limity",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_uplink_snr": {
+    "value": "Poměr signálu k šumu v uplinku",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_downlink_snr": {
+    "value": "Poměr signálu k šumu v sestupném kanálu",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_waiting_reply": {
+    "value": "Čekám na odpověď…",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "settings_timeout": {
+    "value": "Časový limit",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "settings_path_discovery": {
+    "value": "Vyhledávání trasy",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_samples": {
+    "value": "Vzorky",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_sample_interval": {
+    "value": "Interval vzorkování",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_sample_timeout": {
+    "value": "Časový limit vzorku",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_detail_blurb": {
+    "value": "Změřte dobu přenosu tam a zpět a signál v směru nahoru a dolů k tomuto opakovači.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_settings_footer": {
+    "value": "Příkaz ping odešle N testovacích paketů s jedním skokem k opakovači a vyhodnotí dobu přenosu tam a zpět spolu se signálem v směru nahoru a dolů. Vzorky jsou odesílány postupně (v určitých intervalech); každý z nich čeká na odpověď po dobu časového limitu. Výchozí nastavení: 3 vzorky, interval 2000 ms, časový limit 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_settings_footer": {
+    "value": "Příkaz traceroute prozkoumává vámi zvolenou trasu skok po skoku a vykazuje stav pro každý skok. Jednorázové provedení (bez opakování pokusů) — trasu si zvolíte sami. Výchozí časový limit je 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Přidejte opakovače v pořadí, v jakém by je sonda měla navštívit.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_add_repeater": {
+    "value": "Přidat opakovač",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_hops": {
+    "value": "Chmel",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_reachability_hint": {
+    "value": "První opakovač vás musí slyšet a vy musíte slyšet odpověď posledního opakovače – vyberte si trasu, o které víte, že je průchodná.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_run": {
+    "value": "Spusťte příkaz traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_return_snr": {
+    "value": "Poměr signálu k šumu při zpětném přenosu",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_result": {
+    "value": "Výsledek",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_no_response": {
+    "value": "Žádná odezva – cesta nemusí být dostupná.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "tools_diagnostics": {
+    "value": "Diagnostika",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Prozkoumejte trasu, kterou si vyberete skok po skoku, a na každém skoku odečtěte signál.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_search_hint": {
+    "value": "Vyhledávání podle názvu nebo hexadecimální předpony",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "map_show_on_map": {
+    "value": "Zobrazit na mapě",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "map_you": {
+    "value": "Ty",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_roundtrip": {
+    "value": "Tam a zpět",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_target_heard_only": {
+    "value": "jen slyšel",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Vyberte na mapě",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Klepněte na opakovače v pořadí návštěv",
+    "_ai": true,
+    "_seeded": "2026-07-02"
   }
 }
