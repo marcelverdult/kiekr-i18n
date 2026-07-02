@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-06-29"
+    "updated": "2026-07-02"
   },
   "app_upgrade_body": {
     "value": "Отворете отново приложението, за да завърши зареждането на новата версия.",
@@ -7005,5 +7005,185 @@
     "value": "Докоснете дадено устройство, за да възстановите връзката. Плъзнете, за да го изтриете от този списък.",
     "_ai": true,
     "_seeded": "2026-06-29"
+  },
+  "mynode_scan_searching": {
+    "value": "Търсене на възли…",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Уверете се, че вашият възел е включен и се намира наблизо.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_action": {
+    "value": "Пинг",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_sent": {
+    "value": "Изпратено",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_received": {
+    "value": "Получено",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_timeouts": {
+    "value": "Времеви ограничения",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR на канала за изпращане",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_downlink_snr": {
+    "value": "Съотношение сигнал/шум при приемане",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_waiting_reply": {
+    "value": "Очаквам отговор…",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "settings_timeout": {
+    "value": "Изтичане на времето",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "settings_path_discovery": {
+    "value": "Откриване на пътя",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_samples": {
+    "value": "Примери",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_sample_interval": {
+    "value": "Интервал на извадката",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_sample_timeout": {
+    "value": "Примерно време за изчакване",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_detail_blurb": {
+    "value": "Измерете времето за отиване и връщане, както и сигнала по канала за изпращане и приемане към този ретранслатор.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "ping_settings_footer": {
+    "value": "Командата „ping“ изпраща N проби с един скок към ретранслатор и отчита времето за отиване и връщане, както и сигнала по възходящата и низходящата връзка. Пробите се изпращат последователно (с интервал); всяка от тях изчаква отговор до изтичане на времето за изчакване. Настройки по подразбиране: 3 проби, интервал 2000 ms, време за изчакване 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_settings_footer": {
+    "value": "Командата „traceroute“ проследява избрания от вас маршрут скок по скок и отчита сигнала за всеки скок. Еднократно изпълнение (без повторения) — вие избирате пътя. Време за изчакване по подразбиране: 30 секунди.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Добавете повторителите в реда, в който сондата трябва да ги посети.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_add_repeater": {
+    "value": "Добави ретранслатор",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_hops": {
+    "value": "Хмел",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Първият ретранслатор трябва да ви чуе, а вие трябва да чуете отговора на последния — изберете маршрут, за който знаете, че е достъпен.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_run": {
+    "value": "Изпълнете traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_return_snr": {
+    "value": "Обратно съотношение сигнал/шум (SNR)",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_result": {
+    "value": "Резултат",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_no_response": {
+    "value": "Няма отговор — вероятно пътят е недостъпен.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "tools_diagnostics": {
+    "value": "Диагностика",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Проследете маршрут, който сте избрали, скок по скок, и отчетете сигнала на всеки скок.",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_search_hint": {
+    "value": "Търсене по име или шестнадесетичен префикс",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "map_show_on_map": {
+    "value": "Покажи на картата",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "map_you": {
+    "value": "Ти",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_roundtrip": {
+    "value": "Отиване и връщане",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_target_heard_only": {
+    "value": "само чух",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Изберете от картата",
+    "_ai": true,
+    "_seeded": "2026-07-02"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Натиснете повторителите в реда на посещенията",
+    "_ai": true,
+    "_seeded": "2026-07-02"
   }
 }
