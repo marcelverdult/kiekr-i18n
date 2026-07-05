@@ -184,6 +184,25 @@ def main() -> int:
     del api_key
 
     translator = deepl.Translator(SECRET)
+
+    # Surface quota state at the top of every run. The old pipeline burned
+    # through its quota silently for days — runs stayed short and green
+    # while translating nothing.
+    try:
+        usage = translator.get_usage()
+        if usage.character.valid:
+            count, limit = usage.character.count, usage.character.limit
+            pct = (f" ({count / limit * 100:.1f}%)"
+                   if count is not None and limit else "")
+            print(f"deepl usage: {count}/{limit} characters{pct}")
+            if usage.character.limit_reached:
+                print("::warning::DeepL character quota is exhausted — "
+                      "nothing will be translated this run; keys stay "
+                      "null until the quota resets")
+    except Exception as e:
+        print(f"deepl usage query failed: {_sanitize(str(e), SECRET)}",
+              file=sys.stderr)
+
     en = load(SOURCE_FILE)
 
     deepl_target_codes = {
