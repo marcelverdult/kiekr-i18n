@@ -42,6 +42,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write   # prune old workflow runs at the end of each run
 
 jobs:
   pipeline:
@@ -141,9 +142,7 @@ jobs:
             kiekr-i18n.tar.gz.sha256
           fail_on_unmatched_files: true
 
-      # Keep a small rollback window instead of nuking history. Run
-      # history is NOT pruned anymore — failed runs must stay visible
-      # for diagnosis.
+      # Keep a small rollback window instead of nuking history.
       - name: Prune releases (keep newest 5)
         if: steps.meta.outputs.tag
         env:
@@ -155,3 +154,21 @@ jobs:
             while read -r tag; do
               [ -n "$tag" ] && gh release delete --repo "$REPO" "$tag" --cleanup-tag --yes || true
             done
+
+      # Keep the run list tidy: newest 10 PER WORKFLOW (covers validate
+      # and any orphaned workflows too), delete the rest. Ten — not one,
+      # not everything: the pre-rework prune-all steps destroyed the
+      # failure history and hid a 4-day DeepL quota outage. Ten runs
+      # keep a several-day diagnosis window while stopping the pile-up.
+      - name: Prune workflow runs (keep newest 10 per workflow)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh api "repos/$REPO/actions/runs?per_page=100" --paginate \
+            --jq '.workflow_runs[] | "\(.workflow_id) \(.id)"' |
+          awk '{ if (++seen[$1] > 10) print $2 }' |
+          while read -r id; do
+            [ -n "$id" ] && gh api -X DELETE "repos/$REPO/actions/runs/$id" >/dev/null || true
+          done
