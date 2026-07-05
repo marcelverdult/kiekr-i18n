@@ -1,0 +1,157 @@
+name: i18n
+
+# The whole locale pipeline in ONE serialized job:
+#   sync (materialize missing keys as null)
+#   -> seed (DeepL-fill nulls, self-checking placeholders)
+#   -> validate + safety gate
+#   -> README completion table
+#   -> one bot commit directly to main ([skip ci], so no re-trigger)
+#   -> exactly one release, cut from the final state.
+#
+# Replaces the former sync-keys / seed-translations / nightly-fill /
+# update-readme / release set, whose parallel runs raced each other:
+# seed ran before sync's nulls existed, releases were cut pre-seed,
+# and three bot PR branches went stale against one another.
+#
+# Failure semantics:
+#   red run    = validate/safety found broken data; nothing was
+#                committed or released, main keeps the last good state.
+#   DeepL down = NOT red. Affected keys stay null (app falls back to
+#                English); the nightly run retries them.
+#
+# The bot commits directly instead of opening a PR because every write
+# is machine-guarded: seed.py hard-refuses to touch non-null entries,
+# and validate + safety_check run BEFORE the commit in this same job.
+# Human review of machine translations happens where it always did —
+# community PRs replacing `_ai` values, gated by validate.yml.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+  schedule:
+    - cron: '0 3 * * *'   # nightly safety net (UTC): retries nulls left by DeepL hiccups
+  workflow_dispatch:
+
+# Serialize runs: a second push waits for the current run instead of
+# racing it (and then finds nothing left to do on the fresh main).
+concurrency:
+  group: i18n-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preflight secrets
+        env:
+          BOT_PAT: ${{ secrets.BOT_PAT }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: |
+          echo "::add-mask::$DEEPL_API_KEY"
+          if [ -z "$BOT_PAT" ]; then
+            echo "::error::BOT_PAT secret is missing or expired — the bot cannot push to protected main. Renew it at https://github.com/settings/tokens and update the repo secret."
+            exit 1
+          fi
+          if [ -z "$DEEPL_API_KEY" ]; then
+            echo "::error::DEEPL_API_KEY secret is missing."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v5
+        with:
+          # Always work on the CURRENT tip of main, not the trigger SHA —
+          # a run queued behind another must see that run's bot commit.
+          ref: main
+          # BOT_PAT can push past branch protection (admin bypass);
+          # GITHUB_TOKEN cannot.
+          token: ${{ secrets.BOT_PAT }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - run: pip install deepl jsonschema
+
+      - name: Sync — materialize missing keys as null
+        run: python tools/sync_keys.py
+
+      - name: Seed — DeepL-fill nulls (placeholder-self-checking)
+        run: python tools/seed.py
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+
+      - name: Gate — validate + safety before anything lands
+        run: |
+          python tools/validate.py
+          python tools/safety_check.py
+
+      - name: README — refresh completion table
+        run: python tools/update_readme.py
+
+      - name: Commit to main (only if something changed)
+        id: commit
+        run: |
+          git config user.name  "kiekr-i18n-bot"
+          git config user.email "bot@kiekr.local"
+          if git diff --quiet -- locales/ README.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "nothing to commit"
+          else
+            git add locales/ README.md
+            git commit -m "chore(i18n): sync + DeepL seed + README table [skip ci]"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Release on every push and manual dispatch; on schedule only when
+      # the nightly actually changed something.
+      - name: Decide release tag
+        id: meta
+        if: github.event_name != 'schedule' || steps.commit.outputs.changed == 'true'
+        run: |
+          DATE=$(date -u +%Y.%m.%d)
+          SHA=$(git rev-parse --short HEAD)
+          echo "tag=v${DATE}-${SHA}" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Package locales
+        if: steps.meta.outputs.tag
+        run: |
+          tar -C . -czf kiekr-i18n.tar.gz locales/
+          sha256sum kiekr-i18n.tar.gz > kiekr-i18n.tar.gz.sha256
+          cat kiekr-i18n.tar.gz.sha256
+
+      - name: Cut release
+        if: steps.meta.outputs.tag
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          target_commitish: ${{ steps.meta.outputs.sha }}
+          name: ${{ steps.meta.outputs.tag }}
+          body: |
+            Auto-cut translation snapshot (post-seed state). KiekR app
+            release builds fetch the latest tag of this repo.
+          files: |
+            kiekr-i18n.tar.gz
+            kiekr-i18n.tar.gz.sha256
+          fail_on_unmatched_files: true
+
+      # Keep a small rollback window instead of nuking history. Run
+      # history is NOT pruned anymore — failed runs must stay visible
+      # for diagnosis.
+      - name: Prune releases (keep newest 5)
+        if: steps.meta.outputs.tag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh release list --repo "$REPO" --limit 100 \
+            --json tagName --jq '.[5:][].tagName' |
+            while read -r tag; do
+              [ -n "$tag" ] && gh release delete --repo "$REPO" "$tag" --cleanup-tag --yes || true
+            done
