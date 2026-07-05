@@ -6525,7 +6525,14 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_discover_found": null,
+  "nodes_discover_found": {
+    "plural": {
+      "one": "Намерен е %1$d възел",
+      "other": "Намерени са %1$d възела"
+    },
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "node_detail_retrieve_firmware": {
     "value": "Проверка на версията на фърмуера",
     "_ai": true,
@@ -7006,79 +7013,379 @@
     "_ai": true,
     "_seeded": "2026-06-29"
   },
-  "mynode_scan_searching": null,
-  "mynode_scan_searching_hint": null,
-  "ping_action": null,
-  "ping_sent": null,
-  "ping_received": null,
-  "ping_timeouts": null,
-  "ping_rtt": null,
-  "ping_uplink_snr": null,
-  "ping_downlink_snr": null,
-  "ping_waiting_reply": null,
-  "settings_timeout": null,
-  "settings_path_discovery": null,
-  "ping_samples": null,
-  "ping_sample_interval": null,
-  "ping_sample_timeout": null,
-  "traceroute_title": null,
-  "ping_detail_blurb": null,
-  "ping_settings_footer": null,
-  "traceroute_settings_footer": null,
-  "traceroute_add_hops_hint": null,
-  "traceroute_add_repeater": null,
-  "traceroute_hops": null,
-  "traceroute_reachability_hint": null,
-  "traceroute_run": null,
-  "traceroute_return_snr": null,
-  "traceroute_result": null,
-  "traceroute_no_response": null,
-  "tools_diagnostics": null,
-  "tools_traceroute_blurb": null,
-  "traceroute_search_hint": null,
-  "map_show_on_map": null,
-  "map_you": null,
-  "traceroute_roundtrip": null,
-  "traceroute_target_heard_only": null,
-  "traceroute_choose_on_map": null,
-  "traceroute_map_select_hint": null,
-  "chat_compose_gate_no_node": null,
-  "chat_compose_gate_identity": null,
-  "settings_home_entry_language": null,
-  "settings_language_open_button": null,
-  "settings_language_footer": null,
-  "settings_language_cd_back": null,
-  "settings_home_entry_appearance": null,
-  "settings_appearance_mode_system": null,
-  "settings_appearance_mode_light": null,
-  "settings_appearance_mode_dark": null,
-  "settings_appearance_footer": null,
-  "settings_appearance_cd_back": null,
-  "live_traffic_title": null,
-  "live_traffic_empty_title": null,
-  "live_traffic_empty_desc": null,
-  "live_traffic_footer": null,
-  "live_traffic_pause": null,
-  "live_traffic_resume": null,
-  "live_traffic_clear": null,
-  "live_traffic_hero_title": null,
-  "live_traffic_hero_sub": null,
-  "live_traffic_total": null,
-  "live_traffic_stat_mesh": null,
-  "live_traffic_mesh_quiet": null,
-  "live_traffic_mesh_active": null,
-  "live_traffic_mesh_busy": null,
-  "live_traffic_stat_snr_rssi": null,
-  "live_traffic_stat_multihop": null,
-  "live_traffic_stat_undecodable": null,
-  "live_traffic_still_listed": null,
-  "live_traffic_filter_all": null,
-  "live_traffic_export_csv": null,
-  "live_traffic_export_json": null,
-  "live_traffic_copy_hash": null,
-  "live_traffic_foreign_hint": null,
-  "live_traffic_noise": null,
-  "live_traffic_per_min": null,
-  "live_traffic_stat_of": null,
-  "live_traffic_path_line": null
+  "mynode_scan_searching": {
+    "value": "Търсене на възли…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Уверете се, че възелът ви е включен и наблизо.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sent": {
+    "value": "Изпратени",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_received": {
+    "value": "Получени",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_timeouts": {
+    "value": "Таймаути",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR нагоре",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR надолу",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_waiting_reply": {
+    "value": "Изчакване на отговор…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_timeout": {
+    "value": "Таймаут",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_path_discovery": {
+    "value": "Откриване на път",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_samples": {
+    "value": "Проби",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_interval": {
+    "value": "Интервал между пробите",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_timeout": {
+    "value": "Таймаут на пробата",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_detail_blurb": {
+    "value": "Измерва времето за отговор и сигнала нагоре/надолу до този ретранслатор.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_settings_footer": {
+    "value": "Ping изпраща N проби на един хоп до ретранслатор и отчита времето за отговор и сигнала нагоре/надолу. Пробите се изпращат последователно (през интервал); всяка чака отговор до изтичане на таймаута. По подразбиране: 3 проби, интервал 2000 ms, таймаут 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_settings_footer": {
+    "value": "Traceroute проверява маршрут, който сте избрали хоп по хоп, и отчита сигнала на всеки хоп. Еднократно (без повторения) — вие сте избрали пътя. По подразбиране: таймаут 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Добавете ретранслатори в реда, в който пробата да ги посети.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_repeater": {
+    "value": "Добавяне на ретранслатор",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_hops": {
+    "value": "Хопове",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Първият ретранслатор трябва да ви чува, а вие трябва да чуете отговора на последния — изберете път, който знаете, че е достижим.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_run": {
+    "value": "Стартиране на traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR на връщане",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_result": {
+    "value": "Резултат",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_no_response": {
+    "value": "Няма отговор — пътят може да не е достижим.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_diagnostics": {
+    "value": "Диагностика",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Проверете маршрут, избран хоп по хоп, и вижте сигнала на всеки хоп.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_search_hint": {
+    "value": "Търсене по име или шестнадесетичен префикс",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "map_show_on_map": {
+    "value": "Показване на картата",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "map_you": {
+    "value": "Вие",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_roundtrip": {
+    "value": "Време за отговор",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_target_heard_only": {
+    "value": "само чут",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Избор от картата",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Докоснете ретранслаторите в реда на посещение",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Няма свързан възел — свържете companion устройство, за да изпращате.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Това лично съобщение принадлежи на %1$s. Свързани сте като %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_language": {
+    "value": "Език",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Отваряне на езиковите настройки",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "По подразбиране KiekR следва езика на устройството ви. За да изберете друг език само за KiekR, отворете системните настройки и го изберете там.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_appearance": {
+    "value": "Външен вид",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Автоматично",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Светло",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Тъмно",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "„Автоматично“ следва настройката светло/тъмно на устройството ви. Изберете „Светло“ или „Тъмно“, за да я промените само за KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Трафик на живо",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Все още няма пакети",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Всеки кадър, който вашият възел чуе, се появява тук — нищо не се филтрира.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Без филтриране — появяват се декодирани, шифровани за други, непознати и повредени кадри.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Пауза",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Продължаване",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_clear": {
+    "value": "Изчистване",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Без филтър · всички пакети",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "показва всеки получен кадър — дори нечетимото",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "общо",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Мрежа",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Тиха",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Активна",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Натоварена",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Ср. SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Мулти-хоп",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Недекодируеми",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "все пак в списъка",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Всички",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Експортиране на CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Експортиране на JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Копиране на хеша на пакета",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "шифровано — не е за това устройство",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "шум %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / мин",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "от %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "път · %1$d байта/хоп · %2$d хопа",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  }
 }

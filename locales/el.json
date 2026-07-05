@@ -6525,7 +6525,14 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_discover_found": null,
+  "nodes_discover_found": {
+    "plural": {
+      "one": "Βρέθηκε %1$d κόμβος",
+      "other": "Βρέθηκαν %1$d κόμβοι"
+    },
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "node_detail_retrieve_firmware": {
     "value": "Ανάκτηση έκδοσης υλικολογισμικού",
     "_ai": true,
@@ -7006,79 +7013,379 @@
     "_ai": true,
     "_seeded": "2026-06-29"
   },
-  "mynode_scan_searching": null,
-  "mynode_scan_searching_hint": null,
-  "ping_action": null,
-  "ping_sent": null,
-  "ping_received": null,
-  "ping_timeouts": null,
-  "ping_rtt": null,
-  "ping_uplink_snr": null,
-  "ping_downlink_snr": null,
-  "ping_waiting_reply": null,
-  "settings_timeout": null,
-  "settings_path_discovery": null,
-  "ping_samples": null,
-  "ping_sample_interval": null,
-  "ping_sample_timeout": null,
-  "traceroute_title": null,
-  "ping_detail_blurb": null,
-  "ping_settings_footer": null,
-  "traceroute_settings_footer": null,
-  "traceroute_add_hops_hint": null,
-  "traceroute_add_repeater": null,
-  "traceroute_hops": null,
-  "traceroute_reachability_hint": null,
-  "traceroute_run": null,
-  "traceroute_return_snr": null,
-  "traceroute_result": null,
-  "traceroute_no_response": null,
-  "tools_diagnostics": null,
-  "tools_traceroute_blurb": null,
-  "traceroute_search_hint": null,
-  "map_show_on_map": null,
-  "map_you": null,
-  "traceroute_roundtrip": null,
-  "traceroute_target_heard_only": null,
-  "traceroute_choose_on_map": null,
-  "traceroute_map_select_hint": null,
-  "chat_compose_gate_no_node": null,
-  "chat_compose_gate_identity": null,
-  "settings_home_entry_language": null,
-  "settings_language_open_button": null,
-  "settings_language_footer": null,
-  "settings_language_cd_back": null,
-  "settings_home_entry_appearance": null,
-  "settings_appearance_mode_system": null,
-  "settings_appearance_mode_light": null,
-  "settings_appearance_mode_dark": null,
-  "settings_appearance_footer": null,
-  "settings_appearance_cd_back": null,
-  "live_traffic_title": null,
-  "live_traffic_empty_title": null,
-  "live_traffic_empty_desc": null,
-  "live_traffic_footer": null,
-  "live_traffic_pause": null,
-  "live_traffic_resume": null,
-  "live_traffic_clear": null,
-  "live_traffic_hero_title": null,
-  "live_traffic_hero_sub": null,
-  "live_traffic_total": null,
-  "live_traffic_stat_mesh": null,
-  "live_traffic_mesh_quiet": null,
-  "live_traffic_mesh_active": null,
-  "live_traffic_mesh_busy": null,
-  "live_traffic_stat_snr_rssi": null,
-  "live_traffic_stat_multihop": null,
-  "live_traffic_stat_undecodable": null,
-  "live_traffic_still_listed": null,
-  "live_traffic_filter_all": null,
-  "live_traffic_export_csv": null,
-  "live_traffic_export_json": null,
-  "live_traffic_copy_hash": null,
-  "live_traffic_foreign_hint": null,
-  "live_traffic_noise": null,
-  "live_traffic_per_min": null,
-  "live_traffic_stat_of": null,
-  "live_traffic_path_line": null
+  "mynode_scan_searching": {
+    "value": "Αναζήτηση κόμβων…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Βεβαιωθείτε ότι ο κόμβος σας είναι ενεργοποιημένος και κοντά σας.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sent": {
+    "value": "Στάλθηκαν",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_received": {
+    "value": "Ελήφθησαν",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_timeouts": {
+    "value": "Λήξεις χρόνου",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR uplink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR downlink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_waiting_reply": {
+    "value": "Αναμονή απάντησης…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_timeout": {
+    "value": "Χρονικό όριο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_path_discovery": {
+    "value": "Ανακάλυψη διαδρομής",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_samples": {
+    "value": "Δείγματα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_interval": {
+    "value": "Διάστημα δειγμάτων",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_timeout": {
+    "value": "Χρονικό όριο δείγματος",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_detail_blurb": {
+    "value": "Μετρά τον χρόνο μετ' επιστροφής και το σήμα uplink/downlink προς αυτόν τον επαναλήπτη.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_settings_footer": {
+    "value": "Το ping στέλνει N δοκιμές ενός άλματος σε έναν επαναλήπτη και αναφέρει τον χρόνο μετ' επιστροφής και το σήμα uplink/downlink. Τα δείγματα στέλνονται διαδοχικά (ανά διάστημα)· καθένα περιμένει απάντηση έως το χρονικό όριο. Προεπιλογές: 3 δείγματα, διάστημα 2000 ms, όριο 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_settings_footer": {
+    "value": "Το traceroute δοκιμάζει μια διαδρομή που επιλέξατε άλμα-άλμα και αναφέρει το σήμα ανά άλμα. Μία φορά (χωρίς επαναλήψεις) — τη διαδρομή την επιλέξατε εσείς. Προεπιλογή: όριο 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Προσθέστε επαναλήπτες με τη σειρά που θα τους επισκεφθεί η δοκιμή.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_repeater": {
+    "value": "Προσθήκη επαναλήπτη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_hops": {
+    "value": "Άλματα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Ο πρώτος επαναλήπτης πρέπει να σας ακούει και εσείς να ακούτε την απάντηση του τελευταίου — επιλέξτε διαδρομή που ξέρετε ότι είναι εφικτή.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_run": {
+    "value": "Εκτέλεση traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR επιστροφής",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_result": {
+    "value": "Αποτέλεσμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_no_response": {
+    "value": "Καμία απάντηση — η διαδρομή ίσως δεν είναι προσβάσιμη.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_diagnostics": {
+    "value": "Διαγνωστικά",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Δοκιμάστε μια διαδρομή που επιλέγετε άλμα-άλμα και δείτε το σήμα σε κάθε άλμα.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_search_hint": {
+    "value": "Αναζήτηση με όνομα ή δεκαεξαδικό πρόθεμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "map_show_on_map": {
+    "value": "Εμφάνιση στον χάρτη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "map_you": {
+    "value": "Εσείς",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_roundtrip": {
+    "value": "Μετ' επιστροφής",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_target_heard_only": {
+    "value": "μόνο ακούστηκε",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Επιλογή στον χάρτη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Πατήστε τους επαναλήπτες με σειρά επίσκεψης",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Κανένας κόμβος συνδεδεμένος — συνδέστε μια συσκευή companion για αποστολή.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Αυτό το προσωπικό μήνυμα ανήκει στον/στην %1$s. Είστε συνδεδεμένοι ως %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_language": {
+    "value": "Γλώσσα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Άνοιγμα ρυθμίσεων γλώσσας",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "Το KiekR ακολουθεί από προεπιλογή τη γλώσσα της συσκευής σας. Για διαφορετική γλώσσα μόνο στο KiekR, ανοίξτε τις ρυθμίσεις συστήματος και επιλέξτε την εκεί.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_cd_back": {
+    "value": "Πίσω",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_appearance": {
+    "value": "Εμφάνιση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Αυτόματο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Φωτεινό",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Σκούρο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "Το «Αυτόματο» ακολουθεί τη ρύθμιση φωτεινό/σκούρο της συσκευής σας. Επιλέξτε Φωτεινό ή Σκούρο για να την παρακάμψετε μόνο για το KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Πίσω",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Ζωντανή κίνηση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Κανένα πακέτο ακόμη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Κάθε πλαίσιο που ακούει ο κόμβος σας εμφανίζεται εδώ — τίποτα δεν φιλτράρεται.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Χωρίς φίλτρο — εμφανίζονται πλαίσια αποκωδικοποιημένα, κρυπτογραφημένα για άλλους, άγνωστα και κατεστραμμένα.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Παύση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Συνέχιση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_clear": {
+    "value": "Εκκαθάριση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Χωρίς φίλτρο · όλα τα πακέτα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "δείχνει κάθε πλαίσιο που λαμβάνεται — ακόμη κι ό,τι δεν διαβάζεται",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "σύνολο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Πλέγμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Ήσυχο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Ενεργό",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Απασχολημένο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Μέσο SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Πολλαπλών αλμάτων",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Μη αποκωδικοποιήσιμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "εμφανίζεται παρ' όλα αυτά",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Όλα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Εξαγωγή CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Εξαγωγή JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Αντιγραφή hash πακέτου",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "κρυπτογραφημένο — όχι για αυτήν τη συσκευή",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "θόρυβος %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / λεπτό",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "από %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "διαδρομή · %1$d byte/άλμα · %2$d άλματα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  }
 }

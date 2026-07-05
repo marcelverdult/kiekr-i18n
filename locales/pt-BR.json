@@ -7014,8 +7014,16 @@
     "_ai": true,
     "_seeded": "2026-06-29"
   },
-  "mynode_scan_searching": null,
-  "mynode_scan_searching_hint": null,
+  "mynode_scan_searching": {
+    "value": "Procurando nós…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Verifique se o seu nó está ligado e por perto.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "ping_action": {
     "value": "Ping",
     "_ai": true,
@@ -7186,43 +7194,199 @@
     "_ai": true,
     "_seeded": "2026-07-01"
   },
-  "chat_compose_gate_no_node": null,
-  "chat_compose_gate_identity": null,
-  "settings_home_entry_language": null,
-  "settings_language_open_button": null,
-  "settings_language_footer": null,
-  "settings_language_cd_back": null,
-  "settings_home_entry_appearance": null,
-  "settings_appearance_mode_system": null,
-  "settings_appearance_mode_light": null,
-  "settings_appearance_mode_dark": null,
-  "settings_appearance_footer": null,
-  "settings_appearance_cd_back": null,
-  "live_traffic_title": null,
-  "live_traffic_empty_title": null,
-  "live_traffic_empty_desc": null,
-  "live_traffic_footer": null,
-  "live_traffic_pause": null,
-  "live_traffic_resume": null,
-  "live_traffic_clear": null,
-  "live_traffic_hero_title": null,
-  "live_traffic_hero_sub": null,
-  "live_traffic_total": null,
-  "live_traffic_stat_mesh": null,
-  "live_traffic_mesh_quiet": null,
-  "live_traffic_mesh_active": null,
-  "live_traffic_mesh_busy": null,
-  "live_traffic_stat_snr_rssi": null,
-  "live_traffic_stat_multihop": null,
-  "live_traffic_stat_undecodable": null,
-  "live_traffic_still_listed": null,
-  "live_traffic_filter_all": null,
-  "live_traffic_export_csv": null,
-  "live_traffic_export_json": null,
-  "live_traffic_copy_hash": null,
-  "live_traffic_foreign_hint": null,
-  "live_traffic_noise": null,
-  "live_traffic_per_min": null,
-  "live_traffic_stat_of": null,
-  "live_traffic_path_line": null
+  "chat_compose_gate_no_node": {
+    "value": "Nenhum nó conectado — conecte um companion para enviar.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Esta mensagem direta pertence a %1$s. Você está conectado como %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_language": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Abrir ajustes de idioma",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "Por padrão, o KiekR segue o idioma do seu dispositivo. Para escolher outro idioma somente para o KiekR, abra os ajustes do sistema e selecione um lá.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_cd_back": {
+    "value": "Voltar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_appearance": {
+    "value": "Aparência",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Automático",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Claro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Escuro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "Automático segue o ajuste claro/escuro do seu dispositivo. Escolha Claro ou Escuro para substituí-lo somente no KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Voltar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Tráfego ao vivo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Nenhum pacote ainda",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Todo frame que o seu nó ouve aparece aqui — nada é filtrado.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Sem filtro — frames decodificados, criptografados para outros, desconhecidos e malformados aparecem todos.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Pausar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Retomar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_clear": {
+    "value": "Limpar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Sem filtro · todos os pacotes",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "mostra cada frame recebido — até o que não dá para ler",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "total",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Malha",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Tranquila",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Ativa",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Ocupada",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "SNR / RSSI médios",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Multissalto",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Não decodificável",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "ainda listado",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Todos",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Exportar CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Exportar JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Copiar hash do pacote",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "criptografado — não é para este dispositivo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "ruído %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / min",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "de %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "caminho · %1$d bytes/salto · %2$d saltos",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  }
 }

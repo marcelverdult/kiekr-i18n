@@ -5648,8 +5648,16 @@
     "_ai": true,
     "_seeded": "2026-06-29"
   },
-  "mynode_scan_searching": null,
-  "mynode_scan_searching_hint": null,
+  "mynode_scan_searching": {
+    "value": "Ricerca nodi…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Assicurati che il tuo nodo sia acceso e nelle vicinanze.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "ping_action": {
     "value": "Ping",
     "_ai": true,
@@ -5820,43 +5828,199 @@
     "_ai": true,
     "_seeded": "2026-07-01"
   },
-  "chat_compose_gate_no_node": null,
-  "chat_compose_gate_identity": null,
-  "settings_home_entry_language": null,
-  "settings_language_open_button": null,
-  "settings_language_footer": null,
-  "settings_language_cd_back": null,
-  "settings_home_entry_appearance": null,
-  "settings_appearance_mode_system": null,
-  "settings_appearance_mode_light": null,
-  "settings_appearance_mode_dark": null,
-  "settings_appearance_footer": null,
-  "settings_appearance_cd_back": null,
-  "live_traffic_title": null,
-  "live_traffic_empty_title": null,
-  "live_traffic_empty_desc": null,
-  "live_traffic_footer": null,
-  "live_traffic_pause": null,
-  "live_traffic_resume": null,
-  "live_traffic_clear": null,
-  "live_traffic_hero_title": null,
-  "live_traffic_hero_sub": null,
-  "live_traffic_total": null,
-  "live_traffic_stat_mesh": null,
-  "live_traffic_mesh_quiet": null,
-  "live_traffic_mesh_active": null,
-  "live_traffic_mesh_busy": null,
-  "live_traffic_stat_snr_rssi": null,
-  "live_traffic_stat_multihop": null,
-  "live_traffic_stat_undecodable": null,
-  "live_traffic_still_listed": null,
-  "live_traffic_filter_all": null,
-  "live_traffic_export_csv": null,
-  "live_traffic_export_json": null,
-  "live_traffic_copy_hash": null,
-  "live_traffic_foreign_hint": null,
-  "live_traffic_noise": null,
-  "live_traffic_per_min": null,
-  "live_traffic_stat_of": null,
-  "live_traffic_path_line": null
+  "chat_compose_gate_no_node": {
+    "value": "Nessun nodo connesso — collega un companion per inviare.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Questo messaggio diretto appartiene a %1$s. Sei connesso come %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_language": {
+    "value": "Lingua",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Apri impostazioni lingua",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "KiekR segue per impostazione predefinita la lingua del dispositivo. Per usare una lingua diversa solo per KiekR, apri le impostazioni di sistema e sceglila lì.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_cd_back": {
+    "value": "Indietro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_home_entry_appearance": {
+    "value": "Aspetto",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Automatico",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Chiaro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Scuro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "Automatico segue l'impostazione chiaro/scuro del tuo dispositivo. Scegli Chiaro o Scuro per sostituirla solo per KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Indietro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Traffico live",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Ancora nessun pacchetto",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Ogni frame che il tuo nodo sente compare qui — niente viene filtrato.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Non filtrato — compaiono frame decodificati, cifrati per altri, sconosciuti e malformati.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Pausa",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Riprendi",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_clear": {
+    "value": "Svuota",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Non filtrato · tutti i pacchetti",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "mostra ogni frame ricevuto — anche ciò che non si può leggere",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "totale",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Mesh",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Tranquilla",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Attiva",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Occupata",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "SNR / RSSI medi",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Multi-hop",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Non decodificabile",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "comunque elencato",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Tutti",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Esporta CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Esporta JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Copia hash del pacchetto",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "cifrato — non per questo dispositivo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "rumore %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / min",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "di %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "percorso · %1$d byte/hop · %2$d hop",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  }
 }
