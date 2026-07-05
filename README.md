@@ -87,8 +87,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 ## How translations reach the app
 
-- A push to `main` cuts a dated GitHub Release with a tarball of
-  `locales/` and a `SHA256SUM`.
+- Every push to `main` that touches `locales/` runs one pipeline
+  ([`i18n.yml`](.github/workflows/i18n.yml)): missing keys are
+  materialized, DeepL fills them (`_ai: true`), everything is
+  validated, and only then is a single dated GitHub Release cut with
+  a tarball of `locales/` and a `SHA256SUM`. The latest release is
+  therefore always the complete, post-seed state.
+- A nightly run retries anything DeepL left untranslated.
 - The KiekR app build scripts fetch the latest release tarball at
   release-build time and embed it.
 - We do not ship community translations to end users until they

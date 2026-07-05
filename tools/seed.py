@@ -40,6 +40,20 @@ TODAY = date.today().isoformat()
 
 PLACEHOLDER_RE = re.compile(r"(%\d+\$[sd]|%[sd@]|%(?:\.\d+)?[fld]+|#)")
 
+# Same pattern validate.py enforces — used to self-check every translation
+# before it is written, so one mangled DeepL result can no longer turn the
+# whole run red downstream.
+VALIDATE_PLACEHOLDER_RE = re.compile(r"%\d+\$[sd]|%[sd@]|%(?:\.\d+)?[fld]+")
+
+
+def placeholders_ok(source: str, translated: str) -> bool:
+    """True when the translation carries exactly the placeholders of the
+    source (as a multiset — order may legitimately differ across languages).
+    """
+    return sorted(VALIDATE_PLACEHOLDER_RE.findall(source)) == sorted(
+        VALIDATE_PLACEHOLDER_RE.findall(translated)
+    )
+
 
 def load(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -203,6 +217,10 @@ def main() -> int:
         "uk":    "UK",
     }
 
+    total_seeded = 0
+    skipped_error = 0
+    skipped_bad = 0
+
     for path in sorted(LOCALES_DIR.glob("*.json")):
         if path.name in OWNED:
             continue
@@ -224,54 +242,83 @@ def main() -> int:
             )
             glossary_id = g.glossary_id
 
-        data = load(path)
-        # Gather every (key, source) that still needs translating
-        pending: list[tuple[str, str]] = []
-        for k, v in en.items():
-            if k == "_meta":
-                continue
-            if k not in data:
-                continue
-            if not needs_translation(data[k]):
-                continue
-            src = en_value(v)
-            if src is None:
-                continue
-            pending.append((k, src))
+        try:
+            data = load(path)
+            # Gather every (key, source) that still needs translating
+            pending: list[tuple[str, str]] = []
+            for k, v in en.items():
+                if k == "_meta":
+                    continue
+                if k not in data:
+                    continue
+                if not needs_translation(data[k]):
+                    continue
+                src = en_value(v)
+                if src is None:
+                    continue
+                pending.append((k, src))
 
-        seeded = 0
-        for i in range(0, len(pending), BATCH_SIZE):
-            chunk = pending[i:i + BATCH_SIZE]
-            keys = [k for k, _ in chunk]
-            texts = [s for _, s in chunk]
-            try:
-                translations = translate_batch(translator, texts, target, glossary_id)
-            except Exception as e:
-                print(f"  batch {i}-{i + len(chunk)}: DeepL error: "
-                      f"{_sanitize(str(e), SECRET)}", file=sys.stderr)
-                continue
-            for k, tr in zip(keys, translations):
-                # Hard invariant: we only ever fill `null`. If the entry
-                # somehow holds a real value here, abort rather than
-                # overwrite human / already-reviewed text.
-                if data[k] is not None:
-                    raise RuntimeError(
-                        f"refusing to overwrite non-null entry {k!r} "
-                        f"in {path.name} (value: {data[k]!r})"
-                    )
-                data[k] = {"value": tr, "_ai": True, "_seeded": TODAY}
-                seeded += 1
+            seeded = 0
+            for i in range(0, len(pending), BATCH_SIZE):
+                chunk = pending[i:i + BATCH_SIZE]
+                keys = [k for k, _ in chunk]
+                texts = [s for _, s in chunk]
+                try:
+                    translations = translate_batch(translator, texts, target, glossary_id)
+                except Exception as e:
+                    print(f"  batch {i}-{i + len(chunk)}: DeepL error: "
+                          f"{_sanitize(str(e), SECRET)}", file=sys.stderr)
+                    skipped_error += len(chunk)
+                    continue
+                for k, tr in zip(keys, translations):
+                    src = en.get(k)
+                    src_text = en_value(src) or ""
+                    # Self-check: a translation that lost or invented a
+                    # placeholder stays null (retried next run) instead of
+                    # poisoning the catalog and failing validate later.
+                    if not placeholders_ok(src_text, tr):
+                        print(f"::warning file=locales/{path.name}::"
+                              f"{k}: DeepL mangled placeholders "
+                              f"({src_text!r} -> {tr!r}); left null")
+                        skipped_bad += 1
+                        continue
+                    # Hard invariant: we only ever fill `null`. If the entry
+                    # somehow holds a real value here, abort rather than
+                    # overwrite human / already-reviewed text.
+                    if data[k] is not None:
+                        raise RuntimeError(
+                            f"refusing to overwrite non-null entry {k!r} "
+                            f"in {path.name} (value: {data[k]!r})"
+                        )
+                    data[k] = {"value": tr, "_ai": True, "_seeded": TODAY}
+                    seeded += 1
 
-        if seeded:
-            data.setdefault("_meta", {"language": lang})["updated"] = TODAY
-            dump(path, data)
-            print(f"{lang}: seeded {seeded} keys (batched, {(seeded + BATCH_SIZE - 1) // BATCH_SIZE} requests)")
-        else:
-            print(f"{lang}: nothing to seed")
+            if seeded:
+                data.setdefault("_meta", {"language": lang})["updated"] = TODAY
+                dump(path, data)
+                print(f"{lang}: seeded {seeded} keys (batched, {(seeded + BATCH_SIZE - 1) // BATCH_SIZE} requests)")
+            else:
+                print(f"{lang}: nothing to seed")
+            total_seeded += seeded
+        finally:
+            # Always clean up the per-run glossary, even when a batch or the
+            # overwrite guard raised — otherwise zombie glossaries pile up in
+            # the DeepL account.
+            if glossary_id:
+                try:
+                    translator.delete_glossary(glossary_id)
+                except Exception as e:
+                    print(f"  glossary cleanup failed for {lang}: "
+                          f"{_sanitize(str(e), SECRET)}", file=sys.stderr)
 
-        if glossary_id:
-            translator.delete_glossary(glossary_id)
-
+    print(f"summary: seeded={total_seeded} "
+          f"skipped_deepl_error={skipped_error} "
+          f"skipped_bad_placeholders={skipped_bad}")
+    if skipped_error or skipped_bad:
+        # Not fatal: nulls are legal (app falls back to English) and the
+        # next scheduled run retries them. Surface it, stay green.
+        print(f"::warning::{skipped_error + skipped_bad} value(s) left null "
+              f"this run — the nightly/next run will retry them")
     return 0
 
 
