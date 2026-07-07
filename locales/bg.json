@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Отворете отново приложението, за да завърши зареждането на новата версия.",
@@ -7477,5 +7477,35 @@
     "value": "Изход от избора",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Импортирането приключи — %1$d идентичност, %2$d канали, %3$d региони, %4$d контакти, %5$d входове в ретранслатори, %6$d любими, %7$d блокирани податели, %8$d настройки.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Резервното копие е създадено от по-нова версия на приложението (схема %1$s) — приложено е възможно най-пълно.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Идентичността не е импортирана: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Пропуснато: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Непозната настройка е игнорирана: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Файлът не съдържа данни за импортиране.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }

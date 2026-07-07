@@ -3,7 +3,7 @@
     "language": "sv",
     "name": "Svenska",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Starta om appen för att slutföra nedladdningen av den nya versionen.",
@@ -7477,5 +7477,35 @@
     "value": "Avsluta markering",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Importen är klar — %1$d identiteter, %2$d kanaler, %3$d regioner, %4$d kontakter, %5$d repeater-inloggningar, %6$d favoriter, %7$d blockerade avsändare, %8$d inställningar.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Säkerhetskopian skapades av en nyare appversion (schema %1$s) — tillämpad i möjligaste mån.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identiteten importerades inte: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Hoppades över: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Okänd inställning ignorerades: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Filen innehöll inga data som kan importeras.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }

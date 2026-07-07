@@ -3,7 +3,7 @@
     "language": "ru",
     "name": "Русский",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Закройте и снова запустите приложение, чтобы завершить загрузку новой версии.",
@@ -7479,5 +7479,35 @@
     "value": "Выйти из режима выбора",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Импорт завершен — учетные записи %1$d, каналы %2$d, регионы %3$d, контакты %4$d, учетные записи ретрансляторов %5$d, избранное %6$d, заблокированные отправители %7$d, настройки %8$d.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Резервная копия создана более новой версией приложения (схема %1$s) — применено по мере возможности.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Учетная запись не импортирована: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Пропущено: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Неизвестная настройка проигнорирована: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Файл не содержал данных для импорта.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }

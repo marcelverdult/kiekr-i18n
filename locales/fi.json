@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Käynnistä sovellus uudelleen, jotta uuden version lataaminen saadaan päätökseen.",
@@ -7477,5 +7477,35 @@
     "value": "Poistu valinnasta",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Tuonti valmis — %1$d tunnukset, %2$d kanavat, %3$d alueet, %4$d yhteystiedot, %5$d toistimen kirjautumistiedot, %6$d suosikit, %7$d estetyt lähettäjät, %8$d asetukset.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Varmuuskopio on tehty uudemmalla sovellusversiolla (skeema %1$s) — otettiin käyttöön mahdollisuuksien mukaan.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Tunnusta ei tuotu: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Ohitettu: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Tuntematon asetus ohitettu: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Tiedosto ei sisältänyt tuotavia tietoja.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }

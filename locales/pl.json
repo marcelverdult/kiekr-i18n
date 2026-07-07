@@ -3,7 +3,7 @@
     "language": "pl",
     "name": "Polski",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Uruchom ponownie aplikację, aby zakończyć ładowanie nowej wersji.",
@@ -7470,5 +7470,35 @@
     "value": "Zakończ zaznaczanie",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Import zakończony — tożsamości: %1$d, kanały: %2$d, regiony: %3$d, kontakty: %4$d, logowania do przekaźników: %5$d, ulubione: %6$d, zablokowani nadawcy: %7$d, ustawienia: %8$d.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Kopia zapasowa pochodzi z nowszej wersji aplikacji (schemat %1$s) — zastosowano w miarę możliwości.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Nie zaimportowano tożsamości: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Pominięto: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Zignorowano nieznane ustawienie: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Plik nie zawierał danych do zaimportowania.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }

@@ -3,7 +3,7 @@
     "language": "es",
     "name": "Español",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Vuelve a abrir la app para terminar de cargar la nueva versión.",
@@ -6198,5 +6198,35 @@
     "value": "Salir de la selección",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Importación hecha — %1$d identidad, %2$d canales, %3$d regiones, %4$d contactos, %5$d inicios de sesión de repetidores, %6$d favoritos, %7$d remitentes bloqueados, %8$d ajustes.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "La copia de seguridad proviene de una versión más reciente de la app (esquema %1$s) — se aplicó en la medida de lo posible.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identidad no importada: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Omitido: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Ajuste desconocido ignorado: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "El archivo no contenía datos importables.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }

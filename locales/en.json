@@ -3,7 +3,7 @@
     "language": "en",
     "name": "English",
     "managed_by": "kiekr-team",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": "Reopen the app to finish loading the new version.",
   "app_upgrade_button": "Reopen now",
@@ -1503,5 +1503,11 @@
   "nodes_bulk_delete_title": "Delete %1$d contacts permanently?",
   "nodes_bulk_delete_favorites_warning": "Including %1$d favorites.",
   "nodes_bulk_delete_device_note": "Contacts installed on the connected node are removed there as well.",
-  "nodes_cd_exit_selection": "Exit selection"
+  "nodes_cd_exit_selection": "Exit selection",
+  "settings_backup_import_done_v2": "Import done — %1$d identity, %2$d channels, %3$d regions, %4$d contacts, %5$d repeater logins, %6$d favorites, %7$d blocked senders, %8$d settings.",
+  "settings_backup_warn_newer_schema": "Backup was written by a newer app version (schema %1$s) — applied best effort.",
+  "settings_backup_warn_identity_refused": "Identity not imported: %1$s",
+  "settings_backup_warn_entry_skipped": "Skipped: %1$s",
+  "settings_backup_warn_unknown_pref": "Ignored unknown setting: %1$s",
+  "settings_backup_warn_empty_bundle": "The file contained no importable data."
 }

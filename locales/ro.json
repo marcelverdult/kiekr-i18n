@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Redeschide aplicația pentru a finaliza încărcarea noii versiuni.",
@@ -7478,5 +7478,35 @@
     "value": "Ieșire din selecție",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Importul s-a finalizat — %1$d identități, %2$d canale, %3$d regiuni, %4$d contacte, %5$d autentificări la repetoare, %6$d favorite, %7$d expeditori blocați, %8$d setări.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Copia de rezervă a fost creată de o versiune mai nouă a aplicației (schema %1$s) — aplicată în măsura posibilului.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identitatea nu a fost importată: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Omis: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Setare necunoscută ignorată: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Fișierul nu conținea date importabile.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }

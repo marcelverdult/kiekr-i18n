@@ -3,7 +3,7 @@
     "language": "da",
     "name": "Dansk",
     "managed_by": "community",
-    "updated": "2026-07-06"
+    "updated": "2026-07-07"
   },
   "app_upgrade_body": {
     "value": "Åbn appen igen for at fuldføre indlæsningen af den nye version.",
@@ -7477,5 +7477,35 @@
     "value": "Afslut markering",
     "_ai": true,
     "_seeded": "2026-07-06"
+  },
+  "settings_backup_import_done_v2": {
+    "value": "Importen er afsluttet — %1$d identiteter, %2$d kanaler, %3$d regioner, %4$d kontakter, %5$d repeater-loginoplysninger, %6$d favoritter, %7$d blokerede afsendere, %8$d indstillinger.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Sikkerhedskopien er oprettet med en nyere app-version (skema %1$s) — anvendt efter bedste evne.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identiteten blev ikke importeret: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Sprunget over: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Ukendt indstilling ignoreret: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Filen indeholdt ingen data, der kan importeres.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   }
 }
