@@ -3,7 +3,7 @@
     "language": "ru",
     "name": "Русский",
     "managed_by": "community",
-    "updated": "2026-07-21"
+    "updated": "2026-07-22"
   },
   "app_upgrade_body": {
     "value": "Закройте и снова запустите приложение, чтобы завершить загрузку новой версии.",
@@ -7515,14 +7515,54 @@
     "_ai": true,
     "_seeded": "2026-07-07"
   },
-  "chat_heard_n_times": null,
-  "chat_hops_range": null,
-  "chat_heard_n_times_a11y": null,
-  "chat_hops_range_a11y": null,
-  "chat_detail_times_heard": null,
-  "chat_detail_reception_of": null,
-  "chat_detail_path_unknown_direct": null,
-  "chat_detail_receptions_overflow": null,
-  "chat_detail_receptions_lower_bound": null,
-  "chat_detail_time": null
+  "chat_heard_n_times": {
+    "value": "услышано %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d хопов",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "услышано %1$d раз",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "принято через число хопов от %1$d до %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Услышано",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_reception_of": {
+    "value": "Приём %1$d из %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_path_unknown_direct": {
+    "value": "неизвестен (прямая маршрутизация)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d дополнительных копий (не сохраняются по отдельности)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Число — нижняя граница: при плотном трафике копии могут теряться, не дойдя до приложения.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_time": {
+    "value": "Время",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  }
 }

@@ -3,7 +3,7 @@
     "language": "es",
     "name": "Español",
     "managed_by": "community",
-    "updated": "2026-07-21"
+    "updated": "2026-07-22"
   },
   "app_upgrade_body": {
     "value": "Vuelve a abrir la app para terminar de cargar la nueva versión.",
@@ -6234,14 +6234,54 @@
     "_ai": true,
     "_seeded": "2026-07-07"
   },
-  "chat_heard_n_times": null,
-  "chat_hops_range": null,
-  "chat_heard_n_times_a11y": null,
-  "chat_hops_range_a11y": null,
-  "chat_detail_times_heard": null,
-  "chat_detail_reception_of": null,
-  "chat_detail_path_unknown_direct": null,
-  "chat_detail_receptions_overflow": null,
-  "chat_detail_receptions_lower_bound": null,
-  "chat_detail_time": null
+  "chat_heard_n_times": {
+    "value": "oído %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d saltos",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "oído %1$d veces",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "recibido a través de %1$d a %2$d saltos",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Oído",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_reception_of": {
+    "value": "Recepción %1$d de %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_path_unknown_direct": {
+    "value": "desconocida (enrutado directo)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d copias más (no se guardan individualmente)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "El recuento es un límite inferior: con mucho tráfico pueden perderse copias antes de llegar a la app.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_time": {
+    "value": "Hora",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  }
 }

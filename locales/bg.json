@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-07-21"
+    "updated": "2026-07-22"
   },
   "app_upgrade_body": {
     "value": "Отворете отново приложението, за да завърши зареждането на новата версия.",
@@ -7513,14 +7513,54 @@
     "_ai": true,
     "_seeded": "2026-07-07"
   },
-  "chat_heard_n_times": null,
-  "chat_hops_range": null,
-  "chat_heard_n_times_a11y": null,
-  "chat_hops_range_a11y": null,
-  "chat_detail_times_heard": null,
-  "chat_detail_reception_of": null,
-  "chat_detail_path_unknown_direct": null,
-  "chat_detail_receptions_overflow": null,
-  "chat_detail_receptions_lower_bound": null,
-  "chat_detail_time": null
+  "chat_heard_n_times": {
+    "value": "чуто %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d хопа",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "чуто %1$d пъти",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "прието през %1$d до %2$d хопа",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Чуто",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_reception_of": {
+    "value": "Приемане %1$d от %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_path_unknown_direct": {
+    "value": "неизвестен (директно рутиране)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d още копия (не се съхраняват поотделно)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Броят е долна граница — при натоварен трафик копия могат да се загубят, преди да стигнат до приложението.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_time": {
+    "value": "Час",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  }
 }

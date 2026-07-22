@@ -3,7 +3,7 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-07-21"
+    "updated": "2026-07-22"
   },
   "app_upgrade_body": {
     "value": "Atveriet lietotni no jauna, lai pabeigtu jaunās versijas ielādi.",
@@ -7514,14 +7514,54 @@
     "_ai": true,
     "_seeded": "2026-07-07"
   },
-  "chat_heard_n_times": null,
-  "chat_hops_range": null,
-  "chat_heard_n_times_a11y": null,
-  "chat_hops_range_a11y": null,
-  "chat_detail_times_heard": null,
-  "chat_detail_reception_of": null,
-  "chat_detail_path_unknown_direct": null,
-  "chat_detail_receptions_overflow": null,
-  "chat_detail_receptions_lower_bound": null,
-  "chat_detail_time": null
+  "chat_heard_n_times": {
+    "value": "dzirdēts %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d lēcieni",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "dzirdēts %1$d reizes",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "saņemts caur %1$d līdz %2$d lēcieniem",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Dzirdēts",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_reception_of": {
+    "value": "Uztveršana %1$d no %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_path_unknown_direct": {
+    "value": "nezināms (tiešā maršrutēšana)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d papildu kopijas (atsevišķi netiek saglabātas)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Skaits ir apakšējā robeža — intensīvā satiksmē kopijas var pazust, pirms tās sasniedz lietotni.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_time": {
+    "value": "Laiks",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  }
 }

@@ -3,7 +3,7 @@
     "language": "hr",
     "name": "Hrvatski",
     "managed_by": "community",
-    "updated": "2026-07-21"
+    "updated": "2026-07-22"
   },
   "app_upgrade_body": {
     "value": "Ponovno otvorite aplikaciju kako biste dovršili učitavanje nove verzije.",
@@ -7514,14 +7514,54 @@
     "_ai": true,
     "_seeded": "2026-07-07"
   },
-  "chat_heard_n_times": null,
-  "chat_hops_range": null,
-  "chat_heard_n_times_a11y": null,
-  "chat_hops_range_a11y": null,
-  "chat_detail_times_heard": null,
-  "chat_detail_reception_of": null,
-  "chat_detail_path_unknown_direct": null,
-  "chat_detail_receptions_overflow": null,
-  "chat_detail_receptions_lower_bound": null,
-  "chat_detail_time": null
+  "chat_heard_n_times": {
+    "value": "čulo se %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d hopova",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "čulo se %1$d puta",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "primljeno preko %1$d do %2$d hopova",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Primljeno",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_reception_of": {
+    "value": "Prijem %1$d od %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_path_unknown_direct": {
+    "value": "nepoznato (izravno usmjeravanje)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d dodatnih kopija (ne pohranjuju se pojedinačno)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Broj je donja granica — kod gustog prometa kopije se mogu izgubiti prije nego stignu u aplikaciju.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_time": {
+    "value": "Vrijeme",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  }
 }
