@@ -11,32 +11,32 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 |----------------|------|-----------:|------:|----------:|------------|
 | English        | `en` |       100% |  1553 |         0 | kiekr-team |
 | Deutsch        | `de` |       100% |  1553 |         0 | kiekr-team |
-| Español        | `es` |      98.0% |  1279 |       243 | community  |
-| Français       | `fr` |      98.0% |  1279 |       243 | community  |
-| Nederlands     | `nl` |      98.0% |  1279 |       243 | community  |
-| Italiano       | `it` |      98.0% |  1365 |       157 | community  |
-| Português (Brasil) | `pt-BR` |      98.0% |     1 |      1521 | community  |
-| Polski         | `pl` |      98.0% |    11 |      1511 | community  |
-| Български      | `bg` |      98.0% |     0 |      1522 | community  |
-| Čeština        | `cs` |      98.0% |     0 |      1522 | community  |
-| Dansk          | `da` |      98.0% |     0 |      1522 | community  |
-| Ελληνικά       | `el` |      98.0% |     0 |      1522 | community  |
-| Eesti          | `et` |      98.0% |     0 |      1522 | community  |
-| Suomi          | `fi` |      98.0% |     0 |      1522 | community  |
-| Gaeilge        | `ga` |      98.0% |     0 |      1522 | community  |
-| Hrvatski       | `hr` |      98.0% |     0 |      1522 | community  |
-| Magyar         | `hu` |      98.0% |     0 |      1522 | community  |
-| Lietuvių       | `lt` |      98.0% |     0 |      1522 | community  |
-| Latviešu       | `lv` |      98.0% |     0 |      1522 | community  |
-| Malti          | `mt` |      98.0% |     0 |      1522 | community  |
-| Norsk bokmål   | `nb` |      98.0% |     0 |      1522 | community  |
-| Português (Portugal) | `pt-PT` |      98.0% |     0 |      1522 | community  |
-| Română         | `ro` |      98.0% |     0 |      1522 | community  |
-| Русский        | `ru` |      98.0% |     0 |      1522 | community  |
-| Slovenčina     | `sk` |      98.0% |     0 |      1522 | community  |
-| Slovenščina    | `sl` |      98.0% |     0 |      1522 | community  |
-| Svenska        | `sv` |      98.0% |     0 |      1522 | community  |
-| Українська     | `uk` |      98.0% |     0 |      1522 | community  |
+| Español        | `es` |       100% |  1279 |       274 | community  |
+| Français       | `fr` |       100% |  1279 |       274 | community  |
+| Nederlands     | `nl` |       100% |  1279 |       274 | community  |
+| Italiano       | `it` |       100% |  1365 |       188 | community  |
+| Português (Brasil) | `pt-BR` |       100% |     1 |      1552 | community  |
+| Polski         | `pl` |       100% |    11 |      1542 | community  |
+| Български      | `bg` |       100% |     0 |      1553 | community  |
+| Čeština        | `cs` |       100% |     0 |      1553 | community  |
+| Dansk          | `da` |       100% |     0 |      1553 | community  |
+| Ελληνικά       | `el` |       100% |     0 |      1553 | community  |
+| Eesti          | `et` |       100% |     0 |      1553 | community  |
+| Suomi          | `fi` |       100% |     0 |      1553 | community  |
+| Gaeilge        | `ga` |       100% |     0 |      1553 | community  |
+| Hrvatski       | `hr` |       100% |     0 |      1553 | community  |
+| Magyar         | `hu` |       100% |     0 |      1553 | community  |
+| Lietuvių       | `lt` |       100% |     0 |      1553 | community  |
+| Latviešu       | `lv` |       100% |     0 |      1553 | community  |
+| Malti          | `mt` |       100% |     0 |      1553 | community  |
+| Norsk bokmål   | `nb` |       100% |     0 |      1553 | community  |
+| Português (Portugal) | `pt-PT` |       100% |     0 |      1553 | community  |
+| Română         | `ro` |       100% |     0 |      1553 | community  |
+| Русский        | `ru` |       100% |     0 |      1553 | community  |
+| Slovenčina     | `sk` |       100% |     0 |      1553 | community  |
+| Slovenščina    | `sl` |       100% |     0 |      1553 | community  |
+| Svenska        | `sv` |       100% |     0 |      1553 | community  |
+| Українська     | `uk` |       100% |     0 |      1553 | community  |
 
 <!-- status:end -->
 
