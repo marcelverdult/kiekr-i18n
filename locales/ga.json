@@ -3,8 +3,25 @@
     "language": "ga",
     "name": "Gaeilge",
     "managed_by": "community",
-    "updated": "2026-07-28"
+    "updated": "2026-07-30"
   },
+  "add_channel_duplicate_key": {
+    "value": "Is le \"%1$s\" an eochair seo cheana féin.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "add_channel_generate_key": {
+    "value": "Gin eochair randamach",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "app_safemode_body": null,
+  "app_safemode_reset_button": null,
+  "app_safemode_reset_done": null,
+  "app_safemode_reset_hint": null,
+  "app_safemode_share_button": null,
+  "app_safemode_start_button": null,
+  "app_safemode_title": null,
   "app_upgrade_body": {
     "value": "Athoscail an aip chun an leagan nua a lódáil go hiomlán.",
     "_ai": true,
@@ -80,6 +97,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_cd_jump_to_latest": {
+    "value": "Léim go dtí an ceann is déanaí",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "chat_cd_max_retries_reached": {
     "value": "An uasmhéid n-ath-iarrachtaí sroichte",
     "_ai": true,
@@ -134,6 +156,16 @@
     "value": "%1$d / %2$d slatán",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Is le %1$s an teachtaireacht dhíreach seo. Tá tú ceangailte mar %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Níl aon nód ceangailte — ceangail gléas companion chun seoladh.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "chat_compose_placeholder_disconnected": {
     "value": "Dícheangailte — athcheangail chun a sheoladh",
@@ -215,6 +247,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_hop_heard_no_position": {
+    "value": "Cloiste, suíomh anaithnid",
+    "_ai": true,
+    "_seeded": "2026-07-28"
+  },
   "chat_detail_hop_looking_up": {
     "value": "ag cuardach ar líne…",
     "_ai": true,
@@ -290,6 +327,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_path_unknown_direct": {
+    "value": "anaithnid (ródú díreach)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_path_unknown_from_device": {
     "value": "anaithnid — ón bhfeiste",
     "_ai": true,
@@ -319,6 +361,21 @@
     "value": "Cineál an ualaigh",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_reception_of": {
+    "value": "Glacadh %1$d de %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Is íosmhéid é an comhaireamh — le trácht trom, féadfaidh cóipeanna imeacht sula sroicheann siad an aip.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d cóip eile (ní stóráiltear ina gceann is ina gceann iad)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_repeat_of": {
     "value": "Déan athdhéanamh ar %1$d de chuid %2$d",
@@ -370,6 +427,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_show_reception_on_map": {
+    "value": "Taispeáin an glacadh seo ar an léarscáil",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_signal": {
     "value": "Comhartha",
     "_ai": true,
@@ -384,6 +446,16 @@
     "value": "Cion ardaithe",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_time": {
+    "value": "Am",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Cloiste",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_transport_code": {
     "value": "Cód iompair",
@@ -450,6 +522,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_heard_n_times": {
+    "value": "cloiste %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "cloiste %1$d uair",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_hidden_channel_action_footer": {
     "value": "Cuir an t-idirfhreagairt 'Add surfaces' sa chainéal le do liosta comhrá agus le do shocruithe. Neamhairdigh na leideanna todhchaí don eochair seo.",
     "_ai": true,
@@ -505,6 +587,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d léim",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "faighte thar %1$d go %2$d léim",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_install_button": {
     "value": "Suiteáil",
     "_ai": true,
@@ -535,10 +627,20 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_menu_block": {
+    "value": "Blocáil%1$s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "chat_menu_copy": {
     "value": "Cóipigh",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_menu_copy_path": {
+    "value": "Cóipeáil an chonair",
+    "_ai": true,
+    "_seeded": "2026-07-28"
   },
   "chat_menu_details": {
     "value": "Sonraí",
@@ -595,6 +697,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_path_width_a11y": {
+    "value": "cosán %1$d beart",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_path_width_chip": {
+    "value": "%1$dB",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_region_from_device": {
     "value": "ó ghléas",
     "_ai": true,
@@ -614,6 +726,21 @@
     "value": "Scóip an fhreagra: ",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_retry_duplicate_body": {
+    "value": "Tá an teachtaireacht seo craolta ag do nód cheana féin. Níor tháinig aon deimhniú ar ais, ach seans go bhfuair glacadóirí laistigh de raon í mar sin féin — má sheolann tú arís í, feicfidh siad faoi dhó í.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_confirm": {
+    "value": "Seol arís",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_title": {
+    "value": "Seol arís?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "chat_room_author_you": {
     "value": "Tusa",
@@ -775,6 +902,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "clock_reply_local_label": {
+    "value": "áitiúil",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "delete": {
     "value": "Scrios",
     "_ai": true,
@@ -789,6 +921,141 @@
     "value": "Curtha leis",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "live_traffic_clear": {
+    "value": "Glan",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Cóipeáil hais an phaicéid",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Taispeántar anseo gach fráma a chloiseann do nód — ní scagtar rud ar bith amach.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Níl aon phaicéid fós",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Easpórtáil CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Easpórtáil JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Uile",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Gan scagadh — taispeántar frámaí díchódaithe, criptithe do dhaoine eile, anaithnide agus lochtacha ar fad.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "criptithe — ní don ghléas seo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "taispeánann sé gach fráma a fhaightear — fiú an méid nach féidir a léamh",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Gan scagadh · gach paicéad",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Gníomhach",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Gnóthach",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Ciúin",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "torann %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "conair · %1$d beart/hop · %2$d hop",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Cuir ar sos",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / nóim",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Lean ar aghaidh",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Eangach",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Il-hop",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "as %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Meán-SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Dodhíchódaithe",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "liostaithe mar sin féin",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Trácht beo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "iomlán",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "map_age_15_min": {
     "value": "15 nóim",
@@ -1130,6 +1397,41 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "map_route_a11y": {
+    "value": "Bealach %1$d, cloiste %2$d uair",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_route_n_count": {
+    "value": "Bealach %1$d (%2$d×)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_all": {
+    "value": "Gach bealach",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_dropped": {
+    "value": "+%1$d bealach eile (gan tarraingt)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_menu": {
+    "value": "Bealaí",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_pathless": {
+    "value": "%1$d cóip gan bhealach (díreach)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_show_on_map": {
+    "value": "Taispeáin ar an léarscáil",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "map_snr_edge_label": {
     "value": "< %1$.0f dB",
     "_ai": true,
@@ -1149,6 +1451,11 @@
     "value": "%1$.0f–%2$.0f dB",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "map_you": {
+    "value": "Tusa",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "message_deleted": {
     "value": "Scriosta an teachtaireacht",
@@ -1194,6 +1501,11 @@
     "value": "Sioncronú clog seolta",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_companion_delete_confirm_body": {
+    "value": "Baintear an comhpháirtí seo den liosta. Má tá sé nasctha faoi láthair, scoirtear den nasc ar dtús.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "mynode_config_error_code": {
     "value": "cód earráide crua-earraí %1$d",
@@ -1359,6 +1671,16 @@
     "value": "Sínítear DManna leis an aitheantas seo. Glactar leis seo ón nód péireáilte nuair a nascann tú den chéad uair; maireann sé thar athnascthaí go dtí go nglacann tú síol ó nód eile.",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_known_companions": {
+    "value": "Comhluadair aitheanta",
+    "_ai": true,
+    "_seeded": "2026-06-29"
+  },
+  "mynode_known_companions_footer": {
+    "value": "Tapáil ar chomhpháirtí chun athnascadh. Swipeáil chun é a scriosadh ón liosta seo.",
+    "_ai": true,
+    "_seeded": "2026-06-29"
   },
   "mynode_label_public_key": {
     "value": "dearbhghiall phoiblí",
@@ -1600,6 +1922,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "mynode_scan_searching": {
+    "value": "Ag cuardach nód…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Cinntigh go bhfuil do nód ar siúl agus in aice láimhe.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "mynode_section_connect_via_wifi": {
     "value": "Ceangail trí WiFi",
     "_ai": true,
@@ -1772,6 +2104,11 @@
   },
   "nav_tab_settings": {
     "value": "Socruithe",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "node_detail_retrieve_firmware": {
+    "value": "Faigh leagan an fhirméir",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -1995,6 +2332,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_advert": {
+    "value": "Fógra",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_advert_flood": {
     "value": "Fógra tuile",
     "_ai": true,
@@ -2045,6 +2387,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_channel_cat_environment": {
+    "value": "timpeallacht",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "cumhacht",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_channel_ctrl": {
     "value": "Caibidil 0x00",
     "_ai": true,
@@ -2062,6 +2414,26 @@
   },
   "nodes_admin_cli_label": {
     "value": "Comhéadan líne ordaithe",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Athshocraigh an clog & atosaigh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Athshocraíonn sé clog an athdhéantóra go bunlíne (2024-05-15) agus atosaíonn sé é, ansin tapáil ar an deilbhín sioncronaithe chun an t-am reatha a shioncronú. Ní sheolann an t-atosaigh aon dheimhniú.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Athshocrú clog & atosú seolta.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Athshocrú an chloig & atosú?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2125,6 +2497,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_forget_password": {
+    "value": "Dearmad ar an bhfocal faire",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_log_in_ellipsis": {
     "value": "Logáil isteach…",
     "_ai": true,
@@ -2170,6 +2547,76 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_position_hint": {
+    "value": "Socraíonn sé suíomh fógartha an athdhéantóra. Cuir isteach céimeanna deachúlacha; tá roghnóir léarscáile beartaithe mar chéim ina dhiaidh.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Leithhead",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Fadlíne",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_save": {
+    "value": "Sábháil",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_title": {
+    "value": "Socraigh suíomh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Atosaíonn an t-athdhéantóir agus téann sé den mhogalra ar feadh tamaill bhig. Ní sheolann sé aon dheimhniú.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Cealaigh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Athchuir",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Athbheochan an athdhéantóra",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Ordhú atosaigh seolta.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Athbheochan an athdhéantóra?",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Athainm",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Ainm an nóid",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Athainm an athdhéantóra",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_role_label": {
     "value": "Ról",
     "_ai": true,
@@ -2200,6 +2647,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_bulk_delete_button": {
+    "value": "Scrios (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_device_note": {
+    "value": "Baintear teagmhálacha atá suiteáilte ar an nód ceangailte ansin freisin.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_favorites_warning": {
+    "value": "Ina measc tá %1$d ceanán.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_title": {
+    "value": "Scrios %1$d teagmháil go buan?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_cd_add_contact_or_channel": {
     "value": "Cuir teagmháil nó cainéal leis",
     "_ai": true,
@@ -2214,6 +2681,11 @@
     "value": "Laghdaigh an uasmhéid léimeanna",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_cd_exit_selection": {
+    "value": "Scoir den roghnú",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_cd_favorite": {
     "value": "An ceann is fearr",
@@ -2247,6 +2719,36 @@
   },
   "nodes_cd_unfavorite": {
     "value": "Mí-rogha",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Athshocraíonn sé comhaireamháin tráchta an athdhéantóra go néal.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Ní féidir an gníomh seo a chur ar ceal.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Cuireann sé an t-athfhoirceadóir i mód nuashonraithe crua-earraí.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Múchann an t-aisfhillteoir agus ní thiocfaidh sé ar ais go dtí go ndéanfar é a atosú go fisiciúil. Ní sheoltar aon fhreagra.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Téann an t-athdhéantóir as an líonra mogalra agus é ag atosú. Ní sheoltar aon fhreagra.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Rith \"%1$s\"?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2370,6 +2872,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_cd_edit_position": {
+    "value": "Deasaigh suíomh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_cd_look_up_neighbours": {
     "value": "Cuardaigh comharsana anaithnide ar líne",
     "_ai": true,
@@ -2377,6 +2884,11 @@
   },
   "nodes_detail_cd_refresh": {
     "value": "Athnuachan",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Athnuigh faisnéis an úinéara",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2422,6 +2934,36 @@
   },
   "nodes_detail_hide_list": {
     "value": "Folaigh an liosta",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_info_section": {
+    "value": "Eolas",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_last_login": {
+    "value": "Sínithe isteach go deireanach",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Riarachán: eagarthóireacht, réigiúin, CLI, atosaigh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Comharsana",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Staitisticí & comhartha",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Teleimpeireacht & dochtbhogearra",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2510,6 +3052,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_needs_login": {
+    "value": "Teastaíonn logáil isteach",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Logáil isteach (aoi) le haghaidh staitisticí, comharsana, teileiméadracha & crua-earraí bog · riarthóir le haghaidh cumraíochta & CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_neighbours_cached_partial": {
     "value": "%1$d Cacheáilte · páirteach — tapáil chun athnuachan",
     "_ai": true,
@@ -2565,13 +3117,28 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_position_label": {
+    "value": "Suíomh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_pubkey_label": {
     "value": "Eochair phoiblí",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_rate_limited": {
+    "value": "Ráta teoranta — %1$dachtaí",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_receiving_progress": {
     "value": "Glacadh · %1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Athnuaigh an seisiún",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2685,6 +3252,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_tools_section": {
+    "value": "Uirlisí",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_try_acl_only": {
     "value": "Bain triail as ACL amháin",
     "_ai": true,
@@ -2734,6 +3306,14 @@
     "value": "Níor aimsíodh aon nód",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_discover_found": {
+    "plural": {
+      "one": "Aimsíodh %1$d nód",
+      "other": "Aimsíodh %1$d nód"
+    },
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "nodes_discover_group_repeaters": {
     "value": "Athchraoltóirí (%1$d)",
@@ -3175,8 +3755,23 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Taispeántar anseo na hathfhillteoirí agus na freastalaithe seomra atá sábháilte agat mar theagmhálaithe.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_manual_picker_no_matches": {
     "value": "Níl aon mheaitseanna do \"%1$s\".",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Níl aon mheaitseanna",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Gan aon athdhéantóirí sábháilte",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -3320,6 +3915,31 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_quick_select_all": {
+    "value": "Uile",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_auto_added": {
+    "value": "Curtha leis go huathoibríoch",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_non_favorites": {
+    "value": "Seachas na ceanáin",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_older_days": {
+    "value": "Níos sine ná %1$d lá",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_stale": {
+    "value": "Ciúin le fada…",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_save": {
     "value": "Sábháil",
     "_ai": true,
@@ -3334,6 +3954,21 @@
     "value": "An dsábhálfaidh tú an t-athdhéantóir seo i measc na roghanna is fearr leat?",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_select_mode": {
+    "value": "Roghnaigh",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selected_count": {
+    "value": "%1$d roghnaithe",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selection_of_total": {
+    "value": "%1$d as %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_set_home_clear": {
     "value": "* (bain as an liosta)",
@@ -3530,6 +4165,200 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "password_hide": {
+    "value": "Folaigh pasfhocal",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "password_show": {
+    "value": "Taispeáin an pasfhocal",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "path_anchor_live_fallback": {
+    "value": "Anchored on your current location — no position was stored for this message.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_detail_blurb": {
+    "value": "Tomhais an t-am turais agus an comhartha uplink/downlink chuig an athchraoltóir seo.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR downlink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_received": {
+    "value": "Faighte",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_interval": {
+    "value": "Eatramh na samplaí",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_timeout": {
+    "value": "Teorainn ama an tsampla",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_samples": {
+    "value": "Samplaí",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sent": {
+    "value": "Seolta",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_settings_footer": {
+    "value": "Seolann ping N tástáil aon-hop chuig athchraoltóir agus tuairiscíonn sé an t-am turais agus an comhartha uplink/downlink. Seoltar na samplaí ceann i ndiaidh a chéile (eatramh eatarthu); fanann gach ceann le freagra go dtí an teorainn ama. Réamhshocruithe: 3 shampla, eatramh 2000 ms, teorainn 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_timeouts": {
+    "value": "Teorainneacha ama",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR uplink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_waiting_reply": {
+    "value": "Ag fanacht le freagra…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "repeater_cli_advert": {
+    "value": "Fógra",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Staitisticí soiléire",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock": {
+    "value": "Clog",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Sioncronú clog",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_flood_max_advert": null,
+  "repeater_cli_flood_max_unscoped": null,
+  "repeater_cli_get_flood_max_advert": null,
+  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_get_name": {
+    "value": "Ainm",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Eolas úinéara",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Raidió",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_tx": {
+    "value": "Cumhacht Texas",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Gníomhartha",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Crios contúirt",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Ar aghaidh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_node": {
+    "value": "Nód",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Raidió",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_read": {
+    "value": "Léigh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Comharsana",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_password": {
+    "value": "Pasfhocal",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Múch",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_public_key": {
+    "value": "Eochair phoiblí",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_reboot": {
+    "value": "Aththosú",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_role": {
+    "value": "Ról",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Tosaigh OTA",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_version": {
+    "value": "Leagan",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "room_admin_access_footer": {
     "value": "Logáil isteach chun rochtain a fháil ar na huirlisí riaracháin. Stóráiltear an pasfhocal ar an ngléas seo tar éis logáil isteach rathúil.",
     "_ai": true,
@@ -3719,6 +4548,31 @@
     "value": "Freastalaí seomra",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Siar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "Leanann „Uathoibríoch“ socrú geal/dorcha do ghléis. Roghnaigh Geal nó Dorcha chun é a shárú do KiekR amháin.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Dorcha",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Geal",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Uathoibríoch",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
     "value": "Ní chuirtear fógraí a tháinig trí níos mó ná an méid seo d'athrathóirí leis go huathoibríoch ag an aip. 0 = díreach amháin; 64 = gan teorainn (teorainn crua-earraí).",
@@ -4020,6 +4874,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_backup_import_done_v2": {
+    "value": "Iompórtáil déanta — %1$d aitheantas, %2$d cainéil, %3$d réigiúin, %4$d teagmhálaithe, %5$d logálacha isteach athchraoltóra, %6$d ceanáin, %7$d seoltóirí blocáilte, %8$d socruithe.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "settings_backup_import_fallback_name": {
     "value": "Iompórtáil",
     "_ai": true,
@@ -4104,6 +4963,31 @@
     "value": "Cúltaca",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Ní raibh aon sonraí in-iompórtáilte sa chomhad.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Scipeáilte: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Níor iompórtáladh an t-aitheantas: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Cruthaíodh an cúltaca le leagan níos nuaí den aip (scéimre %1$s) — cuireadh i bhfeidhm chomh maith agus ab fhéidir.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Rinneadh neamhaird de shocrú anaithnid: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   },
   "settings_battery_add_anchor": {
     "value": "Cuir ancaire leis",
@@ -4267,6 +5151,41 @@
   },
   "settings_battery_warn_header": {
     "value": "Rabhadh faoi chadhnra íseal",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_back": {
+    "value": "Ar ais",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_unblock": {
+    "value": "Díghlasáil",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_body": {
+    "value": "Coinnigh brú ar theachtaireacht i gcainéal agus roghnaigh 'Blocáil' chun gach teachtaireacht ón seoltóir sin a cheilt. Ní dhéantar ainmneacha seoltóirí cainéil a fhíorú, mar sin is de réir ainm amháin a dhéantar an bhlocáil.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_title": {
+    "value": "Níl aon úsáideoirí bacáilte",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_footer": {
+    "value": "Téigh ar an deilbhín bruscair chun díbhloicniú a dhéanamh. Tagann a gcuid teachtaireachtaí a bhí ann cheana ar ais i ngach cainéal. Leis an mbloic, meaitseáiltear an t-ainm beacht a thaispeántar — is féidir le duine ar bith an t-ainm sin a roghnú, mar sin ní chuirfidh sé seo stad ar dhuine a bhfuil sé de rún daingean aige an t-ainm a athrú.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_header": {
+    "value": "Blocáilte (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_title": {
+    "value": "Úsáideoirí bacáilte",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -4820,6 +5739,66 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_community_coverage_allow_precise": {
+    "value": "Ceadaigh suíomh beachtais",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_cells": {
+    "value": "Céilleanna cloiste",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_footer": {
+    "value": "Nuair a bhíonn sé ar siúl, déanann KiekR taifead ar na réigiúin (agus, nuair is féidir, na hathchraoltóirí) a chloiseann sé i gcill mhapa garbh de thart ar leath chiliméadair, agus uaslódálann sé na himeachtaí iomlána do gach cill ó am go chéile thar Wi-Fi. Ní fhágann do shuíomh beacht an fón riamh — ach an chill amháin — agus ní thaispeánann an léarscáil riamh ach an méid a cloiseadh ann, ní cé a chuala é. Fíorainm bhréige agus ar leith ó d'aitheantas KiekR; múch é am ar bith.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_header": {
+    "value": "Léarscáil cumhdaigh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_interval": {
+    "value": "Fosclaíocht uaslódála",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_live": {
+    "value": "Beo",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_minutes": {
+    "value": "%1$d nós",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_observations": {
+    "value": "Tuarascálacha",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_open_settings": {
+    "value": "Oscail socruithe suímh",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_pending": {
+    "value": "Uaslódálacha ar feitheamh",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_precise_hint": {
+    "value": "Teastaíonn suíomh cruinn ó Chumhdach chun an méid a chloiseann tú a chur sa chill mhapa cheart. Ceadaigh suíomh cruinn do KiekR — murach sin, ní bhailíonn Cumhdach aon rud ar an bhfón seo.",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_toggle": {
+    "value": "Cuir sonraí cumhdaigh ar fáil",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "settings_community_edit_broker": {
     "value": "Cuir in eagar bróicéir",
     "_ai": true,
@@ -5200,6 +6179,9 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_diag_footer": null,
+  "settings_diag_header": null,
+  "settings_diag_toggle": null,
   "settings_directory_adapter_corescope": {
     "value": "Croíscóp",
     "_ai": true,
@@ -5475,6 +6457,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_home_entry_appearance": {
+    "value": "Cuma",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_home_entry_autoadd": {
     "value": "Cuir go huathoibríoch",
     "_ai": true,
@@ -5492,6 +6479,11 @@
   },
   "settings_home_entry_battery": {
     "value": "Ceallra",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_blocklist": {
+    "value": "Úsáideoirí bacáilte",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5519,6 +6511,11 @@
     "value": "Cabhair & tacaíocht",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_language": {
+    "value": "Teanga",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_home_entry_notifications": {
     "value": "Fógraí",
@@ -5584,6 +6581,21 @@
     "value": "Socruithe",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_language_cd_back": {
+    "value": "Siar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "Leanann KiekR teanga do ghléis de réir réamhshocraithe. Chun teanga eile a roghnú do KiekR amháin, oscail socruithe an chórais agus roghnaigh ceann ansin.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Oscail socruithe teanga",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_notifications_advert_chat": {
     "value": "Comhrá",
@@ -5699,6 +6711,11 @@
     "value": "Fógraí",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_path_discovery": {
+    "value": "Aimsiú conaire",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_pathlookup_cache_footer": {
     "value": "Cúnamh foghlama buan do thimpistí réimír: a luaithe is a roghnaíonn an roghnóir cinntitheach buaiteoir, cuirtear an (réimír, léim, eochair phoiblí) chun tosaigh ionas go mbrisfear an chéad chomhscór eile ag an réimír chéanna ar an mbealach céanna.\n\nTTL an Chaisé — an fhad a mhaireann iontráil gan í a athúsáid. Réamhshocrú 30 lá, teorannú 1..=180.\n\nImill an bhristeora comhionannais — cé chomh gar is gá do mhéadrachtaí an dá iarrthóra a bheith (i %) sula mbriseann an caoch an comhionannas. Múchann 0 an t-atrascáil caoch (ní cháilíonn ach comhionannais chruinne); is é 20 an uasteorainn. Réamhshocrú 5 %.",
@@ -6250,6 +7267,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_timeout": {
+    "value": "Teorainn ama",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_tools_autosave_subtitle": {
     "value": "Níos moille, ach ní dhéanann sé dearmad riamh leanúint air.",
     "_ai": true,
@@ -6364,6 +7386,91 @@
     "value": "Riarthóir athdhéantóra",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "tools_diagnostics": {
+    "value": "Diagnóisic",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Tástáil bealach a roghnaíonn tú hop ar hop agus léigh an comhartha ag gach hop.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Cuir athchraoltóirí leis san ord ar cheart don tástáil cuairt a thabhairt orthu.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_repeater": {
+    "value": "Cuir athchraoltóir leis",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Roghnaigh ar an léarscáil",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_hops": {
+    "value": "Hopanna",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Tapáil athchraoltóirí in ord cuairte",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_no_response": {
+    "value": "Gan freagra — seans nach bhfuil an chonair insroichte.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Caithfidh an chéad athchraoltóir tú a chloisteáil agus caithfidh tú freagra an chinn dheireanaigh a chloisteáil — roghnaigh conair a bhfuil a fhios agat go bhfuil sí insroichte.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_result": {
+    "value": "Toradh",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR fillte",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_roundtrip": {
+    "value": "Turas iomlán",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_run": {
+    "value": "Rith traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_search_hint": {
+    "value": "Cuardaigh de réir ainm nó réimír heicsidheachúlach",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_settings_footer": {
+    "value": "Tástálann traceroute bealach a roghnaigh tú hop ar hop agus tuairiscíonn sé an comhartha ag gach hop. Aon uair amháin (gan athsheoladh) — tusa a roghnaigh an chonair. Réamhshocrú: teorainn 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_target_heard_only": {
+    "value": "cloiste amháin",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "ui_add": {
     "value": "Cuir leis",
@@ -6525,1104 +7632,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_discover_found": {
-    "plural": {
-      "one": "Aimsíodh %1$d nód",
-      "other": "Aimsíodh %1$d nód"
-    },
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "node_detail_retrieve_firmware": {
-    "value": "Faigh leagan an fhirméir",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_info_section": {
-    "value": "Eolas",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_position_label": {
-    "value": "Suíomh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_tools_section": {
-    "value": "Uirlisí",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_rate_limited": {
-    "value": "Ráta teoranta — %1$dachtaí",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_refresh_owner": {
-    "value": "Athnuigh faisnéis an úinéara",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_repeater": {
-    "value": "Athbheochan an athdhéantóra",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_title": {
-    "value": "Athbheochan an athdhéantóra?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_body": {
-    "value": "Atosaíonn an t-athdhéantóir agus téann sé den mhogalra ar feadh tamaill bhig. Ní sheolann sé aon dheimhniú.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_confirm": {
-    "value": "Athchuir",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_cancel": {
-    "value": "Cealaigh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_sent": {
-    "value": "Ordhú atosaigh seolta.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_refresh_session": {
-    "value": "Athnuaigh an seisiún",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_forget_password": {
-    "value": "Dearmad ar an bhfocal faire",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_advert": {
-    "value": "Fógra",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login": {
-    "value": "Teastaíonn logáil isteach",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login_footer": {
-    "value": "Logáil isteach (aoi) le haghaidh staitisticí, comharsana, teileiméadracha & crua-earraí bog · riarthóir le haghaidh cumraíochta & CLI.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_stats": {
-    "value": "Staitisticí & comhartha",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_neighbours": {
-    "value": "Comharsana",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_telemetry": {
-    "value": "Teleimpeireacht & dochtbhogearra",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_admin": {
-    "value": "Riarachán: eagarthóireacht, réigiúin, CLI, atosaigh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_title": {
-    "value": "Athainm an athdhéantóra",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_field": {
-    "value": "Ainm an nóid",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_confirm": {
-    "value": "Athainm",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_action": {
-    "value": "Athshocraigh an clog & atosaigh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_title": {
-    "value": "Athshocrú an chloig & atosú?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_body": {
-    "value": "Athshocraíonn sé clog an athdhéantóra go bunlíne (2024-05-15) agus atosaíonn sé é, ansin tapáil ar an deilbhín sioncronaithe chun an t-am reatha a shioncronú. Ní sheolann an t-atosaigh aon dheimhniú.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_sent": {
-    "value": "Athshocrú clog & atosú seolta.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_title": {
-    "value": "Socraigh suíomh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lat": {
-    "value": "Leithhead",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lon": {
-    "value": "Fadlíne",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_hint": {
-    "value": "Socraíonn sé suíomh fógartha an athdhéantóra. Cuir isteach céimeanna deachúlacha; tá roghnóir léarscáile beartaithe mar chéim ina dhiaidh.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_save": {
-    "value": "Sábháil",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_edit_position": {
-    "value": "Deasaigh suíomh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_version": {
-    "value": "Leagan",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_advert": {
-    "value": "Fógra",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock_sync": {
-    "value": "Sioncronú clog",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock": {
-    "value": "Clog",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_role": {
-    "value": "Ról",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_radio": {
-    "value": "Raidió",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_tx": {
-    "value": "Cumhacht Texas",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_name": {
-    "value": "Ainm",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_public_key": {
-    "value": "Eochair phoiblí",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_owner": {
-    "value": "Eolas úinéara",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_neighbours": {
-    "value": "Comharsana",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clear_stats": {
-    "value": "Staitisticí soiléire",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_password": {
-    "value": "Pasfhocal",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_start_ota": {
-    "value": "Tosaigh OTA",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_reboot": {
-    "value": "Aththosú",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_poweroff": {
-    "value": "Múch",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_actions": {
-    "value": "Gníomhartha",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_read": {
-    "value": "Léigh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_radio": {
-    "value": "Raidió",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_node": {
-    "value": "Nód",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_forwarding": {
-    "value": "Ar aghaidh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_danger": {
-    "value": "Crios contúirt",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_title": {
-    "value": "Rith \"%1$s\"?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_reboot": {
-    "value": "Téann an t-athdhéantóir as an líonra mogalra agus é ag atosú. Ní sheoltar aon fhreagra.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_poweroff": {
-    "value": "Múchann an t-aisfhillteoir agus ní thiocfaidh sé ar ais go dtí go ndéanfar é a atosú go fisiciúil. Ní sheoltar aon fhreagra.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_ota": {
-    "value": "Cuireann sé an t-athfhoirceadóir i mód nuashonraithe crua-earraí.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_clear_stats": {
-    "value": "Athshocraíonn sé comhaireamháin tráchta an athdhéantóra go néal.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_generic": {
-    "value": "Ní féidir an gníomh seo a chur ar ceal.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_saved": {
-    "value": "Gan aon athdhéantóirí sábháilte",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_matches_short": {
-    "value": "Níl aon mheaitseanna",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_empty_desc": {
-    "value": "Taispeántar anseo na hathfhillteoirí agus na freastalaithe seomra atá sábháilte agat mar theagmhálaithe.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_environment": {
-    "value": "timpeallacht",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_power": {
-    "value": "cumhacht",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "path_anchor_live_fallback": {
-    "value": "Anchored on your current location — no position was stored for this message.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_show": {
-    "value": "Taispeáin an pasfhocal",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_hide": {
-    "value": "Folaigh pasfhocal",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "add_channel_duplicate_key": {
-    "value": "Is le \"%1$s\" an eochair seo cheana féin.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_last_login": {
-    "value": "Sínithe isteach go deireanach",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_home_entry_blocklist": {
-    "value": "Úsáideoirí bacáilte",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "chat_menu_block": {
-    "value": "Blocáil%1$s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_title": {
-    "value": "Úsáideoirí bacáilte",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_back": {
-    "value": "Ar ais",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_unblock": {
-    "value": "Díghlasáil",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_title": {
-    "value": "Níl aon úsáideoirí bacáilte",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_body": {
-    "value": "Coinnigh brú ar theachtaireacht i gcainéal agus roghnaigh 'Blocáil' chun gach teachtaireacht ón seoltóir sin a cheilt. Ní dhéantar ainmneacha seoltóirí cainéil a fhíorú, mar sin is de réir ainm amháin a dhéantar an bhlocáil.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_header": {
-    "value": "Blocáilte (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_footer": {
-    "value": "Téigh ar an deilbhín bruscair chun díbhloicniú a dhéanamh. Tagann a gcuid teachtaireachtaí a bhí ann cheana ar ais i ngach cainéal. Leis an mbloic, meaitseáiltear an t-ainm beacht a thaispeántar — is féidir le duine ar bith an t-ainm sin a roghnú, mar sin ní chuirfidh sé seo stad ar dhuine a bhfuil sé de rún daingean aige an t-ainm a athrú.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "clock_reply_local_label": {
-    "value": "áitiúil",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_header": {
-    "value": "Léarscáil cumhdaigh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_toggle": {
-    "value": "Cuir sonraí cumhdaigh ar fáil",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_cells": {
-    "value": "Céilleanna cloiste",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_observations": {
-    "value": "Tuarascálacha",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_pending": {
-    "value": "Uaslódálacha ar feitheamh",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_footer": {
-    "value": "Nuair a bhíonn sé ar siúl, déanann KiekR taifead ar na réigiúin (agus, nuair is féidir, na hathchraoltóirí) a chloiseann sé i gcill mhapa garbh de thart ar leath chiliméadair, agus uaslódálann sé na himeachtaí iomlána do gach cill ó am go chéile thar Wi-Fi. Ní fhágann do shuíomh beacht an fón riamh — ach an chill amháin — agus ní thaispeánann an léarscáil riamh ach an méid a cloiseadh ann, ní cé a chuala é. Fíorainm bhréige agus ar leith ó d'aitheantas KiekR; múch é am ar bith.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_interval": {
-    "value": "Fosclaíocht uaslódála",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_live": {
-    "value": "Beo",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_minutes": {
-    "value": "%1$d nós",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_precise_hint": {
-    "value": "Teastaíonn suíomh cruinn ó Chumhdach chun an méid a chloiseann tú a chur sa chill mhapa cheart. Ceadaigh suíomh cruinn do KiekR — murach sin, ní bhailíonn Cumhdach aon rud ar an bhfón seo.",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_open_settings": {
-    "value": "Oscail socruithe suímh",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_allow_precise": {
-    "value": "Ceadaigh suíomh beachtais",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "mynode_known_companions": {
-    "value": "Comhluadair aitheanta",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_known_companions_footer": {
-    "value": "Tapáil ar chomhpháirtí chun athnascadh. Swipeáil chun é a scriosadh ón liosta seo.",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_scan_searching": {
-    "value": "Ag cuardach nód…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_scan_searching_hint": {
-    "value": "Cinntigh go bhfuil do nód ar siúl agus in aice láimhe.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_action": {
-    "value": "Ping",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sent": {
-    "value": "Seolta",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_received": {
-    "value": "Faighte",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_timeouts": {
-    "value": "Teorainneacha ama",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_rtt": {
-    "value": "RTT",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_uplink_snr": {
-    "value": "SNR uplink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_downlink_snr": {
-    "value": "SNR downlink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_waiting_reply": {
-    "value": "Ag fanacht le freagra…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_timeout": {
-    "value": "Teorainn ama",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_path_discovery": {
-    "value": "Aimsiú conaire",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_samples": {
-    "value": "Samplaí",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_interval": {
-    "value": "Eatramh na samplaí",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_timeout": {
-    "value": "Teorainn ama an tsampla",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_title": {
-    "value": "Traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_detail_blurb": {
-    "value": "Tomhais an t-am turais agus an comhartha uplink/downlink chuig an athchraoltóir seo.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_settings_footer": {
-    "value": "Seolann ping N tástáil aon-hop chuig athchraoltóir agus tuairiscíonn sé an t-am turais agus an comhartha uplink/downlink. Seoltar na samplaí ceann i ndiaidh a chéile (eatramh eatarthu); fanann gach ceann le freagra go dtí an teorainn ama. Réamhshocruithe: 3 shampla, eatramh 2000 ms, teorainn 5000 ms.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_settings_footer": {
-    "value": "Tástálann traceroute bealach a roghnaigh tú hop ar hop agus tuairiscíonn sé an comhartha ag gach hop. Aon uair amháin (gan athsheoladh) — tusa a roghnaigh an chonair. Réamhshocrú: teorainn 30 s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_hops_hint": {
-    "value": "Cuir athchraoltóirí leis san ord ar cheart don tástáil cuairt a thabhairt orthu.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_repeater": {
-    "value": "Cuir athchraoltóir leis",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_hops": {
-    "value": "Hopanna",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_reachability_hint": {
-    "value": "Caithfidh an chéad athchraoltóir tú a chloisteáil agus caithfidh tú freagra an chinn dheireanaigh a chloisteáil — roghnaigh conair a bhfuil a fhios agat go bhfuil sí insroichte.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_run": {
-    "value": "Rith traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_return_snr": {
-    "value": "SNR fillte",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_result": {
-    "value": "Toradh",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_no_response": {
-    "value": "Gan freagra — seans nach bhfuil an chonair insroichte.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_diagnostics": {
-    "value": "Diagnóisic",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_traceroute_blurb": {
-    "value": "Tástáil bealach a roghnaíonn tú hop ar hop agus léigh an comhartha ag gach hop.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_search_hint": {
-    "value": "Cuardaigh de réir ainm nó réimír heicsidheachúlach",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_show_on_map": {
-    "value": "Taispeáin ar an léarscáil",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_you": {
-    "value": "Tusa",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_roundtrip": {
-    "value": "Turas iomlán",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_target_heard_only": {
-    "value": "cloiste amháin",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_choose_on_map": {
-    "value": "Roghnaigh ar an léarscáil",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_map_select_hint": {
-    "value": "Tapáil athchraoltóirí in ord cuairte",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_no_node": {
-    "value": "Níl aon nód ceangailte — ceangail gléas companion chun seoladh.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_identity": {
-    "value": "Is le %1$s an teachtaireacht dhíreach seo. Tá tú ceangailte mar %2$s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_language": {
-    "value": "Teanga",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_open_button": {
-    "value": "Oscail socruithe teanga",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_footer": {
-    "value": "Leanann KiekR teanga do ghléis de réir réamhshocraithe. Chun teanga eile a roghnú do KiekR amháin, oscail socruithe an chórais agus roghnaigh ceann ansin.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_cd_back": {
-    "value": "Siar",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_appearance": {
-    "value": "Cuma",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_system": {
-    "value": "Uathoibríoch",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_light": {
-    "value": "Geal",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_dark": {
-    "value": "Dorcha",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_footer": {
-    "value": "Leanann „Uathoibríoch“ socrú geal/dorcha do ghléis. Roghnaigh Geal nó Dorcha chun é a shárú do KiekR amháin.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_cd_back": {
-    "value": "Siar",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_title": {
-    "value": "Trácht beo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_title": {
-    "value": "Níl aon phaicéid fós",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_desc": {
-    "value": "Taispeántar anseo gach fráma a chloiseann do nód — ní scagtar rud ar bith amach.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_footer": {
-    "value": "Gan scagadh — taispeántar frámaí díchódaithe, criptithe do dhaoine eile, anaithnide agus lochtacha ar fad.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_pause": {
-    "value": "Cuir ar sos",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_resume": {
-    "value": "Lean ar aghaidh",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_clear": {
-    "value": "Glan",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Gan scagadh · gach paicéad",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_sub": {
-    "value": "taispeánann sé gach fráma a fhaightear — fiú an méid nach féidir a léamh",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "iomlán",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_mesh": {
-    "value": "Eangach",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Ciúin",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_active": {
-    "value": "Gníomhach",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Gnóthach",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Meán-SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Il-hop",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Dodhíchódaithe",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "liostaithe mar sin féin",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_filter_all": {
-    "value": "Uile",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_csv": {
-    "value": "Easpórtáil CSV",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_json": {
-    "value": "Easpórtáil JSON",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_copy_hash": {
-    "value": "Cóipeáil hais an phaicéid",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_foreign_hint": {
-    "value": "criptithe — ní don ghléas seo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_noise": {
-    "value": "torann %1$d dBm",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_per_min": {
-    "value": "%1$d / nóim",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "as %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_path_line": {
-    "value": "conair · %1$d beart/hop · %2$d hop",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_companion_delete_confirm_body": {
-    "value": "Baintear an comhpháirtí seo den liosta. Má tá sé nasctha faoi láthair, scoirtear den nasc ar dtús.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_title": {
-    "value": "Seol arís?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_confirm": {
-    "value": "Seol arís",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_body": {
-    "value": "Tá an teachtaireacht seo craolta ag do nód cheana féin. Níor tháinig aon deimhniú ar ais, ach seans go bhfuair glacadóirí laistigh de raon í mar sin féin — má sheolann tú arís í, feicfidh siad faoi dhó í.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "add_channel_generate_key": {
-    "value": "Gin eochair randamach",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_select_mode": {
-    "value": "Roghnaigh",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selected_count": {
-    "value": "%1$d roghnaithe",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selection_of_total": {
-    "value": "%1$d as %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_all": {
-    "value": "Uile",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_non_favorites": {
-    "value": "Seachas na ceanáin",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_stale": {
-    "value": "Ciúin le fada…",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_older_days": {
-    "value": "Níos sine ná %1$d lá",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_auto_added": {
-    "value": "Curtha leis go huathoibríoch",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_button": {
-    "value": "Scrios (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_title": {
-    "value": "Scrios %1$d teagmháil go buan?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_favorites_warning": {
-    "value": "Ina measc tá %1$d ceanán.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_device_note": {
-    "value": "Baintear teagmhálacha atá suiteáilte ar an nód ceangailte ansin freisin.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_cd_exit_selection": {
-    "value": "Scoir den roghnú",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "settings_backup_import_done_v2": {
-    "value": "Iompórtáil déanta — %1$d aitheantas, %2$d cainéil, %3$d réigiúin, %4$d teagmhálaithe, %5$d logálacha isteach athchraoltóra, %6$d ceanáin, %7$d seoltóirí blocáilte, %8$d socruithe.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_newer_schema": {
-    "value": "Cruthaíodh an cúltaca le leagan níos nuaí den aip (scéimre %1$s) — cuireadh i bhfeidhm chomh maith agus ab fhéidir.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_identity_refused": {
-    "value": "Níor iompórtáladh an t-aitheantas: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_entry_skipped": {
-    "value": "Scipeáilte: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_unknown_pref": {
-    "value": "Rinneadh neamhaird de shocrú anaithnid: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_empty_bundle": {
-    "value": "Ní raibh aon sonraí in-iompórtáilte sa chomhad.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_cd_jump_to_latest": {
-    "value": "Léim go dtí an ceann is déanaí",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_heard_n_times": {
-    "value": "cloiste %1$d×",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range": {
-    "value": "%1$d–%2$d léim",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_heard_n_times_a11y": {
-    "value": "cloiste %1$d uair",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range_a11y": {
-    "value": "faighte thar %1$d go %2$d léim",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_times_heard": {
-    "value": "Cloiste",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_reception_of": {
-    "value": "Glacadh %1$d de %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_path_unknown_direct": {
-    "value": "anaithnid (ródú díreach)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_overflow": {
-    "value": "+%1$d cóip eile (ní stóráiltear ina gceann is ina gceann iad)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_lower_bound": {
-    "value": "Is íosmhéid é an comhaireamh — le trácht trom, féadfaidh cóipeanna imeacht sula sroicheann siad an aip.",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_time": {
-    "value": "Am",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_all": {
-    "value": "Gach bealach",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_menu": {
-    "value": "Bealaí",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_n_count": {
-    "value": "Bealach %1$d (%2$d×)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_a11y": {
-    "value": "Bealach %1$d, cloiste %2$d uair",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_dropped": {
-    "value": "+%1$d bealach eile (gan tarraingt)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_pathless": {
-    "value": "%1$d cóip gan bhealach (díreach)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_show_reception_on_map": {
-    "value": "Taispeáin an glacadh seo ar an léarscáil",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_chip": {
-    "value": "%1$dB",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_a11y": {
-    "value": "cosán %1$d beart",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_menu_copy_path": {
-    "value": "Cóipeáil an chonair",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "chat_detail_hop_heard_no_position": {
-    "value": "Cloiste, suíomh anaithnid",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "app_safemode_title": null,
-  "app_safemode_body": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_reset_done": null
+  "nodes_cli_console_title": null,
+  "nodes_cli_pinned_label": null,
+  "nodes_cli_show_all": null,
+  "nodes_cli_hide_all": null,
+  "nodes_cli_retry": null,
+  "nodes_cli_copy_command": null,
+  "nodes_cli_copy_output": null,
+  "nodes_cli_edit_command": null,
+  "nodes_cli_copy_all": null,
+  "nodes_cli_fullscreen": null,
+  "nodes_cli_copied": null,
+  "nodes_cli_pin": null,
+  "nodes_cli_unpin": null,
+  "settings_cli_palette_title": null,
+  "settings_cli_palette_footer": null,
+  "settings_cli_palette_collapse": null,
+  "settings_cli_palette_reset": null
 }

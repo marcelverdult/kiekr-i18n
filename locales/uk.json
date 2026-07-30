@@ -3,8 +3,25 @@
     "language": "uk",
     "name": "Українська",
     "managed_by": "community",
-    "updated": "2026-07-28"
+    "updated": "2026-07-30"
   },
+  "add_channel_duplicate_key": {
+    "value": "Цей ключ уже належить до «%1$s».",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "add_channel_generate_key": {
+    "value": "Згенерувати випадковий ключ",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "app_safemode_body": null,
+  "app_safemode_reset_button": null,
+  "app_safemode_reset_done": null,
+  "app_safemode_reset_hint": null,
+  "app_safemode_share_button": null,
+  "app_safemode_start_button": null,
+  "app_safemode_title": null,
   "app_upgrade_body": {
     "value": "Запустіть додаток знову, щоб завершити завантаження нової версії.",
     "_ai": true,
@@ -80,6 +97,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_cd_jump_to_latest": {
+    "value": "Перейти до останніх",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "chat_cd_max_retries_reached": {
     "value": "Досягнуто максимальну кількість спроб",
     "_ai": true,
@@ -134,6 +156,16 @@
     "value": "%1$d / %2$d байт",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Це особисте повідомлення належить %1$s. Ви підключені як %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Вузол не підключено — підключіть companion-пристрій, щоб надсилати.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "chat_compose_placeholder_disconnected": {
     "value": "З’єднання розірвано — підключіться знову, щоб надіслати",
@@ -215,6 +247,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_hop_heard_no_position": {
+    "value": "Почуто, позиція невідома",
+    "_ai": true,
+    "_seeded": "2026-07-28"
+  },
   "chat_detail_hop_looking_up": {
     "value": "шукаючи інформацію в Інтернеті…",
     "_ai": true,
@@ -290,6 +327,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_path_unknown_direct": {
+    "value": "невідомий (пряма маршрутизація)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_path_unknown_from_device": {
     "value": "невідомо — з пристрою",
     "_ai": true,
@@ -319,6 +361,21 @@
     "value": "Тип корисного навантаження",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_reception_of": {
+    "value": "Прийом %1$d з %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Число — нижня межа: за щільного трафіку копії можуть губитися, не дійшовши до застосунку.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d додаткових копій (не зберігаються окремо)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_repeat_of": {
     "value": "Повторіть %1$d з %2$d",
@@ -370,6 +427,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_show_reception_on_map": {
+    "value": "Показати цей прийом на карті",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_signal": {
     "value": "Сигнал",
     "_ai": true,
@@ -384,6 +446,16 @@
     "value": "SNR",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_time": {
+    "value": "Час",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Почуто",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_transport_code": {
     "value": "Код транспорту",
@@ -450,6 +522,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_heard_n_times": {
+    "value": "почуто %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "почуто %1$d разів",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_hidden_channel_action_footer": {
     "value": "Додайте поверхні до каналу у вашому списку чатів та налаштуваннях. Ігнорувати подальші запити щодо цієї клавіші.",
     "_ai": true,
@@ -505,6 +587,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d хопів",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "прийнято через кількість хопів від %1$d до %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_install_button": {
     "value": "Встановити",
     "_ai": true,
@@ -535,10 +627,20 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_menu_block": {
+    "value": "Блок «%1$s»",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "chat_menu_copy": {
     "value": "Копіювати",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_menu_copy_path": {
+    "value": "Скопіювати шлях",
+    "_ai": true,
+    "_seeded": "2026-07-28"
   },
   "chat_menu_details": {
     "value": "Деталі",
@@ -595,6 +697,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_path_width_a11y": {
+    "value": "шлях по %1$d байти",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_path_width_chip": {
+    "value": "%1$dБ",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_region_from_device": {
     "value": "з пристрою",
     "_ai": true,
@@ -614,6 +726,21 @@
     "value": "Обсяг відповіді: ",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_retry_duplicate_body": {
+    "value": "Ваш вузол уже передав це повідомлення. Підтвердження не надійшло, але отримувачі в зоні прийому все одно могли його отримати — після повторного надсилання вони побачать його двічі.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_confirm": {
+    "value": "Надіслати ще раз",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_title": {
+    "value": "Надіслати ще раз?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "chat_room_author_you": {
     "value": "Ви",
@@ -775,6 +902,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "clock_reply_local_label": {
+    "value": "місцевий",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "delete": {
     "value": "Видалити",
     "_ai": true,
@@ -789,6 +921,141 @@
     "value": "Додано",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "live_traffic_clear": {
+    "value": "Очистити",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Скопіювати хеш пакета",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Кожен кадр, який чує ваш вузол, з'являється тут — ніщо не відфільтровується.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Пакетів поки немає",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Експорт CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Експорт JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Усі",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Без фільтра — відображаються декодовані, зашифровані для інших, невідомі та пошкоджені кадри.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "зашифровано — не для цього пристрою",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "показує кожен прийнятий кадр — навіть те, що неможливо прочитати",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Без фільтра · всі пакети",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Активна",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Завантажена",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Тиха",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "шум %1$d дБм",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "шлях · %1$d байт/хоп · %2$d хопів",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Пауза",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / хв",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Продовжити",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Мережа",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Мульти-хоп",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "з %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Сер. SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Недекодовані",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "все одно в списку",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Ефір наживо",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "всього",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "map_age_15_min": {
     "value": "15 хв",
@@ -1130,6 +1397,41 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "map_route_a11y": {
+    "value": "Маршрут %1$d, почутий %2$d разів",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_route_n_count": {
+    "value": "Маршрут %1$d (%2$d×)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_all": {
+    "value": "Усі маршрути",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_dropped": {
+    "value": "+%1$d ще маршрутів (не намальовані)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_menu": {
+    "value": "Маршрути",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_pathless": {
+    "value": "%1$d копій без маршруту (напряму)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_show_on_map": {
+    "value": "Показати на мапі",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "map_snr_edge_label": {
     "value": "< %1$.0f дБ",
     "_ai": true,
@@ -1149,6 +1451,11 @@
     "value": "%1$.0f–%2$.0f дБ",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "map_you": {
+    "value": "Ви",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "message_deleted": {
     "value": "Повідомлення видалено",
@@ -1194,6 +1501,11 @@
     "value": "Надіслано синхронізацію годинника",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_companion_delete_confirm_body": {
+    "value": "Видаляє цей пристрій зі списку. Якщо він зараз підключений, з'єднання спочатку розривається.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "mynode_config_error_code": {
     "value": "Код помилки прошивки%1$d",
@@ -1359,6 +1671,16 @@
     "value": "DM підписуються за допомогою цього ідентифікатора. Він отримується від спареного вузла під час першого з’єднання; зберігається при повторних з’єднаннях, доки ви не перейдете на початковий код іншого вузла.",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_known_companions": {
+    "value": "Відомі супутники",
+    "_ai": true,
+    "_seeded": "2026-06-29"
+  },
+  "mynode_known_companions_footer": {
+    "value": "Натисніть на пристрій, щоб відновити з’єднання. Проведіть пальцем, щоб видалити його з цього списку.",
+    "_ai": true,
+    "_seeded": "2026-06-29"
   },
   "mynode_label_public_key": {
     "value": "відкритий ключ",
@@ -1600,6 +1922,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "mynode_scan_searching": {
+    "value": "Пошук вузлів…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Переконайтеся, що ваш вузол увімкнено та він поруч.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "mynode_section_connect_via_wifi": {
     "value": "Підключитися через Wi-Fi",
     "_ai": true,
@@ -1772,6 +2104,11 @@
   },
   "nav_tab_settings": {
     "value": "Налаштування",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "node_detail_retrieve_firmware": {
+    "value": "Отримати версію прошивки",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -1995,6 +2332,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_advert": {
+    "value": "Реклама",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_advert_flood": {
     "value": "Реклама про повінь",
     "_ai": true,
@@ -2045,6 +2387,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_channel_cat_environment": {
+    "value": "навколишнє середовище",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "потужність",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_channel_ctrl": {
     "value": "Розділ 0x00",
     "_ai": true,
@@ -2062,6 +2414,26 @@
   },
   "nodes_admin_cli_label": {
     "value": "CLI",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Скинути годинник і перезавантажити систему",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Скидає годинник ретранслятора до базового значення (15.05.2024) і перезавантажує його, після чого натисніть на піктограму синхронізації, щоб встановити поточний час. Під час перезавантаження підтвердження не надсилається.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Надіслано команду скидання годинника та перезавантаження.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Скинути годинник і перезавантажити систему?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2125,6 +2497,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_forget_password": {
+    "value": "Забули пароль?",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_log_in_ellipsis": {
     "value": "Увійти…",
     "_ai": true,
@@ -2170,6 +2547,76 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_position_hint": {
+    "value": "Встановлює оголошене місцезнаходження ретранслятора. Введіть значення в десяткових градусах; у майбутньому планується додати функцію вибору місця на карті.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Широта",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Довгота",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_save": {
+    "value": "Зберегти",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_title": {
+    "value": "Встановити положення",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Ретранслятор перезапускається і на короткий час виходить із мережі. Він не надсилає підтвердження.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Скасувати",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Перезавантаження",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Перезапуск ретранслятора",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Команда перезавантаження надіслана.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Перезапустити ретранслятор?",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Перейменувати",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Назва вузла",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Перейменувати ретранслятор",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_role_label": {
     "value": "Роль",
     "_ai": true,
@@ -2200,6 +2647,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_bulk_delete_button": {
+    "value": "Видалити (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_device_note": {
+    "value": "Контакти, встановлені на підключеному вузлі, буде видалено й там.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_favorites_warning": {
+    "value": "Зокрема улюблених: %1$d.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_title": {
+    "value": "Видалити контакти (%1$d) назавжди?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_cd_add_contact_or_channel": {
     "value": "Додати контакт або канал",
     "_ai": true,
@@ -2214,6 +2681,11 @@
     "value": "Зменшити максимальну кількість переходів",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_cd_exit_selection": {
+    "value": "Вийти з режиму вибору",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_cd_favorite": {
     "value": "Улюблені",
@@ -2247,6 +2719,36 @@
   },
   "nodes_cd_unfavorite": {
     "value": "Видалити з обраного",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Скидає лічильники трафіку ретранслятора до нуля.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Цю дію неможливо скасувати.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Переводить ретранслятор у режим оновлення прошивки.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Ретранслятор вимикається і не відновлює роботу, доки його не перезапустити фізично. Відповідь не надсилається.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Під час перезапуску ретранслятор виходить із мережі. Відповідь не надсилається.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Запустити «%1$s»?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2370,6 +2872,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_cd_edit_position": {
+    "value": "Редагувати позицію",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_cd_look_up_neighbours": {
     "value": "Пошукайте в Інтернеті інформацію про невідомих сусідів",
     "_ai": true,
@@ -2377,6 +2884,11 @@
   },
   "nodes_detail_cd_refresh": {
     "value": "Оновити",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Оновити інформацію про власника",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2422,6 +2934,36 @@
   },
   "nodes_detail_hide_list": {
     "value": "Сховати список",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_info_section": {
+    "value": "Інформація",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_last_login": {
+    "value": "Останній вхід",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Адміністратор: редагування, регіони, командний рядок, перезавантаження",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Сусіди",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Статистика та сигнал",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Телеметрія та вбудоване програмне забезпечення",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2510,6 +3052,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_needs_login": {
+    "value": "Потрібно увійти",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Увійти (як гість) для перегляду статистики, сусідів, телеметрії та прошивки · увійти як адміністратор для налаштування та роботи через командний рядок.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_neighbours_cached_partial": {
     "value": "%1$d у кеші · частково завантажено — натисніть, щоб оновити",
     "_ai": true,
@@ -2565,13 +3117,28 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_position_label": {
+    "value": "Посада",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_pubkey_label": {
     "value": "Відкритий ключ",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_rate_limited": {
+    "value": "Обмеження швидкості — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_receiving_progress": {
     "value": "Прийом · %1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Оновити сеанс",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2685,6 +3252,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_tools_section": {
+    "value": "Інструменти",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_try_acl_only": {
     "value": "Спробуйте використовувати лише ACL",
     "_ai": true,
@@ -2734,6 +3306,16 @@
     "value": "Вузлів не знайдено",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_discover_found": {
+    "plural": {
+      "one": "Знайдено %1$d вузол",
+      "few": "Знайдено %1$d вузли",
+      "many": "Знайдено %1$d вузлів",
+      "other": "Знайдено %1$d вузла"
+    },
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "nodes_discover_group_repeaters": {
     "value": "Ретранслятори (%1$d)",
@@ -3175,8 +3757,23 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Тут відображаються ретранслятори та сервери кімнат, які ви зберегли як контакти.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_manual_picker_no_matches": {
     "value": "Не знайдено результатів за запитом «%1$s».",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Результатів немає",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Збережених ретрансляторів немає",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -3320,6 +3917,31 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_quick_select_all": {
+    "value": "Усі",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_auto_added": {
+    "value": "Додані автоматично",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_non_favorites": {
+    "value": "Крім улюблених",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_older_days": {
+    "value": "Старші за %1$d днів",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_stale": {
+    "value": "Давно мовчать…",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_save": {
     "value": "Зберегти",
     "_ai": true,
@@ -3334,6 +3956,21 @@
     "value": "Додати цей ретранслятор до обраного?",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_select_mode": {
+    "value": "Вибрати",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selected_count": {
+    "value": "Вибрано: %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selection_of_total": {
+    "value": "%1$d з %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_set_home_clear": {
     "value": "* (очистити головну сторінку)",
@@ -3530,6 +4167,200 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "password_hide": {
+    "value": "Приховати пароль",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "password_show": {
+    "value": "Показати пароль",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "path_anchor_live_fallback": {
+    "value": "На основі вашого поточного місцезнаходження — для цього повідомлення не було збережено жодних координат.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_detail_blurb": {
+    "value": "Вимірює час туди-назад і сигнал uplink/downlink до цього ретранслятора.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR downlink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_received": {
+    "value": "Отримано",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_interval": {
+    "value": "Інтервал між пробами",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_timeout": {
+    "value": "Тайм-аут проби",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_samples": {
+    "value": "Проби",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sent": {
+    "value": "Надіслано",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_settings_footer": {
+    "value": "Ping надсилає N однохопових зондів до ретранслятора та повідомляє час туди-назад і сигнал uplink/downlink. Проби надсилаються послідовно (з кроком в інтервал); кожна чекає на відповідь до тайм-ауту. Типово: 3 проби, інтервал 2000 мс, тайм-аут 5000 мс.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_timeouts": {
+    "value": "Тайм-аути",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR uplink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_waiting_reply": {
+    "value": "Очікування відповіді…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "repeater_cli_advert": {
+    "value": "Реклама",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Очистити статистику",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock": {
+    "value": "Годинник",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Синхронізація годинника",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_flood_max_advert": null,
+  "repeater_cli_flood_max_unscoped": null,
+  "repeater_cli_get_flood_max_advert": null,
+  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_get_name": {
+    "value": "Ім'я",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Інформація про власника",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Радіо",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX power",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Дії",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Зона небезпеки",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Пересилання",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_node": {
+    "value": "Вузол",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Радіо",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_read": {
+    "value": "Читати",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Сусіди",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_password": {
+    "value": "Пароль",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Вимкнути живлення",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_public_key": {
+    "value": "Відкритий ключ",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_reboot": {
+    "value": "Перезавантаження",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_role": {
+    "value": "Роль",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Запустити OTA",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_version": {
+    "value": "Версія",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "room_admin_access_footer": {
     "value": "Увійдіть, щоб отримати доступ до інструментів адміністратора. Після успішного входу пароль зберігається на цьому пристрої.",
     "_ai": true,
@@ -3719,6 +4550,31 @@
     "value": "Сервер номера",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "«Автоматично» відповідає налаштуванню світлої/темної теми пристрою. Виберіть «Світла» або «Темна», щоб змінити її лише для KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Темна",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Світла",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Автоматично",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
     "value": "Оголошення, які надійшли через більшу кількість ретрансляторів, ніж зазначено, не додаються додатком автоматично. 0 = тільки прямі; 64 = необмежена кількість (обмеження прошивки).",
@@ -4020,6 +4876,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_backup_import_done_v2": {
+    "value": "Імпорт завершено — ідентифікатори %1$d, канали %2$d, регіони %3$d, контакти %4$d, облікові записи ретрансляторів %5$d, обране %6$d, заблоковані відправники %7$d, налаштування %8$d.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "settings_backup_import_fallback_name": {
     "value": "імпорт",
     "_ai": true,
@@ -4104,6 +4965,31 @@
     "value": "Резервне копіювання",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Файл не містив даних для імпорту.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Пропущено: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Ідентифікатор не імпортовано: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Резервну копію створено новішою версією застосунку (схема %1$s) — застосовано наскільки можливо.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Невідоме налаштування проігноровано: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   },
   "settings_battery_add_anchor": {
     "value": "Додати анкор",
@@ -4267,6 +5153,41 @@
   },
   "settings_battery_warn_header": {
     "value": "Попередження про низький заряд акумулятора",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_unblock": {
+    "value": "Розблокувати",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_body": {
+    "value": "Натисніть і утримуйте повідомлення в каналі та виберіть «Заблокувати», щоб приховати всі повідомлення від цього відправника. Імена відправників у каналах не перевіряються, тому блокування здійснюється лише за іменем.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_title": {
+    "value": "Немає заблокованих користувачів",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_footer": {
+    "value": "Натисніть на іконку кошика, щоб скасувати блокування. Їхні попередні повідомлення знову з’являться у всіх каналах. Блокування застосовується саме до того імені, яке відображається — будь-хто може вибрати таке ім’я, тому це не завадить наполегливому користувачеві змінити ім’я.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_header": {
+    "value": "Заблоковано (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_title": {
+    "value": "Заблоковані користувачі",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -4820,6 +5741,66 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_community_coverage_allow_precise": {
+    "value": "Дозволити визначення точного місцезнаходження",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_cells": {
+    "value": "Клітини, які чули",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_footer": {
+    "value": "Увімкнений KiekR фіксує, які регіони (а також, де це можливо, які ретранслятори) він приймає в межах комірки карти розміром приблизно півкілометра, і періодично завантажує сумарні дані по кожній комірці через Wi-Fi. Ваше точне місцезнаходження ніколи не залишає меж телефону — передається лише інформація про клітинку — а на карті завжди відображається лише те, що було прийнято в цій клітинці, але ніколи не вказується, хто саме це прийняв. Ця функція працює під псевдонімом і є відокремленою від вашого облікового запису KiekR; її можна вимкнути в будь-який момент.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_header": {
+    "value": "Карта покриття",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_interval": {
+    "value": "Інтервал завантаження",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_live": {
+    "value": "Наживо",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_minutes": {
+    "value": "%1$d хв",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_observations": {
+    "value": "Спостереження",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_open_settings": {
+    "value": "Відкрити налаштування місцезнаходження",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_pending": {
+    "value": "Завантаження в процесі",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_precise_hint": {
+    "value": "Для роботи функції «Покриття» необхідні точні координати, щоб віднести те, що ви чуєте, до відповідної комірки на карті. Увімкніть точне визначення місцезнаходження для KiekR — інакше функція «Покриття» не збиратиме дані на цьому телефоні.",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_toggle": {
+    "value": "Надіслати дані про охоплення",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "settings_community_edit_broker": {
     "value": "Редагувати брокера",
     "_ai": true,
@@ -5200,6 +6181,9 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_diag_footer": null,
+  "settings_diag_header": null,
+  "settings_diag_toggle": null,
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -5475,6 +6459,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_home_entry_appearance": {
+    "value": "Оформлення",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_home_entry_autoadd": {
     "value": "Автоматичне додавання",
     "_ai": true,
@@ -5492,6 +6481,11 @@
   },
   "settings_home_entry_battery": {
     "value": "Акумулятор",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_blocklist": {
+    "value": "Заблоковані користувачі",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5519,6 +6513,11 @@
     "value": "Допомога та підтримка",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_language": {
+    "value": "Мова",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_home_entry_notifications": {
     "value": "Повідомлення",
@@ -5584,6 +6583,21 @@
     "value": "Налаштування",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_language_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "Типово KiekR використовує мову пристрою. Щоб вибрати іншу мову лише для KiekR, відкрийте системні налаштування та виберіть її там.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Відкрити налаштування мови",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_notifications_advert_chat": {
     "value": "Чат",
@@ -5699,6 +6713,11 @@
     "value": "Повідомлення",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_path_discovery": {
+    "value": "Виявлення шляху",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_pathlookup_cache_footer": {
     "value": "Постійний алгоритм навчання для вирішення колізій префіксів: після того, як детермінований вибірник визначив переможця, трійка (префікс, перехід, відкритий ключ) змінюється, щоб наступна рівність за тим самим префіксом вирішувалася таким самим чином.\n\nTTL кешу — час, протягом якого запис зберігається без повторного використання. За замовчуванням — 30 днів, діапазон обмеження 1..=180.\n\nПоріг розрішення рівності — наскільки близькими мають бути показники двох кандидатів (у %%), перш ніж кеш розрішить рівність. Значення 0 вимикає використання кешу (враховуються лише випадки точної рівності); 20 — верхня межа. За замовчуванням — 5 %%.",
@@ -6250,6 +7269,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_timeout": {
+    "value": "Тайм-аут",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_tools_autosave_subtitle": {
     "value": "Повільніше, але ніколи не забуває про наполегливість.",
     "_ai": true,
@@ -6364,6 +7388,91 @@
     "value": "Адміністратор ретранслятора",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "tools_diagnostics": {
+    "value": "Діагностика",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Перевірте маршрут, обраний хоп за хопом, і подивіться сигнал на кожному хопі.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Додайте ретранслятори в порядку, в якому зонд має їх відвідати.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_repeater": {
+    "value": "Додати ретранслятор",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Вибрати на мапі",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_hops": {
+    "value": "Хопи",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Торкайтеся ретрансляторів у порядку відвідування",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_no_response": {
+    "value": "Немає відповіді — шлях може бути недосяжним.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Перший ретранслятор має чути вас, а ви — відповідь останнього. Виберіть шлях, який точно досяжний.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_result": {
+    "value": "Результат",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR зворотного шляху",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_roundtrip": {
+    "value": "Туди-назад",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_run": {
+    "value": "Запустити traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_search_hint": {
+    "value": "Пошук за іменем або hex-префіксом",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_settings_footer": {
+    "value": "Traceroute перевіряє маршрут, який ви обрали хоп за хопом, і повідомляє сигнал на кожному хопі. Одноразово (без повторів) — шлях обрали ви. Типовий тайм-аут: 30 с.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_target_heard_only": {
+    "value": "лише чутний",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "ui_add": {
     "value": "Додати",
@@ -6525,1106 +7634,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_discover_found": {
-    "plural": {
-      "one": "Знайдено %1$d вузол",
-      "few": "Знайдено %1$d вузли",
-      "many": "Знайдено %1$d вузлів",
-      "other": "Знайдено %1$d вузла"
-    },
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "node_detail_retrieve_firmware": {
-    "value": "Отримати версію прошивки",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_info_section": {
-    "value": "Інформація",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_position_label": {
-    "value": "Посада",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_tools_section": {
-    "value": "Інструменти",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_rate_limited": {
-    "value": "Обмеження швидкості — %1$d s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_refresh_owner": {
-    "value": "Оновити інформацію про власника",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_repeater": {
-    "value": "Перезапуск ретранслятора",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_title": {
-    "value": "Перезапустити ретранслятор?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_body": {
-    "value": "Ретранслятор перезапускається і на короткий час виходить із мережі. Він не надсилає підтвердження.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_confirm": {
-    "value": "Перезавантаження",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_cancel": {
-    "value": "Скасувати",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_sent": {
-    "value": "Команда перезавантаження надіслана.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_refresh_session": {
-    "value": "Оновити сеанс",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_forget_password": {
-    "value": "Забули пароль?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_advert": {
-    "value": "Реклама",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login": {
-    "value": "Потрібно увійти",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login_footer": {
-    "value": "Увійти (як гість) для перегляду статистики, сусідів, телеметрії та прошивки · увійти як адміністратор для налаштування та роботи через командний рядок.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_stats": {
-    "value": "Статистика та сигнал",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_neighbours": {
-    "value": "Сусіди",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_telemetry": {
-    "value": "Телеметрія та вбудоване програмне забезпечення",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_admin": {
-    "value": "Адміністратор: редагування, регіони, командний рядок, перезавантаження",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_title": {
-    "value": "Перейменувати ретранслятор",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_field": {
-    "value": "Назва вузла",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_confirm": {
-    "value": "Перейменувати",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_action": {
-    "value": "Скинути годинник і перезавантажити систему",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_title": {
-    "value": "Скинути годинник і перезавантажити систему?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_body": {
-    "value": "Скидає годинник ретранслятора до базового значення (15.05.2024) і перезавантажує його, після чого натисніть на піктограму синхронізації, щоб встановити поточний час. Під час перезавантаження підтвердження не надсилається.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_sent": {
-    "value": "Надіслано команду скидання годинника та перезавантаження.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_title": {
-    "value": "Встановити положення",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lat": {
-    "value": "Широта",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lon": {
-    "value": "Довгота",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_hint": {
-    "value": "Встановлює оголошене місцезнаходження ретранслятора. Введіть значення в десяткових градусах; у майбутньому планується додати функцію вибору місця на карті.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_save": {
-    "value": "Зберегти",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_edit_position": {
-    "value": "Редагувати позицію",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_version": {
-    "value": "Версія",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_advert": {
-    "value": "Реклама",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock_sync": {
-    "value": "Синхронізація годинника",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock": {
-    "value": "Годинник",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_role": {
-    "value": "Роль",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_radio": {
-    "value": "Радіо",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_tx": {
-    "value": "TX power",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_name": {
-    "value": "Ім'я",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_public_key": {
-    "value": "Відкритий ключ",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_owner": {
-    "value": "Інформація про власника",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_neighbours": {
-    "value": "Сусіди",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clear_stats": {
-    "value": "Очистити статистику",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_password": {
-    "value": "Пароль",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_start_ota": {
-    "value": "Запустити OTA",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_reboot": {
-    "value": "Перезавантаження",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_poweroff": {
-    "value": "Вимкнути живлення",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_actions": {
-    "value": "Дії",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_read": {
-    "value": "Читати",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_radio": {
-    "value": "Радіо",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_node": {
-    "value": "Вузол",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_forwarding": {
-    "value": "Пересилання",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_danger": {
-    "value": "Зона небезпеки",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_title": {
-    "value": "Запустити «%1$s»?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_reboot": {
-    "value": "Під час перезапуску ретранслятор виходить із мережі. Відповідь не надсилається.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_poweroff": {
-    "value": "Ретранслятор вимикається і не відновлює роботу, доки його не перезапустити фізично. Відповідь не надсилається.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_ota": {
-    "value": "Переводить ретранслятор у режим оновлення прошивки.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_clear_stats": {
-    "value": "Скидає лічильники трафіку ретранслятора до нуля.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_generic": {
-    "value": "Цю дію неможливо скасувати.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_saved": {
-    "value": "Збережених ретрансляторів немає",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_matches_short": {
-    "value": "Результатів немає",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_empty_desc": {
-    "value": "Тут відображаються ретранслятори та сервери кімнат, які ви зберегли як контакти.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_environment": {
-    "value": "навколишнє середовище",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_power": {
-    "value": "потужність",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "path_anchor_live_fallback": {
-    "value": "На основі вашого поточного місцезнаходження — для цього повідомлення не було збережено жодних координат.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_show": {
-    "value": "Показати пароль",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_hide": {
-    "value": "Приховати пароль",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "add_channel_duplicate_key": {
-    "value": "Цей ключ уже належить до «%1$s».",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_last_login": {
-    "value": "Останній вхід",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_home_entry_blocklist": {
-    "value": "Заблоковані користувачі",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "chat_menu_block": {
-    "value": "Блок «%1$s»",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_title": {
-    "value": "Заблоковані користувачі",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_back": {
-    "value": "Назад",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_unblock": {
-    "value": "Розблокувати",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_title": {
-    "value": "Немає заблокованих користувачів",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_body": {
-    "value": "Натисніть і утримуйте повідомлення в каналі та виберіть «Заблокувати», щоб приховати всі повідомлення від цього відправника. Імена відправників у каналах не перевіряються, тому блокування здійснюється лише за іменем.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_header": {
-    "value": "Заблоковано (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_footer": {
-    "value": "Натисніть на іконку кошика, щоб скасувати блокування. Їхні попередні повідомлення знову з’являться у всіх каналах. Блокування застосовується саме до того імені, яке відображається — будь-хто може вибрати таке ім’я, тому це не завадить наполегливому користувачеві змінити ім’я.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "clock_reply_local_label": {
-    "value": "місцевий",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_header": {
-    "value": "Карта покриття",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_toggle": {
-    "value": "Надіслати дані про охоплення",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_cells": {
-    "value": "Клітини, які чули",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_observations": {
-    "value": "Спостереження",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_pending": {
-    "value": "Завантаження в процесі",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_footer": {
-    "value": "Увімкнений KiekR фіксує, які регіони (а також, де це можливо, які ретранслятори) він приймає в межах комірки карти розміром приблизно півкілометра, і періодично завантажує сумарні дані по кожній комірці через Wi-Fi. Ваше точне місцезнаходження ніколи не залишає меж телефону — передається лише інформація про клітинку — а на карті завжди відображається лише те, що було прийнято в цій клітинці, але ніколи не вказується, хто саме це прийняв. Ця функція працює під псевдонімом і є відокремленою від вашого облікового запису KiekR; її можна вимкнути в будь-який момент.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_interval": {
-    "value": "Інтервал завантаження",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_live": {
-    "value": "Наживо",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_minutes": {
-    "value": "%1$d хв",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_precise_hint": {
-    "value": "Для роботи функції «Покриття» необхідні точні координати, щоб віднести те, що ви чуєте, до відповідної комірки на карті. Увімкніть точне визначення місцезнаходження для KiekR — інакше функція «Покриття» не збиратиме дані на цьому телефоні.",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_open_settings": {
-    "value": "Відкрити налаштування місцезнаходження",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_allow_precise": {
-    "value": "Дозволити визначення точного місцезнаходження",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "mynode_known_companions": {
-    "value": "Відомі супутники",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_known_companions_footer": {
-    "value": "Натисніть на пристрій, щоб відновити з’єднання. Проведіть пальцем, щоб видалити його з цього списку.",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_scan_searching": {
-    "value": "Пошук вузлів…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_scan_searching_hint": {
-    "value": "Переконайтеся, що ваш вузол увімкнено та він поруч.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_action": {
-    "value": "Ping",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sent": {
-    "value": "Надіслано",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_received": {
-    "value": "Отримано",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_timeouts": {
-    "value": "Тайм-аути",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_rtt": {
-    "value": "RTT",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_uplink_snr": {
-    "value": "SNR uplink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_downlink_snr": {
-    "value": "SNR downlink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_waiting_reply": {
-    "value": "Очікування відповіді…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_timeout": {
-    "value": "Тайм-аут",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_path_discovery": {
-    "value": "Виявлення шляху",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_samples": {
-    "value": "Проби",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_interval": {
-    "value": "Інтервал між пробами",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_timeout": {
-    "value": "Тайм-аут проби",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_title": {
-    "value": "Traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_detail_blurb": {
-    "value": "Вимірює час туди-назад і сигнал uplink/downlink до цього ретранслятора.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_settings_footer": {
-    "value": "Ping надсилає N однохопових зондів до ретранслятора та повідомляє час туди-назад і сигнал uplink/downlink. Проби надсилаються послідовно (з кроком в інтервал); кожна чекає на відповідь до тайм-ауту. Типово: 3 проби, інтервал 2000 мс, тайм-аут 5000 мс.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_settings_footer": {
-    "value": "Traceroute перевіряє маршрут, який ви обрали хоп за хопом, і повідомляє сигнал на кожному хопі. Одноразово (без повторів) — шлях обрали ви. Типовий тайм-аут: 30 с.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_hops_hint": {
-    "value": "Додайте ретранслятори в порядку, в якому зонд має їх відвідати.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_repeater": {
-    "value": "Додати ретранслятор",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_hops": {
-    "value": "Хопи",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_reachability_hint": {
-    "value": "Перший ретранслятор має чути вас, а ви — відповідь останнього. Виберіть шлях, який точно досяжний.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_run": {
-    "value": "Запустити traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_return_snr": {
-    "value": "SNR зворотного шляху",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_result": {
-    "value": "Результат",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_no_response": {
-    "value": "Немає відповіді — шлях може бути недосяжним.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_diagnostics": {
-    "value": "Діагностика",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_traceroute_blurb": {
-    "value": "Перевірте маршрут, обраний хоп за хопом, і подивіться сигнал на кожному хопі.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_search_hint": {
-    "value": "Пошук за іменем або hex-префіксом",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_show_on_map": {
-    "value": "Показати на мапі",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_you": {
-    "value": "Ви",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_roundtrip": {
-    "value": "Туди-назад",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_target_heard_only": {
-    "value": "лише чутний",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_choose_on_map": {
-    "value": "Вибрати на мапі",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_map_select_hint": {
-    "value": "Торкайтеся ретрансляторів у порядку відвідування",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_no_node": {
-    "value": "Вузол не підключено — підключіть companion-пристрій, щоб надсилати.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_identity": {
-    "value": "Це особисте повідомлення належить %1$s. Ви підключені як %2$s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_language": {
-    "value": "Мова",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_open_button": {
-    "value": "Відкрити налаштування мови",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_footer": {
-    "value": "Типово KiekR використовує мову пристрою. Щоб вибрати іншу мову лише для KiekR, відкрийте системні налаштування та виберіть її там.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_cd_back": {
-    "value": "Назад",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_appearance": {
-    "value": "Оформлення",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_system": {
-    "value": "Автоматично",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_light": {
-    "value": "Світла",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_dark": {
-    "value": "Темна",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_footer": {
-    "value": "«Автоматично» відповідає налаштуванню світлої/темної теми пристрою. Виберіть «Світла» або «Темна», щоб змінити її лише для KiekR.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_cd_back": {
-    "value": "Назад",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_title": {
-    "value": "Ефір наживо",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_title": {
-    "value": "Пакетів поки немає",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_desc": {
-    "value": "Кожен кадр, який чує ваш вузол, з'являється тут — ніщо не відфільтровується.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_footer": {
-    "value": "Без фільтра — відображаються декодовані, зашифровані для інших, невідомі та пошкоджені кадри.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_pause": {
-    "value": "Пауза",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_resume": {
-    "value": "Продовжити",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_clear": {
-    "value": "Очистити",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Без фільтра · всі пакети",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_sub": {
-    "value": "показує кожен прийнятий кадр — навіть те, що неможливо прочитати",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "всього",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_mesh": {
-    "value": "Мережа",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Тиха",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_active": {
-    "value": "Активна",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Завантажена",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Сер. SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Мульти-хоп",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Недекодовані",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "все одно в списку",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_filter_all": {
-    "value": "Усі",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_csv": {
-    "value": "Експорт CSV",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_json": {
-    "value": "Експорт JSON",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_copy_hash": {
-    "value": "Скопіювати хеш пакета",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_foreign_hint": {
-    "value": "зашифровано — не для цього пристрою",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_noise": {
-    "value": "шум %1$d дБм",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_per_min": {
-    "value": "%1$d / хв",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "з %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_path_line": {
-    "value": "шлях · %1$d байт/хоп · %2$d хопів",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_companion_delete_confirm_body": {
-    "value": "Видаляє цей пристрій зі списку. Якщо він зараз підключений, з'єднання спочатку розривається.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_title": {
-    "value": "Надіслати ще раз?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_confirm": {
-    "value": "Надіслати ще раз",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_body": {
-    "value": "Ваш вузол уже передав це повідомлення. Підтвердження не надійшло, але отримувачі в зоні прийому все одно могли його отримати — після повторного надсилання вони побачать його двічі.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "add_channel_generate_key": {
-    "value": "Згенерувати випадковий ключ",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_select_mode": {
-    "value": "Вибрати",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selected_count": {
-    "value": "Вибрано: %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selection_of_total": {
-    "value": "%1$d з %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_all": {
-    "value": "Усі",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_non_favorites": {
-    "value": "Крім улюблених",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_stale": {
-    "value": "Давно мовчать…",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_older_days": {
-    "value": "Старші за %1$d днів",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_auto_added": {
-    "value": "Додані автоматично",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_button": {
-    "value": "Видалити (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_title": {
-    "value": "Видалити контакти (%1$d) назавжди?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_favorites_warning": {
-    "value": "Зокрема улюблених: %1$d.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_device_note": {
-    "value": "Контакти, встановлені на підключеному вузлі, буде видалено й там.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_cd_exit_selection": {
-    "value": "Вийти з режиму вибору",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "settings_backup_import_done_v2": {
-    "value": "Імпорт завершено — ідентифікатори %1$d, канали %2$d, регіони %3$d, контакти %4$d, облікові записи ретрансляторів %5$d, обране %6$d, заблоковані відправники %7$d, налаштування %8$d.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_newer_schema": {
-    "value": "Резервну копію створено новішою версією застосунку (схема %1$s) — застосовано наскільки можливо.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_identity_refused": {
-    "value": "Ідентифікатор не імпортовано: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_entry_skipped": {
-    "value": "Пропущено: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_unknown_pref": {
-    "value": "Невідоме налаштування проігноровано: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_empty_bundle": {
-    "value": "Файл не містив даних для імпорту.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_cd_jump_to_latest": {
-    "value": "Перейти до останніх",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_heard_n_times": {
-    "value": "почуто %1$d×",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range": {
-    "value": "%1$d–%2$d хопів",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_heard_n_times_a11y": {
-    "value": "почуто %1$d разів",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range_a11y": {
-    "value": "прийнято через кількість хопів від %1$d до %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_times_heard": {
-    "value": "Почуто",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_reception_of": {
-    "value": "Прийом %1$d з %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_path_unknown_direct": {
-    "value": "невідомий (пряма маршрутизація)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_overflow": {
-    "value": "+%1$d додаткових копій (не зберігаються окремо)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_lower_bound": {
-    "value": "Число — нижня межа: за щільного трафіку копії можуть губитися, не дійшовши до застосунку.",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_time": {
-    "value": "Час",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_all": {
-    "value": "Усі маршрути",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_menu": {
-    "value": "Маршрути",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_n_count": {
-    "value": "Маршрут %1$d (%2$d×)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_a11y": {
-    "value": "Маршрут %1$d, почутий %2$d разів",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_dropped": {
-    "value": "+%1$d ще маршрутів (не намальовані)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_pathless": {
-    "value": "%1$d копій без маршруту (напряму)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_show_reception_on_map": {
-    "value": "Показати цей прийом на карті",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_chip": {
-    "value": "%1$dБ",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_a11y": {
-    "value": "шлях по %1$d байти",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_menu_copy_path": {
-    "value": "Скопіювати шлях",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "chat_detail_hop_heard_no_position": {
-    "value": "Почуто, позиція невідома",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "app_safemode_title": null,
-  "app_safemode_body": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_reset_done": null
+  "nodes_cli_console_title": null,
+  "nodes_cli_pinned_label": null,
+  "nodes_cli_show_all": null,
+  "nodes_cli_hide_all": null,
+  "nodes_cli_retry": null,
+  "nodes_cli_copy_command": null,
+  "nodes_cli_copy_output": null,
+  "nodes_cli_edit_command": null,
+  "nodes_cli_copy_all": null,
+  "nodes_cli_fullscreen": null,
+  "nodes_cli_copied": null,
+  "nodes_cli_pin": null,
+  "nodes_cli_unpin": null,
+  "settings_cli_palette_title": null,
+  "settings_cli_palette_footer": null,
+  "settings_cli_palette_collapse": null,
+  "settings_cli_palette_reset": null
 }

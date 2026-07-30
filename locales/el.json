@@ -3,8 +3,25 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-07-28"
+    "updated": "2026-07-30"
   },
+  "add_channel_duplicate_key": {
+    "value": "Αυτό το κλειδί ανήκει ήδη στο «%1$s».",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "add_channel_generate_key": {
+    "value": "Δημιουργία τυχαίου κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "app_safemode_body": null,
+  "app_safemode_reset_button": null,
+  "app_safemode_reset_done": null,
+  "app_safemode_reset_hint": null,
+  "app_safemode_share_button": null,
+  "app_safemode_start_button": null,
+  "app_safemode_title": null,
   "app_upgrade_body": {
     "value": "Ξανανοίξτε την εφαρμογή για να ολοκληρωθεί η φόρτωση της νέας έκδοσης.",
     "_ai": true,
@@ -80,6 +97,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_cd_jump_to_latest": {
+    "value": "Μετάβαση στα νεότερα",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "chat_cd_max_retries_reached": {
     "value": "Επιτεύχθηκε ο μέγιστος αριθμός επαναληπτικών προσπαθειών",
     "_ai": true,
@@ -134,6 +156,16 @@
     "value": "%1$d / %2$d bytes",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Αυτό το προσωπικό μήνυμα ανήκει στον/στην %1$s. Είστε συνδεδεμένοι ως %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Κανένας κόμβος συνδεδεμένος — συνδέστε μια συσκευή companion για αποστολή.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "chat_compose_placeholder_disconnected": {
     "value": "Αποσυνδεδεμένος — επανασυνδέσου για να στείλεις",
@@ -215,6 +247,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_hop_heard_no_position": {
+    "value": "Ακούστηκε, θέση άγνωστη",
+    "_ai": true,
+    "_seeded": "2026-07-28"
+  },
   "chat_detail_hop_looking_up": {
     "value": "ψάχνοντας στο διαδίκτυο…",
     "_ai": true,
@@ -290,6 +327,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_path_unknown_direct": {
+    "value": "άγνωστη (απευθείας δρομολόγηση)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_path_unknown_from_device": {
     "value": "άγνωστο — από τη συσκευή",
     "_ai": true,
@@ -319,6 +361,21 @@
     "value": "Τύπος ωφέλιμου φορτίου",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_reception_of": {
+    "value": "Λήψη %1$d από %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Η μέτρηση είναι κατώτατο όριο — σε πυκνή κίνηση, αντίγραφα μπορεί να χαθούν πριν φτάσουν στην εφαρμογή.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d ακόμη αντίγραφα (δεν αποθηκεύονται μεμονωμένα)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_repeat_of": {
     "value": "Επανάληψη του άρθρου «%1$d» από το %2$d",
@@ -370,6 +427,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_show_reception_on_map": {
+    "value": "Εμφάνιση αυτής της λήψης στον χάρτη",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_signal": {
     "value": "Σήμα",
     "_ai": true,
@@ -384,6 +446,16 @@
     "value": "SNR",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_time": {
+    "value": "Ώρα",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Ακούστηκε",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_transport_code": {
     "value": "Κωδικός μεταφοράς",
@@ -450,6 +522,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_heard_n_times": {
+    "value": "ακούστηκε %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "ακούστηκε %1$d φορές",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_hidden_channel_action_footer": {
     "value": "Προσθέστε το «surfaces» στο κανάλι στη λίστα συνομιλιών και στις ρυθμίσεις σας. Αγνοήστε μελλοντικές ειδοποιήσεις για αυτό το πλήκτρο.",
     "_ai": true,
@@ -505,6 +587,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d άλματα",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "ελήφθη μέσω %1$d έως %2$d αλμάτων",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_install_button": {
     "value": "Εγκατάσταση",
     "_ai": true,
@@ -535,10 +627,20 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_menu_block": {
+    "value": "%1$s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "chat_menu_copy": {
     "value": "Αντιγραφή",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_menu_copy_path": {
+    "value": "Αντιγραφή διαδρομής",
+    "_ai": true,
+    "_seeded": "2026-07-28"
   },
   "chat_menu_details": {
     "value": "Λεπτομέρειες",
@@ -595,6 +697,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_path_width_a11y": {
+    "value": "διαδρομή %1$d byte",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_path_width_chip": {
+    "value": "%1$dB",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_region_from_device": {
     "value": "από τη συσκευή",
     "_ai": true,
@@ -614,6 +726,21 @@
     "value": "Πεδίο εφαρμογής της απάντησης: ",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_retry_duplicate_body": {
+    "value": "Ο κόμβος σας έχει ήδη μεταδώσει αυτό το μήνυμα. Δεν ελήφθη επιβεβαίωση, αλλά οι παραλήπτες εντός εμβέλειας μπορεί να το έχουν λάβει — αν το στείλετε ξανά, θα το δουν δύο φορές.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_confirm": {
+    "value": "Αποστολή ξανά",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_title": {
+    "value": "Αποστολή ξανά;",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "chat_room_author_you": {
     "value": "Εσύ",
@@ -775,6 +902,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "clock_reply_local_label": {
+    "value": "τοπικός",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "delete": {
     "value": "Διαγραφή",
     "_ai": true,
@@ -789,6 +921,141 @@
     "value": "Προστέθηκε",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "live_traffic_clear": {
+    "value": "Εκκαθάριση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Αντιγραφή hash πακέτου",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Κάθε πλαίσιο που ακούει ο κόμβος σας εμφανίζεται εδώ — τίποτα δεν φιλτράρεται.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Κανένα πακέτο ακόμη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Εξαγωγή CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Εξαγωγή JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Όλα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Χωρίς φίλτρο — εμφανίζονται πλαίσια αποκωδικοποιημένα, κρυπτογραφημένα για άλλους, άγνωστα και κατεστραμμένα.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "κρυπτογραφημένο — όχι για αυτήν τη συσκευή",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "δείχνει κάθε πλαίσιο που λαμβάνεται — ακόμη κι ό,τι δεν διαβάζεται",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Χωρίς φίλτρο · όλα τα πακέτα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Ενεργό",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Απασχολημένο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Ήσυχο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "θόρυβος %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "διαδρομή · %1$d byte/άλμα · %2$d άλματα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Παύση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / λεπτό",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Συνέχιση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Πλέγμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Πολλαπλών αλμάτων",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "από %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Μέσο SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Μη αποκωδικοποιήσιμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "εμφανίζεται παρ' όλα αυτά",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Ζωντανή κίνηση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "σύνολο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "map_age_15_min": {
     "value": "15 λεπτά",
@@ -1130,6 +1397,41 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "map_route_a11y": {
+    "value": "Διαδρομή %1$d, ακούστηκε %2$d φορές",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_route_n_count": {
+    "value": "Διαδρομή %1$d (%2$d×)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_all": {
+    "value": "Όλες οι διαδρομές",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_dropped": {
+    "value": "+%1$d ακόμη διαδρομές (δεν σχεδιάζονται)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_menu": {
+    "value": "Διαδρομές",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_pathless": {
+    "value": "%1$d αντίγραφα χωρίς διαδρομή (απευθείας)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_show_on_map": {
+    "value": "Εμφάνιση στον χάρτη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "map_snr_edge_label": {
     "value": "< %1$.0f dB",
     "_ai": true,
@@ -1149,6 +1451,11 @@
     "value": "%1$.0f–%2$.0f dB",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "map_you": {
+    "value": "Εσείς",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "message_deleted": {
     "value": "Το μήνυμα διαγράφηκε",
@@ -1194,6 +1501,11 @@
     "value": "Αποστολή συγχρονισμού ρολογιού",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_companion_delete_confirm_body": {
+    "value": "Αφαιρεί αυτόν τον σύντροφο από τη λίστα. Αν είναι συνδεδεμένος αυτή τη στιγμή, η σύνδεση διακόπτεται πρώτα.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "mynode_config_error_code": {
     "value": "Κωδικός σφάλματος υλικολογισμικού%1$d",
@@ -1359,6 +1671,16 @@
     "value": "Τα DM υπογράφονται με αυτή την ταυτότητα. Λαμβάνεται από τον αντιστοιχισμένο κόμβο κατά την πρώτη σύνδεση· διατηρείται κατά τις επανασυνδέσεις έως ότου υιοθετήσετε το seed ενός διαφορετικού κόμβου.",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_known_companions": {
+    "value": "Γνωστοί σύντροφοι",
+    "_ai": true,
+    "_seeded": "2026-06-29"
+  },
+  "mynode_known_companions_footer": {
+    "value": "Πατήστε έναν σύντροφο για να επανασυνδεθείτε. Σύρετε το δάχτυλό σας για να τον διαγράψετε από αυτή τη λίστα.",
+    "_ai": true,
+    "_seeded": "2026-06-29"
   },
   "mynode_label_public_key": {
     "value": "δημόσιο κλειδί",
@@ -1600,6 +1922,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "mynode_scan_searching": {
+    "value": "Αναζήτηση κόμβων…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Βεβαιωθείτε ότι ο κόμβος σας είναι ενεργοποιημένος και κοντά σας.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "mynode_section_connect_via_wifi": {
     "value": "Σύνδεση μέσω Wi-Fi",
     "_ai": true,
@@ -1772,6 +2104,11 @@
   },
   "nav_tab_settings": {
     "value": "Ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "node_detail_retrieve_firmware": {
+    "value": "Ανάκτηση έκδοσης υλικολογισμικού",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -1995,6 +2332,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_advert": {
+    "value": "Διαφήμιση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_advert_flood": {
     "value": "Διαφήμιση για τις πλημμύρες",
     "_ai": true,
@@ -2045,6 +2387,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_channel_cat_environment": {
+    "value": "περιβάλλον",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "ισχύς",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_channel_ctrl": {
     "value": "Ch 0x00",
     "_ai": true,
@@ -2062,6 +2414,26 @@
   },
   "nodes_admin_cli_label": {
     "value": "CLI",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Επαναφορά ρολογιού και επανεκκίνηση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Επαναφέρει το ρολόι του επαναλήπτη σε μια αρχική τιμή (15/05/2024) και τον επανεκκινεί. Στη συνέχεια, πατήστε το εικονίδιο συγχρονισμού για να εφαρμόσετε την τρέχουσα ώρα. Η επανεκκίνηση δεν συνοδεύεται από επιβεβαίωση.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Αποστέλλεται επαναφορά ρολογιού και επανεκκίνηση.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Επαναφορά ρολογιού και επανεκκίνηση;",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2125,6 +2497,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_forget_password": {
+    "value": "Ξεχάσατε τον κωδικό πρόσβασης;",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_log_in_ellipsis": {
     "value": "Σύνδεση…",
     "_ai": true,
@@ -2170,6 +2547,76 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_position_hint": {
+    "value": "Ορίζει τη θέση που αναγράφεται για τον αναμεταδότη. Εισάγετε δεκαδικούς βαθμούς· προβλέπεται να προστεθεί στη συνέχεια ένα εργαλείο επιλογής χάρτη.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Γεωγραφικό πλάτος",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Γεωγραφικό μήκος",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_save": {
+    "value": "Αποθήκευση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_title": {
+    "value": "Ρύθμιση θέσης",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Ο επαναλήπτης επανεκκινείται και αποσυνδέεται προσωρινά από το δίκτυο mesh. Δεν στέλνει καμία επιβεβαίωση.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Ακύρωση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Επανεκκίνηση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Επανεκκίνηση του επαναλήπτη",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Αποστάλθηκε η εντολή επανεκκίνησης.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Επανεκκίνηση του επαναλήπτη;",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Μετονομασία",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Όνομα κόμβου",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Μετονομασία επαναλήπτη",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_role_label": {
     "value": "Ρόλος",
     "_ai": true,
@@ -2200,6 +2647,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_bulk_delete_button": {
+    "value": "Διαγραφή (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_device_note": {
+    "value": "Οι επαφές που είναι εγκατεστημένες στον συνδεδεμένο κόμβο αφαιρούνται και από εκεί.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_favorites_warning": {
+    "value": "Συμπεριλαμβάνονται %1$d αγαπημένα.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_title": {
+    "value": "Οριστική διαγραφή %1$d επαφών;",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_cd_add_contact_or_channel": {
     "value": "Προσθήκη επαφής ή καναλιού",
     "_ai": true,
@@ -2214,6 +2681,11 @@
     "value": "Μείωση του μέγιστου αριθμού αναπηδήσεων",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_cd_exit_selection": {
+    "value": "Έξοδος από την επιλογή",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_cd_favorite": {
     "value": "Αγαπημένα",
@@ -2247,6 +2719,36 @@
   },
   "nodes_cd_unfavorite": {
     "value": "Αφαίρεση από τα αγαπημένα",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Επαναφέρει τους μετρητές κίνησης του επαναλήπτη στο μηδέν.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Θέτει τον επαναλήπτη σε λειτουργία ενημέρωσης υλικολογισμικού.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Ο επαναλήπτης απενεργοποιείται και δεν επανέρχεται σε λειτουργία μέχρι να γίνει φυσική επανεκκίνηση. Δεν αποστέλλεται καμία απάντηση.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Ο επαναλήπτης αποσυνδέεται από το δίκτυο mesh κατά την επανεκκίνηση. Δεν αποστέλλεται καμία απάντηση.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Να εκτελέσω το «%1$s»;",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2370,6 +2872,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_cd_edit_position": {
+    "value": "Επεξεργασία θέσης",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_cd_look_up_neighbours": {
     "value": "Αναζητήστε άγνωστους γείτονες στο διαδίκτυο",
     "_ai": true,
@@ -2377,6 +2884,11 @@
   },
   "nodes_detail_cd_refresh": {
     "value": "Ανανέωση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Ανανέωση πληροφοριών ιδιοκτήτη",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2422,6 +2934,36 @@
   },
   "nodes_detail_hide_list": {
     "value": "Απόκρυψη λίστας",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_info_section": {
+    "value": "Πληροφορίες",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_last_login": {
+    "value": "Τελευταία σύνδεση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Διαχειριστής: επεξεργασία, περιοχές, CLI, επανεκκίνηση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Γείτονες",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Στατιστικά & σήμα",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Τηλεμετρία και υλικολογισμικό",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2510,6 +3052,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_needs_login": {
+    "value": "Απαιτείται σύνδεση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Σύνδεση (επισκέπτης) για στατιστικά, γείτονες, τηλεμετρία και υλικολογισμικό · διαχειριστής για ρυθμίσεις και CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_neighbours_cached_partial": {
     "value": "%1$d αποθηκευμένο στην προσωρινή μνήμη · μερικό — πατήστε για ανανέωση",
     "_ai": true,
@@ -2565,13 +3117,28 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_position_label": {
+    "value": "Θέση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_pubkey_label": {
     "value": "Δημόσιο κλειδί",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_rate_limited": {
+    "value": "Με περιορισμό ρυθμού — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_receiving_progress": {
     "value": "Λήψη · %1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Ανανέωση συνεδρίας",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2685,6 +3252,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_tools_section": {
+    "value": "Εργαλεία",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_try_acl_only": {
     "value": "Δοκιμάστε μόνο το ACL",
     "_ai": true,
@@ -2734,6 +3306,14 @@
     "value": "Δεν βρέθηκαν κόμβοι",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_discover_found": {
+    "plural": {
+      "one": "Βρέθηκε %1$d κόμβος",
+      "other": "Βρέθηκαν %1$d κόμβοι"
+    },
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "nodes_discover_group_repeaters": {
     "value": "Επαναλήπτες (%1$d)",
@@ -3175,8 +3755,23 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Εδώ εμφανίζονται οι επαναλήπτες και οι διακομιστές δωματίων που έχετε αποθηκεύσει ως επαφές.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_manual_picker_no_matches": {
     "value": "Δεν βρέθηκαν αποτελέσματα για το «%1$s».",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Δεν βρέθηκαν αποτελέσματα",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Δεν υπάρχουν αποθηκευμένοι επαναλήπτες",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -3320,6 +3915,31 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_quick_select_all": {
+    "value": "Όλα",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_auto_added": {
+    "value": "Αυτόματα προστιθέμενα",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_non_favorites": {
+    "value": "Εκτός αγαπημένων",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_older_days": {
+    "value": "Παλαιότερα από %1$d ημέρες",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_stale": {
+    "value": "Σιωπηλά για καιρό…",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_save": {
     "value": "Αποθήκευση",
     "_ai": true,
@@ -3334,6 +3954,21 @@
     "value": "Θέλετε να προσθέσετε αυτόν τον επαναλήπτη στα αγαπημένα σας;",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_select_mode": {
+    "value": "Επιλογή",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selected_count": {
+    "value": "%1$d επιλεγμένα",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selection_of_total": {
+    "value": "%1$d από %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_set_home_clear": {
     "value": "* (εκκαθάριση αρχικής σελίδας)",
@@ -3530,6 +4165,200 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "password_hide": {
+    "value": "Απόκρυψη κωδικού πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "password_show": {
+    "value": "Εμφάνιση κωδικού πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "path_anchor_live_fallback": {
+    "value": "Με βάση την τρέχουσα θέση σας — δεν αποθηκεύτηκε καμία θέση για αυτό το μήνυμα.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_detail_blurb": {
+    "value": "Μετρά τον χρόνο μετ' επιστροφής και το σήμα uplink/downlink προς αυτόν τον επαναλήπτη.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR downlink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_received": {
+    "value": "Ελήφθησαν",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_interval": {
+    "value": "Διάστημα δειγμάτων",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_timeout": {
+    "value": "Χρονικό όριο δείγματος",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_samples": {
+    "value": "Δείγματα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sent": {
+    "value": "Στάλθηκαν",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_settings_footer": {
+    "value": "Το ping στέλνει N δοκιμές ενός άλματος σε έναν επαναλήπτη και αναφέρει τον χρόνο μετ' επιστροφής και το σήμα uplink/downlink. Τα δείγματα στέλνονται διαδοχικά (ανά διάστημα)· καθένα περιμένει απάντηση έως το χρονικό όριο. Προεπιλογές: 3 δείγματα, διάστημα 2000 ms, όριο 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_timeouts": {
+    "value": "Λήξεις χρόνου",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR uplink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_waiting_reply": {
+    "value": "Αναμονή απάντησης…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "repeater_cli_advert": {
+    "value": "Διαφήμιση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Εκκαθάριση στατιστικών",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock": {
+    "value": "Ρολόι",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Συγχρονισμός ρολογιού",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_flood_max_advert": null,
+  "repeater_cli_flood_max_unscoped": null,
+  "repeater_cli_get_flood_max_advert": null,
+  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_get_name": {
+    "value": "Όνομα",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Στοιχεία ιδιοκτήτη",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Ραδιόφωνο",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX power",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Ενέργειες",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Ζώνη κινδύνου",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Προώθηση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_node": {
+    "value": "Κόμβος",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Ραδιόφωνο",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_read": {
+    "value": "Διαβάστε",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Γείτονες",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_password": {
+    "value": "Κωδικός πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Απενεργοποίηση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_public_key": {
+    "value": "Δημόσιο κλειδί",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_reboot": {
+    "value": "Επανεκκίνηση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_role": {
+    "value": "Ρόλος",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Έναρξη OTA",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_version": {
+    "value": "Έκδοση",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "room_admin_access_footer": {
     "value": "Συνδεθείτε για να αποκτήσετε πρόσβαση στα εργαλεία διαχείρισης. Ο κωδικός πρόσβασης αποθηκεύεται σε αυτή τη συσκευή μετά από επιτυχή σύνδεση.",
     "_ai": true,
@@ -3719,6 +4548,31 @@
     "value": "Διακομιστής δωματίου",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Πίσω",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "Το «Αυτόματο» ακολουθεί τη ρύθμιση φωτεινό/σκούρο της συσκευής σας. Επιλέξτε Φωτεινό ή Σκούρο για να την παρακάμψετε μόνο για το KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Σκούρο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Φωτεινό",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Αυτόματο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
     "value": "Οι διαφημίσεις που έφτασαν μέσω περισσότερων επαναληπτών από αυτόν τον αριθμό δεν προστίθενται αυτόματα από την εφαρμογή. 0 = μόνο απευθείας· 64 = απεριόριστα (όριο υλικολογισμικού).",
@@ -4020,6 +4874,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_backup_import_done_v2": {
+    "value": "Η εισαγωγή ολοκληρώθηκε — ταυτότητες %1$d, κανάλια %2$d, περιοχές %3$d, επαφές %4$d, συνδέσεις επαναληπτών %5$d, αγαπημένα %6$d, αποκλεισμένοι αποστολείς %7$d, ρυθμίσεις %8$d.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "settings_backup_import_fallback_name": {
     "value": "εισαγωγή",
     "_ai": true,
@@ -4104,6 +4963,31 @@
     "value": "Δημιουργία αντιγράφου ασφαλείας",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Το αρχείο δεν περιείχε δεδομένα προς εισαγωγή.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Παραλείφθηκε: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Η ταυτότητα δεν εισήχθη: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Το αντίγραφο ασφαλείας δημιουργήθηκε από νεότερη έκδοση της εφαρμογής (σχήμα %1$s) — εφαρμόστηκε στο μέτρο του δυνατού.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Άγνωστη ρύθμιση αγνοήθηκε: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   },
   "settings_battery_add_anchor": {
     "value": "Προσθήκη σημείου αναφοράς",
@@ -4267,6 +5151,41 @@
   },
   "settings_battery_warn_header": {
     "value": "Προειδοποίηση χαμηλής στάθμης μπαταρίας",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_back": {
+    "value": "Πίσω",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_unblock": {
+    "value": "Ξεκλείδωμα",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_body": {
+    "value": "Πατήστε παρατεταμένα ένα μήνυμα σε ένα κανάλι και επιλέξτε «Αποκλεισμός» για να αποκρύψετε όλα τα μηνύματα από αυτόν τον αποστολέα. Τα ονόματα των αποστολέων στα κανάλια δεν επαληθεύονται, οπότε ο αποκλεισμός γίνεται μόνο βάσει ονόματος.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_title": {
+    "value": "Δεν υπάρχουν αποκλεισμένοι χρήστες",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_footer": {
+    "value": "Πατήστε το εικονίδιο του κάδου απορριμμάτων για να καταργήσετε τον αποκλεισμό. Τα παλαιότερα μηνύματά τους θα εμφανιστούν ξανά σε όλα τα κανάλια. Ο αποκλεισμός βασίζεται στο ακριβές όνομα που εμφανίζεται — οποιοσδήποτε μπορεί να επιλέξει αυτό το όνομα, οπότε αυτό δεν θα εμποδίσει έναν αποφασισμένο χρήστη να αλλάξει το όνομά του.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_header": {
+    "value": "Αποκλεισμένο (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_title": {
+    "value": "Αποκλεισμένοι χρήστες",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -4820,6 +5739,66 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_community_coverage_allow_precise": {
+    "value": "Επιτρέψτε τον ακριβή προσδιορισμό της θέσης",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_cells": {
+    "value": "Τα κύτταρα άκουσαν",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_footer": {
+    "value": "Όταν είναι ενεργοποιημένο, το KiekR καταγράφει ποιες περιοχές (και, όπου είναι δυνατόν, ποιους αναμεταδότες) λαμβάνει σε ένα χονδρικό κελί χάρτη περίπου μισού χιλιομέτρου, και ανεβάζει περιοδικά τα συνολικά στοιχεία ανά κελί μέσω Wi-Fi. Η ακριβής θέση σας δεν μεταφέρεται ποτέ εκτός του τηλεφώνου — μόνο το κελί — και ο χάρτης εμφανίζει πάντα μόνο ό,τι λήφθηκε εκεί, ποτέ ποιος το έλαβε. Λειτουργεί με ψευδώνυμο και είναι ξεχωριστό από την ταυτότητά σας στο KiekR· μπορείτε να το απενεργοποιήσετε ανά πάσα στιγμή.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_header": {
+    "value": "Χάρτης κάλυψης",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_interval": {
+    "value": "Διάστημα μεταφόρτωσης",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_live": {
+    "value": "Ζωντανά",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_minutes": {
+    "value": "%1$d λεπτό",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_observations": {
+    "value": "Παρατηρήσεις",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_open_settings": {
+    "value": "Άνοιγμα ρυθμίσεων τοποθεσίας",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_pending": {
+    "value": "Αναμονή για μεταφορτώσεις",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_precise_hint": {
+    "value": "Η λειτουργία «Κάλυψη» απαιτεί ακριβή τοποθεσία για να αντιστοιχίσει αυτό που ακούτε στο σωστό κελί του χάρτη. Επιτρέψτε την ακριβή τοποθεσία για το KiekR — διαφορετικά, η λειτουργία «Κάλυψη» δεν θα συλλέξει κανένα στοιχείο από αυτό το τηλέφωνο.",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_toggle": {
+    "value": "Συμβάλλετε με δεδομένα κάλυψης",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "settings_community_edit_broker": {
     "value": "Επεξεργασία μεσίτη",
     "_ai": true,
@@ -5200,6 +6179,9 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_diag_footer": null,
+  "settings_diag_header": null,
+  "settings_diag_toggle": null,
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -5475,6 +6457,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_home_entry_appearance": {
+    "value": "Εμφάνιση",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_home_entry_autoadd": {
     "value": "Αυτόματη προσθήκη",
     "_ai": true,
@@ -5492,6 +6479,11 @@
   },
   "settings_home_entry_battery": {
     "value": "Μπαταρία",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_blocklist": {
+    "value": "Αποκλεισμένοι χρήστες",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5519,6 +6511,11 @@
     "value": "Βοήθεια και υποστήριξη",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_language": {
+    "value": "Γλώσσα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_home_entry_notifications": {
     "value": "Ειδοποιήσεις",
@@ -5584,6 +6581,21 @@
     "value": "Ρυθμίσεις",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_language_cd_back": {
+    "value": "Πίσω",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "Το KiekR ακολουθεί από προεπιλογή τη γλώσσα της συσκευής σας. Για διαφορετική γλώσσα μόνο στο KiekR, ανοίξτε τις ρυθμίσεις συστήματος και επιλέξτε την εκεί.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Άνοιγμα ρυθμίσεων γλώσσας",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_notifications_advert_chat": {
     "value": "Συνομιλία",
@@ -5699,6 +6711,11 @@
     "value": "Ειδοποιήσεις",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_path_discovery": {
+    "value": "Ανακάλυψη διαδρομής",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_pathlookup_cache_footer": {
     "value": "Βοηθητικό εργαλείο συνεχούς μάθησης για συγκρούσεις προθεμάτων: μόλις ο ντετερμινιστικός επιλογέας επιλέξει έναν νικητή, το (πρόθεμα, hop, δημόσιο κλειδί) αποσύρεται, ώστε η επόμενη ισοπαλία στο ίδιο πρόθεμα να επιλυθεί με τον ίδιο τρόπο.\n\nΔιάρκεια ζωής της κρυφής μνήμης (Cache TTL) — πόσο καιρό παραμένει ενεργή μια καταχώριση χωρίς να επαναχρησιμοποιηθεί. Προεπιλογή 30 ημέρες, εύρος τιμών 1..=180.\n\nΠεριθώριο διαχωρισμού ισοπαλίας — πόσο κοντά πρέπει να είναι οι μετρήσεις δύο υποψηφίων (σε %%) προτού η κρυφή μνήμη διαχωρίσει την ισοπαλία. Το 0 απενεργοποιεί την εναλλακτική λύση της κρυφής μνήμης (ισχύουν μόνο οι ακριβείς ισοπαλίες)· το 20 είναι το ανώτατο όριο. Προεπιλογή 5 %%.",
@@ -6250,6 +7267,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_timeout": {
+    "value": "Χρονικό όριο",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_tools_autosave_subtitle": {
     "value": "Πιο αργός, αλλά δεν ξεχνά ποτέ να επιμένει.",
     "_ai": true,
@@ -6364,6 +7386,91 @@
     "value": "Διαχειριστής επαναλήπτη",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "tools_diagnostics": {
+    "value": "Διαγνωστικά",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Δοκιμάστε μια διαδρομή που επιλέγετε άλμα-άλμα και δείτε το σήμα σε κάθε άλμα.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Προσθέστε επαναλήπτες με τη σειρά που θα τους επισκεφθεί η δοκιμή.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_repeater": {
+    "value": "Προσθήκη επαναλήπτη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Επιλογή στον χάρτη",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_hops": {
+    "value": "Άλματα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Πατήστε τους επαναλήπτες με σειρά επίσκεψης",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_no_response": {
+    "value": "Καμία απάντηση — η διαδρομή ίσως δεν είναι προσβάσιμη.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Ο πρώτος επαναλήπτης πρέπει να σας ακούει και εσείς να ακούτε την απάντηση του τελευταίου — επιλέξτε διαδρομή που ξέρετε ότι είναι εφικτή.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_result": {
+    "value": "Αποτέλεσμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR επιστροφής",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_roundtrip": {
+    "value": "Μετ' επιστροφής",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_run": {
+    "value": "Εκτέλεση traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_search_hint": {
+    "value": "Αναζήτηση με όνομα ή δεκαεξαδικό πρόθεμα",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_settings_footer": {
+    "value": "Το traceroute δοκιμάζει μια διαδρομή που επιλέξατε άλμα-άλμα και αναφέρει το σήμα ανά άλμα. Μία φορά (χωρίς επαναλήψεις) — τη διαδρομή την επιλέξατε εσείς. Προεπιλογή: όριο 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_target_heard_only": {
+    "value": "μόνο ακούστηκε",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "ui_add": {
     "value": "Προσθήκη",
@@ -6525,1104 +7632,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_discover_found": {
-    "plural": {
-      "one": "Βρέθηκε %1$d κόμβος",
-      "other": "Βρέθηκαν %1$d κόμβοι"
-    },
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "node_detail_retrieve_firmware": {
-    "value": "Ανάκτηση έκδοσης υλικολογισμικού",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_info_section": {
-    "value": "Πληροφορίες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_position_label": {
-    "value": "Θέση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_tools_section": {
-    "value": "Εργαλεία",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_rate_limited": {
-    "value": "Με περιορισμό ρυθμού — %1$d s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_refresh_owner": {
-    "value": "Ανανέωση πληροφοριών ιδιοκτήτη",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_repeater": {
-    "value": "Επανεκκίνηση του επαναλήπτη",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_title": {
-    "value": "Επανεκκίνηση του επαναλήπτη;",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_body": {
-    "value": "Ο επαναλήπτης επανεκκινείται και αποσυνδέεται προσωρινά από το δίκτυο mesh. Δεν στέλνει καμία επιβεβαίωση.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_confirm": {
-    "value": "Επανεκκίνηση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_cancel": {
-    "value": "Ακύρωση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_sent": {
-    "value": "Αποστάλθηκε η εντολή επανεκκίνησης.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_refresh_session": {
-    "value": "Ανανέωση συνεδρίας",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_forget_password": {
-    "value": "Ξεχάσατε τον κωδικό πρόσβασης;",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_advert": {
-    "value": "Διαφήμιση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login": {
-    "value": "Απαιτείται σύνδεση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login_footer": {
-    "value": "Σύνδεση (επισκέπτης) για στατιστικά, γείτονες, τηλεμετρία και υλικολογισμικό · διαχειριστής για ρυθμίσεις και CLI.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_stats": {
-    "value": "Στατιστικά & σήμα",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_neighbours": {
-    "value": "Γείτονες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_telemetry": {
-    "value": "Τηλεμετρία και υλικολογισμικό",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_admin": {
-    "value": "Διαχειριστής: επεξεργασία, περιοχές, CLI, επανεκκίνηση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_title": {
-    "value": "Μετονομασία επαναλήπτη",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_field": {
-    "value": "Όνομα κόμβου",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_confirm": {
-    "value": "Μετονομασία",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_action": {
-    "value": "Επαναφορά ρολογιού και επανεκκίνηση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_title": {
-    "value": "Επαναφορά ρολογιού και επανεκκίνηση;",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_body": {
-    "value": "Επαναφέρει το ρολόι του επαναλήπτη σε μια αρχική τιμή (15/05/2024) και τον επανεκκινεί. Στη συνέχεια, πατήστε το εικονίδιο συγχρονισμού για να εφαρμόσετε την τρέχουσα ώρα. Η επανεκκίνηση δεν συνοδεύεται από επιβεβαίωση.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_sent": {
-    "value": "Αποστέλλεται επαναφορά ρολογιού και επανεκκίνηση.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_title": {
-    "value": "Ρύθμιση θέσης",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lat": {
-    "value": "Γεωγραφικό πλάτος",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lon": {
-    "value": "Γεωγραφικό μήκος",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_hint": {
-    "value": "Ορίζει τη θέση που αναγράφεται για τον αναμεταδότη. Εισάγετε δεκαδικούς βαθμούς· προβλέπεται να προστεθεί στη συνέχεια ένα εργαλείο επιλογής χάρτη.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_save": {
-    "value": "Αποθήκευση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_edit_position": {
-    "value": "Επεξεργασία θέσης",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_version": {
-    "value": "Έκδοση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_advert": {
-    "value": "Διαφήμιση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock_sync": {
-    "value": "Συγχρονισμός ρολογιού",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock": {
-    "value": "Ρολόι",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_role": {
-    "value": "Ρόλος",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_radio": {
-    "value": "Ραδιόφωνο",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_tx": {
-    "value": "TX power",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_name": {
-    "value": "Όνομα",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_public_key": {
-    "value": "Δημόσιο κλειδί",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_owner": {
-    "value": "Στοιχεία ιδιοκτήτη",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_neighbours": {
-    "value": "Γείτονες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clear_stats": {
-    "value": "Εκκαθάριση στατιστικών",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_password": {
-    "value": "Κωδικός πρόσβασης",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_start_ota": {
-    "value": "Έναρξη OTA",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_reboot": {
-    "value": "Επανεκκίνηση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_poweroff": {
-    "value": "Απενεργοποίηση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_actions": {
-    "value": "Ενέργειες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_read": {
-    "value": "Διαβάστε",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_radio": {
-    "value": "Ραδιόφωνο",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_node": {
-    "value": "Κόμβος",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_forwarding": {
-    "value": "Προώθηση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_danger": {
-    "value": "Ζώνη κινδύνου",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_title": {
-    "value": "Να εκτελέσω το «%1$s»;",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_reboot": {
-    "value": "Ο επαναλήπτης αποσυνδέεται από το δίκτυο mesh κατά την επανεκκίνηση. Δεν αποστέλλεται καμία απάντηση.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_poweroff": {
-    "value": "Ο επαναλήπτης απενεργοποιείται και δεν επανέρχεται σε λειτουργία μέχρι να γίνει φυσική επανεκκίνηση. Δεν αποστέλλεται καμία απάντηση.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_ota": {
-    "value": "Θέτει τον επαναλήπτη σε λειτουργία ενημέρωσης υλικολογισμικού.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_clear_stats": {
-    "value": "Επαναφέρει τους μετρητές κίνησης του επαναλήπτη στο μηδέν.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_generic": {
-    "value": "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_saved": {
-    "value": "Δεν υπάρχουν αποθηκευμένοι επαναλήπτες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_matches_short": {
-    "value": "Δεν βρέθηκαν αποτελέσματα",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_empty_desc": {
-    "value": "Εδώ εμφανίζονται οι επαναλήπτες και οι διακομιστές δωματίων που έχετε αποθηκεύσει ως επαφές.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_environment": {
-    "value": "περιβάλλον",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_power": {
-    "value": "ισχύς",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "path_anchor_live_fallback": {
-    "value": "Με βάση την τρέχουσα θέση σας — δεν αποθηκεύτηκε καμία θέση για αυτό το μήνυμα.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_show": {
-    "value": "Εμφάνιση κωδικού πρόσβασης",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_hide": {
-    "value": "Απόκρυψη κωδικού πρόσβασης",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "add_channel_duplicate_key": {
-    "value": "Αυτό το κλειδί ανήκει ήδη στο «%1$s».",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_last_login": {
-    "value": "Τελευταία σύνδεση",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_home_entry_blocklist": {
-    "value": "Αποκλεισμένοι χρήστες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "chat_menu_block": {
-    "value": "%1$s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_title": {
-    "value": "Αποκλεισμένοι χρήστες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_back": {
-    "value": "Πίσω",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_unblock": {
-    "value": "Ξεκλείδωμα",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_title": {
-    "value": "Δεν υπάρχουν αποκλεισμένοι χρήστες",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_body": {
-    "value": "Πατήστε παρατεταμένα ένα μήνυμα σε ένα κανάλι και επιλέξτε «Αποκλεισμός» για να αποκρύψετε όλα τα μηνύματα από αυτόν τον αποστολέα. Τα ονόματα των αποστολέων στα κανάλια δεν επαληθεύονται, οπότε ο αποκλεισμός γίνεται μόνο βάσει ονόματος.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_header": {
-    "value": "Αποκλεισμένο (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_footer": {
-    "value": "Πατήστε το εικονίδιο του κάδου απορριμμάτων για να καταργήσετε τον αποκλεισμό. Τα παλαιότερα μηνύματά τους θα εμφανιστούν ξανά σε όλα τα κανάλια. Ο αποκλεισμός βασίζεται στο ακριβές όνομα που εμφανίζεται — οποιοσδήποτε μπορεί να επιλέξει αυτό το όνομα, οπότε αυτό δεν θα εμποδίσει έναν αποφασισμένο χρήστη να αλλάξει το όνομά του.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "clock_reply_local_label": {
-    "value": "τοπικός",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_header": {
-    "value": "Χάρτης κάλυψης",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_toggle": {
-    "value": "Συμβάλλετε με δεδομένα κάλυψης",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_cells": {
-    "value": "Τα κύτταρα άκουσαν",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_observations": {
-    "value": "Παρατηρήσεις",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_pending": {
-    "value": "Αναμονή για μεταφορτώσεις",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_footer": {
-    "value": "Όταν είναι ενεργοποιημένο, το KiekR καταγράφει ποιες περιοχές (και, όπου είναι δυνατόν, ποιους αναμεταδότες) λαμβάνει σε ένα χονδρικό κελί χάρτη περίπου μισού χιλιομέτρου, και ανεβάζει περιοδικά τα συνολικά στοιχεία ανά κελί μέσω Wi-Fi. Η ακριβής θέση σας δεν μεταφέρεται ποτέ εκτός του τηλεφώνου — μόνο το κελί — και ο χάρτης εμφανίζει πάντα μόνο ό,τι λήφθηκε εκεί, ποτέ ποιος το έλαβε. Λειτουργεί με ψευδώνυμο και είναι ξεχωριστό από την ταυτότητά σας στο KiekR· μπορείτε να το απενεργοποιήσετε ανά πάσα στιγμή.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_interval": {
-    "value": "Διάστημα μεταφόρτωσης",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_live": {
-    "value": "Ζωντανά",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_minutes": {
-    "value": "%1$d λεπτό",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_precise_hint": {
-    "value": "Η λειτουργία «Κάλυψη» απαιτεί ακριβή τοποθεσία για να αντιστοιχίσει αυτό που ακούτε στο σωστό κελί του χάρτη. Επιτρέψτε την ακριβή τοποθεσία για το KiekR — διαφορετικά, η λειτουργία «Κάλυψη» δεν θα συλλέξει κανένα στοιχείο από αυτό το τηλέφωνο.",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_open_settings": {
-    "value": "Άνοιγμα ρυθμίσεων τοποθεσίας",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_allow_precise": {
-    "value": "Επιτρέψτε τον ακριβή προσδιορισμό της θέσης",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "mynode_known_companions": {
-    "value": "Γνωστοί σύντροφοι",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_known_companions_footer": {
-    "value": "Πατήστε έναν σύντροφο για να επανασυνδεθείτε. Σύρετε το δάχτυλό σας για να τον διαγράψετε από αυτή τη λίστα.",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_scan_searching": {
-    "value": "Αναζήτηση κόμβων…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_scan_searching_hint": {
-    "value": "Βεβαιωθείτε ότι ο κόμβος σας είναι ενεργοποιημένος και κοντά σας.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_action": {
-    "value": "Ping",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sent": {
-    "value": "Στάλθηκαν",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_received": {
-    "value": "Ελήφθησαν",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_timeouts": {
-    "value": "Λήξεις χρόνου",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_rtt": {
-    "value": "RTT",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_uplink_snr": {
-    "value": "SNR uplink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_downlink_snr": {
-    "value": "SNR downlink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_waiting_reply": {
-    "value": "Αναμονή απάντησης…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_timeout": {
-    "value": "Χρονικό όριο",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_path_discovery": {
-    "value": "Ανακάλυψη διαδρομής",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_samples": {
-    "value": "Δείγματα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_interval": {
-    "value": "Διάστημα δειγμάτων",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_timeout": {
-    "value": "Χρονικό όριο δείγματος",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_title": {
-    "value": "Traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_detail_blurb": {
-    "value": "Μετρά τον χρόνο μετ' επιστροφής και το σήμα uplink/downlink προς αυτόν τον επαναλήπτη.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_settings_footer": {
-    "value": "Το ping στέλνει N δοκιμές ενός άλματος σε έναν επαναλήπτη και αναφέρει τον χρόνο μετ' επιστροφής και το σήμα uplink/downlink. Τα δείγματα στέλνονται διαδοχικά (ανά διάστημα)· καθένα περιμένει απάντηση έως το χρονικό όριο. Προεπιλογές: 3 δείγματα, διάστημα 2000 ms, όριο 5000 ms.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_settings_footer": {
-    "value": "Το traceroute δοκιμάζει μια διαδρομή που επιλέξατε άλμα-άλμα και αναφέρει το σήμα ανά άλμα. Μία φορά (χωρίς επαναλήψεις) — τη διαδρομή την επιλέξατε εσείς. Προεπιλογή: όριο 30 s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_hops_hint": {
-    "value": "Προσθέστε επαναλήπτες με τη σειρά που θα τους επισκεφθεί η δοκιμή.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_repeater": {
-    "value": "Προσθήκη επαναλήπτη",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_hops": {
-    "value": "Άλματα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_reachability_hint": {
-    "value": "Ο πρώτος επαναλήπτης πρέπει να σας ακούει και εσείς να ακούτε την απάντηση του τελευταίου — επιλέξτε διαδρομή που ξέρετε ότι είναι εφικτή.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_run": {
-    "value": "Εκτέλεση traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_return_snr": {
-    "value": "SNR επιστροφής",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_result": {
-    "value": "Αποτέλεσμα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_no_response": {
-    "value": "Καμία απάντηση — η διαδρομή ίσως δεν είναι προσβάσιμη.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_diagnostics": {
-    "value": "Διαγνωστικά",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_traceroute_blurb": {
-    "value": "Δοκιμάστε μια διαδρομή που επιλέγετε άλμα-άλμα και δείτε το σήμα σε κάθε άλμα.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_search_hint": {
-    "value": "Αναζήτηση με όνομα ή δεκαεξαδικό πρόθεμα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_show_on_map": {
-    "value": "Εμφάνιση στον χάρτη",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_you": {
-    "value": "Εσείς",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_roundtrip": {
-    "value": "Μετ' επιστροφής",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_target_heard_only": {
-    "value": "μόνο ακούστηκε",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_choose_on_map": {
-    "value": "Επιλογή στον χάρτη",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_map_select_hint": {
-    "value": "Πατήστε τους επαναλήπτες με σειρά επίσκεψης",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_no_node": {
-    "value": "Κανένας κόμβος συνδεδεμένος — συνδέστε μια συσκευή companion για αποστολή.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_identity": {
-    "value": "Αυτό το προσωπικό μήνυμα ανήκει στον/στην %1$s. Είστε συνδεδεμένοι ως %2$s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_language": {
-    "value": "Γλώσσα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_open_button": {
-    "value": "Άνοιγμα ρυθμίσεων γλώσσας",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_footer": {
-    "value": "Το KiekR ακολουθεί από προεπιλογή τη γλώσσα της συσκευής σας. Για διαφορετική γλώσσα μόνο στο KiekR, ανοίξτε τις ρυθμίσεις συστήματος και επιλέξτε την εκεί.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_cd_back": {
-    "value": "Πίσω",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_appearance": {
-    "value": "Εμφάνιση",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_system": {
-    "value": "Αυτόματο",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_light": {
-    "value": "Φωτεινό",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_dark": {
-    "value": "Σκούρο",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_footer": {
-    "value": "Το «Αυτόματο» ακολουθεί τη ρύθμιση φωτεινό/σκούρο της συσκευής σας. Επιλέξτε Φωτεινό ή Σκούρο για να την παρακάμψετε μόνο για το KiekR.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_cd_back": {
-    "value": "Πίσω",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_title": {
-    "value": "Ζωντανή κίνηση",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_title": {
-    "value": "Κανένα πακέτο ακόμη",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_desc": {
-    "value": "Κάθε πλαίσιο που ακούει ο κόμβος σας εμφανίζεται εδώ — τίποτα δεν φιλτράρεται.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_footer": {
-    "value": "Χωρίς φίλτρο — εμφανίζονται πλαίσια αποκωδικοποιημένα, κρυπτογραφημένα για άλλους, άγνωστα και κατεστραμμένα.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_pause": {
-    "value": "Παύση",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_resume": {
-    "value": "Συνέχιση",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_clear": {
-    "value": "Εκκαθάριση",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Χωρίς φίλτρο · όλα τα πακέτα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_sub": {
-    "value": "δείχνει κάθε πλαίσιο που λαμβάνεται — ακόμη κι ό,τι δεν διαβάζεται",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "σύνολο",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_mesh": {
-    "value": "Πλέγμα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Ήσυχο",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_active": {
-    "value": "Ενεργό",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Απασχολημένο",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Μέσο SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Πολλαπλών αλμάτων",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Μη αποκωδικοποιήσιμα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "εμφανίζεται παρ' όλα αυτά",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_filter_all": {
-    "value": "Όλα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_csv": {
-    "value": "Εξαγωγή CSV",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_json": {
-    "value": "Εξαγωγή JSON",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_copy_hash": {
-    "value": "Αντιγραφή hash πακέτου",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_foreign_hint": {
-    "value": "κρυπτογραφημένο — όχι για αυτήν τη συσκευή",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_noise": {
-    "value": "θόρυβος %1$d dBm",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_per_min": {
-    "value": "%1$d / λεπτό",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "από %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_path_line": {
-    "value": "διαδρομή · %1$d byte/άλμα · %2$d άλματα",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_companion_delete_confirm_body": {
-    "value": "Αφαιρεί αυτόν τον σύντροφο από τη λίστα. Αν είναι συνδεδεμένος αυτή τη στιγμή, η σύνδεση διακόπτεται πρώτα.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_title": {
-    "value": "Αποστολή ξανά;",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_confirm": {
-    "value": "Αποστολή ξανά",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_body": {
-    "value": "Ο κόμβος σας έχει ήδη μεταδώσει αυτό το μήνυμα. Δεν ελήφθη επιβεβαίωση, αλλά οι παραλήπτες εντός εμβέλειας μπορεί να το έχουν λάβει — αν το στείλετε ξανά, θα το δουν δύο φορές.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "add_channel_generate_key": {
-    "value": "Δημιουργία τυχαίου κλειδιού",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_select_mode": {
-    "value": "Επιλογή",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selected_count": {
-    "value": "%1$d επιλεγμένα",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selection_of_total": {
-    "value": "%1$d από %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_all": {
-    "value": "Όλα",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_non_favorites": {
-    "value": "Εκτός αγαπημένων",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_stale": {
-    "value": "Σιωπηλά για καιρό…",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_older_days": {
-    "value": "Παλαιότερα από %1$d ημέρες",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_auto_added": {
-    "value": "Αυτόματα προστιθέμενα",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_button": {
-    "value": "Διαγραφή (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_title": {
-    "value": "Οριστική διαγραφή %1$d επαφών;",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_favorites_warning": {
-    "value": "Συμπεριλαμβάνονται %1$d αγαπημένα.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_device_note": {
-    "value": "Οι επαφές που είναι εγκατεστημένες στον συνδεδεμένο κόμβο αφαιρούνται και από εκεί.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_cd_exit_selection": {
-    "value": "Έξοδος από την επιλογή",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "settings_backup_import_done_v2": {
-    "value": "Η εισαγωγή ολοκληρώθηκε — ταυτότητες %1$d, κανάλια %2$d, περιοχές %3$d, επαφές %4$d, συνδέσεις επαναληπτών %5$d, αγαπημένα %6$d, αποκλεισμένοι αποστολείς %7$d, ρυθμίσεις %8$d.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_newer_schema": {
-    "value": "Το αντίγραφο ασφαλείας δημιουργήθηκε από νεότερη έκδοση της εφαρμογής (σχήμα %1$s) — εφαρμόστηκε στο μέτρο του δυνατού.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_identity_refused": {
-    "value": "Η ταυτότητα δεν εισήχθη: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_entry_skipped": {
-    "value": "Παραλείφθηκε: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_unknown_pref": {
-    "value": "Άγνωστη ρύθμιση αγνοήθηκε: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_empty_bundle": {
-    "value": "Το αρχείο δεν περιείχε δεδομένα προς εισαγωγή.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_cd_jump_to_latest": {
-    "value": "Μετάβαση στα νεότερα",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_heard_n_times": {
-    "value": "ακούστηκε %1$d×",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range": {
-    "value": "%1$d–%2$d άλματα",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_heard_n_times_a11y": {
-    "value": "ακούστηκε %1$d φορές",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range_a11y": {
-    "value": "ελήφθη μέσω %1$d έως %2$d αλμάτων",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_times_heard": {
-    "value": "Ακούστηκε",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_reception_of": {
-    "value": "Λήψη %1$d από %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_path_unknown_direct": {
-    "value": "άγνωστη (απευθείας δρομολόγηση)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_overflow": {
-    "value": "+%1$d ακόμη αντίγραφα (δεν αποθηκεύονται μεμονωμένα)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_lower_bound": {
-    "value": "Η μέτρηση είναι κατώτατο όριο — σε πυκνή κίνηση, αντίγραφα μπορεί να χαθούν πριν φτάσουν στην εφαρμογή.",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_time": {
-    "value": "Ώρα",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_all": {
-    "value": "Όλες οι διαδρομές",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_menu": {
-    "value": "Διαδρομές",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_n_count": {
-    "value": "Διαδρομή %1$d (%2$d×)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_a11y": {
-    "value": "Διαδρομή %1$d, ακούστηκε %2$d φορές",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_dropped": {
-    "value": "+%1$d ακόμη διαδρομές (δεν σχεδιάζονται)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_pathless": {
-    "value": "%1$d αντίγραφα χωρίς διαδρομή (απευθείας)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_show_reception_on_map": {
-    "value": "Εμφάνιση αυτής της λήψης στον χάρτη",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_chip": {
-    "value": "%1$dB",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_a11y": {
-    "value": "διαδρομή %1$d byte",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_menu_copy_path": {
-    "value": "Αντιγραφή διαδρομής",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "chat_detail_hop_heard_no_position": {
-    "value": "Ακούστηκε, θέση άγνωστη",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "app_safemode_title": null,
-  "app_safemode_body": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_reset_done": null
+  "nodes_cli_console_title": null,
+  "nodes_cli_pinned_label": null,
+  "nodes_cli_show_all": null,
+  "nodes_cli_hide_all": null,
+  "nodes_cli_retry": null,
+  "nodes_cli_copy_command": null,
+  "nodes_cli_copy_output": null,
+  "nodes_cli_edit_command": null,
+  "nodes_cli_copy_all": null,
+  "nodes_cli_fullscreen": null,
+  "nodes_cli_copied": null,
+  "nodes_cli_pin": null,
+  "nodes_cli_unpin": null,
+  "settings_cli_palette_title": null,
+  "settings_cli_palette_footer": null,
+  "settings_cli_palette_collapse": null,
+  "settings_cli_palette_reset": null
 }

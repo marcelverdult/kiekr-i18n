@@ -3,8 +3,25 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-07-28"
+    "updated": "2026-07-30"
   },
+  "add_channel_duplicate_key": {
+    "value": "Ta ključ že pripada »%1$s«.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "add_channel_generate_key": {
+    "value": "Ustvari naključni ključ",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "app_safemode_body": null,
+  "app_safemode_reset_button": null,
+  "app_safemode_reset_done": null,
+  "app_safemode_reset_hint": null,
+  "app_safemode_share_button": null,
+  "app_safemode_start_button": null,
+  "app_safemode_title": null,
   "app_upgrade_body": {
     "value": "Ponovno odprite aplikacijo, da se dokonča nalaganje nove različice.",
     "_ai": true,
@@ -80,6 +97,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_cd_jump_to_latest": {
+    "value": "Skoči na najnovejše",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "chat_cd_max_retries_reached": {
     "value": "Doseženo največje število ponovnih poskusov",
     "_ai": true,
@@ -134,6 +156,16 @@
     "value": "%1$d / %2$d bajtov",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_compose_gate_identity": {
+    "value": "To neposredno sporočilo pripada %1$s. Povezani ste kot %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Nobeno vozlišče ni povezano — za pošiljanje povežite companion napravo.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "chat_compose_placeholder_disconnected": {
     "value": "Prekinjena povezava — ponovno vzpostavite povezavo, da lahko pošljete",
@@ -215,6 +247,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_hop_heard_no_position": {
+    "value": "Slišano, položaj neznan",
+    "_ai": true,
+    "_seeded": "2026-07-28"
+  },
   "chat_detail_hop_looking_up": {
     "value": "poiskal na spletu…",
     "_ai": true,
@@ -290,6 +327,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_path_unknown_direct": {
+    "value": "neznano (neposredno usmerjanje)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_path_unknown_from_device": {
     "value": "neznano — iz naprave",
     "_ai": true,
@@ -319,6 +361,21 @@
     "value": "Vrsta tovora",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_reception_of": {
+    "value": "Sprejem %1$d od %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Število je spodnja meja — ob gostem prometu se kopije lahko izgubijo, preden dosežejo aplikacijo.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d dodatnih kopij (niso shranjene posamezno)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_repeat_of": {
     "value": "Ponovi %1$d iz %2$d",
@@ -370,6 +427,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_show_reception_on_map": {
+    "value": "Prikaži ta sprejem na zemljevidu",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_signal": {
     "value": "Signal",
     "_ai": true,
@@ -384,6 +446,16 @@
     "value": "SNR",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_time": {
+    "value": "Čas",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Slišano",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_transport_code": {
     "value": "Prometni kodeks",
@@ -450,6 +522,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_heard_n_times": {
+    "value": "slišano %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "slišano %1$d-krat",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_hidden_channel_action_footer": {
     "value": "Dodajte površine v kanal na svojem seznamu klepetov in v nastavitvah. Če to storite, se bodo prihodnja vprašanja o tej tipki ignorirala.",
     "_ai": true,
@@ -505,6 +587,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d skokov",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "prejeto prek %1$d do %2$d skokov",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_install_button": {
     "value": "Namesti",
     "_ai": true,
@@ -535,10 +627,20 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_menu_block": {
+    "value": "%1$s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "chat_menu_copy": {
     "value": "Kopiraj",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_menu_copy_path": {
+    "value": "Kopiraj pot",
+    "_ai": true,
+    "_seeded": "2026-07-28"
   },
   "chat_menu_details": {
     "value": "Podrobnosti",
@@ -595,6 +697,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_path_width_a11y": {
+    "value": "%1$d-bajtna pot",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_path_width_chip": {
+    "value": "%1$dB",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_region_from_device": {
     "value": "iz naprave",
     "_ai": true,
@@ -614,6 +726,21 @@
     "value": "Obseg odgovora: ",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_retry_duplicate_body": {
+    "value": "Vaše vozlišče je to sporočilo že oddalo. Potrditev ni prišla, vendar so ga prejemniki v dosegu morda vseeno prejeli — ob ponovnem pošiljanju ga bodo videli dvakrat.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_confirm": {
+    "value": "Pošlji znova",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_title": {
+    "value": "Želite poslati znova?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "chat_room_author_you": {
     "value": "Ti",
@@ -775,6 +902,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "clock_reply_local_label": {
+    "value": "lokalni",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "delete": {
     "value": "Izbriši",
     "_ai": true,
@@ -789,6 +921,141 @@
     "value": "Dodano",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "live_traffic_clear": {
+    "value": "Počisti",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Kopiraj zgoščeno vrednost paketa",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Vsak okvir, ki ga vaše vozlišče sliši, se pojavi tukaj — nič se ne filtrira.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Še ni paketov",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Izvozi CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Izvozi JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Vsi",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Brez filtra — prikažejo se dekodirani, za druge šifrirani, neznani in poškodovani okvirji.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "šifrirano — ni za to napravo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "prikaže vsak prejeti okvir — tudi tisto, česar ni mogoče prebrati",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Brez filtra · vsi paketi",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Aktivna",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Zasedena",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Tiha",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "šum %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "pot · %1$d B/skok · %2$d skokov",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Premor",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / min",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Nadaljuj",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Mreža",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Večskočno",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "od %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Povpr. SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Ni mogoče dekodirati",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "vseeno na seznamu",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Promet v živo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "skupaj",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "map_age_15_min": {
     "value": "15 min",
@@ -1130,6 +1397,41 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "map_route_a11y": {
+    "value": "Pot %1$d, slišana %2$d-krat",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_route_n_count": {
+    "value": "Pot %1$d (%2$d×)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_all": {
+    "value": "Vse poti",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_dropped": {
+    "value": "+%1$d dodatnih poti (niso narisane)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_menu": {
+    "value": "Poti",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_pathless": {
+    "value": "%1$d kopij brez poti (neposredno)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_show_on_map": {
+    "value": "Pokaži na zemljevidu",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "map_snr_edge_label": {
     "value": "< %1$.0f dB",
     "_ai": true,
@@ -1149,6 +1451,11 @@
     "value": "%1$.0f–%2$.0f dB",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "map_you": {
+    "value": "Vi",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "message_deleted": {
     "value": "Sporočilo je bilo izbrisano",
@@ -1194,6 +1501,11 @@
     "value": "Poslana sinhronizacija ure",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_companion_delete_confirm_body": {
+    "value": "Odstrani to napravo s seznama. Če je trenutno povezana, se povezava najprej prekine.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "mynode_config_error_code": {
     "value": "koda napake vgrajene programske opreme%1$d",
@@ -1359,6 +1671,16 @@
     "value": "DM-ji so podpisani s to identiteto. Ta identiteta se prevzame iz povezanega vozlišča ob prvi povezavi; ohrani se tudi ob ponovnih povezavah, dokler ne prevzameš semena drugega vozlišča.",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_known_companions": {
+    "value": "Znani spremljevalci",
+    "_ai": true,
+    "_seeded": "2026-06-29"
+  },
+  "mynode_known_companions_footer": {
+    "value": "Tapnite na napravo, s katero želite ponovno vzpostaviti povezavo. Z drsenjem jo izbrišite s tega seznama.",
+    "_ai": true,
+    "_seeded": "2026-06-29"
   },
   "mynode_label_public_key": {
     "value": "javni ključ",
@@ -1600,6 +1922,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "mynode_scan_searching": {
+    "value": "Iskanje vozlišč…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Prepričajte se, da je vaše vozlišče vklopljeno in v bližini.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "mynode_section_connect_via_wifi": {
     "value": "Poveži se prek Wi-Fi-ja",
     "_ai": true,
@@ -1772,6 +2104,11 @@
   },
   "nav_tab_settings": {
     "value": "Nastavitve",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "node_detail_retrieve_firmware": {
+    "value": "Pridobivanje različice vgrajene programske opreme",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -1995,6 +2332,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_advert": {
+    "value": "Oglas",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_advert_flood": {
     "value": "Oglas o poplavah",
     "_ai": true,
@@ -2045,6 +2387,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_channel_cat_environment": {
+    "value": "okolje",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "moč",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_channel_ctrl": {
     "value": "Ch 0x00",
     "_ai": true,
@@ -2062,6 +2414,26 @@
   },
   "nodes_admin_cli_label": {
     "value": "CLI",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Ponastavi uro in ponovno zaženi računalnik",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Ustavi uro ponavljalnika na izhodiščno vrednost (15. 5. 2024) in ga ponovno zažene, nato pa tapnite ikono sinhronizacije, da se prenese trenutni čas. Pri ponovnem zagonu se ne prikaže nobeno potrdilo.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Pošiljanje ponastavitve ure in ponovnega zagona.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Ponastaviti uro in ponovno zagnati računalnik?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2125,6 +2497,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_forget_password": {
+    "value": "Pozabljeno geslo",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_log_in_ellipsis": {
     "value": "Prijavi se…",
     "_ai": true,
@@ -2170,6 +2547,76 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_position_hint": {
+    "value": "Nastavi oglaševano položaj ponavljalnika. Vnesite decimalne stopinje; izbirnik zemljevida je načrtovana nadaljnja funkcionalnost.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Zemljepisna širina",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Zemljepisna dolžina",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_save": {
+    "value": "Shrani",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_title": {
+    "value": "Nastavitev položaja",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Ponovnik se ponovno zažene in za kratek čas izgine iz omrežja. Ne pošlje potrditve.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Prekliči",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Ponovni zagon",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Ponovni zagon ponavljalnika",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Ukaz za ponovni zagon je bil poslan.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Ponovni zagon ponavljalnika?",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Preimenuj",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Ime vozlišča",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Preimenuj ponavljalnik",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_role_label": {
     "value": "Vloga",
     "_ai": true,
@@ -2200,6 +2647,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_bulk_delete_button": {
+    "value": "Izbriši (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_device_note": {
+    "value": "Stiki, nameščeni na povezanem vozlišču, se odstranijo tudi tam.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_favorites_warning": {
+    "value": "Med njimi %1$d priljubljenih.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_title": {
+    "value": "Trajno izbrisati %1$d stikov?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_cd_add_contact_or_channel": {
     "value": "Dodaj stik ali kanal",
     "_ai": true,
@@ -2214,6 +2681,11 @@
     "value": "Zmanjšaj največje število posredovanj",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_cd_exit_selection": {
+    "value": "Izhod iz izbire",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_cd_favorite": {
     "value": "Priljubljeno",
@@ -2247,6 +2719,36 @@
   },
   "nodes_cd_unfavorite": {
     "value": "Odstrani iz priljubljenih",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Ponastavi števce prometa ponavljalnika na nič.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Te akcije ni mogoče razveljaviti.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Preklopi ponavljalnik v način posodobitve programske opreme.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Ponavljalnik se izklopi in ne bo ponovno začel delovati, dokler ga ne zagnate na novo. Odgovor ni poslan.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Ponovnik se med ponovnim zagonom odklopi iz mreže. Odgovor se ne pošlje.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Ali naj zaženem »%1$s«?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2370,6 +2872,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_cd_edit_position": {
+    "value": "Uredi položaj",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_cd_look_up_neighbours": {
     "value": "Na spletu poiščite neznane sosede",
     "_ai": true,
@@ -2377,6 +2884,11 @@
   },
   "nodes_detail_cd_refresh": {
     "value": "Osveži",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Osveži podatke o lastniku",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2422,6 +2934,36 @@
   },
   "nodes_detail_hide_list": {
     "value": "Skrij seznam",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_info_section": {
+    "value": "Informacije",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_last_login": {
+    "value": "Zadnja prijava",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Skrbnik: urejanje, regije, CLI, ponovni zagon",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Sosedje",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Statistika in signal",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Telemetrija in vgrajena programska oprema",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2510,6 +3052,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_needs_login": {
+    "value": "Potrebna je prijava",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Prijavi se (kot gost) za statistične podatke, sosede, telemetrijo in firmware · kot skrbnik za nastavitve in CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_neighbours_cached_partial": {
     "value": "%1$d v predpomnilniku · delno — tapni za osvežitev",
     "_ai": true,
@@ -2565,13 +3117,28 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_position_label": {
+    "value": "Položaj",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_pubkey_label": {
     "value": "Javni ključ",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_rate_limited": {
+    "value": "Omejitev hitrosti — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_receiving_progress": {
     "value": "Prejemanje · %1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Osveži sejo",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2685,6 +3252,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_tools_section": {
+    "value": "Orodja",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_try_acl_only": {
     "value": "Poskusi samo z ACL",
     "_ai": true,
@@ -2734,6 +3306,16 @@
     "value": "Ni bilo najdenih vozlišč",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_discover_found": {
+    "plural": {
+      "one": "Najdeno %1$d vozlišče",
+      "two": "Najdeni %1$d vozlišči",
+      "few": "Najdena %1$d vozlišča",
+      "other": "Najdenih %1$d vozlišč"
+    },
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "nodes_discover_group_repeaters": {
     "value": "Repeaterji (%1$d)",
@@ -3175,8 +3757,23 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Tu se prikažejo ponavljalniki in strežniki v prostorih, ki ste jih shranili kot stike.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_manual_picker_no_matches": {
     "value": "Ni zadetkov za »%1$s«.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Ni zadetkov",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Ni shranjenih ponavljalnikov",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -3320,6 +3917,31 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_quick_select_all": {
+    "value": "Vse",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_auto_added": {
+    "value": "Samodejno dodani",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_non_favorites": {
+    "value": "Brez priljubljenih",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_older_days": {
+    "value": "Starejši od %1$d dni",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_stale": {
+    "value": "Dolgo neaktivni…",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_save": {
     "value": "Shrani",
     "_ai": true,
@@ -3334,6 +3956,21 @@
     "value": "Želite ta ponovnik dodati med priljubljene?",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_select_mode": {
+    "value": "Izberi",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selected_count": {
+    "value": "Izbrano: %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selection_of_total": {
+    "value": "%1$d od %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_set_home_clear": {
     "value": "* (izbriši domačo stran)",
@@ -3530,6 +4167,200 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "password_hide": {
+    "value": "Skrij geslo",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "password_show": {
+    "value": "Prikaži geslo",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "path_anchor_live_fallback": {
+    "value": "Na podlagi vaše trenutne lokacije — za to sporočilo ni bila shranjena nobena lokacija.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_detail_blurb": {
+    "value": "Izmerite čas povratne poti in signal uplink/downlink do tega ponavljalnika.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR downlink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_received": {
+    "value": "Prejeto",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_interval": {
+    "value": "Interval vzorcev",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_timeout": {
+    "value": "Časovna omejitev vzorca",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_samples": {
+    "value": "Vzorci",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sent": {
+    "value": "Poslano",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_settings_footer": {
+    "value": "Ping pošlje N enoskočnih sond ponavljalniku in poroča čas povratne poti ter signal uplink/downlink. Vzorci se pošiljajo zaporedno (v razmiku intervala); vsak čaka na odgovor do časovne omejitve. Privzeto: 3 vzorci, interval 2000 ms, omejitev 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_timeouts": {
+    "value": "Časovne omejitve",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR uplink",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_waiting_reply": {
+    "value": "Čakanje na odgovor…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "repeater_cli_advert": {
+    "value": "Oglas",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Izbriši statistiko",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock": {
+    "value": "Ura",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Sinhronizacija ure",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_flood_max_advert": null,
+  "repeater_cli_flood_max_unscoped": null,
+  "repeater_cli_get_flood_max_advert": null,
+  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_get_name": {
+    "value": "Ime",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Podatki o lastniku",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX moč",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Ukrepi",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Nevarno območje",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Posredovanje",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_node": {
+    "value": "Vozlišče",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_read": {
+    "value": "Preberi",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Sosedje",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_password": {
+    "value": "Geslo",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Izklop",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_public_key": {
+    "value": "Javni ključ",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_reboot": {
+    "value": "Ponovni zagon",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_role": {
+    "value": "Vloga",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Začni OTA",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_version": {
+    "value": "Različica",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "room_admin_access_footer": {
     "value": "Prijavite se, da boste imeli dostop do administrativnih orodij. Geslo se po uspešni prijavi shrani na tej napravi.",
     "_ai": true,
@@ -3719,6 +4550,31 @@
     "value": "Soba strežnik",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Nazaj",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "„Samodejno“ sledi nastavitvi svetlo/temno vaše naprave. Izberite Svetlo ali Temno, da jo preglasite samo za KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Temno",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Svetlo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Samodejno",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
     "value": "Oglasov, ki so prišli prek več ponavljalnikov, kot je to število, aplikacija ne doda samodejno. 0 = samo neposredno; 64 = neomejeno (omejitev v firmwareu).",
@@ -4020,6 +4876,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_backup_import_done_v2": {
+    "value": "Uvoz je zaključen — identitete %1$d, kanali %2$d, regije %3$d, stiki %4$d, prijavni podatki za ponavljalnike %5$d, priljubljene %6$d, blokirani pošiljatelji %7$d, nastavitve %8$d.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "settings_backup_import_fallback_name": {
     "value": "uvoz",
     "_ai": true,
@@ -4104,6 +4965,31 @@
     "value": "Varnostna kopija",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Datoteka ni vsebovala podatkov za uvoz.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Preskočeno: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identiteta ni bila uvožena: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Varnostna kopija je bila ustvarjena z novejšo različico aplikacije (shema %1$s) — uporabljena v največji možni meri.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Neznana nastavitev prezrta: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   },
   "settings_battery_add_anchor": {
     "value": "Dodaj sidro",
@@ -4267,6 +5153,41 @@
   },
   "settings_battery_warn_header": {
     "value": "Opozorilo o nizki ravni baterije",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_back": {
+    "value": "Nazaj",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_unblock": {
+    "value": "Odblokiraj",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_body": {
+    "value": "Dolgo pritisnite na sporočilo v kanalu in izberite »Blokiraj«, da skrijete vsa sporočila tega pošiljatelja. Imena pošiljateljev v kanalu niso preverjena, zato blokiranje poteka zgolj na podlagi imena.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_title": {
+    "value": "Ni blokiranih uporabnikov",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_footer": {
+    "value": "Za odblokiranje tapnite ikono koša. Njihova pretekla sporočila se ponovno prikažejo v vseh kanalih. Blokiranje se nanaša na točno navedeno ime – to ime lahko izbere kdorkoli, zato to ne bo odvrnilo vztrajnega uporabnika od preimenovanja.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_header": {
+    "value": "Blokirano (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_title": {
+    "value": "Blokirani uporabniki",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -4820,6 +5741,66 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_community_coverage_allow_precise": {
+    "value": "Omogoči natančno določanje lokacije",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_cells": {
+    "value": "Celice so slišale",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_footer": {
+    "value": "Ko je aplikacija KiekR vklopljena, beleži, katere regije (in, kjer je to mogoče, katere ponavljalnike) zazna v grobi kartografski celici velikosti približno pol kilometra, ter redno prek Wi-Fi-ja pošilja skupne podatke za vsako celico. Vaša natančna lokacija nikoli ne zapusti telefona – le celico – zemljevid pa vedno prikazuje le, kaj je bilo tam sprejeto, nikoli pa ne razkriva, kdo je to sprejel. Funkcija deluje pod psevdonimom in je ločena od vaše identitete v aplikaciji KiekR; lahko jo kadarkoli izklopite.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_header": {
+    "value": "Zemljevid pokritosti",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_interval": {
+    "value": "Interval nalaganja",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_live": {
+    "value": "V živo",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_minutes": {
+    "value": "%1$d min",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_observations": {
+    "value": "Ugotovitve",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_open_settings": {
+    "value": "Odpri nastavitve lokacije",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_pending": {
+    "value": "Naložbe v čakanju",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_precise_hint": {
+    "value": "Za delovanje funkcije »Coverage« je potrebna natančna lokacija, da se slišano umesti v pravo celico zemljevida. Omogoči natančno določitev lokacije za aplikacijo KiekR – sicer funkcija »Coverage« na tem telefonu ne bo zbrala nobenih podatkov.",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_toggle": {
+    "value": "Prispevajte podatke o pokritosti",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "settings_community_edit_broker": {
     "value": "Uredi posrednika",
     "_ai": true,
@@ -5200,6 +6181,9 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_diag_footer": null,
+  "settings_diag_header": null,
+  "settings_diag_toggle": null,
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -5475,6 +6459,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_home_entry_appearance": {
+    "value": "Videz",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_home_entry_autoadd": {
     "value": "Samodejno dodajanje",
     "_ai": true,
@@ -5492,6 +6481,11 @@
   },
   "settings_home_entry_battery": {
     "value": "Baterija",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_blocklist": {
+    "value": "Blokirani uporabniki",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5519,6 +6513,11 @@
     "value": "Pomoč in podpora",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_language": {
+    "value": "Jezik",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_home_entry_notifications": {
     "value": "Obvestila",
@@ -5584,6 +6583,21 @@
     "value": "Nastavitve",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_language_cd_back": {
+    "value": "Nazaj",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "KiekR privzeto sledi jeziku vaše naprave. Če želite drug jezik samo za KiekR, odprite sistemske nastavitve in ga izberite tam.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Odpri jezikovne nastavitve",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_notifications_advert_chat": {
     "value": "Klepet",
@@ -5699,6 +6713,11 @@
     "value": "Obvestila",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_path_discovery": {
+    "value": "Odkrivanje poti",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_pathlookup_cache_footer": {
     "value": "Trajna pomoč pri učenju za kolizije predpon: ko deterministični izbirnik izbere zmagovalca, se (predpona, hop, javni ključ) prestavi, tako da se naslednja izenačenost pri isti predponi razreši na enak način.\n\nTTL predpomnilnika — kako dolgo vnos ostane v predpomnilniku, preden se ponovno uporabi. Privzeto 30 dni, omejitev 1..=180.\n\nRazlika za razrešitev izenačenja — kako blizu si morata biti metrični vrednosti dveh kandidatov (v %%), preden predpomnilnik razreši izenačenje. 0 onemogoči uporabo predpomnilnika (upoštevajo se le natančna izenačenja); 20 je zgornja meja. Privzeto 5 %%.",
@@ -6250,6 +7269,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_timeout": {
+    "value": "Časovna omejitev",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_tools_autosave_subtitle": {
     "value": "Počasnejši, a nikoli ne pozabi vztrajati.",
     "_ai": true,
@@ -6364,6 +7388,91 @@
     "value": "Upravitelj ponavljalnika",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "tools_diagnostics": {
+    "value": "Diagnostika",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Preizkusite pot, ki jo izberete skok za skokom, in preberite signal na vsakem skoku.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Dodajte ponavljalnike v vrstnem redu, v katerem naj jih sonda obišče.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_repeater": {
+    "value": "Dodaj ponavljalnik",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Izberi na zemljevidu",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_hops": {
+    "value": "Skoki",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Tapnite ponavljalnike v vrstnem redu obiska",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_no_response": {
+    "value": "Ni odgovora — pot morda ni dosegljiva.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Prvi ponavljalnik vas mora slišati, vi pa morate slišati odgovor zadnjega — izberite pot, za katero veste, da je dosegljiva.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_result": {
+    "value": "Rezultat",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR povratne poti",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_roundtrip": {
+    "value": "Povratna pot",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_run": {
+    "value": "Zaženi traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_search_hint": {
+    "value": "Iščite po imenu ali šestnajstiški predponi",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_settings_footer": {
+    "value": "Traceroute preizkusi pot, ki ste jo izbrali skok za skokom, in poroča signal na skok. Enkratno (brez ponovitev) — pot ste izbrali vi. Privzeta časovna omejitev: 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_target_heard_only": {
+    "value": "samo slišano",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "ui_add": {
     "value": "Dodaj",
@@ -6525,1106 +7634,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_discover_found": {
-    "plural": {
-      "one": "Najdeno %1$d vozlišče",
-      "two": "Najdeni %1$d vozlišči",
-      "few": "Najdena %1$d vozlišča",
-      "other": "Najdenih %1$d vozlišč"
-    },
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "node_detail_retrieve_firmware": {
-    "value": "Pridobivanje različice vgrajene programske opreme",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_info_section": {
-    "value": "Informacije",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_position_label": {
-    "value": "Položaj",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_tools_section": {
-    "value": "Orodja",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_rate_limited": {
-    "value": "Omejitev hitrosti — %1$d s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_refresh_owner": {
-    "value": "Osveži podatke o lastniku",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_repeater": {
-    "value": "Ponovni zagon ponavljalnika",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_title": {
-    "value": "Ponovni zagon ponavljalnika?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_body": {
-    "value": "Ponovnik se ponovno zažene in za kratek čas izgine iz omrežja. Ne pošlje potrditve.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_confirm": {
-    "value": "Ponovni zagon",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_cancel": {
-    "value": "Prekliči",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_sent": {
-    "value": "Ukaz za ponovni zagon je bil poslan.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_refresh_session": {
-    "value": "Osveži sejo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_forget_password": {
-    "value": "Pozabljeno geslo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_advert": {
-    "value": "Oglas",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login": {
-    "value": "Potrebna je prijava",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login_footer": {
-    "value": "Prijavi se (kot gost) za statistične podatke, sosede, telemetrijo in firmware · kot skrbnik za nastavitve in CLI.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_stats": {
-    "value": "Statistika in signal",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_neighbours": {
-    "value": "Sosedje",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_telemetry": {
-    "value": "Telemetrija in vgrajena programska oprema",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_admin": {
-    "value": "Skrbnik: urejanje, regije, CLI, ponovni zagon",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_title": {
-    "value": "Preimenuj ponavljalnik",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_field": {
-    "value": "Ime vozlišča",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_confirm": {
-    "value": "Preimenuj",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_action": {
-    "value": "Ponastavi uro in ponovno zaženi računalnik",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_title": {
-    "value": "Ponastaviti uro in ponovno zagnati računalnik?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_body": {
-    "value": "Ustavi uro ponavljalnika na izhodiščno vrednost (15. 5. 2024) in ga ponovno zažene, nato pa tapnite ikono sinhronizacije, da se prenese trenutni čas. Pri ponovnem zagonu se ne prikaže nobeno potrdilo.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_sent": {
-    "value": "Pošiljanje ponastavitve ure in ponovnega zagona.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_title": {
-    "value": "Nastavitev položaja",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lat": {
-    "value": "Zemljepisna širina",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lon": {
-    "value": "Zemljepisna dolžina",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_hint": {
-    "value": "Nastavi oglaševano položaj ponavljalnika. Vnesite decimalne stopinje; izbirnik zemljevida je načrtovana nadaljnja funkcionalnost.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_save": {
-    "value": "Shrani",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_edit_position": {
-    "value": "Uredi položaj",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_version": {
-    "value": "Različica",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_advert": {
-    "value": "Oglas",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock_sync": {
-    "value": "Sinhronizacija ure",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock": {
-    "value": "Ura",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_role": {
-    "value": "Vloga",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_radio": {
-    "value": "Radio",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_tx": {
-    "value": "TX moč",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_name": {
-    "value": "Ime",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_public_key": {
-    "value": "Javni ključ",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_owner": {
-    "value": "Podatki o lastniku",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_neighbours": {
-    "value": "Sosedje",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clear_stats": {
-    "value": "Izbriši statistiko",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_password": {
-    "value": "Geslo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_start_ota": {
-    "value": "Začni OTA",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_reboot": {
-    "value": "Ponovni zagon",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_poweroff": {
-    "value": "Izklop",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_actions": {
-    "value": "Ukrepi",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_read": {
-    "value": "Preberi",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_radio": {
-    "value": "Radio",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_node": {
-    "value": "Vozlišče",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_forwarding": {
-    "value": "Posredovanje",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_danger": {
-    "value": "Nevarno območje",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_title": {
-    "value": "Ali naj zaženem »%1$s«?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_reboot": {
-    "value": "Ponovnik se med ponovnim zagonom odklopi iz mreže. Odgovor se ne pošlje.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_poweroff": {
-    "value": "Ponavljalnik se izklopi in ne bo ponovno začel delovati, dokler ga ne zagnate na novo. Odgovor ni poslan.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_ota": {
-    "value": "Preklopi ponavljalnik v način posodobitve programske opreme.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_clear_stats": {
-    "value": "Ponastavi števce prometa ponavljalnika na nič.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_generic": {
-    "value": "Te akcije ni mogoče razveljaviti.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_saved": {
-    "value": "Ni shranjenih ponavljalnikov",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_matches_short": {
-    "value": "Ni zadetkov",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_empty_desc": {
-    "value": "Tu se prikažejo ponavljalniki in strežniki v prostorih, ki ste jih shranili kot stike.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_environment": {
-    "value": "okolje",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_power": {
-    "value": "moč",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "path_anchor_live_fallback": {
-    "value": "Na podlagi vaše trenutne lokacije — za to sporočilo ni bila shranjena nobena lokacija.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_show": {
-    "value": "Prikaži geslo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_hide": {
-    "value": "Skrij geslo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "add_channel_duplicate_key": {
-    "value": "Ta ključ že pripada »%1$s«.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_last_login": {
-    "value": "Zadnja prijava",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_home_entry_blocklist": {
-    "value": "Blokirani uporabniki",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "chat_menu_block": {
-    "value": "%1$s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_title": {
-    "value": "Blokirani uporabniki",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_back": {
-    "value": "Nazaj",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_unblock": {
-    "value": "Odblokiraj",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_title": {
-    "value": "Ni blokiranih uporabnikov",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_body": {
-    "value": "Dolgo pritisnite na sporočilo v kanalu in izberite »Blokiraj«, da skrijete vsa sporočila tega pošiljatelja. Imena pošiljateljev v kanalu niso preverjena, zato blokiranje poteka zgolj na podlagi imena.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_header": {
-    "value": "Blokirano (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_footer": {
-    "value": "Za odblokiranje tapnite ikono koša. Njihova pretekla sporočila se ponovno prikažejo v vseh kanalih. Blokiranje se nanaša na točno navedeno ime – to ime lahko izbere kdorkoli, zato to ne bo odvrnilo vztrajnega uporabnika od preimenovanja.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "clock_reply_local_label": {
-    "value": "lokalni",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_header": {
-    "value": "Zemljevid pokritosti",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_toggle": {
-    "value": "Prispevajte podatke o pokritosti",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_cells": {
-    "value": "Celice so slišale",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_observations": {
-    "value": "Ugotovitve",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_pending": {
-    "value": "Naložbe v čakanju",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_footer": {
-    "value": "Ko je aplikacija KiekR vklopljena, beleži, katere regije (in, kjer je to mogoče, katere ponavljalnike) zazna v grobi kartografski celici velikosti približno pol kilometra, ter redno prek Wi-Fi-ja pošilja skupne podatke za vsako celico. Vaša natančna lokacija nikoli ne zapusti telefona – le celico – zemljevid pa vedno prikazuje le, kaj je bilo tam sprejeto, nikoli pa ne razkriva, kdo je to sprejel. Funkcija deluje pod psevdonimom in je ločena od vaše identitete v aplikaciji KiekR; lahko jo kadarkoli izklopite.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_interval": {
-    "value": "Interval nalaganja",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_live": {
-    "value": "V živo",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_minutes": {
-    "value": "%1$d min",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_precise_hint": {
-    "value": "Za delovanje funkcije »Coverage« je potrebna natančna lokacija, da se slišano umesti v pravo celico zemljevida. Omogoči natančno določitev lokacije za aplikacijo KiekR – sicer funkcija »Coverage« na tem telefonu ne bo zbrala nobenih podatkov.",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_open_settings": {
-    "value": "Odpri nastavitve lokacije",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_allow_precise": {
-    "value": "Omogoči natančno določanje lokacije",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "mynode_known_companions": {
-    "value": "Znani spremljevalci",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_known_companions_footer": {
-    "value": "Tapnite na napravo, s katero želite ponovno vzpostaviti povezavo. Z drsenjem jo izbrišite s tega seznama.",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_scan_searching": {
-    "value": "Iskanje vozlišč…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_scan_searching_hint": {
-    "value": "Prepričajte se, da je vaše vozlišče vklopljeno in v bližini.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_action": {
-    "value": "Ping",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sent": {
-    "value": "Poslano",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_received": {
-    "value": "Prejeto",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_timeouts": {
-    "value": "Časovne omejitve",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_rtt": {
-    "value": "RTT",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_uplink_snr": {
-    "value": "SNR uplink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_downlink_snr": {
-    "value": "SNR downlink",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_waiting_reply": {
-    "value": "Čakanje na odgovor…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_timeout": {
-    "value": "Časovna omejitev",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_path_discovery": {
-    "value": "Odkrivanje poti",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_samples": {
-    "value": "Vzorci",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_interval": {
-    "value": "Interval vzorcev",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_timeout": {
-    "value": "Časovna omejitev vzorca",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_title": {
-    "value": "Traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_detail_blurb": {
-    "value": "Izmerite čas povratne poti in signal uplink/downlink do tega ponavljalnika.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_settings_footer": {
-    "value": "Ping pošlje N enoskočnih sond ponavljalniku in poroča čas povratne poti ter signal uplink/downlink. Vzorci se pošiljajo zaporedno (v razmiku intervala); vsak čaka na odgovor do časovne omejitve. Privzeto: 3 vzorci, interval 2000 ms, omejitev 5000 ms.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_settings_footer": {
-    "value": "Traceroute preizkusi pot, ki ste jo izbrali skok za skokom, in poroča signal na skok. Enkratno (brez ponovitev) — pot ste izbrali vi. Privzeta časovna omejitev: 30 s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_hops_hint": {
-    "value": "Dodajte ponavljalnike v vrstnem redu, v katerem naj jih sonda obišče.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_repeater": {
-    "value": "Dodaj ponavljalnik",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_hops": {
-    "value": "Skoki",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_reachability_hint": {
-    "value": "Prvi ponavljalnik vas mora slišati, vi pa morate slišati odgovor zadnjega — izberite pot, za katero veste, da je dosegljiva.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_run": {
-    "value": "Zaženi traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_return_snr": {
-    "value": "SNR povratne poti",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_result": {
-    "value": "Rezultat",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_no_response": {
-    "value": "Ni odgovora — pot morda ni dosegljiva.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_diagnostics": {
-    "value": "Diagnostika",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_traceroute_blurb": {
-    "value": "Preizkusite pot, ki jo izberete skok za skokom, in preberite signal na vsakem skoku.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_search_hint": {
-    "value": "Iščite po imenu ali šestnajstiški predponi",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_show_on_map": {
-    "value": "Pokaži na zemljevidu",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_you": {
-    "value": "Vi",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_roundtrip": {
-    "value": "Povratna pot",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_target_heard_only": {
-    "value": "samo slišano",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_choose_on_map": {
-    "value": "Izberi na zemljevidu",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_map_select_hint": {
-    "value": "Tapnite ponavljalnike v vrstnem redu obiska",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_no_node": {
-    "value": "Nobeno vozlišče ni povezano — za pošiljanje povežite companion napravo.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_identity": {
-    "value": "To neposredno sporočilo pripada %1$s. Povezani ste kot %2$s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_language": {
-    "value": "Jezik",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_open_button": {
-    "value": "Odpri jezikovne nastavitve",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_footer": {
-    "value": "KiekR privzeto sledi jeziku vaše naprave. Če želite drug jezik samo za KiekR, odprite sistemske nastavitve in ga izberite tam.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_cd_back": {
-    "value": "Nazaj",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_appearance": {
-    "value": "Videz",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_system": {
-    "value": "Samodejno",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_light": {
-    "value": "Svetlo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_dark": {
-    "value": "Temno",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_footer": {
-    "value": "„Samodejno“ sledi nastavitvi svetlo/temno vaše naprave. Izberite Svetlo ali Temno, da jo preglasite samo za KiekR.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_cd_back": {
-    "value": "Nazaj",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_title": {
-    "value": "Promet v živo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_title": {
-    "value": "Še ni paketov",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_desc": {
-    "value": "Vsak okvir, ki ga vaše vozlišče sliši, se pojavi tukaj — nič se ne filtrira.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_footer": {
-    "value": "Brez filtra — prikažejo se dekodirani, za druge šifrirani, neznani in poškodovani okvirji.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_pause": {
-    "value": "Premor",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_resume": {
-    "value": "Nadaljuj",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_clear": {
-    "value": "Počisti",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Brez filtra · vsi paketi",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_sub": {
-    "value": "prikaže vsak prejeti okvir — tudi tisto, česar ni mogoče prebrati",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "skupaj",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_mesh": {
-    "value": "Mreža",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Tiha",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_active": {
-    "value": "Aktivna",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Zasedena",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Povpr. SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Večskočno",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Ni mogoče dekodirati",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "vseeno na seznamu",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_filter_all": {
-    "value": "Vsi",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_csv": {
-    "value": "Izvozi CSV",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_json": {
-    "value": "Izvozi JSON",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_copy_hash": {
-    "value": "Kopiraj zgoščeno vrednost paketa",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_foreign_hint": {
-    "value": "šifrirano — ni za to napravo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_noise": {
-    "value": "šum %1$d dBm",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_per_min": {
-    "value": "%1$d / min",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "od %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_path_line": {
-    "value": "pot · %1$d B/skok · %2$d skokov",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_companion_delete_confirm_body": {
-    "value": "Odstrani to napravo s seznama. Če je trenutno povezana, se povezava najprej prekine.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_title": {
-    "value": "Želite poslati znova?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_confirm": {
-    "value": "Pošlji znova",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_body": {
-    "value": "Vaše vozlišče je to sporočilo že oddalo. Potrditev ni prišla, vendar so ga prejemniki v dosegu morda vseeno prejeli — ob ponovnem pošiljanju ga bodo videli dvakrat.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "add_channel_generate_key": {
-    "value": "Ustvari naključni ključ",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_select_mode": {
-    "value": "Izberi",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selected_count": {
-    "value": "Izbrano: %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selection_of_total": {
-    "value": "%1$d od %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_all": {
-    "value": "Vse",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_non_favorites": {
-    "value": "Brez priljubljenih",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_stale": {
-    "value": "Dolgo neaktivni…",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_older_days": {
-    "value": "Starejši od %1$d dni",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_auto_added": {
-    "value": "Samodejno dodani",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_button": {
-    "value": "Izbriši (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_title": {
-    "value": "Trajno izbrisati %1$d stikov?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_favorites_warning": {
-    "value": "Med njimi %1$d priljubljenih.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_device_note": {
-    "value": "Stiki, nameščeni na povezanem vozlišču, se odstranijo tudi tam.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_cd_exit_selection": {
-    "value": "Izhod iz izbire",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "settings_backup_import_done_v2": {
-    "value": "Uvoz je zaključen — identitete %1$d, kanali %2$d, regije %3$d, stiki %4$d, prijavni podatki za ponavljalnike %5$d, priljubljene %6$d, blokirani pošiljatelji %7$d, nastavitve %8$d.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_newer_schema": {
-    "value": "Varnostna kopija je bila ustvarjena z novejšo različico aplikacije (shema %1$s) — uporabljena v največji možni meri.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_identity_refused": {
-    "value": "Identiteta ni bila uvožena: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_entry_skipped": {
-    "value": "Preskočeno: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_unknown_pref": {
-    "value": "Neznana nastavitev prezrta: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_empty_bundle": {
-    "value": "Datoteka ni vsebovala podatkov za uvoz.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_cd_jump_to_latest": {
-    "value": "Skoči na najnovejše",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_heard_n_times": {
-    "value": "slišano %1$d×",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range": {
-    "value": "%1$d–%2$d skokov",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_heard_n_times_a11y": {
-    "value": "slišano %1$d-krat",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range_a11y": {
-    "value": "prejeto prek %1$d do %2$d skokov",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_times_heard": {
-    "value": "Slišano",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_reception_of": {
-    "value": "Sprejem %1$d od %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_path_unknown_direct": {
-    "value": "neznano (neposredno usmerjanje)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_overflow": {
-    "value": "+%1$d dodatnih kopij (niso shranjene posamezno)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_lower_bound": {
-    "value": "Število je spodnja meja — ob gostem prometu se kopije lahko izgubijo, preden dosežejo aplikacijo.",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_time": {
-    "value": "Čas",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_all": {
-    "value": "Vse poti",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_menu": {
-    "value": "Poti",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_n_count": {
-    "value": "Pot %1$d (%2$d×)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_a11y": {
-    "value": "Pot %1$d, slišana %2$d-krat",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_dropped": {
-    "value": "+%1$d dodatnih poti (niso narisane)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_pathless": {
-    "value": "%1$d kopij brez poti (neposredno)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_show_reception_on_map": {
-    "value": "Prikaži ta sprejem na zemljevidu",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_chip": {
-    "value": "%1$dB",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_a11y": {
-    "value": "%1$d-bajtna pot",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_menu_copy_path": {
-    "value": "Kopiraj pot",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "chat_detail_hop_heard_no_position": {
-    "value": "Slišano, položaj neznan",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "app_safemode_title": null,
-  "app_safemode_body": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_reset_done": null
+  "nodes_cli_console_title": null,
+  "nodes_cli_pinned_label": null,
+  "nodes_cli_show_all": null,
+  "nodes_cli_hide_all": null,
+  "nodes_cli_retry": null,
+  "nodes_cli_copy_command": null,
+  "nodes_cli_copy_output": null,
+  "nodes_cli_edit_command": null,
+  "nodes_cli_copy_all": null,
+  "nodes_cli_fullscreen": null,
+  "nodes_cli_copied": null,
+  "nodes_cli_pin": null,
+  "nodes_cli_unpin": null,
+  "settings_cli_palette_title": null,
+  "settings_cli_palette_footer": null,
+  "settings_cli_palette_collapse": null,
+  "settings_cli_palette_reset": null
 }

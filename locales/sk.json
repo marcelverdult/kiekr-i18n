@@ -3,8 +3,25 @@
     "language": "sk",
     "name": "Slovenčina",
     "managed_by": "community",
-    "updated": "2026-07-28"
+    "updated": "2026-07-30"
   },
+  "add_channel_duplicate_key": {
+    "value": "Tento kľúč už patrí k „%1$s“.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "add_channel_generate_key": {
+    "value": "Vygenerovať náhodný kľúč",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "app_safemode_body": null,
+  "app_safemode_reset_button": null,
+  "app_safemode_reset_done": null,
+  "app_safemode_reset_hint": null,
+  "app_safemode_share_button": null,
+  "app_safemode_start_button": null,
+  "app_safemode_title": null,
   "app_upgrade_body": {
     "value": "Znovu spustite aplikáciu, aby sa dokončilo načítanie novej verzie.",
     "_ai": true,
@@ -80,6 +97,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_cd_jump_to_latest": {
+    "value": "Prejsť na najnovšie",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "chat_cd_max_retries_reached": {
     "value": "Dosiahol sa maximálny počet pokusov",
     "_ai": true,
@@ -134,6 +156,16 @@
     "value": "%1$d / %2$d bajtov",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_compose_gate_identity": {
+    "value": "Táto priama správa patrí kontaktu %1$s. Ste pripojení ako %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Nie je pripojený žiadny uzol — na odosielanie pripojte companion zariadenie.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "chat_compose_placeholder_disconnected": {
     "value": "Odpojené — pre odoslanie sa znovu pripojte",
@@ -215,6 +247,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_hop_heard_no_position": {
+    "value": "Počuté, poloha neznáma",
+    "_ai": true,
+    "_seeded": "2026-07-28"
+  },
   "chat_detail_hop_looking_up": {
     "value": "hľadám na internete…",
     "_ai": true,
@@ -290,6 +327,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_path_unknown_direct": {
+    "value": "neznáma (priame smerovanie)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_path_unknown_from_device": {
     "value": "neznámy — zo zariadenia",
     "_ai": true,
@@ -319,6 +361,21 @@
     "value": "Typ užitočného zaťaženia",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_reception_of": {
+    "value": "Príjem %1$d z %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "Počet je dolná hranica — pri hustej prevádzke sa kópie môžu stratiť skôr, než dorazia do aplikácie.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d ďalších kópií (neukladajú sa jednotlivo)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_repeat_of": {
     "value": "Opakujte %1$d z %2$d",
@@ -370,6 +427,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_detail_show_reception_on_map": {
+    "value": "Zobraziť tento príjem na mape",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_signal": {
     "value": "Signál",
     "_ai": true,
@@ -384,6 +446,16 @@
     "value": "SNR",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_detail_time": {
+    "value": "Čas",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Počuté",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_transport_code": {
     "value": "Kód dopravy",
@@ -450,6 +522,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_heard_n_times": {
+    "value": "počuté %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "počuté %1$d-krát",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_hidden_channel_action_footer": {
     "value": "Pridajte kanál do zoznamu chatu a do nastavení. Ignorovanie tejto klávesy v budúcnosti potlačí zobrazovanie výziev.",
     "_ai": true,
@@ -505,6 +587,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d skokov",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "prijaté cez %1$d až %2$d skokov",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_install_button": {
     "value": "Inštalovať",
     "_ai": true,
@@ -535,10 +627,20 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_menu_block": {
+    "value": "Blok %1$s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "chat_menu_copy": {
     "value": "Kopírovať",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_menu_copy_path": {
+    "value": "Skopírovať trasu",
+    "_ai": true,
+    "_seeded": "2026-07-28"
   },
   "chat_menu_details": {
     "value": "Podrobnosti",
@@ -595,6 +697,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "chat_path_width_a11y": {
+    "value": "%1$dbajtová trasa",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_path_width_chip": {
+    "value": "%1$dB",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_region_from_device": {
     "value": "zo zariadenia",
     "_ai": true,
@@ -614,6 +726,21 @@
     "value": "Rozsah odpovede: ",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "chat_retry_duplicate_body": {
+    "value": "Váš uzol už túto správu vysielal. Neprišlo žiadne potvrdenie, ale príjemcovia v dosahu ju aj tak mohli prijať — opätovným odoslaním sa im zobrazí dvakrát.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_confirm": {
+    "value": "Odoslať znova",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_title": {
+    "value": "Odoslať znova?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "chat_room_author_you": {
     "value": "Ty",
@@ -775,6 +902,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "clock_reply_local_label": {
+    "value": "miestny",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "delete": {
     "value": "Odstrániť",
     "_ai": true,
@@ -789,6 +921,141 @@
     "value": "Pridané",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "live_traffic_clear": {
+    "value": "Vymazať",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Kopírovať hash paketu",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Každý rámec, ktorý váš uzol začuje, sa objaví tu — nič sa nefiltruje.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Zatiaľ žiadne pakety",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Exportovať CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Exportovať JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Všetky",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Bez filtra — zobrazujú sa rámce dekódované, šifrované pre iných, neznáme aj poškodené.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "šifrované — nie je pre toto zariadenie",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "zobrazuje každý prijatý rámec — aj to, čo sa nedá prečítať",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Bez filtra · všetky pakety",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Aktívna",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Vyťažená",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Pokojná",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "šum %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "cesta · %1$d B/skok · %2$d skokov",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Pozastaviť",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / min",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Pokračovať",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Sieť",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Viacskokové",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "z %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Priem. SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Nedekódovateľné",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "napriek tomu uvedené",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Živá prevádzka",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "spolu",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "map_age_15_min": {
     "value": "15 minút",
@@ -1130,6 +1397,41 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "map_route_a11y": {
+    "value": "Trasa %1$d, počutá %2$d-krát",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_route_n_count": {
+    "value": "Trasa %1$d (%2$d×)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_all": {
+    "value": "Všetky trasy",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_dropped": {
+    "value": "+%1$d ďalších trás (nezakreslené)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_menu": {
+    "value": "Trasy",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_pathless": {
+    "value": "%1$d kópií bez trasy (priame)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_show_on_map": {
+    "value": "Zobraziť na mape",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "map_snr_edge_label": {
     "value": "< %1$.0f dB",
     "_ai": true,
@@ -1149,6 +1451,11 @@
     "value": "%1$.0f–%2$.0f dB",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "map_you": {
+    "value": "Vy",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "message_deleted": {
     "value": "Správa bola vymazaná",
@@ -1194,6 +1501,11 @@
     "value": "Odoslaná synchronizácia hodín",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_companion_delete_confirm_body": {
+    "value": "Odstráni toto zariadenie zo zoznamu. Ak je práve pripojené, spojenie sa najprv ukončí.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "mynode_config_error_code": {
     "value": "kód chyby firmvéru%1$d",
@@ -1359,6 +1671,16 @@
     "value": "DM správy sú podpisované touto identitou. Táto identita sa preberá z párovaného uzla pri prvom pripojení; zachováva sa aj pri opätovných pripojeniach, kým neprevezmete seed iného uzla.",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "mynode_known_companions": {
+    "value": "Známy spoločníci",
+    "_ai": true,
+    "_seeded": "2026-06-29"
+  },
+  "mynode_known_companions_footer": {
+    "value": "Kliknite na zariadenie, s ktorým sa chcete opäť pripojiť. Potiahnutím prsta ho odstránite z tohto zoznamu.",
+    "_ai": true,
+    "_seeded": "2026-06-29"
   },
   "mynode_label_public_key": {
     "value": "verejný kľúč",
@@ -1600,6 +1922,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "mynode_scan_searching": {
+    "value": "Hľadanie uzlov…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Uistite sa, že je váš uzol zapnutý a nablízku.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "mynode_section_connect_via_wifi": {
     "value": "Pripojte sa cez Wi-Fi",
     "_ai": true,
@@ -1772,6 +2104,11 @@
   },
   "nav_tab_settings": {
     "value": "Nastavenia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "node_detail_retrieve_firmware": {
+    "value": "Zistiť verziu firmvéru",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -1995,6 +2332,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_advert": {
+    "value": "Reklama",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_advert_flood": {
     "value": "Reklama na povodne",
     "_ai": true,
@@ -2045,6 +2387,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_channel_cat_environment": {
+    "value": "životné prostredie",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "výkon",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_channel_ctrl": {
     "value": "Kapitola 0x00",
     "_ai": true,
@@ -2062,6 +2414,26 @@
   },
   "nodes_admin_cli_label": {
     "value": "CLI",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Vynulovať hodiny a reštartovať systém",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Vynuluje hodiny opakovača na počiatočnú hodnotu (15. 5. 2024) a reštartuje ho; potom ťuknite na ikonu synchronizácie, aby sa nastavil aktuálny čas. Pri reštarte sa nezobrazí žiadne potvrdenie.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Bolo odoslané vynulovanie hodín a reštart.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Vynulovať hodiny a reštartovať počítač?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2125,6 +2497,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_forget_password": {
+    "value": "Zabudli ste heslo?",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_log_in_ellipsis": {
     "value": "Prihlásiť sa…",
     "_ai": true,
@@ -2170,6 +2547,76 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_admin_position_hint": {
+    "value": "Nastaví zverejnenú polohu opakovača. Zadajte hodnoty v desatinných stupňoch; výber z mapy sa plánuje zaviesť neskôr.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Zemepisná šírka",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Zemepisná dĺžka",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_save": {
+    "value": "Uložiť",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_position_title": {
+    "value": "Nastaviť polohu",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "Opakovač sa reštartuje a na krátko sa odpojí od siete. Neodosiela žiadne potvrdenie.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Zrušiť",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Reštartovať",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Reštartovanie opakovača",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Príkaz na reštart bol odoslaný.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "Reštartovať opakovač?",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Pomenovať",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Názov uzla",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Premenovať opakovač",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_admin_role_label": {
     "value": "Úloha",
     "_ai": true,
@@ -2200,6 +2647,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_bulk_delete_button": {
+    "value": "Odstrániť (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_device_note": {
+    "value": "Kontakty nainštalované na pripojenom uzle sa odstránia aj tam.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_favorites_warning": {
+    "value": "Vrátane %1$d obľúbených.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_title": {
+    "value": "Natrvalo odstrániť %1$d kontaktov?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_cd_add_contact_or_channel": {
     "value": "Pridať kontakt alebo kanál",
     "_ai": true,
@@ -2214,6 +2681,11 @@
     "value": "Znížiť maximálny počet skokov",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_cd_exit_selection": {
+    "value": "Ukončiť výber",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_cd_favorite": {
     "value": "Obľúbené",
@@ -2247,6 +2719,36 @@
   },
   "nodes_cd_unfavorite": {
     "value": "Odstrániť z obľúbených",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Vynuluje počítadlá prevádzky opakovača.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Túto akciu nie je možné vrátiť späť.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Prepne opakovač do režimu aktualizácie firmvéru.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "Opakovač sa vypne a nezačne opäť fungovať, kým nebude fyzicky reštartovaný. Neodosiela sa žiadna odpoveď.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "Repeater sa počas reštartovania odpojí od siete. Neodosiela sa žiadna odpoveď.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "Spustiť „%1$s“?",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2370,6 +2872,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_cd_edit_position": {
+    "value": "Upraviť pozíciu",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_cd_look_up_neighbours": {
     "value": "Vyhľadajte si neznámych susedov na internete",
     "_ai": true,
@@ -2377,6 +2884,11 @@
   },
   "nodes_detail_cd_refresh": {
     "value": "Obnoviť",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Aktualizovať informácie o vlastníkovi",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2422,6 +2934,36 @@
   },
   "nodes_detail_hide_list": {
     "value": "Skryť zoznam",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_info_section": {
+    "value": "Informácie",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_last_login": {
+    "value": "Posledné prihlásenie",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Správca: úprava, regióny, CLI, reštart",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Susedia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Štatistiky a signál",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Telemetria a firmvér",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2510,6 +3052,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_needs_login": {
+    "value": "Je potrebné sa prihlásiť",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Prihláste sa (ako hosť) pre štatistiky, susedov, telemetriu a firmvér · ako správca pre konfiguráciu a CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_neighbours_cached_partial": {
     "value": "%1$d uložené v cache · čiastočné — ťuknutím obnovíte",
     "_ai": true,
@@ -2565,13 +3117,28 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_position_label": {
+    "value": "Pozícia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_pubkey_label": {
     "value": "Verejný kľúč",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_rate_limited": {
+    "value": "Obmedzenie rýchlosti — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_receiving_progress": {
     "value": "Prijímanie · %1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Obnoviť reláciu",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2685,6 +3252,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_detail_tools_section": {
+    "value": "Nástroje",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_detail_try_acl_only": {
     "value": "Skúste len ACL",
     "_ai": true,
@@ -2734,6 +3306,15 @@
     "value": "Nenašli sa žiadne uzly",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_discover_found": {
+    "plural": {
+      "one": "Nájdený %1$d uzol",
+      "few": "Nájdené %1$d uzly",
+      "other": "Nájdených %1$d uzlov"
+    },
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "nodes_discover_group_repeaters": {
     "value": "Opakovače (%1$d)",
@@ -3175,8 +3756,23 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Tu sa zobrazujú opakovače a miestnostné servery, ktoré ste uložili ako kontakty.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "nodes_manual_picker_no_matches": {
     "value": "Nenašli sa žiadne výsledky pre „%1$s“.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Žiadne výsledky",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Žiadne uložené opakovače",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -3320,6 +3916,31 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "nodes_quick_select_all": {
+    "value": "Všetky",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_auto_added": {
+    "value": "Automaticky pridané",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_non_favorites": {
+    "value": "Okrem obľúbených",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_older_days": {
+    "value": "Staršie než %1$d dní",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_stale": {
+    "value": "Dlho neaktívne…",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_save": {
     "value": "Uložiť",
     "_ai": true,
@@ -3334,6 +3955,21 @@
     "value": "Chcete tento opakovač pridať do obľúbených?",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "nodes_select_mode": {
+    "value": "Vybrať",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selected_count": {
+    "value": "Vybraté: %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selection_of_total": {
+    "value": "%1$d z %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_set_home_clear": {
     "value": "* (vyčistiť domov)",
@@ -3530,6 +4166,200 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "password_hide": {
+    "value": "Skryť heslo",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "password_show": {
+    "value": "Zobraziť heslo",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "path_anchor_live_fallback": {
+    "value": "Na základe vašej aktuálnej polohy — pre túto správu nebola uložená žiadna poloha.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_detail_blurb": {
+    "value": "Zmerajte čas odozvy a signál uplink/downlink k tomuto opakovaču.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR downlinku",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_received": {
+    "value": "Prijaté",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_interval": {
+    "value": "Interval vzoriek",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sample_timeout": {
+    "value": "Timeout vzorky",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_samples": {
+    "value": "Vzorky",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_sent": {
+    "value": "Odoslané",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_settings_footer": {
+    "value": "Ping vyšle N jednoskokových sond na opakovač a ohlási čas odozvy a signál uplink/downlink. Vzorky sa odosielajú postupne (s odstupom intervalu); každá čaká na odpoveď až do timeoutu. Predvolené: 3 vzorky, interval 2000 ms, timeout 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_timeouts": {
+    "value": "Timeouty",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR uplinku",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "ping_waiting_reply": {
+    "value": "Čaká sa na odpoveď…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "repeater_cli_advert": {
+    "value": "Reklama",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Vymazať štatistiky",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock": {
+    "value": "Hodiny",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Synchronizácia hodín",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_flood_max_advert": null,
+  "repeater_cli_flood_max_unscoped": null,
+  "repeater_cli_get_flood_max_advert": null,
+  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_get_name": {
+    "value": "Meno",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Informácie o vlastníkovi",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Rádio",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX energia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Akcie",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Nebezpečná zóna",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Preposielanie",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_node": {
+    "value": "Uzol",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Rádio",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_group_read": {
+    "value": "Prečítať",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Susedia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_password": {
+    "value": "Heslo",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Vypnúť",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_public_key": {
+    "value": "Verejný kľúč",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_reboot": {
+    "value": "Reštart",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_role": {
+    "value": "Úloha",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Spustiť OTA",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "repeater_cli_version": {
+    "value": "Verzia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "room_admin_access_footer": {
     "value": "Prihláste sa, aby ste mali prístup k nástrojom pre správu. Heslo sa po úspešnom prihlásení uloží do tohto zariadenia.",
     "_ai": true,
@@ -3719,6 +4549,31 @@
     "value": "Izba servera",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_appearance_cd_back": {
+    "value": "Späť",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "„Automaticky“ sa riadi nastavením svetlý/tmavý vášho zariadenia. Zvoľte Svetlý alebo Tmavý, ak to chcete zmeniť len pre KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Tmavý",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Svetlý",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Automaticky",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
     "value": "Inzeráty, ktoré prešli cez väčší počet opakovačov, aplikácia automaticky nepridáva. 0 = iba priame; 64 = neobmedzene (limit daný firmvérom).",
@@ -4020,6 +4875,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_backup_import_done_v2": {
+    "value": "Import dokončený — %1$d identity, %2$d kanály, %3$d regióny, %4$d kontakty, %5$d prihlásenia do opakovača, %6$d obľúbené, %7$d blokovaní odosielatelia, %8$d nastavenia.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "settings_backup_import_fallback_name": {
     "value": "import",
     "_ai": true,
@@ -4104,6 +4964,31 @@
     "value": "Zálohovanie",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Súbor neobsahoval žiadne importovateľné údaje.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Preskočené: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identita nebola importovaná: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "Záloha pochádza z novšej verzie aplikácie (schéma %1$s) — použitá v maximálnej možnej miere.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Neznáme nastavenie ignorované: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   },
   "settings_battery_add_anchor": {
     "value": "Pridať kotvu",
@@ -4267,6 +5152,41 @@
   },
   "settings_battery_warn_header": {
     "value": "Upozornenie na nízky stav batérie",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_back": {
+    "value": "Späť",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_cd_unblock": {
+    "value": "Odblokovať",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_body": {
+    "value": "Dlho stlačte správu v kanáli a vyberte možnosť „Blokovať“, aby sa skryli všetky správy od daného odosielateľa. Mená odosielateľov v kanáloch nie sú overené, takže blokovanie sa vzťahuje iba na meno.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_empty_title": {
+    "value": "Žiadni zablokovaní používatelia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_footer": {
+    "value": "Na odblokovanie ťuknite na ikonu koša. Ich predchádzajúce správy sa opäť zobrazia vo všetkých kanáloch. Blokovanie sa vzťahuje na presný zobrazený názov – toto meno si môže zvoliť ktokoľvek, takže to nezabráni odhodlanému používateľovi, aby si zmenil meno.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_section_header": {
+    "value": "Zablokované (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_blocklist_title": {
+    "value": "Zablokovaní používatelia",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -4820,6 +5740,66 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_community_coverage_allow_precise": {
+    "value": "Povoliť presnú lokalizáciu",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_cells": {
+    "value": "Počuté bunky",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_footer": {
+    "value": "Keď je aplikácia KiekR zapnutá, zaznamenáva, ktoré regióny (a pokiaľ je to možné, aj ktoré opakovače) zachytáva v hrubej mapovej bunke s rozmerom približne pol kilometra, a pravidelne odosiela súhrnné údaje za každú bunku cez Wi-Fi. Vaša presná poloha nikdy neopustí telefón – iba danú bunku – a mapa vždy zobrazuje len to, čo bolo v danej bunke zachytené, nikdy však to, kto to zachytil. Funkcia je pseudonymná a oddelená od vašej identity v aplikácii KiekR; môžete ju kedykoľvek vypnúť.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_header": {
+    "value": "Mapa pokrytia",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_interval": {
+    "value": "Interval nahrávania",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_live": {
+    "value": "Naživo",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_minutes": {
+    "value": "%1$d min",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_observations": {
+    "value": "Poznámky",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_open_settings": {
+    "value": "Otvoriť nastavenia polohy",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_pending": {
+    "value": "Čakajúce nahrania",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_precise_hint": {
+    "value": "Funkcia „Coverage“ potrebuje presnú polohu, aby mohla zaznamenať to, čo počujete, do správnej bunky mapy. Povoliť presnú polohu pre aplikáciu KiekR – inak funkcia „Coverage“ na tomto telefóne nezaznamená žiadne údaje.",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_toggle": {
+    "value": "Pridajte údaje o pokrytí",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "settings_community_edit_broker": {
     "value": "Upraviť makléra",
     "_ai": true,
@@ -5200,6 +6180,9 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_diag_footer": null,
+  "settings_diag_header": null,
+  "settings_diag_toggle": null,
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -5475,6 +6458,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_home_entry_appearance": {
+    "value": "Vzhľad",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_home_entry_autoadd": {
     "value": "Automatické pridávanie",
     "_ai": true,
@@ -5492,6 +6480,11 @@
   },
   "settings_home_entry_battery": {
     "value": "Batéria",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_blocklist": {
+    "value": "Zablokovaní používatelia",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5519,6 +6512,11 @@
     "value": "Pomoc a podpora",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_home_entry_language": {
+    "value": "Jazyk",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_home_entry_notifications": {
     "value": "Oznámenia",
@@ -5584,6 +6582,21 @@
     "value": "Nastavenia",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_language_cd_back": {
+    "value": "Späť",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "KiekR sa predvolene riadi jazykom zariadenia. Ak chcete iný jazyk len pre KiekR, otvorte systémové nastavenia a vyberte ho tam.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Otvoriť nastavenia jazyka",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_notifications_advert_chat": {
     "value": "Chat",
@@ -5699,6 +6712,11 @@
     "value": "Oznámenia",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "settings_path_discovery": {
+    "value": "Zisťovanie cesty",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_pathlookup_cache_footer": {
     "value": "Trvalá pomôcka pri kolíziách prefixov: akonáhle deterministický výberový algoritmus určí víťaza, trojica (prefix, hop, verejný kľúč) sa posunie, aby sa pri ďalšej remíze s rovnakým prefixom rozhodlo rovnakým spôsobom.\n\nTTL vyrovnávacej pamäte — ako dlho záznam pretrváva bez opätovného použitia. Predvolená hodnota je 30 dní, rozsah 1..=180.\n\nRozdiel pri rozhodovaní o remíze — aké blízko pri sebe musia byť metriky dvoch kandidátov (v %%), aby cache rozhodla o remíze. Hodnota 0 deaktivuje záložný mechanizmus cache (kvalifikujú sa len presné remízy); 20 je horná hranica. Predvolená hodnota je 5 %%.",
@@ -6250,6 +7268,11 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
+  "settings_timeout": {
+    "value": "Timeout",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_tools_autosave_subtitle": {
     "value": "Je pomalší, ale nikdy nezabúda vytrvať.",
     "_ai": true,
@@ -6364,6 +7387,91 @@
     "value": "Správca opakovača",
     "_ai": true,
     "_seeded": "2026-06-26"
+  },
+  "tools_diagnostics": {
+    "value": "Diagnostika",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Preverte trasu zvolenú skok po skoku a prečítajte si signál na každom skoku.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Pridajte opakovače v poradí, v akom ich má sonda navštíviť.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_add_repeater": {
+    "value": "Pridať opakovač",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Vybrať na mape",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_hops": {
+    "value": "Skoky",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Klepnite na opakovače v poradí návštevy",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_no_response": {
+    "value": "Žiadna odpoveď — cesta nemusí byť dosiahnuteľná.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_reachability_hint": {
+    "value": "Prvý opakovač vás musí počuť a vy musíte počuť odpoveď posledného — zvoľte cestu, o ktorej viete, že je dosiahnuteľná.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_result": {
+    "value": "Výsledok",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR spiatočnej cesty",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_roundtrip": {
+    "value": "Čas odozvy",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_run": {
+    "value": "Spustiť traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_search_hint": {
+    "value": "Hľadajte podľa názvu alebo hex prefixu",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_settings_footer": {
+    "value": "Traceroute preverí trasu, ktorú ste zvolili skok po skoku, a ohlási signál na každom skoku. Jednorazovo (bez opakovaní) — cestu ste zvolili vy. Predvolený timeout 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_target_heard_only": {
+    "value": "iba začutý",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "ui_add": {
     "value": "Pridať",
@@ -6525,1105 +7633,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_discover_found": {
-    "plural": {
-      "one": "Nájdený %1$d uzol",
-      "few": "Nájdené %1$d uzly",
-      "other": "Nájdených %1$d uzlov"
-    },
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "node_detail_retrieve_firmware": {
-    "value": "Zistiť verziu firmvéru",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_info_section": {
-    "value": "Informácie",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_position_label": {
-    "value": "Pozícia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_tools_section": {
-    "value": "Nástroje",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_rate_limited": {
-    "value": "Obmedzenie rýchlosti — %1$d s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_refresh_owner": {
-    "value": "Aktualizovať informácie o vlastníkovi",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_repeater": {
-    "value": "Reštartovanie opakovača",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_title": {
-    "value": "Reštartovať opakovač?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_body": {
-    "value": "Opakovač sa reštartuje a na krátko sa odpojí od siete. Neodosiela žiadne potvrdenie.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_confirm": {
-    "value": "Reštartovať",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_cancel": {
-    "value": "Zrušiť",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_reboot_sent": {
-    "value": "Príkaz na reštart bol odoslaný.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_refresh_session": {
-    "value": "Obnoviť reláciu",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_forget_password": {
-    "value": "Zabudli ste heslo?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_advert": {
-    "value": "Reklama",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login": {
-    "value": "Je potrebné sa prihlásiť",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_needs_login_footer": {
-    "value": "Prihláste sa (ako hosť) pre štatistiky, susedov, telemetriu a firmvér · ako správca pre konfiguráciu a CLI.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_stats": {
-    "value": "Štatistiky a signál",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_neighbours": {
-    "value": "Susedia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_telemetry": {
-    "value": "Telemetria a firmvér",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_lock_admin": {
-    "value": "Správca: úprava, regióny, CLI, reštart",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_title": {
-    "value": "Premenovať opakovač",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_field": {
-    "value": "Názov uzla",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_rename_confirm": {
-    "value": "Pomenovať",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_action": {
-    "value": "Vynulovať hodiny a reštartovať systém",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_title": {
-    "value": "Vynulovať hodiny a reštartovať počítač?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_body": {
-    "value": "Vynuluje hodiny opakovača na počiatočnú hodnotu (15. 5. 2024) a reštartuje ho; potom ťuknite na ikonu synchronizácie, aby sa nastavil aktuálny čas. Pri reštarte sa nezobrazí žiadne potvrdenie.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_clkreboot_sent": {
-    "value": "Bolo odoslané vynulovanie hodín a reštart.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_title": {
-    "value": "Nastaviť polohu",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lat": {
-    "value": "Zemepisná šírka",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_lon": {
-    "value": "Zemepisná dĺžka",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_hint": {
-    "value": "Nastaví zverejnenú polohu opakovača. Zadajte hodnoty v desatinných stupňoch; výber z mapy sa plánuje zaviesť neskôr.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_position_save": {
-    "value": "Uložiť",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_cd_edit_position": {
-    "value": "Upraviť pozíciu",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_version": {
-    "value": "Verzia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_advert": {
-    "value": "Reklama",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock_sync": {
-    "value": "Synchronizácia hodín",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clock": {
-    "value": "Hodiny",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_role": {
-    "value": "Úloha",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_radio": {
-    "value": "Rádio",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_tx": {
-    "value": "TX energia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_name": {
-    "value": "Meno",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_public_key": {
-    "value": "Verejný kľúč",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_get_owner": {
-    "value": "Informácie o vlastníkovi",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_neighbours": {
-    "value": "Susedia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_clear_stats": {
-    "value": "Vymazať štatistiky",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_password": {
-    "value": "Heslo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_start_ota": {
-    "value": "Spustiť OTA",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_reboot": {
-    "value": "Reštart",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_poweroff": {
-    "value": "Vypnúť",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_actions": {
-    "value": "Akcie",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_read": {
-    "value": "Prečítať",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_radio": {
-    "value": "Rádio",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_node": {
-    "value": "Uzol",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_forwarding": {
-    "value": "Preposielanie",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "repeater_cli_group_danger": {
-    "value": "Nebezpečná zóna",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_title": {
-    "value": "Spustiť „%1$s“?",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_reboot": {
-    "value": "Repeater sa počas reštartovania odpojí od siete. Neodosiela sa žiadna odpoveď.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_poweroff": {
-    "value": "Opakovač sa vypne a nezačne opäť fungovať, kým nebude fyzicky reštartovaný. Neodosiela sa žiadna odpoveď.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_ota": {
-    "value": "Prepne opakovač do režimu aktualizácie firmvéru.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_clear_stats": {
-    "value": "Vynuluje počítadlá prevádzky opakovača.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_cli_confirm_generic": {
-    "value": "Túto akciu nie je možné vrátiť späť.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_saved": {
-    "value": "Žiadne uložené opakovače",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_no_matches_short": {
-    "value": "Žiadne výsledky",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_manual_picker_empty_desc": {
-    "value": "Tu sa zobrazujú opakovače a miestnostné servery, ktoré ste uložili ako kontakty.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_environment": {
-    "value": "životné prostredie",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_admin_channel_cat_power": {
-    "value": "výkon",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "path_anchor_live_fallback": {
-    "value": "Na základe vašej aktuálnej polohy — pre túto správu nebola uložená žiadna poloha.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_show": {
-    "value": "Zobraziť heslo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "password_hide": {
-    "value": "Skryť heslo",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "add_channel_duplicate_key": {
-    "value": "Tento kľúč už patrí k „%1$s“.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_last_login": {
-    "value": "Posledné prihlásenie",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_home_entry_blocklist": {
-    "value": "Zablokovaní používatelia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "chat_menu_block": {
-    "value": "Blok %1$s",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_title": {
-    "value": "Zablokovaní používatelia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_back": {
-    "value": "Späť",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_cd_unblock": {
-    "value": "Odblokovať",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_title": {
-    "value": "Žiadni zablokovaní používatelia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_empty_body": {
-    "value": "Dlho stlačte správu v kanáli a vyberte možnosť „Blokovať“, aby sa skryli všetky správy od daného odosielateľa. Mená odosielateľov v kanáloch nie sú overené, takže blokovanie sa vzťahuje iba na meno.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_header": {
-    "value": "Zablokované (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_blocklist_section_footer": {
-    "value": "Na odblokovanie ťuknite na ikonu koša. Ich predchádzajúce správy sa opäť zobrazia vo všetkých kanáloch. Blokovanie sa vzťahuje na presný zobrazený názov – toto meno si môže zvoliť ktokoľvek, takže to nezabráni odhodlanému používateľovi, aby si zmenil meno.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "clock_reply_local_label": {
-    "value": "miestny",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_header": {
-    "value": "Mapa pokrytia",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_toggle": {
-    "value": "Pridajte údaje o pokrytí",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_cells": {
-    "value": "Počuté bunky",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_observations": {
-    "value": "Poznámky",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_pending": {
-    "value": "Čakajúce nahrania",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_footer": {
-    "value": "Keď je aplikácia KiekR zapnutá, zaznamenáva, ktoré regióny (a pokiaľ je to možné, aj ktoré opakovače) zachytáva v hrubej mapovej bunke s rozmerom približne pol kilometra, a pravidelne odosiela súhrnné údaje za každú bunku cez Wi-Fi. Vaša presná poloha nikdy neopustí telefón – iba danú bunku – a mapa vždy zobrazuje len to, čo bolo v danej bunke zachytené, nikdy však to, kto to zachytil. Funkcia je pseudonymná a oddelená od vašej identity v aplikácii KiekR; môžete ju kedykoľvek vypnúť.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_interval": {
-    "value": "Interval nahrávania",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_live": {
-    "value": "Naživo",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_minutes": {
-    "value": "%1$d min",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_precise_hint": {
-    "value": "Funkcia „Coverage“ potrebuje presnú polohu, aby mohla zaznamenať to, čo počujete, do správnej bunky mapy. Povoliť presnú polohu pre aplikáciu KiekR – inak funkcia „Coverage“ na tomto telefóne nezaznamená žiadne údaje.",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_open_settings": {
-    "value": "Otvoriť nastavenia polohy",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_allow_precise": {
-    "value": "Povoliť presnú lokalizáciu",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "mynode_known_companions": {
-    "value": "Známy spoločníci",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_known_companions_footer": {
-    "value": "Kliknite na zariadenie, s ktorým sa chcete opäť pripojiť. Potiahnutím prsta ho odstránite z tohto zoznamu.",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_scan_searching": {
-    "value": "Hľadanie uzlov…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_scan_searching_hint": {
-    "value": "Uistite sa, že je váš uzol zapnutý a nablízku.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_action": {
-    "value": "Ping",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sent": {
-    "value": "Odoslané",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_received": {
-    "value": "Prijaté",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_timeouts": {
-    "value": "Timeouty",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_rtt": {
-    "value": "RTT",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_uplink_snr": {
-    "value": "SNR uplinku",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_downlink_snr": {
-    "value": "SNR downlinku",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_waiting_reply": {
-    "value": "Čaká sa na odpoveď…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_timeout": {
-    "value": "Timeout",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_path_discovery": {
-    "value": "Zisťovanie cesty",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_samples": {
-    "value": "Vzorky",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_interval": {
-    "value": "Interval vzoriek",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_sample_timeout": {
-    "value": "Timeout vzorky",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_title": {
-    "value": "Traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_detail_blurb": {
-    "value": "Zmerajte čas odozvy a signál uplink/downlink k tomuto opakovaču.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_settings_footer": {
-    "value": "Ping vyšle N jednoskokových sond na opakovač a ohlási čas odozvy a signál uplink/downlink. Vzorky sa odosielajú postupne (s odstupom intervalu); každá čaká na odpoveď až do timeoutu. Predvolené: 3 vzorky, interval 2000 ms, timeout 5000 ms.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_settings_footer": {
-    "value": "Traceroute preverí trasu, ktorú ste zvolili skok po skoku, a ohlási signál na každom skoku. Jednorazovo (bez opakovaní) — cestu ste zvolili vy. Predvolený timeout 30 s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_hops_hint": {
-    "value": "Pridajte opakovače v poradí, v akom ich má sonda navštíviť.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_add_repeater": {
-    "value": "Pridať opakovač",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_hops": {
-    "value": "Skoky",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_reachability_hint": {
-    "value": "Prvý opakovač vás musí počuť a vy musíte počuť odpoveď posledného — zvoľte cestu, o ktorej viete, že je dosiahnuteľná.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_run": {
-    "value": "Spustiť traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_return_snr": {
-    "value": "SNR spiatočnej cesty",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_result": {
-    "value": "Výsledok",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_no_response": {
-    "value": "Žiadna odpoveď — cesta nemusí byť dosiahnuteľná.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_diagnostics": {
-    "value": "Diagnostika",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "tools_traceroute_blurb": {
-    "value": "Preverte trasu zvolenú skok po skoku a prečítajte si signál na každom skoku.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_search_hint": {
-    "value": "Hľadajte podľa názvu alebo hex prefixu",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_show_on_map": {
-    "value": "Zobraziť na mape",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "map_you": {
-    "value": "Vy",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_roundtrip": {
-    "value": "Čas odozvy",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_target_heard_only": {
-    "value": "iba začutý",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_choose_on_map": {
-    "value": "Vybrať na mape",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_map_select_hint": {
-    "value": "Klepnite na opakovače v poradí návštevy",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_no_node": {
-    "value": "Nie je pripojený žiadny uzol — na odosielanie pripojte companion zariadenie.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_identity": {
-    "value": "Táto priama správa patrí kontaktu %1$s. Ste pripojení ako %2$s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_language": {
-    "value": "Jazyk",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_open_button": {
-    "value": "Otvoriť nastavenia jazyka",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_footer": {
-    "value": "KiekR sa predvolene riadi jazykom zariadenia. Ak chcete iný jazyk len pre KiekR, otvorte systémové nastavenia a vyberte ho tam.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_cd_back": {
-    "value": "Späť",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_appearance": {
-    "value": "Vzhľad",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_system": {
-    "value": "Automaticky",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_light": {
-    "value": "Svetlý",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_dark": {
-    "value": "Tmavý",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_footer": {
-    "value": "„Automaticky“ sa riadi nastavením svetlý/tmavý vášho zariadenia. Zvoľte Svetlý alebo Tmavý, ak to chcete zmeniť len pre KiekR.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_cd_back": {
-    "value": "Späť",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_title": {
-    "value": "Živá prevádzka",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_title": {
-    "value": "Zatiaľ žiadne pakety",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_desc": {
-    "value": "Každý rámec, ktorý váš uzol začuje, sa objaví tu — nič sa nefiltruje.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_footer": {
-    "value": "Bez filtra — zobrazujú sa rámce dekódované, šifrované pre iných, neznáme aj poškodené.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_pause": {
-    "value": "Pozastaviť",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_resume": {
-    "value": "Pokračovať",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_clear": {
-    "value": "Vymazať",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Bez filtra · všetky pakety",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_sub": {
-    "value": "zobrazuje každý prijatý rámec — aj to, čo sa nedá prečítať",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "spolu",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_mesh": {
-    "value": "Sieť",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Pokojná",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_active": {
-    "value": "Aktívna",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Vyťažená",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Priem. SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Viacskokové",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Nedekódovateľné",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "napriek tomu uvedené",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_filter_all": {
-    "value": "Všetky",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_csv": {
-    "value": "Exportovať CSV",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_json": {
-    "value": "Exportovať JSON",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_copy_hash": {
-    "value": "Kopírovať hash paketu",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_foreign_hint": {
-    "value": "šifrované — nie je pre toto zariadenie",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_noise": {
-    "value": "šum %1$d dBm",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_per_min": {
-    "value": "%1$d / min",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "z %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_path_line": {
-    "value": "cesta · %1$d B/skok · %2$d skokov",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_companion_delete_confirm_body": {
-    "value": "Odstráni toto zariadenie zo zoznamu. Ak je práve pripojené, spojenie sa najprv ukončí.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_title": {
-    "value": "Odoslať znova?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_confirm": {
-    "value": "Odoslať znova",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_body": {
-    "value": "Váš uzol už túto správu vysielal. Neprišlo žiadne potvrdenie, ale príjemcovia v dosahu ju aj tak mohli prijať — opätovným odoslaním sa im zobrazí dvakrát.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "add_channel_generate_key": {
-    "value": "Vygenerovať náhodný kľúč",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_select_mode": {
-    "value": "Vybrať",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selected_count": {
-    "value": "Vybraté: %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selection_of_total": {
-    "value": "%1$d z %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_all": {
-    "value": "Všetky",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_non_favorites": {
-    "value": "Okrem obľúbených",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_stale": {
-    "value": "Dlho neaktívne…",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_older_days": {
-    "value": "Staršie než %1$d dní",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_auto_added": {
-    "value": "Automaticky pridané",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_button": {
-    "value": "Odstrániť (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_title": {
-    "value": "Natrvalo odstrániť %1$d kontaktov?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_favorites_warning": {
-    "value": "Vrátane %1$d obľúbených.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_device_note": {
-    "value": "Kontakty nainštalované na pripojenom uzle sa odstránia aj tam.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_cd_exit_selection": {
-    "value": "Ukončiť výber",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "settings_backup_import_done_v2": {
-    "value": "Import dokončený — %1$d identity, %2$d kanály, %3$d regióny, %4$d kontakty, %5$d prihlásenia do opakovača, %6$d obľúbené, %7$d blokovaní odosielatelia, %8$d nastavenia.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_newer_schema": {
-    "value": "Záloha pochádza z novšej verzie aplikácie (schéma %1$s) — použitá v maximálnej možnej miere.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_identity_refused": {
-    "value": "Identita nebola importovaná: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_entry_skipped": {
-    "value": "Preskočené: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_unknown_pref": {
-    "value": "Neznáme nastavenie ignorované: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_empty_bundle": {
-    "value": "Súbor neobsahoval žiadne importovateľné údaje.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_cd_jump_to_latest": {
-    "value": "Prejsť na najnovšie",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_heard_n_times": {
-    "value": "počuté %1$d×",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range": {
-    "value": "%1$d–%2$d skokov",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_heard_n_times_a11y": {
-    "value": "počuté %1$d-krát",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range_a11y": {
-    "value": "prijaté cez %1$d až %2$d skokov",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_times_heard": {
-    "value": "Počuté",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_reception_of": {
-    "value": "Príjem %1$d z %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_path_unknown_direct": {
-    "value": "neznáma (priame smerovanie)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_overflow": {
-    "value": "+%1$d ďalších kópií (neukladajú sa jednotlivo)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_lower_bound": {
-    "value": "Počet je dolná hranica — pri hustej prevádzke sa kópie môžu stratiť skôr, než dorazia do aplikácie.",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_time": {
-    "value": "Čas",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_all": {
-    "value": "Všetky trasy",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_menu": {
-    "value": "Trasy",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_n_count": {
-    "value": "Trasa %1$d (%2$d×)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_a11y": {
-    "value": "Trasa %1$d, počutá %2$d-krát",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_dropped": {
-    "value": "+%1$d ďalších trás (nezakreslené)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_pathless": {
-    "value": "%1$d kópií bez trasy (priame)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_show_reception_on_map": {
-    "value": "Zobraziť tento príjem na mape",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_chip": {
-    "value": "%1$dB",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_a11y": {
-    "value": "%1$dbajtová trasa",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_menu_copy_path": {
-    "value": "Skopírovať trasu",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "chat_detail_hop_heard_no_position": {
-    "value": "Počuté, poloha neznáma",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "app_safemode_title": null,
-  "app_safemode_body": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_reset_done": null
+  "nodes_cli_console_title": null,
+  "nodes_cli_pinned_label": null,
+  "nodes_cli_show_all": null,
+  "nodes_cli_hide_all": null,
+  "nodes_cli_retry": null,
+  "nodes_cli_copy_command": null,
+  "nodes_cli_copy_output": null,
+  "nodes_cli_edit_command": null,
+  "nodes_cli_copy_all": null,
+  "nodes_cli_fullscreen": null,
+  "nodes_cli_copied": null,
+  "nodes_cli_pin": null,
+  "nodes_cli_unpin": null,
+  "settings_cli_palette_title": null,
+  "settings_cli_palette_footer": null,
+  "settings_cli_palette_collapse": null,
+  "settings_cli_palette_reset": null
 }
