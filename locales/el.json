@@ -15,13 +15,41 @@
     "_ai": true,
     "_seeded": "2026-07-06"
   },
-  "app_safemode_body": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_done": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_title": null,
+  "app_safemode_body": {
+    "value": "Η τελευταία εκκίνηση κατέρρευσε πριν ολοκληρωθεί η φόρτωση της εφαρμογής. Η κοινή χρήση του αρχείου διαγνωστικών μας βοηθά να βρούμε την αιτία.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_button": {
+    "value": "Εκκαθάριση δεδομένων companion",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_done": {
+    "value": "Τα δεδομένα companion διαγράφηκαν. Ξεκινήστε ξανά την εφαρμογή.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_hint": {
+    "value": "Μοιραστείτε πρώτα το αρχείο — η εκκαθάριση διαγράφει ακριβώς τα δεδομένα που χρειαζόμαστε.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_share_button": {
+    "value": "Κοινή χρήση αρχείου διαγνωστικών",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_start_button": {
+    "value": "Εκκίνηση κανονικά ούτως ή άλλως",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_title": {
+    "value": "Το KiekR δεν ξεκίνησε σωστά",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "app_upgrade_body": {
     "value": "Ξανανοίξτε την εφαρμογή για να ολοκληρωθεί η φόρτωση της νέας έκδοσης.",
     "_ai": true,
@@ -4265,10 +4293,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "repeater_cli_flood_max_advert": null,
-  "repeater_cli_flood_max_unscoped": null,
-  "repeater_cli_get_flood_max_advert": null,
-  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "repeater_cli_get_name": {
     "value": "Όνομα",
     "_ai": true,
@@ -6179,9 +6223,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_diag_footer": null,
-  "settings_diag_header": null,
-  "settings_diag_toggle": null,
+  "settings_diag_footer": {
+    "value": "Απενεργοποιημένο από προεπιλογή. Όταν είναι ενεργό, το KiekR στέλνει στο api.kiekr.app τις αναφορές κατάρρευσης, παγώματος και CPU που του δίνει το iOS: έκδοση εφαρμογής, έκδοση iOS, μοντέλο συσκευής, τους κωδικούς σφάλματος του συστήματος και τη στοίβα κλήσεων. Κανένα μήνυμα, επαφή, κλειδί ή τοποθεσία — και είναι ο μόνος τρόπος να φτάσει ένα σφάλμα του τηλεφώνου σας στον προγραμματιστή.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_header": {
+    "value": "Διαγνωστικά κατάρρευσης",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_toggle": {
+    "value": "Αποστολή διαγνωστικών κατάρρευσης",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -7632,21 +7688,89 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_cli_console_title": null,
-  "nodes_cli_pinned_label": null,
-  "nodes_cli_show_all": null,
-  "nodes_cli_hide_all": null,
-  "nodes_cli_retry": null,
-  "nodes_cli_copy_command": null,
-  "nodes_cli_copy_output": null,
-  "nodes_cli_edit_command": null,
-  "nodes_cli_copy_all": null,
-  "nodes_cli_fullscreen": null,
-  "nodes_cli_copied": null,
-  "nodes_cli_pin": null,
-  "nodes_cli_unpin": null,
-  "settings_cli_palette_title": null,
-  "settings_cli_palette_footer": null,
-  "settings_cli_palette_collapse": null,
-  "settings_cli_palette_reset": null
+  "nodes_cli_console_title": {
+    "value": "Τερματικό",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pinned_label": {
+    "value": "Καρφιτσωμένα",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_show_all": {
+    "value": "Όλες οι εντολές (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_hide_all": {
+    "value": "Απόκρυψη εντολών",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_retry": {
+    "value": "Επανάληψη",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_command": {
+    "value": "Αντιγραφή εντολής",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_output": {
+    "value": "Αντιγραφή εξόδου",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_edit_command": {
+    "value": "Επεξεργασία",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_all": {
+    "value": "Αντιγραφή κονσόλας",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_fullscreen": {
+    "value": "Πλήρης οθόνη",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copied": {
+    "value": "Αντιγράφηκε",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pin": {
+    "value": "Καρφίτσωμα στην κονσόλα",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_unpin": {
+    "value": "Ξεκαρφίτσωμα",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_title": {
+    "value": "Παλέτα CLI",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_footer": {
+    "value": "Οι καρφιτσωμένες εντολές βρίσκονται ακριβώς κάτω από την κονσόλα. Οι υπόλοιπες παραμένουν ένα άγγιγμα μακριά στις όλες τις εντολές.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_collapse": {
+    "value": "Σύμπτυξη παλέτας κατά το άνοιγμα",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_reset": {
+    "value": "Επαναφορά προεπιλογών",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  }
 }

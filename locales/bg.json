@@ -15,13 +15,41 @@
     "_ai": true,
     "_seeded": "2026-07-06"
   },
-  "app_safemode_body": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_done": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_title": null,
+  "app_safemode_body": {
+    "value": "Последното стартиране се срина, преди приложението да завърши зареждането. Споделянето на диагностичния дневник ни помага да открием причината.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_button": {
+    "value": "Изчисти данните на companion",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_done": {
+    "value": "Данните на companion са изчистени. Стартирайте приложението отново.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_hint": {
+    "value": "Първо споделете дневника — изчистването изтрива точно данните, нужни за диагностиката.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_share_button": {
+    "value": "Сподели диагностичен дневник",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_start_button": {
+    "value": "Стартирай нормално въпреки това",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_title": {
+    "value": "KiekR не се стартира правилно",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "app_upgrade_body": {
     "value": "Отворете отново приложението, за да завърши зареждането на новата версия.",
     "_ai": true,
@@ -4265,10 +4293,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "repeater_cli_flood_max_advert": null,
-  "repeater_cli_flood_max_unscoped": null,
-  "repeater_cli_get_flood_max_advert": null,
-  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "repeater_cli_get_name": {
     "value": "Име",
     "_ai": true,
@@ -6179,9 +6223,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_diag_footer": null,
-  "settings_diag_header": null,
-  "settings_diag_toggle": null,
+  "settings_diag_footer": {
+    "value": "Изключено по подразбиране. Когато е включено, KiekR качва в api.kiekr.app отчетите за сривове, забивания и CPU, които iOS му предава: версия на приложението, версия на iOS, модел на устройството, системните кодове за грешка и стека на извикванията. Никакви съобщения, контакти, ключове или местоположения — и това е единственият начин повреда на телефона ви да стигне до разработчика.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_header": {
+    "value": "Диагностика на сривове",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_toggle": {
+    "value": "Изпращай диагностика на сривове",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -7632,21 +7688,89 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_cli_console_title": null,
-  "nodes_cli_pinned_label": null,
-  "nodes_cli_show_all": null,
-  "nodes_cli_hide_all": null,
-  "nodes_cli_retry": null,
-  "nodes_cli_copy_command": null,
-  "nodes_cli_copy_output": null,
-  "nodes_cli_edit_command": null,
-  "nodes_cli_copy_all": null,
-  "nodes_cli_fullscreen": null,
-  "nodes_cli_copied": null,
-  "nodes_cli_pin": null,
-  "nodes_cli_unpin": null,
-  "settings_cli_palette_title": null,
-  "settings_cli_palette_footer": null,
-  "settings_cli_palette_collapse": null,
-  "settings_cli_palette_reset": null
+  "nodes_cli_console_title": {
+    "value": "Терминал",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pinned_label": {
+    "value": "Закачени",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_show_all": {
+    "value": "Всички команди (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_hide_all": {
+    "value": "Скрий командите",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_retry": {
+    "value": "Опитай отново",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_command": {
+    "value": "Копирай командата",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_output": {
+    "value": "Копирай изхода",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_edit_command": {
+    "value": "Редактирай",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_all": {
+    "value": "Копирай конзолата",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_fullscreen": {
+    "value": "Цял екран",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copied": {
+    "value": "Копирано",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pin": {
+    "value": "Закачи към конзолата",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_unpin": {
+    "value": "Откачи",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_title": {
+    "value": "CLI палитра",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_footer": {
+    "value": "Закачените команди са точно под конзолата. Останалите остават на едно докосване под всички команди.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_collapse": {
+    "value": "Свий палитрата при отваряне",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_reset": {
+    "value": "Върни по подразбиране",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  }
 }

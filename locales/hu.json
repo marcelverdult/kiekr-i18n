@@ -15,13 +15,41 @@
     "_ai": true,
     "_seeded": "2026-07-06"
   },
-  "app_safemode_body": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_done": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_title": null,
+  "app_safemode_body": {
+    "value": "A legutóbbi indítás összeomlott, mielőtt az alkalmazás betöltött volna. A diagnosztikai napló megosztása segít megtalálni az okát.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_button": {
+    "value": "Companion-adatok törlése",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_done": {
+    "value": "A companion-adatok törölve. Indítsa el újra az alkalmazást.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_hint": {
+    "value": "Előbb ossza meg a naplót — a törlés pont azokat az adatokat távolítja el, amelyek a diagnózishoz kellenek.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_share_button": {
+    "value": "Diagnosztikai napló megosztása",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_start_button": {
+    "value": "Indítás mégis a szokásos módon",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_title": {
+    "value": "A KiekR nem indult el rendesen",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "app_upgrade_body": {
     "value": "Indítsd újra az alkalmazást az új verzió betöltésének befejezéséhez.",
     "_ai": true,
@@ -4265,10 +4293,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "repeater_cli_flood_max_advert": null,
-  "repeater_cli_flood_max_unscoped": null,
-  "repeater_cli_get_flood_max_advert": null,
-  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "repeater_cli_get_name": {
     "value": "Név",
     "_ai": true,
@@ -6179,9 +6223,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_diag_footer": null,
-  "settings_diag_header": null,
-  "settings_diag_toggle": null,
+  "settings_diag_footer": {
+    "value": "Alapból kikapcsolva. Bekapcsolva a KiekR feltölti az api.kiekr.app címre az iOS által átadott összeomlás-, fagyás- és CPU-jelentéseket: alkalmazásverzió, iOS-verzió, eszközmodell, a rendszer hibakódjai és a hívási verem. Semmilyen üzenet, névjegy, kulcs vagy helyadat — és csak így juthat el a telefonján jelentkező hiba a fejlesztőhöz.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_header": {
+    "value": "Összeomlás-diagnosztika",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_toggle": {
+    "value": "Összeomlás-diagnosztika küldése",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -7632,21 +7688,89 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_cli_console_title": null,
-  "nodes_cli_pinned_label": null,
-  "nodes_cli_show_all": null,
-  "nodes_cli_hide_all": null,
-  "nodes_cli_retry": null,
-  "nodes_cli_copy_command": null,
-  "nodes_cli_copy_output": null,
-  "nodes_cli_edit_command": null,
-  "nodes_cli_copy_all": null,
-  "nodes_cli_fullscreen": null,
-  "nodes_cli_copied": null,
-  "nodes_cli_pin": null,
-  "nodes_cli_unpin": null,
-  "settings_cli_palette_title": null,
-  "settings_cli_palette_footer": null,
-  "settings_cli_palette_collapse": null,
-  "settings_cli_palette_reset": null
+  "nodes_cli_console_title": {
+    "value": "Terminál",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pinned_label": {
+    "value": "Rögzítve",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_show_all": {
+    "value": "Összes parancs (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_hide_all": {
+    "value": "Parancsok elrejtése",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_retry": {
+    "value": "Újra",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_command": {
+    "value": "Parancs másolása",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_output": {
+    "value": "Kimenet másolása",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_edit_command": {
+    "value": "Szerkesztés",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_all": {
+    "value": "Konzol másolása",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_fullscreen": {
+    "value": "Teljes képernyő",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copied": {
+    "value": "Másolva",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pin": {
+    "value": "Rögzítés a konzolhoz",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_unpin": {
+    "value": "Rögzítés feloldása",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_title": {
+    "value": "CLI-paletta",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_footer": {
+    "value": "A rögzített parancsok közvetlenül a konzol alatt vannak. A többi egy koppintásra marad az összes parancs alatt.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_collapse": {
+    "value": "Paletta összecsukása megnyitáskor",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_reset": {
+    "value": "Alapértelmezések visszaállítása",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  }
 }

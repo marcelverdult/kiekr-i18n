@@ -15,13 +15,41 @@
     "_ai": true,
     "_seeded": "2026-07-06"
   },
-  "app_safemode_body": null,
-  "app_safemode_reset_button": null,
-  "app_safemode_reset_done": null,
-  "app_safemode_reset_hint": null,
-  "app_safemode_share_button": null,
-  "app_safemode_start_button": null,
-  "app_safemode_title": null,
+  "app_safemode_body": {
+    "value": "Poslední spuštění selhalo dřív, než se aplikace načetla. Sdílení diagnostického protokolu nám pomůže najít příčinu.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_button": {
+    "value": "Vymazat data companionu",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_done": {
+    "value": "Data companionu vymazána. Spusťte aplikaci znovu.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_hint": {
+    "value": "Nejdřív sdílejte protokol — vymazání odstraní data, která k diagnostice potřebujeme.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_share_button": {
+    "value": "Sdílet diagnostický protokol",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_start_button": {
+    "value": "Přesto spustit normálně",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_title": {
+    "value": "KiekR se nespustil správně",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "app_upgrade_body": {
     "value": "Znovu spusťte aplikaci, aby se dokončilo načtení nové verze.",
     "_ai": true,
@@ -4266,10 +4294,26 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "repeater_cli_flood_max_advert": null,
-  "repeater_cli_flood_max_unscoped": null,
-  "repeater_cli_get_flood_max_advert": null,
-  "repeater_cli_get_flood_max_unscoped": null,
+  "repeater_cli_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "repeater_cli_get_name": {
     "value": "Jméno",
     "_ai": true,
@@ -6180,9 +6224,21 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_diag_footer": null,
-  "settings_diag_header": null,
-  "settings_diag_toggle": null,
+  "settings_diag_footer": {
+    "value": "Ve výchozím stavu vypnuto. Když je zapnuto, KiekR odesílá na api.kiekr.app hlášení o pádech, zamrznutí a CPU, která mu předá iOS: verzi aplikace, verzi iOS, model zařízení, systémové kódy chyb a zásobník volání. Žádné zprávy, kontakty, klíče ani polohy — a je to jediná cesta, jak se závada z vašeho telefonu dostane k vývojáři.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_header": {
+    "value": "Diagnostika pádů",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_toggle": {
+    "value": "Odesílat diagnostiku pádů",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_ai": true,
@@ -7633,21 +7689,89 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "nodes_cli_console_title": null,
-  "nodes_cli_pinned_label": null,
-  "nodes_cli_show_all": null,
-  "nodes_cli_hide_all": null,
-  "nodes_cli_retry": null,
-  "nodes_cli_copy_command": null,
-  "nodes_cli_copy_output": null,
-  "nodes_cli_edit_command": null,
-  "nodes_cli_copy_all": null,
-  "nodes_cli_fullscreen": null,
-  "nodes_cli_copied": null,
-  "nodes_cli_pin": null,
-  "nodes_cli_unpin": null,
-  "settings_cli_palette_title": null,
-  "settings_cli_palette_footer": null,
-  "settings_cli_palette_collapse": null,
-  "settings_cli_palette_reset": null
+  "nodes_cli_console_title": {
+    "value": "Terminál",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pinned_label": {
+    "value": "Připnuté",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_show_all": {
+    "value": "Všechny příkazy (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_hide_all": {
+    "value": "Skrýt příkazy",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_retry": {
+    "value": "Zkusit znovu",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_command": {
+    "value": "Kopírovat příkaz",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_output": {
+    "value": "Kopírovat výstup",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_edit_command": {
+    "value": "Upravit",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copy_all": {
+    "value": "Kopírovat konzoli",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_fullscreen": {
+    "value": "Celá obrazovka",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_copied": {
+    "value": "Zkopírováno",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_pin": {
+    "value": "Připnout ke konzoli",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "nodes_cli_unpin": {
+    "value": "Odepnout",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_title": {
+    "value": "Paleta CLI",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_footer": {
+    "value": "Připnuté příkazy jsou hned pod konzolí. Zbytek zůstává na jedno klepnutí ve všech příkazech.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_collapse": {
+    "value": "Sbalit paletu při otevření",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_cli_palette_reset": {
+    "value": "Obnovit výchozí",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  }
 }
