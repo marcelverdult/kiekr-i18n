@@ -7773,67 +7773,319 @@
     "_ai": true,
     "_seeded": "2026-07-30"
   },
-  "settings_channels_rejected_header": null,
-  "settings_channels_rejected_footer": null,
-  "settings_channels_rejected_restore": null,
-  "settings_channels_rejected_reset_all": null,
-  "settings_channels_rejected_reset_confirm_title": null,
-  "settings_channels_rejected_reset_confirm_message": null,
-  "settings_channels_rejected_reset_confirm_action": null,
-  "notif_status_connected_battery": null,
-  "widget_status_title": null,
-  "widget_battery_label": null,
-  "widget_dm_label": null,
-  "widget_channel_label": null,
-  "widget_rate_label": null,
-  "widget_status_disconnected": null,
-  "nodes_cli_no_reply": null,
-  "mynode_state_battery": null,
-  "mynode_state_storage": null,
-  "mynode_section_settings": null,
-  "mynode_section_connections": null,
-  "mynode_section_advanced": null,
-  "mynode_advert_promo_body": null,
-  "mynode_location_row_title": null,
-  "mynode_location_fix": null,
-  "mynode_location_no_fix": null,
-  "mynode_location_gps_active": null,
-  "mynode_location_interval": null,
-  "mynode_location_gps_hint": null,
-  "mynode_onboarding_title": null,
-  "mynode_onboarding_body": null,
-  "mynode_state_uptime": null,
-  "mynode_advert_share_title": null,
-  "mynode_advert_share_hint": null,
-  "mynode_advert_shared_position": null,
-  "mynode_advert_position_not_set": null,
-  "mynode_advert_set_position": null,
-  "mynode_advert_use_phone_location": null,
-  "mynode_advert_position_sheet_title": null,
-  "mynode_advert_lat": null,
-  "mynode_advert_lon": null,
-  "mynode_advert_broadcast_warning": null,
-  "mynode_advert_map_hint": null,
-  "settings_catalog_update_title": null,
-  "settings_catalog_update_subtitle": null,
-  "settings_catalog_update_button": null,
-  "settings_catalog_update_checking": null,
-  "settings_catalog_update_up_to_date": null,
-  "settings_catalog_update_added": null,
-  "settings_catalog_update_no_connection": null,
-  "settings_catalog_update_invalid": null,
-  "settings_catalog_update_last_updated": null,
-  "settings_catalog_update_never": null,
-  "settings_catalog_update_auto_label": null,
-  "settings_catalog_update_auto_hint": null,
-  "settings_catalog_update_available": null,
-  "mynode_section_sensors": null,
-  "mynode_sensors_no_data": null,
-  "mynode_sensors_fetch": null,
-  "mynode_sensor_cat_self": null,
-  "mynode_sensor_cat_env": null,
-  "mynode_sensor_cat_power": null,
-  "mynode_sensor_cat_other": null,
-  "settings_community_coverage_bg_hint": null,
-  "settings_community_coverage_bg_allow": null
+  "settings_channels_rejected_header": {
+    "value": "Hüljatud kanalid",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_footer": {
+    "value": "Kanalid, mida olete kustutanud või ignoreerinud. Võtke ühe kanalite nimekirja tagasi või lülitage kõik tagasi, et saata need tagasi avastatud vaatepunkti. Siin ei kustutata midagi.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_restore": {
+    "value": "Taastamine",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_all": {
+    "value": "Kõik tagasi lükatud kanalid tagasi lülitada",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_title": {
+    "value": "Kõik tagasi lükatud kanalid?",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_message": {
+    "value": "See toob kõik tagasi lükatud kanalid tagasi avastatud, et saaksite neid uuesti vaadata.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_action": {
+    "value": "Tagasi seadmine",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "notif_status_connected_battery": {
+    "value": "%1$s-iga ühendatud · %2$d%%",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_status_title": {
+    "value": "Võrgustiku seisund",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_battery_label": {
+    "value": "Patareid",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_dm_label": {
+    "value": "DM",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_channel_label": {
+    "value": "Kanalid",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_rate_label": {
+    "value": "Pakendid/min",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_status_disconnected": {
+    "value": "Lülitatud.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "nodes_cli_no_reply": {
+    "value": "Käsk saatis  see verba ei saada vastust.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_battery": {
+    "value": "Patareid",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_storage": {
+    "value": "Säilitamine",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_settings": {
+    "value": "Seaded",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_connections": {
+    "value": "Seosed",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_advanced": {
+    "value": "Arenenud",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_promo_body": {
+    "value": "Teised sõlmed vajavad teie reklaami, enne kui saavad teile sõnumeid saata.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_row_title": {
+    "value": "Asukoht (GPS)",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_fix": {
+    "value": "Korraldada.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_no_fix": {
+    "value": "Ei mingit lahendust.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_gps_active": {
+    "value": "GPS-ühendus on aktiivne",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_interval": {
+    "value": "Küsimuse intervall",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_gps_hint": {
+    "value": "Oma sõlme fikseerimine ja koordinaadid pärinevad ise-telemetriast (LPP_GPS).",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_onboarding_title": {
+    "value": "Ükski sõlm veel",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_onboarding_body": {
+    "value": "Paari oma MeshCore'i seade, et saata ja vastu võtta sõnumeid võrgus.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_uptime": {
+    "value": "Tööaeg",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_share_title": {
+    "value": "Aktsia positsioon reklaamis",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_share_hint": {
+    "value": "Edastab selle sõlme asukoha kogu võrkule oma reklaamis  GPS-st, kui see on lubatud, või fikseeritud asukohast, mille seadistate allpool.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_shared_position": {
+    "value": "Ühine seisukoht",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_position_not_set": {
+    "value": "Ei ole paigaldatud",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_set_position": {
+    "value": "Seadmise asukoht",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_use_phone_location": {
+    "value": "Kasuta mu telefoni asukohta.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_position_sheet_title": {
+    "value": "Reklaami positsioon",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_lat": {
+    "value": "Läbimõõt",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_lon": {
+    "value": "Pikkuskraad",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_broadcast_warning": {
+    "value": "See reklaam jagab selle sõlme asukoha kogu võrguga.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_map_hint": {
+    "value": "Vajuta kaardile, et määrata oma sõlme asukoht",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_title": {
+    "value": "Uuenda kataloogi",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_subtitle": {
+    "value": "Piirkonnad ja kanalid kogukonna kataloogist",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_button": {
+    "value": "Otsi uuendusi",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_checking": {
+    "value": "Kontrollimine…",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_up_to_date": {
+    "value": "Juba ajakohane",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_added": {
+    "value": "Lisatud %1$d uut kirjet",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_no_connection": {
+    "value": "Ühendus puudub",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_invalid": {
+    "value": "Vigased kataloogi andmed",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_last_updated": {
+    "value": "Viimati uuendatud",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_never": {
+    "value": "Mitte kunagi",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_auto_label": {
+    "value": "Kontrolli automaatselt",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_auto_hint": {
+    "value": "Otsi käivitamisel uut kataloogi",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_available": {
+    "value": "Kataloogi uuendus saadaval",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_sensors": {
+    "value": "Sensorid",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensors_no_data": {
+    "value": "Sensori andmed puuduvad",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensors_fetch": {
+    "value": "Toomissensorid",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_self": {
+    "value": "Seade",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_env": {
+    "value": "Keskkonnaküsimused",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_power": {
+    "value": "Võimsus",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_other": {
+    "value": "Andur %1$d",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_community_coverage_bg_hint": {
+    "value": "Kogu leviala, kui KiekR on taskus, kasutades ainult asukohta, mida telefon juba teab, ilma lisa-GPS-ita. See nõuab juurdepääsu asukohale taustal.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_community_coverage_bg_allow": {
+    "value": "Luba kogumine taustal",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  }
 }

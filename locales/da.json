@@ -7773,67 +7773,319 @@
     "_ai": true,
     "_seeded": "2026-07-30"
   },
-  "settings_channels_rejected_header": null,
-  "settings_channels_rejected_footer": null,
-  "settings_channels_rejected_restore": null,
-  "settings_channels_rejected_reset_all": null,
-  "settings_channels_rejected_reset_confirm_title": null,
-  "settings_channels_rejected_reset_confirm_message": null,
-  "settings_channels_rejected_reset_confirm_action": null,
-  "notif_status_connected_battery": null,
-  "widget_status_title": null,
-  "widget_battery_label": null,
-  "widget_dm_label": null,
-  "widget_channel_label": null,
-  "widget_rate_label": null,
-  "widget_status_disconnected": null,
-  "nodes_cli_no_reply": null,
-  "mynode_state_battery": null,
-  "mynode_state_storage": null,
-  "mynode_section_settings": null,
-  "mynode_section_connections": null,
-  "mynode_section_advanced": null,
-  "mynode_advert_promo_body": null,
-  "mynode_location_row_title": null,
-  "mynode_location_fix": null,
-  "mynode_location_no_fix": null,
-  "mynode_location_gps_active": null,
-  "mynode_location_interval": null,
-  "mynode_location_gps_hint": null,
-  "mynode_onboarding_title": null,
-  "mynode_onboarding_body": null,
-  "mynode_state_uptime": null,
-  "mynode_advert_share_title": null,
-  "mynode_advert_share_hint": null,
-  "mynode_advert_shared_position": null,
-  "mynode_advert_position_not_set": null,
-  "mynode_advert_set_position": null,
-  "mynode_advert_use_phone_location": null,
-  "mynode_advert_position_sheet_title": null,
-  "mynode_advert_lat": null,
-  "mynode_advert_lon": null,
-  "mynode_advert_broadcast_warning": null,
-  "mynode_advert_map_hint": null,
-  "settings_catalog_update_title": null,
-  "settings_catalog_update_subtitle": null,
-  "settings_catalog_update_button": null,
-  "settings_catalog_update_checking": null,
-  "settings_catalog_update_up_to_date": null,
-  "settings_catalog_update_added": null,
-  "settings_catalog_update_no_connection": null,
-  "settings_catalog_update_invalid": null,
-  "settings_catalog_update_last_updated": null,
-  "settings_catalog_update_never": null,
-  "settings_catalog_update_auto_label": null,
-  "settings_catalog_update_auto_hint": null,
-  "settings_catalog_update_available": null,
-  "mynode_section_sensors": null,
-  "mynode_sensors_no_data": null,
-  "mynode_sensors_fetch": null,
-  "mynode_sensor_cat_self": null,
-  "mynode_sensor_cat_env": null,
-  "mynode_sensor_cat_power": null,
-  "mynode_sensor_cat_other": null,
-  "settings_community_coverage_bg_hint": null,
-  "settings_community_coverage_bg_allow": null
+  "settings_channels_rejected_header": {
+    "value": "Afviste kanaler",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_footer": {
+    "value": "Kanaler, du har fjernet eller ignoreret. Swipe for at gendanne en til din kanalliste, eller nulsæt alle for at sende dem tilbage til Opdaget til gennemgang. Intet her slettes.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_restore": {
+    "value": "Genoprette",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_all": {
+    "value": "Nulsæt alle afviste kanaler",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_title": {
+    "value": "Nulstille alle afviste kanaler?",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_message": {
+    "value": "Dette bringer alle afviste kanaler tilbage til Opdagede, så du kan gennemgå dem igen.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_action": {
+    "value": "Nulsæt",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "notif_status_connected_battery": {
+    "value": "Tilkoblet til %1$s · %2$d%%",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_status_title": {
+    "value": "Maske-status",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_battery_label": {
+    "value": "Batteri",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_dm_label": {
+    "value": "DM",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_channel_label": {
+    "value": "Kanaler",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_rate_label": {
+    "value": "Pakker/min.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_status_disconnected": {
+    "value": "Afkoblet",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "nodes_cli_no_reply": {
+    "value": "Kommando sendt  dette verb sender intet svar.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_battery": {
+    "value": "Batteri",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_storage": {
+    "value": "Opbevaring",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_settings": {
+    "value": "Indstillinger",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_connections": {
+    "value": "Forbindelser",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_advanced": {
+    "value": "Avanceret",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_promo_body": {
+    "value": "Andre knudepunkter har brug for din annonce, før de kan sende dig en besked.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_row_title": {
+    "value": "Beliggenhed (GPS)",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_fix": {
+    "value": "Rettificeret",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_no_fix": {
+    "value": "Ingen løsning.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_gps_active": {
+    "value": "GPS-knude aktiveret",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_interval": {
+    "value": "Spørgsmålsinterval",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_gps_hint": {
+    "value": "Fix og koordinater af din egen knude kommer fra selvtelemetri (LPP_GPS). Viser Ingen fix, mens modulen ikke har nogen position.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_onboarding_title": {
+    "value": "Ingen knude endnu",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_onboarding_body": {
+    "value": "Par din MeshCore enhed til at sende og modtage beskeder i mesh.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_uptime": {
+    "value": "Aktiveringstid",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_share_title": {
+    "value": "Aktieposition i annonce",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_share_hint": {
+    "value": "Sende denne knudepunkts position til hele mesh i sin annonce  fra GPS, hvis aktiveret, eller en fast position du indstiller nedenfor.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_shared_position": {
+    "value": "Fælles holdning",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_position_not_set": {
+    "value": "Ikke indstillet",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_set_position": {
+    "value": "Indstil stilling",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_use_phone_location": {
+    "value": "Brug min telefons placering.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_position_sheet_title": {
+    "value": "Annonceringsposition",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_lat": {
+    "value": "Breddegrad",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_lon": {
+    "value": "Længdegrad",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_broadcast_warning": {
+    "value": "Denne annonce deler denne knudepunkts position med hele netværket.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_map_hint": {
+    "value": "Tryk på kortet for at indstille din knudepunkts position",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_title": {
+    "value": "Opdater katalog",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_subtitle": {
+    "value": "Regioner og kanaler fra fællesskabskataloget",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_button": {
+    "value": "Søg efter opdateringer",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_checking": {
+    "value": "Kontrollerer…",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_up_to_date": {
+    "value": "Allerede opdateret",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_added": {
+    "value": "%1$d nye poster tilføjet",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_no_connection": {
+    "value": "Ingen forbindelse",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_invalid": {
+    "value": "Ugyldige katalogdata",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_last_updated": {
+    "value": "Sidst opdateret",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_never": {
+    "value": "Aldrig",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_auto_label": {
+    "value": "Kontrollér automatisk",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_auto_hint": {
+    "value": "Søg efter et nyt katalog ved opstart",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_available": {
+    "value": "Katalogopdatering tilgængelig",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_sensors": {
+    "value": "Sensorer",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensors_no_data": {
+    "value": "Ingen sensordata",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensors_fetch": {
+    "value": "Hent sensorer",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_self": {
+    "value": "Anordning",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_env": {
+    "value": "Miljø",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_power": {
+    "value": "Styrke",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_other": {
+    "value": "Sensor %1$d",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_community_coverage_bg_hint": {
+    "value": "Indsaml dækning, mens KiekR er i lommen, kun med den position, som din telefon allerede kender, uden ekstra GPS. Dette kræver adgang til placering i baggrunden.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_community_coverage_bg_allow": {
+    "value": "Tillad indsamling i baggrunden",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  }
 }

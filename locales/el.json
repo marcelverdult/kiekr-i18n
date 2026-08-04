@@ -7773,67 +7773,319 @@
     "_ai": true,
     "_seeded": "2026-07-30"
   },
-  "settings_channels_rejected_header": null,
-  "settings_channels_rejected_footer": null,
-  "settings_channels_rejected_restore": null,
-  "settings_channels_rejected_reset_all": null,
-  "settings_channels_rejected_reset_confirm_title": null,
-  "settings_channels_rejected_reset_confirm_message": null,
-  "settings_channels_rejected_reset_confirm_action": null,
-  "notif_status_connected_battery": null,
-  "widget_status_title": null,
-  "widget_battery_label": null,
-  "widget_dm_label": null,
-  "widget_channel_label": null,
-  "widget_rate_label": null,
-  "widget_status_disconnected": null,
-  "nodes_cli_no_reply": null,
-  "mynode_state_battery": null,
-  "mynode_state_storage": null,
-  "mynode_section_settings": null,
-  "mynode_section_connections": null,
-  "mynode_section_advanced": null,
-  "mynode_advert_promo_body": null,
-  "mynode_location_row_title": null,
-  "mynode_location_fix": null,
-  "mynode_location_no_fix": null,
-  "mynode_location_gps_active": null,
-  "mynode_location_interval": null,
-  "mynode_location_gps_hint": null,
-  "mynode_onboarding_title": null,
-  "mynode_onboarding_body": null,
-  "mynode_state_uptime": null,
-  "mynode_advert_share_title": null,
-  "mynode_advert_share_hint": null,
-  "mynode_advert_shared_position": null,
-  "mynode_advert_position_not_set": null,
-  "mynode_advert_set_position": null,
-  "mynode_advert_use_phone_location": null,
-  "mynode_advert_position_sheet_title": null,
-  "mynode_advert_lat": null,
-  "mynode_advert_lon": null,
-  "mynode_advert_broadcast_warning": null,
-  "mynode_advert_map_hint": null,
-  "settings_catalog_update_title": null,
-  "settings_catalog_update_subtitle": null,
-  "settings_catalog_update_button": null,
-  "settings_catalog_update_checking": null,
-  "settings_catalog_update_up_to_date": null,
-  "settings_catalog_update_added": null,
-  "settings_catalog_update_no_connection": null,
-  "settings_catalog_update_invalid": null,
-  "settings_catalog_update_last_updated": null,
-  "settings_catalog_update_never": null,
-  "settings_catalog_update_auto_label": null,
-  "settings_catalog_update_auto_hint": null,
-  "settings_catalog_update_available": null,
-  "mynode_section_sensors": null,
-  "mynode_sensors_no_data": null,
-  "mynode_sensors_fetch": null,
-  "mynode_sensor_cat_self": null,
-  "mynode_sensor_cat_env": null,
-  "mynode_sensor_cat_power": null,
-  "mynode_sensor_cat_other": null,
-  "settings_community_coverage_bg_hint": null,
-  "settings_community_coverage_bg_allow": null
+  "settings_channels_rejected_header": {
+    "value": "Αρνητικά κανάλια",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_footer": {
+    "value": "Τα κανάλια που αφαιρέσατε ή αγνοήσατε. Γυρίστε για να επαναφέρετε ένα στη λίστα καναλιών σας, ή επαναφέρετε όλα για να τα στείλετε πίσω στο Ανακαλύφθηκαν για αναθεώρηση. Τίποτα εδώ δεν διαγράφεται.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_restore": {
+    "value": "Επαναφορά",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_all": {
+    "value": "Επαναφορά όλων των απορριπτόμενων καναλιών",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_title": {
+    "value": "Επαναφορά όλων των απορριπτόμενων καναλιών;",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_message": {
+    "value": "Αυτό φέρνει όλα τα απορριπτόμενα κανάλια πίσω στο Ανακαλύφθηκαν ώστε να μπορείτε να τα ελέγξετε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_channels_rejected_reset_confirm_action": {
+    "value": "Επαναφορά",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "notif_status_connected_battery": {
+    "value": "Συνδεδεμένος στο %1$s · %2$d%%",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_status_title": {
+    "value": "Κατάσταση πλέγματος",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_battery_label": {
+    "value": "Η μπαταρία",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_dm_label": {
+    "value": "Δ.Μ.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_channel_label": {
+    "value": "Διάδρομοι",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_rate_label": {
+    "value": "Πακέτα/δευτερόλεπτο",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "widget_status_disconnected": {
+    "value": "Αποσυνδεδεμένο.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "nodes_cli_no_reply": {
+    "value": "Η εντολή έστειλε  αυτό το ρήμα δεν στέλνει απάντηση.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_battery": {
+    "value": "Η μπαταρία",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_storage": {
+    "value": "Αποθήκευση",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_settings": {
+    "value": "Ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_connections": {
+    "value": "Συνδέσεις",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_advanced": {
+    "value": "Προχωρημένο",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_promo_body": {
+    "value": "Άλλοι κόμβοι χρειάζονται την διαφήμισή σας πριν σας στείλουν μήνυμα.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_row_title": {
+    "value": "Τοποθεσία (GPS)",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_fix": {
+    "value": "Επεξεργασία",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_no_fix": {
+    "value": "Δεν υπάρχει λύση .",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_gps_active": {
+    "value": "Ενεργός κόμβος GPS",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_interval": {
+    "value": "Διαστήματα αναζήτησης",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_location_gps_hint": {
+    "value": "Η σταθεροποίηση και οι συντεταγμένες του δικού σας κόμβου προέρχονται από την αυτοτελεμετρία (LPP_GPS).",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_onboarding_title": {
+    "value": "Κανένα κόμβο ακόμα.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_onboarding_body": {
+    "value": "Συνδέστε τη συσκευή MeshCore σας για να στέλνετε και να λαμβάνετε μηνύματα στο δίχτυ.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_state_uptime": {
+    "value": "Χρόνος λειτουργίας",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_share_title": {
+    "value": "Θέση μετοχών στη διαφήμιση",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_share_hint": {
+    "value": "Ανακοινώνει τη θέση αυτού του κόμβου σε όλο το δίχτυ στη διαφήμισή του  από το GPS αν είναι ενεργοποιημένο, ή μια σταθερή θέση που ορίσατε παρακάτω.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_shared_position": {
+    "value": "Κοινή θέση",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_position_not_set": {
+    "value": "Δεν έχει ρυθμιστεί",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_set_position": {
+    "value": "Θέση ρύθμισης",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_use_phone_location": {
+    "value": "Χρησιμοποίησε την τοποθεσία του τηλεφώνου μου.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_position_sheet_title": {
+    "value": "Θέση διαφήμισης",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_lat": {
+    "value": "Διάμετρος γεωγραφικού πλάτους",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_lon": {
+    "value": "Διάμετρος γεωγραφικού μήκους",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_broadcast_warning": {
+    "value": "Αυτή η διαφήμιση μοιράζεται τη θέση αυτού του κόμβου με ολόκληρο το δίχτυ.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_advert_map_hint": {
+    "value": "Πατήστε το χάρτη για να ορίσετε τη θέση του κόμβου σας",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_title": {
+    "value": "Ενημέρωση καταλόγου",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_subtitle": {
+    "value": "Περιοχές και κανάλια από τον κοινοτικό κατάλογο",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_button": {
+    "value": "Έλεγχος για ενημερώσεις",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_checking": {
+    "value": "Έλεγχος…",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_up_to_date": {
+    "value": "Ήδη ενημερωμένο",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_added": {
+    "value": "Προστέθηκαν %1$d νέες καταχωρίσεις",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_no_connection": {
+    "value": "Χωρίς σύνδεση",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_invalid": {
+    "value": "Μη έγκυρα δεδομένα καταλόγου",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_last_updated": {
+    "value": "Τελευταία ενημέρωση",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_never": {
+    "value": "Ποτέ",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_auto_label": {
+    "value": "Αυτόματος έλεγχος",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_auto_hint": {
+    "value": "Έλεγχος για νέο κατάλογο κατά την εκκίνηση",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_catalog_update_available": {
+    "value": "Διαθέσιμη ενημέρωση καταλόγου",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_section_sensors": {
+    "value": "Αισθητήρες",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensors_no_data": {
+    "value": "Χωρίς δεδομένα αισθητήρα",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensors_fetch": {
+    "value": "Αισθητήρες λήψης",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_self": {
+    "value": "Συσκευή",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_env": {
+    "value": "Περιβάλλον",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_power": {
+    "value": "Δύναμη",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "mynode_sensor_cat_other": {
+    "value": "Αισθητήρας %1$d",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_community_coverage_bg_hint": {
+    "value": "Συλλέξτε κάλυψη ενώ το KiekR είναι στην τσέπη σας, χρησιμοποιώντας μόνο τη θέση που γνωρίζει ήδη το τηλέφωνό σας, χωρίς επιπλέον GPS. Αυτό απαιτεί πρόσβαση στην τοποθεσία στο παρασκήνιο.",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  },
+  "settings_community_coverage_bg_allow": {
+    "value": "Να επιτρέπεται η συλλογή στο παρασκήνιο",
+    "_ai": true,
+    "_seeded": "2026-08-04"
+  }
 }
