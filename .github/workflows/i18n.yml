@@ -2,22 +2,23 @@ name: i18n
 
 # The whole locale pipeline in ONE serialized job:
 #   sync (materialize missing keys as null)
-#   -> seed (DeepL-fill nulls, self-checking placeholders)
 #   -> validate + safety gate
 #   -> README completion table
 #   -> one bot commit directly to main ([skip ci], so no re-trigger)
 #   -> exactly one release, cut from the final state.
 #
-# Replaces the former sync-keys / seed-translations / nightly-fill /
-# update-readme / release set, whose parallel runs raced each other:
-# seed ran before sync's nulls existed, releases were cut pre-seed,
-# and three bot PR branches went stale against one another.
+# Translation is done LOCALLY before the push (tools/seed_local.py,
+# NLLB-200) — the DeepL seed step + DEEPL_API_KEY secret were removed
+# 2026-08-04 after DeepL returned "quota exceeded" at 0% usage. Missing
+# keys therefore stay null here (app falls back to English) until a
+# maintainer runs the local seeder; the null-tolerant validate gate and
+# the community-PR path (validate.yml) are unchanged.
 #
 # Failure semantics:
 #   red run    = validate/safety found broken data; nothing was
 #                committed or released, main keeps the last good state.
-#   DeepL down = NOT red. Affected keys stay null (app falls back to
-#                English); the nightly run retries them.
+#   missing translations = NOT red. Untranslated keys stay null (app
+#                falls back to English) until the local seeder fills them.
 #
 # The bot commits directly instead of opening a PR because every write
 # is machine-guarded: seed.py hard-refuses to touch non-null entries,
@@ -30,8 +31,6 @@ on:
     branches: [main]
     paths:
       - 'locales/**'
-  schedule:
-    - cron: '0 3 * * *'   # nightly safety net (UTC): retries nulls left by DeepL hiccups
   workflow_dispatch:
 
 # Serialize runs: a second push waits for the current run instead of
@@ -51,15 +50,9 @@ jobs:
       - name: Preflight secrets
         env:
           BOT_PAT: ${{ secrets.BOT_PAT }}
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: |
-          echo "::add-mask::$DEEPL_API_KEY"
           if [ -z "$BOT_PAT" ]; then
             echo "::error::BOT_PAT secret is missing or expired — the bot cannot push to protected main. Renew it at https://github.com/settings/tokens and update the repo secret."
-            exit 1
-          fi
-          if [ -z "$DEEPL_API_KEY" ]; then
-            echo "::error::DEEPL_API_KEY secret is missing."
             exit 1
           fi
 
@@ -76,15 +69,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: pip install deepl jsonschema
+      - run: pip install jsonschema
 
       - name: Sync — materialize missing keys as null
         run: python tools/sync_keys.py
-
-      - name: Seed — DeepL-fill nulls (placeholder-self-checking)
-        run: python tools/seed.py
-        env:
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
 
       - name: Gate — validate + safety before anything lands
         run: |
@@ -104,7 +92,7 @@ jobs:
             echo "nothing to commit"
           else
             git add locales/ README.md
-            git commit -m "chore(i18n): sync + DeepL seed + README table [skip ci]"
+            git commit -m "chore(i18n): sync + README table [skip ci]"
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
