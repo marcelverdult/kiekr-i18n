@@ -8088,71 +8088,339 @@
     "_ai": true,
     "_seeded": "2026-08-04"
   },
-  "repeater_seg_network": null,
-  "repeater_seg_state": null,
-  "repeater_seg_console": null,
-  "repeater_console_admin_only": null,
-  "repeater_console_admin_hint": null,
-  "repeater_login_cta_title": null,
-  "repeater_login_cta_hint": null,
-  "repeater_benefit_admin": null,
-  "repeater_details": null,
-  "chat_filter_all": null,
-  "chat_filter_channels": null,
-  "chat_filter_direct": null,
-  "chat_filter_rooms": null,
-  "chat_search_placeholder": null,
-  "chat_type_channel": null,
-  "chat_type_room": null,
-  "chat_encrypted_message": null,
-  "chat_no_messages_yet": null,
-  "chat_empty_title": null,
-  "chat_empty_subtitle": null,
-  "chat_filter_empty_title": null,
-  "chat_filter_empty_subtitle": null,
-  "chat_search_empty": null,
-  "chat_discovery_tray_review": null,
-  "chat_discovery_tray_dismiss": null,
-  "chat_discovery_sheet_title": null,
-  "chat_discovery_sheet_footer": null,
-  "chat_discovery_tray_title": null,
-  "chat_type_direct": null,
-  "map_recency_1h": null,
-  "map_recency_6h": null,
-  "map_recency_24h": null,
-  "map_recency_7d": null,
-  "widget_status_description": null,
-  "signal_direct_reception_title": null,
-  "signal_direct_reception_empty_title": null,
-  "signal_direct_reception_empty_desc": null,
-  "repeater_stat_group_device": null,
-  "repeater_stat_group_signal": null,
-  "repeater_stat_group_traffic": null,
-  "repeater_stat_group_errors": null,
-  "repeater_stat_battery": null,
-  "repeater_stat_signal": null,
-  "repeater_stat_snr": null,
-  "repeater_stat_noise": null,
-  "repeater_stat_uptime": null,
-  "repeater_stat_queue": null,
-  "repeater_stat_airtime_tx": null,
-  "repeater_stat_airtime_rx": null,
-  "repeater_stat_recv": null,
-  "repeater_stat_sent": null,
-  "repeater_stat_flood": null,
-  "repeater_stat_direct": null,
-  "repeater_stat_dups": null,
-  "repeater_stat_recv_errors": null,
-  "repeater_stat_error_events": null,
-  "repeater_stat_queue_unit": null,
-  "repeater_stat_recv_errors_hint": null,
-  "repeater_stat_error_events_hint": null,
-  "repeater_stat_dups_hint": null,
-  "repeater_stat_view_current": null,
-  "repeater_stat_view_trend": null,
-  "repeater_trend_need_more": null,
-  "repeater_trend_reboot": null,
-  "repeater_trend_stable": null,
-  "repeater_trend_samples": null,
-  "signal_direct_reception_live_traffic": null
+  "repeater_seg_network": {
+    "value": "Δίκτυο",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_state": {
+    "value": "Κατάσταση",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_console": {
+    "value": "Κονσόλα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_only": {
+    "value": "Η κονσόλα είναι διαθέσιμη μόνο για διαχειριστές",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_hint": {
+    "value": "Συνδεθείτε ως διαχειριστής (πάνω δεξιά) για να χρησιμοποιήσετε το CLI του επαναλήπτη.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_title": {
+    "value": "Συνδεθείτε για περισσότερα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_hint": {
+    "value": "Συνδεθείτε χρησιμοποιώντας το στοιχείο ελέγχου στην επάνω δεξιά γωνία — «επισκέπτης» για στατιστικά, γείτονες, τηλεμετρία και υλικολογισμικό· «διαχειριστής» για ρυθμίσεις, περιοχές και CLI.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_benefit_admin": {
+    "value": "Ρυθμίσεις, περιοχές & CLI",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_details": {
+    "value": "Λεπτομέρειες",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_all": {
+    "value": "Όλα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_channels": {
+    "value": "Κανάλια",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_direct": {
+    "value": "Άμεσα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_rooms": {
+    "value": "Δωμάτια",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_placeholder": {
+    "value": "Αναζήτηση συνομιλιών",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_channel": {
+    "value": "Κανάλι",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_room": {
+    "value": "Δωμάτιο",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_encrypted_message": {
+    "value": "Κρυπτογραφημένο μήνυμα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_no_messages_yet": {
+    "value": "Δεν υπάρχουν ακόμη μηνύματα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_title": {
+    "value": "Δεν υπάρχουν ακόμη συνομιλίες",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_subtitle": {
+    "value": "Τα μηνύματα που στέλνετε ή λαμβάνετε εμφανίζονται εδώ.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_title": {
+    "value": "Δεν υπάρχει τίποτα σε αυτό το φίλτρο",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_subtitle": {
+    "value": "Επιλέξτε ένα άλλο φίλτρο για να δείτε περισσότερες συνομιλίες.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_empty": {
+    "value": "Δεν υπάρχουν συνομιλίες που να ταιριάζουν με την αναζήτησή σας.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_review": {
+    "value": "Επισκόπηση",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_dismiss": {
+    "value": "Απόρριψη",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_title": {
+    "value": "Νέα κανάλια",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_footer": {
+    "value": "Πατήστε ένα κανάλι για να δείτε το κλειδί και την περιοχή του πριν το προσθέσετε ή αγνοήσετε μελλοντικές ειδοποιήσεις.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_title": {
+    "value": "Νέα κανάλια που ακούγονται κοντά",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_direct": {
+    "value": "Άμεση επικοινωνία",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_1h": {
+    "value": "1 ώρα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_6h": {
+    "value": "6 ώρες",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_24h": {
+    "value": "24 ώρες",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_7d": {
+    "value": "7 ημέρες",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "widget_status_description": {
+    "value": "Μπαταρία, μη αναγνωσμένα DM / κανάλια και δραστηριότητα από τον τελευταίο συνδεδεμένο κόμβο σας.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_title": {
+    "value": "Άμεση λήψη",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_title": {
+    "value": "Δεν έχουν ληφθεί ακόμη αναμεταδότες",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_desc": {
+    "value": "Οι αναμεταδότες που λαμβάνει απευθείας ο κόμβός σας εμφανίζονται εδώ καθώς φτάνει η κίνησή τους.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_device": {
+    "value": "Λειτουργία",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_signal": {
+    "value": "Σύνδεση",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_traffic": {
+    "value": "Κυκλοφορία ραδιοσυχνοτήτων",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_errors": {
+    "value": "Σφάλματα & ποιότητα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_battery": {
+    "value": "Μπαταρία",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_signal": {
+    "value": "Σήμα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_snr": {
+    "value": "Σχέση σήματος προς θόρυβο (SNR)",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_noise": {
+    "value": "Επίπεδο θορύβου",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_uptime": {
+    "value": "Χρόνος λειτουργίας",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue": {
+    "value": "Ουρά αποστολής",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_tx": {
+    "value": "Χρόνος μετάδοσης TX",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_rx": {
+    "value": "Χρόνος μετάδοσης RX",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv": {
+    "value": "Ληφθέντα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_sent": {
+    "value": "Αποστολή",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_flood": {
+    "value": "Πακέτα πλημμύρας",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_direct": {
+    "value": "Άμεσα πακέτα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups": {
+    "value": "Διπλότυπα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors": {
+    "value": "Σφάλματα λήψης",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events": {
+    "value": "Συμβάντα σφαλμάτων",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue_unit": {
+    "value": "Πακέτα",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors_hint": {
+    "value": "Πακέτα που ο πομπός δεν μπόρεσε να διαβάσει καθαρά — αυξάνονται με παρεμβολές ή ασθενές σήμα.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events_hint": {
+    "value": "Εσωτερικά σφάλματα που έχει καταγράψει ο επαναλήπτης από την τελευταία επανεκκίνηση.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups_hint": {
+    "value": "Πακέτα που έχουν ληφθεί περισσότερες από μία φορές. Φυσιολογικό σε δίκτυο mesh (εφεδρεία πλημμύρας· flood redundancy)· μόνο ασυνήθιστα υψηλές τιμές υποδηλώνουν βρόχους.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_current": {
+    "value": "Τρέχουσα κατάσταση",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_trend": {
+    "value": "Τάση",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_need_more": {
+    "value": "Ελέγξτε την κατάσταση μερικές φορές για να διαμορφώσετε μια τάση.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_reboot": {
+    "value": "Εντοπίστηκε επανεκκίνηση",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_stable": {
+    "value": "σταθερό",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_samples": {
+    "value": "%1$d μετρήσεις",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_live_traffic": {
+    "value": "Δείτε την πλήρη ζωντανή κίνηση",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  }
 }

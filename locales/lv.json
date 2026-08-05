@@ -8089,71 +8089,339 @@
     "_ai": true,
     "_seeded": "2026-08-04"
   },
-  "repeater_seg_network": null,
-  "repeater_seg_state": null,
-  "repeater_seg_console": null,
-  "repeater_console_admin_only": null,
-  "repeater_console_admin_hint": null,
-  "repeater_login_cta_title": null,
-  "repeater_login_cta_hint": null,
-  "repeater_benefit_admin": null,
-  "repeater_details": null,
-  "chat_filter_all": null,
-  "chat_filter_channels": null,
-  "chat_filter_direct": null,
-  "chat_filter_rooms": null,
-  "chat_search_placeholder": null,
-  "chat_type_channel": null,
-  "chat_type_room": null,
-  "chat_encrypted_message": null,
-  "chat_no_messages_yet": null,
-  "chat_empty_title": null,
-  "chat_empty_subtitle": null,
-  "chat_filter_empty_title": null,
-  "chat_filter_empty_subtitle": null,
-  "chat_search_empty": null,
-  "chat_discovery_tray_review": null,
-  "chat_discovery_tray_dismiss": null,
-  "chat_discovery_sheet_title": null,
-  "chat_discovery_sheet_footer": null,
-  "chat_discovery_tray_title": null,
-  "chat_type_direct": null,
-  "map_recency_1h": null,
-  "map_recency_6h": null,
-  "map_recency_24h": null,
-  "map_recency_7d": null,
-  "widget_status_description": null,
-  "signal_direct_reception_title": null,
-  "signal_direct_reception_empty_title": null,
-  "signal_direct_reception_empty_desc": null,
-  "repeater_stat_group_device": null,
-  "repeater_stat_group_signal": null,
-  "repeater_stat_group_traffic": null,
-  "repeater_stat_group_errors": null,
-  "repeater_stat_battery": null,
-  "repeater_stat_signal": null,
-  "repeater_stat_snr": null,
-  "repeater_stat_noise": null,
-  "repeater_stat_uptime": null,
-  "repeater_stat_queue": null,
-  "repeater_stat_airtime_tx": null,
-  "repeater_stat_airtime_rx": null,
-  "repeater_stat_recv": null,
-  "repeater_stat_sent": null,
-  "repeater_stat_flood": null,
-  "repeater_stat_direct": null,
-  "repeater_stat_dups": null,
-  "repeater_stat_recv_errors": null,
-  "repeater_stat_error_events": null,
-  "repeater_stat_queue_unit": null,
-  "repeater_stat_recv_errors_hint": null,
-  "repeater_stat_error_events_hint": null,
-  "repeater_stat_dups_hint": null,
-  "repeater_stat_view_current": null,
-  "repeater_stat_view_trend": null,
-  "repeater_trend_need_more": null,
-  "repeater_trend_reboot": null,
-  "repeater_trend_stable": null,
-  "repeater_trend_samples": null,
-  "signal_direct_reception_live_traffic": null
+  "repeater_seg_network": {
+    "value": "Tīkls",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_state": {
+    "value": "Stāvoklis",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_console": {
+    "value": "Konsoles",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_only": {
+    "value": "Konsoles piekļuve ir tikai administratoriem",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_hint": {
+    "value": "Piesakieties kā administrators (labajā augšējā stūrī), lai izmantotu atkārtotāja CLI.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_title": {
+    "value": "Piesakieties, lai redzētu vairāk",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_hint": {
+    "value": "Piesakieties, izmantojot vadības pogu augšējā labajā stūrī — „guest” (viesis), lai apskatītu statistiku, kaimiņus, telemetriju un programmaparatūru; „admin” (administrators), lai piekļūtu konfigurācijai, reģioniem un CLI.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_benefit_admin": {
+    "value": "Konfigurācija, reģioni un CLI",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_details": {
+    "value": "Sīkāka informācija",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_all": {
+    "value": "Visi",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_channels": {
+    "value": "Kanāli",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_direct": {
+    "value": "Tiešā saziņa",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_rooms": {
+    "value": "Telpas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_placeholder": {
+    "value": "Meklēt sarunas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_channel": {
+    "value": "Kanāls",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_room": {
+    "value": "Telpa",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_encrypted_message": {
+    "value": "Šifrēts ziņojums",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_no_messages_yet": {
+    "value": "Vēl nav ziņojumu",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_title": {
+    "value": "Vēl nav sarunu",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_subtitle": {
+    "value": "Šeit parādās ziņojumi, kurus nosūtāt vai saņemat.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_title": {
+    "value": "Šajā filtrā nav nekā",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_subtitle": {
+    "value": "Izvēlieties citu filtru, lai redzētu vairāk sarunu.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_empty": {
+    "value": "Neviena saruna neatbilst jūsu meklējumam.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_review": {
+    "value": "Pārskatīt",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_dismiss": {
+    "value": "Aizvērt",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_title": {
+    "value": "Jauni kanāli",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_footer": {
+    "value": "Pieskarieties kanālam, lai redzētu tā atslēgu un reģionu, pirms to pievienojat vai ignorējat turpmākus uzaicinājumus.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_title": {
+    "value": "Jauni kanāli, kas dzirdami tuvumā",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_direct": {
+    "value": "Tiešais",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_1h": {
+    "value": "1 stunda",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_6h": {
+    "value": "6 stundas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_24h": {
+    "value": "24 stundas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_7d": {
+    "value": "7 dienas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "widget_status_description": {
+    "value": "Baterija, nelasītās DM / kanāli un aktivitāte no jūsu pēdējā savienotā mezgla.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_title": {
+    "value": "Tieša uztveršana",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_title": {
+    "value": "Vēl nav uztverti atkārtotāji",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_desc": {
+    "value": "Atkārtotāji, kurus jūsu mezgls uztver tieši, šeit parādās, tiklīdz to datplūsma ierodas.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_device": {
+    "value": "Darbība",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_signal": {
+    "value": "Savienojums",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_traffic": {
+    "value": "Radio datplūsma",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_errors": {
+    "value": "Kļūdas un kvalitāte",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_battery": {
+    "value": "Akumulators",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_signal": {
+    "value": "Signāls",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_snr": {
+    "value": "Signāla-trokšņa attiecība (SNR)",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_noise": {
+    "value": "Trokšņu līmenis",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_uptime": {
+    "value": "Darbības laiks",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue": {
+    "value": "Sūtīšanas rinda",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_tx": {
+    "value": "TX raidīšanas laiks",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_rx": {
+    "value": "RX raidīšanas laiks",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv": {
+    "value": "Saņemtas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_sent": {
+    "value": "Nosūtīti",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_flood": {
+    "value": "Pārplūdes paketes",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_direct": {
+    "value": "Tiešie pakeši",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups": {
+    "value": "Dublikāti",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors": {
+    "value": "Saņemšanas kļūdas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events": {
+    "value": "Kļūdu notikumi",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue_unit": {
+    "value": "Paketes",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors_hint": {
+    "value": "Paketes, kuras radio nevarēja skaidri nolasīt — to skaits pieaug traucējumu vai vāja signāla gadījumā.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events_hint": {
+    "value": "Iekšējās kļūdas, ko atkārtotājs ir reģistrējis kopš pēdējās pārstartēšanas.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups_hint": {
+    "value": "Pakeši, kas uztverti vairāk nekā vienu reizi. Tas ir normāli tīklā (plūdu redundancija); tikai neparasti augstas vērtības liecina par cilpām.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_current": {
+    "value": "Pašreizējais",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_trend": {
+    "value": "Tendence",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_need_more": {
+    "value": "Vairākas reizes noskaidrojiet statusu, lai izveidotu tendenci.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_reboot": {
+    "value": "Konstatēta pārstartēšana",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_stable": {
+    "value": "stabils",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_samples": {
+    "value": "%1$d mērījumi",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_live_traffic": {
+    "value": "Skatīt pilnu reāllaika datplūsmu",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  }
 }

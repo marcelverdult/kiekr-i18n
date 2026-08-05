@@ -8088,71 +8088,339 @@
     "_ai": true,
     "_seeded": "2026-08-04"
   },
-  "repeater_seg_network": null,
-  "repeater_seg_state": null,
-  "repeater_seg_console": null,
-  "repeater_console_admin_only": null,
-  "repeater_console_admin_hint": null,
-  "repeater_login_cta_title": null,
-  "repeater_login_cta_hint": null,
-  "repeater_benefit_admin": null,
-  "repeater_details": null,
-  "chat_filter_all": null,
-  "chat_filter_channels": null,
-  "chat_filter_direct": null,
-  "chat_filter_rooms": null,
-  "chat_search_placeholder": null,
-  "chat_type_channel": null,
-  "chat_type_room": null,
-  "chat_encrypted_message": null,
-  "chat_no_messages_yet": null,
-  "chat_empty_title": null,
-  "chat_empty_subtitle": null,
-  "chat_filter_empty_title": null,
-  "chat_filter_empty_subtitle": null,
-  "chat_search_empty": null,
-  "chat_discovery_tray_review": null,
-  "chat_discovery_tray_dismiss": null,
-  "chat_discovery_sheet_title": null,
-  "chat_discovery_sheet_footer": null,
-  "chat_discovery_tray_title": null,
-  "chat_type_direct": null,
-  "map_recency_1h": null,
-  "map_recency_6h": null,
-  "map_recency_24h": null,
-  "map_recency_7d": null,
-  "widget_status_description": null,
-  "signal_direct_reception_title": null,
-  "signal_direct_reception_empty_title": null,
-  "signal_direct_reception_empty_desc": null,
-  "repeater_stat_group_device": null,
-  "repeater_stat_group_signal": null,
-  "repeater_stat_group_traffic": null,
-  "repeater_stat_group_errors": null,
-  "repeater_stat_battery": null,
-  "repeater_stat_signal": null,
-  "repeater_stat_snr": null,
-  "repeater_stat_noise": null,
-  "repeater_stat_uptime": null,
-  "repeater_stat_queue": null,
-  "repeater_stat_airtime_tx": null,
-  "repeater_stat_airtime_rx": null,
-  "repeater_stat_recv": null,
-  "repeater_stat_sent": null,
-  "repeater_stat_flood": null,
-  "repeater_stat_direct": null,
-  "repeater_stat_dups": null,
-  "repeater_stat_recv_errors": null,
-  "repeater_stat_error_events": null,
-  "repeater_stat_queue_unit": null,
-  "repeater_stat_recv_errors_hint": null,
-  "repeater_stat_error_events_hint": null,
-  "repeater_stat_dups_hint": null,
-  "repeater_stat_view_current": null,
-  "repeater_stat_view_trend": null,
-  "repeater_trend_need_more": null,
-  "repeater_trend_reboot": null,
-  "repeater_trend_stable": null,
-  "repeater_trend_samples": null,
-  "signal_direct_reception_live_traffic": null
+  "repeater_seg_network": {
+    "value": "Líonra",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_state": {
+    "value": "Stádas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_console": {
+    "value": "Consól",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_only": {
+    "value": "Consól don riarthóir amháin",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_hint": {
+    "value": "Logáil isteach mar riarthóir (barr ar dheis) chun an CLI athdhéantóra a úsáid.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_title": {
+    "value": "Logáil isteach le haghaidh tuilleadh",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_hint": {
+    "value": "Logáil isteach leis an rialtán ag an mbarr ar dheis — aoi le haghaidh staitisticí, comharsana, teileiméadracht & crua-earraí; riarthóir le haghaidh cumraíochta, réigiúin & CLI.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_benefit_admin": {
+    "value": "Cumraíocht, réigiúin & CLI",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_details": {
+    "value": "Sonraí",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_all": {
+    "value": "Gach",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_channels": {
+    "value": "Cainéil",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_direct": {
+    "value": "Díreach",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_rooms": {
+    "value": "Seomraí",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_placeholder": {
+    "value": "Cuardaigh comhráite",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_channel": {
+    "value": "Cainéal",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_room": {
+    "value": "Seomra",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_encrypted_message": {
+    "value": "Teachtaireacht chriptithe",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_no_messages_yet": {
+    "value": "Níl aon teachtaireachtaí ann go fóill",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_title": {
+    "value": "Gan aon chomhráite go fóill",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_subtitle": {
+    "value": "Taispeánfar teachtaireachtaí a sheolann tú nó a fhaigheann tú anseo.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_title": {
+    "value": "Níl aon rud sa scagaire seo",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_subtitle": {
+    "value": "Roghnaigh scagaire eile chun níos mó comhráite a fheiceáil.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_empty": {
+    "value": "Níl aon chomhráite a mheaitseálann do chuardach.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_review": {
+    "value": "Athbhreithniú",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_dismiss": {
+    "value": "Séan",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_title": {
+    "value": "Cainéil nua",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_footer": {
+    "value": "Téigh ar chainéal chun a eochair agus a réigiún a fheiceáil sula gcuireann tú leis nó sula ndéanann tú neamhaird de spreagthaí amach anseo.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_title": {
+    "value": "Cainéil nua cloiste in aice láimhe",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_direct": {
+    "value": "Díreach",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_1h": {
+    "value": "1 uair an chloig",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_6h": {
+    "value": "6 huaire an chloig",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_24h": {
+    "value": "24 uair an chloig",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_7d": {
+    "value": "7 lá",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "widget_status_description": {
+    "value": "Ceallra, DManna / cainéil nár léadh agus gníomhaíocht ón nód deireanach a raibh tú nasctha leis.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_title": {
+    "value": "Glacadh díreach",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_title": {
+    "value": "Gan íosleoirí cloiste go fóill",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_desc": {
+    "value": "Taispeántar anseo iad na hísleoirí a chloiseann do nód go díreach de réir mar a thagann a dtrácht.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_device": {
+    "value": "Oibriú",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_signal": {
+    "value": "Ceangal",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_traffic": {
+    "value": "Trácht raidió",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_errors": {
+    "value": "Earráidí & cáilíocht",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_battery": {
+    "value": "Ceallra",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_signal": {
+    "value": "Comhartha",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_snr": {
+    "value": "Comhartha-go-torann (SNR)",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_noise": {
+    "value": "Urlár torainn",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_uptime": {
+    "value": "Am aga",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue": {
+    "value": "Sraith seolta",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_tx": {
+    "value": "Am aeir TX",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_rx": {
+    "value": "Am aeir RX",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv": {
+    "value": "Faighte",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_sent": {
+    "value": "Seolta",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_flood": {
+    "value": "Pacáistí tuile",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_direct": {
+    "value": "Pacáistí díreacha",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups": {
+    "value": "Dúbláití",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors": {
+    "value": "Earráidí fála",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events": {
+    "value": "Imeachtaí earráide",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue_unit": {
+    "value": "pacáistí",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors_hint": {
+    "value": "Pacáistí nár fhéad an raidió a léamh go glan — méadaíonn siad le trasnaíocht nó le comhartha lag.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events_hint": {
+    "value": "Earráidí inmheánacha atá comhairithe ag an athdhéantóir ó atosaíodh é go deireanach.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups_hint": {
+    "value": "Pacáistí a cloiseadh níos mó ná uair amháin. Gnáth i líonra mogalra (iomarcaíocht tuile); ní thugann luachanna atá neamhghnách ard le fios ach lúba.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_current": {
+    "value": "Reatha",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_trend": {
+    "value": "Treochta",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_need_more": {
+    "value": "Déan fiosrú ar an stádas cúpla uair chun treochta a chruthú.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_reboot": {
+    "value": "Athbheochan braththa",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_stable": {
+    "value": "Cobhsaí",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_samples": {
+    "value": "%1$d tomhas",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_live_traffic": {
+    "value": "Féach ar an trácht iomlán Beo",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  }
 }

@@ -8088,71 +8088,339 @@
     "_ai": true,
     "_seeded": "2026-08-04"
   },
-  "repeater_seg_network": null,
-  "repeater_seg_state": null,
-  "repeater_seg_console": null,
-  "repeater_console_admin_only": null,
-  "repeater_console_admin_hint": null,
-  "repeater_login_cta_title": null,
-  "repeater_login_cta_hint": null,
-  "repeater_benefit_admin": null,
-  "repeater_details": null,
-  "chat_filter_all": null,
-  "chat_filter_channels": null,
-  "chat_filter_direct": null,
-  "chat_filter_rooms": null,
-  "chat_search_placeholder": null,
-  "chat_type_channel": null,
-  "chat_type_room": null,
-  "chat_encrypted_message": null,
-  "chat_no_messages_yet": null,
-  "chat_empty_title": null,
-  "chat_empty_subtitle": null,
-  "chat_filter_empty_title": null,
-  "chat_filter_empty_subtitle": null,
-  "chat_search_empty": null,
-  "chat_discovery_tray_review": null,
-  "chat_discovery_tray_dismiss": null,
-  "chat_discovery_sheet_title": null,
-  "chat_discovery_sheet_footer": null,
-  "chat_discovery_tray_title": null,
-  "chat_type_direct": null,
-  "map_recency_1h": null,
-  "map_recency_6h": null,
-  "map_recency_24h": null,
-  "map_recency_7d": null,
-  "widget_status_description": null,
-  "signal_direct_reception_title": null,
-  "signal_direct_reception_empty_title": null,
-  "signal_direct_reception_empty_desc": null,
-  "repeater_stat_group_device": null,
-  "repeater_stat_group_signal": null,
-  "repeater_stat_group_traffic": null,
-  "repeater_stat_group_errors": null,
-  "repeater_stat_battery": null,
-  "repeater_stat_signal": null,
-  "repeater_stat_snr": null,
-  "repeater_stat_noise": null,
-  "repeater_stat_uptime": null,
-  "repeater_stat_queue": null,
-  "repeater_stat_airtime_tx": null,
-  "repeater_stat_airtime_rx": null,
-  "repeater_stat_recv": null,
-  "repeater_stat_sent": null,
-  "repeater_stat_flood": null,
-  "repeater_stat_direct": null,
-  "repeater_stat_dups": null,
-  "repeater_stat_recv_errors": null,
-  "repeater_stat_error_events": null,
-  "repeater_stat_queue_unit": null,
-  "repeater_stat_recv_errors_hint": null,
-  "repeater_stat_error_events_hint": null,
-  "repeater_stat_dups_hint": null,
-  "repeater_stat_view_current": null,
-  "repeater_stat_view_trend": null,
-  "repeater_trend_need_more": null,
-  "repeater_trend_reboot": null,
-  "repeater_trend_stable": null,
-  "repeater_trend_samples": null,
-  "signal_direct_reception_live_traffic": null
+  "repeater_seg_network": {
+    "value": "Netwerk",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_state": {
+    "value": "Stat",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_console": {
+    "value": "Konsola",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_only": {
+    "value": "Il-Konsola hija għall-amministratur biss",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_hint": {
+    "value": "Idħol bħala amministratur (fuq nett tal-lemin) biex tuża l-CLI tar-repeater.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_title": {
+    "value": "Idħol għal aktar",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_hint": {
+    "value": "Idħol bil-kontroll fil-quċċata tal-lemin — mistieden għall-istatistiċi, il-ġirien, it-telemetrija u l-firmware; amministratur għall-konfigurazzjoni, ir-reġjuni u l-CLI.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_benefit_admin": {
+    "value": "Konfig, reġjuni u CLI",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_details": {
+    "value": "Dettalji",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_all": {
+    "value": "Kollha",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_channels": {
+    "value": "Kanali",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_direct": {
+    "value": "Dirett",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_rooms": {
+    "value": "Kamra",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_placeholder": {
+    "value": "Fittex konversazzjonijiet",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_channel": {
+    "value": "Kanal",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_room": {
+    "value": "Kamra",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_encrypted_message": {
+    "value": "Messaġġ kriptat",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_no_messages_yet": {
+    "value": "Għad m'hemmx messaġġi",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_title": {
+    "value": "Għad m'hemmx konversazzjonijiet",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_subtitle": {
+    "value": "Il-messaġġi li tibgħat jew tirċievi jidhru hawn.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_title": {
+    "value": "Xejn f'dan il-filtru",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_subtitle": {
+    "value": "Agħżel filtru ieħor biex tara aktar konversazzjonijiet.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_empty": {
+    "value": "L-ebda konversazzjoni ma taqbilx mat-tfittxija tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_review": {
+    "value": "Irrevedi",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_dismiss": {
+    "value": "Irrifjuta",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_title": {
+    "value": "Kanali ġodda",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_footer": {
+    "value": "Agħfas fuq kanal biex tara ċ-ċavetta u r-reġjun tiegħu qabel ma żżiduh jew tinjorahom mistoqsijiet futuri.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_title": {
+    "value": "Kanali ġodda li nstabu qrib",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_direct": {
+    "value": "Dirett",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_1h": {
+    "value": "Siegħa 1",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_6h": {
+    "value": "6 sigħat",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_24h": {
+    "value": "24 siegħa",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_7d": {
+    "value": "7 ijiem",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "widget_status_description": {
+    "value": "Batterija, DM / kanali mhux mqrajja u attività mill-aħħar nodu konness tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_title": {
+    "value": "Ricezzjoni diretta",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_title": {
+    "value": "Għad m'hemm l-ebda ripetitur mis-smigħ",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_desc": {
+    "value": "Ir-ripetituri li n-nodu tiegħek jisimgħu direttament jidhru hawn hekk kif jasal it-traffiku tagħhom.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_device": {
+    "value": "Operazzjoni",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_signal": {
+    "value": "Konnessjoni",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_traffic": {
+    "value": "Traffiku tar-radju",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_errors": {
+    "value": "Żbalji u kwalità",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_battery": {
+    "value": "Batterija",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_signal": {
+    "value": "Sinjal",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_snr": {
+    "value": "Sinjal għal Rumor (SNR)",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_noise": {
+    "value": "Livell tal-istorbju",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_uptime": {
+    "value": "Ħin ta' attività",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue": {
+    "value": "Kju ta' tibgħat",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_tx": {
+    "value": "Ħin TX fuq l-arja",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_rx": {
+    "value": "Ħin RX fuq l-arja",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv": {
+    "value": "Rċevuti",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_sent": {
+    "value": "Mibgħuta",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_flood": {
+    "value": "Pakets ta' għargħar",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_direct": {
+    "value": "Pakets diretti",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups": {
+    "value": "Duplikati",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors": {
+    "value": "Żbalji fir-riċeviment",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events": {
+    "value": "Avvenimenti ta' żball",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue_unit": {
+    "value": "pakets",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors_hint": {
+    "value": "Pakets li r-radju ma setax jaqra b'mod nadif — jiżdiedu bl-interferenza jew b'sinjal dgħajjef.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events_hint": {
+    "value": "Żbalji interni li r-ripetitur ikkalkula mill-aħħar riavvi tiegħu.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups_hint": {
+    "value": "Pakets li nstemgħu aktar minn darba. Normali f'mesh (redundanza ta' għargħar); biss valuri għoljin mhux tas-soltu jissuġġerixxu ċrieki.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_current": {
+    "value": "Kurrent",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_trend": {
+    "value": "Tendenza",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_need_more": {
+    "value": "Iċċekkja l-istatus diversi drabi biex tibni tendenza.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_reboot": {
+    "value": "Riavviż skopert",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_stable": {
+    "value": "stabbli",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_samples": {
+    "value": "%1$d kejl",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_live_traffic": {
+    "value": "Ara t-traffiku sħiħ f'ħin reali",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  }
 }

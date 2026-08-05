@@ -6809,71 +6809,424 @@
     "_ai": true,
     "_seeded": "2026-08-04"
   },
-  "repeater_seg_network": null,
-  "repeater_seg_state": null,
-  "repeater_seg_console": null,
-  "repeater_console_admin_only": null,
-  "repeater_console_admin_hint": null,
-  "repeater_login_cta_title": null,
-  "repeater_login_cta_hint": null,
-  "repeater_benefit_admin": null,
-  "repeater_details": null,
-  "chat_filter_all": null,
-  "chat_filter_channels": null,
-  "chat_filter_direct": null,
-  "chat_filter_rooms": null,
-  "chat_search_placeholder": null,
-  "chat_type_channel": null,
-  "chat_type_room": null,
-  "chat_encrypted_message": null,
-  "chat_no_messages_yet": null,
-  "chat_empty_title": null,
-  "chat_empty_subtitle": null,
-  "chat_filter_empty_title": null,
-  "chat_filter_empty_subtitle": null,
-  "chat_search_empty": null,
-  "chat_discovery_tray_review": null,
-  "chat_discovery_tray_dismiss": null,
-  "chat_discovery_sheet_title": null,
-  "chat_discovery_sheet_footer": null,
-  "chat_discovery_tray_title": null,
-  "chat_type_direct": null,
-  "map_recency_1h": null,
-  "map_recency_6h": null,
-  "map_recency_24h": null,
-  "map_recency_7d": null,
-  "widget_status_description": null,
-  "signal_direct_reception_title": null,
-  "signal_direct_reception_empty_title": null,
-  "signal_direct_reception_empty_desc": null,
-  "repeater_stat_group_device": null,
-  "repeater_stat_group_signal": null,
-  "repeater_stat_group_traffic": null,
-  "repeater_stat_group_errors": null,
-  "repeater_stat_battery": null,
-  "repeater_stat_signal": null,
-  "repeater_stat_snr": null,
-  "repeater_stat_noise": null,
-  "repeater_stat_uptime": null,
-  "repeater_stat_queue": null,
-  "repeater_stat_airtime_tx": null,
-  "repeater_stat_airtime_rx": null,
-  "repeater_stat_recv": null,
-  "repeater_stat_sent": null,
-  "repeater_stat_flood": null,
-  "repeater_stat_direct": null,
-  "repeater_stat_dups": null,
-  "repeater_stat_recv_errors": null,
-  "repeater_stat_error_events": null,
-  "repeater_stat_queue_unit": null,
-  "repeater_stat_recv_errors_hint": null,
-  "repeater_stat_error_events_hint": null,
-  "repeater_stat_dups_hint": null,
-  "repeater_stat_view_current": null,
-  "repeater_stat_view_trend": null,
-  "repeater_trend_need_more": null,
-  "repeater_trend_reboot": null,
-  "repeater_trend_stable": null,
-  "repeater_trend_samples": null,
-  "signal_direct_reception_live_traffic": null
+  "repeater_seg_network": {
+    "value": "Réseau",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_state": {
+    "value": "État",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_seg_console": {
+    "value": "Console",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_only": {
+    "value": "La console est réservée à l’administrateur",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_console_admin_hint": {
+    "value": "Connectez-vous en tant qu’administrateur (en haut à droite) pour utiliser l’interface CLI du répéteur.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_title": {
+    "value": "Connectez-vous pour en savoir plus",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_login_cta_hint": {
+    "value": "Connectez-vous à l’aide du bouton en haut à droite — « guest » pour les statistiques, les voisins, la télémétrie et le micrologiciel ; « admin » pour la configuration, les régions et l’interface CLI.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_benefit_admin": {
+    "value": "Configuration, régions et CLI",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_details": {
+    "value": "Détails",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_all": {
+    "value": "Tout",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_channels": {
+    "value": "Canaux",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_direct": {
+    "value": "Messages privés",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_rooms": {
+    "value": "Salles",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_placeholder": {
+    "value": "Rechercher des conversations",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_channel": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_room": {
+    "value": "Salle",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_encrypted_message": {
+    "value": "Message chiffré",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_no_messages_yet": {
+    "value": "Pas encore de messages",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_title": {
+    "value": "Aucune conversation pour l'instant",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_empty_subtitle": {
+    "value": "Les messages que vous envoyez ou recevez s'affichent ici.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_title": {
+    "value": "Aucun résultat pour ce filtre",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_filter_empty_subtitle": {
+    "value": "Sélectionnez un autre filtre pour afficher davantage de conversations.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_search_empty": {
+    "value": "Aucune conversation ne correspond à votre recherche.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_review": {
+    "value": "Consulter",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_dismiss": {
+    "value": "Ignorer",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_title": {
+    "value": "Nouveaux canaux",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_sheet_footer": {
+    "value": "Appuyez sur un canal pour afficher sa clé et sa région avant de l'ajouter ou d'ignorer les invites futures.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_discovery_tray_title": {
+    "value": "Nouveaux canaux détectés à proximité",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "chat_type_direct": {
+    "value": "Messages privés",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_1h": {
+    "value": "1 heure",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_6h": {
+    "value": "6 heures",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_24h": {
+    "value": "24 heures",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "map_recency_7d": {
+    "value": "7 jours",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "widget_status_description": {
+    "value": "Batterie, messages privés non lus / canaux et activité depuis votre dernière connexion au nœud.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_title": {
+    "value": "Réception directe",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_title": {
+    "value": "Aucun répéteur détecté pour l'instant",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_empty_desc": {
+    "value": "Les répéteurs que votre nœud capte directement s'affichent ici dès que leur trafic arrive.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_device": {
+    "value": "Fonctionnement",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_signal": {
+    "value": "Connexion",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_traffic": {
+    "value": "Trafic radio",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_group_errors": {
+    "value": "Erreurs et qualité",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_battery": {
+    "value": "Batterie",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_snr": {
+    "value": "Rapport signal/bruit (SNR)",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_noise": {
+    "value": "Bruit de fond",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_uptime": {
+    "value": "Temps de fonctionnement",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue": {
+    "value": "File d’attente d’envoi",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_tx": {
+    "value": "Temps d’antenne TX",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_airtime_rx": {
+    "value": "Temps d’antenne RX",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv": {
+    "value": "Reçus",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_sent": {
+    "value": "Envoyés",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_flood": {
+    "value": "Paquets de diffusion",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_direct": {
+    "value": "Paquets directs",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups": {
+    "value": "Doublons",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors": {
+    "value": "Erreurs de réception",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events": {
+    "value": "Événements d’erreur",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_queue_unit": {
+    "value": "Paquets",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_recv_errors_hint": {
+    "value": "Paquets que la radio n’a pas pu lire correctement — ce chiffre augmente en cas d’interférences ou de signal faible.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_error_events_hint": {
+    "value": "Erreurs internes comptabilisées par le répéteur depuis son dernier redémarrage.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_dups_hint": {
+    "value": "Paquets reçus plus d’une fois. Normal dans un réseau maillé (redondance par inondation) ; seules des valeurs anormalement élevées suggèrent des boucles.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_current": {
+    "value": "Actuel",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_stat_view_trend": {
+    "value": "Tendance",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_need_more": {
+    "value": "Interrogez l'état plusieurs fois pour établir une tendance.",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_reboot": {
+    "value": "Redémarrage détecté",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_stable": {
+    "value": "stable",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "repeater_trend_samples": {
+    "value": "%1$d mesures",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "signal_direct_reception_live_traffic": {
+    "value": "Voir le trafic en direct complet",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_group_contacts": {
+    "value": "Contacts et canaux",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_group_regions_coverage": {
+    "value": "Régions et couverture",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_group_radio_traffic": {
+    "value": "Radio et trafic",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_group_advanced": {
+    "value": "Fonctions avancées",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_group_notifications": {
+    "value": "Notifications",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_group_connection_device": {
+    "value": "Connexion et appareil",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_entry_repeater_timeouts": {
+    "value": "Répéteurs et délais d'expiration",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_autoadd": {
+    "value": "Quelles publicités deviennent des contacts",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_regions": {
+    "value": "Portées de transmission géographiques",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_catalog": {
+    "value": "Régions et canaux du catalogue",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_directory": {
+    "value": "Annuaire en ligne + recherche automatique",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_repeater_timeouts": {
+    "value": "Console CLI + toutes les tentatives de reconnexion/délais d'expiration",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_paths": {
+    "value": "Sauts de 1/2/3 octets et cache de collision",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_background": {
+    "value": "Optimisation de la batterie et démarrage automatique",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_sub_customization": {
+    "value": "Seuils de couleur SNR",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_support_title": {
+    "value": "Soutenir le développement",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  },
+  "settings_home_support_subtitle": {
+    "value": "Ouvre GoFundMe dans votre navigateur",
+    "_ai": true,
+    "_seeded": "2026-08-05"
+  }
 }
