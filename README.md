@@ -9,34 +9,34 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
-| English        | `en` |       100% |  1682 |         0 | kiekr-team |
-| Deutsch        | `de` |       100% |  1682 |         0 | kiekr-team |
-| Español        | `es` |      96.1% |  1279 |       337 | community  |
-| Français       | `fr` |      96.1% |  1279 |       337 | community  |
-| Nederlands     | `nl` |      96.1% |  1279 |       337 | community  |
-| Italiano       | `it` |      96.1% |  1365 |       251 | community  |
-| Português (Brasil) | `pt-BR` |      96.1% |     1 |      1615 | community  |
-| Polski         | `pl` |      96.1% |    11 |      1605 | community  |
-| Български      | `bg` |      96.1% |     0 |      1616 | community  |
-| Čeština        | `cs` |      96.1% |     0 |      1616 | community  |
-| Dansk          | `da` |      96.1% |     0 |      1616 | community  |
-| Ελληνικά       | `el` |      96.1% |     0 |      1616 | community  |
-| Eesti          | `et` |      96.1% |     0 |      1616 | community  |
-| Suomi          | `fi` |      96.1% |     0 |      1616 | community  |
-| Gaeilge        | `ga` |      96.1% |     0 |      1616 | community  |
-| Hrvatski       | `hr` |      96.1% |     0 |      1616 | community  |
-| Magyar         | `hu` |      96.1% |     0 |      1616 | community  |
-| Lietuvių       | `lt` |      96.1% |     0 |      1616 | community  |
-| Latviešu       | `lv` |      96.1% |     0 |      1616 | community  |
-| Malti          | `mt` |      96.1% |     0 |      1616 | community  |
-| Norsk bokmål   | `nb` |      96.1% |     0 |      1616 | community  |
-| Português (Portugal) | `pt-PT` |      96.1% |     0 |      1616 | community  |
-| Română         | `ro` |      96.1% |     0 |      1616 | community  |
-| Русский        | `ru` |      96.1% |     0 |      1616 | community  |
-| Slovenčina     | `sk` |      96.1% |     0 |      1616 | community  |
-| Slovenščina    | `sl` |      96.1% |     0 |      1616 | community  |
-| Svenska        | `sv` |      96.1% |     0 |      1616 | community  |
-| Українська     | `uk` |      96.1% |     0 |      1616 | community  |
+| English        | `en` |       100% |  1683 |         0 | kiekr-team |
+| Deutsch        | `de` |       100% |  1683 |         0 | kiekr-team |
+| Español        | `es` |      96.0% |  1279 |       337 | community  |
+| Français       | `fr` |      96.0% |  1279 |       337 | community  |
+| Nederlands     | `nl` |      96.0% |  1279 |       337 | community  |
+| Italiano       | `it` |      96.0% |  1365 |       251 | community  |
+| Português (Brasil) | `pt-BR` |      96.0% |     1 |      1615 | community  |
+| Polski         | `pl` |      96.0% |    11 |      1605 | community  |
+| Български      | `bg` |      96.0% |     0 |      1616 | community  |
+| Čeština        | `cs` |      96.0% |     0 |      1616 | community  |
+| Dansk          | `da` |      96.0% |     0 |      1616 | community  |
+| Ελληνικά       | `el` |      96.0% |     0 |      1616 | community  |
+| Eesti          | `et` |      96.0% |     0 |      1616 | community  |
+| Suomi          | `fi` |      96.0% |     0 |      1616 | community  |
+| Gaeilge        | `ga` |      96.0% |     0 |      1616 | community  |
+| Hrvatski       | `hr` |      96.0% |     0 |      1616 | community  |
+| Magyar         | `hu` |      96.0% |     0 |      1616 | community  |
+| Lietuvių       | `lt` |      96.0% |     0 |      1616 | community  |
+| Latviešu       | `lv` |      96.0% |     0 |      1616 | community  |
+| Malti          | `mt` |      96.0% |     0 |      1616 | community  |
+| Norsk bokmål   | `nb` |      96.0% |     0 |      1616 | community  |
+| Português (Portugal) | `pt-PT` |      96.0% |     0 |      1616 | community  |
+| Română         | `ro` |      96.0% |     0 |      1616 | community  |
+| Русский        | `ru` |      96.0% |     0 |      1616 | community  |
+| Slovenčina     | `sk` |      96.0% |     0 |      1616 | community  |
+| Slovenščina    | `sl` |      96.0% |     0 |      1616 | community  |
+| Svenska        | `sv` |      96.0% |     0 |      1616 | community  |
+| Українська     | `uk` |      96.0% |     0 |      1616 | community  |
 
 <!-- status:end -->
 
