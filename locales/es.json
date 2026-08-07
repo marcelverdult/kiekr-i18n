@@ -3,7 +3,52 @@
     "language": "es",
     "name": "Español",
     "managed_by": "community",
-    "updated": "2026-08-05"
+    "updated": "2026-08-07"
+  },
+  "add_channel_duplicate_key": {
+    "value": "Esta clave ya pertenece a «%1$s».",
+    "_ai": true,
+    "_seeded": "2026-06-11"
+  },
+  "add_channel_generate_key": {
+    "value": "Generar clave aleatoria",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "app_safemode_body": {
+    "value": "El último inicio falló antes de que la app terminara de cargar. Compartir el registro de diagnóstico nos ayuda a encontrar la causa.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_button": {
+    "value": "Borrar datos del companion",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_done": {
+    "value": "Datos del companion borrados. Vuelve a iniciar la app.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_hint": {
+    "value": "Comparte primero el registro: al borrar se eliminan los datos que necesitamos para diagnosticarlo.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_share_button": {
+    "value": "Compartir registro de diagnóstico",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_start_button": {
+    "value": "Iniciar normalmente de todos modos",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_title": {
+    "value": "KiekR no se inició correctamente",
+    "_ai": true,
+    "_seeded": "2026-07-30"
   },
   "app_upgrade_body": {
     "value": "Vuelve a abrir la app para terminar de cargar la nueva versión.",
@@ -65,6 +110,11 @@
     "value": "Detalles del contacto",
     "_human": true
   },
+  "chat_cd_jump_to_latest": {
+    "value": "Ir a lo más reciente",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "chat_cd_max_retries_reached": {
     "value": "Máximo de reintentos alcanzado",
     "_human": true
@@ -108,6 +158,16 @@
   "chat_compose_byte_counter": {
     "value": "%1$d / %2$d bytes",
     "_human": true
+  },
+  "chat_compose_gate_identity": {
+    "value": "Este mensaje directo pertenece a %1$s. Estás conectado como %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Ningún nodo conectado — conecta un companion para enviar.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "chat_compose_placeholder_disconnected": {
     "value": "Desconectado — reconecta para enviar",
@@ -173,6 +233,11 @@
     "value": "Varios repetidores coinciden con el prefijo corto de este salto. No se puede elegir automáticamente — selecciona el que estaba en tu ruta.",
     "_human": true
   },
+  "chat_detail_hop_heard_no_position": {
+    "value": "Oído, posición desconocida",
+    "_ai": true,
+    "_seeded": "2026-07-28"
+  },
   "chat_detail_hop_looking_up": {
     "value": "buscando en línea…",
     "_human": true
@@ -233,6 +298,11 @@
     "value": "Ruta · claves de %1$d bytes",
     "_human": true
   },
+  "chat_detail_path_unknown_direct": {
+    "value": "desconocida (enrutado directo)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_path_unknown_from_device": {
     "value": "desconocido — desde el dispositivo",
     "_human": true
@@ -256,6 +326,21 @@
   "chat_detail_payload_type": {
     "value": "Tipo de carga útil",
     "_human": true
+  },
+  "chat_detail_reception_of": {
+    "value": "Recepción %1$d de %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "El recuento es un límite inferior: con mucho tráfico pueden perderse copias antes de llegar a la app.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d copias más (no se guardan individualmente)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_repeat_of": {
     "value": "Repetición %1$d de %2$d",
@@ -297,6 +382,11 @@
     "value": "Mostrar ruta en el mapa",
     "_human": true
   },
+  "chat_detail_show_reception_on_map": {
+    "value": "Mostrar esta recepción en el mapa",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_signal": {
     "value": "Señal",
     "_human": true
@@ -308,6 +398,16 @@
   "chat_detail_snr": {
     "value": "SNR",
     "_human": true
+  },
+  "chat_detail_time": {
+    "value": "Hora",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Oído",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_transport_code": {
     "value": "Código de transporte",
@@ -361,6 +461,16 @@
     "value": "(cifrado)",
     "_human": true
   },
+  "chat_heard_n_times": {
+    "value": "oído %1$d×",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "oído %1$d veces",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_hidden_channel_action_footer": {
     "value": "Añadir muestra el canal en tu lista de chats y en los ajustes. Ignorar silencia futuros avisos para esta clave.",
     "_human": true
@@ -405,6 +515,16 @@
     "value": "Canal",
     "_human": true
   },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d saltos",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "recibido a través de %1$d a %2$d saltos",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_install_button": {
     "value": "Instalar",
     "_human": true
@@ -429,9 +549,19 @@
     "value": "No instalado en este nodo",
     "_human": true
   },
+  "chat_menu_block": {
+    "value": "Bloque «%1$s»",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
   "chat_menu_copy": {
     "value": "Copiar",
     "_human": true
+  },
+  "chat_menu_copy_path": {
+    "value": "Copiar ruta",
+    "_ai": true,
+    "_seeded": "2026-07-28"
   },
   "chat_menu_details": {
     "value": "Detalles",
@@ -477,6 +607,16 @@
     "value": "1 salto",
     "_human": true
   },
+  "chat_path_width_a11y": {
+    "value": "ruta de %1$d bytes",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_path_width_chip": {
+    "value": "%1$dB",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_region_from_device": {
     "value": "desde el dispositivo",
     "_human": true
@@ -492,6 +632,21 @@
   "chat_reply_scope_label": {
     "value": "Ámbito de respuesta: ",
     "_human": true
+  },
+  "chat_retry_duplicate_body": {
+    "value": "Tu nodo ya transmitió este mensaje. No llegó ninguna confirmación, pero los receptores dentro del alcance pueden haberlo recibido igualmente — si lo envías de nuevo, lo verán dos veces.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_confirm": {
+    "value": "Enviar de nuevo",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_title": {
+    "value": "¿Enviar de nuevo?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "chat_room_author_you": {
     "value": "Tú",
@@ -621,6 +776,11 @@
     "value": "99+",
     "_human": true
   },
+  "clock_reply_local_label": {
+    "value": "local",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
   "delete": {
     "value": "Eliminar",
     "_human": true
@@ -632,6 +792,141 @@
   "directory_candidates_added": {
     "value": "Añadido",
     "_human": true
+  },
+  "live_traffic_clear": {
+    "value": "Limpiar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Copiar hash del paquete",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Cada trama que oye tu nodo aparece aquí — no se filtra nada.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Aún no hay paquetes",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "Exportar CSV",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "Exportar JSON",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Todos",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Sin filtrar — aparecen las tramas decodificadas, cifradas para otros, desconocidas y malformadas.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "cifrado — no para este dispositivo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "muestra cada trama recibida — incluso lo que no se puede leer",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Sin filtrar · todos los paquetes",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Activa",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Ocupada",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Tranquila",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "ruido %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "ruta · %1$d bytes/salto · %2$d saltos",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Pausar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / min",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Reanudar",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Malla",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Multisalto",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "de %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "SNR / RSSI medios",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "No decodificable",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "aun así listado",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Tráfico en vivo",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "total",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "map_age_15_min": {
     "value": "15 min",
@@ -905,6 +1200,41 @@
     "value": "(sin nombre)",
     "_human": true
   },
+  "map_route_a11y": {
+    "value": "Ruta %1$d, oída %2$d veces",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_route_n_count": {
+    "value": "Ruta %1$d (%2$d×)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_all": {
+    "value": "Todas las rutas",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_dropped": {
+    "value": "+%1$d rutas más (no dibujadas)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_menu": {
+    "value": "Rutas",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_pathless": {
+    "value": "%1$d copias sin ruta (directo)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_show_on_map": {
+    "value": "Mostrar en el mapa",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
   "map_snr_edge_label": {
     "value": "< %1$.0f dB",
     "_human": true
@@ -920,6 +1250,11 @@
   "map_snr_workable_label": {
     "value": "%1$.0f–%2$.0f dB",
     "_human": true
+  },
+  "map_you": {
+    "value": "Tú",
+    "_ai": true,
+    "_seeded": "2026-07-01"
   },
   "message_deleted": {
     "value": "Mensaje eliminado",
@@ -956,6 +1291,11 @@
   "mynode_clock_sync_sent": {
     "value": "Sincronización de reloj enviada",
     "_human": true
+  },
+  "mynode_companion_delete_confirm_body": {
+    "value": "Elimina este contacto de la lista. Si está conectado ahora mismo, primero se corta la conexión.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "mynode_config_error_code": {
     "value": "código de error de firmware %1$d",
@@ -1088,6 +1428,16 @@
   "mynode_identity_footer": {
     "value": "Los MD se firman con esta identidad. Adoptada del nodo emparejado la primera vez que conectas; persiste entre reconexiones hasta que adoptes la semilla de otro nodo.",
     "_human": true
+  },
+  "mynode_known_companions": {
+    "value": "Compañeros conocidos",
+    "_ai": true,
+    "_seeded": "2026-06-29"
+  },
+  "mynode_known_companions_footer": {
+    "value": "Toca un contacto para volver a conectarte con él. Desliza el dedo para eliminarlo de esta lista.",
+    "_ai": true,
+    "_seeded": "2026-06-29"
   },
   "mynode_label_public_key": {
     "value": "clave pública",
@@ -1281,6 +1631,16 @@
     "value": "Buscar nodos cercanos",
     "_human": true
   },
+  "mynode_scan_searching": {
+    "value": "Buscando nodos…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Asegúrate de que tu nodo esté encendido y cerca.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "mynode_section_connect_via_wifi": {
     "value": "Conectar vía WiFi",
     "_human": true
@@ -1420,6 +1780,11 @@
   "nav_tab_settings": {
     "value": "Ajustes",
     "_human": true
+  },
+  "node_detail_retrieve_firmware": {
+    "value": "Consultar la versión del firmware",
+    "_ai": true,
+    "_seeded": "2026-05-29"
   },
   "nodes_add_channel_name_label": {
     "value": "Nombre",
@@ -1597,6 +1962,11 @@
     "value": "Tipo %1$d",
     "_human": true
   },
+  "nodes_admin_advert": {
+    "value": "Anuncio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_advert_flood": {
     "value": "Advert flood",
     "_human": true
@@ -1637,6 +2007,16 @@
     "value": "Sincronizar el reloj del repetidor",
     "_human": true
   },
+  "nodes_admin_channel_cat_environment": {
+    "value": "ambiente",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "potencia",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_channel_ctrl": {
     "value": "Canal 0x00",
     "_human": true
@@ -1652,6 +2032,26 @@
   "nodes_admin_cli_label": {
     "value": "CLI",
     "_human": true
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Restablecer el reloj y reiniciar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Restablece el reloj del repetidor a una fecha de referencia (15/05/2024) y lo reinicia; a continuación, pulsa el icono de sincronización para aplicar la hora actual. El reinicio no envía ninguna confirmación.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Se ha enviado el reinicio del reloj y el reinicio del sistema.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "¿Restablecer el reloj y reiniciar?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_admin_clock_ahead_hint": {
     "value": "El reloj está adelantado. El firmware estándar rechaza la sincronización hacia atrás. Solución: ejecuta `clkreboot` desde la CLI de abajo — restablece el RTC a 2024-05-15 y reinicia — luego toca sincronizar para enviar la hora actual.",
@@ -1709,6 +2109,11 @@
     "value": "Firmware",
     "_human": true
   },
+  "nodes_admin_forget_password": {
+    "value": "Olvidé mi contraseña",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_log_in_ellipsis": {
     "value": "Iniciar sesión…",
     "_human": true
@@ -1745,6 +2150,76 @@
     "value": "Payload (%1$d B)",
     "_human": true
   },
+  "nodes_admin_position_hint": {
+    "value": "Establece la posición anunciada del repetidor. Introduce los grados en formato decimal; está previsto añadir más adelante un selector de mapas.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Latitud",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Longitud",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_title": {
+    "value": "Establecer posición",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "El repetidor se reinicia y se desconecta momentáneamente de la malla. No envía ninguna confirmación.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Reiniciar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Reiniciar repetidor",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Se ha enviado el comando de reinicio.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "¿Reiniciar el repetidor?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Cambiar el nombre",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Nombre del nodo",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_title": {
+    "value": "Cambiar el nombre del repetidor",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_role_label": {
     "value": "Rol",
     "_human": true
@@ -1769,6 +2244,26 @@
     "value": "Telemetría",
     "_human": true
   },
+  "nodes_bulk_delete_button": {
+    "value": "Eliminar (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_device_note": {
+    "value": "Los contactos instalados en el nodo conectado también se eliminan allí.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_favorites_warning": {
+    "value": "Incluye %1$d favoritos.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_title": {
+    "value": "¿Eliminar %1$d contactos permanentemente?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_cd_add_contact_or_channel": {
     "value": "Añadir contacto o canal",
     "_human": true
@@ -1780,6 +2275,11 @@
   "nodes_cd_decrease_max_hops": {
     "value": "Reducir saltos máximos",
     "_human": true
+  },
+  "nodes_cd_exit_selection": {
+    "value": "Salir de la selección",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_cd_favorite": {
     "value": "Favorito",
@@ -1808,6 +2308,36 @@
   "nodes_cd_unfavorite": {
     "value": "Quitar de favoritos",
     "_human": true
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Pone a cero los contadores de tráfico del repetidor.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Esta acción no se puede deshacer.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Pone el repetidor en modo de actualización del firmware.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "El repetidor se apaga y no vuelve a funcionar hasta que se reinicia físicamente. No se envía ninguna respuesta.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "El repetidor se desconecta de la malla mientras se reinicia. No se envía ninguna respuesta.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "¿Ejecutar «%1$s»?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_count_label": {
     "value": "%1$d %2$s",
@@ -1906,6 +2436,11 @@
     "value": "Copiar %1$s",
     "_human": true
   },
+  "nodes_detail_cd_edit_position": {
+    "value": "Editar posición",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_cd_look_up_neighbours": {
     "value": "Buscar vecinos desconocidos en línea",
     "_human": true
@@ -1913,6 +2448,11 @@
   "nodes_detail_cd_refresh": {
     "value": "Actualizar",
     "_human": true
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Actualizar la información del propietario",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_detail_cd_refreshing": {
     "value": "Actualizando",
@@ -1949,6 +2489,36 @@
   "nodes_detail_hide_list": {
     "value": "Ocultar lista",
     "_human": true
+  },
+  "nodes_detail_info_section": {
+    "value": "Información",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_last_login": {
+    "value": "Última conexión",
+    "_ai": true,
+    "_seeded": "2026-06-12"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Administrador: editar, regiones, CLI, reiniciar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Vecinos",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Estadísticas y señal",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Telemetría y firmware",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_detail_log_in": {
     "value": "Iniciar sesión",
@@ -2020,6 +2590,16 @@
     "value": "cero saltos",
     "_human": true
   },
+  "nodes_detail_needs_login": {
+    "value": "Es necesario iniciar sesión",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Inicia sesión (como invitado) para acceder a estadísticas, vecinos, telemetría y firmware; como administrador para acceder a la configuración y la interfaz de línea de comandos.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_neighbours_cached_partial": {
     "value": "%1$d en caché · parcial — toca actualizar",
     "_human": true
@@ -2066,13 +2646,28 @@
     "value": "Ruta",
     "_human": true
   },
+  "nodes_detail_position_label": {
+    "value": "Puesto",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_pubkey_label": {
     "value": "Clave pública",
     "_human": true
   },
+  "nodes_detail_rate_limited": {
+    "value": "Límite de velocidad — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_receiving_progress": {
     "value": "Recibiendo · %1$d/%2$d",
     "_human": true
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Actualizar sesión",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_detail_region_section_header": {
     "value": "Región",
@@ -2162,6 +2757,11 @@
     "value": "Toca para actualizar",
     "_human": true
   },
+  "nodes_detail_tools_section": {
+    "value": "Herramientas",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_try_acl_only": {
     "value": "Probar solo ACL",
     "_human": true
@@ -2200,6 +2800,13 @@
   },
   "nodes_discover_empty": {
     "value": "No se encontraron nodos",
+    "_human": true
+  },
+  "nodes_discover_found": {
+    "plural": {
+      "one": "%1$d nodo encontrado",
+      "other": "%1$d nodos encontrados"
+    },
     "_human": true
   },
   "nodes_discover_group_repeaters": {
@@ -2554,9 +3161,24 @@
     "value": "Ruta manual",
     "_human": true
   },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Aquí aparecen los repetidores y los servidores de sala que hayas guardado como contactos.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_manual_picker_no_matches": {
     "value": "Sin coincidencias para \"%1$s\".",
     "_human": true
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "No hay resultados",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "No hay repetidores guardados",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_manual_picker_placeholder": {
     "value": "Buscar por nombre o prefijo hex",
@@ -2670,6 +3292,31 @@
     "value": "Contacto",
     "_human": true
   },
+  "nodes_quick_select_all": {
+    "value": "Todos",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_auto_added": {
+    "value": "Añadidos automáticamente",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_non_favorites": {
+    "value": "No favoritos",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_older_days": {
+    "value": "Inactivos más de %1$d días",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_stale": {
+    "value": "Mucho tiempo inactivos…",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_save": {
     "value": "Guardar",
     "_human": true
@@ -2681,6 +3328,21 @@
   "nodes_save_repeater_to_fav_title": {
     "value": "¿Guardar este repetidor en favoritos?",
     "_human": true
+  },
+  "nodes_select_mode": {
+    "value": "Seleccionar",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selected_count": {
+    "value": "%1$d seleccionados",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selection_of_total": {
+    "value": "%1$d de %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_set_home_clear": {
     "value": "* (quitar inicio)",
@@ -2838,6 +3500,216 @@
     "value": "Buscando nodos…",
     "_human": true
   },
+  "password_hide": {
+    "value": "Ocultar contraseña",
+    "_ai": true,
+    "_seeded": "2026-06-10"
+  },
+  "password_show": {
+    "value": "Mostrar contraseña",
+    "_ai": true,
+    "_seeded": "2026-06-10"
+  },
+  "path_anchor_live_fallback": {
+    "value": "Basado en tu ubicación actual — no se ha guardado ninguna posición para este mensaje.",
+    "_ai": true,
+    "_seeded": "2026-06-10"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_detail_blurb": {
+    "value": "Mide el tiempo de ida y vuelta y la señal de enlace ascendente y descendente hacia este repetidor.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_downlink_snr": {
+    "value": "Relación señal-ruido en el enlace descendente",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_received": {
+    "value": "Recibido",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_sample_interval": {
+    "value": "Intervalo de muestreo",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_sample_timeout": {
+    "value": "Tiempo de espera de la muestra",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_samples": {
+    "value": "Muestras",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_sent": {
+    "value": "Enviado",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_settings_footer": {
+    "value": "Un ping envía N sondas de un salto a un repetidor e informa del tiempo de ida y vuelta, además de la señal de enlace ascendente y descendente. Las muestras se envían de forma secuencial (con un intervalo entre ellas); cada una espera una respuesta hasta que se agota el tiempo de espera. Valores por defecto: 3 muestras, intervalo de 2000 ms, tiempo de espera de 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_timeouts": {
+    "value": "Tiempos muertos",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_uplink_snr": {
+    "value": "Relación señal-ruido en el enlace ascendente",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_waiting_reply": {
+    "value": "A la espera de una respuesta…",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "repeater_cli_advert": {
+    "value": "Anuncio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Borrar estadísticas",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock": {
+    "value": "Reloj",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Sincronización del reloj",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Datos del propietario",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX Power",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Acciones",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Zona de peligro",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Reenvío",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_read": {
+    "value": "Leer",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Vecinos",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_password": {
+    "value": "Contraseña",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Apagar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_public_key": {
+    "value": "Clave pública",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_reboot": {
+    "value": "Reiniciar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_role": {
+    "value": "Función",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Iniciar OTA",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_version": {
+    "value": "Versión",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "room_admin_access_footer": {
     "value": "Inicia sesión para acceder a las herramientas de administrador. La contraseña se almacena en este dispositivo después de un inicio de sesión exitoso.",
     "_human": true
@@ -2989,6 +3861,31 @@
   "room_admin_subtitle": {
     "value": "Servidor de sala",
     "_human": true
+  },
+  "settings_appearance_cd_back": {
+    "value": "Atrás",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "Automático sigue el ajuste claro/oscuro de tu dispositivo. Elige Claro u Oscuro para cambiarlo solo en KiekR.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Oscuro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Claro",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Automático",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
     "value": "Los adverts que llegaron a través de más repetidores que esto no los autoañade la app. 0 = solo directos; 64 = ilimitado (límite del firmware).",
@@ -3230,6 +4127,11 @@
     "value": "Importación hecha — %1$d identidad, %2$d canales, %3$d regiones, %4$d contactos, %5$d inicios de sesión de repetidores.",
     "_human": true
   },
+  "settings_backup_import_done_v2": {
+    "value": "Importación hecha — %1$d identidad, %2$d canales, %3$d regiones, %4$d contactos, %5$d inicios de sesión de repetidores, %6$d favoritos, %7$d remitentes bloqueados, %8$d ajustes.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "settings_backup_import_fallback_name": {
     "value": "importación",
     "_human": true
@@ -3297,6 +4199,31 @@
   "settings_backup_title": {
     "value": "Copia de seguridad",
     "_human": true
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "El archivo no contenía datos importables.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Omitido: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identidad no importada: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "La copia de seguridad proviene de una versión más reciente de la app (esquema %1$s) — se aplicó en la medida de lo posible.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Ajuste desconocido ignorado: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   },
   "settings_battery_add_anchor": {
     "value": "Añadir anclaje",
@@ -3429,6 +4356,41 @@
   "settings_battery_warn_header": {
     "value": "Aviso de batería baja",
     "_human": true
+  },
+  "settings_blocklist_cd_back": {
+    "value": "Atrás",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_cd_unblock": {
+    "value": "Desbloquear",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_empty_body": {
+    "value": "Mantén pulsado un mensaje en un canal y selecciona «Bloquear» para ocultar todos los mensajes de ese remitente. Los nombres de los remitentes de los canales no están autenticados, por lo que el bloqueo se realiza únicamente por el nombre.",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_empty_title": {
+    "value": "No hay usuarios bloqueados",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_section_footer": {
+    "value": "Pulsa el icono de la papelera para desbloquearlo. Sus mensajes anteriores volverán a aparecer en todos los canales. El bloqueo se aplica al nombre exacto que se muestra; cualquiera puede elegir ese nombre, por lo que esto no impedirá que un usuario decidido cambie de nombre.",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_section_header": {
+    "value": "Bloqueado (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_title": {
+    "value": "Usuarios bloqueados",
+    "_ai": true,
+    "_seeded": "2026-06-17"
   },
   "settings_channel_conflicts_cd_back": {
     "value": "Atrás",
@@ -3870,6 +4832,66 @@
     "value": "Conexión",
     "_human": true
   },
+  "settings_community_coverage_allow_precise": {
+    "value": "Permitir la localización precisa",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_cells": {
+    "value": "Las células escucharon",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_footer": {
+    "value": "Cuando está activada, KiekR registra qué regiones (y, cuando es posible, qué repetidores) capta en una celda del mapa de aproximadamente medio kilómetro, y envía periódicamente los totales por celda a través de Wi-Fi. Tu posición exacta nunca sale del teléfono —solo la celda— y el mapa solo muestra lo que se ha captado allí, nunca quién lo ha captado. Es un seudónimo independiente de tu identidad en KiekR; puedes desactivarlo en cualquier momento.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_header": {
+    "value": "Mapa de cobertura",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_interval": {
+    "value": "Intervalo de carga",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_live": {
+    "value": "En directo",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_minutes": {
+    "value": "%1$d min",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_observations": {
+    "value": "Observaciones",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_open_settings": {
+    "value": "Abrir ajustes de ubicación",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_pending": {
+    "value": "Subidas pendientes",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_precise_hint": {
+    "value": "La cobertura necesita una ubicación precisa para asignar lo que oyes a la celda correcta del mapa. Permite la ubicación precisa para KiekR; de lo contrario, la cobertura no registrará nada en este teléfono.",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_toggle": {
+    "value": "Aportar datos sobre la cobertura",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "settings_community_edit_broker": {
     "value": "Editar broker",
     "_human": true
@@ -4174,6 +5196,21 @@
     "value": "Aceptable",
     "_human": true
   },
+  "settings_diag_footer": {
+    "value": "Desactivado por defecto. Al activarlo, KiekR sube a api.kiekr.app los informes de fallo, bloqueo y CPU que le entrega iOS: versión de la app, versión de iOS, modelo del dispositivo, los códigos de error del sistema y la pila de llamadas. Ningún mensaje, contacto, clave ni ubicación, y es la única vía por la que un fallo de tu teléfono llega al desarrollador.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_header": {
+    "value": "Diagnóstico de fallos",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_toggle": {
+    "value": "Enviar diagnóstico de fallos",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_human": true
@@ -4394,6 +5431,11 @@
     "value": "Ayuda y soporte",
     "_human": true
   },
+  "settings_home_entry_appearance": {
+    "value": "Apariencia",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_home_entry_autoadd": {
     "value": "Autoañadir",
     "_human": true
@@ -4409,6 +5451,11 @@
   "settings_home_entry_battery": {
     "value": "Batería",
     "_human": true
+  },
+  "settings_home_entry_blocklist": {
+    "value": "Usuarios bloqueados",
+    "_ai": true,
+    "_seeded": "2026-06-17"
   },
   "settings_home_entry_channels": {
     "value": "Canales",
@@ -4429,6 +5476,11 @@
   "settings_home_entry_help": {
     "value": "Ayuda y soporte",
     "_human": true
+  },
+  "settings_home_entry_language": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_home_entry_notifications": {
     "value": "Notificaciones",
@@ -4481,6 +5533,21 @@
   "settings_home_title": {
     "value": "Ajustes",
     "_human": true
+  },
+  "settings_language_cd_back": {
+    "value": "Atrás",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "KiekR sigue el idioma de tu dispositivo de forma predeterminada. Para usar otro idioma solo en KiekR, abre los ajustes del sistema y elige uno allí.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Abrir ajustes de idioma",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_notifications_advert_chat": {
     "value": "Chat",
@@ -4573,6 +5640,11 @@
   "settings_notifications_title": {
     "value": "Notificaciones",
     "_human": true
+  },
+  "settings_path_discovery": {
+    "value": "Detección de rutas",
+    "_ai": true,
+    "_seeded": "2026-07-01"
   },
   "settings_pathlookup_cache_footer": {
     "value": "Ayuda de aprendizaje persistente para las colisiones de prefijos: una vez que el selector determinista ha elegido un ganador, la tripleta (prefijo, salto, clave pública) se prioriza para que el siguiente empate en el mismo prefijo se rompa igual.\n\nTTL de la caché — cuánto sobrevive una entrada sin reutilizarse. Predeterminado 30 días, límite 1..=180.\n\nMargen de desempate — cuánto deben acercarse las métricas de dos candidatos (en %%) antes de que la caché rompa el empate. 0 desactiva el respaldo de la caché (solo califican los empates exactos); 20 es el límite superior. Predeterminado 5 %%.",
@@ -5027,6 +6099,11 @@
     "value": "Con GPS",
     "_human": true
   },
+  "settings_timeout": {
+    "value": "Tiempo de espera",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
   "settings_tools_autosave_subtitle": {
     "value": "Más lento, pero nunca olvida guardar.",
     "_human": true
@@ -5118,6 +6195,91 @@
   "settings_tools_title": {
     "value": "Administración de repetidores",
     "_human": true
+  },
+  "tools_diagnostics": {
+    "value": "Diagnóstico",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Analiza una ruta que elijas salto a salto y lee la señal en cada salto.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Añade los repetidores en el orden en que la sonda debe visitarlos.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_add_repeater": {
+    "value": "Añadir repetidor",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Selecciona en el mapa",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_hops": {
+    "value": "Saltos",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Pulsa en los repetidores siguiendo el orden de la visita",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_no_response": {
+    "value": "No hay respuesta: es posible que no se pueda acceder a la ruta.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_reachability_hint": {
+    "value": "El primer repetidor debe poder oírte y tú debes poder oír la respuesta del último; elige una ruta que sepas que es accesible.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_result": {
+    "value": "Resultado",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_return_snr": {
+    "value": "SNR de retorno",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_roundtrip": {
+    "value": "Ida y vuelta",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_run": {
+    "value": "Ejecuta traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_search_hint": {
+    "value": "Buscar por nombre o prefijo hexadecimal",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_settings_footer": {
+    "value": "Un traceroute analiza la ruta que elijas salto a salto y muestra la señal de cada salto. Una sola ejecución (sin reintentos): tú eliges la ruta. Tiempo de espera predeterminado de 30 s.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_target_heard_only": {
+    "value": "solo oído",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-01"
   },
   "ui_add": {
     "value": "Añadir",
@@ -5246,1168 +6408,6 @@
   "undo": {
     "value": "Deshacer",
     "_human": true
-  },
-  "nodes_discover_found": {
-    "plural": {
-      "one": "%1$d nodo encontrado",
-      "other": "%1$d nodos encontrados"
-    },
-    "_human": true
-  },
-  "node_detail_retrieve_firmware": {
-    "value": "Consultar la versión del firmware",
-    "_ai": true,
-    "_seeded": "2026-05-29"
-  },
-  "nodes_detail_info_section": {
-    "value": "Información",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_position_label": {
-    "value": "Puesto",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_tools_section": {
-    "value": "Herramientas",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_rate_limited": {
-    "value": "Límite de velocidad — %1$d s",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_cd_refresh_owner": {
-    "value": "Actualizar la información del propietario",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_repeater": {
-    "value": "Reiniciar repetidor",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_title": {
-    "value": "¿Reiniciar el repetidor?",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_body": {
-    "value": "El repetidor se reinicia y se desconecta momentáneamente de la malla. No envía ninguna confirmación.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_confirm": {
-    "value": "Reiniciar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_cancel": {
-    "value": "Cancelar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_sent": {
-    "value": "Se ha enviado el comando de reinicio.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_refresh_session": {
-    "value": "Actualizar sesión",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_forget_password": {
-    "value": "Olvidé mi contraseña",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_advert": {
-    "value": "Anuncio",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_needs_login": {
-    "value": "Es necesario iniciar sesión",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_needs_login_footer": {
-    "value": "Inicia sesión (como invitado) para acceder a estadísticas, vecinos, telemetría y firmware; como administrador para acceder a la configuración y la interfaz de línea de comandos.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_stats": {
-    "value": "Estadísticas y señal",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_neighbours": {
-    "value": "Vecinos",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_telemetry": {
-    "value": "Telemetría y firmware",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_admin": {
-    "value": "Administrador: editar, regiones, CLI, reiniciar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_rename_title": {
-    "value": "Cambiar el nombre del repetidor",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_rename_field": {
-    "value": "Nombre del nodo",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_rename_confirm": {
-    "value": "Cambiar el nombre",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_action": {
-    "value": "Restablecer el reloj y reiniciar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_title": {
-    "value": "¿Restablecer el reloj y reiniciar?",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_body": {
-    "value": "Restablece el reloj del repetidor a una fecha de referencia (15/05/2024) y lo reinicia; a continuación, pulsa el icono de sincronización para aplicar la hora actual. El reinicio no envía ninguna confirmación.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_sent": {
-    "value": "Se ha enviado el reinicio del reloj y el reinicio del sistema.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_title": {
-    "value": "Establecer posición",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_lat": {
-    "value": "Latitud",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_lon": {
-    "value": "Longitud",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_hint": {
-    "value": "Establece la posición anunciada del repetidor. Introduce los grados en formato decimal; está previsto añadir más adelante un selector de mapas.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_save": {
-    "value": "Guardar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_cd_edit_position": {
-    "value": "Editar posición",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_version": {
-    "value": "Versión",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_advert": {
-    "value": "Anuncio",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_clock_sync": {
-    "value": "Sincronización del reloj",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_clock": {
-    "value": "Reloj",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_role": {
-    "value": "Función",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_radio": {
-    "value": "Radio",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_tx": {
-    "value": "TX Power",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_name": {
-    "value": "Nombre",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_public_key": {
-    "value": "Clave pública",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_owner": {
-    "value": "Datos del propietario",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_neighbours": {
-    "value": "Vecinos",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_clear_stats": {
-    "value": "Borrar estadísticas",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_password": {
-    "value": "Contraseña",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_start_ota": {
-    "value": "Iniciar OTA",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_reboot": {
-    "value": "Reiniciar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_poweroff": {
-    "value": "Apagar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_actions": {
-    "value": "Acciones",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_read": {
-    "value": "Leer",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_radio": {
-    "value": "Radio",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_node": {
-    "value": "Nodo",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_forwarding": {
-    "value": "Reenvío",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_danger": {
-    "value": "Zona de peligro",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_title": {
-    "value": "¿Ejecutar «%1$s»?",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_reboot": {
-    "value": "El repetidor se desconecta de la malla mientras se reinicia. No se envía ninguna respuesta.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_poweroff": {
-    "value": "El repetidor se apaga y no vuelve a funcionar hasta que se reinicia físicamente. No se envía ninguna respuesta.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_ota": {
-    "value": "Pone el repetidor en modo de actualización del firmware.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_clear_stats": {
-    "value": "Pone a cero los contadores de tráfico del repetidor.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_generic": {
-    "value": "Esta acción no se puede deshacer.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_manual_picker_no_saved": {
-    "value": "No hay repetidores guardados",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_manual_picker_no_matches_short": {
-    "value": "No hay resultados",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_manual_picker_empty_desc": {
-    "value": "Aquí aparecen los repetidores y los servidores de sala que hayas guardado como contactos.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_channel_cat_environment": {
-    "value": "ambiente",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_channel_cat_power": {
-    "value": "potencia",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "path_anchor_live_fallback": {
-    "value": "Basado en tu ubicación actual — no se ha guardado ninguna posición para este mensaje.",
-    "_ai": true,
-    "_seeded": "2026-06-10"
-  },
-  "password_show": {
-    "value": "Mostrar contraseña",
-    "_ai": true,
-    "_seeded": "2026-06-10"
-  },
-  "password_hide": {
-    "value": "Ocultar contraseña",
-    "_ai": true,
-    "_seeded": "2026-06-10"
-  },
-  "add_channel_duplicate_key": {
-    "value": "Esta clave ya pertenece a «%1$s».",
-    "_ai": true,
-    "_seeded": "2026-06-11"
-  },
-  "nodes_detail_last_login": {
-    "value": "Última conexión",
-    "_ai": true,
-    "_seeded": "2026-06-12"
-  },
-  "settings_home_entry_blocklist": {
-    "value": "Usuarios bloqueados",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "chat_menu_block": {
-    "value": "Bloque «%1$s»",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_title": {
-    "value": "Usuarios bloqueados",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_cd_back": {
-    "value": "Atrás",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_cd_unblock": {
-    "value": "Desbloquear",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_empty_title": {
-    "value": "No hay usuarios bloqueados",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_empty_body": {
-    "value": "Mantén pulsado un mensaje en un canal y selecciona «Bloquear» para ocultar todos los mensajes de ese remitente. Los nombres de los remitentes de los canales no están autenticados, por lo que el bloqueo se realiza únicamente por el nombre.",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_section_header": {
-    "value": "Bloqueado (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_section_footer": {
-    "value": "Pulsa el icono de la papelera para desbloquearlo. Sus mensajes anteriores volverán a aparecer en todos los canales. El bloqueo se aplica al nombre exacto que se muestra; cualquiera puede elegir ese nombre, por lo que esto no impedirá que un usuario decidido cambie de nombre.",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "clock_reply_local_label": {
-    "value": "local",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_community_coverage_header": {
-    "value": "Mapa de cobertura",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_toggle": {
-    "value": "Aportar datos sobre la cobertura",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_cells": {
-    "value": "Las células escucharon",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_observations": {
-    "value": "Observaciones",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_pending": {
-    "value": "Subidas pendientes",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_footer": {
-    "value": "Cuando está activada, KiekR registra qué regiones (y, cuando es posible, qué repetidores) capta en una celda del mapa de aproximadamente medio kilómetro, y envía periódicamente los totales por celda a través de Wi-Fi. Tu posición exacta nunca sale del teléfono —solo la celda— y el mapa solo muestra lo que se ha captado allí, nunca quién lo ha captado. Es un seudónimo independiente de tu identidad en KiekR; puedes desactivarlo en cualquier momento.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_interval": {
-    "value": "Intervalo de carga",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_live": {
-    "value": "En directo",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_minutes": {
-    "value": "%1$d min",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_precise_hint": {
-    "value": "La cobertura necesita una ubicación precisa para asignar lo que oyes a la celda correcta del mapa. Permite la ubicación precisa para KiekR; de lo contrario, la cobertura no registrará nada en este teléfono.",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_open_settings": {
-    "value": "Abrir ajustes de ubicación",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_allow_precise": {
-    "value": "Permitir la localización precisa",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "mynode_known_companions": {
-    "value": "Compañeros conocidos",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_known_companions_footer": {
-    "value": "Toca un contacto para volver a conectarte con él. Desliza el dedo para eliminarlo de esta lista.",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_scan_searching": {
-    "value": "Buscando nodos…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_scan_searching_hint": {
-    "value": "Asegúrate de que tu nodo esté encendido y cerca.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_action": {
-    "value": "Ping",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_sent": {
-    "value": "Enviado",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_received": {
-    "value": "Recibido",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_timeouts": {
-    "value": "Tiempos muertos",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_rtt": {
-    "value": "RTT",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_uplink_snr": {
-    "value": "Relación señal-ruido en el enlace ascendente",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_downlink_snr": {
-    "value": "Relación señal-ruido en el enlace descendente",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_waiting_reply": {
-    "value": "A la espera de una respuesta…",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "settings_timeout": {
-    "value": "Tiempo de espera",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "settings_path_discovery": {
-    "value": "Detección de rutas",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_samples": {
-    "value": "Muestras",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_sample_interval": {
-    "value": "Intervalo de muestreo",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_sample_timeout": {
-    "value": "Tiempo de espera de la muestra",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_title": {
-    "value": "Traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_detail_blurb": {
-    "value": "Mide el tiempo de ida y vuelta y la señal de enlace ascendente y descendente hacia este repetidor.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_settings_footer": {
-    "value": "Un ping envía N sondas de un salto a un repetidor e informa del tiempo de ida y vuelta, además de la señal de enlace ascendente y descendente. Las muestras se envían de forma secuencial (con un intervalo entre ellas); cada una espera una respuesta hasta que se agota el tiempo de espera. Valores por defecto: 3 muestras, intervalo de 2000 ms, tiempo de espera de 5000 ms.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_settings_footer": {
-    "value": "Un traceroute analiza la ruta que elijas salto a salto y muestra la señal de cada salto. Una sola ejecución (sin reintentos): tú eliges la ruta. Tiempo de espera predeterminado de 30 s.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_add_hops_hint": {
-    "value": "Añade los repetidores en el orden en que la sonda debe visitarlos.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_add_repeater": {
-    "value": "Añadir repetidor",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_hops": {
-    "value": "Saltos",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "traceroute_reachability_hint": {
-    "value": "El primer repetidor debe poder oírte y tú debes poder oír la respuesta del último; elige una ruta que sepas que es accesible.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_run": {
-    "value": "Ejecuta traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_return_snr": {
-    "value": "SNR de retorno",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_result": {
-    "value": "Resultado",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_no_response": {
-    "value": "No hay respuesta: es posible que no se pueda acceder a la ruta.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "tools_diagnostics": {
-    "value": "Diagnóstico",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "tools_traceroute_blurb": {
-    "value": "Analiza una ruta que elijas salto a salto y lee la señal en cada salto.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_search_hint": {
-    "value": "Buscar por nombre o prefijo hexadecimal",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "map_show_on_map": {
-    "value": "Mostrar en el mapa",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "map_you": {
-    "value": "Tú",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_roundtrip": {
-    "value": "Ida y vuelta",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_target_heard_only": {
-    "value": "solo oído",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_choose_on_map": {
-    "value": "Selecciona en el mapa",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_map_select_hint": {
-    "value": "Pulsa en los repetidores siguiendo el orden de la visita",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "chat_compose_gate_no_node": {
-    "value": "Ningún nodo conectado — conecta un companion para enviar.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_identity": {
-    "value": "Este mensaje directo pertenece a %1$s. Estás conectado como %2$s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_language": {
-    "value": "Idioma",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_open_button": {
-    "value": "Abrir ajustes de idioma",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_footer": {
-    "value": "KiekR sigue el idioma de tu dispositivo de forma predeterminada. Para usar otro idioma solo en KiekR, abre los ajustes del sistema y elige uno allí.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_cd_back": {
-    "value": "Atrás",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_appearance": {
-    "value": "Apariencia",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_system": {
-    "value": "Automático",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_light": {
-    "value": "Claro",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_dark": {
-    "value": "Oscuro",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_footer": {
-    "value": "Automático sigue el ajuste claro/oscuro de tu dispositivo. Elige Claro u Oscuro para cambiarlo solo en KiekR.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_cd_back": {
-    "value": "Atrás",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_title": {
-    "value": "Tráfico en vivo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_title": {
-    "value": "Aún no hay paquetes",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_desc": {
-    "value": "Cada trama que oye tu nodo aparece aquí — no se filtra nada.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_footer": {
-    "value": "Sin filtrar — aparecen las tramas decodificadas, cifradas para otros, desconocidas y malformadas.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_pause": {
-    "value": "Pausar",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_resume": {
-    "value": "Reanudar",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_clear": {
-    "value": "Limpiar",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Sin filtrar · todos los paquetes",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_sub": {
-    "value": "muestra cada trama recibida — incluso lo que no se puede leer",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "total",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_mesh": {
-    "value": "Malla",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Tranquila",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_active": {
-    "value": "Activa",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Ocupada",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "SNR / RSSI medios",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Multisalto",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "No decodificable",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "aun así listado",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_filter_all": {
-    "value": "Todos",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_csv": {
-    "value": "Exportar CSV",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_json": {
-    "value": "Exportar JSON",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_copy_hash": {
-    "value": "Copiar hash del paquete",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_foreign_hint": {
-    "value": "cifrado — no para este dispositivo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_noise": {
-    "value": "ruido %1$d dBm",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_per_min": {
-    "value": "%1$d / min",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "de %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_path_line": {
-    "value": "ruta · %1$d bytes/salto · %2$d saltos",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_companion_delete_confirm_body": {
-    "value": "Elimina este contacto de la lista. Si está conectado ahora mismo, primero se corta la conexión.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_title": {
-    "value": "¿Enviar de nuevo?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_confirm": {
-    "value": "Enviar de nuevo",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_body": {
-    "value": "Tu nodo ya transmitió este mensaje. No llegó ninguna confirmación, pero los receptores dentro del alcance pueden haberlo recibido igualmente — si lo envías de nuevo, lo verán dos veces.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "add_channel_generate_key": {
-    "value": "Generar clave aleatoria",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_select_mode": {
-    "value": "Seleccionar",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selected_count": {
-    "value": "%1$d seleccionados",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selection_of_total": {
-    "value": "%1$d de %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_all": {
-    "value": "Todos",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_non_favorites": {
-    "value": "No favoritos",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_stale": {
-    "value": "Mucho tiempo inactivos…",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_older_days": {
-    "value": "Inactivos más de %1$d días",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_auto_added": {
-    "value": "Añadidos automáticamente",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_button": {
-    "value": "Eliminar (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_title": {
-    "value": "¿Eliminar %1$d contactos permanentemente?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_favorites_warning": {
-    "value": "Incluye %1$d favoritos.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_device_note": {
-    "value": "Los contactos instalados en el nodo conectado también se eliminan allí.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_cd_exit_selection": {
-    "value": "Salir de la selección",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "settings_backup_import_done_v2": {
-    "value": "Importación hecha — %1$d identidad, %2$d canales, %3$d regiones, %4$d contactos, %5$d inicios de sesión de repetidores, %6$d favoritos, %7$d remitentes bloqueados, %8$d ajustes.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_newer_schema": {
-    "value": "La copia de seguridad proviene de una versión más reciente de la app (esquema %1$s) — se aplicó en la medida de lo posible.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_identity_refused": {
-    "value": "Identidad no importada: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_entry_skipped": {
-    "value": "Omitido: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_unknown_pref": {
-    "value": "Ajuste desconocido ignorado: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_empty_bundle": {
-    "value": "El archivo no contenía datos importables.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_cd_jump_to_latest": {
-    "value": "Ir a lo más reciente",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_heard_n_times": {
-    "value": "oído %1$d×",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range": {
-    "value": "%1$d–%2$d saltos",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_heard_n_times_a11y": {
-    "value": "oído %1$d veces",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range_a11y": {
-    "value": "recibido a través de %1$d a %2$d saltos",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_times_heard": {
-    "value": "Oído",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_reception_of": {
-    "value": "Recepción %1$d de %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_path_unknown_direct": {
-    "value": "desconocida (enrutado directo)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_overflow": {
-    "value": "+%1$d copias más (no se guardan individualmente)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_lower_bound": {
-    "value": "El recuento es un límite inferior: con mucho tráfico pueden perderse copias antes de llegar a la app.",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_time": {
-    "value": "Hora",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_all": {
-    "value": "Todas las rutas",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_menu": {
-    "value": "Rutas",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_n_count": {
-    "value": "Ruta %1$d (%2$d×)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_a11y": {
-    "value": "Ruta %1$d, oída %2$d veces",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_dropped": {
-    "value": "+%1$d rutas más (no dibujadas)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_pathless": {
-    "value": "%1$d copias sin ruta (directo)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_show_reception_on_map": {
-    "value": "Mostrar esta recepción en el mapa",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_chip": {
-    "value": "%1$dB",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_a11y": {
-    "value": "ruta de %1$d bytes",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_menu_copy_path": {
-    "value": "Copiar ruta",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "chat_detail_hop_heard_no_position": {
-    "value": "Oído, posición desconocida",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "app_safemode_title": {
-    "value": "KiekR no se inició correctamente",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_body": {
-    "value": "El último inicio falló antes de que la app terminara de cargar. Compartir el registro de diagnóstico nos ayuda a encontrar la causa.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_share_button": {
-    "value": "Compartir registro de diagnóstico",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_start_button": {
-    "value": "Iniciar normalmente de todos modos",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_reset_button": {
-    "value": "Borrar datos del companion",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_reset_hint": {
-    "value": "Comparte primero el registro: al borrar se eliminan los datos que necesitamos para diagnosticarlo.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_reset_done": {
-    "value": "Datos del companion borrados. Vuelve a iniciar la app.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "settings_diag_header": {
-    "value": "Diagnóstico de fallos",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "settings_diag_toggle": {
-    "value": "Enviar diagnóstico de fallos",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "settings_diag_footer": {
-    "value": "Desactivado por defecto. Al activarlo, KiekR sube a api.kiekr.app los informes de fallo, bloqueo y CPU que le entrega iOS: versión de la app, versión de iOS, modelo del dispositivo, los códigos de error del sistema y la pila de llamadas. Ningún mensaje, contacto, clave ni ubicación, y es la única vía por la que un fallo de tu teléfono llega al desarrollador.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_get_flood_max_unscoped": {
-    "value": "Flood max unscoped",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_get_flood_max_advert": {
-    "value": "Flood max advert",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_flood_max_unscoped": {
-    "value": "Flood max unscoped",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_flood_max_advert": {
-    "value": "Flood max advert",
-    "_ai": true,
-    "_seeded": "2026-07-30"
   },
   "nodes_cli_console_title": {
     "value": "Terminal",
@@ -7228,5 +7228,18 @@
     "value": "Abre GoFundMe en tu navegador",
     "_ai": true,
     "_seeded": "2026-08-05"
-  }
+  },
+  "map_cd_center_on_me": null,
+  "nodes_directory_badge": null,
+  "nodes_group_active": null,
+  "nodes_group_directory": null,
+  "nodes_group_favorites": null,
+  "nodes_group_older": null,
+  "nodes_group_today": null,
+  "nodes_group_week": null,
+  "nodes_range_direct": null,
+  "nodes_range_hops": null,
+  "nodes_range_one_hop": null,
+  "nodes_signal_desc": null,
+  "nodes_signal_none_desc": null
 }

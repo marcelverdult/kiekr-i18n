@@ -3,7 +3,52 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-08-05"
+    "updated": "2026-08-07"
+  },
+  "add_channel_duplicate_key": {
+    "value": "Deze sleutel is al gekoppeld aan \"%1$s\".",
+    "_ai": true,
+    "_seeded": "2026-06-11"
+  },
+  "add_channel_generate_key": {
+    "value": "Willekeurige sleutel genereren",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "app_safemode_body": {
+    "value": "De vorige start liep vast voordat de app klaar was met laden. Het diagnoselogboek delen helpt ons de oorzaak te vinden.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_button": {
+    "value": "Companion-gegevens wissen",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_done": {
+    "value": "Companion-gegevens gewist. Start de app opnieuw.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_reset_hint": {
+    "value": "Deel eerst het logboek — wissen verwijdert precies de gegevens die we nodig hebben.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_share_button": {
+    "value": "Diagnoselogboek delen",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_start_button": {
+    "value": "Toch normaal starten",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "app_safemode_title": {
+    "value": "KiekR is niet goed gestart",
+    "_ai": true,
+    "_seeded": "2026-07-30"
   },
   "app_upgrade_body": {
     "value": "Heropen de app om het laden van de nieuwe versie te voltooien.",
@@ -65,6 +110,11 @@
     "value": "Contactgegevens",
     "_human": true
   },
+  "chat_cd_jump_to_latest": {
+    "value": "Spring naar nieuwste",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "chat_cd_max_retries_reached": {
     "value": "Maximum aantal pogingen bereikt",
     "_human": true
@@ -108,6 +158,16 @@
   "chat_compose_byte_counter": {
     "value": "%1$d / %2$d bytes",
     "_human": true
+  },
+  "chat_compose_gate_identity": {
+    "value": "Dit direct bericht hoort bij %1$s. Je bent verbonden als %2$s.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "chat_compose_gate_no_node": {
+    "value": "Geen node verbonden — verbind een companion om te verzenden.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "chat_compose_placeholder_disconnected": {
     "value": "Verbinding verbroken — verbind opnieuw om te verzenden",
@@ -173,6 +233,11 @@
     "value": "Meerdere repeaters passen bij het korte pad-prefix van deze hop. Automatisch kiezen lukt niet — kies degene die op jouw pad lag.",
     "_human": true
   },
+  "chat_detail_hop_heard_no_position": {
+    "value": "Gehoord, positie onbekend",
+    "_ai": true,
+    "_seeded": "2026-07-28"
+  },
   "chat_detail_hop_looking_up": {
     "value": "online opzoeken…",
     "_human": true
@@ -233,6 +298,11 @@
     "value": "Pad · %1$d-byte sleutels",
     "_human": true
   },
+  "chat_detail_path_unknown_direct": {
+    "value": "onbekend (direct gerouteerd)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_path_unknown_from_device": {
     "value": "onbekend — van apparaat",
     "_human": true
@@ -256,6 +326,21 @@
   "chat_detail_payload_type": {
     "value": "Payload-type",
     "_human": true
+  },
+  "chat_detail_reception_of": {
+    "value": "Ontvangst %1$d van %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_lower_bound": {
+    "value": "De telling is een ondergrens — bij druk verkeer kunnen kopieën verloren gaan voordat ze de app bereiken.",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_receptions_overflow": {
+    "value": "+%1$d extra kopieën (niet afzonderlijk opgeslagen)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_repeat_of": {
     "value": "Herhaling %1$d van %2$d",
@@ -297,6 +382,11 @@
     "value": "Pad op kaart tonen",
     "_human": true
   },
+  "chat_detail_show_reception_on_map": {
+    "value": "Toon deze ontvangst op de kaart",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_detail_signal": {
     "value": "Signaal",
     "_human": true
@@ -308,6 +398,16 @@
   "chat_detail_snr": {
     "value": "SNR",
     "_human": true
+  },
+  "chat_detail_time": {
+    "value": "Tijd",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_detail_times_heard": {
+    "value": "Gehoord",
+    "_ai": true,
+    "_seeded": "2026-07-22"
   },
   "chat_detail_transport_code": {
     "value": "Transportcode",
@@ -361,6 +461,16 @@
     "value": "(versleuteld)",
     "_human": true
   },
+  "chat_heard_n_times": {
+    "value": "%1$d× gehoord",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_heard_n_times_a11y": {
+    "value": "%1$d keer gehoord",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_hidden_channel_action_footer": {
     "value": "Toevoegen toont het kanaal in je chatlijst en instellingen. Negeren onderdrukt toekomstige meldingen voor deze sleutel.",
     "_human": true
@@ -405,6 +515,16 @@
     "value": "Kanaal",
     "_human": true
   },
+  "chat_hops_range": {
+    "value": "%1$d–%2$d hops",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_hops_range_a11y": {
+    "value": "ontvangen via %1$d tot %2$d hops",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_install_button": {
     "value": "Installeren",
     "_human": true
@@ -429,9 +549,19 @@
     "value": "Niet geïnstalleerd op deze node",
     "_human": true
   },
+  "chat_menu_block": {
+    "value": "%1$s blokkeren",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
   "chat_menu_copy": {
     "value": "Kopiëren",
     "_human": true
+  },
+  "chat_menu_copy_path": {
+    "value": "Pad kopiëren",
+    "_ai": true,
+    "_seeded": "2026-07-28"
   },
   "chat_menu_details": {
     "value": "Details",
@@ -477,6 +607,16 @@
     "value": "1 hop",
     "_human": true
   },
+  "chat_path_width_a11y": {
+    "value": "%1$d-byte pad",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "chat_path_width_chip": {
+    "value": "%1$dB",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
   "chat_region_from_device": {
     "value": "van apparaat",
     "_human": true
@@ -492,6 +632,21 @@
   "chat_reply_scope_label": {
     "value": "Antwoordregio: ",
     "_human": true
+  },
+  "chat_retry_duplicate_body": {
+    "value": "Je node heeft dit bericht al uitgezonden. Er kwam geen bevestiging terug, maar ontvangers binnen bereik kunnen het toch hebben ontvangen — als je het opnieuw verstuurt, zien zij het twee keer.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_confirm": {
+    "value": "Opnieuw versturen",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "chat_retry_duplicate_title": {
+    "value": "Opnieuw versturen?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "chat_room_author_you": {
     "value": "Jij",
@@ -621,6 +776,11 @@
     "value": "99+",
     "_human": true
   },
+  "clock_reply_local_label": {
+    "value": "lokaal",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
   "delete": {
     "value": "Verwijderen",
     "_human": true
@@ -632,6 +792,141 @@
   "directory_candidates_added": {
     "value": "Toegevoegd",
     "_human": true
+  },
+  "live_traffic_clear": {
+    "value": "Wissen",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_copy_hash": {
+    "value": "Pakket-hash kopiëren",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_desc": {
+    "value": "Elk frame dat je node hoort verschijnt hier — er wordt niets uitgefilterd.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_empty_title": {
+    "value": "Nog geen pakketten",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_csv": {
+    "value": "CSV exporteren",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_export_json": {
+    "value": "JSON exporteren",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_filter_all": {
+    "value": "Alle",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_footer": {
+    "value": "Ongefilterd — gedecodeerde, voor anderen versleutelde, onbekende en misvormde frames verschijnen allemaal.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_foreign_hint": {
+    "value": "versleuteld — niet voor dit apparaat",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_sub": {
+    "value": "toont elk ontvangen frame — ook wat niet leesbaar is",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_hero_title": {
+    "value": "Ongefilterd · alle pakketten",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_active": {
+    "value": "Actief",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_busy": {
+    "value": "Druk",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_mesh_quiet": {
+    "value": "Rustig",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_noise": {
+    "value": "ruis %1$d dBm",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_path_line": {
+    "value": "pad · %1$d byte/hop · %2$d hops",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_pause": {
+    "value": "Pauzeren",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_per_min": {
+    "value": "%1$d / min",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_resume": {
+    "value": "Hervatten",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_mesh": {
+    "value": "Mesh",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_multihop": {
+    "value": "Multi-hop",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_of": {
+    "value": "van %1$d",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_snr_rssi": {
+    "value": "Gem. SNR / RSSI",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_stat_undecodable": {
+    "value": "Niet te decoderen",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_still_listed": {
+    "value": "toch vermeld",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_title": {
+    "value": "Live verkeer",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "live_traffic_total": {
+    "value": "totaal",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "map_age_15_min": {
     "value": "15 min",
@@ -905,6 +1200,41 @@
     "value": "(naamloos)",
     "_human": true
   },
+  "map_route_a11y": {
+    "value": "Route %1$d, %2$d keer gehoord",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_route_n_count": {
+    "value": "Route %1$d (%2$d×)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_all": {
+    "value": "Alle routes",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_dropped": {
+    "value": "+%1$d extra routes (niet getekend)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_menu": {
+    "value": "Routes",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_routes_pathless": {
+    "value": "%1$d kopieën zonder route (direct)",
+    "_ai": true,
+    "_seeded": "2026-07-22"
+  },
+  "map_show_on_map": {
+    "value": "Op kaart weergeven",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
   "map_snr_edge_label": {
     "value": "< %1$.0f dB",
     "_human": true
@@ -920,6 +1250,11 @@
   "map_snr_workable_label": {
     "value": "%1$.0f–%2$.0f dB",
     "_human": true
+  },
+  "map_you": {
+    "value": "Jij",
+    "_ai": true,
+    "_seeded": "2026-07-01"
   },
   "message_deleted": {
     "value": "Bericht verwijderd",
@@ -956,6 +1291,11 @@
   "mynode_clock_sync_sent": {
     "value": "Kloksynchronisatie verzonden",
     "_human": true
+  },
+  "mynode_companion_delete_confirm_body": {
+    "value": "Verwijdert deze contactpersoon uit de lijst. Als er nu een verbinding is, wordt die eerst verbroken.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "mynode_config_error_code": {
     "value": "firmware-foutcode %1$d",
@@ -1088,6 +1428,16 @@
   "mynode_identity_footer": {
     "value": "DM's worden met deze identiteit ondertekend. Overgenomen van de gekoppelde node bij je eerste verbinding; blijft behouden over herverbindingen heen tot je de seed van een andere node overneemt.",
     "_human": true
+  },
+  "mynode_known_companions": {
+    "value": "Bekende metgezellen",
+    "_ai": true,
+    "_seeded": "2026-06-29"
+  },
+  "mynode_known_companions_footer": {
+    "value": "Tik op een contactpersoon om opnieuw verbinding te maken. Veeg om het uit deze lijst te verwijderen.",
+    "_ai": true,
+    "_seeded": "2026-06-29"
   },
   "mynode_label_public_key": {
     "value": "publieke sleutel",
@@ -1281,6 +1631,16 @@
     "value": "Zoeken naar nodes in de buurt",
     "_human": true
   },
+  "mynode_scan_searching": {
+    "value": "Zoeken naar nodes…",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "mynode_scan_searching_hint": {
+    "value": "Zorg dat je node aanstaat en dichtbij is.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "mynode_section_connect_via_wifi": {
     "value": "Verbinden via WiFi",
     "_human": true
@@ -1420,6 +1780,11 @@
   "nav_tab_settings": {
     "value": "Instellingen",
     "_human": true
+  },
+  "node_detail_retrieve_firmware": {
+    "value": "Firmwareversie opvragen",
+    "_ai": true,
+    "_seeded": "2026-05-29"
   },
   "nodes_add_channel_name_label": {
     "value": "Naam",
@@ -1597,6 +1962,11 @@
     "value": "Type %1$d",
     "_human": true
   },
+  "nodes_admin_advert": {
+    "value": "Advertentie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_advert_flood": {
     "value": "Flood-advert",
     "_human": true
@@ -1637,6 +2007,16 @@
     "value": "Repeater-klok synchroniseren",
     "_human": true
   },
+  "nodes_admin_channel_cat_environment": {
+    "value": "omgeving",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_channel_cat_power": {
+    "value": "vermogen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_channel_ctrl": {
     "value": "Ch 0x00",
     "_human": true
@@ -1652,6 +2032,26 @@
   "nodes_admin_cli_label": {
     "value": "CLI",
     "_human": true
+  },
+  "nodes_admin_clkreboot_action": {
+    "value": "Klok resetten en opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_body": {
+    "value": "Hiermee wordt de klok van de repeater teruggezet naar de standaardinstelling (15-05-2024) en wordt het apparaat opnieuw opgestart. Tik vervolgens op het synchronisatiepictogram om de huidige tijd door te geven. Bij het opnieuw opstarten wordt geen bevestiging weergegeven.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_sent": {
+    "value": "Klok gereset en systeem opnieuw opgestart.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_clkreboot_title": {
+    "value": "Klok resetten en opnieuw opstarten?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_admin_clock_ahead_hint": {
     "value": "Klok loopt voor. Stock-firmware weigert achterwaartse synchronisatie. Oplossing: voer `clkreboot` uit vanuit de CLI hieronder — dit zet de RTC terug naar 2024-05-15 en herstart — tik daarna op synchroniseren om de huidige tijd te pushen.",
@@ -1709,6 +2109,11 @@
     "value": "Firmware",
     "_human": true
   },
+  "nodes_admin_forget_password": {
+    "value": "Wachtwoord vergeten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_log_in_ellipsis": {
     "value": "Inloggen…",
     "_human": true
@@ -1745,6 +2150,76 @@
     "value": "Payload (%1$d B)",
     "_human": true
   },
+  "nodes_admin_position_hint": {
+    "value": "Hiermee stelt u de door de repeater doorgegeven positie in. Voer decimale graden in; een kaartkiezer is in de planning opgenomen.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lat": {
+    "value": "Breedtegraad",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_lon": {
+    "value": "Lengtegraad",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_save": {
+    "value": "Opslaan",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_position_title": {
+    "value": "Positie instellen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_body": {
+    "value": "De repeater start opnieuw op en valt even uit het mesh. Hij stuurt geen bevestiging.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_cancel": {
+    "value": "Annuleren",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_confirm": {
+    "value": "Opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_repeater": {
+    "value": "Herstart repeater",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_sent": {
+    "value": "Het commando 'Reboot' is verzonden.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_reboot_title": {
+    "value": "De repeater opnieuw opstarten?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_confirm": {
+    "value": "Hernoemen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_field": {
+    "value": "Naam van de node",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_admin_rename_title": {
+    "value": "De repeater een andere naam geven",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_admin_role_label": {
     "value": "Rol",
     "_human": true
@@ -1769,6 +2244,26 @@
     "value": "Telemetrie",
     "_human": true
   },
+  "nodes_bulk_delete_button": {
+    "value": "Verwijderen (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_device_note": {
+    "value": "Contacten die op de verbonden node zijn geïnstalleerd, worden daar ook verwijderd.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_favorites_warning": {
+    "value": "Waaronder %1$d favorieten.",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_bulk_delete_title": {
+    "value": "%1$d contacten permanent verwijderen?",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_cd_add_contact_or_channel": {
     "value": "Contact of kanaal toevoegen",
     "_human": true
@@ -1780,6 +2275,11 @@
   "nodes_cd_decrease_max_hops": {
     "value": "Max. hops verlagen",
     "_human": true
+  },
+  "nodes_cd_exit_selection": {
+    "value": "Selectie verlaten",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_cd_favorite": {
     "value": "Favoriet",
@@ -1808,6 +2308,36 @@
   "nodes_cd_unfavorite": {
     "value": "Geen favoriet",
     "_human": true
+  },
+  "nodes_cli_confirm_clear_stats": {
+    "value": "Hiermee worden de verkeerstellers van de repeater op nul gezet.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_generic": {
+    "value": "Deze handeling kan niet ongedaan worden gemaakt.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_ota": {
+    "value": "Zet de repeater in de modus voor het bijwerken van de firmware.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_poweroff": {
+    "value": "De repeater schakelt uit en komt pas weer in werking nadat hij handmatig opnieuw is opgestart. Er wordt geen antwoord verzonden.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_reboot": {
+    "value": "The repeater falls out of the mesh while it starts up again. No answer is sent.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_cli_confirm_title": {
+    "value": "\"%1$s\" uitvoeren?",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_count_label": {
     "value": "%1$d %2$s",
@@ -1906,6 +2436,11 @@
     "value": "%1$s kopiëren",
     "_human": true
   },
+  "nodes_detail_cd_edit_position": {
+    "value": "Positie bewerken",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_cd_look_up_neighbours": {
     "value": "Onbekende buren online opzoeken",
     "_human": true
@@ -1913,6 +2448,11 @@
   "nodes_detail_cd_refresh": {
     "value": "Verversen",
     "_human": true
+  },
+  "nodes_detail_cd_refresh_owner": {
+    "value": "Eigenaarsgegevens vernieuwen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_detail_cd_refreshing": {
     "value": "Verversen",
@@ -1949,6 +2489,36 @@
   "nodes_detail_hide_list": {
     "value": "Lijst verbergen",
     "_human": true
+  },
+  "nodes_detail_info_section": {
+    "value": "Info",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_last_login": {
+    "value": "Laatst ingelogd",
+    "_ai": true,
+    "_seeded": "2026-06-12"
+  },
+  "nodes_detail_lock_admin": {
+    "value": "Beheerder: bewerken, regio's, CLI, opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_neighbours": {
+    "value": "Buren",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_stats": {
+    "value": "Statistieken & signaal",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_lock_telemetry": {
+    "value": "Telemetrie en firmware",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_detail_log_in": {
     "value": "Inloggen",
@@ -2020,6 +2590,16 @@
     "value": "zero-hop",
     "_human": true
   },
+  "nodes_detail_needs_login": {
+    "value": "Inloggen vereist",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_detail_needs_login_footer": {
+    "value": "Log in (gast) voor statistieken, buren, telemetrie en firmware · admin voor configuratie en CLI.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_neighbours_cached_partial": {
     "value": "%1$d in cache · gedeeltelijk — tik om te verversen",
     "_human": true
@@ -2066,13 +2646,28 @@
     "value": "Pad",
     "_human": true
   },
+  "nodes_detail_position_label": {
+    "value": "Functie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_pubkey_label": {
     "value": "Publieke sleutel",
     "_human": true
   },
+  "nodes_detail_rate_limited": {
+    "value": "Beperkte snelheid — %1$d s",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_receiving_progress": {
     "value": "Ontvangen · %1$d/%2$d",
     "_human": true
+  },
+  "nodes_detail_refresh_session": {
+    "value": "Sessie vernieuwen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_detail_region_section_header": {
     "value": "Regio",
@@ -2162,6 +2757,11 @@
     "value": "Tik om te verversen",
     "_human": true
   },
+  "nodes_detail_tools_section": {
+    "value": "Hulpmiddelen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_detail_try_acl_only": {
     "value": "Alleen ACL proberen",
     "_human": true
@@ -2200,6 +2800,13 @@
   },
   "nodes_discover_empty": {
     "value": "Geen nodes gevonden",
+    "_human": true
+  },
+  "nodes_discover_found": {
+    "plural": {
+      "one": "%1$d node gevonden",
+      "other": "%1$d nodes gevonden"
+    },
     "_human": true
   },
   "nodes_discover_group_repeaters": {
@@ -2554,9 +3161,24 @@
     "value": "Handmatig pad",
     "_human": true
   },
+  "nodes_manual_picker_empty_desc": {
+    "value": "Hier worden de repeaters en room servers weergegeven die je als contacten hebt opgeslagen.",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "nodes_manual_picker_no_matches": {
     "value": "Geen treffers voor \"%1$s\".",
     "_human": true
+  },
+  "nodes_manual_picker_no_matches_short": {
+    "value": "Geen resultaten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "nodes_manual_picker_no_saved": {
+    "value": "Geen opgeslagen repeaters",
+    "_ai": true,
+    "_seeded": "2026-06-01"
   },
   "nodes_manual_picker_placeholder": {
     "value": "Zoeken op naam of hex-prefix",
@@ -2670,6 +3292,31 @@
     "value": "Contact",
     "_human": true
   },
+  "nodes_quick_select_all": {
+    "value": "Alle",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_auto_added": {
+    "value": "Automatisch toegevoegd",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_non_favorites": {
+    "value": "Niet-favorieten",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_older_days": {
+    "value": "Ouder dan %1$d dagen",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_quick_select_stale": {
+    "value": "Lang stil…",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
   "nodes_save": {
     "value": "Opslaan",
     "_human": true
@@ -2681,6 +3328,21 @@
   "nodes_save_repeater_to_fav_title": {
     "value": "Deze repeater aan favorieten toevoegen?",
     "_human": true
+  },
+  "nodes_select_mode": {
+    "value": "Selecteren",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selected_count": {
+    "value": "%1$d geselecteerd",
+    "_ai": true,
+    "_seeded": "2026-07-06"
+  },
+  "nodes_selection_of_total": {
+    "value": "%1$d van %2$d",
+    "_ai": true,
+    "_seeded": "2026-07-06"
   },
   "nodes_set_home_clear": {
     "value": "* (thuis wissen)",
@@ -2838,6 +3500,216 @@
     "value": "Zoeken naar nodes…",
     "_human": true
   },
+  "password_hide": {
+    "value": "Wachtwoord verbergen",
+    "_ai": true,
+    "_seeded": "2026-06-10"
+  },
+  "password_show": {
+    "value": "Wachtwoord weergeven",
+    "_ai": true,
+    "_seeded": "2026-06-10"
+  },
+  "path_anchor_live_fallback": {
+    "value": "Gebaseerd op je huidige locatie — er is geen positie opgeslagen voor dit bericht.",
+    "_ai": true,
+    "_seeded": "2026-06-10"
+  },
+  "ping_action": {
+    "value": "Ping",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_detail_blurb": {
+    "value": "Meet de heen-en-teruglooptijd en het uplink- en downlink-signaal naar deze repeater.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_downlink_snr": {
+    "value": "SNR van de downlink",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_received": {
+    "value": "Ontvangen",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_rtt": {
+    "value": "RTT",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_sample_interval": {
+    "value": "Bemonsteringsinterval",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_sample_timeout": {
+    "value": "Voorbeeld van een time-out",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_samples": {
+    "value": "Voorbeelden",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_sent": {
+    "value": "Verzonden",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_settings_footer": {
+    "value": "Een ping verstuurt N één-hop-probes naar een repeater en rapporteert de round-trip-tijd plus het uplink- en downlink-signaal. De proefsignalen worden achtereenvolgens verzonden (met een interval ertussen); elk signaal wacht tot de time-out is verstreken op een antwoord. Standaardinstellingen: 3 proefsignalen, interval van 2000 ms, time-out van 5000 ms.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_timeouts": {
+    "value": "Time-outs",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_uplink_snr": {
+    "value": "SNR van de uplink",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "ping_waiting_reply": {
+    "value": "In afwachting van een antwoord…",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "repeater_cli_advert": {
+    "value": "Advertentie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clear_stats": {
+    "value": "Statistieken wissen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock": {
+    "value": "Klok",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_clock_sync": {
+    "value": "Kloksynchronisatie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_advert": {
+    "value": "Flood max advert",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_flood_max_unscoped": {
+    "value": "Flood max unscoped",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "repeater_cli_get_name": {
+    "value": "Naam",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_owner": {
+    "value": "Gegevens eigenaar",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_get_tx": {
+    "value": "TX-vermogen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_actions": {
+    "value": "Acties",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_danger": {
+    "value": "Gevarenzone",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_forwarding": {
+    "value": "Doorsturen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_group_read": {
+    "value": "Lees",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_neighbours": {
+    "value": "Buren",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_password": {
+    "value": "Wachtwoord",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_poweroff": {
+    "value": "Uitschakelen",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_public_key": {
+    "value": "Openbare sleutel",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_reboot": {
+    "value": "Opnieuw opstarten",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_role": {
+    "value": "Functie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_start_ota": {
+    "value": "Start OTA",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
+  "repeater_cli_version": {
+    "value": "Versie",
+    "_ai": true,
+    "_seeded": "2026-06-01"
+  },
   "room_admin_access_footer": {
     "value": "Meld je aan om toegang te krijgen tot de beheertools. Het wachtwoord wordt op dit apparaat opgeslagen na een geslaagde aanmelding.",
     "_human": true
@@ -2989,6 +3861,31 @@
   "room_admin_subtitle": {
     "value": "Room-server",
     "_human": true
+  },
+  "settings_appearance_cd_back": {
+    "value": "Terug",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_footer": {
+    "value": "Automatisch volgt de licht/donker-instelling van je apparaat. Kies Licht of Donker om dit alleen voor KiekR te overschrijven.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_dark": {
+    "value": "Donker",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_light": {
+    "value": "Licht",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_appearance_mode_system": {
+    "value": "Automatisch",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
     "value": "Adverts die via meer dan dit aantal repeaters binnenkwamen, worden niet automatisch door de app toegevoegd. 0 = alleen direct; 64 = onbeperkt (firmware-limiet).",
@@ -3230,6 +4127,11 @@
     "value": "Import klaar — %1$d identiteit, %2$d kanalen, %3$d regio's, %4$d contacten, %5$d repeater-logins.",
     "_human": true
   },
+  "settings_backup_import_done_v2": {
+    "value": "Import klaar — %1$d identiteit, %2$d kanalen, %3$d regio's, %4$d contacten, %5$d repeater-logins, %6$d favorieten, %7$d geblokkeerde afzenders, %8$d instellingen.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
   "settings_backup_import_fallback_name": {
     "value": "import",
     "_human": true
@@ -3297,6 +4199,31 @@
   "settings_backup_title": {
     "value": "Back-up",
     "_human": true
+  },
+  "settings_backup_warn_empty_bundle": {
+    "value": "Het bestand bevatte geen importeerbare gegevens.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_entry_skipped": {
+    "value": "Overgeslagen: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_identity_refused": {
+    "value": "Identiteit niet geïmporteerd: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_newer_schema": {
+    "value": "De back-up is gemaakt met een nieuwere app-versie (schema %1$s) — zo goed mogelijk toegepast.",
+    "_ai": true,
+    "_seeded": "2026-07-07"
+  },
+  "settings_backup_warn_unknown_pref": {
+    "value": "Onbekende instelling genegeerd: %1$s",
+    "_ai": true,
+    "_seeded": "2026-07-07"
   },
   "settings_battery_add_anchor": {
     "value": "Ankerpunt toevoegen",
@@ -3429,6 +4356,41 @@
   "settings_battery_warn_header": {
     "value": "Waarschuwing lage accu",
     "_human": true
+  },
+  "settings_blocklist_cd_back": {
+    "value": "Terug",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_cd_unblock": {
+    "value": "Ontgrendelen",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_empty_body": {
+    "value": "Houd een bericht in een kanaal lang ingedrukt en kies ‘Blokkeren’ om alle berichten van die afzender te verbergen. De namen van afzenders in kanalen worden niet geverifieerd, dus het blokkeren gebeurt uitsluitend op basis van de naam.",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_empty_title": {
+    "value": "Geen geblokkeerde gebruikers",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_section_footer": {
+    "value": "Tik op het prullenbakpictogram om de blokkering op te heffen. Hun eerdere berichten verschijnen dan weer in alle kanalen. Het blokkeren gebeurt op basis van de exacte weergegeven naam — iedereen kan die naam kiezen, dus dit zal een vastberaden gebruiker er niet van weerhouden om de naam te wijzigen.",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_section_header": {
+    "value": "Geblokkeerd (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-06-17"
+  },
+  "settings_blocklist_title": {
+    "value": "Gebruikers die zijn geblokkeerd",
+    "_ai": true,
+    "_seeded": "2026-06-17"
   },
   "settings_channel_conflicts_cd_back": {
     "value": "Terug",
@@ -3870,6 +4832,66 @@
     "value": "Verbinding",
     "_human": true
   },
+  "settings_community_coverage_allow_precise": {
+    "value": "Nauwkeurige locatie toestaan",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_cells": {
+    "value": "Cellen gehoord",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_footer": {
+    "value": "Als KiekR is ingeschakeld, registreert het welke regio’s (en, waar mogelijk, welke repeaters) het ontvangt binnen een grove kaartcel van ongeveer een halve kilometer, en uploadt het periodiek de totalen per cel via wifi. Je exacte locatie blijft altijd op de telefoon — alleen de cel wordt doorgegeven — en de kaart toont alleen wat daar is ontvangen, nooit wie het heeft ontvangen. Pseudoniem en los van je KiekR-identiteit; je kunt deze functie op elk moment uitschakelen.",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_header": {
+    "value": "Dekkingkaart",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_interval": {
+    "value": "Uploadinterval",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_live": {
+    "value": "Live",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_interval_minutes": {
+    "value": "%1$d min",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_observations": {
+    "value": "Opmerkingen",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_open_settings": {
+    "value": "Locatie-instellingen openen",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_pending": {
+    "value": "Uploads in behandeling",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
+  "settings_community_coverage_precise_hint": {
+    "value": "Voor de dekkingsgegevens is een nauwkeurige locatie nodig om wat je hoort in de juiste kaartcel te plaatsen. Zorg ervoor dat KiekR een nauwkeurige locatie kan bepalen — anders worden er op deze telefoon geen dekkingsgegevens verzameld.",
+    "_ai": true,
+    "_seeded": "2026-06-27"
+  },
+  "settings_community_coverage_toggle": {
+    "value": "Verslaggevingsgegevens aanleveren",
+    "_ai": true,
+    "_seeded": "2026-06-26"
+  },
   "settings_community_edit_broker": {
     "value": "Broker bewerken",
     "_human": true
@@ -4174,6 +5196,21 @@
     "value": "Werkbaar",
     "_human": true
   },
+  "settings_diag_footer": {
+    "value": "Standaard uit. Als dit aanstaat, uploadt KiekR de crash-, vastloop- en CPU-rapporten die iOS aanlevert naar api.kiekr.app: app-versie, iOS-versie, apparaatmodel, de systeemfoutcodes en de call stack. Geen berichten, contacten, sleutels of locaties — en het is de enige manier waarop een fout op je telefoon de ontwikkelaar bereikt.",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_header": {
+    "value": "Crashdiagnostiek",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
+  "settings_diag_toggle": {
+    "value": "Crashdiagnostiek versturen",
+    "_ai": true,
+    "_seeded": "2026-07-30"
+  },
   "settings_directory_adapter_corescope": {
     "value": "CoreScope",
     "_human": true
@@ -4394,6 +5431,11 @@
     "value": "Hulp & ondersteuning",
     "_human": true
   },
+  "settings_home_entry_appearance": {
+    "value": "Weergave",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
   "settings_home_entry_autoadd": {
     "value": "Automatisch toevoegen",
     "_human": true
@@ -4409,6 +5451,11 @@
   "settings_home_entry_battery": {
     "value": "Accu",
     "_human": true
+  },
+  "settings_home_entry_blocklist": {
+    "value": "Gebruikers die zijn geblokkeerd",
+    "_ai": true,
+    "_seeded": "2026-06-17"
   },
   "settings_home_entry_channels": {
     "value": "Kanalen",
@@ -4429,6 +5476,11 @@
   "settings_home_entry_help": {
     "value": "Hulp & ondersteuning",
     "_human": true
+  },
+  "settings_home_entry_language": {
+    "value": "Taal",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_home_entry_notifications": {
     "value": "Meldingen",
@@ -4481,6 +5533,21 @@
   "settings_home_title": {
     "value": "Instellingen",
     "_human": true
+  },
+  "settings_language_cd_back": {
+    "value": "Terug",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_footer": {
+    "value": "KiekR volgt standaard de taal van je apparaat. Wil je alleen voor KiekR een andere taal, open dan de systeeminstellingen en kies er daar een.",
+    "_ai": true,
+    "_seeded": "2026-07-05"
+  },
+  "settings_language_open_button": {
+    "value": "Taalinstellingen openen",
+    "_ai": true,
+    "_seeded": "2026-07-05"
   },
   "settings_notifications_advert_chat": {
     "value": "Chat",
@@ -4573,6 +5640,11 @@
   "settings_notifications_title": {
     "value": "Meldingen",
     "_human": true
+  },
+  "settings_path_discovery": {
+    "value": "Paddetectie",
+    "_ai": true,
+    "_seeded": "2026-07-01"
   },
   "settings_pathlookup_cache_footer": {
     "value": "Persistent leerhulpmiddel voor prefix-botsingen: zodra de deterministische kiezer een winnaar heeft gekozen, wordt de (prefix, hop, pubkey) gemarkeerd zodat de volgende gelijkstand bij dezelfde prefix dezelfde kant op breekt.\n\nCache-TTL — hoe lang een vermelding overleeft zonder opnieuw te worden gebruikt. Standaard 30 dagen, begrensd 1..=180.\n\nGelijkspelmarge — hoe dicht de metrieken van twee kandidaten bij elkaar moeten liggen (in %%) voordat de cache de gelijkstand breekt. 0 schakelt de cache-terugval uit (alleen exacte gelijkstanden kwalificeren); 20 is de bovengrens. Standaard 5 %%.",
@@ -5027,6 +6099,11 @@
     "value": "Met GPS",
     "_human": true
   },
+  "settings_timeout": {
+    "value": "Time-out",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
   "settings_tools_autosave_subtitle": {
     "value": "Langzamer, maar vergeet nooit op te slaan.",
     "_human": true
@@ -5118,6 +6195,91 @@
   "settings_tools_title": {
     "value": "Repeater-admin",
     "_human": true
+  },
+  "tools_diagnostics": {
+    "value": "Diagnostiek",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "tools_traceroute_blurb": {
+    "value": "Verken een route die je stap voor stap kiest en meet het signaal bij elke hop.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_add_hops_hint": {
+    "value": "Voeg de repeaters toe in de volgorde waarin de probe ze moet bezoeken.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_add_repeater": {
+    "value": "Repeater toevoegen",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_choose_on_map": {
+    "value": "Kies op de kaart",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_hops": {
+    "value": "Hop",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_map_select_hint": {
+    "value": "Tik op de repeaters in de volgorde van het bezoek",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_no_response": {
+    "value": "Geen reactie — het pad is mogelijk niet bereikbaar.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_reachability_hint": {
+    "value": "De eerste repeater moet je kunnen horen en jij moet het antwoord van de laatste repeater kunnen horen — kies een pad waarvan je weet dat dat bereikbaar is.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_result": {
+    "value": "Resultaat",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_return_snr": {
+    "value": "Terugstuur-SNR",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_roundtrip": {
+    "value": "Heen- en terugreis",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_run": {
+    "value": "Voer traceroute uit",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_search_hint": {
+    "value": "Zoeken op naam of hex-voorvoegsel",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_settings_footer": {
+    "value": "Met een traceroute wordt een door jou gekozen route hop voor hop onderzocht en wordt per hop een statusmelding weergegeven. Eenmalig (geen herhalingspogingen) — jij kiest het pad. Standaard time-out van 30 seconden.",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_target_heard_only": {
+    "value": "alleen gehoord",
+    "_ai": true,
+    "_seeded": "2026-07-01"
+  },
+  "traceroute_title": {
+    "value": "Traceroute",
+    "_ai": true,
+    "_seeded": "2026-07-01"
   },
   "ui_add": {
     "value": "Toevoegen",
@@ -5246,1168 +6408,6 @@
   "undo": {
     "value": "Ongedaan maken",
     "_human": true
-  },
-  "nodes_discover_found": {
-    "plural": {
-      "one": "%1$d node gevonden",
-      "other": "%1$d nodes gevonden"
-    },
-    "_human": true
-  },
-  "node_detail_retrieve_firmware": {
-    "value": "Firmwareversie opvragen",
-    "_ai": true,
-    "_seeded": "2026-05-29"
-  },
-  "nodes_detail_info_section": {
-    "value": "Info",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_position_label": {
-    "value": "Functie",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_tools_section": {
-    "value": "Hulpmiddelen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_rate_limited": {
-    "value": "Beperkte snelheid — %1$d s",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_cd_refresh_owner": {
-    "value": "Eigenaarsgegevens vernieuwen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_repeater": {
-    "value": "Herstart repeater",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_title": {
-    "value": "De repeater opnieuw opstarten?",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_body": {
-    "value": "De repeater start opnieuw op en valt even uit het mesh. Hij stuurt geen bevestiging.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_confirm": {
-    "value": "Opnieuw opstarten",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_cancel": {
-    "value": "Annuleren",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_reboot_sent": {
-    "value": "Het commando 'Reboot' is verzonden.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_refresh_session": {
-    "value": "Sessie vernieuwen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_forget_password": {
-    "value": "Wachtwoord vergeten",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_advert": {
-    "value": "Advertentie",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_needs_login": {
-    "value": "Inloggen vereist",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_needs_login_footer": {
-    "value": "Log in (gast) voor statistieken, buren, telemetrie en firmware · admin voor configuratie en CLI.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_stats": {
-    "value": "Statistieken & signaal",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_neighbours": {
-    "value": "Buren",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_telemetry": {
-    "value": "Telemetrie en firmware",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_lock_admin": {
-    "value": "Beheerder: bewerken, regio's, CLI, opnieuw opstarten",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_rename_title": {
-    "value": "De repeater een andere naam geven",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_rename_field": {
-    "value": "Naam van de node",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_rename_confirm": {
-    "value": "Hernoemen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_action": {
-    "value": "Klok resetten en opnieuw opstarten",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_title": {
-    "value": "Klok resetten en opnieuw opstarten?",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_body": {
-    "value": "Hiermee wordt de klok van de repeater teruggezet naar de standaardinstelling (15-05-2024) en wordt het apparaat opnieuw opgestart. Tik vervolgens op het synchronisatiepictogram om de huidige tijd door te geven. Bij het opnieuw opstarten wordt geen bevestiging weergegeven.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_clkreboot_sent": {
-    "value": "Klok gereset en systeem opnieuw opgestart.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_title": {
-    "value": "Positie instellen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_lat": {
-    "value": "Breedtegraad",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_lon": {
-    "value": "Lengtegraad",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_hint": {
-    "value": "Hiermee stelt u de door de repeater doorgegeven positie in. Voer decimale graden in; een kaartkiezer is in de planning opgenomen.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_position_save": {
-    "value": "Opslaan",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_detail_cd_edit_position": {
-    "value": "Positie bewerken",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_version": {
-    "value": "Versie",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_advert": {
-    "value": "Advertentie",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_clock_sync": {
-    "value": "Kloksynchronisatie",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_clock": {
-    "value": "Klok",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_role": {
-    "value": "Functie",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_radio": {
-    "value": "Radio",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_tx": {
-    "value": "TX-vermogen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_name": {
-    "value": "Naam",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_public_key": {
-    "value": "Openbare sleutel",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_get_owner": {
-    "value": "Gegevens eigenaar",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_neighbours": {
-    "value": "Buren",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_clear_stats": {
-    "value": "Statistieken wissen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_password": {
-    "value": "Wachtwoord",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_start_ota": {
-    "value": "Start OTA",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_reboot": {
-    "value": "Opnieuw opstarten",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_poweroff": {
-    "value": "Uitschakelen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_actions": {
-    "value": "Acties",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_read": {
-    "value": "Lees",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_radio": {
-    "value": "Radio",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_node": {
-    "value": "Node",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_forwarding": {
-    "value": "Doorsturen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "repeater_cli_group_danger": {
-    "value": "Gevarenzone",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_title": {
-    "value": "\"%1$s\" uitvoeren?",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_reboot": {
-    "value": "The repeater falls out of the mesh while it starts up again. No answer is sent.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_poweroff": {
-    "value": "De repeater schakelt uit en komt pas weer in werking nadat hij handmatig opnieuw is opgestart. Er wordt geen antwoord verzonden.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_ota": {
-    "value": "Zet de repeater in de modus voor het bijwerken van de firmware.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_clear_stats": {
-    "value": "Hiermee worden de verkeerstellers van de repeater op nul gezet.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_cli_confirm_generic": {
-    "value": "Deze handeling kan niet ongedaan worden gemaakt.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_manual_picker_no_saved": {
-    "value": "Geen opgeslagen repeaters",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_manual_picker_no_matches_short": {
-    "value": "Geen resultaten",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_manual_picker_empty_desc": {
-    "value": "Hier worden de repeaters en room servers weergegeven die je als contacten hebt opgeslagen.",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_channel_cat_environment": {
-    "value": "omgeving",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "nodes_admin_channel_cat_power": {
-    "value": "vermogen",
-    "_ai": true,
-    "_seeded": "2026-06-01"
-  },
-  "path_anchor_live_fallback": {
-    "value": "Gebaseerd op je huidige locatie — er is geen positie opgeslagen voor dit bericht.",
-    "_ai": true,
-    "_seeded": "2026-06-10"
-  },
-  "password_show": {
-    "value": "Wachtwoord weergeven",
-    "_ai": true,
-    "_seeded": "2026-06-10"
-  },
-  "password_hide": {
-    "value": "Wachtwoord verbergen",
-    "_ai": true,
-    "_seeded": "2026-06-10"
-  },
-  "add_channel_duplicate_key": {
-    "value": "Deze sleutel is al gekoppeld aan \"%1$s\".",
-    "_ai": true,
-    "_seeded": "2026-06-11"
-  },
-  "nodes_detail_last_login": {
-    "value": "Laatst ingelogd",
-    "_ai": true,
-    "_seeded": "2026-06-12"
-  },
-  "settings_home_entry_blocklist": {
-    "value": "Gebruikers die zijn geblokkeerd",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "chat_menu_block": {
-    "value": "%1$s blokkeren",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_title": {
-    "value": "Gebruikers die zijn geblokkeerd",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_cd_back": {
-    "value": "Terug",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_cd_unblock": {
-    "value": "Ontgrendelen",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_empty_title": {
-    "value": "Geen geblokkeerde gebruikers",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_empty_body": {
-    "value": "Houd een bericht in een kanaal lang ingedrukt en kies ‘Blokkeren’ om alle berichten van die afzender te verbergen. De namen van afzenders in kanalen worden niet geverifieerd, dus het blokkeren gebeurt uitsluitend op basis van de naam.",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_section_header": {
-    "value": "Geblokkeerd (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_blocklist_section_footer": {
-    "value": "Tik op het prullenbakpictogram om de blokkering op te heffen. Hun eerdere berichten verschijnen dan weer in alle kanalen. Het blokkeren gebeurt op basis van de exacte weergegeven naam — iedereen kan die naam kiezen, dus dit zal een vastberaden gebruiker er niet van weerhouden om de naam te wijzigen.",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "clock_reply_local_label": {
-    "value": "lokaal",
-    "_ai": true,
-    "_seeded": "2026-06-17"
-  },
-  "settings_community_coverage_header": {
-    "value": "Dekkingkaart",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_toggle": {
-    "value": "Verslaggevingsgegevens aanleveren",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_cells": {
-    "value": "Cellen gehoord",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_observations": {
-    "value": "Opmerkingen",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_pending": {
-    "value": "Uploads in behandeling",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_footer": {
-    "value": "Als KiekR is ingeschakeld, registreert het welke regio’s (en, waar mogelijk, welke repeaters) het ontvangt binnen een grove kaartcel van ongeveer een halve kilometer, en uploadt het periodiek de totalen per cel via wifi. Je exacte locatie blijft altijd op de telefoon — alleen de cel wordt doorgegeven — en de kaart toont alleen wat daar is ontvangen, nooit wie het heeft ontvangen. Pseudoniem en los van je KiekR-identiteit; je kunt deze functie op elk moment uitschakelen.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_community_coverage_interval": {
-    "value": "Uploadinterval",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_live": {
-    "value": "Live",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_interval_minutes": {
-    "value": "%1$d min",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_precise_hint": {
-    "value": "Voor de dekkingsgegevens is een nauwkeurige locatie nodig om wat je hoort in de juiste kaartcel te plaatsen. Zorg ervoor dat KiekR een nauwkeurige locatie kan bepalen — anders worden er op deze telefoon geen dekkingsgegevens verzameld.",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_open_settings": {
-    "value": "Locatie-instellingen openen",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "settings_community_coverage_allow_precise": {
-    "value": "Nauwkeurige locatie toestaan",
-    "_ai": true,
-    "_seeded": "2026-06-27"
-  },
-  "mynode_known_companions": {
-    "value": "Bekende metgezellen",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_known_companions_footer": {
-    "value": "Tik op een contactpersoon om opnieuw verbinding te maken. Veeg om het uit deze lijst te verwijderen.",
-    "_ai": true,
-    "_seeded": "2026-06-29"
-  },
-  "mynode_scan_searching": {
-    "value": "Zoeken naar nodes…",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_scan_searching_hint": {
-    "value": "Zorg dat je node aanstaat en dichtbij is.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "ping_action": {
-    "value": "Ping",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_sent": {
-    "value": "Verzonden",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_received": {
-    "value": "Ontvangen",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_timeouts": {
-    "value": "Time-outs",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_rtt": {
-    "value": "RTT",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_uplink_snr": {
-    "value": "SNR van de uplink",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_downlink_snr": {
-    "value": "SNR van de downlink",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_waiting_reply": {
-    "value": "In afwachting van een antwoord…",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "settings_timeout": {
-    "value": "Time-out",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "settings_path_discovery": {
-    "value": "Paddetectie",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_samples": {
-    "value": "Voorbeelden",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_sample_interval": {
-    "value": "Bemonsteringsinterval",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_sample_timeout": {
-    "value": "Voorbeeld van een time-out",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_title": {
-    "value": "Traceroute",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_detail_blurb": {
-    "value": "Meet de heen-en-teruglooptijd en het uplink- en downlink-signaal naar deze repeater.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "ping_settings_footer": {
-    "value": "Een ping verstuurt N één-hop-probes naar een repeater en rapporteert de round-trip-tijd plus het uplink- en downlink-signaal. De proefsignalen worden achtereenvolgens verzonden (met een interval ertussen); elk signaal wacht tot de time-out is verstreken op een antwoord. Standaardinstellingen: 3 proefsignalen, interval van 2000 ms, time-out van 5000 ms.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_settings_footer": {
-    "value": "Met een traceroute wordt een door jou gekozen route hop voor hop onderzocht en wordt per hop een statusmelding weergegeven. Eenmalig (geen herhalingspogingen) — jij kiest het pad. Standaard time-out van 30 seconden.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_add_hops_hint": {
-    "value": "Voeg de repeaters toe in de volgorde waarin de probe ze moet bezoeken.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_add_repeater": {
-    "value": "Repeater toevoegen",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_hops": {
-    "value": "Hop",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_reachability_hint": {
-    "value": "De eerste repeater moet je kunnen horen en jij moet het antwoord van de laatste repeater kunnen horen — kies een pad waarvan je weet dat dat bereikbaar is.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_run": {
-    "value": "Voer traceroute uit",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_return_snr": {
-    "value": "Terugstuur-SNR",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_result": {
-    "value": "Resultaat",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_no_response": {
-    "value": "Geen reactie — het pad is mogelijk niet bereikbaar.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "tools_diagnostics": {
-    "value": "Diagnostiek",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "tools_traceroute_blurb": {
-    "value": "Verken een route die je stap voor stap kiest en meet het signaal bij elke hop.",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_search_hint": {
-    "value": "Zoeken op naam of hex-voorvoegsel",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "map_show_on_map": {
-    "value": "Op kaart weergeven",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "map_you": {
-    "value": "Jij",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_roundtrip": {
-    "value": "Heen- en terugreis",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_target_heard_only": {
-    "value": "alleen gehoord",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_choose_on_map": {
-    "value": "Kies op de kaart",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "traceroute_map_select_hint": {
-    "value": "Tik op de repeaters in de volgorde van het bezoek",
-    "_ai": true,
-    "_seeded": "2026-07-01"
-  },
-  "chat_compose_gate_no_node": {
-    "value": "Geen node verbonden — verbind een companion om te verzenden.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "chat_compose_gate_identity": {
-    "value": "Dit direct bericht hoort bij %1$s. Je bent verbonden als %2$s.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_language": {
-    "value": "Taal",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_open_button": {
-    "value": "Taalinstellingen openen",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_footer": {
-    "value": "KiekR volgt standaard de taal van je apparaat. Wil je alleen voor KiekR een andere taal, open dan de systeeminstellingen en kies er daar een.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_language_cd_back": {
-    "value": "Terug",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_home_entry_appearance": {
-    "value": "Weergave",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_system": {
-    "value": "Automatisch",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_light": {
-    "value": "Licht",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_mode_dark": {
-    "value": "Donker",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_footer": {
-    "value": "Automatisch volgt de licht/donker-instelling van je apparaat. Kies Licht of Donker om dit alleen voor KiekR te overschrijven.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "settings_appearance_cd_back": {
-    "value": "Terug",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_title": {
-    "value": "Live verkeer",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_title": {
-    "value": "Nog geen pakketten",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_empty_desc": {
-    "value": "Elk frame dat je node hoort verschijnt hier — er wordt niets uitgefilterd.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_footer": {
-    "value": "Ongefilterd — gedecodeerde, voor anderen versleutelde, onbekende en misvormde frames verschijnen allemaal.",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_pause": {
-    "value": "Pauzeren",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_resume": {
-    "value": "Hervatten",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_clear": {
-    "value": "Wissen",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Ongefilterd · alle pakketten",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_sub": {
-    "value": "toont elk ontvangen frame — ook wat niet leesbaar is",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "totaal",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_mesh": {
-    "value": "Mesh",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Rustig",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_active": {
-    "value": "Actief",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Druk",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Gem. SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Multi-hop",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Niet te decoderen",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "toch vermeld",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_filter_all": {
-    "value": "Alle",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_csv": {
-    "value": "CSV exporteren",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_export_json": {
-    "value": "JSON exporteren",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_copy_hash": {
-    "value": "Pakket-hash kopiëren",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_foreign_hint": {
-    "value": "versleuteld — niet voor dit apparaat",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_noise": {
-    "value": "ruis %1$d dBm",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_per_min": {
-    "value": "%1$d / min",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "van %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_path_line": {
-    "value": "pad · %1$d byte/hop · %2$d hops",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "mynode_companion_delete_confirm_body": {
-    "value": "Verwijdert deze contactpersoon uit de lijst. Als er nu een verbinding is, wordt die eerst verbroken.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_title": {
-    "value": "Opnieuw versturen?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_confirm": {
-    "value": "Opnieuw versturen",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "chat_retry_duplicate_body": {
-    "value": "Je node heeft dit bericht al uitgezonden. Er kwam geen bevestiging terug, maar ontvangers binnen bereik kunnen het toch hebben ontvangen — als je het opnieuw verstuurt, zien zij het twee keer.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "add_channel_generate_key": {
-    "value": "Willekeurige sleutel genereren",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_select_mode": {
-    "value": "Selecteren",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selected_count": {
-    "value": "%1$d geselecteerd",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_selection_of_total": {
-    "value": "%1$d van %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_all": {
-    "value": "Alle",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_non_favorites": {
-    "value": "Niet-favorieten",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_stale": {
-    "value": "Lang stil…",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_older_days": {
-    "value": "Ouder dan %1$d dagen",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_quick_select_auto_added": {
-    "value": "Automatisch toegevoegd",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_button": {
-    "value": "Verwijderen (%1$d)",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_title": {
-    "value": "%1$d contacten permanent verwijderen?",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_favorites_warning": {
-    "value": "Waaronder %1$d favorieten.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_bulk_delete_device_note": {
-    "value": "Contacten die op de verbonden node zijn geïnstalleerd, worden daar ook verwijderd.",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "nodes_cd_exit_selection": {
-    "value": "Selectie verlaten",
-    "_ai": true,
-    "_seeded": "2026-07-06"
-  },
-  "settings_backup_import_done_v2": {
-    "value": "Import klaar — %1$d identiteit, %2$d kanalen, %3$d regio's, %4$d contacten, %5$d repeater-logins, %6$d favorieten, %7$d geblokkeerde afzenders, %8$d instellingen.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_newer_schema": {
-    "value": "De back-up is gemaakt met een nieuwere app-versie (schema %1$s) — zo goed mogelijk toegepast.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_identity_refused": {
-    "value": "Identiteit niet geïmporteerd: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_entry_skipped": {
-    "value": "Overgeslagen: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_unknown_pref": {
-    "value": "Onbekende instelling genegeerd: %1$s",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "settings_backup_warn_empty_bundle": {
-    "value": "Het bestand bevatte geen importeerbare gegevens.",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_cd_jump_to_latest": {
-    "value": "Spring naar nieuwste",
-    "_ai": true,
-    "_seeded": "2026-07-07"
-  },
-  "chat_heard_n_times": {
-    "value": "%1$d× gehoord",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range": {
-    "value": "%1$d–%2$d hops",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_heard_n_times_a11y": {
-    "value": "%1$d keer gehoord",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_hops_range_a11y": {
-    "value": "ontvangen via %1$d tot %2$d hops",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_times_heard": {
-    "value": "Gehoord",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_reception_of": {
-    "value": "Ontvangst %1$d van %2$d",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_path_unknown_direct": {
-    "value": "onbekend (direct gerouteerd)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_overflow": {
-    "value": "+%1$d extra kopieën (niet afzonderlijk opgeslagen)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_receptions_lower_bound": {
-    "value": "De telling is een ondergrens — bij druk verkeer kunnen kopieën verloren gaan voordat ze de app bereiken.",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_time": {
-    "value": "Tijd",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_all": {
-    "value": "Alle routes",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_menu": {
-    "value": "Routes",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_n_count": {
-    "value": "Route %1$d (%2$d×)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_route_a11y": {
-    "value": "Route %1$d, %2$d keer gehoord",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_dropped": {
-    "value": "+%1$d extra routes (niet getekend)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "map_routes_pathless": {
-    "value": "%1$d kopieën zonder route (direct)",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_detail_show_reception_on_map": {
-    "value": "Toon deze ontvangst op de kaart",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_chip": {
-    "value": "%1$dB",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_path_width_a11y": {
-    "value": "%1$d-byte pad",
-    "_ai": true,
-    "_seeded": "2026-07-22"
-  },
-  "chat_menu_copy_path": {
-    "value": "Pad kopiëren",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "chat_detail_hop_heard_no_position": {
-    "value": "Gehoord, positie onbekend",
-    "_ai": true,
-    "_seeded": "2026-07-28"
-  },
-  "app_safemode_title": {
-    "value": "KiekR is niet goed gestart",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_body": {
-    "value": "De vorige start liep vast voordat de app klaar was met laden. Het diagnoselogboek delen helpt ons de oorzaak te vinden.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_share_button": {
-    "value": "Diagnoselogboek delen",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_start_button": {
-    "value": "Toch normaal starten",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_reset_button": {
-    "value": "Companion-gegevens wissen",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_reset_hint": {
-    "value": "Deel eerst het logboek — wissen verwijdert precies de gegevens die we nodig hebben.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "app_safemode_reset_done": {
-    "value": "Companion-gegevens gewist. Start de app opnieuw.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "settings_diag_header": {
-    "value": "Crashdiagnostiek",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "settings_diag_toggle": {
-    "value": "Crashdiagnostiek versturen",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "settings_diag_footer": {
-    "value": "Standaard uit. Als dit aanstaat, uploadt KiekR de crash-, vastloop- en CPU-rapporten die iOS aanlevert naar api.kiekr.app: app-versie, iOS-versie, apparaatmodel, de systeemfoutcodes en de call stack. Geen berichten, contacten, sleutels of locaties — en het is de enige manier waarop een fout op je telefoon de ontwikkelaar bereikt.",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_get_flood_max_unscoped": {
-    "value": "Flood max unscoped",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_get_flood_max_advert": {
-    "value": "Flood max advert",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_flood_max_unscoped": {
-    "value": "Flood max unscoped",
-    "_ai": true,
-    "_seeded": "2026-07-30"
-  },
-  "repeater_cli_flood_max_advert": {
-    "value": "Flood max advert",
-    "_ai": true,
-    "_seeded": "2026-07-30"
   },
   "nodes_cli_console_title": {
     "value": "Terminal",
@@ -7228,5 +7228,18 @@
     "value": "Opent GoFundMe in je browser",
     "_ai": true,
     "_seeded": "2026-08-05"
-  }
+  },
+  "map_cd_center_on_me": null,
+  "nodes_directory_badge": null,
+  "nodes_group_active": null,
+  "nodes_group_directory": null,
+  "nodes_group_favorites": null,
+  "nodes_group_older": null,
+  "nodes_group_today": null,
+  "nodes_group_week": null,
+  "nodes_range_direct": null,
+  "nodes_range_hops": null,
+  "nodes_range_one_hop": null,
+  "nodes_signal_desc": null,
+  "nodes_signal_none_desc": null
 }
