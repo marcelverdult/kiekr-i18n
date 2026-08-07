@@ -17,26 +17,26 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 | Italiano       | `it` |       100% |  1365 |       335 | community  |
 | Português (Brasil) | `pt-BR` |       100% |     1 |      1699 | community  |
 | Polski         | `pl` |       100% |    11 |      1689 | community  |
-| Български      | `bg` |      99.0% |     0 |      1683 | community  |
-| Čeština        | `cs` |      99.0% |     0 |      1683 | community  |
-| Dansk          | `da` |      99.0% |     0 |      1683 | community  |
-| Ελληνικά       | `el` |      99.0% |     0 |      1683 | community  |
-| Eesti          | `et` |      99.0% |     0 |      1683 | community  |
-| Suomi          | `fi` |      99.0% |     0 |      1683 | community  |
-| Gaeilge        | `ga` |      99.0% |     0 |      1683 | community  |
-| Hrvatski       | `hr` |      99.0% |     0 |      1683 | community  |
-| Magyar         | `hu` |      99.0% |     0 |      1683 | community  |
-| Lietuvių       | `lt` |      99.0% |     0 |      1683 | community  |
-| Latviešu       | `lv` |      99.0% |     0 |      1683 | community  |
-| Malti          | `mt` |      99.0% |     0 |      1683 | community  |
-| Norsk bokmål   | `nb` |      99.0% |     0 |      1683 | community  |
-| Português (Portugal) | `pt-PT` |      99.0% |     0 |      1683 | community  |
-| Română         | `ro` |      99.0% |     0 |      1683 | community  |
-| Русский        | `ru` |      99.0% |     0 |      1683 | community  |
-| Slovenčina     | `sk` |      99.0% |     0 |      1683 | community  |
-| Slovenščina    | `sl` |      99.0% |     0 |      1683 | community  |
-| Svenska        | `sv` |      99.0% |     0 |      1683 | community  |
-| Українська     | `uk` |      99.0% |     0 |      1683 | community  |
+| Български      | `bg` |       100% |     0 |      1700 | community  |
+| Čeština        | `cs` |       100% |     0 |      1700 | community  |
+| Dansk          | `da` |       100% |     0 |      1700 | community  |
+| Ελληνικά       | `el` |       100% |     0 |      1700 | community  |
+| Eesti          | `et` |       100% |     0 |      1700 | community  |
+| Suomi          | `fi` |       100% |     0 |      1700 | community  |
+| Gaeilge        | `ga` |       100% |     0 |      1700 | community  |
+| Hrvatski       | `hr` |       100% |     0 |      1700 | community  |
+| Magyar         | `hu` |       100% |     0 |      1700 | community  |
+| Lietuvių       | `lt` |       100% |     0 |      1700 | community  |
+| Latviešu       | `lv` |       100% |     0 |      1700 | community  |
+| Malti          | `mt` |       100% |     0 |      1700 | community  |
+| Norsk bokmål   | `nb` |       100% |     0 |      1700 | community  |
+| Português (Portugal) | `pt-PT` |       100% |     0 |      1700 | community  |
+| Română         | `ro` |       100% |     0 |      1700 | community  |
+| Русский        | `ru` |       100% |     0 |      1700 | community  |
+| Slovenčina     | `sk` |       100% |     0 |      1700 | community  |
+| Slovenščina    | `sl` |       100% |     0 |      1700 | community  |
+| Svenska        | `sv` |       100% |     0 |      1700 | community  |
+| Українська     | `uk` |       100% |     0 |      1700 | community  |
 
 <!-- status:end -->
 
