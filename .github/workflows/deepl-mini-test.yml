@@ -1,0 +1,27 @@
+# TEMPORARY diagnostic — does the CI-side DeepL API path work now?
+# Runs one tiny "Hello world" translate + raw /v2/usage + /v2/translate,
+# using the same DEEPL_API_KEY secret the old seed step used. Read-only
+# (no BOT_PAT, no push, writes nothing). Manual dispatch only. Delete after use.
+name: deepl-mini-test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install deepl
+      - name: DeepL mini diagnostic
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: |
+          echo "::add-mask::$DEEPL_API_KEY"
+          python tools/deepl_diag.py
