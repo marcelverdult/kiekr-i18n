@@ -3,7 +3,7 @@
     "language": "en",
     "managed_by": "kiekr-team",
     "name": "English",
-    "updated": "2026-08-05"
+    "updated": "2026-08-08"
   },
   "add_channel_duplicate_key": "This key already belongs to \"%1$s\".",
   "add_channel_generate_key": "Generate random key",
@@ -1004,6 +1004,8 @@
   "settings_backup_import_size": "Size: %1$d bytes",
   "settings_backup_import_type_encrypted": "Type: Encrypted (.mcbackup)",
   "settings_backup_import_type_json": "Type: Stock JSON",
+  "settings_backup_include_messages": "Include messages",
+  "settings_backup_include_messages_advisory": "Channel and DM history travels in the backup. The file will be larger and export may take longer.",
   "settings_backup_passphrase_advisory": "This is NOT your BLE pairing PIN. It only protects this backup file — pick something memorable; KiekR cannot recover it.",
   "settings_backup_passphrase_confirm_label": "Confirm",
   "settings_backup_passphrase_label": "Passphrase",
@@ -1722,5 +1724,16 @@
   "nodes_range_hops": "%d hops",
   "nodes_range_one_hop": "1 hop",
   "nodes_signal_desc": "Signal %d of 4",
-  "nodes_signal_none_desc": "No signal (from directory or manually added)"
+  "nodes_signal_none_desc": "No signal (from directory or manually added)",
+  "coverage_map_title": "Coverage map",
+  "coverage_map_stats": "Today %1$d · total %2$d",
+  "coverage_map_new_hexes": "%1$d new hexes this session",
+  "coverage_map_legend_strong": "Today · strong",
+  "coverage_map_legend_weak": "Today · weak",
+  "coverage_map_legend_older": "Older days",
+  "coverage_map_legend_you": "You",
+  "coverage_map_sound_toggle": "Discovery sound",
+  "coverage_map_follow_me": "Follow my position",
+  "coverage_map_disabled": "Coverage contribution is off. Turn it on under Settings → Community to map your drive.",
+  "coverage_map_open_settings": "Open settings"
 }
