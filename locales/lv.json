@@ -3,7 +3,7 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-08-08"
+    "updated": "2026-08-09"
   },
   "add_channel_duplicate_key": {
     "value": "Šī atslēga jau pieder „%1$s“.",
@@ -4979,8 +4979,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_backup_include_messages": null,
-  "settings_backup_include_messages_advisory": null,
+  "settings_backup_include_messages": {
+    "value": "Iekļaut ziņojumus",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_backup_include_messages_advisory": {
+    "value": "Kanāla un DM vēstures tiek iekļautas dublējumā. Fails būs lielāks, un eksportēšana var aizņemt vairāk laika.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
   "settings_backup_passphrase_advisory": {
     "value": "Tas NAV jūsu BLE pārošanas PIN kods. Tas aizsargā tikai šo rezerves kopijas failu — izvēlieties kaut ko viegli atceramu; KiekR to nevarēs atjaunot.",
     "_ai": true,
@@ -8576,31 +8584,139 @@
     "_ai": true,
     "_seeded": "2026-08-07"
   },
-  "coverage_map_title": null,
-  "coverage_map_stats": null,
-  "coverage_map_new_hexes": null,
-  "coverage_map_legend_strong": null,
-  "coverage_map_legend_weak": null,
-  "coverage_map_legend_older": null,
-  "coverage_map_legend_you": null,
-  "coverage_map_sound_toggle": null,
-  "coverage_map_follow_me": null,
-  "coverage_map_disabled": null,
-  "coverage_map_open_settings": null,
-  "settings_community_mapme_header": null,
-  "settings_community_mapme_footer": null,
-  "settings_community_mapme_toggle": null,
-  "settings_community_mapme_mapper_name": null,
-  "settings_community_mapme_privacy": null,
-  "settings_community_mapme_privacy_live": null,
-  "settings_community_mapme_privacy_normal": null,
-  "settings_community_mapme_privacy_anonym": null,
-  "settings_community_analyzer_header": null,
-  "settings_community_analyzer_footer": null,
-  "settings_community_analyzer_toggle": null,
-  "settings_community_analyzer_mapper_name": null,
-  "settings_community_analyzer_privacy": null,
-  "settings_community_analyzer_privacy_public": null,
-  "settings_community_analyzer_privacy_anonymous": null,
-  "node_detail_not_connected": null
+  "coverage_map_title": {
+    "value": "Pārklājuma karte",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_stats": {
+    "value": "Šodien %1$d · kopā %2$d",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_new_hexes": {
+    "value": "%1$d jauni sešstūri šajā sesijā",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_strong": {
+    "value": "Šodien · spēcīgs",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_weak": {
+    "value": "Šodien · vājš",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_older": {
+    "value": "Iepriekšējās dienas",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_you": {
+    "value": "Jūs",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_sound_toggle": {
+    "value": "Atklāšanas skaņa",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_follow_me": {
+    "value": "Sekot manai atrašanās vietai",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_disabled": {
+    "value": "Pārklājuma funkcija ir izslēgta. Lai kartētu savu braucienu, ieslēdziet to sadaļā „Iestatījumi“ → „Kopiena“.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_open_settings": {
+    "value": "Atvērt iestatījumus",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_header": {
+    "value": "mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_footer": {
+    "value": "Ja šī funkcija ir ieslēgta, KiekR dalās ar informāciju par to, kurām kartes šūnām ir tīkla pārklājums, ar mapme.sh — kopienas pārklājuma karti. Katrs paraugs ietver kartes šūnu, signāla stiprumu un pārraides ceļu, taču nekad neietver jūsu precīzo atrašanās vietu vai identitāti. Augšupielādes notiek saskaņā ar jūsu iestatījumiem par „tikai Wi-Fi” un augšupielādes intervālu.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_toggle": {
+    "value": "Karte uz mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_mapper_name": {
+    "value": "Kartogrāfa nosaukums",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy": {
+    "value": "Privātums",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_live": {
+    "value": "Reāllaiks",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_normal": {
+    "value": "Standarta (3 stundu kavēšanās)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_anonym": {
+    "value": "Anonīms (24 stundas)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_header": {
+    "value": "meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_footer": {
+    "value": "Kad funkcija ir ieslēgta, KiekR dalās ar meshcore-analyzer.eu informāciju par to, kurām kartes šūnām ir tīkla pārklājums. Katrs paraugs ietver kartes šūnu, signāla stiprumu un lēcienu ceļu, bet nekad neietver jūsu precīzo atrašanās vietu vai identitāti. Augšupielādes notiek saskaņā ar jūsu iestatījumiem par „Tikai Wi-Fi” un augšupielādes intervālu.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_toggle": {
+    "value": "Karte uz meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_mapper_name": {
+    "value": "Kartogrāfa nosaukums",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy": {
+    "value": "Privātums",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_public": {
+    "value": "Publisks",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_anonymous": {
+    "value": "Anonīms",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "node_detail_not_connected": {
+    "value": "Nav savienojuma",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  }
 }

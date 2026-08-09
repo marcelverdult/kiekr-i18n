@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-08-08"
+    "updated": "2026-08-09"
   },
   "add_channel_duplicate_key": {
     "value": "Този ключ вече принадлежи на „%1$s“.",
@@ -4978,8 +4978,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_backup_include_messages": null,
-  "settings_backup_include_messages_advisory": null,
+  "settings_backup_include_messages": {
+    "value": "Включване на съобщения",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_backup_include_messages_advisory": {
+    "value": "Историята на каналите и личните съобщения се запазва в резервното копие. Файлът ще бъде по-голям и експортирането може да отнеме повече време.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
   "settings_backup_passphrase_advisory": {
     "value": "Това НЕ е PIN-кодът ви за сдвояване по BLE. Той служи единствено за защита на този резервен файл — изберете нещо, което лесно ще запомните; KiekR няма да може да го възстанови.",
     "_ai": true,
@@ -8575,31 +8583,139 @@
     "_ai": true,
     "_seeded": "2026-08-07"
   },
-  "coverage_map_title": null,
-  "coverage_map_stats": null,
-  "coverage_map_new_hexes": null,
-  "coverage_map_legend_strong": null,
-  "coverage_map_legend_weak": null,
-  "coverage_map_legend_older": null,
-  "coverage_map_legend_you": null,
-  "coverage_map_sound_toggle": null,
-  "coverage_map_follow_me": null,
-  "coverage_map_disabled": null,
-  "coverage_map_open_settings": null,
-  "settings_community_mapme_header": null,
-  "settings_community_mapme_footer": null,
-  "settings_community_mapme_toggle": null,
-  "settings_community_mapme_mapper_name": null,
-  "settings_community_mapme_privacy": null,
-  "settings_community_mapme_privacy_live": null,
-  "settings_community_mapme_privacy_normal": null,
-  "settings_community_mapme_privacy_anonym": null,
-  "settings_community_analyzer_header": null,
-  "settings_community_analyzer_footer": null,
-  "settings_community_analyzer_toggle": null,
-  "settings_community_analyzer_mapper_name": null,
-  "settings_community_analyzer_privacy": null,
-  "settings_community_analyzer_privacy_public": null,
-  "settings_community_analyzer_privacy_anonymous": null,
-  "node_detail_not_connected": null
+  "coverage_map_title": {
+    "value": "Карта на покритието",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_stats": {
+    "value": "Днес %1$d · общо %2$d",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_new_hexes": {
+    "value": "%1$d нови хексагона през тази сесия",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_strong": {
+    "value": "Днес · силен",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_weak": {
+    "value": "Днес · слаб",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_older": {
+    "value": "Минали дни",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_you": {
+    "value": "Вие",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_sound_toggle": {
+    "value": "Звук при откриване",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_follow_me": {
+    "value": "Следи моето местоположение",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_disabled": {
+    "value": "Функцията за принос към покритието е изключена. Активирайте я в „Настройки“ → „Общност“, за да се отрази маршрутът ви на картата.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_open_settings": {
+    "value": "Отвори настройки",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_header": {
+    "value": "mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_footer": {
+    "value": "Когато тази опция е включена, KiekR споделя с mapme.sh — общностна карта на покритието — кои клетки на картата имат мрежово покритие. Всяка проба включва клетката на картата, силата на сигнала и пътя на преминаване, но никога не разкрива точното ви местоположение или самоличност. Качването се извършва според настройките ви за „Само Wi-Fi“ и интервал на качване.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_toggle": {
+    "value": "Карта към mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_mapper_name": {
+    "value": "Име на картографа",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy": {
+    "value": "Поверителност",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_live": {
+    "value": "На живо",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_normal": {
+    "value": "Нормален (с 3-часова закъснение)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_anonym": {
+    "value": "Анонимен (24 ч.)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_header": {
+    "value": "meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_footer": {
+    "value": "Когато е включено, KiekR споделя с meshcore-analyzer.eu кои клетки на картата имат мрежово покритие. Всяка проба включва клетката на картата, силата на сигнала и пътя на преминаване, но никога не разкрива точното ви местоположение или самоличност. Качването се извършва според настройките ви за „Само Wi-Fi“ и интервала на качване.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_toggle": {
+    "value": "Карта към meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_mapper_name": {
+    "value": "Име на картограф",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy": {
+    "value": "Поверителност",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_public": {
+    "value": "Публичен",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_anonymous": {
+    "value": "Анонимен",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "node_detail_not_connected": {
+    "value": "Няма връзка",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  }
 }

@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-08-08"
+    "updated": "2026-08-09"
   },
   "add_channel_duplicate_key": {
     "value": "Această cheie aparține deja site-ului „%1$s”.",
@@ -4979,8 +4979,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_backup_include_messages": null,
-  "settings_backup_include_messages_advisory": null,
+  "settings_backup_include_messages": {
+    "value": "Include mesajele",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_backup_include_messages_advisory": {
+    "value": "Istoricul canalelor și al mesajelor directe este inclus în copie de rezervă. Fișierul va fi mai mare, iar exportul poate dura mai mult.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
   "settings_backup_passphrase_advisory": {
     "value": "Acesta NU este codul PIN de asociere BLE. Acesta protejează doar acest fișier de rezervă — alegeți ceva ușor de reținut; KiekR nu îl poate recupera.",
     "_ai": true,
@@ -8576,31 +8584,139 @@
     "_ai": true,
     "_seeded": "2026-08-07"
   },
-  "coverage_map_title": null,
-  "coverage_map_stats": null,
-  "coverage_map_new_hexes": null,
-  "coverage_map_legend_strong": null,
-  "coverage_map_legend_weak": null,
-  "coverage_map_legend_older": null,
-  "coverage_map_legend_you": null,
-  "coverage_map_sound_toggle": null,
-  "coverage_map_follow_me": null,
-  "coverage_map_disabled": null,
-  "coverage_map_open_settings": null,
-  "settings_community_mapme_header": null,
-  "settings_community_mapme_footer": null,
-  "settings_community_mapme_toggle": null,
-  "settings_community_mapme_mapper_name": null,
-  "settings_community_mapme_privacy": null,
-  "settings_community_mapme_privacy_live": null,
-  "settings_community_mapme_privacy_normal": null,
-  "settings_community_mapme_privacy_anonym": null,
-  "settings_community_analyzer_header": null,
-  "settings_community_analyzer_footer": null,
-  "settings_community_analyzer_toggle": null,
-  "settings_community_analyzer_mapper_name": null,
-  "settings_community_analyzer_privacy": null,
-  "settings_community_analyzer_privacy_public": null,
-  "settings_community_analyzer_privacy_anonymous": null,
-  "node_detail_not_connected": null
+  "coverage_map_title": {
+    "value": "Harta de acoperire",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_stats": {
+    "value": "Astăzi %1$d · total %2$d",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_new_hexes": {
+    "value": "%1$d hexagoane noi în această sesiune",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_strong": {
+    "value": "Astăzi · puternic",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_weak": {
+    "value": "Astăzi · slab",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_older": {
+    "value": "Zile anterioare",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_you": {
+    "value": "Tu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_sound_toggle": {
+    "value": "Sunet de descoperire",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_follow_me": {
+    "value": "Urmărește-mi poziția",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_disabled": {
+    "value": "Funcția de contribuție la acoperire este dezactivată. Activeaz-o din Setări → Comunitate pentru a-ți cartografia traseul.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_open_settings": {
+    "value": "Deschide setările",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_header": {
+    "value": "mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_footer": {
+    "value": "Când această opțiune este activată, KiekR partajează cu mapme.sh — o hartă comunitară de acoperire — informații despre celulele de hartă care au acoperire mesh. Fiecare eșantion include celula de hartă, intensitatea semnalului și traseul de salt, dar niciodată poziția ta exactă sau identitatea ta. Încărcările respectă setările tale privind utilizarea exclusivă a Wi-Fi-ului și intervalul de încărcare.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_toggle": {
+    "value": "Harta către mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_mapper_name": {
+    "value": "Numele cartografierii",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy": {
+    "value": "Confidențialitate",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_live": {
+    "value": "În timp real",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_normal": {
+    "value": "Normal (întârziere de 3 ore)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_anonym": {
+    "value": "Anonim (24 ore)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_header": {
+    "value": "meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_footer": {
+    "value": "Când este activată, KiekR partajează cu meshcore-analyzer.eu informații despre celulele hărții care au acoperire de rețea mesh. Fiecare eșantion include celula hărții, intensitatea semnalului și traseul de salt, dar niciodată poziția ta exactă sau identitatea ta. Încărcările respectă setările tale privind utilizarea exclusivă a Wi-Fi-ului și intervalul de încărcare.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_toggle": {
+    "value": "Harta către meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_mapper_name": {
+    "value": "Numele cartografierii",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy": {
+    "value": "Confidențialitate",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_public": {
+    "value": "Public",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_anonymous": {
+    "value": "Anonim",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "node_detail_not_connected": {
+    "value": "Nu ești conectat",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  }
 }

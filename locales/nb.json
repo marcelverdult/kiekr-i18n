@@ -3,7 +3,7 @@
     "language": "nb",
     "name": "Norsk bokmål",
     "managed_by": "community",
-    "updated": "2026-08-08"
+    "updated": "2026-08-09"
   },
   "add_channel_duplicate_key": {
     "value": "Denne nøkkelen tilhører allerede «%1$s».",
@@ -4978,8 +4978,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_backup_include_messages": null,
-  "settings_backup_include_messages_advisory": null,
+  "settings_backup_include_messages": {
+    "value": "Inkluder meldinger",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_backup_include_messages_advisory": {
+    "value": "Kanal- og DM-historikk blir med i sikkerhetskopien. Filen blir større, og eksporten kan ta lengre tid.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
   "settings_backup_passphrase_advisory": {
     "value": "Dette er IKKE din BLE-parings-PIN-kode. Den beskytter kun denne sikkerhetskopifilen – velg noe du lett kan huske; KiekR kan ikke gjenopprette den.",
     "_ai": true,
@@ -8575,31 +8583,139 @@
     "_ai": true,
     "_seeded": "2026-08-07"
   },
-  "coverage_map_title": null,
-  "coverage_map_stats": null,
-  "coverage_map_new_hexes": null,
-  "coverage_map_legend_strong": null,
-  "coverage_map_legend_weak": null,
-  "coverage_map_legend_older": null,
-  "coverage_map_legend_you": null,
-  "coverage_map_sound_toggle": null,
-  "coverage_map_follow_me": null,
-  "coverage_map_disabled": null,
-  "coverage_map_open_settings": null,
-  "settings_community_mapme_header": null,
-  "settings_community_mapme_footer": null,
-  "settings_community_mapme_toggle": null,
-  "settings_community_mapme_mapper_name": null,
-  "settings_community_mapme_privacy": null,
-  "settings_community_mapme_privacy_live": null,
-  "settings_community_mapme_privacy_normal": null,
-  "settings_community_mapme_privacy_anonym": null,
-  "settings_community_analyzer_header": null,
-  "settings_community_analyzer_footer": null,
-  "settings_community_analyzer_toggle": null,
-  "settings_community_analyzer_mapper_name": null,
-  "settings_community_analyzer_privacy": null,
-  "settings_community_analyzer_privacy_public": null,
-  "settings_community_analyzer_privacy_anonymous": null,
-  "node_detail_not_connected": null
+  "coverage_map_title": {
+    "value": "Dekningskart",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_stats": {
+    "value": "I dag %1$d · totalt %2$d",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_new_hexes": {
+    "value": "%1$d nye hekser denne økten",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_strong": {
+    "value": "I dag · sterk",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_weak": {
+    "value": "I dag · svak",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_older": {
+    "value": "Tidligere dager",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_you": {
+    "value": "Du",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_sound_toggle": {
+    "value": "Oppdagelseslyd",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_follow_me": {
+    "value": "Følg posisjonen min",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_disabled": {
+    "value": "Dekningsbidraget er slått av. Slå det på under Innstillinger → Fellesskap for å kartlegge kjøreturen din.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_open_settings": {
+    "value": "Åpne innstillinger",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_header": {
+    "value": "mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_footer": {
+    "value": "Når denne funksjonen er aktivert, deler KiekR informasjon om hvilke kartceller som har mesh-dekning med mapme.sh – et fellesskapsbasert dekningskart. Hver prøve inneholder kartcellen, signalstyrken og hop-banen, men aldri din eksakte posisjon eller identitet. Opplastinger følger innstillingene dine for «Kun Wi-Fi» og opplastingsintervall.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_toggle": {
+    "value": "Kart til mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_mapper_name": {
+    "value": "Kartleggerens navn",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy": {
+    "value": "Personvern",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_live": {
+    "value": "Live",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_normal": {
+    "value": "Normal (3 timers forsinkelse)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_anonym": {
+    "value": "Anonym (24 timer)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_header": {
+    "value": "meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_footer": {
+    "value": "Når denne funksjonen er aktivert, deler KiekR informasjon om hvilke kartceller som har mesh-dekning med meshcore-analyzer.eu. Hver prøve inneholder kartcellen, signalstyrken og hop-banen, men aldri din eksakte posisjon eller identitet. Opplastinger følger innstillingene dine for «kun Wi-Fi» og opplastingsintervall.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_toggle": {
+    "value": "Kart til meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_mapper_name": {
+    "value": "Kartleggerens navn",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy": {
+    "value": "Personvern",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_public": {
+    "value": "Offentlig",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_anonymous": {
+    "value": "Anonym",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "node_detail_not_connected": {
+    "value": "Ikke tilkoblet",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  }
 }

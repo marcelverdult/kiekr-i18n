@@ -3,7 +3,7 @@
     "language": "uk",
     "name": "Українська",
     "managed_by": "community",
-    "updated": "2026-08-08"
+    "updated": "2026-08-09"
   },
   "add_channel_duplicate_key": {
     "value": "Цей ключ уже належить до «%1$s».",
@@ -4980,8 +4980,16 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_backup_include_messages": null,
-  "settings_backup_include_messages_advisory": null,
+  "settings_backup_include_messages": {
+    "value": "Включити повідомлення",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_backup_include_messages_advisory": {
+    "value": "Історія каналів та особистих повідомлень зберігається у резервній копії. Файл буде більшим, а експорт може тривати довше.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
   "settings_backup_passphrase_advisory": {
     "value": "Це НЕ ваш PIN-код для сполучення через BLE. Він служить лише для захисту цього резервного файлу — виберіть щось, що легко запам’ятати; KiekR не зможе його відновити.",
     "_ai": true,
@@ -8577,31 +8585,139 @@
     "_ai": true,
     "_seeded": "2026-08-07"
   },
-  "coverage_map_title": null,
-  "coverage_map_stats": null,
-  "coverage_map_new_hexes": null,
-  "coverage_map_legend_strong": null,
-  "coverage_map_legend_weak": null,
-  "coverage_map_legend_older": null,
-  "coverage_map_legend_you": null,
-  "coverage_map_sound_toggle": null,
-  "coverage_map_follow_me": null,
-  "coverage_map_disabled": null,
-  "coverage_map_open_settings": null,
-  "settings_community_mapme_header": null,
-  "settings_community_mapme_footer": null,
-  "settings_community_mapme_toggle": null,
-  "settings_community_mapme_mapper_name": null,
-  "settings_community_mapme_privacy": null,
-  "settings_community_mapme_privacy_live": null,
-  "settings_community_mapme_privacy_normal": null,
-  "settings_community_mapme_privacy_anonym": null,
-  "settings_community_analyzer_header": null,
-  "settings_community_analyzer_footer": null,
-  "settings_community_analyzer_toggle": null,
-  "settings_community_analyzer_mapper_name": null,
-  "settings_community_analyzer_privacy": null,
-  "settings_community_analyzer_privacy_public": null,
-  "settings_community_analyzer_privacy_anonymous": null,
-  "node_detail_not_connected": null
+  "coverage_map_title": {
+    "value": "Карта покриття",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_stats": {
+    "value": "Сьогодні %1$d · загалом %2$d",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_new_hexes": {
+    "value": "%1$d нових гексів за цю сесію",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_strong": {
+    "value": "Сьогодні · сильний",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_weak": {
+    "value": "Сьогодні · слабкий",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_older": {
+    "value": "Минулі дні",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_legend_you": {
+    "value": "Ви",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_sound_toggle": {
+    "value": "Звук виявлення",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_follow_me": {
+    "value": "Стежити за моїм місцезнаходженням",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_disabled": {
+    "value": "Функція «Покриття» вимкнена. Увімкніть її в меню «Налаштування» → «Спільнота», щоб відобразити маршрут вашої поїздки на карті.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "coverage_map_open_settings": {
+    "value": "Відкрити налаштування",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_header": {
+    "value": "mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_footer": {
+    "value": "Коли ця функція увімкнена, KiekR передає інформацію про те, які комірки карти мають покриття мережі mesh, на mapme.sh — карту покриття, що створюється спільнотою. Кожен зразок містить інформацію про комірку карти, силу сигналу та маршрут передачі, але ніколи не розкриває вашого точного місцезнаходження чи особистість. Завантаження відбувається відповідно до ваших налаштувань «Тільки Wi-Fi» та інтервалу завантаження.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_toggle": {
+    "value": "Карта на mapme.sh",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_mapper_name": {
+    "value": "Назва картографа",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy": {
+    "value": "Конфіденційність",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_live": {
+    "value": "У реальному часі",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_normal": {
+    "value": "Звичайний режим (затримка 3 години)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_mapme_privacy_anonym": {
+    "value": "Анонімно (24 години)",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_header": {
+    "value": "meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_footer": {
+    "value": "Коли ця функція увімкнена, KiekR ділиться з meshcore-analyzer.eu інформацією про те, які комірки карти мають покриття мережі. Кожен зразок містить інформацію про комірку карти, силу сигналу та маршрут передачі, але ніколи не розкриває вашого точного місцезнаходження чи особистість. Завантаження відбувається відповідно до ваших налаштувань «Тільки Wi-Fi» та інтервалу завантаження.",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_toggle": {
+    "value": "Карта на meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_mapper_name": {
+    "value": "Назва маппера",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy": {
+    "value": "Конфіденційність",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_public": {
+    "value": "Публічно",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "settings_community_analyzer_privacy_anonymous": {
+    "value": "Анонімно",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  },
+  "node_detail_not_connected": {
+    "value": "Не підключено",
+    "_ai": true,
+    "_seeded": "2026-08-09"
+  }
 }
