@@ -7175,5 +7175,1315 @@
   "mynode_sensors_decode_failed": {
     "value": "Sensor-Daten konnten nicht dekodiert werden.",
     "_human": true
+  },
+  "ios_appshell_decide_later": {
+    "value": "Später entscheiden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_appshell_enable_now": {
+    "value": "Jetzt aktivieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_appshell_not_now": {
+    "value": "Nicht jetzt",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_addtodevicepromp_add_to_node": {
+    "value": "Zum Knoten hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_navbarsearchfiel_clear_search": {
+    "value": "Suche löschen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoadd_auto_add_adverts": {
+    "value": "Anzeigen automatisch hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoadd_overwrite_oldest_when_full": {
+    "value": "Älteste Einträge überschreiben, wenn Speicher voll ist",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_background_lookups": {
+    "value": "Hintergrundabfragen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_when_on_kiekr_may_automatically_issue_di": {
+    "value": "Wenn diese Option aktiviert ist, führt KiekR möglicherweise automatisch Verzeichnisabfragen für fehlende Kontextdaten durch, die die App passiv erkennt – unbekannte Hops in einem Pfad, empfangene Repeater, die noch nicht im Verzeichnis enthalten sind, fehlende Nachbarzeilen und fehlende Regionen bei einer Erkennung. Wenn diese Option deaktiviert ist (Standardeinstellung), erfordert jede Verzeichnisabfrage einen Fingertipp.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_path_hops_without_a_name": {
+    "value": "Pfad-Hops ohne Namen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_heard_repeaters_not_in_the_directory": {
+    "value": "Erkannte Repeater, die nicht im Verzeichnis sind",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_neighbour_rows_the_device_hasn_t_seen_ye": {
+    "value": "Nachbarzeilen, die das Gerät noch nicht gesehen hat",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_missing_regions_on_discover": {
+    "value": "Fehlende Regionen bei der Erkennung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_surfaces_affected": {
+    "value": "Betroffene Oberflächen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_autoresolve_lookups_go_to_the_kiekr_directory_only_n": {
+    "value": "Abfragen erfolgen ausschließlich im KiekR-Verzeichnis – niemals bei einem Drittanbieter-Host. Cache-Lesevorgänge bleiben kostenlos; dieser Schalter regelt die Netzwerk-Hälfte.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_export_meshcore_compatible_json": {
+    "value": "Export (MeshCore-kompatibles JSON)",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_plain_json_the_stock_meshcore_app_reads_": {
+    "value": "Einfaches JSON. Die Standard-MeshCore-App liest diese Datei einwandfrei. Kanäle + Kontakte + Identität werden übertragen; Nachrichten hingegen nicht.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_export_encrypted_kiekr_bundle": {
+    "value": "Export (verschlüsseltes KiekR-Bundle)",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_all_kiekr_data_regions_repeater_logins_m": {
+    "value": "Alle KiekR-Daten (Regionen, Repeater-Anmeldungen, manuelle Pfade, MQTT-Broker…) sowie das Standard-JSON, verschlüsselt mit AES-256-GCM und einer Passphrase deiner Wahl. Verwende dies zwischen KiekR-Installationen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_backup": {
+    "value": "Sicherung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_export_passphrase": {
+    "value": "Passphrase exportieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_this_is_not_your_ble_pairing_pin_and_not": {
+    "value": "Dies ist NICHT deine BLE-Kopplungs-PIN und auch NICHT deine Identitäts-Passphrase. Sie schützt ausschließlich diese Sicherungsdatei. Wähle etwas, das Sie sich gut merken können – KiekR kann sie nicht für dich wiederherstellen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_passphrases_don_t_match": {
+    "value": "Die Passphrasen stimmen nicht überein.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_include_messages": {
+    "value": "Nachrichten einbeziehen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_channel_and_dm_history_travels_in_the_ba": {
+    "value": "Der Kanal- und DM-Verlauf wird in der Sicherung mitübertragen. Die Datei wird dadurch größer und der Export kann länger dauern.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_encrypt_backup": {
+    "value": "Sicherung verschlüsseln",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_export": {
+    "value": "Exportieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_file": {
+    "value": "Datei",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_size": {
+    "value": "Größe",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_passphrase": {
+    "value": "Passphrase",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_the_passphrase_you_set_when_exporting_th": {
+    "value": "Die Passphrase, die du beim Exportieren dieses Bundles festgelegt hast. Nicht deine BLE-PIN.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_merge_instead_of_replace": {
+    "value": "Zusammenführen statt ersetzen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_backup_confirm_import": {
+    "value": "Import bestätigen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_visible": {
+    "value": "Sichtbar",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_background": {
+    "value": "Hintergrund",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_battery_polling": {
+    "value": "Batterieabfrage",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_how_often_the_app_asks_the_device_for_ba": {
+    "value": "Wie oft die App die Batteriespannung des Geräts abfragt. „Sichtbar“ läuft, solange die App geöffnet ist; „Hintergrund“, solange sie ausgeblendet ist. Höhere Frequenz = aktuellere Messwerte, mehr BLE-Datenverkehr.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_warn_at": {
+    "value": "Warnen bei",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_re_arm_gap": {
+    "value": "Wiederaktivierungslücke",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_low_battery_warning": {
+    "value": "Warnung bei niedrigem Akkustand",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_notify_when_the_connected_device_drops_t": {
+    "value": "Benachrichtigung, wenn der Prozentsatz des verbundenen Geräts auf den Warnwert fällt. Die Wiederaktivierungslücke gibt an, um wie viel Prozent der Wert wieder über den Schwellenwert steigen muss, bevor die nächste Warnung ausgelöst werden kann – vergrößere sie, wenn deine Akkukurve ein Plateau erreicht (LiFePO4, AA).",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_curve": {
+    "value": "Kurve",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_battery_curve": {
+    "value": "Batteriekurve",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_customize_the_mv_percent_table_for_this_": {
+    "value": "Passe die mV-→-Prozent-Tabelle für diese Hardware-Variante an. Die Standardkurve ist eine Annäherung für eine Einzelzellen-LiPo-/Li-Ionen-OCV; überschreibe sie, wenn dein Akku eine andere Chemie verwendet (LiFePO4, AA, Zweizellen).",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_preview": {
+    "value": "Vorschau",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_solid_line_curve_you_re_saving_dashed_li": {
+    "value": "Durchgezogene Linie = Kurve, die du gerade speicherst. Gestrichelte Linie = Standardkurve für diese Variante.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_percent": {
+    "value": "Prozent",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_add_anchor": {
+    "value": "Anker hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_anchors": {
+    "value": "Anker",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_voltages_must_be_strictly_increasing_per": {
+    "value": "Spannungen müssen streng monoton steigend sein; Prozentwerte dürfen nicht abnehmen. Mit „Einfügen“ wird ein Anker am Mittelpunkt der größten Lücke gesetzt.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_reset_to_default": {
+    "value": "Auf Standard zurücksetzen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_battery_couldn_t_save_curve": {
+    "value": "Kurve konnte nicht gespeichert werden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_blocklist_swipe_to_unblock_their_past_messages_rea": {
+    "value": "Wischen, um die Sperre aufzuheben. Die bisherigen Nachrichten der Person erscheinen nach Aufhebung der Sperre wieder in allen Kanälen. Die Sperre erfolgt anhand des genau angezeigten Namens – da jeder diesen Namen wählen kann, hindert dies einen entschlossenen Poster nicht daran, den Namen zu ändern.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channelimportcon_channel_conflicts": {
+    "value": "Kanal-Konflikte",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_connected_to_a_stock_node_only_channels_": {
+    "value": "Mit einem Standardknoten verbunden – es können nur Kanäle senden, die auf dem Gerät installiert sind. Wische nach rechts, um einen Kanal zum Gerät hinzuzufügen oder daraus zu entfernen. Wische nach links, um einen Kanal zu entfernen – #-Kanäle behalten ihren Schlüssel, sodass du sie anhand des Namens wieder hinzufügen kannst; Kanäle mit benutzerdefiniertem Schlüssel werden dauerhaft gelöscht.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_channels_must_be_assigned_a_region_to_be": {
+    "value": "Kanälen muss eine Region zugewiesen werden, damit sie in den meisten Netzwerken wiederholt werden können. Tippe auf einen Kanal, um ihn zuzuweisen. Wische nach links, um ihn zu entfernen – #-Kanäle behalten ihren Schlüssel, sodass du sie anhand des Namens wieder hinzufügen kannst; Kanäle mit benutzerdefiniertem Schlüssel werden dauerhaft gelöscht.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_device_is_full": {
+    "value": "Gerät ist voll",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_remove_from_device": {
+    "value": "Vom Gerät entfernen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_add_to_device": {
+    "value": "Zum Gerät hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_copy_channel_key": {
+    "value": "Kanal-Schlüssel kopieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_all_messages": {
+    "value": "Alle Nachrichten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_mentions_only": {
+    "value": "Nur Erwähnungen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_show_qr_code_for_sharing": {
+    "value": "QR-Code zum Teilen anzeigen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_device_slot": {
+    "value": "Geräteslot",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_device": {
+    "value": "Gerät",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_add_new_region": {
+    "value": "Neue Region hinzufügen…",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channels_hansemesh": {
+    "value": "hansemesh",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_filter": {
+    "value": "Filter",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_no_posts_yet": {
+    "value": "Noch keine Beiträge",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_not_on_node": {
+    "value": "Nicht auf dem Knoten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_add_all": {
+    "value": "Alle hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_ignore_all": {
+    "value": "Alle ignorieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_close": {
+    "value": "Schließen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_this_stops_prompts_for_all_discovered_ch": {
+    "value": "Dadurch werden die Abfragen für alle erkannten Kanäle deaktiviert. Du kannst diese später weiterhin unter „Einstellungen“ → „Kanäle“ hinzufügen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_traffic_heard_nearby": {
+    "value": "In der Nähe empfangener Datenverkehr",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_on_device": {
+    "value": "Auf dem Gerät",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_latest_message": {
+    "value": "Neueste Nachricht",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_channellist_ignore": {
+    "value": "Ignorieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_conversation_contact_details": {
+    "value": "Kontaktdaten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_conversation_guest_access_read_only": {
+    "value": "Gastzugang – nur lesbar",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_conversation_sign_in_as_a_member_with_write_access_to": {
+    "value": "Melde dich als Mitglied mit Schreibzugriff an, um Beiträge zu verfassen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_conversation_clear_reply_region_override": {
+    "value": "Überschreibung des Antwortbereichs löschen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_conversation_new_messages_divider": {
+    "value": "Trennzeichen für neue Nachrichten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_reply": {
+    "value": "Antworten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_look_up_in_directory": {
+    "value": "Im Verzeichnis nachschlagen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_no_ack": {
+    "value": "Kein ACK",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_retry_sending": {
+    "value": "Versand wiederholen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_maximum_retries_reached": {
+    "value": "Maximale Anzahl an Wiederholungsversuchen erreicht",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_author_prefix": {
+    "value": "Autorenpräfix",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_tap_look_up_to_query_the_online_director": {
+    "value": "Tippe auf „Nachschlagen“, um das Online-Verzeichnis nach diesem 4-Byte-Autorschlüssel abzufragen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_matches": {
+    "value": "Treffer",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_searching": {
+    "value": "Suche läuft…",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_no_matches": {
+    "value": "Keine Treffer.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagebubble_author_lookup": {
+    "value": "Autorensuche",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagedetailshe_resolve_missing_hops_online": {
+    "value": "Fehlende Hops online auflösen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagedetailshe_online_directory_is_off_enable_a_source_": {
+    "value": "Das Online-Verzeichnis ist deaktiviert – aktiviere eine Quelle unter „Einstellungen“ → „Freigabe“ → „Verzeichnis“.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_messagedetailshe_several_repeaters_match_this_hop_s_short": {
+    "value": "Mehrere Repeater stimmen mit dem Kurzpfadpräfix dieses Hops überein. Wir können den richtigen nicht automatisch auswählen – wähle den aus, der auf deinem Weg lag.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_coveragemap_no_hexes_mapped_yet_drive_around_with_th": {
+    "value": "Es sind noch keine Hex-Werte zugeordnet – fahre mit eingeschaltetem Funkgerät herum, dann werden sie hier angezeigt.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_customization_customization": {
+    "value": "Anpassung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_directory_use_online_directory": {
+    "value": "Online-Verzeichnis verwenden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_directory_master_switch_when_off_no_directory_look": {
+    "value": "Hauptschalter. Wenn dieser ausgeschaltet ist, werden keine Verzeichnissuchen durchgeführt, unabhängig davon, welche Quellen unten aktiviert sind. Zwischengespeicherte Ergebnisse bleiben weiterhin gültig. Aktiviere eine Quelle unten, um neue Suchen zu starten.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_directory_add_source": {
+    "value": "Quelle hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_directory_removes_every_contact_row_imported_from_": {
+    "value": "Entfernt alle aus dem Online-Verzeichnis importierten Kontaktzeilen sowie den Präfix-Cache auf der Festplatte. Über Kabel empfangene Kontakte bleiben unberührt.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_directory_remove_all_directory_rows": {
+    "value": "Alle Verzeichniszeilen entfernen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_help_bundles_the_app_s_recent_log_so_you_can_": {
+    "value": "Bündelt das aktuelle Protokoll der App, damit du es über Telegram, Signal, E-Mail oder ein anderes Freigabeziel an den Entwickler senden kannst. Enthält dein Gerätemodell, die iOS-Version, den App-Build und die Firmware des gekoppelten Knotens (Semver + Protokollversion). Es werden keine Nachrichteninhalte oder vollständige Identitätsschlüssel enthalten.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_help_paired_firmware": {
+    "value": "Gekoppelte Firmware",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_favorites_only": {
+    "value": "Nur Favoriten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_show_hidden": {
+    "value": "Versteckte anzeigen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_fit_all_pins": {
+    "value": "Alle Pins anzeigen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_more_filters": {
+    "value": "Weitere Filter…",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_fit_map_to_neighbours": {
+    "value": "Karte an Nachbarn anpassen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_refresh_neighbours": {
+    "value": "Nachbarn aktualisieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_hide_neighbours": {
+    "value": "Nachbarn ausblenden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_recency": {
+    "value": "Aktualität",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_reset_filters": {
+    "value": "Filter zurücksetzen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_map_map_filters": {
+    "value": "Kartenfilter",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_wifi_only": {
+    "value": "Nur WLAN",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_paused_on_cellular": {
+    "value": "Angehalten – über Mobilfunk",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_observer_name": {
+    "value": "Beobachter-Name",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_meshcore_io": {
+    "value": "meshcore.io",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_i_understand": {
+    "value": "Ich verstehe",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_edit_broker": {
+    "value": "Broker bearbeiten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_server": {
+    "value": "Server",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_port": {
+    "value": "Port",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_transport": {
+    "value": "Transport",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_verify_certificate": {
+    "value": "Zertifikat überprüfen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_method": {
+    "value": "Methode",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_username": {
+    "value": "Benutzername",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_audience": {
+    "value": "Zielgruppe",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_client_id_optional": {
+    "value": "Client-ID (optional)",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_retain_status": {
+    "value": "Status beibehalten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_topic_packets": {
+    "value": "Thema – Pakete",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_topic_status": {
+    "value": "Thema – Status",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_topic_debug": {
+    "value": "Thema – Debug",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_topic_raw": {
+    "value": "Thema – Raw",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mqtt_upload_pubkey": {
+    "value": "Öffentlicher Schlüssel hochladen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_rename_node": {
+    "value": "Knoten umbenennen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_reboot_now": {
+    "value": "Jetzt neu starten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_factory_reset_the_connected_node": {
+    "value": "Den verbundenen Knoten auf die Werkseinstellungen zurücksetzen?",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_type_reset": {
+    "value": "RESET eingeben",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_factory_reset": {
+    "value": "Auf Werkseinstellungen zurücksetzen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_connect": {
+    "value": "Verbinden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_payload": {
+    "value": "Nutzdaten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_broadcast_my_advert": {
+    "value": "Meine Anzeige senden…",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_connect_via_wifi": {
+    "value": "Über WLAN verbinden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_disconnect_wifi": {
+    "value": "WLAN-Verbindung trennen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_disconnect": {
+    "value": "Trennen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_reboot_device": {
+    "value": "Gerät neu starten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_factory_reset_device": {
+    "value": "Gerät auf Werkseinstellungen zurücksetzen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_delete": {
+    "value": "Löschen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_active": {
+    "value": "· aktiv",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_copy_full_public_key": {
+    "value": "Vollständigen öffentlichen Schlüssel kopieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_64_or_128_hex_characters": {
+    "value": "64 oder 128 Hexadezimalzeichen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_load_from_backup_file": {
+    "value": "Aus Sicherungsdatei laden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_save_and_push_to_device": {
+    "value": "Speichern und auf das Gerät übertragen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_saves_the_identity_locally_if_the_key_is": {
+    "value": "Speichert die Identität lokal. Wenn der Schlüssel auf einem Seed basiert und ein Companion verbunden ist, wird der Seed ebenfalls über CMD_IMPORT_PRIVATE_KEY auf das Gerät übertragen – dies überschreibt die aktuelle Identität des Geräts.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_lora_radio": {
+    "value": "LoRa-Funk",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_apply": {
+    "value": "Übernehmen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_change_pin": {
+    "value": "PIN ändern",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_host_e_g_192_168_1_42": {
+    "value": "Host (z. B. 192.168.1.42)",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_wifi_connection": {
+    "value": "WLAN-Verbindung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_zero_hop": {
+    "value": "Zero-Hop",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_flood_the_mesh": {
+    "value": "Mesh fluten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_mynode_broadcast_advert": {
+    "value": "Advert-Broadcast",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_addregionsheet_region_name": {
+    "value": "Regionsname",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_addregionsheet_add_region": {
+    "value": "Region hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_defaultregionsco_default_region_scope": {
+    "value": "Standard-Regionsbereich",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manageregions_discard_leave": {
+    "value": "Verwerfen & Verlassen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manageregions_deny_flood": {
+    "value": "Flut verweigern",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manageregions_allow_flood": {
+    "value": "Flut zulassen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manageregions_delete_region": {
+    "value": "Region löschen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manualpathsheet_append_a_repeater": {
+    "value": "Repeater anhängen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manualpathsheet_clear_stored_manual_path": {
+    "value": "Gespeicherten manuellen Pfad löschen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manualpathsheet_manual_path": {
+    "value": "Manueller Pfad",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_manualpathsheet_pick_a_repeater": {
+    "value": "Repeater auswählen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_delete_permanently": {
+    "value": "Endgültig löschen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_copy_public_key": {
+    "value": "Öffentlicher Schlüssel kopieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_show_on_apple_maps": {
+    "value": "Auf Apple Maps anzeigen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_show_on_google_maps": {
+    "value": "Auf Google Maps anzeigen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_add_contact_or_channel": {
+    "value": "Kontakt oder Kanal hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_sort_by": {
+    "value": "Sortieren nach",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_direction": {
+    "value": "Richtung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_include_online_directory_entries": {
+    "value": "Einträge aus Online-Verzeichnissen einbeziehen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_filters": {
+    "value": "Filter",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_originator_clock_skew_using_local_receiv": {
+    "value": "Zeitabweichung des Absenders – unter Verwendung der lokalen Empfangszeit",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_connect_your_node_to_manage_this_repeate": {
+    "value": "Verbinde deinen Knoten, um diesen Repeater zu verwalten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_some_admin_controls_status_trace_cli_clo": {
+    "value": "Einige Verwaltungsfunktionen (Status, Trace, CLI, Uhr, Firmware, Position, Neustart) sind über den Connector noch nicht verfügbar.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_waiting_for_repeater_reply": {
+    "value": "Warten auf Antwort des Repeaters",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_segment": {
+    "value": "Segment",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_flood_advert": {
+    "value": "Flood-Anzeige",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_zero_hop_advert": {
+    "value": "Zero-Hop-Ankündigung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_manual_hops": {
+    "value": "Manuelle Hops",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_manage_regions": {
+    "value": "Regionen verwalten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_refresh_path_or_set_a_manual_path_first": {
+    "value": "Aktualisiere den Pfad oder lege zunächst einen manuellen Pfad fest.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_scroll_to_the_path_section": {
+    "value": "Blättere zum Abschnitt „Pfad“.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_show_on_map": {
+    "value": "Auf der Karte anzeigen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_send_message": {
+    "value": "Nachricht senden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_rename_contact": {
+    "value": "Kontakt umbenennen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_sends_a_rename_to_the_repeater_the_new_n": {
+    "value": "Sendet eine Umbenennung an den Repeater. Der neue Name wird angezeigt, sobald eine neue Ankündigung eintrifft.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_favourites_pin_this_repeater_for_quicker": {
+    "value": "Mit „Favoriten“ kannst du diesen Repeater für einen schnelleren Zugriff anheften. Du kannst dies jederzeit über die Stern-Schaltfläche unten ändern.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_refresh_firmware_version": {
+    "value": "Firmware-Version aktualisieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_log_in": {
+    "value": "Anmelden",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_owner_info_not_fetched_yet": {
+    "value": "Besitzerinformationen noch nicht abgerufen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_look_up_unknown_neighbours_online": {
+    "value": "Unbekannte Nachbarn online suchen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_flood": {
+    "value": "Flood",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_custom_name": {
+    "value": "Benutzerdefinierter Name",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_repeater_login": {
+    "value": "Repeater-Anmeldung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_clock_is_set_ahead_stock_firmware_refuse": {
+    "value": "Die Uhr ist vorgestellt. Die Standard-Firmware lehnt eine Rückwärtssynchronisation ab.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_nodes_command": {
+    "value": "Befehl…",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_qrdisplay_copy_link": {
+    "value": "Link kopieren",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_qrscanner_scan_qr_code": {
+    "value": "QR-Code scannen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_roomadmin_open_room_chat": {
+    "value": "Raum-Chat öffnen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_roomadmin_password_is_limited_to_15_characters_any": {
+    "value": "Das Passwort ist auf 15 Zeichen begrenzt – alles, was länger ist, wird beim Einloggen abgeschnitten.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_sethomeregionpic_set_home_region": {
+    "value": "Heimatregion festlegen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_allow_notifications": {
+    "value": "Benachrichtigungen zulassen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_master_switch_when_off_kiekr_posts_no_no": {
+    "value": "Hauptschalter. Wenn diese Option deaktiviert ist, sendet KiekR keine Benachrichtigungen zu Nachrichten, Kanälen oder Ankündigungen. Die untenstehenden Einstellungen für die einzelnen Typen bleiben erhalten.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_direct_messages": {
+    "value": "Direktnachrichten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_notify_on_every_inbound_dm_dms_are_crypt": {
+    "value": "Bei jeder eingehenden Direktnachricht benachrichtigen. Direktnachrichten werden kryptografisch authentifiziert – das Deaktivieren dieser Option unterdrückt lediglich die Benachrichtigung; die Nachricht erscheint weiterhin in deiner Chat-Liste.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_adverts": {
+    "value": "Ankündigungen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_notify_when_a_node_of_the_selected_type_": {
+    "value": "Benachrichtigung, wenn ein Knoten des ausgewählten Typs auf Sendung geht. Ankündigungen sind standardmäßig laut; aktiviere „Repeater“, wenn du über neue Repeater informiert werden möchtest, sobald sie erscheinen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_notify_when_traffic_arrives_on_a_never_a": {
+    "value": "Benachrichtigung, wenn Datenverkehr auf einem noch nicht hinzugefügten Kanal eintrifft",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_notify_on_first_traffic_this_session_for": {
+    "value": "Benachrichtigung beim ersten Datenverkehr in dieser Sitzung für jeden Kanal, den du noch nicht hinzugefügt hast (wie #test oder #ping). So kannst du aktive Kanäle entdecken, ohne bei jeder Nachricht erneut benachrichtigt zu werden.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_per_channel_settings": {
+    "value": "Einstellungen pro Kanal",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_quiet_hours": {
+    "value": "Ruhezeiten",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_use_ios_focus_modes_settings_focus_to_si": {
+    "value": "Verwende die iOS-Fokusmodi (Einstellungen → Fokus), um KiekR während der Schlafenszeiten oder bei Besprechungen stummzuschalten. KiekR erfindet das nicht neu.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_sound_haptics": {
+    "value": "Ton & Haptik",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_notifications_system_settings_notifications_kiekr_cont": {
+    "value": "Unter „Systemeinstellungen → Benachrichtigungen → KiekR“ kannst du das Ton- und Badge-Verhalten für jede Kategorie steuern.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_pathlookup_multi_byte_hops_require_companion_firmwa": {
+    "value": "Für Multi-Byte-Hops ist die Companion-Firmware v1.15.0 oder neuer erforderlich. Dein Companion meldet eine ältere Version – bis zum Upgrade ist die Übertragung auf 1 Byte beschränkt. Deine bisherigen Einstellungen bleiben erhalten und werden nach dem Upgrade wieder aktiviert.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_pathlookup_cache_ttl": {
+    "value": "Cache-TTL",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_pathlookup_tiebreaker_margin": {
+    "value": "Tiebreaker-Marge",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_pathlookup_path_resolution_cache": {
+    "value": "Cache für Pfadauflösung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_pathlookup_looking_for_the_directory_source_picker_": {
+    "value": "Suchst du die Verzeichnisauswahl? Sie wurde unter „Einstellungen“ → „Freigabe“ → „Verzeichnis“ verschoben.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_regions_tap_above_to_add_a_region_by_name_or_sca": {
+    "value": "Tippe oben auf „+“, um eine Region nach Namen hinzuzufügen, oder scanne einen nahegelegenen Repeater nach den Regionen, die er weiterleitet.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_regions_swipe_a_region_to_remove_it_it_stays_in_": {
+    "value": "Wische über eine Region, um sie zu entfernen. Sie bleibt in der Datenbank erhalten (und kommentiert weiterhin den eingehenden Datenverkehr), verschwindet jedoch aus dieser Liste und aus den Kanalauswahlen – füge sie erneut anhand des Namens hinzu, um sie wiederherzustellen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_regions_fetch_regions_from_all": {
+    "value": "Regionen von allen abrufen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_regions_results": {
+    "value": "Ergebnisse",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_regions_add_by_name": {
+    "value": "Nach Namen hinzufügen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_regions_already_added": {
+    "value": "Bereits hinzugefügt",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_auto_save_persists_each_region_list_chan": {
+    "value": "Die automatische Speicherung übernimmt jede Änderung an der Regionsliste sofort. Die Zeitlimits für Antworten und die Wiederholungsversuche pro Anfrage werden über die Regler unten eingestellt.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_repeater_request_timeout": {
+    "value": "Zeitlimit für Repeater-Anfragen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_request_timeout": {
+    "value": "Zeitlimit für Anfragen",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_how_long_to_wait_for_a_reply_before_givi": {
+    "value": "Wie lange auf eine Antwort gewartet werden soll, bevor aufgegeben wird – gilt für CLI (set name / position / reboot / advert / clock / ver), Status, Telemetrie, Eigentümer-Info, Anmeldung und Pfadverfolgung. Standardwert 30 s, Bereich 10–60. Dies ist die Zahl, von der aus der Countdown für laufende Anfragen herunterzählt.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_max_retries": {
+    "value": "Maximale Wiederholungsversuche",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_manual_retry_cap": {
+    "value": "Manuelle Obergrenze für Wiederholungsversuche",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_hard_cap_on_user_initiated_retries_per_o": {
+    "value": "Feste Obergrenze für benutzerinitiierte Wiederholungsversuche pro ausgehender Nachricht – das orangefarbene ↻-Symbol auf nicht bestätigten Sprechblasen. Sobald die Obergrenze erreicht ist, wird das Symbol ausgegraut und akzeptiert keine Tippen mehr. Standardwert 5 (entspricht der automatischen Wiederholungsleiter: 3× direkt + 2× Flood).",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_channel_delay": {
+    "value": "Kanalverzögerung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_channel_retry_delay": {
+    "value": "Kanal-Wiederholungsverzögerung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_retries": {
+    "value": "Wiederholungsversuche",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_retry_interval": {
+    "value": "Wiederholungsintervall",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_region_discovery": {
+    "value": "Regionserkennung",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_how_many_times_to_retry_the_region_list_": {
+    "value": "Wie oft die Anfrage nach der Regionsliste nach dem ersten Versand wiederholt werden soll (Gesamtversuche = Wiederholungsversuche + 1) und wie lange zwischen den Versuchen gewartet werden soll. Standard: 2 Wiederholungsversuche, 8 s Intervall.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_how_many_times_to_retry_the_operator_inf": {
+    "value": "Wie oft die Anfrage nach Betreiberinformationen nach dem ersten Versand wiederholt werden soll und wie lang das Intervall zwischen den Versuchen sein soll. Standard: 1 Wiederholungsversuch, 8 s Intervall.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_page_size": {
+    "value": "Seitengröße",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_neighbours_fetch": {
+    "value": "Abruf der Nachbarn",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_the_neighbour_list_is_fetched_page_by_pa": {
+    "value": "Die Nachbarnliste wird seitenweise abgerufen; Wiederholungsversuche decken eine verlorene Seite ab (Gesamtversuche = Wiederholungsversuche + 1). Standard: 1 Wiederholungsversuch, Intervall 10 s. Die Seitengröße wird auf die Obergrenze des Antwortpuffers der Firmware begrenzt.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_discovers_the_route_to_a_repeater_defaul": {
+    "value": "Ermittelt die Route zu einem Repeater. Standard: 0 Wiederholungsversuche (ein einziger Versuch) – die Standard-Firmware setzt ihren „pending-trace“-Slot bei jeder neuen Anfrage zurück, sodass ein Wiederholungsversuch auf der Telefonseite eine langsame, noch in Bearbeitung befindliche Antwort unterbrechen kann, anstatt sie zu retten. Nur erhöhen, wenn deine Firmware dies nicht mehr tut. Bei Erhöhung 10 s zwischen den Versuchen.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_interval": {
+    "value": "Intervall",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_discover_scan": {
+    "value": "Discover-Scan",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_how_many_times_to_retry_a_discover_req_b": {
+    "value": "Wie oft ein DISCOVER_REQ-Broadcast-Scan nach dem ersten Versand wiederholt werden soll und das Intervall zwischen den Versuchen. Standard: 2 Wiederholungsversuche, 5 s Intervall.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_aggregate_telemetry": {
+    "value": "Aggregierte Telemetrie",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_retriesandtimeou_how_many_times_to_retry_an_aggregate_tel": {
+    "value": "Wie oft eine Anfrage zur aggregierten Telemetrie nach dem ersten Versand wiederholt werden soll und das Intervall zwischen den Versuchen. Standard: 1 Wiederholungsversuch, 10 s Intervall.",
+    "_human": true,
+    "_seeded": "2026-08-12"
+  },
+  "ios_traceroute_repeaters_you_ve_saved_or_heard_appear_h": {
+    "value": "Hier werden Repeater angezeigt, die du gespeichert oder empfangen hast.",
+    "_human": true,
+    "_seeded": "2026-08-12"
   }
 }
