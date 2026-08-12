@@ -8941,5 +8941,105 @@
     "value": "Les répéteurs que vous avez enregistrés ou détectés apparaissent ici.",
     "_ai": true,
     "_seeded": "2026-08-12"
+  },
+  "repeater_err_admin_required_command": {
+    "value": "Connexion administrateur requise pour cette commande.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_admin_required_fw_version": {
+    "value": "Connexion administrateur requise pour consulter la version du micrologiciel de cette manière.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_bad_password": {
+    "value": "Mot de passe incorrect.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "directory_corescope_url_hint": {
+    "value": "Les instances CoreScope utilisent les interfaces `/api/resolve-hops` et `/api/nodes/search`. L'URL est vérifiée avant que vous ne puissiez enregistrer.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "notifications_channel_scope_hint": {
+    "value": "Chaque canal dispose de ses propres paramètres « all » (tout), « mention » (mention) et « off » (désactivé). La mention correspond à `@<votre_nom>` en texte clair déchiffré.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_empty_command": {
+    "value": "Commande vide ou non valide.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "map_path_fit": {
+    "value": "Ajuster",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "conversation_last_refreshed": {
+    "value": "Dernière actualisation : %@",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_login_rejected": {
+    "value": "Connexion refusée par le répéteur.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "map_path_message_path": {
+    "value": "Chemin d’accès au message",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "conversation_never_refreshed": {
+    "value": "Jamais actualisé",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_no_response_fw_version": {
+    "value": "Pas de réponse — ce répéteur ne prend peut-être pas en charge les requêtes de version du micrologiciel (nécessite la version v2 ou supérieure du micrologiciel), ou est hors de portée.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_no_response_owner": {
+    "value": "Pas de réponse — ce répéteur ne prend peut-être pas en charge les informations sur le propriétaire, ou est hors de portée.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_not_connected": {
+    "value": "Non connecté à un appareil compagnon — connectez d’abord un nœud.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "channels_notify_off": {
+    "value": "Désactivé",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "room_admin_refresh": {
+    "value": "Actualiser",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_not_installed": {
+    "value": "Le répéteur n’est pas installé sur le nœud connecté. Ajoutez-le d’abord comme contact.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_rejected_relogin": {
+    "value": "Le répéteur a rejeté la demande. Reconnectez-vous et réessayez.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "backup_restore_hint": {
+    "value": "Restaurer à partir d’un fichier `.json` ou `.mcbackup`. L’importation utilise par défaut l’option « Remplacer » : vos canaux, contacts et régions existants seront effacés, puis le bundle sera inséré. Appuyez longuement sur « Confirmer » pendant 5 secondes.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "conversation_syncing_posts": {
+    "value": "Synchronisation de %d publications…",
+    "_ai": true,
+    "_seeded": "2026-08-12"
   }
 }

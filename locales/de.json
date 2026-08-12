@@ -8485,5 +8485,85 @@
     "value": "Hier werden Repeater angezeigt, die du gespeichert oder empfangen hast.",
     "_human": true,
     "_seeded": "2026-08-12"
+  },
+  "repeater_err_admin_required_command": {
+    "value": "Für diesen Befehl ist eine Admin-Anmeldung erforderlich.",
+    "_human": true
+  },
+  "repeater_err_admin_required_fw_version": {
+    "value": "Um die Firmware-Version so auszulesen, ist eine Admin-Anmeldung erforderlich.",
+    "_human": true
+  },
+  "repeater_err_bad_password": {
+    "value": "Falsches Passwort.",
+    "_human": true
+  },
+  "directory_corescope_url_hint": {
+    "value": "CoreScope-Instanzen sprechen `/api/resolve-hops` + `/api/nodes/search`. Die URL wird vor dem Speichern geprüft.",
+    "_human": true
+  },
+  "notifications_channel_scope_hint": {
+    "value": "Jeder Kanal hat eine eigene Alle-/Erwähnung-/Aus-Einstellung. Erwähnung passt auf `@<dein_name>` im entschlüsselten Klartext.",
+    "_human": true
+  },
+  "repeater_err_empty_command": {
+    "value": "Leerer oder ungültiger Befehl.",
+    "_human": true
+  },
+  "map_path_fit": {
+    "value": "Einpassen",
+    "_human": true
+  },
+  "conversation_last_refreshed": {
+    "value": "Zuletzt aktualisiert: %@",
+    "_human": true
+  },
+  "repeater_err_login_rejected": {
+    "value": "Anmeldung vom Repeater abgelehnt.",
+    "_human": true
+  },
+  "map_path_message_path": {
+    "value": "Nachrichtenpfad",
+    "_human": true
+  },
+  "conversation_never_refreshed": {
+    "value": "Nie aktualisiert",
+    "_human": true
+  },
+  "repeater_err_no_response_fw_version": {
+    "value": "Keine Antwort — dieser Repeater unterstützt Firmware-Versions-Abfragen evtl. nicht (benötigt fw v2+) oder ist außer Reichweite.",
+    "_human": true
+  },
+  "repeater_err_no_response_owner": {
+    "value": "Keine Antwort — dieser Repeater unterstützt Besitzer-Infos evtl. nicht oder ist außer Reichweite.",
+    "_human": true
+  },
+  "repeater_err_not_connected": {
+    "value": "Nicht mit einem Companion-Gerät verbunden — verbinde zuerst einen Knoten.",
+    "_human": true
+  },
+  "channels_notify_off": {
+    "value": "Aus",
+    "_human": true
+  },
+  "room_admin_refresh": {
+    "value": "Aktualisieren",
+    "_human": true
+  },
+  "repeater_err_not_installed": {
+    "value": "Repeater ist auf dem verbundenen Knoten nicht installiert. Füge ihn zuerst als Kontakt hinzu.",
+    "_human": true
+  },
+  "repeater_err_rejected_relogin": {
+    "value": "Repeater hat die Anfrage abgelehnt. Melde dich erneut an und versuche es noch einmal.",
+    "_human": true
+  },
+  "backup_restore_hint": {
+    "value": "Aus einer `.json`- oder `.mcbackup`-Datei wiederherstellen. Importe ersetzen standardmäßig — deine vorhandenen Kanäle, Kontakte und Regionen werden gelöscht, dann wird das Bündel eingefügt. Halte Bestätigen 5 Sekunden gedrückt.",
+    "_human": true
+  },
+  "conversation_syncing_posts": {
+    "value": "Synchronisiere %d Beiträge…",
+    "_human": true
   }
 }

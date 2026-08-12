@@ -8941,5 +8941,105 @@
     "value": "Aquí aparecen los repetidores que hayas guardado o que hayas detectado.",
     "_ai": true,
     "_seeded": "2026-08-12"
+  },
+  "repeater_err_admin_required_command": {
+    "value": "Se requiere iniciar sesión como administrador para este comando.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_admin_required_fw_version": {
+    "value": "Se requiere iniciar sesión como administrador para consultar la versión del firmware de esta forma.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_bad_password": {
+    "value": "Contraseña incorrecta.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "directory_corescope_url_hint": {
+    "value": "Las instancias de CoreScope utilizan `/api/resolve-hops` + `/api/nodes/search`. La URL se verifica antes de que puedas guardar los cambios.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "notifications_channel_scope_hint": {
+    "value": "Cada canal tiene su propia configuración de «todo», «menciones» y «desactivado». Las menciones coinciden con `@<tu_nombre>` en texto plano descifrado.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_empty_command": {
+    "value": "Comando vacío o no válido.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "map_path_fit": {
+    "value": "Ajustar",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "conversation_last_refreshed": {
+    "value": "Última actualización: %@",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_login_rejected": {
+    "value": "Inicio de sesión rechazado por el repetidor.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "map_path_message_path": {
+    "value": "Ruta del mensaje",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "conversation_never_refreshed": {
+    "value": "Nunca se ha actualizado",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_no_response_fw_version": {
+    "value": "Sin respuesta: es posible que este repetidor no admita solicitudes de versión de firmware (requiere fw v2+), o que se encuentre fuera de alcance.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_no_response_owner": {
+    "value": "Sin respuesta: es posible que este repetidor no admita información del propietario, o que se encuentre fuera de alcance.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_not_connected": {
+    "value": "No está conectado a un dispositivo asociado: conecta primero un nodo.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "channels_notify_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "room_admin_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_not_installed": {
+    "value": "El repetidor no está instalado en el nodo conectado. Añádelo primero como contacto.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "repeater_err_rejected_relogin": {
+    "value": "El repetidor ha rechazado la solicitud. Vuelve a iniciar sesión e inténtalo de nuevo.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "backup_restore_hint": {
+    "value": "Restaurar desde un archivo `.json` o `.mcbackup`. La importación se realiza por defecto en modo «Reemplazar»: se borrarán tus canales, contactos y regiones existentes y, a continuación, se insertará el paquete. Mantén pulsado «Confirmar» durante 5 segundos.",
+    "_ai": true,
+    "_seeded": "2026-08-12"
+  },
+  "conversation_syncing_posts": {
+    "value": "Sincronizando %d publicaciones…",
+    "_ai": true,
+    "_seeded": "2026-08-12"
   }
 }
