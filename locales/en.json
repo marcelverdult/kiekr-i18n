@@ -3,7 +3,7 @@
     "language": "en",
     "managed_by": "kiekr-team",
     "name": "English",
-    "updated": "2026-08-12"
+    "updated": "2026-08-14"
   },
   "add_channel_duplicate_key": "This key already belongs to \"%1$s\".",
   "add_channel_generate_key": "Generate random key",
@@ -2095,5 +2095,15 @@
   "repeater_err_not_installed": "Repeater isn't installed on the connected node. Add it as a contact first.",
   "repeater_err_rejected_relogin": "Repeater rejected the request. Re-login and try again.",
   "backup_restore_hint": "Restore from a `.json` or `.mcbackup` file. Imports default to Replace — your existing channels, contacts, and regions are wiped, then the bundle is inserted. Tap and hold Confirm for 5 seconds.",
-  "conversation_syncing_posts": "Syncing %d posts…"
+  "conversation_syncing_posts": "Syncing %d posts…",
+  "warn_identity_mismatch_title": "Node identity changed",
+  "warn_identity_mismatch_body": "This node's identity changed. Direct messages won't work until you re-enable key export on the node or re-pair it.",
+  "warn_channel_removed_title": "Channel removed from node",
+  "warn_channel_removed_body": "The channel \"%1$s\" was removed from this node. Re-install it on the node or leave the channel.",
+  "warn_channel_removed_reinstall_button": "Re-install",
+  "warn_channel_removed_leave_button": "Leave channel",
+  "mynode_connected_since_secs": "since %d s",
+  "mynode_connected_since_mins": "since %d min",
+  "mynode_connected_since_hours": "since %d h",
+  "mynode_connected_since_hours_mins": "since %1$d h %2$d min"
 }

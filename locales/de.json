@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "kiekr-team",
-    "updated": "2026-08-12"
+    "updated": "2026-08-14"
   },
   "app_upgrade_body": {
     "value": "Öffne die App erneut, um die neue Version fertig zu laden.",
@@ -8564,6 +8564,46 @@
   },
   "conversation_syncing_posts": {
     "value": "Synchronisiere %d Beiträge…",
+    "_human": true
+  },
+  "warn_identity_mismatch_title": {
+    "value": "Node-Identität geändert",
+    "_human": true
+  },
+  "warn_identity_mismatch_body": {
+    "value": "Die Identität dieses Node hat sich geändert. Direktnachrichten funktionieren erst wieder, wenn du den Schlüssel-Export am Node aktivierst oder ihn neu koppelst.",
+    "_human": true
+  },
+  "warn_channel_removed_title": {
+    "value": "Kanal vom Node entfernt",
+    "_human": true
+  },
+  "warn_channel_removed_body": {
+    "value": "Der Kanal \"%1$s\" wurde von diesem Node entfernt. Installiere ihn neu oder verlasse den Kanal.",
+    "_human": true
+  },
+  "warn_channel_removed_reinstall_button": {
+    "value": "Neu installieren",
+    "_human": true
+  },
+  "warn_channel_removed_leave_button": {
+    "value": "Kanal verlassen",
+    "_human": true
+  },
+  "mynode_connected_since_secs": {
+    "value": "seit %d s",
+    "_human": true
+  },
+  "mynode_connected_since_mins": {
+    "value": "seit %d Min.",
+    "_human": true
+  },
+  "mynode_connected_since_hours": {
+    "value": "seit %d Std.",
+    "_human": true
+  },
+  "mynode_connected_since_hours_mins": {
+    "value": "seit %1$d Std. %2$d Min.",
     "_human": true
   }
 }
