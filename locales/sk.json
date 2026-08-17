@@ -3,7 +3,7 @@
     "language": "sk",
     "name": "Slovenčina",
     "managed_by": "community",
-    "updated": "2026-08-14"
+    "updated": "2026-08-17"
   },
   "add_channel_duplicate_key": {
     "value": "Tento kľúč už patrí k „%1$s“.",
@@ -8876,32 +8876,136 @@
     "_ai": true,
     "_seeded": "2026-08-11"
   },
-  "map_path_no_gps_hint": null,
-  "mynode_import_identity_dialog_body": null,
-  "mynode_import_identity_dialog_title": null,
-  "mynode_import_identity_footer": null,
-  "mynode_import_identity_row_subtitle": null,
-  "mynode_import_identity_row_title": null,
-  "mynode_import_load_from_file": null,
-  "settings_directory_cd_delete": null,
-  "settings_directory_custom_sources_footer": null,
-  "settings_directory_custom_sources_header": null,
-  "settings_directory_fixed_default_hint": null,
-  "settings_directory_fixed_sources_header": null,
-  "settings_directory_id_label": null,
-  "settings_directory_url_probe_checking": null,
-  "settings_directory_url_probe_fail": null,
-  "settings_directory_url_probe_ok": null,
-  "mynode_export_identity_row_title": null,
-  "mynode_export_identity_row_subtitle": null,
-  "mynode_export_reveal": null,
-  "mynode_export_key_header": null,
-  "mynode_export_pubkey_header": null,
-  "mynode_export_copy": null,
-  "mynode_export_share": null,
-  "mynode_export_warning": null,
-  "mynode_connecting_stop": null,
-  "mynode_connecting_stop_footer": null,
+  "map_path_no_gps_hint": {
+    "value": "Chýba poloha GPS — online body trasy sa nemusia zobraziť na mape. Povoľte prístup k polohe pre úplné určenie trasy.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_body": {
+    "value": "Zadajte 32-bajtový seed (64 hexadecimálnych znakov) alebo 64-bajtový rozšírený súkromný kľúč (128 hexadecimálnych znakov) zo zálohy. Odvodený verejný kľúč sa zobrazí nižšie pred uložením.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_title": {
+    "value": "Importovať súkromný kľúč",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_footer": {
+    "value": "Vložte 64- alebo 128-znakový hexadecimálny súkromný kľúč na obnovenie zálohovanej identity — uloží sa lokálne a odošle sa do pripojeného sprievodného zariadenia. Exportom sa odhalí kľúč tohto uzla, aby ste si ho mohli zálohovať.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_subtitle": {
+    "value": "Vložte hexadecimálny kľúč zo zálohy",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_title": {
+    "value": "Importovať súkromný kľúč",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_load_from_file": {
+    "value": "Načítať zo záložného súboru…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_cd_delete": {
+    "value": "Odstrániť zdroj",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_footer": {
+    "value": "Ručne pridané inštancie CoreScope. Pred uložením sa overí URL; odstránením sa zdroj vymaže.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_header": {
+    "value": "Ďalšie zdroje",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_default_hint": {
+    "value": "Pevne nastavený zdroj – koncový bod a ďalšie nastavenia sú pevne dané; tu ho môžete premenovať.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_sources_header": {
+    "value": "Pevne nastavené zdroje",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_id_label": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_checking": {
+    "value": "Overovanie URL…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_fail": {
+    "value": "Táto URL neodpovedala ako adresár CoreScope",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_ok": {
+    "value": "Server odpovedal – URL je platná",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_title": {
+    "value": "Exportovať súkromný kľúč",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_subtitle": {
+    "value": "Zobraziť a zálohovať kľúč tohto uzla",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_reveal": {
+    "value": "Zobraziť súkromný kľúč",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_key_header": {
+    "value": "Súkromný kľúč (hex)",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_pubkey_header": {
+    "value": "Verejný kľúč",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_copy": {
+    "value": "Kopírovať do schránky",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_share": {
+    "value": "Zdieľať…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_warning": {
+    "value": "Toto je tajný identifikačný kľúč vášho uzla – každý, kto ho má, sa môže vydávať za váš uzol. Uložte si ho na bezpečné miesto a nikdy ho nikomu neposkytujte.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop": {
+    "value": "Ukončiť pripájanie",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop_footer": {
+    "value": "Posledný uzol je nedostupný. Ukončite pokus o pripojenie a vyberte si iného spoločníka z nižšie uvedených možností.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
   "mynode_sensors_fetching": {
     "value": "Načítavanie údajov zo senzorov…",
     "_ai": true,

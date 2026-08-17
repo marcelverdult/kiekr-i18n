@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-08-14"
+    "updated": "2026-08-17"
   },
   "add_channel_duplicate_key": {
     "value": "Questa chiave appartiene già a \"%1$s\".",
@@ -7510,32 +7510,136 @@
     "_ai": true,
     "_seeded": "2026-08-11"
   },
-  "map_path_no_gps_hint": null,
-  "mynode_import_identity_dialog_body": null,
-  "mynode_import_identity_dialog_title": null,
-  "mynode_import_identity_footer": null,
-  "mynode_import_identity_row_subtitle": null,
-  "mynode_import_identity_row_title": null,
-  "mynode_import_load_from_file": null,
-  "settings_directory_cd_delete": null,
-  "settings_directory_custom_sources_footer": null,
-  "settings_directory_custom_sources_header": null,
-  "settings_directory_fixed_default_hint": null,
-  "settings_directory_fixed_sources_header": null,
-  "settings_directory_id_label": null,
-  "settings_directory_url_probe_checking": null,
-  "settings_directory_url_probe_fail": null,
-  "settings_directory_url_probe_ok": null,
-  "mynode_export_identity_row_title": null,
-  "mynode_export_identity_row_subtitle": null,
-  "mynode_export_reveal": null,
-  "mynode_export_key_header": null,
-  "mynode_export_pubkey_header": null,
-  "mynode_export_copy": null,
-  "mynode_export_share": null,
-  "mynode_export_warning": null,
-  "mynode_connecting_stop": null,
-  "mynode_connecting_stop_footer": null,
+  "map_path_no_gps_hint": {
+    "value": "Nessuna posizione GPS rilevata — i collegamenti alla directory online potrebbero non essere visualizzati sulla mappa. Abilita l’accesso alla posizione per la risoluzione completa del percorso.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_body": {
+    "value": "Inserisci un seed da 32 byte (64 caratteri esadecimali) o una chiave privata espansa da 64 byte (128 caratteri esadecimali) da un backup. La chiave pubblica derivata viene mostrata qui sotto prima del salvataggio.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_title": {
+    "value": "Importa chiave privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_footer": {
+    "value": "Incolla una chiave privata esadecimale di 64 o 128 caratteri per ripristinare un'identità di cui è stato eseguito il backup — salvata localmente e inviata al dispositivo collegato. L'esportazione rivela la chiave di questo nodo in modo da poterla salvare.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_subtitle": {
+    "value": "Incolla chiave esadecimale dal backup",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_title": {
+    "value": "Importa chiave privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_load_from_file": {
+    "value": "Carica da file di backup…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_cd_delete": {
+    "value": "Elimina origine",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_footer": {
+    "value": "Istanze CoreScope aggiunte manualmente. L'URL viene verificato prima del salvataggio; l'eliminazione rimuove l'origine.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_header": {
+    "value": "Altre origini",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_default_hint": {
+    "value": "Origine predefinita fissa: l’endpoint e le altre impostazioni sono fisse; è possibile rinominarla qui.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_sources_header": {
+    "value": "Origini fisse",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_id_label": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_checking": {
+    "value": "Verifica dell’URL…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_fail": {
+    "value": "Questo URL non ha risposto come directory CoreScope",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_ok": {
+    "value": "Il server ha risposto: l’URL è valido",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_title": {
+    "value": "Esporta chiave privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_subtitle": {
+    "value": "Visualizza ed esegui il backup della chiave di questo nodo",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_reveal": {
+    "value": "Visualizza chiave privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_key_header": {
+    "value": "Chiave privata (esadecimale)",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_pubkey_header": {
+    "value": "Chiave pubblica",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_copy": {
+    "value": "Copia negli appunti",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_share": {
+    "value": "Condividi…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_warning": {
+    "value": "Questa è la chiave segreta di identità del tuo nodo: chiunque ne sia in possesso può impersonare il tuo nodo. Conservala in un luogo sicuro e non condividerla mai.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop": {
+    "value": "Interrompi la connessione",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop_footer": {
+    "value": "L'ultimo nodo è irraggiungibile. Interrompi il tentativo di connessione e scegli un altro nodo tra quelli elencati di seguito.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
   "mynode_sensors_fetching": {
     "value": "Recupero dei dati dei sensori…",
     "_ai": true,

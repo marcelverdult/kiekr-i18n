@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-08-14"
+    "updated": "2026-08-17"
   },
   "add_channel_duplicate_key": {
     "value": "Този ключ вече принадлежи на „%1$s“.",
@@ -8875,32 +8875,136 @@
     "_ai": true,
     "_seeded": "2026-08-11"
   },
-  "map_path_no_gps_hint": null,
-  "mynode_import_identity_dialog_body": null,
-  "mynode_import_identity_dialog_title": null,
-  "mynode_import_identity_footer": null,
-  "mynode_import_identity_row_subtitle": null,
-  "mynode_import_identity_row_title": null,
-  "mynode_import_load_from_file": null,
-  "settings_directory_cd_delete": null,
-  "settings_directory_custom_sources_footer": null,
-  "settings_directory_custom_sources_header": null,
-  "settings_directory_fixed_default_hint": null,
-  "settings_directory_fixed_sources_header": null,
-  "settings_directory_id_label": null,
-  "settings_directory_url_probe_checking": null,
-  "settings_directory_url_probe_fail": null,
-  "settings_directory_url_probe_ok": null,
-  "mynode_export_identity_row_title": null,
-  "mynode_export_identity_row_subtitle": null,
-  "mynode_export_reveal": null,
-  "mynode_export_key_header": null,
-  "mynode_export_pubkey_header": null,
-  "mynode_export_copy": null,
-  "mynode_export_share": null,
-  "mynode_export_warning": null,
-  "mynode_connecting_stop": null,
-  "mynode_connecting_stop_footer": null,
+  "map_path_no_gps_hint": {
+    "value": "Липса на GPS сигнал — онлайн преходите в указателя може да не се отбележат на картата. Активирайте достъпа до местоположението за пълно определяне на маршрута.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_body": {
+    "value": "Въведете 32-байтов начален ключ (64 шестнадесетични символа) или 64-байтов разширен частен ключ (128 шестнадесетични символа) от резервно копие. Извлеченият публичен ключ се показва по-долу преди запазването.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_title": {
+    "value": "Импортиране на частен ключ",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_footer": {
+    "value": "Поставете 64- или 128-символен шестнадесетичен частен ключ, за да възстановите архивирана идентичност — запазена локално и прехвърлена към свързаното допълнително устройство. Експортирането разкрива ключа на този възел, за да можете да го архивирате.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_subtitle": {
+    "value": "Поставете шестнадесетичен ключ от архивно копие",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_title": {
+    "value": "Импортиране на частен ключ",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_load_from_file": {
+    "value": "Зареждане от архивен файл…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_cd_delete": {
+    "value": "Изтриване на източник",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_footer": {
+    "value": "Ръчно добавени инстанции на CoreScope. URL адресът се проверява преди запазване; изтриването премахва източника.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_header": {
+    "value": "Още източници",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_default_hint": {
+    "value": "Фиксиран източник по подразбиране — крайната точка и другите настройки са фиксирани; тук можете да го преименувате.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_sources_header": {
+    "value": "Фиксирани източници",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_id_label": {
+    "value": "ИД",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_checking": {
+    "value": "Проверява се URL…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_fail": {
+    "value": "Този URL не отговори като директория на CoreScope",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_ok": {
+    "value": "Сървърът отговори — URL адресът е валиден",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_title": {
+    "value": "Експортиране на частния ключ",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_subtitle": {
+    "value": "Показване и архивиране на ключа на този възел",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_reveal": {
+    "value": "Показване на частния ключ",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_key_header": {
+    "value": "Частен ключ (шестнадесетичен)",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_pubkey_header": {
+    "value": "Публичен ключ",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_copy": {
+    "value": "Копиране в клипборда",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_share": {
+    "value": "Споделяне…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_warning": {
+    "value": "Това е тайният идентификационен ключ на вашия възел — всеки, който го притежава, може да се представи за вашия възел. Съхранявайте го на сигурно място и никога не го споделяйте.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop": {
+    "value": "Прекратете свързването",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop_footer": {
+    "value": "Последният възел е недостъпен. Прекратете опита за свързване и изберете друг партньор от списъка по-долу.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
   "mynode_sensors_fetching": {
     "value": "Извличане на данни от сензора…",
     "_ai": true,

@@ -3,7 +3,7 @@
     "language": "pt-PT",
     "name": "Português (Portugal)",
     "managed_by": "community",
-    "updated": "2026-08-14"
+    "updated": "2026-08-17"
   },
   "add_channel_duplicate_key": {
     "value": "Esta chave já pertence a «%1$s».",
@@ -8875,32 +8875,136 @@
     "_ai": true,
     "_seeded": "2026-08-11"
   },
-  "map_path_no_gps_hint": null,
-  "mynode_import_identity_dialog_body": null,
-  "mynode_import_identity_dialog_title": null,
-  "mynode_import_identity_footer": null,
-  "mynode_import_identity_row_subtitle": null,
-  "mynode_import_identity_row_title": null,
-  "mynode_import_load_from_file": null,
-  "settings_directory_cd_delete": null,
-  "settings_directory_custom_sources_footer": null,
-  "settings_directory_custom_sources_header": null,
-  "settings_directory_fixed_default_hint": null,
-  "settings_directory_fixed_sources_header": null,
-  "settings_directory_id_label": null,
-  "settings_directory_url_probe_checking": null,
-  "settings_directory_url_probe_fail": null,
-  "settings_directory_url_probe_ok": null,
-  "mynode_export_identity_row_title": null,
-  "mynode_export_identity_row_subtitle": null,
-  "mynode_export_reveal": null,
-  "mynode_export_key_header": null,
-  "mynode_export_pubkey_header": null,
-  "mynode_export_copy": null,
-  "mynode_export_share": null,
-  "mynode_export_warning": null,
-  "mynode_connecting_stop": null,
-  "mynode_connecting_stop_footer": null,
+  "map_path_no_gps_hint": {
+    "value": "Sem localização GPS — os pontos de passagem do diretório online podem não ser colocados no mapa. Ative o acesso à localização para obter a resolução completa do percurso.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_body": {
+    "value": "Introduza uma semente de 32 bytes (64 caracteres hexadecimais) ou uma chave privada expandida de 64 bytes (128 caracteres hexadecimais) a partir de uma cópia de segurança. A chave pública derivada é apresentada abaixo antes de guardar.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_title": {
+    "value": "Importar chave privada",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_footer": {
+    "value": "Cole uma chave privada hexadecimal de 64 ou 128 caracteres para restaurar uma identidade da qual existe uma cópia de segurança — guardada localmente e enviada para o dispositivo associado ligado. A exportação revela a chave deste nó para que possa fazer uma cópia de segurança.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_subtitle": {
+    "value": "Colar chave hexadecimal da cópia de segurança",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_title": {
+    "value": "Importar chave privada",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_load_from_file": {
+    "value": "Carregar a partir do ficheiro de cópia de segurança…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_cd_delete": {
+    "value": "Eliminar fonte",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_footer": {
+    "value": "Instâncias do CoreScope adicionadas manualmente. O URL é verificado antes de guardar; a eliminação remove a fonte.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_header": {
+    "value": "Mais fontes",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_default_hint": {
+    "value": "Fonte predefinida fixa — o ponto final e outras definições são fixos; pode renomeá-la aqui.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_sources_header": {
+    "value": "Fontes fixas",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_id_label": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_checking": {
+    "value": "A verificar URL…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_fail": {
+    "value": "Esta URL não respondeu como um diretório do CoreScope",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_ok": {
+    "value": "O servidor respondeu — a URL é válida",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_title": {
+    "value": "Exportar chave privada",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_subtitle": {
+    "value": "Revelar e fazer uma cópia de segurança da chave deste nó",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_reveal": {
+    "value": "Revelar chave privada",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_key_header": {
+    "value": "Chave privada (hexadecimal)",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_pubkey_header": {
+    "value": "Chave pública",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_copy": {
+    "value": "Copiar para a área de transferência",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_share": {
+    "value": "Partilhar…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_warning": {
+    "value": "Esta é a chave de identidade secreta do seu nó — qualquer pessoa que a possua pode fazer-se passar pelo seu nó. Guarde-a num local seguro e nunca a partilhe.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop": {
+    "value": "Interromper a ligação",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop_footer": {
+    "value": "O último nó está inacessível. Interrompa a tentativa de ligação e escolha outro companheiro abaixo.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
   "mynode_sensors_fetching": {
     "value": "A obter dados do sensor…",
     "_ai": true,

@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-08-14"
+    "updated": "2026-08-17"
   },
   "add_channel_duplicate_key": {
     "value": "Din iċ-ċavetta diġà tappartjeni lil \"%1$s\".",
@@ -8875,32 +8875,136 @@
     "_ai": true,
     "_seeded": "2026-08-11"
   },
-  "map_path_no_gps_hint": null,
-  "mynode_import_identity_dialog_body": null,
-  "mynode_import_identity_dialog_title": null,
-  "mynode_import_identity_footer": null,
-  "mynode_import_identity_row_subtitle": null,
-  "mynode_import_identity_row_title": null,
-  "mynode_import_load_from_file": null,
-  "settings_directory_cd_delete": null,
-  "settings_directory_custom_sources_footer": null,
-  "settings_directory_custom_sources_header": null,
-  "settings_directory_fixed_default_hint": null,
-  "settings_directory_fixed_sources_header": null,
-  "settings_directory_id_label": null,
-  "settings_directory_url_probe_checking": null,
-  "settings_directory_url_probe_fail": null,
-  "settings_directory_url_probe_ok": null,
-  "mynode_export_identity_row_title": null,
-  "mynode_export_identity_row_subtitle": null,
-  "mynode_export_reveal": null,
-  "mynode_export_key_header": null,
-  "mynode_export_pubkey_header": null,
-  "mynode_export_copy": null,
-  "mynode_export_share": null,
-  "mynode_export_warning": null,
-  "mynode_connecting_stop": null,
-  "mynode_connecting_stop_footer": null,
+  "map_path_no_gps_hint": {
+    "value": "L-ebda fissar tal-GPS — il-bidliet fid-direttorju onlajn forsi ma jidhrux fuq il-mappa. Ippermetti l-aċċess għall-post għal riżoluzzjoni sħiħa tal-mogħdija.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_body": {
+    "value": "Daħħal seed ta' 32-byte (64 karattru hex) jew ċavetta privata espansa ta' 64-byte (128 karattru hex) minn backup. Iċ-ċavetta pubblika derivata turiha hawn taħt qabel ma tissejvja.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_title": {
+    "value": "Importa Ċavetta Privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_footer": {
+    "value": "Ikkopja ċavetta privata hex ta' 64 jew 128 karattru biex tirrestawra identità li tkun saret backup — maħżuna lokalment u mibgħuta lill-apparat konness. L-esportazzjoni turi ċ-ċavetta ta' dan in-nodu sabiex tkun tista' tagħmel backup tagħha.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_subtitle": {
+    "value": "Ikkopja ċ-ċavetta hex mill-backup",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_title": {
+    "value": "Importa Ċavetta Privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_load_from_file": {
+    "value": "Niżżel mill-fajl tal-backup…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_cd_delete": {
+    "value": "Ħassar is-sors",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_footer": {
+    "value": "Instances ta' CoreScope miżjuda manwalment. L-URL tiġi vverifikata qabel ma tiġi salvata; il-ħassar ineħħi s-sors.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_header": {
+    "value": "Sorsi oħra",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_default_hint": {
+    "value": "Sors default stabbilit — l-endpoint u l-issettjar ieħor huma stabbiliti; tista' tibdel l-isem tiegħu hawnhekk.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_sources_header": {
+    "value": "Sorsi stabbiliti",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_id_label": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_checking": {
+    "value": "Qed jiċċekkja l-URL…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_fail": {
+    "value": "Din l-URL ma wieġbitx bħala direttorju ta' CoreScope",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_ok": {
+    "value": "Is-server wieġeb — l-URL huwa validu",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_title": {
+    "value": "Esporta ċ-Ċavetta Privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_subtitle": {
+    "value": "Uri u agħmel kopja ta' riserva taċ-ċavetta ta' dan in-nodu",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_reveal": {
+    "value": "Uri ċ-ċavetta privata",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_key_header": {
+    "value": "Ċavetta privata (hex)",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_pubkey_header": {
+    "value": "Ċavetta pubblika",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_copy": {
+    "value": "Ikkopja fil-clipboard",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_share": {
+    "value": "Iqassam…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_warning": {
+    "value": "Din hi ċ-ċavetta tal-identità sigrieta tan-nodu tiegħek — kull min ikollha jista' jimpersonaha. Aħżinha f'post sigur u qatt ma taqsamha.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop": {
+    "value": "Waqqaf il-konnessjoni",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop_footer": {
+    "value": "L-aħħar nodu mhux aċċessibbli. Waqqaf it-tentattiv ta' konnessjoni u agħżel kompagnu ieħor hawn taħt.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
   "mynode_sensors_fetching": {
     "value": "Qed tiġi d-dejta tas-sensor…",
     "_ai": true,

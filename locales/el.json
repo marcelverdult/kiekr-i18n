@@ -3,7 +3,7 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-08-14"
+    "updated": "2026-08-17"
   },
   "add_channel_duplicate_key": {
     "value": "Αυτό το κλειδί ανήκει ήδη στο «%1$s».",
@@ -8875,32 +8875,136 @@
     "_ai": true,
     "_seeded": "2026-08-11"
   },
-  "map_path_no_gps_hint": null,
-  "mynode_import_identity_dialog_body": null,
-  "mynode_import_identity_dialog_title": null,
-  "mynode_import_identity_footer": null,
-  "mynode_import_identity_row_subtitle": null,
-  "mynode_import_identity_row_title": null,
-  "mynode_import_load_from_file": null,
-  "settings_directory_cd_delete": null,
-  "settings_directory_custom_sources_footer": null,
-  "settings_directory_custom_sources_header": null,
-  "settings_directory_fixed_default_hint": null,
-  "settings_directory_fixed_sources_header": null,
-  "settings_directory_id_label": null,
-  "settings_directory_url_probe_checking": null,
-  "settings_directory_url_probe_fail": null,
-  "settings_directory_url_probe_ok": null,
-  "mynode_export_identity_row_title": null,
-  "mynode_export_identity_row_subtitle": null,
-  "mynode_export_reveal": null,
-  "mynode_export_key_header": null,
-  "mynode_export_pubkey_header": null,
-  "mynode_export_copy": null,
-  "mynode_export_share": null,
-  "mynode_export_warning": null,
-  "mynode_connecting_stop": null,
-  "mynode_connecting_stop_footer": null,
+  "map_path_no_gps_hint": {
+    "value": "Δεν υπάρχει σήμα GPS — οι διαδρομές του διαδικτυακού καταλόγου ενδέχεται να μην εμφανίζονται στον χάρτη. Ενεργοποιήστε την πρόσβαση στην τοποθεσία για πλήρη προσδιορισμό της διαδρομής.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_body": {
+    "value": "Εισαγάγετε ένα seed 32 byte (64 δεκαεξαδικοί χαρακτήρες) ή ένα εκτεταμένο ιδιωτικό κλειδί 64 byte (128 δεκαεξαδικοί χαρακτήρες) από ένα αντίγραφο ασφαλείας. Το παραγόμενο δημόσιο κλειδί εμφανίζεται παρακάτω πριν από την αποθήκευση.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_dialog_title": {
+    "value": "Εισαγωγή ιδιωτικού κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_footer": {
+    "value": "Επικολλήστε ένα ιδιωτικό κλειδί 64 ή 128 δεκαεξαδικών χαρακτήρων για να επαναφέρετε μια ταυτότητα από αντίγραφο ασφαλείας — αποθηκεύεται τοπικά και μεταφέρεται στη συνδεδεμένη συσκευή. Η εξαγωγή αποκαλύπτει το κλειδί αυτού του κόμβου, ώστε να μπορείτε να το δημιουργήσετε αντίγραφο ασφαλείας.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_subtitle": {
+    "value": "Επικόλληση δεκαεξαδικού κλειδιού από αντίγραφο ασφαλείας",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_identity_row_title": {
+    "value": "Εισαγωγή ιδιωτικού κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_import_load_from_file": {
+    "value": "Φόρτωση από αρχείο αντιγράφου ασφαλείας…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_cd_delete": {
+    "value": "Διαγραφή πηγής",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_footer": {
+    "value": "Προσθήκες CoreScope που έχουν προστεθεί χειροκίνητα. Η διεύθυνση URL επαληθεύεται πριν από την αποθήκευση· η διαγραφή καταργεί την πηγή.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_custom_sources_header": {
+    "value": "Περισσότερες πηγές",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_default_hint": {
+    "value": "Σταθερή προεπιλεγμένη πηγή — το τελικό σημείο και άλλες ρυθμίσεις είναι σταθερές· μπορείτε να την μετονομάσετε εδώ.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_fixed_sources_header": {
+    "value": "Σταθερές πηγές",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_id_label": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_checking": {
+    "value": "Έλεγχος URL…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_fail": {
+    "value": "Αυτή η διεύθυνση URL δεν απάντησε ως κατάλογος CoreScope",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "settings_directory_url_probe_ok": {
+    "value": "Ο διακομιστής απάντησε — η διεύθυνση URL είναι έγκυρη",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_title": {
+    "value": "Εξαγωγή ιδιωτικού κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_identity_row_subtitle": {
+    "value": "Αποκάλυψη και δημιουργία αντιγράφου ασφαλείας του κλειδιού αυτού του κόμβου",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_reveal": {
+    "value": "Αποκάλυψη ιδιωτικού κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_key_header": {
+    "value": "Ιδιωτικό κλειδί (εξαδεκαδικό)",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_pubkey_header": {
+    "value": "Δημόσιο κλειδί",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_copy": {
+    "value": "Αντιγραφή στο πρόχειρο",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_share": {
+    "value": "Κοινή χρήση…",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_export_warning": {
+    "value": "Αυτό είναι το μυστικό κλειδί ταυτότητας του κόμβου σας — όποιος το έχει μπορεί να υποδυθεί τον κόμβο σας. Αποθηκεύστε το σε ασφαλές μέρος και μην το μοιραστείτε ποτέ.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop": {
+    "value": "Διακοπή σύνδεσης",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
+  "mynode_connecting_stop_footer": {
+    "value": "Ο τελευταίος κόμβος είναι απρόσιτος. Διακόψτε την προσπάθεια σύνδεσης και επιλέξτε έναν άλλο σύνδεσμο από τους παρακάτω.",
+    "_ai": true,
+    "_seeded": "2026-08-17"
+  },
   "mynode_sensors_fetching": {
     "value": "Λήψη δεδομένων αισθητήρα…",
     "_ai": true,
