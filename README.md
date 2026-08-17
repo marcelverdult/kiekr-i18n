@@ -10,33 +10,33 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
 | English        | `en` |       100% |  2096 |         0 | kiekr-team |
-| Deutsch        | `de` |      99.2% |  2080 |         0 | kiekr-team |
-| Español        | `es` |      98.3% |  1279 |       781 | community  |
-| Français       | `fr` |      98.3% |  1279 |       781 | community  |
-| Nederlands     | `nl` |      98.3% |  1279 |       781 | community  |
-| Italiano       | `it` |      98.3% |  1365 |       695 | community  |
-| Português (Brasil) | `pt-BR` |      98.3% |     1 |      2059 | community  |
-| Polski         | `pl` |      98.3% |    11 |      2049 | community  |
-| Български      | `bg` |      84.8% |     0 |      1778 | community  |
-| Čeština        | `cs` |      84.8% |     0 |      1778 | community  |
-| Dansk          | `da` |      84.8% |     0 |      1778 | community  |
-| Ελληνικά       | `el` |      84.8% |     0 |      1778 | community  |
-| Eesti          | `et` |      84.8% |     0 |      1778 | community  |
-| Suomi          | `fi` |      84.8% |     0 |      1778 | community  |
-| Gaeilge        | `ga` |      84.8% |     0 |      1778 | community  |
-| Hrvatski       | `hr` |      84.8% |     0 |      1778 | community  |
-| Magyar         | `hu` |      84.8% |     0 |      1778 | community  |
-| Lietuvių       | `lt` |      84.8% |     0 |      1778 | community  |
-| Latviešu       | `lv` |      84.8% |     0 |      1778 | community  |
-| Malti          | `mt` |      84.8% |     0 |      1778 | community  |
-| Norsk bokmål   | `nb` |      84.8% |     0 |      1778 | community  |
-| Português (Portugal) | `pt-PT` |      84.8% |     0 |      1778 | community  |
-| Română         | `ro` |      84.8% |     0 |      1778 | community  |
-| Русский        | `ru` |      84.8% |     0 |      1778 | community  |
-| Slovenčina     | `sk` |      84.8% |     0 |      1778 | community  |
-| Slovenščina    | `sl` |      84.8% |     0 |      1778 | community  |
-| Svenska        | `sv` |      84.8% |     0 |      1778 | community  |
-| Українська     | `uk` |      84.8% |     0 |      1778 | community  |
+| Deutsch        | `de` |       100% |  2096 |         0 | kiekr-team |
+| Español        | `es` |      99.5% |  1279 |       807 | community  |
+| Français       | `fr` |      99.5% |  1279 |       807 | community  |
+| Nederlands     | `nl` |      99.5% |  1279 |       807 | community  |
+| Italiano       | `it` |      99.5% |  1365 |       721 | community  |
+| Português (Brasil) | `pt-BR` |      99.5% |     1 |      2085 | community  |
+| Polski         | `pl` |      99.5% |    11 |      2075 | community  |
+| Български      | `bg` |      86.1% |     0 |      1804 | community  |
+| Čeština        | `cs` |      86.1% |     0 |      1804 | community  |
+| Dansk          | `da` |      86.1% |     0 |      1804 | community  |
+| Ελληνικά       | `el` |      86.1% |     0 |      1804 | community  |
+| Eesti          | `et` |      86.1% |     0 |      1804 | community  |
+| Suomi          | `fi` |      86.1% |     0 |      1804 | community  |
+| Gaeilge        | `ga` |      86.1% |     0 |      1804 | community  |
+| Hrvatski       | `hr` |      86.1% |     0 |      1804 | community  |
+| Magyar         | `hu` |      86.1% |     0 |      1804 | community  |
+| Lietuvių       | `lt` |      86.1% |     0 |      1804 | community  |
+| Latviešu       | `lv` |      86.1% |     0 |      1804 | community  |
+| Malti          | `mt` |      86.1% |     0 |      1804 | community  |
+| Norsk bokmål   | `nb` |      86.1% |     0 |      1804 | community  |
+| Português (Portugal) | `pt-PT` |      86.1% |     0 |      1804 | community  |
+| Română         | `ro` |      86.1% |     0 |      1804 | community  |
+| Русский        | `ru` |      86.1% |     0 |      1804 | community  |
+| Slovenčina     | `sk` |      86.1% |     0 |      1804 | community  |
+| Slovenščina    | `sl` |      86.1% |     0 |      1804 | community  |
+| Svenska        | `sv` |      86.1% |     0 |      1804 | community  |
+| Українська     | `uk` |      86.1% |     0 |      1804 | community  |
 
 <!-- status:end -->
 
