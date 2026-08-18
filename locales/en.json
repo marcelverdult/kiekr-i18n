@@ -3,7 +3,7 @@
     "language": "en",
     "managed_by": "kiekr-team",
     "name": "English",
-    "updated": "2026-08-14"
+    "updated": "2026-08-18"
   },
   "add_channel_duplicate_key": "This key already belongs to \"%1$s\".",
   "add_channel_generate_key": "Generate random key",
@@ -2105,5 +2105,19 @@
   "mynode_connected_since_secs": "since %d s",
   "mynode_connected_since_mins": "since %d min",
   "mynode_connected_since_hours": "since %d h",
-  "mynode_connected_since_hours_mins": "since %1$d h %2$d min"
+  "mynode_connected_since_hours_mins": "since %1$d h %2$d min",
+  "reach_section_header": "Reach",
+  "reach_footer_unchecked": "Ask the observer network whether this message was heard in other regions. One-time online lookup, nothing runs automatically.",
+  "reach_check_now": "Check now",
+  "reach_check_again": "Check again",
+  "reach_regions_label": "Observer regions",
+  "reach_observers_label": "Observers",
+  "reach_snr_label": "SNR range",
+  "reach_hops_label": "Max hops seen",
+  "reach_state_none": "No observer heard it yet — that never means the send failed.",
+  "reach_state_local": "Heard in one observer region so far — likely just nearby.",
+  "reach_state_mesh": "Heard in %1$d regions — the mesh carried this message.",
+  "reach_checked_label": "Checked",
+  "reach_final_note": "Final result.",
+  "reach_error": "Check failed — try again later."
 }
