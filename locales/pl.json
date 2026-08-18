@@ -10418,30 +10418,119 @@
     "_ai": true,
     "_seeded": "2026-08-12"
   },
-  "warn_identity_mismatch_title": null,
-  "warn_identity_mismatch_body": null,
+  "warn_identity_mismatch_title": {
+    "value": "Tożsamość węzła się zmieniła",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "warn_identity_mismatch_body": {
+    "value": "Tożsamość tego węzła się zmieniła. Wiadomości prywatne nie będą działać, dopóki nie włączysz ponownie eksportu klucza w węźle albo nie sparujesz go od nowa.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
   "warn_channel_removed_title": null,
   "warn_channel_removed_body": null,
   "warn_channel_removed_reinstall_button": null,
   "warn_channel_removed_leave_button": null,
-  "mynode_connected_since_secs": null,
-  "mynode_connected_since_mins": null,
-  "mynode_connected_since_hours": null,
-  "mynode_connected_since_hours_mins": null,
-  "reach_section_header": null,
-  "reach_footer_unchecked": null,
-  "reach_check_now": null,
-  "reach_check_again": null,
-  "reach_regions_label": null,
-  "reach_observers_label": null,
-  "reach_snr_label": null,
-  "reach_hops_label": null,
-  "reach_state_none": null,
-  "reach_state_local": null,
-  "reach_state_mesh": null,
-  "reach_checked_label": null,
-  "reach_final_note": null,
-  "reach_error": null,
-  "reach_state_one_observer": null,
-  "reach_state_observers": null
+  "mynode_connected_since_secs": {
+    "value": "od %d s",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_mins": {
+    "value": "od %d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours": {
+    "value": "od %d godz.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours_mins": {
+    "value": "od %1$d godz. %2$d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_section_header": {
+    "value": "Zasięg",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_footer_unchecked": {
+    "value": "Pyta sieć obserwatorów, czy ta wiadomość została usłyszana w innych regionach. Jednorazowe zapytanie online, nic nie działa automatycznie.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_now": {
+    "value": "Sprawdź teraz",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_again": {
+    "value": "Sprawdź ponownie",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_regions_label": {
+    "value": "Regiony obserwatorów",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_observers_label": {
+    "value": "Obserwatorzy",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_snr_label": {
+    "value": "Zakres SNR",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_hops_label": {
+    "value": "Maks. widziane skoki",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_none": {
+    "value": "Żaden obserwator jeszcze jej nie usłyszał — to nigdy nie znaczy, że wysyłka się nie powiodła.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_local": {
+    "value": "Na razie usłyszana w jednym regionie obserwatorów — prawdopodobnie tylko w pobliżu.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_mesh": {
+    "value": "Usłyszana w %1$d regionach — siatka przeniosła tę wiadomość.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_checked_label": {
+    "value": "Sprawdzono",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_final_note": {
+    "value": "Wynik ostateczny.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_error": {
+    "value": "Sprawdzenie nie powiodło się — spróbuj ponownie później.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_one_observer": {
+    "value": "Na razie usłyszana przez jednego obserwatora.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_observers": {
+    "value": "Usłyszana przez %1$d obserwatorów — siatka przeniosła tę wiadomość.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_no_data": null
 }

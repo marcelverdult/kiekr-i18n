@@ -9146,30 +9146,119 @@
     "_ai": true,
     "_seeded": "2026-08-12"
   },
-  "warn_identity_mismatch_title": null,
-  "warn_identity_mismatch_body": null,
+  "warn_identity_mismatch_title": {
+    "value": "Node-identiteit gewijzigd",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "warn_identity_mismatch_body": {
+    "value": "De identiteit van deze node is gewijzigd. Directe berichten werken pas weer als je de sleutelexport op de node opnieuw inschakelt of hem opnieuw koppelt.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
   "warn_channel_removed_title": null,
   "warn_channel_removed_body": null,
   "warn_channel_removed_reinstall_button": null,
   "warn_channel_removed_leave_button": null,
-  "mynode_connected_since_secs": null,
-  "mynode_connected_since_mins": null,
-  "mynode_connected_since_hours": null,
-  "mynode_connected_since_hours_mins": null,
-  "reach_section_header": null,
-  "reach_footer_unchecked": null,
-  "reach_check_now": null,
-  "reach_check_again": null,
-  "reach_regions_label": null,
-  "reach_observers_label": null,
-  "reach_snr_label": null,
-  "reach_hops_label": null,
-  "reach_state_none": null,
-  "reach_state_local": null,
-  "reach_state_mesh": null,
-  "reach_checked_label": null,
-  "reach_final_note": null,
-  "reach_error": null,
-  "reach_state_one_observer": null,
-  "reach_state_observers": null
+  "mynode_connected_since_secs": {
+    "value": "sinds %d s",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_mins": {
+    "value": "sinds %d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours": {
+    "value": "sinds %d u",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours_mins": {
+    "value": "sinds %1$d u %2$d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_section_header": {
+    "value": "Bereik",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_footer_unchecked": {
+    "value": "Vraagt het observernetwerk of dit bericht in andere regio's is gehoord. Eenmalige online controle, er draait niets automatisch.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_now": {
+    "value": "Nu controleren",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_again": {
+    "value": "Opnieuw controleren",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_regions_label": {
+    "value": "Observerregio's",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_observers_label": {
+    "value": "Observers",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_snr_label": {
+    "value": "SNR-bereik",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_hops_label": {
+    "value": "Max. geziene hops",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_none": {
+    "value": "Nog geen observer heeft het gehoord — dat betekent nooit dat het verzenden mislukte.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_local": {
+    "value": "Tot nu toe in één observerregio gehoord — waarschijnlijk alleen dichtbij.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_mesh": {
+    "value": "In %1$d regio's gehoord — de mesh heeft dit bericht doorgegeven.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_checked_label": {
+    "value": "Gecontroleerd",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_final_note": {
+    "value": "Definitief resultaat.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_error": {
+    "value": "Controle mislukt — probeer het later opnieuw.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_one_observer": {
+    "value": "Tot nu toe door één observer gehoord.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_observers": {
+    "value": "Door %1$d observers gehoord — de mesh heeft dit bericht doorgegeven.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_no_data": null
 }

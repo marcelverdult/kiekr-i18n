@@ -10426,30 +10426,119 @@
     "_ai": true,
     "_seeded": "2026-08-12"
   },
-  "warn_identity_mismatch_title": null,
-  "warn_identity_mismatch_body": null,
+  "warn_identity_mismatch_title": {
+    "value": "Identidade do nó alterada",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "warn_identity_mismatch_body": {
+    "value": "A identidade deste nó mudou. Mensagens diretas não funcionarão até você reativar a exportação da chave no nó ou emparelhá-lo novamente.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
   "warn_channel_removed_title": null,
   "warn_channel_removed_body": null,
   "warn_channel_removed_reinstall_button": null,
   "warn_channel_removed_leave_button": null,
-  "mynode_connected_since_secs": null,
-  "mynode_connected_since_mins": null,
-  "mynode_connected_since_hours": null,
-  "mynode_connected_since_hours_mins": null,
-  "reach_section_header": null,
-  "reach_footer_unchecked": null,
-  "reach_check_now": null,
-  "reach_check_again": null,
-  "reach_regions_label": null,
-  "reach_observers_label": null,
-  "reach_snr_label": null,
-  "reach_hops_label": null,
-  "reach_state_none": null,
-  "reach_state_local": null,
-  "reach_state_mesh": null,
-  "reach_checked_label": null,
-  "reach_final_note": null,
-  "reach_error": null,
-  "reach_state_one_observer": null,
-  "reach_state_observers": null
+  "mynode_connected_since_secs": {
+    "value": "há %d s",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_mins": {
+    "value": "há %d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours": {
+    "value": "há %d h",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours_mins": {
+    "value": "há %1$d h %2$d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_section_header": {
+    "value": "Alcance",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_footer_unchecked": {
+    "value": "Pergunta à rede de observadores se esta mensagem foi ouvida em outras regiões. Consulta online única, nada é executado automaticamente.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_now": {
+    "value": "Verificar agora",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_again": {
+    "value": "Verificar novamente",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_regions_label": {
+    "value": "Regiões de observadores",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_observers_label": {
+    "value": "Observadores",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_snr_label": {
+    "value": "Faixa de SNR",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_hops_label": {
+    "value": "Máx. de saltos vistos",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_none": {
+    "value": "Nenhum observador a ouviu ainda — isso nunca significa que o envio falhou.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_local": {
+    "value": "Ouvida em uma região de observadores até agora — provavelmente só por perto.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_mesh": {
+    "value": "Ouvida em %1$d regiões — a malha transportou esta mensagem.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_checked_label": {
+    "value": "Verificado",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_final_note": {
+    "value": "Resultado final.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_error": {
+    "value": "Falha na verificação — tente novamente mais tarde.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_one_observer": {
+    "value": "Ouvida por um observador até agora.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_observers": {
+    "value": "Ouvida por %1$d observadores — a malha transportou esta mensagem.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_no_data": null
 }

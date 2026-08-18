@@ -9146,30 +9146,119 @@
     "_ai": true,
     "_seeded": "2026-08-12"
   },
-  "warn_identity_mismatch_title": null,
-  "warn_identity_mismatch_body": null,
+  "warn_identity_mismatch_title": {
+    "value": "Identidad del nodo cambiada",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "warn_identity_mismatch_body": {
+    "value": "La identidad de este nodo cambió. Los mensajes directos no funcionarán hasta que reactives la exportación de la clave en el nodo o lo vuelvas a emparejar.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
   "warn_channel_removed_title": null,
   "warn_channel_removed_body": null,
   "warn_channel_removed_reinstall_button": null,
   "warn_channel_removed_leave_button": null,
-  "mynode_connected_since_secs": null,
-  "mynode_connected_since_mins": null,
-  "mynode_connected_since_hours": null,
-  "mynode_connected_since_hours_mins": null,
-  "reach_section_header": null,
-  "reach_footer_unchecked": null,
-  "reach_check_now": null,
-  "reach_check_again": null,
-  "reach_regions_label": null,
-  "reach_observers_label": null,
-  "reach_snr_label": null,
-  "reach_hops_label": null,
-  "reach_state_none": null,
-  "reach_state_local": null,
-  "reach_state_mesh": null,
-  "reach_checked_label": null,
-  "reach_final_note": null,
-  "reach_error": null,
-  "reach_state_one_observer": null,
-  "reach_state_observers": null
+  "mynode_connected_since_secs": {
+    "value": "desde hace %d s",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_mins": {
+    "value": "desde hace %d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours": {
+    "value": "desde hace %d h",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours_mins": {
+    "value": "desde hace %1$d h %2$d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_section_header": {
+    "value": "Alcance",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_footer_unchecked": {
+    "value": "Pregunta a la red de observadores si este mensaje se escuchó en otras regiones. Consulta en línea única, nada se ejecuta automáticamente.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_now": {
+    "value": "Comprobar ahora",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_again": {
+    "value": "Comprobar de nuevo",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_regions_label": {
+    "value": "Regiones de observadores",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_observers_label": {
+    "value": "Observadores",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_snr_label": {
+    "value": "Rango de SNR",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_hops_label": {
+    "value": "Máx. saltos vistos",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_none": {
+    "value": "Ningún observador lo ha escuchado todavía — eso nunca significa que el envío haya fallado.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_local": {
+    "value": "Escuchado en una región de observadores hasta ahora — probablemente solo en las cercanías.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_mesh": {
+    "value": "Escuchado en %1$d regiones — la malla transportó este mensaje.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_checked_label": {
+    "value": "Comprobado",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_final_note": {
+    "value": "Resultado definitivo.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_error": {
+    "value": "Comprobación fallida — inténtalo más tarde.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_one_observer": {
+    "value": "Escuchado por un observador hasta ahora.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_observers": {
+    "value": "Escuchado por %1$d observadores — la malla transportó este mensaje.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_no_data": null
 }

@@ -9060,30 +9060,119 @@
     "_ai": true,
     "_seeded": "2026-08-12"
   },
-  "warn_identity_mismatch_title": null,
-  "warn_identity_mismatch_body": null,
+  "warn_identity_mismatch_title": {
+    "value": "Identità del nodo cambiata",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "warn_identity_mismatch_body": {
+    "value": "L'identità di questo nodo è cambiata. I messaggi diretti non funzioneranno finché non riattivi l'esportazione della chiave sul nodo o non lo abbini di nuovo.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
   "warn_channel_removed_title": null,
   "warn_channel_removed_body": null,
   "warn_channel_removed_reinstall_button": null,
   "warn_channel_removed_leave_button": null,
-  "mynode_connected_since_secs": null,
-  "mynode_connected_since_mins": null,
-  "mynode_connected_since_hours": null,
-  "mynode_connected_since_hours_mins": null,
-  "reach_section_header": null,
-  "reach_footer_unchecked": null,
-  "reach_check_now": null,
-  "reach_check_again": null,
-  "reach_regions_label": null,
-  "reach_observers_label": null,
-  "reach_snr_label": null,
-  "reach_hops_label": null,
-  "reach_state_none": null,
-  "reach_state_local": null,
-  "reach_state_mesh": null,
-  "reach_checked_label": null,
-  "reach_final_note": null,
-  "reach_error": null,
-  "reach_state_one_observer": null,
-  "reach_state_observers": null
+  "mynode_connected_since_secs": {
+    "value": "da %d s",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_mins": {
+    "value": "da %d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours": {
+    "value": "da %d h",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "mynode_connected_since_hours_mins": {
+    "value": "da %1$d h %2$d min",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_section_header": {
+    "value": "Portata",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_footer_unchecked": {
+    "value": "Chiede alla rete di osservatori se questo messaggio è stato sentito in altre regioni. Ricerca online una tantum, niente viene eseguito automaticamente.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_now": {
+    "value": "Controlla ora",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_check_again": {
+    "value": "Controlla di nuovo",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_regions_label": {
+    "value": "Regioni di osservatori",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_observers_label": {
+    "value": "Osservatori",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_snr_label": {
+    "value": "Intervallo SNR",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_hops_label": {
+    "value": "Max hop visti",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_none": {
+    "value": "Nessun osservatore l'ha ancora sentito — non significa mai che l'invio sia fallito.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_local": {
+    "value": "Sentito finora in una sola regione di osservatori — probabilmente solo nelle vicinanze.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_mesh": {
+    "value": "Sentito in %1$d regioni — la mesh ha trasportato questo messaggio.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_checked_label": {
+    "value": "Controllato",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_final_note": {
+    "value": "Risultato definitivo.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_error": {
+    "value": "Controllo non riuscito — riprova più tardi.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_one_observer": {
+    "value": "Sentito finora da un solo osservatore.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_observers": {
+    "value": "Sentito da %1$d osservatori — la mesh ha trasportato questo messaggio.",
+    "_ai": true,
+    "_seeded": "2026-08-18"
+  },
+  "reach_state_no_data": null
 }
