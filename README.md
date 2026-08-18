@@ -9,14 +9,14 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
-| English        | `en` |       100% |  2112 |         0 | kiekr-team |
-| Deutsch        | `de` |       100% |  2112 |         0 | kiekr-team |
-| Español        | `es` |      98.8% |  1279 |       807 | community  |
-| Français       | `fr` |      98.8% |  1279 |       807 | community  |
-| Nederlands     | `nl` |      98.8% |  1279 |       807 | community  |
-| Italiano       | `it` |      98.8% |  1365 |       721 | community  |
-| Português (Brasil) | `pt-BR` |      98.8% |     1 |      2085 | community  |
-| Polski         | `pl` |      98.8% |    11 |      2075 | community  |
+| English        | `en` |       100% |  2113 |         0 | kiekr-team |
+| Deutsch        | `de` |       100% |  2113 |         0 | kiekr-team |
+| Español        | `es` |      99.8% |  1279 |       829 | community  |
+| Français       | `fr` |      99.8% |  1279 |       829 | community  |
+| Nederlands     | `nl` |      99.8% |  1279 |       829 | community  |
+| Italiano       | `it` |      99.8% |  1365 |       743 | community  |
+| Português (Brasil) | `pt-BR` |      99.8% |     1 |      2107 | community  |
+| Polski         | `pl` |      99.8% |    11 |      2097 | community  |
 | Български      | `bg` |      85.4% |     0 |      1804 | community  |
 | Čeština        | `cs` |      85.4% |     0 |      1804 | community  |
 | Dansk          | `da` |      85.4% |     0 |      1804 | community  |
