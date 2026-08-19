@@ -98,11 +98,17 @@ def needs(entry, reseed_ai: bool) -> bool:
 
 def parse_args(argv):
     opts = {"check_codes": "--check-codes" in argv, "reseed_ai": "--reseed-ai" in argv,
-            "langs": None, "limit": None}
+            "langs": None, "limit": None, "keys": None}
     if "--langs" in argv:
         opts["langs"] = set(argv[argv.index("--langs") + 1].split(","))
     if "--limit" in argv:
         opts["limit"] = int(argv[argv.index("--limit") + 1])
+    # --keys k1,k2,... — seed ONLY these keys. Lets a feature tranche fill
+    # its own handful of strings in minutes without dragging the whole
+    # null backlog (thousands of values, hours of CPU) into the run, and
+    # without touching keys another branch is still working on.
+    if "--keys" in argv:
+        opts["keys"] = set(argv[argv.index("--keys") + 1].split(","))
     return opts
 
 
@@ -162,6 +168,8 @@ def main() -> int:
         pending = []  # (key, en_source)
         for k, v in en.items():
             if k == "_meta" or k not in data:
+                continue
+            if opts["keys"] and k not in opts["keys"]:
                 continue
             if not needs(data.get(k), opts["reseed_ai"]):
                 continue
