@@ -9,14 +9,14 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
-| English        | `en` |       100% |  2126 |         0 | kiekr-team |
-| Deutsch        | `de` |       100% |  2126 |         0 | kiekr-team |
-| Español        | `es` |      99.5% |  1279 |       836 | community  |
-| Français       | `fr` |      99.5% |  1279 |       836 | community  |
-| Nederlands     | `nl` |      99.5% |  1279 |       836 | community  |
-| Italiano       | `it` |      99.5% |  1365 |       750 | community  |
-| Português (Brasil) | `pt-BR` |      99.5% |     1 |      2114 | community  |
-| Polski         | `pl` |      99.5% |    11 |      2104 | community  |
+| English        | `en` |       100% |  2127 |         0 | kiekr-team |
+| Deutsch        | `de` |       100% |  2127 |         0 | kiekr-team |
+| Español        | `es` |      99.4% |  1279 |       836 | community  |
+| Français       | `fr` |      99.4% |  1279 |       836 | community  |
+| Nederlands     | `nl` |      99.4% |  1279 |       836 | community  |
+| Italiano       | `it` |      99.4% |  1365 |       750 | community  |
+| Português (Brasil) | `pt-BR` |      99.4% |     1 |      2114 | community  |
+| Polski         | `pl` |      99.4% |    11 |      2104 | community  |
 | Български      | `bg` |      85.0% |     0 |      1807 | community  |
 | Čeština        | `cs` |      85.0% |     0 |      1807 | community  |
 | Dansk          | `da` |      85.0% |     0 |      1807 | community  |
@@ -30,7 +30,7 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 | Latviešu       | `lv` |      85.0% |     0 |      1807 | community  |
 | Malti          | `mt` |      85.0% |     0 |      1807 | community  |
 | Norsk bokmål   | `nb` |      85.0% |     0 |      1807 | community  |
-| Português (Portugal) | `pt-PT` |      85.1% |     0 |      1809 | community  |
+| Português (Portugal) | `pt-PT` |      85.0% |     0 |      1809 | community  |
 | Română         | `ro` |      85.0% |     0 |      1807 | community  |
 | Русский        | `ru` |      85.0% |     0 |      1807 | community  |
 | Slovenčina     | `sk` |      85.0% |     0 |      1807 | community  |
