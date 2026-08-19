@@ -11,32 +11,32 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 |----------------|------|-----------:|------:|----------:|------------|
 | English        | `en` |       100% |  2127 |         0 | kiekr-team |
 | Deutsch        | `de` |       100% |  2127 |         0 | kiekr-team |
-| Español        | `es` |      99.4% |  1279 |       836 | community  |
-| Français       | `fr` |      99.4% |  1279 |       836 | community  |
-| Nederlands     | `nl` |      99.4% |  1279 |       836 | community  |
-| Italiano       | `it` |      99.4% |  1365 |       750 | community  |
-| Português (Brasil) | `pt-BR` |      99.4% |     1 |      2114 | community  |
-| Polski         | `pl` |      99.4% |    11 |      2104 | community  |
-| Български      | `bg` |      85.0% |     0 |      1807 | community  |
-| Čeština        | `cs` |      85.0% |     0 |      1807 | community  |
-| Dansk          | `da` |      85.0% |     0 |      1807 | community  |
-| Ελληνικά       | `el` |      85.0% |     0 |      1807 | community  |
-| Eesti          | `et` |      85.0% |     0 |      1807 | community  |
-| Suomi          | `fi` |      85.0% |     0 |      1807 | community  |
-| Gaeilge        | `ga` |      85.0% |     0 |      1807 | community  |
-| Hrvatski       | `hr` |      85.0% |     0 |      1807 | community  |
-| Magyar         | `hu` |      85.0% |     0 |      1807 | community  |
-| Lietuvių       | `lt` |      85.0% |     0 |      1807 | community  |
-| Latviešu       | `lv` |      85.0% |     0 |      1807 | community  |
-| Malti          | `mt` |      85.0% |     0 |      1807 | community  |
-| Norsk bokmål   | `nb` |      85.0% |     0 |      1807 | community  |
-| Português (Portugal) | `pt-PT` |      85.0% |     0 |      1809 | community  |
-| Română         | `ro` |      85.0% |     0 |      1807 | community  |
-| Русский        | `ru` |      85.0% |     0 |      1807 | community  |
-| Slovenčina     | `sk` |      85.0% |     0 |      1807 | community  |
-| Slovenščina    | `sl` |      85.0% |     0 |      1807 | community  |
-| Svenska        | `sv` |      85.0% |     0 |      1807 | community  |
-| Українська     | `uk` |      85.0% |     0 |      1807 | community  |
+| Español        | `es` |      99.7% |  1284 |       836 | community  |
+| Français       | `fr` |      99.7% |  1284 |       836 | community  |
+| Nederlands     | `nl` |      99.7% |  1284 |       836 | community  |
+| Italiano       | `it` |      99.7% |  1370 |       750 | community  |
+| Português (Brasil) | `pt-BR` |      99.7% |     6 |      2114 | community  |
+| Polski         | `pl` |      99.7% |    16 |      2104 | community  |
+| Български      | `bg` |      85.2% |     5 |      1807 | community  |
+| Čeština        | `cs` |      85.2% |     5 |      1807 | community  |
+| Dansk          | `da` |      85.2% |     5 |      1807 | community  |
+| Ελληνικά       | `el` |      85.2% |     5 |      1807 | community  |
+| Eesti          | `et` |      85.2% |     5 |      1807 | community  |
+| Suomi          | `fi` |      85.2% |     5 |      1807 | community  |
+| Gaeilge        | `ga` |      85.2% |     5 |      1807 | community  |
+| Hrvatski       | `hr` |      85.2% |     5 |      1807 | community  |
+| Magyar         | `hu` |      85.2% |     5 |      1807 | community  |
+| Lietuvių       | `lt` |      85.2% |     5 |      1807 | community  |
+| Latviešu       | `lv` |      85.2% |     5 |      1807 | community  |
+| Malti          | `mt` |      85.2% |     5 |      1807 | community  |
+| Norsk bokmål   | `nb` |      85.2% |     5 |      1807 | community  |
+| Português (Portugal) | `pt-PT` |      85.3% |     5 |      1809 | community  |
+| Română         | `ro` |      85.2% |     5 |      1807 | community  |
+| Русский        | `ru` |      85.2% |     5 |      1807 | community  |
+| Slovenčina     | `sk` |      85.2% |     5 |      1807 | community  |
+| Slovenščina    | `sl` |      85.2% |     5 |      1807 | community  |
+| Svenska        | `sv` |      85.2% |     5 |      1807 | community  |
+| Українська     | `uk` |      85.2% |     5 |      1807 | community  |
 
 <!-- status:end -->
 
