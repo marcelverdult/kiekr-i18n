@@ -9267,11 +9267,26 @@
   },
   "settings_autoadd_master_off_hint": null,
   "settings_autoadd_master_off_apply": null,
-  "notif_action_reply": null,
-  "notif_action_mark_read": null,
-  "notif_reply_failed_not_installed": null,
-  "notif_reply_failed": null,
-  "notif_reply_truncated": null,
+  "notif_action_reply": {
+    "value": "Beantwoorden",
+    "_human": true
+  },
+  "notif_action_mark_read": {
+    "value": "Markeren als gelezen",
+    "_human": true
+  },
+  "notif_reply_failed_not_installed": {
+    "value": "Niet verzonden — niet op je node geïnstalleerd",
+    "_human": true
+  },
+  "notif_reply_failed": {
+    "value": "Antwoord kon niet worden verzonden",
+    "_human": true
+  },
+  "notif_reply_truncated": {
+    "value": "Antwoord ingekort tot de meshlimiet",
+    "_human": true
+  },
   "nodes_filter_show_not_added": {
     "value": "Nodes tonen die niet als contact zijn toegevoegd",
     "_ai": true,

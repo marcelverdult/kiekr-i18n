@@ -9326,11 +9326,26 @@
   "reach_state_no_data": null,
   "settings_autoadd_master_off_hint": null,
   "settings_autoadd_master_off_apply": null,
-  "notif_action_reply": null,
-  "notif_action_mark_read": null,
-  "notif_reply_failed_not_installed": null,
-  "notif_reply_failed": null,
-  "notif_reply_truncated": null,
+  "notif_action_reply": {
+    "value": "Vasta",
+    "_human": true
+  },
+  "notif_action_mark_read": {
+    "value": "Märgi loetuks",
+    "_human": true
+  },
+  "notif_reply_failed_not_installed": {
+    "value": "Ei saadetud — pole teie sõlme installitud",
+    "_human": true
+  },
+  "notif_reply_failed": {
+    "value": "Vastust ei õnnestunud saata",
+    "_human": true
+  },
+  "notif_reply_truncated": {
+    "value": "Vastus lühendatud mesh-võrgu piirini",
+    "_human": true
+  },
   "nodes_filter_show_not_added": null,
   "settings_community_mapme_active_mapping": null,
   "settings_community_mapme_active_mapping_hint": null,
@@ -9348,6 +9363,5 @@
     "value": "Suurem võimsus ulatub kaugemale, kuid kulutab rohkem akut.",
     "_ai": true,
     "_seeded": "2026-08-19"
-  },
-  "nodes_set_default_clear": null
+  }
 }

@@ -9267,11 +9267,26 @@
   },
   "settings_autoadd_master_off_hint": null,
   "settings_autoadd_master_off_apply": null,
-  "notif_action_reply": null,
-  "notif_action_mark_read": null,
-  "notif_reply_failed_not_installed": null,
-  "notif_reply_failed": null,
-  "notif_reply_truncated": null,
+  "notif_action_reply": {
+    "value": "Responder",
+    "_human": true
+  },
+  "notif_action_mark_read": {
+    "value": "Marcar como leído",
+    "_human": true
+  },
+  "notif_reply_failed_not_installed": {
+    "value": "No enviado: no está instalado en tu nodo",
+    "_human": true
+  },
+  "notif_reply_failed": {
+    "value": "No se pudo enviar la respuesta",
+    "_human": true
+  },
+  "notif_reply_truncated": {
+    "value": "Respuesta acortada al límite de la red mesh",
+    "_human": true
+  },
   "nodes_filter_show_not_added": {
     "value": "Mostrar nodos no añadidos como contactos",
     "_ai": true,

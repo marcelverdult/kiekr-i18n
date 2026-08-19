@@ -9327,11 +9327,26 @@
   "reach_state_no_data": null,
   "settings_autoadd_master_off_hint": null,
   "settings_autoadd_master_off_apply": null,
-  "notif_action_reply": null,
-  "notif_action_mark_read": null,
-  "notif_reply_failed_not_installed": null,
-  "notif_reply_failed": null,
-  "notif_reply_truncated": null,
+  "notif_action_reply": {
+    "value": "Odpovědět",
+    "_human": true
+  },
+  "notif_action_mark_read": {
+    "value": "Označit jako přečtené",
+    "_human": true
+  },
+  "notif_reply_failed_not_installed": {
+    "value": "Neodesláno — není nainstalováno ve vašem uzlu",
+    "_human": true
+  },
+  "notif_reply_failed": {
+    "value": "Odpověď se nepodařilo odeslat",
+    "_human": true
+  },
+  "notif_reply_truncated": {
+    "value": "Odpověď zkrácena na limit sítě mesh",
+    "_human": true
+  },
   "nodes_filter_show_not_added": null,
   "settings_community_mapme_active_mapping": null,
   "settings_community_mapme_active_mapping_hint": null,
@@ -9349,6 +9364,5 @@
     "value": "Vyšší výkon zvyšuje dosah, ale více zatěžuje baterii.",
     "_ai": true,
     "_seeded": "2026-08-19"
-  },
-  "nodes_set_default_clear": null
+  }
 }

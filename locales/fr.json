@@ -9267,11 +9267,26 @@
   },
   "settings_autoadd_master_off_hint": null,
   "settings_autoadd_master_off_apply": null,
-  "notif_action_reply": null,
-  "notif_action_mark_read": null,
-  "notif_reply_failed_not_installed": null,
-  "notif_reply_failed": null,
-  "notif_reply_truncated": null,
+  "notif_action_reply": {
+    "value": "Répondre",
+    "_human": true
+  },
+  "notif_action_mark_read": {
+    "value": "Marquer comme lu",
+    "_human": true
+  },
+  "notif_reply_failed_not_installed": {
+    "value": "Non envoyé — non installé sur votre nœud",
+    "_human": true
+  },
+  "notif_reply_failed": {
+    "value": "Impossible d'envoyer la réponse",
+    "_human": true
+  },
+  "notif_reply_truncated": {
+    "value": "Réponse raccourcie à la limite du réseau mesh",
+    "_human": true
+  },
   "nodes_filter_show_not_added": {
     "value": "Afficher les nœuds non ajoutés comme contacts",
     "_ai": true,

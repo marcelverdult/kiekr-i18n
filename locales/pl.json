@@ -10539,11 +10539,26 @@
   },
   "settings_autoadd_master_off_hint": null,
   "settings_autoadd_master_off_apply": null,
-  "notif_action_reply": null,
-  "notif_action_mark_read": null,
-  "notif_reply_failed_not_installed": null,
-  "notif_reply_failed": null,
-  "notif_reply_truncated": null,
+  "notif_action_reply": {
+    "value": "Odpowiedz",
+    "_human": true
+  },
+  "notif_action_mark_read": {
+    "value": "Oznacz jako przeczytane",
+    "_human": true
+  },
+  "notif_reply_failed_not_installed": {
+    "value": "Nie wysłano — nie zainstalowano w twoim węźle",
+    "_human": true
+  },
+  "notif_reply_failed": {
+    "value": "Nie udało się wysłać odpowiedzi",
+    "_human": true
+  },
+  "notif_reply_truncated": {
+    "value": "Odpowiedź skrócona do limitu sieci mesh",
+    "_human": true
+  },
   "nodes_filter_show_not_added": {
     "value": "Pokaż węzły niedodane jako kontakty",
     "_ai": true,
