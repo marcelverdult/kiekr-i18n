@@ -9,34 +9,34 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
-| English        | `en` |       100% |  2127 |         0 | kiekr-team |
-| Deutsch        | `de` |       100% |  2127 |         0 | kiekr-team |
-| Español        | `es` |      99.7% |  1284 |       837 | community  |
-| Français       | `fr` |      99.7% |  1284 |       837 | community  |
-| Nederlands     | `nl` |      99.7% |  1284 |       837 | community  |
-| Italiano       | `it` |      99.7% |  1370 |       751 | community  |
-| Português (Brasil) | `pt-BR` |      99.7% |     6 |      2115 | community  |
-| Polski         | `pl` |      99.7% |    16 |      2105 | community  |
-| Български      | `bg` |      85.2% |     5 |      1808 | community  |
-| Čeština        | `cs` |      85.2% |     5 |      1808 | community  |
-| Dansk          | `da` |      85.2% |     5 |      1808 | community  |
-| Ελληνικά       | `el` |      85.2% |     5 |      1808 | community  |
-| Eesti          | `et` |      85.2% |     5 |      1808 | community  |
-| Suomi          | `fi` |      85.2% |     5 |      1808 | community  |
-| Gaeilge        | `ga` |      85.2% |     5 |      1808 | community  |
-| Hrvatski       | `hr` |      85.2% |     5 |      1808 | community  |
-| Magyar         | `hu` |      85.2% |     5 |      1808 | community  |
-| Lietuvių       | `lt` |      85.2% |     5 |      1808 | community  |
-| Latviešu       | `lv` |      85.2% |     5 |      1808 | community  |
-| Malti          | `mt` |      85.2% |     5 |      1808 | community  |
-| Norsk bokmål   | `nb` |      85.2% |     5 |      1808 | community  |
-| Português (Portugal) | `pt-PT` |      85.3% |     5 |      1810 | community  |
-| Română         | `ro` |      85.2% |     5 |      1808 | community  |
-| Русский        | `ru` |      85.2% |     5 |      1808 | community  |
-| Slovenčina     | `sk` |      85.2% |     5 |      1808 | community  |
-| Slovenščina    | `sl` |      85.2% |     5 |      1808 | community  |
-| Svenska        | `sv` |      85.2% |     5 |      1808 | community  |
-| Українська     | `uk` |      85.2% |     5 |      1808 | community  |
+| English        | `en` |       100% |  2131 |         0 | kiekr-team |
+| Deutsch        | `de` |       100% |  2131 |         0 | kiekr-team |
+| Español        | `es` |      99.5% |  1284 |       837 | community  |
+| Français       | `fr` |      99.5% |  1284 |       837 | community  |
+| Nederlands     | `nl` |      99.5% |  1284 |       837 | community  |
+| Italiano       | `it` |      99.5% |  1370 |       751 | community  |
+| Português (Brasil) | `pt-BR` |      99.5% |     6 |      2115 | community  |
+| Polski         | `pl` |      99.5% |    16 |      2105 | community  |
+| Български      | `bg` |      85.1% |     5 |      1808 | community  |
+| Čeština        | `cs` |      85.1% |     5 |      1808 | community  |
+| Dansk          | `da` |      85.1% |     5 |      1808 | community  |
+| Ελληνικά       | `el` |      85.1% |     5 |      1808 | community  |
+| Eesti          | `et` |      85.1% |     5 |      1808 | community  |
+| Suomi          | `fi` |      85.1% |     5 |      1808 | community  |
+| Gaeilge        | `ga` |      85.1% |     5 |      1808 | community  |
+| Hrvatski       | `hr` |      85.1% |     5 |      1808 | community  |
+| Magyar         | `hu` |      85.1% |     5 |      1808 | community  |
+| Lietuvių       | `lt` |      85.1% |     5 |      1808 | community  |
+| Latviešu       | `lv` |      85.1% |     5 |      1808 | community  |
+| Malti          | `mt` |      85.1% |     5 |      1808 | community  |
+| Norsk bokmål   | `nb` |      85.1% |     5 |      1808 | community  |
+| Português (Portugal) | `pt-PT` |      85.2% |     5 |      1810 | community  |
+| Română         | `ro` |      85.1% |     5 |      1808 | community  |
+| Русский        | `ru` |      85.1% |     5 |      1808 | community  |
+| Slovenčina     | `sk` |      85.1% |     5 |      1808 | community  |
+| Slovenščina    | `sl` |      85.1% |     5 |      1808 | community  |
+| Svenska        | `sv` |      85.1% |     5 |      1808 | community  |
+| Українська     | `uk` |      85.1% |     5 |      1808 | community  |
 
 <!-- status:end -->
 
