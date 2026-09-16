@@ -3,7 +3,7 @@
     "language": "en",
     "managed_by": "kiekr-team",
     "name": "English",
-    "updated": "2026-09-04"
+    "updated": "2026-09-16"
   },
   "add_channel_duplicate_key": "This key already belongs to \"%1$s\".",
   "add_channel_generate_key": "Generate random key",
@@ -2141,5 +2141,9 @@
   "device_console_footer": "Runs CLI commands on the connected node (firmware 1.18 or newer).",
   "chats_split_placeholder": "Select a conversation",
   "settings_split_placeholder": "Select a setting",
-  "device_contact_table_full": "This node's contact list is full — it can't take new contacts it hears. Delete some to make room."
+  "device_contact_table_full": "This node's contact list is full — it can't take new contacts it hears. Delete some to make room.",
+  "settings_coverage_bg_status_label": "Background collection",
+  "settings_coverage_bg_status_paused_always": "Paused — location access is only \"While Using the App\"",
+  "settings_coverage_bg_status_paused_fix": "Paused — location session stopped",
+  "settings_coverage_bg_pause_hint": "Without \"Always\", coverage only collects while KiekR is open — iOS pauses the location session once the app is backgrounded. With \"Always\", KiekR keeps collecting in your pocket using only the position your phone already knows, no extra GPS."
 }
