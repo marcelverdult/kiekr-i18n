@@ -9454,5 +9454,20 @@
     "value": "Ausilio di apprendimento persistente per le collisioni di prefisso: una volta che il selettore deterministico ha scelto un vincitore, il (prefisso, hop, pubkey) viene aggiornato in modo che il prossimo pareggio con lo stesso prefisso si risolva nello stesso modo.\n\nCache TTL — per quanto tempo una voce sopravvive senza essere riutilizzata. Predefinito 30 giorni, limite 1..=180.\n\nMargine di tiebreak — quanto devono essere vicine le metriche di due candidati (in %) prima che la cache risolva il pareggio. 0 disabilita il fallback della cache (solo i pareggi esatti sono validi); 20 è il limite superiore. Predefinito 5 %.",
     "_ai": true,
     "_seeded": "2026-09-20"
+  },
+  "sync_stage_channels": {
+    "value": "Sincronizzazione dei canali…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_contacts": {
+    "value": "Sincronizzazione dei contatti…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_messages": {
+    "value": "Sincronizzazione dei messaggi…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
   }
 }

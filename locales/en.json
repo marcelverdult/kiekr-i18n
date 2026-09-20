@@ -2175,5 +2175,8 @@
   "ios_mynode_derived_pubkey_label": "Derived public key: %@",
   "ios_nodes_attempt_progress": "Attempt %1$d of %2$d · %3$d s",
   "ios_nodes_avg_snr_label": "avg %.1f dB (n=%d)",
-  "ios_pathlookup_cache_footer": "Persistent learning aid for prefix collisions: once the deterministic picker has chosen a winner, the (prefix, hop, pubkey) is bumped so the next tie at the same prefix breaks the same way.\n\nCache TTL — how long an entry survives without being re-used. Default 30 days, clamp 1..=180.\n\nTiebreaker margin — how close two candidates' metrics must be (in %) before the cache breaks the tie. 0 disables the cache fallback (only exact ties qualify); 20 is the upper bound. Default 5 %."
+  "ios_pathlookup_cache_footer": "Persistent learning aid for prefix collisions: once the deterministic picker has chosen a winner, the (prefix, hop, pubkey) is bumped so the next tie at the same prefix breaks the same way.\n\nCache TTL — how long an entry survives without being re-used. Default 30 days, clamp 1..=180.\n\nTiebreaker margin — how close two candidates' metrics must be (in %) before the cache breaks the tie. 0 disables the cache fallback (only exact ties qualify); 20 is the upper bound. Default 5 %.",
+  "sync_stage_channels": "Syncing channels…",
+  "sync_stage_contacts": "Syncing contacts…",
+  "sync_stage_messages": "Syncing messages…"
 }

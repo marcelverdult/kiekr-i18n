@@ -10812,5 +10812,20 @@
     "value": "Trwała pomoc uczenia się przy kolizjach prefiksów: gdy deterministyczny wybierak wyłoni zwycięzcę, wpis (prefiks, skok, pubkey) jest odświeżany, aby następny remis przy tym samym prefiksie został rozstrzygnięty tak samo.\n\nCache TTL — jak długo wpis przetrwa bez ponownego użycia. Domyślnie 30 dni, ograniczenie 1..=180.\n\nMarża rozstrzygania remisów — jak bliskie muszą być metryki dwóch kandydatów (w %), aby cache rozstrzygnął remis. 0 wyłącza mechanizm cache (liczą się tylko dokładne remisy); 20 to górna granica. Domyślnie 5 %.",
     "_ai": true,
     "_seeded": "2026-09-20"
+  },
+  "sync_stage_channels": {
+    "value": "Synchronizacja kanałów…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_contacts": {
+    "value": "Synchronizacja kontaktów…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_messages": {
+    "value": "Synchronizacja wiadomości…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
   }
 }

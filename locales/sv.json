@@ -10819,5 +10819,20 @@
     "value": "Beständigt inlärningsstöd för prefixkollisioner: när den deterministiska väljaren har valt en vinnare markeras (prefix, hopp, pubkey) så att nästa oavgjorda vid samma prefix avgörs på samma sätt.\n\nCache-TTL — hur länge en post överlever utan att återanvändas. Standard 30 dagar, begränsning 1..=180.\n\nMarginal för oavgjort — hur nära två kandidaters mätvärden måste vara (i %) innan cachen avgör det oavgjorda. 0 inaktiverar cache-fallbacken (endast exakta oavgjorda kvalificerar sig); 20 är den övre gränsen. Standard 5 %.",
     "_ai": true,
     "_seeded": "2026-09-20"
+  },
+  "sync_stage_channels": {
+    "value": "Synkroniserar kanaler…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_contacts": {
+    "value": "Synkroniserar kontakter…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_messages": {
+    "value": "Synkroniserar meddelanden…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
   }
 }

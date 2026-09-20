@@ -8879,5 +8879,17 @@
   "ios_pathlookup_cache_footer": {
     "value": "Dauerhafte Lernhilfe für Präfixkollisionen: Sobald der deterministische Picker einen Gewinner gewählt hat, wird das (Präfix, Hop, Pubkey) vorgemerkt, sodass das nächste Unentschieden beim gleichen Präfix gleich aufgelöst wird.\n\nCache-TTL — wie lange ein Eintrag überlebt, ohne erneut genutzt zu werden. Standard 30 Tage, Begrenzung 1..=180.\n\nTiebreaker-Marge — wie nah die Metriken zweier Kandidaten beieinander liegen müssen (in %), bevor der Cache das Unentschieden auflöst. 0 deaktiviert den Cache-Fallback (nur exakte Unentschieden zählen); 20 ist die Obergrenze. Standard 5 %.",
     "_human": true
+  },
+  "sync_stage_channels": {
+    "value": "Kanäle werden synchronisiert…",
+    "_human": true
+  },
+  "sync_stage_contacts": {
+    "value": "Kontakte werden synchronisiert…",
+    "_human": true
+  },
+  "sync_stage_messages": {
+    "value": "Nachrichten werden synchronisiert…",
+    "_human": true
   }
 }

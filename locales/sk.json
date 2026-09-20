@@ -10820,5 +10820,20 @@
     "value": "Trvalá pomôcka pre učenie pri kolíziách prefixov: keď deterministický výber určí víťaza, (prefix, hop, pubkey) sa aktualizuje, aby sa ďalší nerozhodný stav pri rovnakom prefixe vyriešil rovnako.\n\nCache TTL — ako dlho záznam prežije bez opätovného použitia. Predvolené 30 dní, obmedzenie 1..=180.\n\nMarža rozhodovania — ako blízko musia byť metriky dvoch kandidátov (v %), aby cache rozhodol nerozhodný stav. 0 vypne fallback na cache (kvalifikujú sa len presné shody); 20 je horná hranica. Predvolené 5 %.",
     "_ai": true,
     "_seeded": "2026-09-20"
+  },
+  "sync_stage_channels": {
+    "value": "Synchronizácia kanálov…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_contacts": {
+    "value": "Synchronizácia kontaktov…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "sync_stage_messages": {
+    "value": "Synchronizácia správ…",
+    "_ai": true,
+    "_seeded": "2026-09-20"
   }
 }
