@@ -9156,10 +9156,26 @@
     "_ai": true,
     "_seeded": "2026-08-18"
   },
-  "warn_channel_removed_title": null,
-  "warn_channel_removed_body": null,
-  "warn_channel_removed_reinstall_button": null,
-  "warn_channel_removed_leave_button": null,
+  "warn_channel_removed_title": {
+    "value": "Kanaal verwijderd van node",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_body": {
+    "value": "Het kanaal \"%1$s\" is van deze node verwijderd. Installeer het opnieuw op de node of verlaat het kanaal.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_reinstall_button": {
+    "value": "Opnieuw installeren",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_leave_button": {
+    "value": "Kanaal verlaten",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "mynode_connected_since_secs": {
     "value": "sinds %d s",
     "_ai": true,
@@ -9265,8 +9281,16 @@
     "_ai": true,
     "_seeded": "2026-08-18"
   },
-  "settings_autoadd_master_off_hint": null,
-  "settings_autoadd_master_off_apply": null,
+  "settings_autoadd_master_off_hint": {
+    "value": "Deze node voegt momenteel elk soort advertentie automatisch toe (“Auto add all”) — de filters hieronder hebben geen effect. Mogelijk heeft een andere app dit omgezet.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_autoadd_master_off_apply": {
+    "value": "Typefilters toepassen",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "notif_action_reply": {
     "value": "Beantwoorden",
     "_human": true
@@ -9322,15 +9346,51 @@
     "_ai": true,
     "_seeded": "2026-08-19"
   },
-  "device_console_title": null,
-  "device_console_footer": null,
-  "chats_split_placeholder": null,
-  "settings_split_placeholder": null,
-  "device_contact_table_full": null,
-  "settings_coverage_bg_status_label": null,
-  "settings_coverage_bg_status_paused_always": null,
-  "settings_coverage_bg_status_paused_fix": null,
-  "settings_coverage_bg_pause_hint": null,
+  "device_console_title": {
+    "value": "Apparaatconsole",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "device_console_footer": {
+    "value": "Voert CLI-opdrachten uit op de verbonden node (firmware 1.18 of nieuwer).",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chats_split_placeholder": {
+    "value": "Selecteer een gesprek",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_split_placeholder": {
+    "value": "Selecteer een instelling",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "device_contact_table_full": {
+    "value": "De contactenlijst van deze node is vol — hij kan geen nieuwe contacten meer opnemen die hij hoort. Verwijder er een paar om ruimte te maken.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_label": {
+    "value": "Achtergrondverzameling",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_paused_always": {
+    "value": "Gepauzeerd — locatietoegang is alleen \"Tijdens gebruik van de app\"",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_paused_fix": {
+    "value": "Gepauzeerd — locatiesessie gestopt",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_pause_hint": {
+    "value": "Zonder \"Altijd\" verzamelt coverage alleen zolang KiekR open is — iOS pauzeert de locatiesessie zodra de app naar de achtergrond gaat. Met \"Altijd\" blijft KiekR verzamelen in je zak, met alleen de positie die je telefoon al kent, zonder extra GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "rules_title": {
     "value": "Gemeenschapsregels",
     "_ai": true,
@@ -9396,9 +9456,89 @@
     "_ai": true,
     "_seeded": "2026-09-18"
   },
-  "mynode_ble_permission_title": null,
-  "mynode_ble_permission_body": null,
-  "chat_row_favorite": null,
-  "chat_link_dialog_title": null,
-  "chat_link_open": null
+  "mynode_ble_permission_title": {
+    "value": "Bluetooth-toestemming vereist",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "mynode_ble_permission_body": {
+    "value": "KiekR heeft de toestemming “Apparaten in de buurt” nodig om verbinding te maken met je node. Sta dit toe in de app-instellingen en tik daarna opnieuw op Verbinden.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_row_favorite": {
+    "value": "Favoriet",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_link_dialog_title": {
+    "value": "Link openen?",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_link_open": {
+    "value": "Openen",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_addtodevice_not_in_contacts_body": {
+    "value": "%@ staat nog niet in de contactenlijst van deze node. Voeg het toe om door te gaan.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_soft_remove_body": {
+    "value": "Verwijdert %@ uit je chatlijst en kanaalinstellingen. Je kunt het later opnieuw toevoegen door de naam in te voeren bij Instellingen → Kanalen → Kanaal toevoegen op naam — de SHA-256-sleutel wordt op dezelfde manier afgeleid.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_hard_delete_body": {
+    "value": "%@ verwijderen? Dit is definitief — de sleutel kan niet opnieuw uit de naam worden afgeleid.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_slot_tag": {
+    "value": "slot %d",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_notify_footer": {
+    "value": "Alle = elk inkomend bericht. Alleen vermeldingen = komt overeen met `@%@` in ontsleutelde platte tekst. Uit = stil.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_chats_unread_accessibility": {
+    "value": "%d ongelezen",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_chats_messages_from_accessibility": {
+    "value": "Berichten van %@",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_help_about_ios_label": {
+    "value": "iOS",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_mynode_derived_pubkey_label": {
+    "value": "Afgeleide publieke sleutel: %@",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_nodes_attempt_progress": {
+    "value": "Poging %1$d van %2$d · %3$d s",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_nodes_avg_snr_label": {
+    "value": "gem. %.1f dB (n=%d)",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_pathlookup_cache_footer": {
+    "value": "Blijvend leerhulpmiddel voor prefixbotsingen: zodra de deterministische picker een winnaar heeft gekozen, wordt de (prefix, hop, pubkey) bijgewerkt, zodat de volgende gelijke stand bij hetzelfde prefix op dezelfde manier wordt opgelost.\n\nCache-TTL — hoe lang een item overleeft zonder opnieuw gebruikt te worden. Standaard 30 dagen, begrensd op 1..=180.\n\nTiebreaker-marge — hoe dicht de metrics van twee kandidaten bij elkaar moeten liggen (in %) voordat de cache de gelijke stand oplost. 0 schakelt de cache-fallback uit (alleen exacte gelijke standen komen in aanmerking); 20 is de bovengrens. Standaard 5 %.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  }
 }

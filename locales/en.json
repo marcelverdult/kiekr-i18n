@@ -2163,5 +2163,17 @@
   "mynode_ble_permission_body": "KiekR needs the “Nearby devices” permission to connect to your node. Allow it in the app settings, then tap Connect again.",
   "chat_row_favorite": "Favorite",
   "chat_link_dialog_title": "Open link?",
-  "chat_link_open": "Open"
+  "chat_link_open": "Open",
+  "ios_addtodevice_not_in_contacts_body": "%@ isn't in this node's contact list yet. Add it to continue.",
+  "ios_channels_soft_remove_body": "Removes %@ from your chat list and channel settings. You can re-add it later by typing the name in Settings → Channels → Add channel by name — the SHA-256 key derives the same way.",
+  "ios_channels_hard_delete_body": "Delete %@? This is permanent — the key cannot be re-derived from the name.",
+  "ios_channels_slot_tag": "slot %d",
+  "ios_channels_notify_footer": "All = every inbound message. Mentions only = matches `@%@` in decrypted plaintext. Off = silent.",
+  "ios_chats_unread_accessibility": "%d unread",
+  "ios_chats_messages_from_accessibility": "Messages from %@",
+  "settings_help_about_ios_label": "iOS",
+  "ios_mynode_derived_pubkey_label": "Derived public key: %@",
+  "ios_nodes_attempt_progress": "Attempt %1$d of %2$d · %3$d s",
+  "ios_nodes_avg_snr_label": "avg %.1f dB (n=%d)",
+  "ios_pathlookup_cache_footer": "Persistent learning aid for prefix collisions: once the deterministic picker has chosen a winner, the (prefix, hop, pubkey) is bumped so the next tie at the same prefix breaks the same way.\n\nCache TTL — how long an entry survives without being re-used. Default 30 days, clamp 1..=180.\n\nTiebreaker margin — how close two candidates' metrics must be (in %) before the cache breaks the tie. 0 disables the cache fallback (only exact ties qualify); 20 is the upper bound. Default 5 %."
 }

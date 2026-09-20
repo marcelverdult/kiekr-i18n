@@ -9156,10 +9156,26 @@
     "_ai": true,
     "_seeded": "2026-08-18"
   },
-  "warn_channel_removed_title": null,
-  "warn_channel_removed_body": null,
-  "warn_channel_removed_reinstall_button": null,
-  "warn_channel_removed_leave_button": null,
+  "warn_channel_removed_title": {
+    "value": "Canal eliminado del nodo",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_body": {
+    "value": "El canal «%1$s» se eliminó de este nodo. Vuelve a instalarlo en el nodo o abandona el canal.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_reinstall_button": {
+    "value": "Reinstalar",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_leave_button": {
+    "value": "Abandonar canal",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "mynode_connected_since_secs": {
     "value": "desde hace %d s",
     "_ai": true,
@@ -9265,8 +9281,16 @@
     "_ai": true,
     "_seeded": "2026-08-18"
   },
-  "settings_autoadd_master_off_hint": null,
-  "settings_autoadd_master_off_apply": null,
+  "settings_autoadd_master_off_hint": {
+    "value": "Este nodo está añadiendo automáticamente todos los tipos de advert («Auto add all») — los filtros de abajo no tienen efecto. Puede que otra app haya cambiado esto.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_autoadd_master_off_apply": {
+    "value": "Aplicar filtros de tipo",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "notif_action_reply": {
     "value": "Responder",
     "_human": true
@@ -9322,15 +9346,51 @@
     "_ai": true,
     "_seeded": "2026-08-19"
   },
-  "device_console_title": null,
-  "device_console_footer": null,
-  "chats_split_placeholder": null,
-  "settings_split_placeholder": null,
-  "device_contact_table_full": null,
-  "settings_coverage_bg_status_label": null,
-  "settings_coverage_bg_status_paused_always": null,
-  "settings_coverage_bg_status_paused_fix": null,
-  "settings_coverage_bg_pause_hint": null,
+  "device_console_title": {
+    "value": "Consola del dispositivo",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "device_console_footer": {
+    "value": "Ejecuta comandos CLI en el nodo conectado (firmware 1.18 o posterior).",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chats_split_placeholder": {
+    "value": "Selecciona una conversación",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_split_placeholder": {
+    "value": "Selecciona un ajuste",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "device_contact_table_full": {
+    "value": "La lista de contactos de este nodo está llena — no puede aceptar nuevos contactos que oiga. Borra algunos para hacer espacio.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_label": {
+    "value": "Recolección en segundo plano",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_paused_always": {
+    "value": "En pausa — el acceso a la ubicación es solo «Al usar la app»",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_paused_fix": {
+    "value": "En pausa — sesión de ubicación detenida",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_pause_hint": {
+    "value": "Sin «Siempre», la cobertura solo se recopila mientras KiekR está abierta — iOS pausa la sesión de ubicación en cuanto la app pasa a segundo plano. Con «Siempre», KiekR sigue recopilando en tu bolsillo usando solo la posición que tu teléfono ya conoce, sin GPS adicional.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "rules_title": {
     "value": "Las normas comunitarias",
     "_ai": true,
@@ -9396,9 +9456,89 @@
     "_ai": true,
     "_seeded": "2026-09-18"
   },
-  "mynode_ble_permission_title": null,
-  "mynode_ble_permission_body": null,
-  "chat_row_favorite": null,
-  "chat_link_dialog_title": null,
-  "chat_link_open": null
+  "mynode_ble_permission_title": {
+    "value": "Falta el permiso de Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "mynode_ble_permission_body": {
+    "value": "KiekR necesita el permiso «Dispositivos cercanos» para conectarse a tu nodo. Concédelo en los ajustes de la app y luego pulsa Conectar de nuevo.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_row_favorite": {
+    "value": "Favorito",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_link_dialog_title": {
+    "value": "¿Abrir enlace?",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_link_open": {
+    "value": "Abrir",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_addtodevice_not_in_contacts_body": {
+    "value": "%@ aún no está en la lista de contactos de este nodo. Añádelo para continuar.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_soft_remove_body": {
+    "value": "Elimina %@ de tu lista de chats y de los ajustes de canales. Puedes volver a añadirlo más tarde escribiendo el nombre en Ajustes → Canales → Añadir canal por nombre — la clave SHA-256 se deriva de la misma manera.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_hard_delete_body": {
+    "value": "¿Eliminar %@? Esto es permanente — la clave no se puede volver a derivar del nombre.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_slot_tag": {
+    "value": "ranura %d",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_notify_footer": {
+    "value": "Todas = cada mensaje entrante. Solo menciones = coincide con `@%@` en el texto plano descifrado. Desactivadas = silencio.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_chats_unread_accessibility": {
+    "value": "%d sin leer",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_chats_messages_from_accessibility": {
+    "value": "Mensajes de %@",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_help_about_ios_label": {
+    "value": "iOS",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_mynode_derived_pubkey_label": {
+    "value": "Clave pública derivada: %@",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_nodes_attempt_progress": {
+    "value": "Intento %1$d de %2$d · %3$d s",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_nodes_avg_snr_label": {
+    "value": "media %.1f dB (n=%d)",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_pathlookup_cache_footer": {
+    "value": "Ayuda de aprendizaje persistente para colisiones de prefijo: una vez que el selector determinista ha elegido un ganador, se registra (prefijo, salto, clave pública) para que el próximo empate en el mismo prefijo se resuelva igual.\n\nTTL de la caché — cuánto tiempo sobrevive una entrada sin volver a usarse. Por defecto 30 días, límite 1..=180.\n\nMargen de desempate — cuán cerca deben estar las métricas de dos candidatos (en %) para que la caché rompa el empate. 0 desactiva el uso de la caché (solo cuentan los empates exactos); 20 es el límite superior. Por defecto 5 %.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  }
 }

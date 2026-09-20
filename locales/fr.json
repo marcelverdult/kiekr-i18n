@@ -9156,10 +9156,26 @@
     "_ai": true,
     "_seeded": "2026-08-18"
   },
-  "warn_channel_removed_title": null,
-  "warn_channel_removed_body": null,
-  "warn_channel_removed_reinstall_button": null,
-  "warn_channel_removed_leave_button": null,
+  "warn_channel_removed_title": {
+    "value": "Canal supprimé du nœud",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_body": {
+    "value": "Le canal « %1$s » a été supprimé de ce nœud. Réinstallez-le sur le nœud ou quittez le canal.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_reinstall_button": {
+    "value": "Réinstaller",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "warn_channel_removed_leave_button": {
+    "value": "Quitter le canal",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "mynode_connected_since_secs": {
     "value": "depuis %d s",
     "_ai": true,
@@ -9265,8 +9281,16 @@
     "_ai": true,
     "_seeded": "2026-08-18"
   },
-  "settings_autoadd_master_off_hint": null,
-  "settings_autoadd_master_off_apply": null,
+  "settings_autoadd_master_off_hint": {
+    "value": "Ce nœud ajoute actuellement automatiquement tous les types d'annonces (« Auto add all ») — les filtres ci-dessous n'ont aucun effet. Une autre application a peut-être modifié ce réglage.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_autoadd_master_off_apply": {
+    "value": "Appliquer les filtres de type",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "notif_action_reply": {
     "value": "Répondre",
     "_human": true
@@ -9322,15 +9346,51 @@
     "_ai": true,
     "_seeded": "2026-08-19"
   },
-  "device_console_title": null,
-  "device_console_footer": null,
-  "chats_split_placeholder": null,
-  "settings_split_placeholder": null,
-  "device_contact_table_full": null,
-  "settings_coverage_bg_status_label": null,
-  "settings_coverage_bg_status_paused_always": null,
-  "settings_coverage_bg_status_paused_fix": null,
-  "settings_coverage_bg_pause_hint": null,
+  "device_console_title": {
+    "value": "Console de l'appareil",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "device_console_footer": {
+    "value": "Exécute des commandes CLI sur le nœud connecté (micrologiciel 1.18 ou plus récent).",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chats_split_placeholder": {
+    "value": "Sélectionnez une conversation",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_split_placeholder": {
+    "value": "Sélectionnez un réglage",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "device_contact_table_full": {
+    "value": "La liste de contacts de ce nœud est pleine — il ne peut plus accepter de nouveaux contacts qu'il entend. Supprimez-en pour faire de la place.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_label": {
+    "value": "Collecte en arrière-plan",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_paused_always": {
+    "value": "En pause — l'accès à la position est réglé sur « Lors de l'utilisation de l'app »",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_status_paused_fix": {
+    "value": "En pause — session de localisation arrêtée",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_coverage_bg_pause_hint": {
+    "value": "Sans « Toujours », la collecte de couverture ne fonctionne que lorsque KiekR est ouvert — iOS met en pause la session de localisation dès que l'app passe en arrière-plan. Avec « Toujours », KiekR continue de collecter dans votre poche en utilisant uniquement la position déjà connue par votre téléphone, sans GPS supplémentaire.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
   "rules_title": {
     "value": "Règles communautaires",
     "_ai": true,
@@ -9396,9 +9456,89 @@
     "_ai": true,
     "_seeded": "2026-09-18"
   },
-  "mynode_ble_permission_title": null,
-  "mynode_ble_permission_body": null,
-  "chat_row_favorite": null,
-  "chat_link_dialog_title": null,
-  "chat_link_open": null
+  "mynode_ble_permission_title": {
+    "value": "Autorisation Bluetooth requise",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "mynode_ble_permission_body": {
+    "value": "KiekR a besoin de l'autorisation « Appareils à proximité » pour se connecter à votre nœud. Autorisez-la dans les réglages de l'application, puis appuyez à nouveau sur « Connecter ».",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_row_favorite": {
+    "value": "Favori",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_link_dialog_title": {
+    "value": "Ouvrir le lien ?",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "chat_link_open": {
+    "value": "Ouvrir",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_addtodevice_not_in_contacts_body": {
+    "value": "%@ ne figure pas encore dans la liste de contacts de ce nœud. Ajoutez-le pour continuer.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_soft_remove_body": {
+    "value": "Supprime %@ de votre liste de discussions et des réglages des canaux. Vous pouvez le rajouter plus tard en saisissant le nom dans Réglages → Canaux → Ajouter un canal par nom — la clé SHA-256 est dérivée de la même façon.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_hard_delete_body": {
+    "value": "Supprimer %@ ? Cette action est définitive — la clé ne peut pas être redérivée à partir du nom.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_slot_tag": {
+    "value": "emplacement %d",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_channels_notify_footer": {
+    "value": "Toutes = chaque message entrant. Mentions uniquement = correspond à `@%@` dans le texte déchiffré. Désactivé = silencieux.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_chats_unread_accessibility": {
+    "value": "%d non lus",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_chats_messages_from_accessibility": {
+    "value": "Messages de %@",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "settings_help_about_ios_label": {
+    "value": "iOS",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_mynode_derived_pubkey_label": {
+    "value": "Clé publique dérivée : %@",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_nodes_attempt_progress": {
+    "value": "Tentative %1$d sur %2$d · %3$d s",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_nodes_avg_snr_label": {
+    "value": "moy. %.1f dB (n=%d)",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  },
+  "ios_pathlookup_cache_footer": {
+    "value": "Aide à l'apprentissage persistante pour les collisions de préfixe : une fois que le sélecteur déterministe a choisi un gagnant, le triplet (préfixe, saut, clé publique) est mis à jour afin que la prochaine égalité sur le même préfixe soit résolue de la même façon.\n\nDurée de vie du cache (TTL) — combien de temps une entrée survit sans être réutilisée. Par défaut 30 jours, limité entre 1 et 180.\n\nMarge de départage — à quel point les métriques de deux candidats doivent être proches (en %) pour que le cache départage l'égalité. 0 désactive le repli sur le cache (seules les égalités exactes comptent) ; 20 est la limite supérieure. Par défaut 5 %.",
+    "_ai": true,
+    "_seeded": "2026-09-20"
+  }
 }

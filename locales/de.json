@@ -8831,5 +8831,53 @@
   "chat_link_open": {
     "value": "Öffnen",
     "_human": true
+  },
+  "ios_addtodevice_not_in_contacts_body": {
+    "value": "%@ steht noch nicht in der Kontaktliste dieses Knotens. Zum Fortfahren hinzufügen.",
+    "_human": true
+  },
+  "ios_channels_soft_remove_body": {
+    "value": "Entfernt %@ aus deiner Chat-Liste und den Kanaleinstellungen. Du kannst ihn später wieder hinzufügen, indem du den Namen unter Einstellungen → Kanäle → Kanal nach Namen hinzufügen eingibst — der SHA-256-Schlüssel wird auf die gleiche Weise abgeleitet.",
+    "_human": true
+  },
+  "ios_channels_hard_delete_body": {
+    "value": "%@ löschen? Das ist endgültig — der Schlüssel kann nicht erneut aus dem Namen abgeleitet werden.",
+    "_human": true
+  },
+  "ios_channels_slot_tag": {
+    "value": "Slot %d",
+    "_human": true
+  },
+  "ios_channels_notify_footer": {
+    "value": "Alle = jede eingehende Nachricht. Nur Erwähnungen = passt auf `@%@` im entschlüsselten Klartext. Aus = stumm.",
+    "_human": true
+  },
+  "ios_chats_unread_accessibility": {
+    "value": "%d ungelesen",
+    "_human": true
+  },
+  "ios_chats_messages_from_accessibility": {
+    "value": "Nachrichten von %@",
+    "_human": true
+  },
+  "settings_help_about_ios_label": {
+    "value": "iOS",
+    "_human": true
+  },
+  "ios_mynode_derived_pubkey_label": {
+    "value": "Abgeleiteter öffentlicher Schlüssel: %@",
+    "_human": true
+  },
+  "ios_nodes_attempt_progress": {
+    "value": "Versuch %1$d von %2$d · %3$d s",
+    "_human": true
+  },
+  "ios_nodes_avg_snr_label": {
+    "value": "Ø %.1f dB (n=%d)",
+    "_human": true
+  },
+  "ios_pathlookup_cache_footer": {
+    "value": "Dauerhafte Lernhilfe für Präfixkollisionen: Sobald der deterministische Picker einen Gewinner gewählt hat, wird das (Präfix, Hop, Pubkey) vorgemerkt, sodass das nächste Unentschieden beim gleichen Präfix gleich aufgelöst wird.\n\nCache-TTL — wie lange ein Eintrag überlebt, ohne erneut genutzt zu werden. Standard 30 Tage, Begrenzung 1..=180.\n\nTiebreaker-Marge — wie nah die Metriken zweier Kandidaten beieinander liegen müssen (in %), bevor der Cache das Unentschieden auflöst. 0 deaktiviert den Cache-Fallback (nur exakte Unentschieden zählen); 20 ist die Obergrenze. Standard 5 %.",
+    "_human": true
   }
 }
