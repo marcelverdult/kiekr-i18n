@@ -3,7 +3,7 @@
     "language": "en",
     "managed_by": "kiekr-team",
     "name": "English",
-    "updated": "2026-09-20"
+    "updated": "2026-09-22"
   },
   "add_channel_duplicate_key": "This key already belongs to \"%1$s\".",
   "add_channel_generate_key": "Generate random key",
@@ -2178,5 +2178,11 @@
   "ios_pathlookup_cache_footer": "Persistent learning aid for prefix collisions: once the deterministic picker has chosen a winner, the (prefix, hop, pubkey) is bumped so the next tie at the same prefix breaks the same way.\n\nCache TTL — how long an entry survives without being re-used. Default 30 days, clamp 1..=180.\n\nTiebreaker margin — how close two candidates' metrics must be (in %) before the cache breaks the tie. 0 disables the cache fallback (only exact ties qualify); 20 is the upper bound. Default 5 %.",
   "sync_stage_channels": "Syncing channels…",
   "sync_stage_contacts": "Syncing contacts…",
-  "sync_stage_messages": "Syncing messages…"
+  "sync_stage_messages": "Syncing messages…",
+  "mynode_bluetooth_off_title": "Bluetooth is off",
+  "mynode_bluetooth_off_action": "Tap to turn it on",
+  "mynode_bluetooth_off_hint": "Turn Bluetooth on to connect to your node.",
+  "ui_connection_banner_bluetooth_off": "Bluetooth is off — tap to turn it on",
+  "chat_menu_mark_all_read": "Mark all as read",
+  "chat_mark_all_read_confirm_body": "Every chat is marked as read. Messages that arrive later show up as unread again."
 }
