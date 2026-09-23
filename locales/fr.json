@@ -5697,7 +5697,7 @@
     "_human": true
   },
   "settings_pathlookup_encoding_footer_supported": {
-    "value": "Des octets par saut sont ajoutés au chemin sur les nouveaux paquets sortants dont nous sommes originaires. Des valeurs plus élevées réduisent les collisions de noms mais peuvent ne pas être transmises par un ancien firmware de répétiteur. Les chemins appris vers les contacts connus conservent la largeur qu'ils ont reçue à  ce paramètre n'affecte que les chemins d'inondation et de réponse anonyme. 3 octets recommandés pour les chemins uniques (2 fonctionnent également); le firmware est livré avec 1.",
+    "value": "Octets par saut ajoutés au chemin des nouveaux paquets sortants que nous émettons. Des valeurs plus élevées réduisent les collisions de noms mais peuvent ne pas être transmises par les firmwares de répéteurs plus anciens. Les chemins appris vers des contacts connus conservent la largeur à laquelle ils ont été reçus — ce réglage n'affecte que les chemins Flood et de réponse anonyme. 3 octets recommandés pour des chemins uniques (2 fonctionne aussi) ; valeur par défaut du firmware : 1.",
     "_ai": true,
     "_seeded": "2026-09-23"
   },

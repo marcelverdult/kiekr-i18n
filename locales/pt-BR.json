@@ -6835,7 +6835,7 @@
     "_seeded": "2026-05-23"
   },
   "settings_pathlookup_encoding_footer_supported": {
-    "value": "Bytes por hop anexados ao caminho em novos pacotes de saída que originamos. Valores mais altos reduzem as colisões de nomes, mas podem não ser encaminhados pelo firmware do repetidor mais antigo. Caminhos aprendidos para contatos conhecidos mantêm a largura que foram recebidos em  Esta configuração afeta apenas caminhos de inundação e resposta anon. 3 bytes recomendados para caminhos únicos (2 também funciona); o firmware é enviado com 1.",
+    "value": "Bytes por salto anexados ao caminho nos novos pacotes de saída que originamos. Valores mais altos reduzem as colisões de nomes, mas podem não ser encaminhados por firmwares de repetidores mais antigos. Os caminhos aprendidos para contatos conhecidos mantêm a largura com que foram recebidos — esta configuração afeta apenas os caminhos de flood e de resposta anônima. Recomendam-se 3 bytes para caminhos exclusivos (2 também funciona); o padrão do firmware é 1.",
     "_ai": true,
     "_seeded": "2026-09-23"
   },

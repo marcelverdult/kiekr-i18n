@@ -5697,7 +5697,7 @@
     "_human": true
   },
   "settings_pathlookup_encoding_footer_supported": {
-    "value": "Bytes por salto añadido a la ruta en los nuevos paquetes salientes que originamos. Valores más altos reducen las colisiones de nombres, pero pueden no ser reenviados por el firmware repetidor más antiguo. Las rutas aprendidas a los contactos conocidos mantienen el ancho que recibieron en  esta configuración solo afecta las rutas de inundación y respuesta anon. 3 bytes recomendados para rutas únicas (2 también funciona); el firmware se envía con 1.",
+    "value": "Bytes por salto añadidos a la ruta en los paquetes salientes nuevos que originamos. Valores más altos reducen las colisiones de nombres, pero el firmware antiguo de repetidores podría no reenviarlos. Las rutas aprendidas a contactos conocidos conservan el ancho con el que se recibieron; este ajuste solo afecta a las rutas flood y de respuesta anónima. Se recomiendan 3 bytes para rutas únicas (2 también funciona); el valor predeterminado del firmware es 1.",
     "_ai": true,
     "_seeded": "2026-09-23"
   },

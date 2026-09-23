@@ -5617,7 +5617,7 @@
     "_human": true
   },
   "settings_pathlookup_encoding_footer_supported": {
-    "value": "Bytes per hop aggiunti al percorso sui nuovi pacchetti in uscita da noi originati. Valori più alti riducono le collisioni di nome ma potrebbero non essere inoltrati dal firmware del ripetitore più vecchio. I percorsi appresi ai contatti noti mantengono la larghezza che sono stati ricevuti a  questa impostazione colpisce solo i percorsi di inondazione e anon-reply. 3 byte raccomandati per percorsi unici (2 funziona anche); il firmware viene fornito con 1.",
+    "value": "Byte per hop aggiunti al percorso nei nuovi pacchetti in uscita generati da noi. Valori più elevati riducono le collisioni di nomi, ma potrebbero non essere inoltrati dai firmware dei ripetitori meno recenti. I percorsi appresi verso contatti noti mantengono la larghezza con cui sono stati ricevuti: questa impostazione influisce solo sui percorsi in flood e di risposta anonima. Per percorsi univoci si consigliano 3 byte (funziona anche 2); il valore predefinito del firmware è 1.",
     "_ai": true,
     "_seeded": "2026-09-23"
   },

@@ -6836,7 +6836,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_pathlookup_encoding_footer_supported": {
-    "value": "Biti na hop, ki se dodajo poti na novih odhajajočih paketih, ki jih ustvarjamo. Višje vrednosti zmanjšujejo trke imen, vendar jih starejša firmware ponoviteljev morda ne posreduje. Učene poti do znanih stikov ohranjajo širino, ki so jo prejeli na  ta nastavitev vpliva le na potop in anon-reply poti. 3 bita priporočamo za edinstvene poti (2 deluje tudi); firmware se pošilja z 1.",
+    "value": "Število bajtov na skok, ki se doda poti v novih odhodnih paketih, ki jih ustvarjamo. Višje vrednosti zmanjšujejo kolizije imen, vendar jih starejša programska oprema ponavljalnikov morda ne bo posredovala naprej. Naučene poti do znanih stikov ohranijo širino, s katero so bile prejete — ta nastavitev vpliva le na poti za razširjanje in anonimne odgovore. Za edinstvene poti so priporočeni 3 bajti (deluje tudi 2); privzeta vrednost programske opreme je 1.",
     "_ai": true,
     "_seeded": "2026-09-23"
   },

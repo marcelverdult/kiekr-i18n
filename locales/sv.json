@@ -6834,7 +6834,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_pathlookup_encoding_footer_supported": {
-    "value": "Högre värden minskar namnkollisioner men kan inte vidarebefordras av äldre repeater-firmware. Lärda vägar till kända kontakter behåller bredden de mottog vid . Denna inställning påverkar endast flod- och anonreply-vägar. 3 byte rekommenderas för unika vägar (2 fungerar också); firmware levereras med 1.",
+    "value": "Antal byte per hopp som läggs till i vägen för nya utgående paket som vi skapar. Högre värden minskar risken för namnskollisioner, men kan eventuellt inte vidarebefordras av äldre firmware i repeatrar. Inlärda vägar till kända kontakter behåller den bredd de hade när de mottogs – den här inställningen påverkar endast flood- och anon-reply-vägar. 3 byte rekommenderas för unika vägar (2 fungerar också); firmwarens standardvärde är 1.",
     "_ai": true,
     "_seeded": "2026-09-23"
   },
