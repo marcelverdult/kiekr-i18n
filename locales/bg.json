@@ -10895,9 +10895,29 @@
     "_ai": true,
     "_seeded": "2026-09-23"
   },
-  "signal_direct_reception_info": null,
-  "signal_direct_reception_ambiguous": null,
-  "signal_direct_reception_packet_count": null,
-  "signal_direct_reception_expand_packets": null,
-  "signal_direct_reception_collapse_packets": null
+  "signal_direct_reception_info": {
+    "value": "Репитери, които вашият възел е чул директно, според последните му пакети. Кратък идентификатор (като \"85\") може да съвпада с повече от един възел.",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_ambiguous": {
+    "value": "кратък идентификатор, нееднозначен",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_packet_count": {
+    "value": "Пакети: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_expand_packets": {
+    "value": "Покажи пакетите",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_collapse_packets": {
+    "value": "Скрий пакетите",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  }
 }

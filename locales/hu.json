@@ -10895,9 +10895,29 @@
     "_ai": true,
     "_seeded": "2026-09-23"
   },
-  "signal_direct_reception_info": null,
-  "signal_direct_reception_ambiguous": null,
-  "signal_direct_reception_packet_count": null,
-  "signal_direct_reception_expand_packets": null,
-  "signal_direct_reception_collapse_packets": null
+  "signal_direct_reception_info": {
+    "value": "Átjátszók, amelyeket a csomópontja közvetlenül hallott, a legutóbbi csomagjai alapján. Egy rövid azonosító (pl. \"85\") több csomóponthoz is illeszkedhet.",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_ambiguous": {
+    "value": "rövid azonosító, nem egyértelmű",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_packet_count": {
+    "value": "Csomagok: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_expand_packets": {
+    "value": "Csomagok megjelenítése",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_collapse_packets": {
+    "value": "Csomagok elrejtése",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  }
 }

@@ -9615,9 +9615,29 @@
     "_ai": true,
     "_seeded": "2026-09-23"
   },
-  "signal_direct_reception_info": null,
-  "signal_direct_reception_ambiguous": null,
-  "signal_direct_reception_packet_count": null,
-  "signal_direct_reception_expand_packets": null,
-  "signal_direct_reception_collapse_packets": null
+  "signal_direct_reception_info": {
+    "value": "Repeaters die je node rechtstreeks heeft ontvangen, op basis van de meest recente pakketten. Een korte identifier (zoals \"85\") kan bij meer dan één node passen.",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_ambiguous": {
+    "value": "korte identifier, niet eenduidig",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_packet_count": {
+    "value": "Pakketten: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_expand_packets": {
+    "value": "Pakketten tonen",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_collapse_packets": {
+    "value": "Pakketten verbergen",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  }
 }

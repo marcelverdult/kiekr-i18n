@@ -9615,9 +9615,29 @@
     "_ai": true,
     "_seeded": "2026-09-23"
   },
-  "signal_direct_reception_info": null,
-  "signal_direct_reception_ambiguous": null,
-  "signal_direct_reception_packet_count": null,
-  "signal_direct_reception_expand_packets": null,
-  "signal_direct_reception_collapse_packets": null
+  "signal_direct_reception_info": {
+    "value": "Répéteurs que votre nœud a captés directement, d'après ses paquets les plus récents. Un identifiant court (comme \"85\") peut correspondre à plusieurs nœuds.",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_ambiguous": {
+    "value": "identifiant court, ambigu",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_packet_count": {
+    "value": "Paquets : %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_expand_packets": {
+    "value": "Afficher les paquets",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_collapse_packets": {
+    "value": "Masquer les paquets",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  }
 }

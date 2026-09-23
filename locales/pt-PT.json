@@ -10895,9 +10895,29 @@
     "_ai": true,
     "_seeded": "2026-09-23"
   },
-  "signal_direct_reception_info": null,
-  "signal_direct_reception_ambiguous": null,
-  "signal_direct_reception_packet_count": null,
-  "signal_direct_reception_expand_packets": null,
-  "signal_direct_reception_collapse_packets": null
+  "signal_direct_reception_info": {
+    "value": "Repetidores que o seu nó recebeu diretamente, com base nos pacotes mais recentes. Um identificador curto (como \"85\") pode corresponder a mais do que um nó.",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_ambiguous": {
+    "value": "identificador curto, ambíguo",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_packet_count": {
+    "value": "Pacotes: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_expand_packets": {
+    "value": "Mostrar pacotes",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
+  "signal_direct_reception_collapse_packets": {
+    "value": "Ocultar pacotes",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  }
 }
