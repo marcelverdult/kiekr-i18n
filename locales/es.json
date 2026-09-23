@@ -5696,7 +5696,11 @@
     "value": "Los saltos multibyte requieren el firmware companion v1.15.0 o más nuevo. Tu companion informa de una versión más antigua — bloqueado a 1 byte hasta que actualices. Tu preferencia anterior se conserva y se reactivará tras la actualización.",
     "_human": true
   },
-  "settings_pathlookup_encoding_footer_supported": null,
+  "settings_pathlookup_encoding_footer_supported": {
+    "value": "Bytes por salto añadido a la ruta en los nuevos paquetes salientes que originamos. Valores más altos reducen las colisiones de nombres, pero pueden no ser reenviados por el firmware repetidor más antiguo. Las rutas aprendidas a los contactos conocidos mantienen el ancho que recibieron en  esta configuración solo afecta las rutas de inundación y respuesta anon. 3 bytes recomendados para rutas únicas (2 también funciona); el firmware se envía con 1.",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
   "settings_pathlookup_encoding_header": {
     "value": "Codificación de ruta",
     "_human": true

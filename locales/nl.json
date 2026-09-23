@@ -5696,7 +5696,11 @@
     "value": "Multibyte-hops vereisen companion-firmware v1.15.0 of nieuwer. Je companion meldt een oudere versie — vergrendeld op 1 Byte totdat je bijwerkt. Je vorige voorkeur blijft bewaard en wordt na het bijwerken weer geactiveerd.",
     "_human": true
   },
-  "settings_pathlookup_encoding_footer_supported": null,
+  "settings_pathlookup_encoding_footer_supported": {
+    "value": "Bytes per hop toegevoegd aan het pad op nieuwe uitgaande pakketten die we ontstaan. Hogere waarden verminderen naam botsingen, maar kunnen niet worden doorgestuurd door oudere repeater firmware. geleerde paden naar bekende contacten houden de breedte die ze werden ontvangen op  deze instelling heeft alleen invloed op overstroming en anon antwoord paden. 3 bytes aanbevolen voor unieke paden (2 werkt ook); de firmware schepen met 1.",
+    "_ai": true,
+    "_seeded": "2026-09-23"
+  },
   "settings_pathlookup_encoding_header": {
     "value": "Padcodering",
     "_human": true
