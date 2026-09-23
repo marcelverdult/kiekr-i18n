@@ -1375,7 +1375,7 @@
   "settings_pathlookup_chip_3byte": "3 Byte",
   "settings_pathlookup_directory_moved_footer": "Looking for the directory source picker? It moved to Settings → Sharing → Directory.",
   "settings_pathlookup_encoding_footer_locked": "Multi-byte hops require companion firmware v1.15.0 or newer. Your companion reports an older version — locked to 1 Byte until you upgrade. Your previous preference is preserved and will reactivate after the upgrade.",
-  "settings_pathlookup_encoding_footer_supported": "Bytes per hop appended to the path on new outbound packets we originate. Higher values reduce name collisions but may not be forwarded by older repeater firmware. Learned paths to known contacts keep the width they were received at — this setting only affects flood and anon-reply paths. Experimental above 1 Byte; default 1.",
+  "settings_pathlookup_encoding_footer_supported": "Bytes per hop appended to the path on new outbound packets we originate. Higher values reduce name collisions but may not be forwarded by older repeater firmware. Learned paths to known contacts keep the width they were received at — this setting only affects flood and anon-reply paths. 3 bytes recommended for unique paths (2 also works); the firmware ships with 1.",
   "settings_pathlookup_encoding_header": "Path encoding",
   "settings_pathlookup_tiebreaker_label": "Tiebreaker margin",
   "settings_pathlookup_tiebreaker_value": "%1$d %%",

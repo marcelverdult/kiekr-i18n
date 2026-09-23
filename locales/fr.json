@@ -5696,10 +5696,7 @@
     "value": "Les hops multi-octets nécessitent un firmware companion v1.15.0 ou plus récent. Votre companion signale une version plus ancienne — verrouillé à 1 octet jusqu'à la mise à jour. Votre préférence précédente est conservée et se réactivera après la mise à jour.",
     "_human": true
   },
-  "settings_pathlookup_encoding_footer_supported": {
-    "value": "Octets par saut ajoutés au chemin des nouveaux paquets sortants que nous émettons. Des valeurs plus élevées réduisent les collisions de noms mais peuvent ne pas être transmises par les firmwares de répéteurs plus anciens. Les chemins appris vers des contacts connus conservent la largeur à laquelle ils ont été reçus — ce réglage n'affecte que les chemins Flood et de réponse anonyme. Expérimental au-dessus de 1 octet ; défaut 1.",
-    "_human": true
-  },
+  "settings_pathlookup_encoding_footer_supported": null,
   "settings_pathlookup_encoding_header": {
     "value": "Encodage du chemin",
     "_human": true

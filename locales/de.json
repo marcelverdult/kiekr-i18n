@@ -4610,7 +4610,7 @@
     "_human": true
   },
   "settings_pathlookup_encoding_footer_supported": {
-    "value": "Bytes pro Hop, die an den Pfad neuer ausgehender Pakete angehängt werden. Höhere Werte reduzieren Namenskonflikte, werden aber möglicherweise nicht von älterer Repeater-Firmware weitergeleitet. Gelernte Pfade zu bekannten Kontakten behalten ihre empfangene Breite — diese Einstellung wirkt nur auf Flood- und Anon-Reply-Pfade. Werte über 1 Byte sind experimentell; Standard ist 1.",
+    "value": "Bytes pro Hop, die an den Pfad neuer ausgehender Pakete angehängt werden. Höhere Werte reduzieren Namenskonflikte, werden aber möglicherweise nicht von älterer Repeater-Firmware weitergeleitet. Gelernte Pfade zu bekannten Kontakten behalten ihre empfangene Breite — diese Einstellung wirkt nur auf Flood- und Anon-Reply-Pfade. Empfohlen sind 3 Byte für eindeutige Pfade (2 geht auch); die Firmware startet mit 1.",
     "_human": true
   },
   "settings_pathlookup_encoding_header": {
