@@ -9953,5 +9953,55 @@
     "value": "Visibile solo quando hai eseguito l'accesso come admin.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "room_acl_admins_only_info": {
+    "value": "Il room server segnala solo gli Admin. Chi si unisce con la password del room server non compare qui.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_summary_count": {
+    "value": "Chiavi Admin: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_title": {
+    "value": "Nessuna risposta dal room server",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_body": {
+    "value": "Il room server potrebbe essere fuori portata, oppure il percorso non è aggiornato.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_replied_prefix": {
+    "value": "Il room server ha risposto:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_no_confirmation": {
+    "value": "Nessuna conferma dal room server. La voce potrebbe comunque essere stata rimossa.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_confirm_self_warning": {
+    "value": "Questo è il tuo accesso. Da questo momento, il room server non accetterà più comandi admin da te finché non accedi di nuovo con la password admin.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_unknown_box_body": {
+    "value": "Il room server segnala solo i primi 6 byte per voce. È sufficiente per rimuoverla.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_key_input_hint": {
+    "value": "Solo caratteri esadecimali 0–9, a–f. Spazi e due punti vengono rimossi durante l'incolla. Il room server ha bisogno della chiave completa per aggiungerla.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_truncated_body": {
+    "value": "Il room server invia al massimo %1$d voci per risposta. Potrebbero esserci altri Admin registrati senza comparire qui.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

@@ -11319,5 +11319,55 @@
     "value": "Vises kun, når du er logget ind som admin.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "room_acl_admins_only_info": {
+    "value": "Værelsesserveren rapporterer kun Admins. Personer, der tilslutter sig med adgangskoden til rummet, vises ikke her.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_summary_count": {
+    "value": "Admin-nøgler: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_title": {
+    "value": "Intet svar fra værelsesserveren",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_body": {
+    "value": "Værelsesserveren er muligvis uden for rækkevidde, eller stien er forældet.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_replied_prefix": {
+    "value": "Værelsesserveren svarede:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_no_confirmation": {
+    "value": "Ingen bekræftelse fra værelsesserveren. Posten er muligvis alligevel blevet fjernet.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_confirm_self_warning": {
+    "value": "Dette er din egen adgang. Herefter accepterer værelsesserveren ikke flere admin-kommandoer fra dig, før du logger ind igen med admin-adgangskoden.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_unknown_box_body": {
+    "value": "Værelsesserveren rapporterer kun de første 6 byte pr. post. Det er nok til at fjerne den.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_key_input_hint": {
+    "value": "Kun hex-tegn 0–9, a–f. Mellemrum og kolon fjernes ved indsætning. Værelsesserveren skal bruge hele nøglen for at tilføje den.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_truncated_body": {
+    "value": "Værelsesserveren sender højst %1$d poster pr. svar. Der kan være flere Admins, uden at de vises her.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

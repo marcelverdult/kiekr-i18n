@@ -10039,5 +10039,55 @@
     "value": "Alleen zichtbaar als je bent aangemeld als admin.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "room_acl_admins_only_info": {
+    "value": "De room-server meldt alleen Admins. Mensen die met het roomwachtwoord toetreden, verschijnen hier niet.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_summary_count": {
+    "value": "Adminsleutels: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_title": {
+    "value": "Geen antwoord van de room-server",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_body": {
+    "value": "De room-server is mogelijk buiten bereik, of het pad is verouderd.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_replied_prefix": {
+    "value": "De room-server antwoordde:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_no_confirmation": {
+    "value": "Geen bevestiging van de room-server. Het item is mogelijk toch verwijderd.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_confirm_self_warning": {
+    "value": "Dit is je eigen toegang. Daarna accepteert de room-server geen adminopdrachten meer van je, tot je opnieuw inlogt met het adminwachtwoord.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_unknown_box_body": {
+    "value": "De room-server meldt per item alleen de eerste 6 bytes. Dat is genoeg om te verwijderen.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_key_input_hint": {
+    "value": "Alleen hex-tekens 0–9, a–f. Spaties en dubbele punten worden bij het plakken verwijderd. De room-server heeft de volledige sleutel nodig om toe te voegen.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_truncated_body": {
+    "value": "De room-server stuurt maximaal %1$d items per antwoord. Er kunnen meer Admins staan zonder hier te verschijnen.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

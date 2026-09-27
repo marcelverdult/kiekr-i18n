@@ -10039,5 +10039,55 @@
     "value": "Solo visible cuando has iniciado sesión como admin.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "room_acl_admins_only_info": {
+    "value": "El servidor de sala solo informa de los Admins. Las personas que se unen con la contraseña de sala no aparecen aquí.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_summary_count": {
+    "value": "Claves Admin: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_title": {
+    "value": "Sin respuesta del servidor de sala",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_body": {
+    "value": "Puede que el servidor de sala esté fuera de alcance, o que la ruta esté desactualizada.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_replied_prefix": {
+    "value": "El servidor de sala respondió:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_no_confirmation": {
+    "value": "Sin confirmación del servidor de sala. Es posible que la entrada se haya eliminado de todos modos.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_confirm_self_warning": {
+    "value": "Este es tu propio acceso. Después de esto, el servidor de sala ya no aceptará comandos de admin de tu parte hasta que vuelvas a iniciar sesión con la contraseña de admin.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_unknown_box_body": {
+    "value": "El servidor de sala solo informa de los primeros 6 bytes por entrada. Eso basta para eliminarla.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_key_input_hint": {
+    "value": "Solo caracteres hexadecimales 0–9, a–f. Los espacios y dos puntos se eliminan al pegar. El servidor de sala necesita la clave completa para añadirla.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_truncated_body": {
+    "value": "El servidor de sala envía como máximo %1$d entradas por respuesta. Puede haber más Admins registrados sin aparecer aquí.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

@@ -9280,5 +9280,45 @@
   "repeater_acl_admin_only_hint": {
     "value": "Nur sichtbar, wenn du als Admin angemeldet bist.",
     "_human": true
+  },
+  "room_acl_admins_only_info": {
+    "value": "Der Raum-Server meldet nur Admins. Wer mit dem Raum-Passwort beitritt, erscheint hier nicht.",
+    "_human": true
+  },
+  "room_acl_summary_count": {
+    "value": "%1$d Admin-Schlüssel",
+    "_human": true
+  },
+  "room_acl_no_reply_title": {
+    "value": "Keine Antwort vom Raum-Server",
+    "_human": true
+  },
+  "room_acl_no_reply_body": {
+    "value": "Der Raum-Server ist evtl. außer Reichweite oder der Pfad ist veraltet.",
+    "_human": true
+  },
+  "room_acl_replied_prefix": {
+    "value": "Der Raum-Server antwortete:",
+    "_human": true
+  },
+  "room_acl_remove_no_confirmation": {
+    "value": "Keine Bestätigung vom Raum-Server. Der Eintrag wurde möglicherweise trotzdem entfernt.",
+    "_human": true
+  },
+  "room_acl_remove_confirm_self_warning": {
+    "value": "Das ist dein eigener Zugang. Danach nimmt der Raum-Server keine Admin-Befehle mehr von dir an, bis du dich wieder mit dem Admin-Passwort anmeldest.",
+    "_human": true
+  },
+  "room_acl_unknown_box_body": {
+    "value": "Der Raum-Server meldet pro Eintrag nur die ersten 6 Bytes. Entfernen geht damit.",
+    "_human": true
+  },
+  "room_acl_key_input_hint": {
+    "value": "Nur Hex-Zeichen 0–9, a–f. Leerzeichen und Doppelpunkte werden beim Einfügen entfernt. Zum Hinzufügen braucht der Raum-Server den vollständigen Schlüssel.",
+    "_human": true
+  },
+  "room_acl_truncated_body": {
+    "value": "Der Raum-Server schickt höchstens %1$d Einträge pro Antwort. Weitere Admins können eingetragen sein, ohne hier zu erscheinen.",
+    "_human": true
   }
 }

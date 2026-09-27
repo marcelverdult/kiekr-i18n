@@ -2276,5 +2276,15 @@
   "repeater_acl_source_advert_ago": "Advert · %1$s",
   "repeater_acl_add_no_companions": "No known companions.",
   "repeater_acl_list_empty": "No entries in the access list yet.",
-  "repeater_acl_admin_only_hint": "Only visible when you’re signed in as admin."
+  "repeater_acl_admin_only_hint": "Only visible when you’re signed in as admin.",
+  "room_acl_admins_only_info": "The room server only reports admins. People who join with the room password don’t appear here.",
+  "room_acl_summary_count": "Admin keys: %1$d",
+  "room_acl_no_reply_title": "No reply from the room server",
+  "room_acl_no_reply_body": "The room server may be out of range, or the path is outdated.",
+  "room_acl_replied_prefix": "The room server replied:",
+  "room_acl_remove_no_confirmation": "No confirmation from the room server. The entry may have been removed anyway.",
+  "room_acl_remove_confirm_self_warning": "This is your own access. After this, the room server will no longer accept admin commands from you until you log in again with the admin password.",
+  "room_acl_unknown_box_body": "The room server only reports the first 6 bytes per entry. That’s enough to remove it.",
+  "room_acl_key_input_hint": "Hex characters 0–9, a–f only. Spaces and colons are removed when pasting. The room server needs the full key to add it.",
+  "room_acl_truncated_body": "The room server sends at most %1$d entries per reply. More admins may be listed without appearing here."
 }

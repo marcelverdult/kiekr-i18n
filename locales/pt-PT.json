@@ -11319,5 +11319,55 @@
     "value": "Visível apenas quando tem sessão iniciada como admin.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "room_acl_admins_only_info": {
+    "value": "O servidor de sala só reporta os Admins. As pessoas que entram com a palavra-passe da sala não aparecem aqui.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_summary_count": {
+    "value": "Chaves Admin: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_title": {
+    "value": "Sem resposta do servidor de sala",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_body": {
+    "value": "O servidor de sala pode estar fora de alcance, ou o caminho está desatualizado.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_replied_prefix": {
+    "value": "O servidor de sala respondeu:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_no_confirmation": {
+    "value": "Sem confirmação do servidor de sala. A entrada pode ter sido removida na mesma.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_confirm_self_warning": {
+    "value": "Este é o seu próprio acesso. Depois disto, o servidor de sala deixará de aceitar comandos de admin da sua parte até voltar a iniciar sessão com a palavra-passe de admin.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_unknown_box_body": {
+    "value": "O servidor de sala só reporta os primeiros 6 bytes por entrada. Isso é suficiente para a remover.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_key_input_hint": {
+    "value": "Apenas caracteres hexadecimais 0–9, a–f. Os espaços e dois pontos são removidos ao colar. O servidor de sala precisa da chave completa para a adicionar.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_truncated_body": {
+    "value": "O servidor de sala envia, no máximo, %1$d entradas por resposta. Pode haver mais Admins registados sem aparecer aqui.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

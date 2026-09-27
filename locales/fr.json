@@ -10039,5 +10039,55 @@
     "value": "Visible uniquement lorsque vous êtes connecté en tant qu'admin.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "room_acl_admins_only_info": {
+    "value": "Le serveur de room ne signale que les Admins. Les personnes qui rejoignent avec le mot de passe de room n'apparaissent pas ici.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_summary_count": {
+    "value": "Clés Admin : %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_title": {
+    "value": "Aucune réponse du serveur de room",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_no_reply_body": {
+    "value": "Le serveur de room est peut-être hors de portée, ou le chemin est obsolète.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_replied_prefix": {
+    "value": "Le serveur de room a répondu :",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_no_confirmation": {
+    "value": "Aucune confirmation du serveur de room. L'entrée a peut-être quand même été supprimée.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_remove_confirm_self_warning": {
+    "value": "Il s'agit de votre propre accès. Après cela, le serveur de room n'acceptera plus vos commandes admin tant que vous ne vous serez pas reconnecté avec le mot de passe admin.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_unknown_box_body": {
+    "value": "Le serveur de room ne signale que les 6 premiers octets par entrée. Cela suffit pour la supprimer.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_key_input_hint": {
+    "value": "Uniquement les caractères hexadécimaux 0–9, a–f. Les espaces et deux-points sont supprimés lors du collage. Le serveur de room a besoin de la clé complète pour l'ajouter.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "room_acl_truncated_body": {
+    "value": "Le serveur de room envoie au maximum %1$d entrées par réponse. D'autres Admins peuvent être répertoriés sans apparaître ici.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }
