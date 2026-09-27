@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-09-25"
+    "updated": "2026-09-27"
   },
   "add_channel_duplicate_key": {
     "value": "Този ключ вече принадлежи на „%1$s“.",
@@ -10939,5 +10939,385 @@
   "settings_appearance_force_phone_layout_footer": {
     "value": "Използва изгледа за телефон на таблети: един екран след друг вместо един до друг.",
     "_ai": true
+  },
+  "repeater_acl_locked_title": {
+    "value": "Само за администратори",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_locked_body": {
+    "value": "Не сте влезли като администратор. Ретранслаторът изпраща списъка само на администратори.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_login_as_admin_cta": {
+    "value": "Вход като администратор",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_summary_count": {
+    "value": "Ключове с достъп: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_admin": {
+    "value": "%1$d Администратор",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_read": {
+    "value": "%1$d Четене",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loaded_relative": {
+    "value": "Заредено %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_never_loaded": {
+    "value": "Все още не е заредено",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_manage_row": {
+    "value": "Управление на списъка с достъп",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_title": {
+    "value": "Списък с достъп",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_subtitle_admin": {
+    "value": "%1$s · влезли сте като администратор",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_reload_list": {
+    "value": "Опресняване на списъка",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_guests_never_hint": {
+    "value": "Гостите никога не се показват в списъка",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read": {
+    "value": "Четене",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search": {
+    "value": "Търсене",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_admin": {
+    "value": "Администратор · пълно управление",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_read": {
+    "value": "Четене · без парола, GPS + сензори",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_key": {
+    "value": "Неизвестен ключ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_count": {
+    "value": "Възможни спътници: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_more_entries": {
+    "value": "+ %1$d още",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_button": {
+    "value": "Добавяне на достъп",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_companion": {
+    "value": "Изберете спътник",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_key": {
+    "value": "Въвеждане на ключ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cd_search": {
+    "value": "Търсене в контактите",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_search_placeholder": {
+    "value": "Търсене на спътник",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_already_has_role": {
+    "value": "вече има %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_companion_hint": {
+    "value": "Само спътници от вашите контакти и чути Advert. Ретранслатори, сървъри за стая и сензори не могат да бъдат добавени.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_for_name": {
+    "value": "Роля за %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_admin_desc": {
+    "value": "Конзола, настройки, региони, този списък",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_short": {
+    "value": "Без парола, GPS + сензори",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_long": {
+    "value": "Без парола, запазва се след рестартиране, GPS + сензори, без конзола",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_admin": {
+    "value": "Добавяне като администратор",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_read": {
+    "value": "Добавяне с достъп само за четене",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_sending": {
+    "value": "Добавяне…",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_success_toast": {
+    "value": "Достъпът е добавен",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_counter": {
+    "value": "%1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_contact": {
+    "value": "Съвпада с вашия контакт %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_advert": {
+    "value": "Известен от чут Advert: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_repeater": {
+    "value": "Това е ретранслаторът %1$s. Могат да се добавят само спътници.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_generic": {
+    "value": "Това не е спътник (%1$s). Могат да се добавят само спътници.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_input_hint": {
+    "value": "Само шестнадесетични символи 0–9, a–f. Интервалите и двоеточията се премахват при поставяне. На ретранслатора му е нужен пълният ключ, за да го добави.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_paste_button": {
+    "value": "Поставяне",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_entry_edit_title": {
+    "value": "Редактиране на запис",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_heard": {
+    "value": "последно чуто %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_save": {
+    "value": "Запазване на ролята",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_revoke": {
+    "value": "Отнемане на достъпа",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_title": {
+    "value": "Известно е само началото на ключа",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_body": {
+    "value": "Ретранслаторът съобщава само първите 6 байта на всеки запис. Това е достатъчно, за да бъде премахнат. За смяна на ролята е нужен пълният ключ.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_enter_full_key": {
+    "value": "Въвеждане на пълния ключ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_prefix_mismatch": {
+    "value": "Не съвпада с този запис",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_which": {
+    "value": "Кой от тях?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_hint": {
+    "value": "Първите 6 байта съвпадат с няколко. Приложението никога не избира вместо вас; след вашия избор пълният ключ става известен.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_title": {
+    "value": "Премахване на %1$s?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_admin": {
+    "value": "%1$s губи административния достъп до %2$s. След това входът ще работи само с парола.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_read": {
+    "value": "%1$s губи достъпа за четене до %2$s.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_selfdowngrade_confirm_title": {
+    "value": "Смяна на собствената ви роля?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_self_warning": {
+    "value": "Това е вашият собствен достъп. След това ретранслаторът вече няма да приема административни команди от вас, докато не влезете отново с администраторската парола.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_no_confirmation": {
+    "value": "Няма потвърждение от ретранслатора. Записът може все пак да е бил премахнат.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_title": {
+    "value": "Заявка за списъка с достъп …",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_subtitle": {
+    "value": "Може да отнеме до 30 s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_title": {
+    "value": "Няма отговор от ретранслатора",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_body": {
+    "value": "Ретранслаторът може да е извън обхват или пътят е остарял.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_loaded": {
+    "value": "Последно заредено: %1$s · Записи: %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_save_failed": {
+    "value": "Не е запазено",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_repeater_replied_prefix": {
+    "value": "Ретранслаторът отговори:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_resend": {
+    "value": "Изпращане отново",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_title": {
+    "value": "%1$d записа – списъкът може да е непълен",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_body": {
+    "value": "Ретранслаторът изпраща максимум %1$d записа на отговор. Може да има и други ключове, които не се показват тук.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_show_more_button": {
+    "value": "Показване на още %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search_list": {
+    "value": "Търсене в списъка с достъп",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_swipe_to_remove_hint": {
+    "value": "Плъзнете, за да премахнете",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_source_advert_ago": {
+    "value": "Advert · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_no_companions": {
+    "value": "Няма известни спътници.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_list_empty": {
+    "value": "Все още няма записи в списъка с достъп.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_admin_only_hint": {
+    "value": "Видимо е само когато сте влезли като администратор.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

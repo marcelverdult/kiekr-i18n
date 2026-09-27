@@ -3,7 +3,7 @@
     "language": "da",
     "name": "Dansk",
     "managed_by": "community",
-    "updated": "2026-09-25"
+    "updated": "2026-09-27"
   },
   "add_channel_duplicate_key": {
     "value": "Denne nøgle tilhører allerede »%1$s«.",
@@ -10939,5 +10939,385 @@
   "settings_appearance_force_phone_layout_footer": {
     "value": "Bruger telefonvisningen på tablets: én skærm ad gangen i stedet for side om side.",
     "_ai": true
+  },
+  "repeater_acl_locked_title": {
+    "value": "Kun for admins",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_locked_body": {
+    "value": "Du er ikke logget ind som admin. Repeateren sender kun listen til admins.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_login_as_admin_cta": {
+    "value": "Log ind som admin",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_summary_count": {
+    "value": "Nøgler med adgang: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_admin": {
+    "value": "%1$d Admin",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_read": {
+    "value": "%1$d Læs",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loaded_relative": {
+    "value": "Indlæst %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_never_loaded": {
+    "value": "Endnu ikke indlæst",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_manage_row": {
+    "value": "Administrer adgangsliste",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_title": {
+    "value": "Adgangsliste",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_subtitle_admin": {
+    "value": "%1$s · logget ind som admin",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_back": {
+    "value": "Tilbage",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_reload_list": {
+    "value": "Genindlæs liste",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_guests_never_hint": {
+    "value": "Gæster vises aldrig på listen",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read": {
+    "value": "Læs",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search": {
+    "value": "Søg",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_admin": {
+    "value": "Admin · fuld kontrol",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_read": {
+    "value": "Læs · uden adgangskode, GPS + sensorer",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_key": {
+    "value": "Ukendt nøgle",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_count": {
+    "value": "Mulige companions: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_more_entries": {
+    "value": "+ %1$d flere",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_button": {
+    "value": "Tilføj adgang",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_companion": {
+    "value": "Vælg companion",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_key": {
+    "value": "Indtast nøgle",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cd_search": {
+    "value": "Søg i kontakter",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_search_placeholder": {
+    "value": "Søg companion",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_already_has_role": {
+    "value": "har allerede %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_companion_hint": {
+    "value": "Kun companions fra dine kontakter og hørte annoncer. Repeatere, room servers og sensorer kan ikke tilføjes.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_for_name": {
+    "value": "Rolle for %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_admin_desc": {
+    "value": "Konsol, indstillinger, regioner, denne liste",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_short": {
+    "value": "Uden adgangskode, GPS + sensorer",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_long": {
+    "value": "Uden adgangskode, bevares efter genstart, GPS + sensorer, ingen konsol",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_admin": {
+    "value": "Tilføj som admin",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_read": {
+    "value": "Tilføj med læseadgang",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_sending": {
+    "value": "Tilføjer…",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_success_toast": {
+    "value": "Adgang tilføjet",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_counter": {
+    "value": "%1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_contact": {
+    "value": "Matcher din kontakt %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_advert": {
+    "value": "Kendt fra en hørt annonce: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_repeater": {
+    "value": "Dette er repeateren %1$s. Kun companions kan tilføjes.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_generic": {
+    "value": "Dette er ikke en companion (%1$s). Kun companions kan tilføjes.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_input_hint": {
+    "value": "Kun hex-tegn 0–9, a–f. Mellemrum og kolon fjernes ved indsætning. Repeateren skal bruge hele nøglen for at tilføje den.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_paste_button": {
+    "value": "Indsæt",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_entry_edit_title": {
+    "value": "Rediger post",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_heard": {
+    "value": "sidst hørt %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_save": {
+    "value": "Gem rolle",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_revoke": {
+    "value": "Fjern adgang",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_title": {
+    "value": "Kun begyndelsen af nøglen er kendt",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_body": {
+    "value": "Repeateren rapporterer kun de første 6 byte pr. post. Det er nok til at fjerne den. En rolleændring kræver hele nøglen.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_enter_full_key": {
+    "value": "Indtast hele nøglen",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_prefix_mismatch": {
+    "value": "Matcher ikke denne post",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_which": {
+    "value": "Hvilken er det?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_hint": {
+    "value": "De første 6 byte matcher flere. Appen vælger aldrig selv; efter dit valg kendes hele nøglen.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_title": {
+    "value": "Fjern %1$s?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_admin": {
+    "value": "%1$s mister admin-adgangen til %2$s. Login virker herefter kun med adgangskoden.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_read": {
+    "value": "%1$s mister læseadgangen til %2$s.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_selfdowngrade_confirm_title": {
+    "value": "Skift din egen rolle?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_self_warning": {
+    "value": "Dette er din egen adgang. Herefter accepterer repeateren ikke flere admin-kommandoer fra dig, før du logger ind igen med admin-adgangskoden.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_no_confirmation": {
+    "value": "Ingen bekræftelse fra repeateren. Posten er muligvis alligevel blevet fjernet.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_title": {
+    "value": "Henter adgangsliste …",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_subtitle": {
+    "value": "Kan tage op til 30 s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_title": {
+    "value": "Intet svar fra repeateren",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_body": {
+    "value": "Repeateren er muligvis uden for rækkevidde, eller stien er forældet.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_loaded": {
+    "value": "Sidst indlæst: %1$s · Poster: %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_save_failed": {
+    "value": "Ikke gemt",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_repeater_replied_prefix": {
+    "value": "Repeateren svarede:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_resend": {
+    "value": "Send igen",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_title": {
+    "value": "%1$d poster – listen kan være ufuldstændig",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_body": {
+    "value": "Repeateren sender højst %1$d poster pr. svar. Der kan være flere nøgler, uden at de vises her.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_show_more_button": {
+    "value": "Vis %1$d flere",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search_list": {
+    "value": "Søg i adgangsliste",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_swipe_to_remove_hint": {
+    "value": "Stryg for at fjerne",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_source_advert_ago": {
+    "value": "Annonce · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_no_companions": {
+    "value": "Ingen kendte companions.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_list_empty": {
+    "value": "Endnu ingen poster i adgangslisten.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_admin_only_hint": {
+    "value": "Vises kun, når du er logget ind som admin.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

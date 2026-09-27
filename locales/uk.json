@@ -3,7 +3,7 @@
     "language": "uk",
     "name": "Українська",
     "managed_by": "community",
-    "updated": "2026-09-25"
+    "updated": "2026-09-27"
   },
   "add_channel_duplicate_key": {
     "value": "Цей ключ уже належить до «%1$s».",
@@ -10941,5 +10941,385 @@
   "settings_appearance_force_phone_layout_footer": {
     "value": "Використовує вигляд телефона на планшетах: один екран за раз замість двох поруч.",
     "_ai": true
+  },
+  "repeater_acl_locked_title": {
+    "value": "Тільки для адміністраторів",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_locked_body": {
+    "value": "Ви не увійшли як адміністратор. Ретранслятор надсилає список лише адміністраторам.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_login_as_admin_cta": {
+    "value": "Увійти як адміністратор",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_summary_count": {
+    "value": "Ключів з доступом: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_admin": {
+    "value": "%1$d Адміністратор",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_read": {
+    "value": "%1$d Читання",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loaded_relative": {
+    "value": "Завантажено %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_never_loaded": {
+    "value": "Ще не завантажено",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_manage_row": {
+    "value": "Керування списком доступу",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_title": {
+    "value": "Список доступу",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_subtitle_admin": {
+    "value": "%1$s · увійшли як адміністратор",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_reload_list": {
+    "value": "Оновити список",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_guests_never_hint": {
+    "value": "Гості ніколи не з’являються у списку",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read": {
+    "value": "Читання",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search": {
+    "value": "Пошук",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_admin": {
+    "value": "Адміністратор · повне керування",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_read": {
+    "value": "Читання · без пароля, GPS + датчики",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_key": {
+    "value": "Невідомий ключ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_count": {
+    "value": "Можливі супутники: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_more_entries": {
+    "value": "+ %1$d ще",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_button": {
+    "value": "Додати доступ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_companion": {
+    "value": "Вибрати супутник",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_key": {
+    "value": "Ввести ключ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cd_search": {
+    "value": "Пошук за контактами",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_search_placeholder": {
+    "value": "Пошук супутника",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_already_has_role": {
+    "value": "вже має %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_companion_hint": {
+    "value": "Лише супутники з ваших контактів і почутих Advert. Ретранслятори, сервери номера і датчики додати не можна.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_for_name": {
+    "value": "Роль для %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_admin_desc": {
+    "value": "Консоль, налаштування, регіони, цей список",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_short": {
+    "value": "Без пароля, GPS + датчики",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_long": {
+    "value": "Без пароля, зберігається після перезавантаження, GPS + датчики, без консолі",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_admin": {
+    "value": "Додати як адміністратора",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_read": {
+    "value": "Додати з доступом на читання",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_sending": {
+    "value": "Додавання…",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_success_toast": {
+    "value": "Доступ додано",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_counter": {
+    "value": "%1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_contact": {
+    "value": "Збігається з вашим контактом %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_advert": {
+    "value": "Відомий з почутого Advert: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_repeater": {
+    "value": "Це ретранслятор %1$s. Можна додавати лише супутники.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_generic": {
+    "value": "Це не супутник (%1$s). Можна додавати лише супутники.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_input_hint": {
+    "value": "Лише шістнадцяткові символи 0–9, a–f. Пробіли та двокрапки видаляються під час вставлення. Ретранслятору потрібен повний ключ, щоб додати його.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_paste_button": {
+    "value": "Вставити",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_entry_edit_title": {
+    "value": "Редагувати запис",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_heard": {
+    "value": "востаннє почуто %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_save": {
+    "value": "Зберегти роль",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_revoke": {
+    "value": "Відкликати доступ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_title": {
+    "value": "Відомий лише початок ключа",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_body": {
+    "value": "Ретранслятор повідомляє лише перші 6 байтів кожного запису. Цього достатньо, щоб видалити його. Для зміни ролі потрібен повний ключ.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_enter_full_key": {
+    "value": "Ввести повний ключ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_prefix_mismatch": {
+    "value": "Не збігається з цим записом",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_which": {
+    "value": "Хто з них?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_hint": {
+    "value": "Перші 6 байтів збігаються з кількома. Застосунок ніколи не обирає за вас; після вашого вибору повний ключ стає відомим.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_title": {
+    "value": "Видалити %1$s?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_admin": {
+    "value": "%1$s втрачає доступ адміністратора до %2$s. Після цього увійти можна буде лише за паролем.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_read": {
+    "value": "%1$s втрачає доступ на читання до %2$s.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_selfdowngrade_confirm_title": {
+    "value": "Змінити власну роль?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_self_warning": {
+    "value": "Це ваш власний доступ. Після цього ретранслятор більше не прийматиме від вас команди адміністратора, доки ви не увійдете знову з паролем адміністратора.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_no_confirmation": {
+    "value": "Немає підтвердження від ретранслятора. Запис усе ж міг бути видалений.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_title": {
+    "value": "Запитується список доступу …",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_subtitle": {
+    "value": "Може тривати до 30 с",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_title": {
+    "value": "Немає відповіді від ретранслятора",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_body": {
+    "value": "Ретранслятор може бути поза зоною дії, або шлях застарів.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_loaded": {
+    "value": "Останнє завантаження: %1$s · Записів: %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_save_failed": {
+    "value": "Не збережено",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_repeater_replied_prefix": {
+    "value": "Відповідь ретранслятора:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_resend": {
+    "value": "Надіслати ще раз",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_title": {
+    "value": "%1$d записів – список може бути неповним",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_body": {
+    "value": "Ретранслятор надсилає не більше %1$d записів за одну відповідь. У списку можуть бути й інші ключі, які тут не показані.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_show_more_button": {
+    "value": "Показати ще %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search_list": {
+    "value": "Пошук у списку доступу",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_swipe_to_remove_hint": {
+    "value": "Проведіть пальцем, щоб видалити",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_source_advert_ago": {
+    "value": "Advert · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_no_companions": {
+    "value": "Немає відомих супутників.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_list_empty": {
+    "value": "У списку доступу поки немає записів.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_admin_only_hint": {
+    "value": "Видно лише коли ви увійшли як адміністратор.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

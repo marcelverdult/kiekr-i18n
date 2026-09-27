@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-09-25"
+    "updated": "2026-09-27"
   },
   "add_channel_duplicate_key": {
     "value": "Din iċ-ċavetta diġà tappartjeni lil \"%1$s\".",
@@ -10939,5 +10939,385 @@
   "settings_appearance_force_phone_layout_footer": {
     "value": "Juża t-tqassim tat-telefon fuq it-tablets: skrin wieħed kull darba minflok ħdejn xulxin.",
     "_ai": true
+  },
+  "repeater_acl_locked_title": {
+    "value": "Amministraturi biss",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_locked_body": {
+    "value": "Mhux illoggjat bħala amministratur. Ir-repeater jibgħat il-lista lill-amministraturi biss.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_login_as_admin_cta": {
+    "value": "Idħol bħala amministratur",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_summary_count": {
+    "value": "Ċwievet b'aċċess: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_admin": {
+    "value": "%1$d Amministrazzjoni",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_read": {
+    "value": "%1$d Qari",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loaded_relative": {
+    "value": "Imtella' %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_never_loaded": {
+    "value": "Għadu ma tgħabbiex",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_manage_row": {
+    "value": "Immaniġġja l-lista tal-aċċess",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_title": {
+    "value": "Lista tal-aċċess",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_subtitle_admin": {
+    "value": "%1$s · illoggjat bħala amministratur",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_back": {
+    "value": "Lura",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_reload_list": {
+    "value": "Erġa' tella' l-lista",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_guests_never_hint": {
+    "value": "L-ospiti qatt ma jidhru fil-lista",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read": {
+    "value": "Qari",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search": {
+    "value": "Fittex",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_admin": {
+    "value": "Amministrazzjoni · kontroll sħiħ",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_read": {
+    "value": "Qari · mingħajr password, GPS + sensuri",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_key": {
+    "value": "Ċavetta mhux magħrufa",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_count": {
+    "value": "Kompagni possibbli: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_more_entries": {
+    "value": "+ %1$d oħra",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_button": {
+    "value": "Żid aċċess",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_companion": {
+    "value": "Agħżel kompagnu",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_key": {
+    "value": "Daħħal iċ-ċavetta",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cd_search": {
+    "value": "Fittex kuntatti",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_search_placeholder": {
+    "value": "Fittex kompagnu",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_already_has_role": {
+    "value": "diġà għandu %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_companion_hint": {
+    "value": "Kompagni biss mill-kuntatti tiegħek u mill-Adverts li nstemgħu. Ir-repeaters, is-servituri tal-kamra u s-sensuri ma jistgħux jiżdiedu.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_for_name": {
+    "value": "Rwol għal %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_admin_desc": {
+    "value": "Konsola, issettjarijiet, reġjuni, din il-lista",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_short": {
+    "value": "Mingħajr password, GPS + sensuri",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_long": {
+    "value": "Mingħajr password, tibqa' wara restart, GPS + sensuri, mingħajr konsola",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_admin": {
+    "value": "Żid bħala amministratur",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_read": {
+    "value": "Żid b'aċċess ta' qari",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_sending": {
+    "value": "Qed jiżdied…",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_success_toast": {
+    "value": "Aċċess miżjud",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_counter": {
+    "value": "%1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_contact": {
+    "value": "Jaqbel mal-kuntatt tiegħek %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_advert": {
+    "value": "Magħruf minn Advert li nstema': %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_repeater": {
+    "value": "Dan huwa r-repeater %1$s. Kompagni biss jistgħu jiżdiedu.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_generic": {
+    "value": "Dan mhuwiex kompagnu (%1$s). Kompagni biss jistgħu jiżdiedu.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_input_hint": {
+    "value": "Karattri hex 0–9, a–f biss. L-ispazji u ż-żewġ punti jitneħħew meta tiġi ikkopjata. Ir-repeater jeħtieġ iċ-ċavetta sħiħa biex iżidha.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_paste_button": {
+    "value": "Ikkopja",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_entry_edit_title": {
+    "value": "Editja d-dħul",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_heard": {
+    "value": "l-aħħar li nstema' %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_save": {
+    "value": "Salva r-rwol",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_revoke": {
+    "value": "Irrevoka l-aċċess",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_title": {
+    "value": "Magħruf biss il-bidu taċ-ċavetta",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_body": {
+    "value": "Ir-repeater jirrapporta biss l-ewwel 6 bytes għal kull dħul. Dan biżżejjed biex tneħħih. Il-bidla tar-rwol teħtieġ iċ-ċavetta sħiħa.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_enter_full_key": {
+    "value": "Daħħal iċ-ċavetta sħiħa",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_prefix_mismatch": {
+    "value": "Ma jaqbilx ma' dan id-dħul",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_which": {
+    "value": "Liema wieħed hu?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_hint": {
+    "value": "L-ewwel 6 bytes jaqblu ma' diversi. L-app qatt ma tagħżel għalik; wara l-għażla tiegħek, iċ-ċavetta sħiħa tkun magħrufa.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_title": {
+    "value": "Tneħħi %1$s?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_admin": {
+    "value": "%1$s jitlef l-aċċess ta' amministratur għal %2$s. Wara dan, id-dħul jaħdem biss bil-password.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_read": {
+    "value": "%1$s jitlef l-aċċess ta' qari għal %2$s.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_selfdowngrade_confirm_title": {
+    "value": "Tibdel ir-rwol tiegħek stess?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_self_warning": {
+    "value": "Dan huwa l-aċċess tiegħek stess. Wara dan, ir-repeater ma jibqax jaċċetta kmandi ta' amministratur mingħandek sakemm terġa' tidħol bil-password tal-amministratur.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_no_confirmation": {
+    "value": "L-ebda konferma mir-repeater. Id-dħul jista' jkun tneħħa xorta waħda.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_title": {
+    "value": "Qed nitolbu l-lista tal-aċċess …",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_subtitle": {
+    "value": "Jista' jieħu sa 30 s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_title": {
+    "value": "L-ebda tweġiba mir-repeater",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_body": {
+    "value": "Ir-repeater jista' jkun barra mill-medda, jew il-mogħdija tkun skaduta.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_loaded": {
+    "value": "L-aħħar tgħabbija: %1$s · Dħulijiet: %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_save_failed": {
+    "value": "Ma ġiex salvat",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_repeater_replied_prefix": {
+    "value": "Ir-repeater wieġeb:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_resend": {
+    "value": "Erġa' ibgħat",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_title": {
+    "value": "%1$d dħulijiet – il-lista tista' tkun mhux kompluta",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_body": {
+    "value": "Ir-repeater jibgħat mhux aktar minn %1$d dħulijiet għal kull tweġiba. Jista' jkun hemm iktar ċwievet elenkati mingħajr ma jidhru hawn.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_show_more_button": {
+    "value": "Uri %1$d oħra",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search_list": {
+    "value": "Fittex fil-lista tal-aċċess",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_swipe_to_remove_hint": {
+    "value": "Iswajpja biex tneħħi",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_source_advert_ago": {
+    "value": "Advert · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_no_companions": {
+    "value": "L-ebda kompagnu magħruf.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_list_empty": {
+    "value": "Għad m'hemm l-ebda dħul fil-lista tal-aċċess.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_admin_only_hint": {
+    "value": "Jidher biss meta tkun illoggjat bħala amministratur.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

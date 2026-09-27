@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-09-25"
+    "updated": "2026-09-27"
   },
   "add_channel_duplicate_key": {
     "value": "Tämä avain kuuluu jo ”%1$s” -sivustolle.",
@@ -10939,5 +10939,385 @@
   "settings_appearance_force_phone_layout_footer": {
     "value": "Käyttää tableteilla puhelinnäkymää: yksi näyttö kerrallaan vierekkäisten sijaan.",
     "_ai": true
+  },
+  "repeater_acl_locked_title": {
+    "value": "Vain Admin-käyttäjille",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_locked_body": {
+    "value": "Et ole kirjautunut Adminina. Repeater lähettää luettelon vain Admineille.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_login_as_admin_cta": {
+    "value": "Kirjaudu Adminina",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_summary_count": {
+    "value": "Avaimia, joilla on pääsy: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_admin": {
+    "value": "%1$d Admin",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_read": {
+    "value": "%1$d Luku",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loaded_relative": {
+    "value": "Ladattu %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_never_loaded": {
+    "value": "Ei vielä ladattu",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_manage_row": {
+    "value": "Hallitse pääsyluetteloa",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_title": {
+    "value": "Pääsyluettelo",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_subtitle_admin": {
+    "value": "%1$s · kirjautunut Adminina",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_back": {
+    "value": "Takaisin",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_reload_list": {
+    "value": "Lataa luettelo uudelleen",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_guests_never_hint": {
+    "value": "Vieraat eivät koskaan näy luettelossa",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read": {
+    "value": "Luku",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search": {
+    "value": "Haku",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_admin": {
+    "value": "Admin · täysi hallinta",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_read": {
+    "value": "Luku · ei salasanaa, GPS + anturit",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_key": {
+    "value": "Tuntematon avain",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_count": {
+    "value": "Mahdollisia Companioneita: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_more_entries": {
+    "value": "+ %1$d lisää",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_button": {
+    "value": "Lisää pääsy",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_companion": {
+    "value": "Valitse Companion",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_key": {
+    "value": "Syötä avain",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cd_search": {
+    "value": "Hae yhteystiedoista",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_search_placeholder": {
+    "value": "Hae Companionia",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_already_has_role": {
+    "value": "on jo %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_companion_hint": {
+    "value": "Vain yhteystiedoistasi ja kuulluista Adverteista löytyvät Companionit. Repeatereita, Room Servereitä tai antureita ei voi lisätä.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_for_name": {
+    "value": "Rooli kohteelle %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_admin_desc": {
+    "value": "Konsoli, asetukset, alueet, tämä luettelo",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_short": {
+    "value": "Ei salasanaa, GPS + anturit",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_long": {
+    "value": "Ei salasanaa, säilyy uudelleenkäynnistyksen jälkeen, GPS + anturit, ei konsolia",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_admin": {
+    "value": "Lisää Adminina",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_read": {
+    "value": "Lisää lukuoikeudella",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_sending": {
+    "value": "Lisätään…",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_success_toast": {
+    "value": "Pääsy lisätty",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_counter": {
+    "value": "%1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_contact": {
+    "value": "Vastaa yhteystietoasi %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_advert": {
+    "value": "Tunnistettu kuullusta Advertista: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_repeater": {
+    "value": "Tämä on Repeater %1$s. Vain Companioneita voi lisätä.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_generic": {
+    "value": "Tämä ei ole Companion (%1$s). Vain Companioneita voi lisätä.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_input_hint": {
+    "value": "Vain heksamerkit 0–9, a–f. Välilyönnit ja kaksoispisteet poistetaan liitettäessä. Repeater tarvitsee koko avaimen lisätäkseen sen.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_paste_button": {
+    "value": "Liitä",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_entry_edit_title": {
+    "value": "Muokkaa merkintää",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_heard": {
+    "value": "kuultu viimeksi %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_save": {
+    "value": "Tallenna rooli",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_revoke": {
+    "value": "Poista pääsy",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_title": {
+    "value": "Vain avaimen alku on tiedossa",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_body": {
+    "value": "Repeater ilmoittaa merkinnästä vain ensimmäiset 6 tavua. Se riittää poistamiseen. Roolin vaihtaminen vaatii koko avaimen.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_enter_full_key": {
+    "value": "Syötä koko avain",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_prefix_mismatch": {
+    "value": "Ei täsmää tähän merkintään",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_which": {
+    "value": "Kumpi niistä se on?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_hint": {
+    "value": "Ensimmäiset 6 tavua täsmäävät useaan. Sovellus ei koskaan valitse puolestasi; valintasi jälkeen koko avain on tiedossa.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_title": {
+    "value": "Poistetaanko %1$s?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_admin": {
+    "value": "%1$s menettää Admin-pääsyn kohteeseen %2$s. Kirjautuminen onnistuu sen jälkeen vain salasanalla.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_read": {
+    "value": "%1$s menettää lukupääsyn kohteeseen %2$s.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_selfdowngrade_confirm_title": {
+    "value": "Vaihdetaanko oma rooli?",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_self_warning": {
+    "value": "Tämä on oma pääsysi. Tämän jälkeen Repeater ei enää hyväksy Admin-komentoja sinulta, ennen kuin kirjaudut uudelleen Admin-salasanalla.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_no_confirmation": {
+    "value": "Ei vahvistusta Repeateriltä. Merkintä on saatettu silti poistaa.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_title": {
+    "value": "Pyydetään pääsyluetteloa …",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_subtitle": {
+    "value": "Voi kestää jopa 30 s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_title": {
+    "value": "Ei vastausta Repeateriltä",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_body": {
+    "value": "Repeater voi olla kantaman ulkopuolella, tai reitti on vanhentunut.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_loaded": {
+    "value": "Viimeksi ladattu: %1$s · Merkintöjä: %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_save_failed": {
+    "value": "Ei tallennettu",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_repeater_replied_prefix": {
+    "value": "Repeater vastasi:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_resend": {
+    "value": "Lähetä uudelleen",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_title": {
+    "value": "%1$d merkintää – luettelo voi olla puutteellinen",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_body": {
+    "value": "Repeater lähettää enintään %1$d merkintää per vastaus. Muita avaimia voi olla listattuna, vaikka ne eivät näy täällä.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_show_more_button": {
+    "value": "Näytä %1$d lisää",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search_list": {
+    "value": "Hae pääsyluettelosta",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_swipe_to_remove_hint": {
+    "value": "Pyyhkäise poistaaksesi",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_source_advert_ago": {
+    "value": "Advert · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_no_companions": {
+    "value": "Ei tunnettuja Companioneita.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_list_empty": {
+    "value": "Pääsyluettelossa ei ole vielä merkintöjä.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_admin_only_hint": {
+    "value": "Näkyy vain, kun olet kirjautunut Adminina.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

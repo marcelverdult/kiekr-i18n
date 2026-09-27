@@ -3,7 +3,7 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-09-25"
+    "updated": "2026-09-27"
   },
   "add_channel_duplicate_key": {
     "value": "Αυτό το κλειδί ανήκει ήδη στο «%1$s».",
@@ -10939,5 +10939,385 @@
   "settings_appearance_force_phone_layout_footer": {
     "value": "Χρησιμοποιεί την προβολή τηλεφώνου σε tablet: μία οθόνη τη φορά αντί για δίπλα-δίπλα.",
     "_ai": true
+  },
+  "repeater_acl_locked_title": {
+    "value": "Μόνο για διαχειριστές",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_locked_body": {
+    "value": "Δεν έχετε συνδεθεί ως διαχειριστής. Ο αναμεταδότης στέλνει τη λίστα μόνο σε διαχειριστές.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_login_as_admin_cta": {
+    "value": "Σύνδεση ως διαχειριστής",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_summary_count": {
+    "value": "Κλειδιά με πρόσβαση: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_admin": {
+    "value": "%1$d Διαχειριστής",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_pill_count_read": {
+    "value": "%1$d Ανάγνωση",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loaded_relative": {
+    "value": "Φορτώθηκε %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_never_loaded": {
+    "value": "Δεν έχει φορτωθεί ακόμη",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_manage_row": {
+    "value": "Διαχείριση λίστας πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_title": {
+    "value": "Λίστα πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_subtitle_admin": {
+    "value": "%1$s · συνδεδεμένος ως διαχειριστής",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_back": {
+    "value": "Πίσω",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_reload_list": {
+    "value": "Ανανέωση λίστας",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_guests_never_hint": {
+    "value": "Οι επισκέπτες δεν εμφανίζονται ποτέ στη λίστα",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read": {
+    "value": "Ανάγνωση",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search": {
+    "value": "Αναζήτηση",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_admin": {
+    "value": "Διαχειριστής · πλήρης έλεγχος",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_section_header_read": {
+    "value": "Ανάγνωση · χωρίς κωδικό πρόσβασης, GPS + αισθητήρες",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_key": {
+    "value": "Άγνωστο κλειδί",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_count": {
+    "value": "Πιθανοί συνοδοί: %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_more_entries": {
+    "value": "+ %1$d ακόμη",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_button": {
+    "value": "Προσθήκη πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_companion": {
+    "value": "Επιλογή συνοδού",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_tab_key": {
+    "value": "Εισαγωγή κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cd_search": {
+    "value": "Αναζήτηση επαφών",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_search_placeholder": {
+    "value": "Αναζήτηση συνοδού",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_already_has_role": {
+    "value": "έχει ήδη %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_companion_hint": {
+    "value": "Μόνο συνοδοί από τις επαφές σας και ακουσμένα Advert. Αναμεταδότες, διακομιστές δωματίου και αισθητήρες δεν μπορούν να προστεθούν.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_for_name": {
+    "value": "Ρόλος για %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_admin_desc": {
+    "value": "Κονσόλα, ρυθμίσεις, περιοχές, αυτή η λίστα",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_short": {
+    "value": "Χωρίς κωδικό πρόσβασης, GPS + αισθητήρες",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_read_desc_long": {
+    "value": "Χωρίς κωδικό πρόσβασης, διατηρείται μετά την επανεκκίνηση, GPS + αισθητήρες, χωρίς κονσόλα",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_admin": {
+    "value": "Προσθήκη ως διαχειριστή",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_cta_read": {
+    "value": "Προσθήκη με πρόσβαση ανάγνωσης",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_sending": {
+    "value": "Προσθήκη…",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_success_toast": {
+    "value": "Η πρόσβαση προστέθηκε",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_counter": {
+    "value": "%1$d / %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_contact": {
+    "value": "Ταιριάζει με την επαφή σας %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_advert": {
+    "value": "Γνωστό από ακουσμένο Advert: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_repeater": {
+    "value": "Αυτός είναι ο αναμεταδότης %1$s. Μπορούν να προστεθούν μόνο συνοδοί.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_status_rejected_generic": {
+    "value": "Αυτό δεν είναι συνοδός (%1$s). Μπορούν να προστεθούν μόνο συνοδοί.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_input_hint": {
+    "value": "Μόνο δεκαεξαδικοί χαρακτήρες 0–9, a–f. Τα κενά και οι άνω-κάτω τελείες αφαιρούνται κατά την επικόλληση. Ο αναμεταδότης χρειάζεται το πλήρες κλειδί για να το προσθέσει.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_paste_button": {
+    "value": "Επικόλληση",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_entry_edit_title": {
+    "value": "Επεξεργασία καταχώρησης",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_heard": {
+    "value": "τελευταία ακούστηκε %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_role_save": {
+    "value": "Αποθήκευση ρόλου",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_revoke": {
+    "value": "Ανάκληση πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_title": {
+    "value": "Είναι γνωστή μόνο η αρχή του κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_unknown_box_body": {
+    "value": "Ο αναμεταδότης αναφέρει μόνο τα πρώτα 6 byte κάθε καταχώρησης. Αυτό αρκεί για να την καταργήσετε. Για αλλαγή ρόλου χρειάζεται το πλήρες κλειδί.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_enter_full_key": {
+    "value": "Εισαγωγή πλήρους κλειδιού",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_key_prefix_mismatch": {
+    "value": "Δεν ταιριάζει με αυτή την καταχώρηση",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_which": {
+    "value": "Ποιος από αυτούς;",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_ambiguous_hint": {
+    "value": "Τα πρώτα 6 byte ταιριάζουν με πολλά. Η εφαρμογή δεν επιλέγει ποτέ για εσάς· μετά την επιλογή σας το πλήρες κλειδί γίνεται γνωστό.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_title": {
+    "value": "Κατάργηση %1$s;",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_admin": {
+    "value": "Ο/Η %1$s χάνει την πρόσβαση διαχειριστή στο %2$s. Στη συνέχεια η σύνδεση θα λειτουργεί μόνο με κωδικό πρόσβασης.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_body_read": {
+    "value": "Ο/Η %1$s χάνει την πρόσβαση ανάγνωσης στο %2$s.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_selfdowngrade_confirm_title": {
+    "value": "Αλλαγή του δικού σας ρόλου;",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_confirm_self_warning": {
+    "value": "Αυτή είναι η δική σας πρόσβαση. Στη συνέχεια, ο αναμεταδότης δεν θα δέχεται πλέον εντολές διαχειριστή από εσάς, μέχρι να συνδεθείτε ξανά με τον κωδικό πρόσβασης διαχειριστή.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_remove_no_confirmation": {
+    "value": "Δεν υπήρξε επιβεβαίωση από τον αναμεταδότη. Η καταχώρηση μπορεί να έχει καταργηθεί ούτως ή άλλως.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_title": {
+    "value": "Αίτημα για τη λίστα πρόσβασης …",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_loading_subtitle": {
+    "value": "Μπορεί να διαρκέσει έως 30 δευτ.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_title": {
+    "value": "Καμία απάντηση από τον αναμεταδότη",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_no_reply_body": {
+    "value": "Ο αναμεταδότης μπορεί να είναι εκτός εμβέλειας, ή η διαδρομή είναι παρωχημένη.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_last_loaded": {
+    "value": "Τελευταία φόρτωση: %1$s · Καταχωρήσεις: %2$d",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_save_failed": {
+    "value": "Δεν αποθηκεύτηκε",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_repeater_replied_prefix": {
+    "value": "Ο αναμεταδότης απάντησε:",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_resend": {
+    "value": "Επανάληψη αποστολής",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_title": {
+    "value": "%1$d καταχωρήσεις – η λίστα ενδέχεται να είναι ελλιπής",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_truncated_body": {
+    "value": "Ο αναμεταδότης στέλνει το πολύ %1$d καταχωρήσεις ανά απάντηση. Μπορεί να υπάρχουν κι άλλα κλειδιά που δεν εμφανίζονται εδώ.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_show_more_button": {
+    "value": "Εμφάνιση %1$d ακόμη",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_cd_search_list": {
+    "value": "Αναζήτηση στη λίστα πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_swipe_to_remove_hint": {
+    "value": "Σύρετε για κατάργηση",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_source_advert_ago": {
+    "value": "Advert · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_add_no_companions": {
+    "value": "Δεν υπάρχουν γνωστοί συνοδοί.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_list_empty": {
+    "value": "Δεν υπάρχουν ακόμη καταχωρήσεις στη λίστα πρόσβασης.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
+  },
+  "repeater_acl_admin_only_hint": {
+    "value": "Ορατό μόνο όταν είστε συνδεδεμένος ως διαχειριστής.",
+    "_ai": true,
+    "_seeded": "2026-09-27"
   }
 }

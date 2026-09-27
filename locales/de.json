@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "kiekr-team",
-    "updated": "2026-09-25"
+    "updated": "2026-09-27"
   },
   "app_upgrade_body": {
     "value": "Öffne die App erneut, um die neue Version fertig zu laden.",
@@ -8975,6 +8975,310 @@
   },
   "settings_appearance_force_phone_layout_footer": {
     "value": "Nutzt auf Tablets die Handy-Ansicht: ein Bildschirm nach dem anderen statt nebeneinander.",
+    "_human": true
+  },
+  "repeater_acl_locked_title": {
+    "value": "Nur für Admins",
+    "_human": true
+  },
+  "repeater_acl_locked_body": {
+    "value": "Du bist nicht als Admin angemeldet. Die Liste schickt der Repeater nur an Admins.",
+    "_human": true
+  },
+  "repeater_acl_login_as_admin_cta": {
+    "value": "Als Admin anmelden",
+    "_human": true
+  },
+  "repeater_acl_summary_count": {
+    "value": "%1$d Schlüssel mit Zugriff",
+    "_human": true
+  },
+  "repeater_acl_pill_count_admin": {
+    "value": "%1$d Admin",
+    "_human": true
+  },
+  "repeater_acl_pill_count_read": {
+    "value": "%1$d Lesen",
+    "_human": true
+  },
+  "repeater_acl_loaded_relative": {
+    "value": "Geladen %1$s",
+    "_human": true
+  },
+  "repeater_acl_never_loaded": {
+    "value": "Noch nicht geladen",
+    "_human": true
+  },
+  "repeater_acl_manage_row": {
+    "value": "Zugriffsliste verwalten",
+    "_human": true
+  },
+  "repeater_acl_title": {
+    "value": "Zugriffsliste",
+    "_human": true
+  },
+  "repeater_acl_subtitle_admin": {
+    "value": "%1$s · als Admin angemeldet",
+    "_human": true
+  },
+  "repeater_acl_cd_back": {
+    "value": "Zurück",
+    "_human": true
+  },
+  "repeater_acl_reload_list": {
+    "value": "Liste neu laden",
+    "_human": true
+  },
+  "repeater_acl_guests_never_hint": {
+    "value": "Gäste stehen nie in der Liste",
+    "_human": true
+  },
+  "repeater_acl_role_read": {
+    "value": "Lesen",
+    "_human": true
+  },
+  "repeater_acl_cd_search": {
+    "value": "Suchen",
+    "_human": true
+  },
+  "repeater_acl_section_header_admin": {
+    "value": "Admin · volle Verwaltung",
+    "_human": true
+  },
+  "repeater_acl_section_header_read": {
+    "value": "Lesen · ohne Passwort, GPS + Sensoren",
+    "_human": true
+  },
+  "repeater_acl_unknown_key": {
+    "value": "Unbekannter Schlüssel",
+    "_human": true
+  },
+  "repeater_acl_ambiguous_count": {
+    "value": "%1$d mögliche Companions",
+    "_human": true
+  },
+  "repeater_acl_more_entries": {
+    "value": "+ %1$d weitere",
+    "_human": true
+  },
+  "repeater_acl_add_button": {
+    "value": "Zugriff hinzufügen",
+    "_human": true
+  },
+  "repeater_acl_add_tab_companion": {
+    "value": "Companion wählen",
+    "_human": true
+  },
+  "repeater_acl_add_tab_key": {
+    "value": "Schlüssel eingeben",
+    "_human": true
+  },
+  "repeater_acl_add_cd_search": {
+    "value": "Kontakte durchsuchen",
+    "_human": true
+  },
+  "repeater_acl_add_search_placeholder": {
+    "value": "Companion suchen",
+    "_human": true
+  },
+  "repeater_acl_already_has_role": {
+    "value": "hat %1$s",
+    "_human": true
+  },
+  "repeater_acl_add_companion_hint": {
+    "value": "Nur Companions aus deinen Kontakten und gehörten Adverts. Repeater, Room-Server und Sensoren lassen sich nicht eintragen.",
+    "_human": true
+  },
+  "repeater_acl_role_for_name": {
+    "value": "Rolle für %1$s",
+    "_human": true
+  },
+  "repeater_acl_role_admin_desc": {
+    "value": "Konsole, Einstellungen, Regionen, diese Liste",
+    "_human": true
+  },
+  "repeater_acl_role_read_desc_short": {
+    "value": "Ohne Passwort, GPS + Sensoren",
+    "_human": true
+  },
+  "repeater_acl_role_read_desc_long": {
+    "value": "Ohne Passwort, bleibt nach Neustart, GPS + Sensoren, keine Konsole",
+    "_human": true
+  },
+  "repeater_acl_add_cta_admin": {
+    "value": "Als Admin hinzufügen",
+    "_human": true
+  },
+  "repeater_acl_add_cta_read": {
+    "value": "Mit Lesezugriff hinzufügen",
+    "_human": true
+  },
+  "repeater_acl_add_sending": {
+    "value": "Wird hinzugefügt …",
+    "_human": true
+  },
+  "repeater_acl_add_success_toast": {
+    "value": "Zugriff hinzugefügt",
+    "_human": true
+  },
+  "repeater_acl_key_counter": {
+    "value": "%1$d / %2$d",
+    "_human": true
+  },
+  "repeater_acl_key_status_contact": {
+    "value": "Gehört zu deinem Kontakt %1$s",
+    "_human": true
+  },
+  "repeater_acl_key_status_advert": {
+    "value": "Bekannt aus einem gehörten Advert: %1$s",
+    "_human": true
+  },
+  "repeater_acl_key_status_rejected_repeater": {
+    "value": "Das ist der Repeater %1$s. Nur Companions können eingetragen werden.",
+    "_human": true
+  },
+  "repeater_acl_key_status_rejected_generic": {
+    "value": "Das ist kein Companion (%1$s). Nur Companions können eingetragen werden.",
+    "_human": true
+  },
+  "repeater_acl_key_input_hint": {
+    "value": "Nur Hex-Zeichen 0–9, a–f. Leerzeichen und Doppelpunkte werden beim Einfügen entfernt. Zum Hinzufügen braucht der Repeater den vollständigen Schlüssel.",
+    "_human": true
+  },
+  "repeater_acl_paste_button": {
+    "value": "Einfügen",
+    "_human": true
+  },
+  "repeater_acl_entry_edit_title": {
+    "value": "Eintrag bearbeiten",
+    "_human": true
+  },
+  "repeater_acl_last_heard": {
+    "value": "zuletzt gehört %1$s",
+    "_human": true
+  },
+  "repeater_acl_role_save": {
+    "value": "Rolle speichern",
+    "_human": true
+  },
+  "repeater_acl_revoke": {
+    "value": "Zugriff entziehen",
+    "_human": true
+  },
+  "repeater_acl_unknown_box_title": {
+    "value": "Nur der Anfang des Schlüssels ist bekannt",
+    "_human": true
+  },
+  "repeater_acl_unknown_box_body": {
+    "value": "Der Repeater meldet pro Eintrag nur die ersten 6 Bytes. Entfernen geht damit. Für einen Rollenwechsel braucht er den vollständigen Schlüssel.",
+    "_human": true
+  },
+  "repeater_acl_enter_full_key": {
+    "value": "Vollen Schlüssel eingeben",
+    "_human": true
+  },
+  "repeater_acl_key_prefix_mismatch": {
+    "value": "Passt nicht zu diesem Eintrag",
+    "_human": true
+  },
+  "repeater_acl_ambiguous_which": {
+    "value": "Welcher ist es?",
+    "_human": true
+  },
+  "repeater_acl_ambiguous_hint": {
+    "value": "Die ersten 6 Bytes passen auf mehrere. Die App wählt nie selbst; nach deiner Auswahl ist der volle Schlüssel bekannt.",
+    "_human": true
+  },
+  "repeater_acl_remove_confirm_title": {
+    "value": "%1$s entfernen?",
+    "_human": true
+  },
+  "repeater_acl_remove_confirm_body_admin": {
+    "value": "%1$s verliert den Admin-Zugriff auf %2$s. Anmelden geht danach nur noch mit Passwort.",
+    "_human": true
+  },
+  "repeater_acl_remove_confirm_body_read": {
+    "value": "%1$s verliert den Lesezugriff auf %2$s.",
+    "_human": true
+  },
+  "repeater_acl_selfdowngrade_confirm_title": {
+    "value": "Eigene Rolle ändern?",
+    "_human": true
+  },
+  "repeater_acl_remove_confirm_self_warning": {
+    "value": "Das ist dein eigener Zugang. Danach nimmt der Repeater keine Admin-Befehle mehr von dir an, bis du dich wieder mit dem Admin-Passwort anmeldest.",
+    "_human": true
+  },
+  "repeater_acl_remove_no_confirmation": {
+    "value": "Keine Bestätigung vom Repeater. Der Eintrag wurde möglicherweise trotzdem entfernt.",
+    "_human": true
+  },
+  "repeater_acl_loading_title": {
+    "value": "Frage Zugriffsliste ab …",
+    "_human": true
+  },
+  "repeater_acl_loading_subtitle": {
+    "value": "Kann bis zu 30 s dauern",
+    "_human": true
+  },
+  "repeater_acl_no_reply_title": {
+    "value": "Keine Antwort vom Repeater",
+    "_human": true
+  },
+  "repeater_acl_no_reply_body": {
+    "value": "Der Repeater ist evtl. außer Reichweite oder der Pfad ist veraltet.",
+    "_human": true
+  },
+  "repeater_acl_last_loaded": {
+    "value": "Zuletzt geladen: %1$s · Einträge: %2$d",
+    "_human": true
+  },
+  "repeater_acl_save_failed": {
+    "value": "Nicht gespeichert",
+    "_human": true
+  },
+  "repeater_acl_repeater_replied_prefix": {
+    "value": "Der Repeater antwortete:",
+    "_human": true
+  },
+  "repeater_acl_resend": {
+    "value": "Erneut senden",
+    "_human": true
+  },
+  "repeater_acl_truncated_title": {
+    "value": "%1$d Einträge – Liste evtl. unvollständig",
+    "_human": true
+  },
+  "repeater_acl_truncated_body": {
+    "value": "Der Repeater schickt höchstens %1$d Einträge pro Antwort. Weitere Schlüssel können eingetragen sein, ohne hier zu erscheinen.",
+    "_human": true
+  },
+  "repeater_acl_show_more_button": {
+    "value": "%1$d weitere anzeigen",
+    "_human": true
+  },
+  "repeater_acl_cd_search_list": {
+    "value": "Zugriffsliste durchsuchen",
+    "_human": true
+  },
+  "repeater_acl_swipe_to_remove_hint": {
+    "value": "Wischen zum Entfernen",
+    "_human": true
+  },
+  "repeater_acl_source_advert_ago": {
+    "value": "Advert · %1$s",
+    "_human": true
+  },
+  "repeater_acl_add_no_companions": {
+    "value": "Keine bekannten Companions.",
+    "_human": true
+  },
+  "repeater_acl_list_empty": {
+    "value": "Noch keine Einträge in der Zugriffsliste.",
+    "_human": true
+  },
+  "repeater_acl_admin_only_hint": {
+    "value": "Nur sichtbar, wenn du als Admin angemeldet bist.",
     "_human": true
   }
 }
