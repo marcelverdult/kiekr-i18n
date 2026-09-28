@@ -3,7 +3,7 @@
     "language": "et",
     "name": "Eesti",
     "managed_by": "community",
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
   "add_channel_duplicate_key": {
     "value": "See võti kuulub juba „%1$s“-le.",
@@ -11369,5 +11369,245 @@
     "value": "Toaserver saadab vastuses kõige rohkem %1$d kirjet. Rohkem admineid võib olla loetletud, ilma et need siin kuvatakse.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "mynode_telemetry_section_title": {
+    "value": "Telemeetria jagamine",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_battery": {
+    "value": "Aku ja olek",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_location": {
+    "value": "Asukoht",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_sensors": {
+    "value": "Andurid",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_off": {
+    "value": "Väljas",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_selected": {
+    "value": "Valitud kontaktid",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_everyone": {
+    "value": "Kõik",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_footer": {
+    "value": "Kontaktid saavad küsida, mida sa siin jagad. Valikuga „Valitud kontaktid“ määrad kontakti andmetes, kes. Asukoht saadetakse ainult siis, kui selle sõlme GPS on sisse lülitatud.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_everyone_warning": {
+    "value": "„Kõik“ tähendab kõiki sellel sõlmel salvestatud kontakte — automaatse lisamise korral praktiliselt kõiki levialas olijaid.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_no_gps_hint": {
+    "value": "Sellel sõlmel pole GPS-i, mistõttu ta ei saa asukohta jagada.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_section_title": {
+    "value": "Tohib minu sõlmelt küsida",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_deny": {
+    "value": "Jagamine on sinu sõlmel väljas — lülita see sisse: Minu sõlm → Telemeetria jagamine.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_allow_all": {
+    "value": "Sinu sõlm jagab seda kõigiga; see lüliti mõjub ainult režiimi „Valitud kontaktid“ korral.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_grants_write_failed": {
+    "value": "Õigusi ei õnnestunud muuta — kontakt peab olema sinu sõlmel.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_section_title": {
+    "value": "Asukoha otsimine",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_button": {
+    "value": "Küsi asukohta",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_cooldown": {
+    "value": "Uuesti %1$ds pärast",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_pending_notice": {
+    "value": "Sellel sõlmel on juba pooleli teine päring — proovi hetke pärast uuesti.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_position_label": {
+    "value": "Asend",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_received_label": {
+    "value": "Vastu võetud",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_battery_label": {
+    "value": "Aku pinge",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_label": {
+    "value": "Kaugus",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_unchanged_hint": {
+    "value": "Asend muutumatu — seadmel ei pruugi hetkel kehtivat GPS-asukohta olla.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_never_fixed": {
+    "value": "Sellel seadmel pole sisselülitamisest saati veel GPS-asukohta määratud.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_gps_sample": {
+    "value": "Vastuses pole asukohta — GPS puudub, GPS on väljas, või asukohta ei jagata sinuga.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_answer": {
+    "value": "Vastust ei tulnud — levialast väljas, või see kontakt pole sul lubanud seda küsida.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_track_on_map_button": {
+    "value": "Jälgi kaardil",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_no_fix_yet": {
+    "value": "Asukohta pole veel saadud.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_request_now_button": {
+    "value": "Küsi kohe",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_button": {
+    "value": "Reaalajas 15 min",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_cost_line": {
+    "value": "Kuni 16 päringut 15 minuti jooksul, ainult tuntud marsruudi kaudu või otseses levialas — võrku ei täideta.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_stop_button": {
+    "value": "Peata · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_search_mesh_button": {
+    "value": "Otsi võrgust",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_time_up": {
+    "value": "Reaalajas jälgimine lõppes — 15 minutit said täis.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_no_answer": {
+    "value": "Vastust ei tulnud — väljaspool otsest levialat? Kasuta nuppu „Otsi võrgust“, et proovida kordajate kaudu.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_link_down": {
+    "value": "Ühendus sõlmega katkes — reaalajas jälgimine peatati.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_stopped": {
+    "value": "Reaalajas jälgimine peatati.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_n": {
+    "value": "P",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_ne": {
+    "value": "KI",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_e": {
+    "value": "I",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_se": {
+    "value": "KA",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_s": {
+    "value": "L",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_sw": {
+    "value": "EL",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_w": {
+    "value": "LÄ",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_nw": {
+    "value": "LO",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_live_text": {
+    "value": "Reaalajas jälgimine: %1$s · jäänud %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_stop_action": {
+    "value": "Peata",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_value": {
+    "value": "%1$s km %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
   }
 }

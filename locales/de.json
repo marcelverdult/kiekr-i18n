@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "kiekr-team",
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
   "app_upgrade_body": {
     "value": "Öffne die App erneut, um die neue Version fertig zu laden.",
@@ -9319,6 +9319,198 @@
   },
   "room_acl_truncated_body": {
     "value": "Der Raum-Server schickt höchstens %1$d Einträge pro Antwort. Weitere Admins können eingetragen sein, ohne hier zu erscheinen.",
+    "_human": true
+  },
+  "mynode_telemetry_section_title": {
+    "value": "Telemetrie teilen",
+    "_human": true
+  },
+  "mynode_telemetry_row_battery": {
+    "value": "Akku & Status",
+    "_human": true
+  },
+  "mynode_telemetry_row_location": {
+    "value": "Standort",
+    "_human": true
+  },
+  "mynode_telemetry_row_sensors": {
+    "value": "Sensoren",
+    "_human": true
+  },
+  "mynode_telemetry_mode_off": {
+    "value": "Aus",
+    "_human": true
+  },
+  "mynode_telemetry_mode_selected": {
+    "value": "Ausgewählte Kontakte",
+    "_human": true
+  },
+  "mynode_telemetry_mode_everyone": {
+    "value": "Alle",
+    "_human": true
+  },
+  "mynode_telemetry_footer": {
+    "value": "Kontakte können abfragen, was du hier teilst. Bei „Ausgewählte Kontakte“ legst du in den Kontaktdetails fest, wer. Der Standort wird nur gesendet, solange das GPS dieses Knotens an ist.",
+    "_human": true
+  },
+  "mynode_telemetry_everyone_warning": {
+    "value": "„Alle“ heißt jeder Kontakt auf diesem Knoten – bei automatischem Hinzufügen praktisch jeder in Funkreichweite.",
+    "_human": true
+  },
+  "mynode_telemetry_no_gps_hint": {
+    "value": "Dieser Knoten hat kein GPS und kann keinen Standort teilen.",
+    "_human": true
+  },
+  "contact_telemetry_section_title": {
+    "value": "Darf von meinem Knoten abfragen",
+    "_human": true
+  },
+  "contact_telemetry_hint_deny": {
+    "value": "Teilen ist auf deinem Knoten aus – einschalten unter Mein Knoten → Telemetrie teilen.",
+    "_human": true
+  },
+  "contact_telemetry_hint_allow_all": {
+    "value": "Dein Knoten teilt das mit allen; dieser Schalter wirkt nur bei „Ausgewählte Kontakte“.",
+    "_human": true
+  },
+  "contact_telemetry_grants_write_failed": {
+    "value": "Freigaben konnten nicht geändert werden – der Kontakt muss auf deinem Knoten sein.",
+    "_human": true
+  },
+  "locate_section_title": {
+    "value": "Orten",
+    "_human": true
+  },
+  "locate_request_button": {
+    "value": "Standort abfragen",
+    "_human": true
+  },
+  "locate_request_cooldown": {
+    "value": "Erneut in %1$ds",
+    "_human": true
+  },
+  "locate_request_pending_notice": {
+    "value": "Auf diesem Knoten läuft bereits eine andere Anfrage — versuche es gleich noch einmal.",
+    "_human": true
+  },
+  "locate_fix_position_label": {
+    "value": "Position",
+    "_human": true
+  },
+  "locate_fix_received_label": {
+    "value": "Empfangen",
+    "_human": true
+  },
+  "locate_fix_battery_label": {
+    "value": "Akkuspannung",
+    "_human": true
+  },
+  "locate_fix_distance_label": {
+    "value": "Entfernung",
+    "_human": true
+  },
+  "locate_fix_unchanged_hint": {
+    "value": "Position unverändert — das Gerät hat möglicherweise keinen aktuellen GPS-Fix.",
+    "_human": true
+  },
+  "locate_reply_never_fixed": {
+    "value": "Noch kein GPS-Fix, seit das Gerät eingeschaltet wurde.",
+    "_human": true
+  },
+  "locate_reply_no_gps_sample": {
+    "value": "Keine Position in der Antwort — kein GPS, GPS aus oder Standort nicht mit dir geteilt.",
+    "_human": true
+  },
+  "locate_reply_no_answer": {
+    "value": "Keine Antwort — außer Reichweite, oder dieser Kontakt hat die Anfrage nicht erlaubt.",
+    "_human": true
+  },
+  "locate_track_on_map_button": {
+    "value": "Auf Karte verfolgen",
+    "_human": true
+  },
+  "locate_no_fix_yet": {
+    "value": "Noch kein Standort empfangen.",
+    "_human": true
+  },
+  "locate_map_request_now_button": {
+    "value": "Jetzt abfragen",
+    "_human": true
+  },
+  "locate_map_live_button": {
+    "value": "Live 15 Min",
+    "_human": true
+  },
+  "locate_map_live_cost_line": {
+    "value": "Bis zu 16 Anfragen über 15 Minuten, nur über eine bekannte Route oder in Direktreichweite — keine Mesh-Flutung.",
+    "_human": true
+  },
+  "locate_map_live_stop_button": {
+    "value": "Stopp · %1$s",
+    "_human": true
+  },
+  "locate_map_search_mesh_button": {
+    "value": "Im Mesh suchen",
+    "_human": true
+  },
+  "locate_live_end_time_up": {
+    "value": "Live-Ortung beendet — die 15 Minuten sind um.",
+    "_human": true
+  },
+  "locate_live_end_no_answer": {
+    "value": "Keine Antwort — außerhalb der Direktreichweite? Nutze „Im Mesh suchen“, um es über Repeater zu versuchen.",
+    "_human": true
+  },
+  "locate_live_end_link_down": {
+    "value": "Verbindung zum Knoten wurde unterbrochen — Live-Ortung gestoppt.",
+    "_human": true
+  },
+  "locate_live_end_stopped": {
+    "value": "Live-Ortung gestoppt.",
+    "_human": true
+  },
+  "locate_compass_n": {
+    "value": "N",
+    "_human": true
+  },
+  "locate_compass_ne": {
+    "value": "NO",
+    "_human": true
+  },
+  "locate_compass_e": {
+    "value": "O",
+    "_human": true
+  },
+  "locate_compass_se": {
+    "value": "SO",
+    "_human": true
+  },
+  "locate_compass_s": {
+    "value": "S",
+    "_human": true
+  },
+  "locate_compass_sw": {
+    "value": "SW",
+    "_human": true
+  },
+  "locate_compass_w": {
+    "value": "W",
+    "_human": true
+  },
+  "locate_compass_nw": {
+    "value": "NW",
+    "_human": true
+  },
+  "locate_notif_live_text": {
+    "value": "Live-Ortung: %1$s · noch %2$s",
+    "_human": true
+  },
+  "locate_notif_stop_action": {
+    "value": "Stopp",
+    "_human": true
+  },
+  "locate_fix_distance_value": {
+    "value": "%1$s km %2$s",
     "_human": true
   }
 }

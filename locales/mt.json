@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
   "add_channel_duplicate_key": {
     "value": "Din iċ-ċavetta diġà tappartjeni lil \"%1$s\".",
@@ -11369,5 +11369,245 @@
     "value": "Is-server tal-kamra jibgħat mhux aktar minn %1$d dħulijiet għal kull tweġiba. Jista' jkun hemm iktar Amministrazzjoni elenkata mingħajr ma jidhru hawn.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "mynode_telemetry_section_title": {
+    "value": "Qsim tat-telemetrija",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_battery": {
+    "value": "Batterija u status",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_location": {
+    "value": "Pożizzjoni",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_sensors": {
+    "value": "Sensors",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_off": {
+    "value": "Mitfi",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_selected": {
+    "value": "Kuntatti magħżula",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_everyone": {
+    "value": "Kulħadd",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_footer": {
+    "value": "Il-kuntatti jistgħu jitolbu dak li taqsam hawn. Bil-mod \"Kuntatti magħżula\", agħżel lil min fid-dettalji tal-kuntatt. Il-pożizzjoni tintbagħat biss waqt li l-GPS ta' dan in-nodu jkun mixgħul.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_everyone_warning": {
+    "value": "\"Kulħadd\" tfisser kull kuntatt maħżun fuq dan in-nodu — biż-żieda awtomatika mixgħula, prattikament kulħadd fil-medda.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_no_gps_hint": {
+    "value": "Dan in-nodu m'għandux GPS, għalhekk ma jistax jaqsam pożizzjoni.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_section_title": {
+    "value": "Jista' jitlob min-nodu tiegħi",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_deny": {
+    "value": "Il-qsim huwa mitfi fuq in-nodu tiegħek — ixgħelu taħt In-nod tiegħi → Qsim tat-telemetrija.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_allow_all": {
+    "value": "In-nodu tiegħek jaqsam dan ma' kulħadd; dan it-toggle jaħdem biss fil-mod \"Kuntatti magħżula\".",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_grants_write_failed": {
+    "value": "Ma setax jaġġorna l-permessi — il-kuntatt irid ikun fuq in-nodu tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_section_title": {
+    "value": "Lokalizzazzjoni",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_button": {
+    "value": "Itlob il-pożizzjoni",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_cooldown": {
+    "value": "Mill-ġdid fi %1$ds",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_pending_notice": {
+    "value": "Talba oħra diġà għaddejja fuq dan in-nodu — ipprova mill-ġdid fi ftit.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_position_label": {
+    "value": "Pożizzjoni",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_received_label": {
+    "value": "Riċevuti",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_battery_label": {
+    "value": "Vultaġġ tal-batterija",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_label": {
+    "value": "Distanza",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_unchanged_hint": {
+    "value": "Il-pożizzjoni ma nbidlitx — jista' jkun li l-apparat m'għandux soluzzjoni GPS attwali.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_never_fixed": {
+    "value": "Għad m'hemm l-ebda soluzzjoni GPS minn meta ġie mixgħul l-apparat.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_gps_sample": {
+    "value": "L-ebda pożizzjoni fit-tweġiba — l-ebda GPS, GPS mitfi, jew pożizzjoni mhux maqsuma miegħek.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_answer": {
+    "value": "L-ebda tweġiba — barra mill-medda, jew dan il-kuntatt ma tak il-permess biex titolbu.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_track_on_map_button": {
+    "value": "Segwi fuq il-mappa",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_no_fix_yet": {
+    "value": "Għad m'hemm l-ebda pożizzjoni riċevuta.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_request_now_button": {
+    "value": "Itlob issa",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_button": {
+    "value": "Live 15 min",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_cost_line": {
+    "value": "Sa massimu ta' 16-il talba fuq 15-il minuta, biss permezz ta' triq magħrufa jew medda diretta — mingħajr għargħa tal-mesh.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_stop_button": {
+    "value": "Waqqaf · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_search_mesh_button": {
+    "value": "Fittex il-mesh",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_time_up": {
+    "value": "Il-lokalizzazzjoni live spiċċat — l-15-il minuta għaddew.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_no_answer": {
+    "value": "L-ebda tweġiba — barra mill-medda diretta? Uża \"Fittex il-mesh\" biex tipprova permezz ta' repeaters.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_link_down": {
+    "value": "Il-konnessjoni man-nodu ntilfet — il-lokalizzazzjoni live twaqqfet.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_stopped": {
+    "value": "Il-lokalizzazzjoni live twaqqfet.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_n": {
+    "value": "T",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_ne": {
+    "value": "G",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_e": {
+    "value": "L",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_se": {
+    "value": "X",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_s": {
+    "value": "N",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_sw": {
+    "value": "Lb",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_w": {
+    "value": "P",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_nw": {
+    "value": "M",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_live_text": {
+    "value": "Lokalizzazzjoni live: %1$s · %2$s fadal",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_stop_action": {
+    "value": "Waqqaf",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_value": {
+    "value": "%1$s km %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
   }
 }

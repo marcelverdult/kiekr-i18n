@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
   "add_channel_duplicate_key": {
     "value": "Cette clé appartient déjà à « %1$s ».",
@@ -10089,5 +10089,245 @@
     "value": "Le serveur de room envoie au maximum %1$d entrées par réponse. D'autres Admins peuvent être répertoriés sans apparaître ici.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "mynode_telemetry_section_title": {
+    "value": "Partage de télémétrie",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_battery": {
+    "value": "Batterie & état",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_location": {
+    "value": "Localisation",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_sensors": {
+    "value": "Capteurs",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_off": {
+    "value": "Désactivé",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_selected": {
+    "value": "Contacts sélectionnés",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_everyone": {
+    "value": "Tous",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_footer": {
+    "value": "Les contacts peuvent demander ce que vous partagez ici. Avec « Contacts sélectionnés », choisissez qui dans les détails du contact. La position n'est envoyée que lorsque le GPS de ce nœud est activé.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_everyone_warning": {
+    "value": "« Tous » signifie tous les contacts enregistrés sur ce nœud — avec l'ajout automatique activé, pratiquement n'importe qui à portée.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_no_gps_hint": {
+    "value": "Ce nœud n'a pas de GPS, il ne peut donc pas partager sa position.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_section_title": {
+    "value": "Peut demander à mon nœud",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_deny": {
+    "value": "Le partage est désactivé sur votre nœud — activez-le dans Mon nœud → Partage de télémétrie.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_allow_all": {
+    "value": "Votre nœud partage cela avec tout le monde ; ce commutateur ne compte qu'avec « Contacts sélectionnés ».",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_grants_write_failed": {
+    "value": "Impossible de mettre à jour les autorisations — le contact doit être sur votre nœud.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_section_title": {
+    "value": "Localiser",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_button": {
+    "value": "Demander la position",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_cooldown": {
+    "value": "À nouveau dans %1$ds",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_pending_notice": {
+    "value": "Une autre demande est déjà en cours sur ce nœud — réessayez dans un instant.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_position_label": {
+    "value": "Position",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_received_label": {
+    "value": "Reçu",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_battery_label": {
+    "value": "Tension de la batterie",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_label": {
+    "value": "Distance",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_unchanged_hint": {
+    "value": "Position inchangée — l'appareil n'a peut-être pas de fix GPS actuel.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_never_fixed": {
+    "value": "Pas encore de fix GPS depuis que l'appareil a été allumé.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_gps_sample": {
+    "value": "Aucune position dans la réponse — pas de GPS, GPS désactivé, ou position non partagée avec vous.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_answer": {
+    "value": "Aucune réponse — hors de portée, ou ce contact ne vous a pas autorisé à le demander.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_track_on_map_button": {
+    "value": "Suivre sur la carte",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_no_fix_yet": {
+    "value": "Aucune position reçue pour l'instant.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_request_now_button": {
+    "value": "Demander maintenant",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_button": {
+    "value": "En direct 15 min",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_cost_line": {
+    "value": "Jusqu'à 16 demandes sur 15 minutes, uniquement via un chemin connu ou à portée directe — pas de flood sur le maillage.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_stop_button": {
+    "value": "Arrêter · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_search_mesh_button": {
+    "value": "Rechercher dans le maillage",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_time_up": {
+    "value": "Localisation en direct terminée — les 15 minutes sont écoulées.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_no_answer": {
+    "value": "Aucune réponse — hors de portée directe ? Utilisez « Rechercher dans le maillage » pour essayer via des répéteurs.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_link_down": {
+    "value": "La connexion au nœud a été perdue — localisation en direct arrêtée.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_stopped": {
+    "value": "Localisation en direct arrêtée.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_n": {
+    "value": "N",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_ne": {
+    "value": "NE",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_e": {
+    "value": "E",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_se": {
+    "value": "SE",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_s": {
+    "value": "S",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_sw": {
+    "value": "SO",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_w": {
+    "value": "O",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_nw": {
+    "value": "NO",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_live_text": {
+    "value": "Localisation en direct : %1$s · %2$s restant",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_stop_action": {
+    "value": "Arrêter",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_value": {
+    "value": "%1$s km %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
   }
 }

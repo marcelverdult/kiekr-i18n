@@ -3,7 +3,7 @@
     "language": "sv",
     "name": "Svenska",
     "managed_by": "community",
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
   "add_channel_duplicate_key": {
     "value": "Den här nyckeln tillhör redan ”%1$s”.",
@@ -11369,5 +11369,245 @@
     "value": "Rumsservern skickar högst %1$d poster per svar. Fler Admins kan finnas listade utan att visas här.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "mynode_telemetry_section_title": {
+    "value": "Telemetridelning",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_battery": {
+    "value": "Batteri & status",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_location": {
+    "value": "Placering",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_sensors": {
+    "value": "Sensorer",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_off": {
+    "value": "Av",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_selected": {
+    "value": "Valda kontakter",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_everyone": {
+    "value": "Alla",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_footer": {
+    "value": "Kontakter kan begära det du delar här. Med ”Valda kontakter” väljer du vem i kontaktens uppgifter. Placeringen skickas bara medan den här nodens GPS är på.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_everyone_warning": {
+    "value": "”Alla” betyder varje kontakt som är sparad på den här noden — med automatiskt tillägg på är det i praktiken vem som helst inom räckvidd.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_no_gps_hint": {
+    "value": "Den här noden har ingen GPS, så den kan inte dela en position.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_section_title": {
+    "value": "Kan begära från min nod",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_deny": {
+    "value": "Delning är av på din nod — slå på den under Min nod → Telemetridelning.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_allow_all": {
+    "value": "Din nod delar det här med alla; den här inställningen spelar bara roll med ”Valda kontakter”.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_grants_write_failed": {
+    "value": "Det gick inte att uppdatera behörigheterna — kontakten måste finnas på din nod.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_section_title": {
+    "value": "Lokalisera",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_button": {
+    "value": "Begär position",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_cooldown": {
+    "value": "Igen om %1$ds",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_pending_notice": {
+    "value": "En annan begäran pågår redan på den här noden — försök igen om en stund.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_position_label": {
+    "value": "Position",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_received_label": {
+    "value": "Mottagen",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_battery_label": {
+    "value": "Batterispänning",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_label": {
+    "value": "Avstånd",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_unchanged_hint": {
+    "value": "Position oförändrad — enheten kanske inte har någon aktuell GPS-position.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_never_fixed": {
+    "value": "Ingen GPS-position ännu sedan enheten slogs på.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_gps_sample": {
+    "value": "Ingen position i svaret — ingen GPS, GPS av, eller platsen delas inte med dig.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_answer": {
+    "value": "Inget svar — utanför räckvidd, eller den här kontakten har inte tillåtit dig att begära det.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_track_on_map_button": {
+    "value": "Spåra på karta",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_no_fix_yet": {
+    "value": "Ingen position mottagen än.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_request_now_button": {
+    "value": "Begär nu",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_button": {
+    "value": "Live 15 min",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_cost_line": {
+    "value": "Upp till 16 begäranden över 15 minuter, endast via en känd rutt eller direkt räckvidd — ingen mesh-översvämning.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_stop_button": {
+    "value": "Stopp · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_search_mesh_button": {
+    "value": "Sök mesh",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_time_up": {
+    "value": "Live-lokalisering avslutad — de 15 minuterna är slut.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_no_answer": {
+    "value": "Inget svar — utanför direkt räckvidd? Använd ”Sök mesh” för att prova via repeatrar.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_link_down": {
+    "value": "Anslutningen till noden bröts — live-lokalisering stoppad.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_stopped": {
+    "value": "Live-lokalisering stoppad.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_n": {
+    "value": "N",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_ne": {
+    "value": "NO",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_e": {
+    "value": "O",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_se": {
+    "value": "SO",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_s": {
+    "value": "S",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_sw": {
+    "value": "SV",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_w": {
+    "value": "V",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_nw": {
+    "value": "NV",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_live_text": {
+    "value": "Live-lokalisering: %1$s · %2$s kvar",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_stop_action": {
+    "value": "Stopp",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_value": {
+    "value": "%1$s km %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
   }
 }

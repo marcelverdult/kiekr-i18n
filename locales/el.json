@@ -3,7 +3,7 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
   "add_channel_duplicate_key": {
     "value": "Αυτό το κλειδί ανήκει ήδη στο «%1$s».",
@@ -11369,5 +11369,245 @@
     "value": "Ο διακομιστής δωματίου στέλνει το πολύ %1$d καταχωρήσεις ανά απάντηση. Μπορεί να υπάρχουν κι άλλοι διαχειριστές που δεν εμφανίζονται εδώ.",
     "_ai": true,
     "_seeded": "2026-09-27"
+  },
+  "mynode_telemetry_section_title": {
+    "value": "Κοινή χρήση τηλεμετρίας",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_battery": {
+    "value": "Μπαταρία και κατάσταση",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_location": {
+    "value": "Τοποθεσία",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_row_sensors": {
+    "value": "Αισθητήρες",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_off": {
+    "value": "Ανενεργό",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_selected": {
+    "value": "Επιλεγμένες επαφές",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_mode_everyone": {
+    "value": "Όλοι",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_footer": {
+    "value": "Οι επαφές μπορούν να ζητήσουν ό,τι μοιράζεστε εδώ. Με τις «Επιλεγμένες επαφές», επιλέγετε ποιος στα στοιχεία της επαφής. Η τοποθεσία αποστέλλεται μόνο όσο το GPS αυτού του κόμβου είναι ενεργοποιημένο.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_everyone_warning": {
+    "value": "«Όλοι» σημαίνει κάθε επαφή που είναι αποθηκευμένη σε αυτόν τον κόμβο — με ενεργοποιημένη την αυτόματη προσθήκη, πρακτικά οποιοσδήποτε βρίσκεται εντός εμβέλειας.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "mynode_telemetry_no_gps_hint": {
+    "value": "Αυτός ο κόμβος δεν διαθέτει GPS, οπότε δεν μπορεί να μοιραστεί μια τοποθεσία.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_section_title": {
+    "value": "Μπορεί να ζητά από τον κόμβο μου",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_deny": {
+    "value": "Η κοινή χρήση είναι απενεργοποιημένη στον κόμβο σας — ενεργοποιήστε την από το «Ο κόμβός μου» → «Κοινή χρήση τηλεμετρίας».",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_hint_allow_all": {
+    "value": "Ο κόμβος σας το μοιράζεται με όλους· αυτός ο διακόπτης έχει σημασία μόνο με τις «Επιλεγμένες επαφές».",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "contact_telemetry_grants_write_failed": {
+    "value": "Δεν ήταν δυνατή η ενημέρωση των δικαιωμάτων — η επαφή πρέπει να βρίσκεται στον κόμβο σας.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_section_title": {
+    "value": "Εντοπισμός",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_button": {
+    "value": "Αίτημα τοποθεσίας",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_cooldown": {
+    "value": "Ξανά σε %1$d s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_request_pending_notice": {
+    "value": "Ένα άλλο αίτημα βρίσκεται ήδη σε εξέλιξη σε αυτόν τον κόμβο — δοκιμάστε ξανά σε λίγο.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_position_label": {
+    "value": "Θέση",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_received_label": {
+    "value": "Ελήφθη",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_battery_label": {
+    "value": "Τάση μπαταρίας",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_label": {
+    "value": "Απόσταση",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_unchanged_hint": {
+    "value": "Η θέση παραμένει αμετάβλητη — ενδέχεται η συσκευή να μην έχει τρέχον σήμα GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_never_fixed": {
+    "value": "Δεν υπάρχει ακόμα σήμα GPS από τότε που ενεργοποιήθηκε η συσκευή.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_gps_sample": {
+    "value": "Δεν υπάρχει τοποθεσία στην απάντηση — δεν υπάρχει GPS, το GPS είναι απενεργοποιημένο ή η τοποθεσία δεν έχει κοινοποιηθεί σε εσάς.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_reply_no_answer": {
+    "value": "Καμία απάντηση — εκτός εμβέλειας, ή αυτή η επαφή δεν σας έχει επιτρέψει να το ζητήσετε.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_track_on_map_button": {
+    "value": "Παρακολούθηση στον χάρτη",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_no_fix_yet": {
+    "value": "Δεν έχει ληφθεί ακόμα τοποθεσία.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_request_now_button": {
+    "value": "Αίτημα τώρα",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_button": {
+    "value": "Ζωντανά 15 λεπτά",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_cost_line": {
+    "value": "Έως 16 αιτήματα σε 15 λεπτά, μόνο μέσω γνωστής διαδρομής ή άμεσης εμβέλειας — χωρίς flood σε όλο το mesh.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_live_stop_button": {
+    "value": "Διακοπή · %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_map_search_mesh_button": {
+    "value": "Αναζήτηση στο mesh",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_time_up": {
+    "value": "Ο ζωντανός εντοπισμός ολοκληρώθηκε — τα 15 λεπτά έληξαν.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_no_answer": {
+    "value": "Καμία απάντηση — εκτός άμεσης εμβέλειας; Χρησιμοποιήστε «Αναζήτηση στο mesh» για να δοκιμάσετε μέσω repeaters.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_link_down": {
+    "value": "Η σύνδεση με τον κόμβο χάθηκε — ο ζωντανός εντοπισμός σταμάτησε.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_live_end_stopped": {
+    "value": "Ο ζωντανός εντοπισμός σταμάτησε.",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_n": {
+    "value": "Β",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_ne": {
+    "value": "ΒΑ",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_e": {
+    "value": "Α",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_se": {
+    "value": "ΝΑ",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_s": {
+    "value": "Ν",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_sw": {
+    "value": "ΝΔ",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_w": {
+    "value": "Δ",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_compass_nw": {
+    "value": "ΒΔ",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_live_text": {
+    "value": "Ζωντανός εντοπισμός: %1$s · απομένουν %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_notif_stop_action": {
+    "value": "Διακοπή",
+    "_ai": true,
+    "_seeded": "2026-09-28"
+  },
+  "locate_fix_distance_value": {
+    "value": "%1$s km %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-28"
   }
 }
