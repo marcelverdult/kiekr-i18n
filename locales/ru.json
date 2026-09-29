@@ -11621,5 +11621,50 @@
     "value": "Последний раз задано через KiekR (устройство не сообщает об этом)",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "mynode_advert_source_gps": {
+    "value": "От GPS",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_source_fixed": {
+    "value": "Фиксированная",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_hint_gps": {
+    "value": "Делится GPS-позицией узла со всей сеткой. Установка фиксированной позиции отключает GPS узла.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_hint_fixed": {
+    "value": "Делится этой фиксированной позицией со всей сеткой. Включение GPS узла заменяет её GPS-позицией.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_hint_fixed_no_gps": {
+    "value": "Делится этой фиксированной позицией со всей сеткой.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_fixed_confirm_title": {
+    "value": "Использовать фиксированную позицию?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_fixed_confirm_message": {
+    "value": "Узел может делиться только одной позицией. Фиксированная позиция отключает GPS узла, поэтому узел перестаёт отслеживать своё собственное местоположение.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_fixed_confirm_action": {
+    "value": "Отключить GPS",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_position_rejected": {
+    "value": "Узел отклонил позицию.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

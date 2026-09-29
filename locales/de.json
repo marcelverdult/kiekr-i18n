@@ -9520,5 +9520,41 @@
   "mynode_location_interval_remembered": {
     "value": "Zuletzt von KiekR gesetzt (Gerät meldet das nicht)",
     "_human": true
+  },
+  "mynode_advert_source_gps": {
+    "value": "Aus GPS",
+    "_human": true
+  },
+  "mynode_advert_source_fixed": {
+    "value": "Fest",
+    "_human": true
+  },
+  "mynode_advert_hint_gps": {
+    "value": "Teilt die GPS-Position des Knotens mit dem ganzen Mesh. Eine feste Position schaltet Node-GPS aus.",
+    "_human": true
+  },
+  "mynode_advert_hint_fixed": {
+    "value": "Teilt diese feste Position mit dem ganzen Mesh. Node-GPS einschalten ersetzt sie durch die GPS-Position.",
+    "_human": true
+  },
+  "mynode_advert_hint_fixed_no_gps": {
+    "value": "Teilt diese feste Position mit dem ganzen Mesh.",
+    "_human": true
+  },
+  "mynode_advert_fixed_confirm_title": {
+    "value": "Feste Position verwenden?",
+    "_human": true
+  },
+  "mynode_advert_fixed_confirm_message": {
+    "value": "Der Knoten kann nur eine Position teilen. Eine feste Position schaltet Node-GPS aus, der Knoten verfolgt seinen Standort dann nicht mehr.",
+    "_human": true
+  },
+  "mynode_advert_fixed_confirm_action": {
+    "value": "GPS ausschalten",
+    "_human": true
+  },
+  "mynode_advert_position_rejected": {
+    "value": "Der Knoten hat die Position abgelehnt.",
+    "_human": true
   }
 }

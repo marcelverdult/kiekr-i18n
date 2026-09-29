@@ -2336,5 +2336,14 @@
   "locate_notif_stop_action": "Stop",
   "locate_fix_distance_value": "%1$s km %2$s",
   "locate_map_location_off_hint": "Location access is off — needed to show your position and the distance.",
-  "mynode_location_interval_remembered": "Last set by KiekR (the device can't report it)"
+  "mynode_location_interval_remembered": "Last set by KiekR (the device can't report it)",
+  "mynode_advert_source_gps": "From GPS",
+  "mynode_advert_source_fixed": "Fixed",
+  "mynode_advert_hint_gps": "Shares the node's GPS position with the whole mesh. Setting a fixed position turns node GPS off.",
+  "mynode_advert_hint_fixed": "Shares this fixed position with the whole mesh. Turning node GPS on replaces it with the GPS position.",
+  "mynode_advert_hint_fixed_no_gps": "Shares this fixed position with the whole mesh.",
+  "mynode_advert_fixed_confirm_title": "Use a fixed position?",
+  "mynode_advert_fixed_confirm_message": "The node can share only one position. A fixed position turns node GPS off, so the node stops tracking its own location.",
+  "mynode_advert_fixed_confirm_action": "Turn GPS off",
+  "mynode_advert_position_rejected": "The node rejected the position."
 }
