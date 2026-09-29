@@ -12204,5 +12204,335 @@
     "value": "A csomópont újraindul…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / egyedi név",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (küldd el, és felejtsd el)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (legalább egyszer)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (pontosan egyszer)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 hexadecimális karakter",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Adjon hozzá egy hashtag-csatornát, mint amilyen a #zephyr, vagy az előre beállított `public` csatornát, majd rendeljen hozzá egy régiót az átjátszókon keresztüli továbbításhoz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Az eszközön minden hely foglalt. Először távolítson el egy telepített csatornát, majd próbálja újra.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Mind a helyi listáján, mind a csomópontján szerepel egy **%1$s** nevű csatorna, de eltérő titkosítási kulcsokkal. Az üzenetek nem fejthetők vissza közöttük. Válassza ki, melyik kulcs az igazi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "A módosítások a párosított csomópontra íródnak, és túlélik az újraindítást. A LoRa- és PIN-módosítások minden klienst érintenek, amely párosítást létesít ezzel a csomóponttal.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Megváltoztatja a csomópont hirdetési nevét. A szomszédok a következő hirdetéskor veszik át.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "A csatorna nem található.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "A csatornát nem sikerült hozzáadni (érvénytelen név/kulcs).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Az átjátszó válaszát nem sikerült visszafejteni. Kérjük, jelentkezzen be újra.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Az átjátszó válaszát nem sikerült beolvasni.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Az egyedi nevű csatornákhoz kifejezett 16 bájtos kulcs szükséges: a `#` vagy `public` nélküli nevekből ez nem származtatható. Pontosan 16 bájt, 32 hexadecimális karakterként kódolva.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Eltérő útvonalak = különböző átjátszóláncok továbbították az üzenetét.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Megrajzolja az átjátszóláncot a térképen. A hallott hirdetés nélküli ugrások feloldhatók az online címjegyzéken keresztül, közvetlenül a térképnézetből.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Minden ugrás az átjátszó nyilvános kulcsának első %1$d bájtja. A rövid kulcsok több átjátszóhoz is illeszkedhetnek. Érintse meg a földgömb ikont a hiányzó átjátszók feloldásához az online címjegyzéken keresztül.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Adja meg a csatorna nevét.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "A meglévő párosítások (beleértve ezt az iPhone-t is) a következő újracsatlakozáskor újra egyeztetésre kerülnek az új PIN-kóddal.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Hatótávolságon belüli átjátszók (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Érvénytelen átjátszókulcs.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Utolsó szinkronizálás",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Csak szomszédok. Csendes: Flood nélkül. Akkor használja, ha csak a közeli csomópontoknak kell megismerniük a hirdetését.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Új 6 számjegyű PIN-kód",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Még nincsenek GPS-helyadatok",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Ehhez a felülethez egyelőre nincsenek funkciók.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Még nincsenek üzenetek",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Egyelőre nem hallottunk GPS-koordinátákkal rendelkező átjátszót.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Nincs válasz az átjátszótól. Kérjük, próbálja meg újra.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Egyelőre nem hallottunk GPS-koordinátákkal rendelkező szobát.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Egyelőre nem hallottunk GPS-koordinátákkal rendelkező érzékelőt.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Egyelőre nem hallottunk GPS-koordinátákkal rendelkező felhasználót.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Érvénytelen meshcore:// hivatkozás",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Nincs kapcsolat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Semmi sem egyezett a következővel: „%1$s”.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Kikapcsolva: az új hirdetések elvesznek, amint a táblázat megtelik. Bekapcsolva: a legrégebbi, nem kedvenc névjegy törlődik, hogy helyet biztosítson. A kedvencek mindig megmaradnak.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "A feloldáshoz nyissa meg: Beállítások → Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "A többi csomópontnak szüksége van a hirdetésünkre a kapcsolati táblázatában ahhoz, hogy vissza tudja fejteni a közvetlen üzeneteinket. Bármelyik opció kiválasztása azonnal elküldi azt.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "A párosítás és az élő RSSI a következő verzióban érkezik.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Hivatkozás beillesztése",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Útvonal-hash mód",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Régió (a csomagban)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Az online címjegyzéken keresztül feloldott átjátszók (a sor földgömb ikonja) bekeverednek a listába, ha ez be van kapcsolva. Kapcsolja ki, ha csak azokat a csomópontokat szeretné látni, amelyeket ténylegesen hallottunk rádión.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Hallott ismétlések",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "QR beolvasása",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Feladó neve",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "DISCOVER_REQ-t küld; minden átjátszó válaszol, amelyik meghallja. Az eredmények egy ~20 s-os figyelési ablak után jelennek meg.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Jel szerint rendezve. Minden átjátszó legfeljebb 4 névtelen kérést enged 3 percenként.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Érintse meg a fenti Beolvasás gombot. Ha semmi nem jelenik meg, menjen közelebb egy ismert átjátszóhoz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Ez az eszköz nem támogatja az élő QR-beolvasást. Ehelyett illessze be a meshcore:// hivatkozást.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Ez a funkció a KiekR Pro része.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Kapcsolja be a MeshCore csomópontját, és tartsa a közelben. Az iOS az első párosításkor 6 számjegyű PIN-kódot kér.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Írjon üzenetet…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Felhasználónév + jelszó",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Amikor egy átjátszó továbbítja az üzenetét, itt fogja látni. Nem minden továbbítás jut vissza Önhöz: a legközelebbi átjátszó néha elveszíti a késleltetési (backoff) versenyt egy távolabbival szemben.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Teljes hálózat. Hangos: minden átjátszó továbbítja. Használja mértékkel; a nagyobb hálózatok minden Flood után adási időt fizetnek.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Törli az eszközön található névjegyeket, csatornákat, régiókat, beállításokat és az azonosítót. Visszafordíthatatlan: nincs visszavonás. Először exportálja mindazt, amit meg szeretne őrizni. Írja be a RESET parancsot a megerősítéshez.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "A csomópontján ez a csatorna **%1$s** néven szerepel, de helyileg **%2$s** néven fut. Ugyanazt a titkosítási kulcsot használják, így az üzenetküldés továbbra is működik. Válassza ki, melyik nevet szeretné megtartani.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Az Ön nyilvános kulcsa. A partnereknek szükségük van erre a névjegyeik között ahhoz, hogy vissza tudják fejteni az Öntől érkező DM-eket. A QR-megosztási lehetőség egy későbbi frissítésben érkezik.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Mégse",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "közvetlenül az átjátszótól",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "nincs régió (wildcard mód)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "névtelen",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "régió nélkül",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

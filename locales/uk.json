@@ -12206,5 +12206,335 @@
     "value": "Вузол перезапускається…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / власна назва",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (надіслати і забути)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (принаймні один раз)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (точно один раз)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 шістнадцяткових символів",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Додайте канал-хештег, наприклад #zephyr, або стандартний канал `public`, а потім призначте йому регіон для пересилання через ретранслятори.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Усі слоти пристрою зайняті. Спочатку видаліть встановлений канал, а потім спробуйте ще раз.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "І у вашому локальному списку, і на вашому вузлі є канал із назвою **%1$s**, але з різними ключами шифрування. Повідомлення між ними не розшифровуються. Виберіть, який ключ справжній.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Зміни записуються на спарений вузол і зберігаються після перезавантаження. Зміни LoRa та PIN впливають на кожного клієнта, який підключається до цього вузла.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Змінює ім'я вузла в оголошенні. Сусіди отримають його з наступним оголошенням.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Канал не знайдено.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Не вдалося додати канал (недійсне ім'я/ключ).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Не вдалося розшифрувати відповідь ретранслятора. Будь ласка, увійдіть знову.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Не вдалося прочитати відповідь ретранслятора.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Каналам із власною назвою потрібен явний 16-байтовий ключ: назви без `#` або `public` не можна вивести автоматично. Рівно 16 байтів, закодованих як 32 шістнадцяткові символи.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Різні шляхи = різні ланцюжки ретрансляторів переслали ваше повідомлення.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Показує ланцюжок ретрансляторів на карті. Хопи без почутого оголошення можна визначити через онлайн-каталог прямо з режиму карти.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Кожен проміжок являє собою перші %1$d байти відкритого ключа ретранслятора. Короткі ключі можуть відповідати кільком ретрансляторам. Натисніть на іконку глобуса, щоб знайти відсутні ретранслятори через онлайн-каталог.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Введіть назву каналу.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Наявні сполучення (зокрема з цим iPhone) узгодять новий PIN під час наступного підключення.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Ретранслятори в радіусі дії (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Недійсний ключ ретранслятора.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Остання синхронізація",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Тільки сусіди. Тихо: без флуду. Використовуйте, якщо потрібно, щоб ваше оголошення дізналися лише найближчі вузли.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Новий 6-значний PIN",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Ще немає GPS-місцезнаходжень",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Ще немає функцій для цього розділу.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Поки що немає повідомлень",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Ще не почуто жодного ретранслятора з GPS-координатами.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Немає відповіді від ретранслятора. Будь ласка, спробуйте ще раз.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Ще не почуто жодної кімнати з GPS-координатами.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Ще не почуто жодного датчика з GPS-координатами.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Ще не почуто жодного користувача з GPS-координатами.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Недійсне посилання meshcore://",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Не підключено",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Нічого не збіглося з «%1$s».",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Вимк: нові оголошення відхиляються, коли таблиця заповнена. Увімк: найстаріший контакт, що не в обраних, витісняється, щоб звільнити місце. Обрані завжди зберігаються.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Відкрийте «Налаштування» → Pro, щоб розблокувати.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Іншим вузлам потрібне наше оголошення в їхній таблиці контактів, щоб вони могли розшифрувати наші особисті повідомлення. Обидва варіанти надсилаються негайно.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Сполучення та RSSI в реальному часі з'являться в наступній збірці.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Вставити посилання",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Режим хешу шляху",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Регіон (по радіо)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Ретранслятори, знайдені через онлайн-каталог (іконка глобуса в рядку), додаються до списку, коли це увімкнено. Вимкніть, щоб бачити лише вузли, які ми справді почули по радіо.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Почуті повтори",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Сканувати QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Ім'я відправника",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Надсилає DISCOVER_REQ; кожен ретранслятор, який його почує, відповідає. Результати з'являються приблизно через 20 с вікна прослуховування.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Сортування за сигналом. Кожен ретранслятор обмежує анонімні запити до 4 за 3 хвилини.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Торкніться «Пошук» вище. Якщо нічого не з'явилося, підійдіть ближче до відомого ретранслятора.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Цей пристрій не підтримує сканування QR у реальному часі. Замість цього вставте посилання meshcore://.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Ця функція є частиною KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Увімкніть вузол MeshCore і тримайте його поруч. iOS запитає 6-значний PIN під час першого сполучення.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Введіть повідомлення…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Ім'я користувача + пароль",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Коли ретранслятор повторно передає ваше повідомлення, ви побачите це тут. Не кожне повторення доходить назад до вас: найближчий ретранслятор іноді програє перегони із затримкою (backoff) віддаленішому.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Уся мережа. Гучно: кожен ретранслятор повторює сигнал. Використовуйте помірно; більші мережі витрачають ефірний час на кожен флуд.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Видаляє контакти, канали, регіони, налаштування та ідентичність на пристрої. Незворотно: скасувати не можна. Спочатку експортуйте все, що хочете зберегти. Введіть RESET для підтвердження.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Ваш вузол називає цей канал **%1$s**, але локально він має назву **%2$s**. Вони мають однаковий ключ шифрування, тому повідомлення все ще працюють. Виберіть назву, яку залишити.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Ваш відкритий ключ. Іншим учасникам потрібен цей ключ у їхніх контактах, перш ніж вони зможуть розшифрувати особисті повідомлення від вас. Можливість поділитися через QR з'явиться в пізнішому оновленні.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Скасувати",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "напряму від ретранслятора",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "без регіонів (режим wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "без назви",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "без регіону",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

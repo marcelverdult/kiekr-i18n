@@ -12206,5 +12206,335 @@
     "value": "Vozlišče se znova zaganja…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / ime po meri",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (pošlji in pozabi)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (vsaj enkrat)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (natanko enkrat)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 heksadecimalnih znakov",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Dodajte kanal z oznako #, na primer #zephyr, ali prednastavljeni kanal `public`, nato mu dodelite regijo za posredovanje prek ponavljalnikov.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Vsi prostori na napravi so zasedeni. Najprej odstranite nameščen kanal in poskusite znova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Tako vaš lokalni seznam kot vaše vozlišče imata kanal z imenom **%1$s**, vendar z različnimi šifrirnimi ključi. Sporočila se med njima ne bodo dešifrirala. Izberite, kateri ključ je pravi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Spremembe se zapišejo v povezano vozlišče in preživijo ponovni zagon. Spremembe LoRa in PIN vplivajo na vsakega odjemalca, ki se poveže s tem vozliščem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Spremeni ime vozlišča v oglasu. Sosedje ga prevzamejo ob naslednjem oglasu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Kanal ni bil najden.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Kanala ni bilo mogoče dodati (neveljavno ime/ključ).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Odgovora ponavljalnika ni bilo mogoče dešifrirati. Prosimo, prijavite se znova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Odgovora ponavljalnika ni bilo mogoče prebrati.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kanali z imenom po meri potrebujejo izrecno določen 16-bajtni ključ: imen brez `#` ali `public` ni mogoče izpeljati. Natanko 16 bajtov, zapisanih kot 32 heksadecimalnih znakov.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Različne poti = vaše sporočilo so posredovale različne verige ponavljalnikov.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Nariše verigo ponavljalnikov na zemljevidu. Skoke brez slišanega oglasa je mogoče razrešiti prek spletnega imenika kar iz pogleda zemljevida.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Vsak skok predstavlja prvih %1$d bajtov javnega ključa ponavljalnika. Kratki ključi se lahko ujemajo z več ponavljalniki. Tapnite ikono globusa, da manjkajoče ponavljalnike razrešite prek spletnega imenika.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Vnesite ime kanala.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Obstoječe povezave (vključno s tem iPhonom) se bodo ob naslednji ponovni povezavi znova vzpostavile z novo PIN-kodo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Ponavljalniki v dosegu (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Neveljaven ključ ponavljalnika.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Zadnja sinhronizacija",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Samo sosedje. Tiho: brez Flooda. Uporabite, kadar želite, da vaš oglas prepoznajo le bližnja vozlišča.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Nova 6-mestna PIN-koda",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Zaenkrat še ni GPS-lokacij",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Za to področje trenutno ni funkcij.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Še ni sporočil",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Zaenkrat ni bil slišan noben ponavljalnik z GPS-koordinatami.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Ni odgovora ponavljalnika. Poskusite znova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Zaenkrat ni bila slišana nobena soba z GPS-koordinatami.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Zaenkrat ni bil slišan noben senzor z GPS-koordinatami.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Zaenkrat ni bil slišan noben uporabnik z GPS-koordinatami.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Neveljavna povezava meshcore://",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Ni povezave",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Nič se ni ujemalo z »%1$s«.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Izklopljeno: nove oglase po zapolnitvi tabele zavržemo. Vklopljeno: najstarejši stik, ki ni med priljubljenimi, se odstrani, da se sprosti prostor. Priljubljeni ostanejo vedno ohranjeni.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Za odklepanje odprite Nastavitve → Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Druga vozlišča potrebujejo naš oglas v svoji tabeli stikov, preden lahko dešifrirajo naša DM sporočila. Izbira katere koli možnosti se izvede takoj.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Povezovanje in RSSI v živo prideta v naslednji različici.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Prilepi povezavo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Način »Path-hash«",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Regija (v paketu)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Ponavljalniki, razrešeni prek spletnega imenika (ikona globusa v vrstici), se pri vklopljeni možnosti mešajo v seznam. Izklopite jo, če želite videti samo vozlišča, ki smo jih dejansko slišali po radiu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Slišane ponovitve",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Skeniraj QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Ime pošiljatelja",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Pošlje DISCOVER_REQ; odgovori vsak ponavljalnik, ki ga zazna. Rezultati se prikažejo po ~20 s dolgem oknu poslušanja.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Razvrščeno po signalu. Vsak ponavljalnik omeji anonimne zahteve na 4 na 3 minute.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Tapnite Skeniraj zgoraj. Če se nič ne prikaže, se premaknite bližje znanemu ponavljalniku.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Ta naprava ne podpira skeniranja QR v živo. Namesto tega prilepite povezavo meshcore://.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Ta funkcija je del paketa KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Vklopite svoje vozlišče MeshCore in ga imejte v bližini. iOS vas bo ob prvem povezovanju pozval k vnosu 6-mestne PIN-kode.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Vnesite sporočilo…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Uporabniško ime + geslo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Ko ponavljalnik znova oddaja vaše sporočilo, ga boste videli tukaj. Vse ponovitve se ne vrnejo do vas: najbližji ponavljalnik včasih izgubi tekmo za zakasnitev (backoff) proti bolj oddaljenemu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Cela mreža. Glasno: vsak ponavljalnik znova oddaja. Uporabljajte zmerno; večje mreže plačujejo oddajni čas za vsak Flood.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Izbriše stike, kanale, regije, nastavitve in identiteto na napravi. Nepovratno: razveljavitev ni mogoča. Najprej izvozite vse, kar želite obdržati. Za potrditev vnesite RESET.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Vaše vozlišče ima ta kanal poimenovan **%1$s**, lokalno pa se imenuje **%2$s**. Delita isti šifrirni ključ, zato sporočila še vedno delujejo. Izberite ime, ki ga želite obdržati.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Vaš javni ključ. Drugi ga potrebujejo v svojih stikih, preden lahko dešifrirajo vaša DM sporočila. Možnost deljenja prek QR bo na voljo v poznejši posodobitvi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Prekliči",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "neposredno od ponavljalnika",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "brez regij (način wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "brez imena",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "brez regije",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

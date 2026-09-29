@@ -12205,5 +12205,335 @@
     "value": "Nodul repornește…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / nume personalizat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (trimite și uită)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (cel puțin o dată)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (exact o dată)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 de caractere hexazecimale",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Adaugă un canal de tip hashtag precum #zephyr, sau canalul presetat `public`, apoi atribuie-i o regiune pentru retransmiterea de către repetoare.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Toate sloturile dispozitivului sunt ocupate. Eliminați mai întâi un canal instalat, apoi încercați din nou.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Atât lista ta locală, cât și nodul tău au un canal numit **%1$s**, dar cu chei de criptare diferite. Mesajele nu se vor decripta între ele. Alege care dintre chei este cea adevărată.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Modificările sunt scrise pe nodul asociat și rezistă la repornire. Modificările LoRa și ale codului PIN afectează fiecare client care se asociază cu acest nod.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Modifică numele de anunț al nodului. Vecinii îl vor prelua la următorul anunț.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Canalul nu a fost găsit.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Nu s-a putut adăuga canalul (nume/cheie invalidă).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Nu s-a putut decripta răspunsul repetorului. Autentificați-vă din nou.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Nu s-a putut citi răspunsul repetorului.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Canalele cu nume personalizat au nevoie de o cheie explicită de 16 octeți: numele fără `#` sau `public` nu pot fi derivate automat. Exact 16 octeți, codificați sub forma a 32 de caractere hexazecimale.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Trasee diferite = lanțuri diferite de repetoare v-au retransmis mesajul.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Desenează lanțul de repetoare pe hartă. Salturile fără un anunț recepționat pot fi rezolvate prin directorul online, direct din vizualizarea hărții.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Fiecare salt reprezintă primul (primii) %1$d octet(i) din cheia publică a unui repetor. Cheile scurte se pot potrivi cu mai multe repetoare. Atingeți pictograma globului pentru a identifica repetoarele lipsă prin directorul online.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Introduceți un nume de canal.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Asocierile existente (inclusiv acest iPhone) vor renegocia la următoarea reconectare, folosind noul cod PIN.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Repetoare în rază de acțiune (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Cheie de repetor nevalidă.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Ultima sincronizare",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Doar vecinii. Liniște: fără supraîncărcare. Folosiți doar atunci când nodurile din apropiere trebuie să afle anunțul dvs.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Cod PIN nou din 6 cifre",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Încă nu există locații GPS",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Încă nu există funcții pentru această secțiune.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Nu există încă mesaje",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Încă nu a fost recepționat niciun repetor cu coordonate GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Niciun răspuns de la repetor. Încercați din nou.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Încă nu a fost recepționată nicio cameră cu coordonate GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Încă nu a fost recepționat niciun senzor cu coordonate GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Încă nu a fost recepționat niciun utilizator cu coordonate GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Nu este un link meshcore:// valid",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Nu ești conectat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Nu s-a potrivit nimic cu „%1$s”.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Dezactivat: anunțurile noi sunt eliminate odată ce tabelul se umple. Activat: cel mai vechi contact care nu este favorit este eliminat pentru a face loc. Favoritele sunt păstrate întotdeauna.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Deschideți Setări → Pro pentru a debloca.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Celelalte noduri au nevoie de anunțul nostru în tabelul lor de contacte înainte de a putea decripta mesajele noastre directe. Oricare dintre opțiuni se activează imediat.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Asocierea și RSSI în timp real vor fi disponibile în următoarea versiune.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Lipește linkul",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Modul „Path-hash”",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Regiune (pe unda radio)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Repetoarele identificate prin intermediul directorului online (pictograma globului pe un rând) se amestecă în listă atunci când această opțiune este activată. Dezactivați-o pentru a vedea doar nodurile pe care le-am recepționat efectiv prin radio.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Repetări recepționate",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Scanează cod QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Numele expeditorului",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Trimite un DISCOVER_REQ; orice repetor care îl recepționează răspunde. Rezultatele apar după o fereastră de ascultare de ~20 s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Sortate după semnal. Fiecare repetor limitează cererile anonime la 4 la fiecare 3 minute.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Atingeți Scanare mai sus. Dacă nu apare nimic, apropiați-vă de un repetor cunoscut.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Acest dispozitiv nu acceptă scanarea QR în timp real. Lipiți în schimb linkul meshcore://.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Această funcție face parte din KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Porniți nodul MeshCore și țineți-l în apropiere. iOS vă va solicita codul PIN din 6 cifre la prima asociere.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Scrieți un mesaj…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Nume de utilizator + parolă",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Când un repetor retransmite mesajul dvs., îl veți vedea aici. Nu toate retransmisiile ajung înapoi la dvs.: uneori repetorul cel mai apropiat pierde cursa de temporizare în fața unuia mai îndepărtat.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Rețea completă. Intens: fiecare repetor retransmite. Folosiți cu moderație; rețelele mai mari plătesc timp de emisie pentru fiecare „flood”.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Șterge contactele, canalele, regiunile, preferințele și identitatea de pe dispozitiv. Ireversibil: nu există anulare. Exportați mai întâi tot ce doriți să păstrați. Introduceți RESET pentru a confirma.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Nodul tău are acest canal numit **%1$s**, dar la nivel local se numește **%2$s**. Ambele folosesc aceeași cheie de criptare, așa că mesajele funcționează în continuare. Alege un nume pe care să-l păstrezi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Cheia dvs. publică. Ceilalți participanți au nevoie de aceasta în contactele lor înainte de a putea decripta mesajele dvs. directe. Opțiunea de distribuire prin QR va fi disponibilă într-o actualizare ulterioară.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Anulează",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "direct de la repetor",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "fără regiuni (mod wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "nedenumit",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "fără regiune",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

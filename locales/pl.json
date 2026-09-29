@@ -12197,5 +12197,335 @@
     "value": "Węzeł uruchamia się ponownie…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / własna nazwa",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (wyślij i zapomnij)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (co najmniej raz)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (dokładnie raz)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 znaki szesnastkowe",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Dodaj kanał z hashtagiem, np. #zephyr, lub gotowy kanał `public`, a następnie przypisz mu region do przekazywania przez repeater.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Wszystkie sloty urządzenia są zajęte. Usuń najpierw zainstalowany kanał i spróbuj ponownie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Zarówno Twoja lista lokalna, jak i węzeł mają kanał o nazwie **%1$s**, ale z różnymi kluczami szyfrującymi. Wiadomości nie będą się odszyfrowywać między nimi. Wybierz, który klucz jest tym właściwym.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Zmiany są zapisywane na sparowanym node i przetrwają ponowne uruchomienia. Zmiany LoRa i PIN dotyczą każdego klienta, który paruje się z tym node.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Zmienia nazwę advertu node. Sąsiedzi przejmują ją przy następnym advercie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Nie znaleziono kanału.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Nie udało się dodać kanału (nieprawidłowa nazwa/klucz).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Nie udało się odszyfrować odpowiedzi przekaźnika. Zaloguj się ponownie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Nie udało się odczytać odpowiedzi przekaźnika.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kanały z niestandardową nazwą wymagają jawnego 16-bajtowego klucza: dla nazw bez `#` lub `public` nie da się go wygenerować automatycznie. Dokładnie 16 bajtów, zakodowanych jako 32 znaki szesnastkowe.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Różne ścieżki = różne łańcuchy repeaterów przekazały Twoją wiadomość.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Rysuje łańcuch repeaterów na mapie. Hopy bez usłyszanego advertu można rozwiązać przez katalog online z poziomu widoku mapy.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Każdy skok to pierwsze %1$d bajty klucza publicznego przekaźnika. Krótkie klucze mogą odpowiadać wielu przekaźnikom. Dotknij ikony globusu, aby rozwiązać brakujące przekaźniki za pomocą katalogu online.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Wprowadź nazwę kanału.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Istniejące powiązania (w tym ten iPhone) ponownie wynegocjują połączenie przy następnym połączeniu, używając nowego PIN-u.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Repeatery w zasięgu (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Nieprawidłowy klucz repeatera.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Ostatnia synchronizacja",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Tylko sąsiedzi. Cicho: brak floodingu. Używaj tego, gdy tylko pobliskie węzły mają poznać Twoje ogłoszenie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Nowy 6-cyfrowy PIN",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Brak lokalizacji GPS",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Brak funkcji dla tej sekcji.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Jeszcze brak wiadomości",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Nie usłyszano jeszcze żadnego repeatera ze współrzędnymi GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Brak odpowiedzi od repeatera. Spróbuj ponownie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Nie usłyszano jeszcze żadnej room ze współrzędnymi GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Nie usłyszano jeszcze żadnego czujnika ze współrzędnymi GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Nie usłyszano jeszcze żadnych użytkowników ze współrzędnymi GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Nieprawidłowy link meshcore://",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Brak połączenia",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Brak wyników dla „%1$s”.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Wył.: nowe adverty są odrzucane, gdy tabela się zapełni. Wł.: najstarszy kontakt spoza ulubionych zostaje usunięty, aby zwolnić miejsce. Ulubione są zawsze zachowywane.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Otwórz Ustawienia → Pro, aby odblokować.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Inne node potrzebują naszego advertu w swojej tabeli kontaktów, zanim będą mogły odszyfrować nasze DM-y. Wybranie którejkolwiek opcji wysyła go natychmiast.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Parowanie i RSSI na żywo pojawią się w następnej kompilacji.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Wklej link",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Tryb hasha ścieżki",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Region (na radiu)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Repeatery rozwiązane przez katalog online (ikona globusa w wierszu) mieszają się z listą, gdy ta opcja jest włączona. Wyłącz ją, aby widzieć tylko węzły, które faktycznie usłyszeliśmy przez radio.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Usłyszane powtórzenia",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Skanuj QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Nazwa nadawcy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Wysyła DISCOVER_REQ; każdy repeater, który go usłyszy, odpowiada. Wyniki pojawiają się po oknie nasłuchu ~20 s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Posortowane według sygnału. Każdy repeater ogranicza anonimowe zapytania do 4 na 3 minuty.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Dotknij Skanuj powyżej. Jeśli nic się nie pojawi, podejdź bliżej znanego repeatera.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "To urządzenie nie obsługuje skanowania QR na żywo. Zamiast tego wklej link meshcore://.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Ta funkcja jest częścią KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Włącz swój node MeshCore i trzymaj go w pobliżu. iOS poprosi o 6-cyfrowy PIN przy pierwszym parowaniu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Wpisz wiadomość…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Nazwa użytkownika + hasło",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Gdy przekaźnik przekaże dalej Twoją wiadomość, zobaczysz ją tutaj. Nie każda retransmisja wraca do Ciebie: najbliższy przekaźnik czasami przegrywa wyścig backoff z dalszym przekaźnikiem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Cała siatka. Głośno: każdy przekaźnik retransmituje. Używaj oszczędnie; większe siatki płacą czasem antenowym za każdy flood.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Spowoduje to usunięcie kontaktów, kanałów, regionów, ustawień i danych tożsamościowych z urządzenia. Czynność ta jest nieodwracalna: nie można jej cofnąć. Najpierw wyeksportuj wszystkie dane, które chcesz zachować. Wpisz RESET, aby potwierdzić.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Twój węzeł posiada kanał o nazwie **%1$s**, ale lokalnie nazywa się on **%2$s**. Oba korzystają z tego samego klucza szyfrującego, więc komunikacja nadal działa. Wybierz nazwę, którą chcesz zachować.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Twój klucz publiczny. Inne osoby muszą mieć go w swoich kontaktach, zanim będą mogły odszyfrować Twoje wiadomości prywatne. Opcja udostępniania przez kod QR pojawi się w przyszłej aktualizacji.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Anuluj",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "bezpośrednio z repeatera",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "brak regionów (tryb wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "bez nazwy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "bez regionu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

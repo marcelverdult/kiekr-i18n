@@ -12205,5 +12205,335 @@
     "value": "Mezgls tiek pārstartēts…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / pielāgots nosaukums",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (nosūtīt un aizmirst)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (vismaz vienreiz)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (tieši vienreiz)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 heksadecimālas rakstzīmes",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Pievienojiet hashtag kanālu, piemēram, #zephyr, vai iepriekš iestatīto kanālu `public`, pēc tam piešķiriet tam reģionu atkārtotāju pārsūtīšanai.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Visas ierīces vietas ir aizņemtas. Vispirms noņemiet kādu instalētu kanālu un mēģiniet vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Gan jūsu vietējā sarakstā, gan jūsu mezglā ir kanāls ar nosaukumu **%1$s**, taču tiem ir atšķirīgas šifrēšanas atslēgas. Ziņojumi netiks dešifrēti starp šiem kanāliem. Izvēlieties, kura atslēga ir pareizā.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Izmaiņas tiek ierakstītas pārī savienotajā mezglā un saglabājas pēc pārstartēšanas. LoRa un PIN izmaiņas ietekmē katru klientu, kas savienojas pārī ar šo mezglu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Maina mezgla sludinājuma nosaukumu. Kaimiņi to iegūs nākamajā sludinājumā.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Kanāls nav atrasts.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Neizdevās pievienot kanālu (nederīgs nosaukums/atslēga).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Neizdevās atšifrēt atkārtotāja atbildi. Lūdzu, piesakieties vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Neizdevās nolasīt atkārtotāja atbildi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kanāliem ar pielāgotu nosaukumu nepieciešama tieši norādīta 16 baitu atslēga: nosaukumus bez `#` vai `public` nevar iegūt automātiski. Tieši 16 baiti, kodēti kā 32 heksadecimālas rakstzīmes.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Atšķirīgi ceļi = atšķirīgas atkārtotāju ķēdes pārsūtīja jūsu ziņojumu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Attēlo atkārtotāju ķēdi kartē. Lēcienus bez dzirdēta sludinājuma var noskaidrot, izmantojot tiešsaistes katalogu tieši kartes skatā.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Katrs lēciens ir atkārtotāja publiskās atslēgas pirmie %1$d baits/-i. Īsas atslēgas var atbilst vairākiem atkārtotājiem. Pieskarieties globusa ikonai, lai tiešsaistes katalogā noskaidrotu trūkstošos atkārtotājus.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Ievadiet kanāla nosaukumu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Esošie pārī savienojumi (ieskaitot šo iPhone) atkārtoti vienosies nākamajā pieslēgumā, izmantojot jauno PIN.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Sasniedzamie atkārtotāji (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Nederīga atkārtotāja atslēga.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Pēdējā sinhronizācija",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Tikai kaimiņiem. Kluss: bez pārplūdes. Izmantojiet, ja jūsu sludinājums jāuzzina tikai tuvējiem mezgliem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Jauns 6 ciparu PIN kods",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Pagaidām nav GPS atrašanās vietu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Šai sadaļai pagaidām nav funkciju.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Vēl nav ziņojumu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Pagaidām nav dzirdēts neviens atkārtotājs ar GPS koordinātām.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Nav atbildes no atkārtotāja. Lūdzu, mēģiniet vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Pagaidām nav dzirdēta neviena telpa ar GPS koordinātām.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Pagaidām nav dzirdēts neviens sensors ar GPS koordinātām.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Pagaidām nav dzirdēts neviens lietotājs ar GPS koordinātām.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Nederīga meshcore:// saite",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Nav savienojuma",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Nekas neatbilda „%1$s”.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Izslēgts: jauni sludinājumi tiek atmesti, kad tabula piepildās. Ieslēgts: vecākais neizlases kontakts tiek izņemts, lai atbrīvotu vietu. Izlases kontakti tiek saglabāti vienmēr.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Atveriet Iestatījumi → Pro, lai atbloķētu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Lai citi mezgli varētu atšifrēt mūsu privātās ziņas, viņu kontaktu tabulā ir jābūt mūsu sludinājumam. Jebkuras opcijas izvēle nostrādā uzreiz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Pārošana un reāllaika RSSI būs pieejami nākamajā versijā.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Ielīmēt saiti",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Ceļa-hash režīms",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Reģions (radio pārraidē)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Kad šī funkcija ir ieslēgta, atkārtotāji, kas noskaidroti, izmantojot tiešsaistes katalogu (globusa ikona rindā), tiek iekļauti sarakstā. Izslēdziet, lai redzētu tikai tos mezglus, kurus mēs patiešām esam dzirdējuši pa radio.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Dzirdētie atkārtojumi",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Skenēt QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Sūtītāja vārds",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Nosūta DISCOVER_REQ; katrs atkārtotājs, kas to dzird, atbild. Rezultāti parādās pēc ~20 s klausīšanās loga.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Kārtots pēc signāla. Katrs atkārtotājs ierobežo anonīmos pieprasījumus līdz 4 uz 3 minūtēm.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Pieskarieties „Skenēt” augšā. Ja nekas neparādās, dodieties tuvāk zināmam atkārtotājam.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Šī ierīce neatbalsta tiešraides QR skenēšanu. Tā vietā ielīmējiet meshcore:// saiti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Šī funkcija ir daļa no KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Ieslēdziet savu MeshCore mezglu un turiet to tuvumā. iOS pirmajā pārī savienošanas reizē pieprasīs 6 ciparu PIN kodu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Ierakstiet ziņojumu…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Lietotājvārds + parole",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Kad atkārtotājs pārraida jūsu ziņojumu atkārtoti, jūs to redzēsiet šeit. Ne visi atkārtojumi sasniedz jūs atpakaļ: tuvākais atkārtotājs dažkārt zaudē atkāpšanās sacīkstes tālākam atkārtotājam.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Viss tīkls. Skaļi: katrs atkārtotājs pārraida atkārtoti. Lietojiet taupīgi; lielāki tīkli maksā pārraides laiku par katru „flood”.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Dzēš kontaktus, kanālus, reģionus, iestatījumus un identitāti ierīcē. Neatgriezeniski: atsaukt nevar. Vispirms eksportējiet visu, ko vēlaties saglabāt. Ierakstiet RESET, lai apstiprinātu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Tavam mezglam ir šis kanāls ar nosaukumu **%1$s**, bet lokāli tas ir **%2$s**. Abiem kanāliem ir viena un tā pati šifrēšanas atslēga, tāpēc ziņojumu apmaiņa joprojām darbojas. Izvēlies vienu nosaukumu, kuru vēlies paturēt.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Jūsu publiskā atslēga. Citiem dalībniekiem tā jāsaglabā savos kontaktos, lai varētu atšifrēt jūsu privātās ziņas. QR koplietošanas iespēja būs pieejama kādā no nākamajiem atjauninājumiem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Atcelt",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "tieši no atkārtotāja",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "nav reģionu (wildcard režīms)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "bez nosaukuma",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "bez reģiona",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

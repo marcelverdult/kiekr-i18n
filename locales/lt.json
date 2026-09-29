@@ -12205,5 +12205,335 @@
     "value": "Mazgas paleidžiamas iš naujo…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / savas pavadinimas",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (siųsti ir pamiršti)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (bent kartą)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (lygiai vieną kartą)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 šešioliktainiai simboliai",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Pridėkite hashtag kanalą, pvz., #zephyr, arba iš anksto nustatytą kanalą `public`, tada priskirkite jam regioną kartotuvų persiuntimui.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Visi įrenginio lizdai užimti. Pirmiausia pašalinkite įdiegtą kanalą ir bandykite dar kartą.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Tiek jūsų vietiniame sąraše, tiek jūsų mazge yra kanalas pavadinimu **%1$s**, tačiau juose naudojami skirtingi šifravimo raktai. Pranešimai tarp jų nebus iššifruoti. Pasirinkite, kuris raktas yra tikrasis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Pakeitimai įrašomi į susietą mazgą ir išlieka po perkrovimų. LoRa ir PIN pakeitimai paveikia kiekvieną klientą, kuris susieja su šiuo mazgu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Pakeičia mazgo skelbimo pavadinimą. Kaimynai jį gaus per kitą skelbimą.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Kanalas nerastas.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Nepavyko pridėti kanalo (netinkamas pavadinimas / raktas).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Nepavyko iššifruoti kartotuvo atsakymo. Prisijunkite iš naujo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Nepavyko nuskaityti kartotuvo atsakymo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kanalams su savu pavadinimu reikia aiškiai nurodyto 16 baitų rakto: pavadinimų be `#` arba `public` neįmanoma išvesti automatiškai. Lygiai 16 baitų, užkoduota kaip 32 šešioliktainiai simboliai.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Skirtingi keliai = skirtingos kartotuvų grandinės persiuntė jūsų pranešimą.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Nubrėžia kartotuvų grandinę žemėlapyje. Šuolius be girdėto skelbimo galima nustatyti per internetinį katalogą tiesiai žemėlapio rodinyje.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Kiekvienas šuolis yra pirmieji %1$d kartotuvo viešojo rakto baitas (-ai). Trumpi raktai gali sutapti su keliais kartotuvais. Bakstelėkite gaublio piktogramą, kad per internetinį katalogą nustatytumėte trūkstamus kartotuvus.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Įveskite kanalo pavadinimą.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Esami susieti įrenginiai (įskaitant šį iPhone) iš naujo suderins ryšį per kitą prisijungimą, naudodami naują PIN.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Kartotuvai pasiekiamu atstumu (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Netinkamas kartotuvo raktas.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Paskutinė sinchronizacija",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Tik kaimynams. Ramu: be užtvindymo. Naudokite, kai jūsų skelbimą turi sužinoti tik netoliese esantys mazgai.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Naujas 6 skaitmenų PIN kodas",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Kol kas jokių GPS vietų",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Šiai sričiai kol kas nėra funkcijų.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Dar nėra pranešimų",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Kol kas negirdėtas nė vienas kartotuvas su GPS koordinatėmis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Iš kartotuvo negautas atsakymas. Bandykite dar kartą.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Kol kas negirdėtas nė vienas kambarys su GPS koordinatėmis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Kol kas negirdėtas nė vienas jutiklis su GPS koordinatėmis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Kol kas negirdėtas nė vienas naudotojas su GPS koordinatėmis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Netinkama meshcore:// nuoroda",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Nesusijungta",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Nieko neatitiko „%1$s“.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Išjungta: nauji skelbimai atmetami, kai lentelė užsipildo. Įjungta: seniausias ne mėgstamiausias kontaktas pašalinamas, kad atsirastų vietos. Mėgstamiausi visada išsaugomi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Atidarykite Nustatymai → Pro, kad atrakintumėte.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Kad kiti mazgai galėtų iššifruoti mūsų privačias žinutes, jų kontaktų sąraše turi būti mūsų skelbimas. Pasirinkus bet kurį variantą, jis suveikia iš karto.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Suporavimas ir tiesioginis RSSI bus pridėti kitame leidime.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Įklijuoti nuorodą",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Kelių-hash režimas",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Regionas (radijo bangomis)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Kai tai įjungta, per internetinį katalogą nustatyti kartotuvai (gaublio piktograma eilutėje) įtraukiami į sąrašą. Išjunkite, kad matytumėte tik tuos mazgus, kuriuos iš tikrųjų girdėjome per radiją.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Girdėti pakartojimai",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Skenuoti QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Siuntėjo vardas",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Siunčia DISCOVER_REQ; kiekvienas jį išgirdęs kartotuvas atsako. Rezultatai pasirodo po ~20 s klausymosi lango.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Rikiuojama pagal signalą. Kiekvienas kartotuvas riboja anonimines užklausas iki 4 per 3 minutes.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Bakstelėkite „Skenuoti“ viršuje. Jei nieko nerodoma, prisiartinkite prie žinomo kartotuvo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Šis įrenginys nepalaiko gyvo QR skenavimo. Vietoj to įklijuokite meshcore:// nuorodą.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Ši funkcija yra KiekR Pro dalis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Įjunkite savo MeshCore mazgą ir laikykite jį netoliese. iOS paprašys 6 skaitmenų PIN kodo pirmą kartą susiejant.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Rašykite žinutę…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Naudotojo vardas + slaptažodis",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Kai kartotuvas pakartotinai persiunčia jūsų pranešimą, tai pamatysite čia. Ne visi pakartojimai pasiekia jus atgal: artimiausias kartotuvas kartais pralaimi atsitraukimo lenktynes tolimesniam.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Visas tinklas. Garsu: kiekvienas kartotuvas persiunčia pakartotinai. Naudokite taupiai; didesni tinklai moka transliacijos laiką už kiekvieną „flood“.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Ištrina kontaktus, kanalus, regionus, nuostatas ir tapatybę įrenginyje. Negrįžtama: atšaukti negalima. Pirmiausia eksportuokite viską, ką norite išsaugoti. Įveskite RESET, kad patvirtintumėte.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Jūsų mazge yra kanalas, pavadintas **%1$s**, tačiau lokaliai jis vadinasi **%2$s**. Jie naudoja tą patį šifravimo raktą, todėl pranešimai vis tiek veikia. Pasirinkite vieną pavadinimą, kurį norite išlaikyti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Jūsų viešasis raktas. Kiti dalyviai turi turėti jį savo kontaktuose, kad galėtų iššifruoti jūsų žinutes. QR dalijimosi galimybė bus pridėta vėlesniame atnaujinime.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Atšaukti",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "tiesiogiai iš kartotuvo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "jokių regionų (wildcard režimas)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "nepavadintas",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "be regiono",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

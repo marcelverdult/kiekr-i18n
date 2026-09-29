@@ -12204,5 +12204,335 @@
     "value": "Ο κόμβος κάνει επανεκκίνηση…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / προσαρμοσμένο όνομα",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (αποστολή και λήθη)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (τουλάχιστον μία φορά)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (ακριβώς μία φορά)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 δεκαεξαδικοί χαρακτήρες",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Προσθέστε ένα κανάλι hashtag όπως το #zephyr, ή το προκαθορισμένο κανάλι `public`, και μετά ορίστε του μια περιοχή για προώθηση μέσω αναμεταδότη.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Όλες οι θέσεις της συσκευής είναι κατειλημμένες. Καταργήστε πρώτα ένα εγκατεστημένο κανάλι και δοκιμάστε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Τόσο η τοπική σας λίστα όσο και ο κόμβος σας έχουν ένα κανάλι με όνομα **%1$s**, αλλά με διαφορετικά κλειδιά κρυπτογράφησης. Τα μηνύματα δεν αποκρυπτογραφούνται μεταξύ τους. Επιλέξτε ποιο κλειδί είναι το πραγματικό.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Οι αλλαγές γράφονται στον συζευγμένο κόμβο και διατηρούνται μετά από επανεκκινήσεις. Οι αλλαγές LoRa και PIN επηρεάζουν κάθε πελάτη που συζευγνύεται με αυτόν τον κόμβο.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Αλλάζει το όνομα διαφήμισης του κόμβου. Οι γείτονες θα το λάβουν στην επόμενη διαφήμιση.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Το κανάλι δεν βρέθηκε.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Δεν ήταν δυνατή η προσθήκη καναλιού (μη έγκυρο όνομα/κλειδί).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Δεν ήταν δυνατή η αποκρυπτογράφηση της απάντησης του αναμεταδότη. Παρακαλώ συνδεθείτε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Δεν ήταν δυνατή η ανάγνωση της απάντησης του αναμεταδότη.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Τα κανάλια με προσαρμοσμένο όνομα χρειάζονται ρητό κλειδί 16 byte: ονόματα χωρίς `#` ή `public` δεν μπορούν να προκύψουν αυτόματα. Ακριβώς 16 byte, κωδικοποιημένα ως 32 δεκαεξαδικοί χαρακτήρες.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Διαφορετικές διαδρομές = διαφορετικές αλυσίδες αναμεταδοτών προώθησαν το μήνυμά σας.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Σχεδιάζει την αλυσίδα αναμεταδοτών σε έναν χάρτη. Τα άλματα χωρίς ακουσμένη διαφήμιση μπορούν να επιλυθούν μέσω του ηλεκτρονικού καταλόγου, μέσα από την προβολή χάρτη.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Κάθε στάδιο αντιστοιχεί στα πρώτα %1$d byte του δημόσιου κλειδιού ενός αναμεταδότη. Τα σύντομα κλειδιά ενδέχεται να αντιστοιχούν σε περισσότερους από έναν αναμεταδότες. Πατήστε το εικονίδιο του πλανήτη για να εντοπίσετε τους αναμεταδότες που λείπουν μέσω του ηλεκτρονικού καταλόγου.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Εισαγάγετε ένα όνομα καναλιού.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Οι υπάρχουσες συζεύξεις (συμπεριλαμβανομένου αυτού του iPhone) θα διαπραγματευτούν ξανά τον νέο κωδικό PIN στην επόμενη επανασύνδεση.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Αναμεταδότες εντός εμβέλειας (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Μη έγκυρο κλειδί αναμεταδότη.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Τελευταίος συγχρονισμός",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Μόνο γείτονες. Ήσυχο: χωρίς flood. Χρησιμοποιήστε το όταν θέλετε μόνο οι κοντινοί κόμβοι να μάθουν τη διαφήμισή σας.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Νέος 6ψήφιος κωδικός PIN",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Δεν υπάρχουν ακόμα τοποθεσίες GPS",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Δεν υπάρχουν ακόμα λειτουργίες για αυτή την ενότητα.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Δεν υπάρχουν ακόμη μηνύματα",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Δεν έχει ακουστεί ακόμα κανένας αναμεταδότης με συντεταγμένες GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Καμία απάντηση από τον αναμεταδότη. Παρακαλώ δοκιμάστε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Δεν έχει ακουστεί ακόμα κανένα δωμάτιο με συντεταγμένες GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Δεν έχει ακουστεί ακόμα κανένας αισθητήρας με συντεταγμένες GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Δεν έχει ακουστεί ακόμα κανένας χρήστης με συντεταγμένες GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Μη έγκυρος σύνδεσμος meshcore://",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Δεν υπάρχει σύνδεση",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Τίποτα δεν ταιριάζει με «%1$s».",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Ανενεργό: οι νέες διαφημίσεις απορρίπτονται μόλις γεμίσει ο πίνακας. Ενεργό: η παλαιότερη επαφή που δεν είναι αγαπημένη αφαιρείται για να γίνει χώρος. Οι αγαπημένες διατηρούνται πάντα.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Ανοίξτε Ρυθμίσεις → Pro για ξεκλείδωμα.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Οι άλλοι κόμβοι χρειάζονται τη διαφήμισή μας στον πίνακα επαφών τους για να μπορέσουν να αποκρυπτογραφήσουν τα DM μας. Οποιαδήποτε επιλογή αποστέλλεται αμέσως.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Η σύζευξη και το RSSI σε πραγματικό χρόνο έρχονται στην επόμενη έκδοση.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Επικόλληση συνδέσμου",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Λειτουργία hash διαδρομής",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Περιοχή (στον αέρα)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Οι αναμεταδότες που επιλύονται μέσω του ηλεκτρονικού καταλόγου (εικονίδιο υδρογείου σε μια γραμμή) αναμειγνύονται στη λίστα όταν αυτό είναι ενεργό. Απενεργοποιήστε το για να βλέπετε μόνο τους κόμβους που έχουμε πράγματι ακούσει ασύρματα.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Ακουσμένες επαναλήψεις",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Σάρωση QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Όνομα αποστολέα",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Στέλνει ένα DISCOVER_REQ· κάθε αναμεταδότης που το ακούει απαντά. Τα αποτελέσματα εμφανίζονται μετά από ένα παράθυρο ακρόασης περίπου 20 δευτ.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Ταξινόμηση κατά σήμα. Κάθε αναμεταδότης περιορίζει τα ανώνυμα αιτήματα σε 4 ανά 3 λεπτά.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Πατήστε «Σάρωση» παραπάνω. Αν δεν εμφανιστεί τίποτα, πλησιάστε έναν γνωστό αναμεταδότη.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Αυτή η συσκευή δεν υποστηρίζει σάρωση QR σε πραγματικό χρόνο. Επικολλήστε αντ' αυτού τον σύνδεσμο meshcore://.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Αυτή η λειτουργία αποτελεί μέρος του KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Ενεργοποιήστε τον κόμβο MeshCore σας και κρατήστε τον κοντά. Το iOS θα ζητήσει τον 6ψήφιο κωδικό PIN στην πρώτη σύζευξη.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Πληκτρολογήστε ένα μήνυμα…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Όνομα χρήστη + κωδικός πρόσβασης",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Όταν ένας αναμεταδότης αναμεταδίδει το μήνυμά σας, θα το δείτε εδώ. Δεν φτάνουν όλες οι αναμεταδόσεις πίσω σε εσάς: ο πλησιέστερος αναμεταδότης μερικές φορές χάνει την κούρσα καθυστέρησης (backoff) από έναν πιο μακρινό.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Ολόκληρο το mesh. Δυνατά: κάθε αναμεταδότης αναμεταδίδει. Χρησιμοποιήστε το με φειδώ· τα μεγαλύτερα δίκτυα mesh πληρώνουν χρόνο μετάδοσης για κάθε flood.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Διαγράφει επαφές, κανάλια, περιοχές, προτιμήσεις και ταυτότητα στη συσκευή. Μη αναστρέψιμο: δεν υπάρχει αναίρεση. Εξαγάγετε πρώτα ό,τι θέλετε να διατηρήσετε. Πληκτρολογήστε RESET για επιβεβαίωση.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Ο κόμβος σας ονομάζει αυτό το κανάλι **%1$s**, αλλά τοπικά ονομάζεται **%2$s**. Μοιράζονται το ίδιο κλειδί κρυπτογράφησης, οπότε τα μηνύματα εξακολουθούν να λειτουργούν. Επιλέξτε ποιο όνομα να κρατήσετε.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Το δημόσιο κλειδί σας. Οι άλλοι χρήστες χρειάζονται αυτό στις επαφές τους πριν μπορέσουν να αποκρυπτογραφήσουν DM από εσάς. Η επιλογή κοινής χρήσης μέσω QR έρχεται σε μελλοντική ενημέρωση.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Ακύρωση",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "απευθείας από αναμεταδότη",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "χωρίς περιοχές (λειτουργία wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "ανώνυμος",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "χωρίς περιοχή",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

@@ -12204,5 +12204,335 @@
     "value": "Sõlm taaskäivitub…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / kohandatud nimi",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (saada ja unusta)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (vähemalt üks kord)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (täpselt üks kord)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 hex-märki",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Lisa hashtag-kanal, näiteks #zephyr, või eelseadistatud kanal `public`, ja määra sellele seejärel piirkond repeateri edastuseks.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Kõik pesad on hõivatud. Eemalda esmalt paigaldatud kanal ja proovi seejärel uuesti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Nii sinu kohalikus loendis kui ka sinu sõlmes on kanal nimega **%1$s**, kuid erinevate krüptovõtmetega. Sõnumeid ei saa nende vahel dekrüpteerida. Vali, kumb võti on õige.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Muudatused kirjutatakse paaris oleva sõlme külge ja säilivad taaskäivituste üle. LoRa ja PIN muudatused mõjutavad iga klienti, mis paardub selle sõlmega.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Muudab sõlme reklaaminime. Naabrid saavad selle kätte järgmise reklaamiga.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Kanalit ei leitud.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Kanalit ei õnnestunud lisada (vigane nimi/võti).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Repeateri vastust ei õnnestunud dekrüpteerida. Palun logi uuesti sisse.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Repeateri vastust ei õnnestunud lugeda.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kohandatud nimega kanalid vajavad selgesõnalist 16-baidist võtit: nimesid ilma märgita `#` või `public` ei saa tuletada. Täpselt 16 baiti, kodeerituna 32 hex-märgina.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Erinevad teed = erinevad kordajaahelad edastasid su sõnumi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Joonistab kaardile kordajaahela. Hüpped, mille kohta pole kuulutust kuuldud, saab lahendada veebikataloogi kaudu otse kaardivaatest.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Iga hüpe on korduja avaliku võtme esimesed %1$d baiti. Lühikesed võtmed võivad vastata mitmele kordujale. Puuduta maakera ikooni, et leida puuduvad kordujad veebikataloogist.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Sisesta kanali nimi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Olemasolevad sidumised (kaasa arvatud see iPhone) lepivad uue PIN-koodi uuesti kokku järgmisel taasühendumisel.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Levialas olevad repeaterid (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Vigane repeateri võti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Viimati sünkroonitud",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Ainult naabrid. Vaikne: üleujutusi ei esine. Kasuta seda, kui ainult lähedal asuvad sõlmed peavad sinu reklaami tundma õppima.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Uus 6-kohaline PIN-kood",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Veel pole GPS-asukohti",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Sellel alal pole veel funktsioone.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Veel pole sõnumeid",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Ühtegi GPS-koordinaatidega repeaterit pole veel kuuldud.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Repeaterilt ei tulnud vastust. Palun proovi uuesti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Ühtegi GPS-koordinaatidega tuba pole veel kuuldud.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Ühtegi GPS-koordinaatidega andurit pole veel kuuldud.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Ühtegi GPS-koordinaatidega kasutajat pole veel kuuldud.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Ei ole kehtiv meshcore:// link",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Ühendus puudub",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Miski ei vastanud otsingule „%1$s“.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Väljas: uued reklaamid jäetakse kõrvale, kui tabel saab täis. Sees: vanim lemmikuks mitteolev kontakt eemaldatakse, et teha ruumi. Lemmikud säilivad alati.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Ava Seaded → Pro, et avada.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Teised sõlmed peavad lisama meie reklaami oma kontaktide tabelisse, enne kui nad saavad meie DM-sid dešifreerida. Kumba iganes valid, saadetakse see kohe.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Sidumine ja reaalajas RSSI tulevad järgmises buildis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Kleebi link",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Tee hash-režiim",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Piirkond (raadios)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Veebikataloogi kaudu tuvastatud repiiterid (maakera ikoon real) segunevad nimekirja, kui see funktsioon on sisse lülitatud. Lülita see välja, et näha ainult sõlmi, mida oleme raadios tegelikult kuulnud.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Kuuldud kordused",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Skanni QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Saatja nimi",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Saadab DISCOVER_REQ päringu; iga seda kuulev repeater vastab. Tulemused ilmuvad ~20 s pikkuse kuulamisakna järel.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Sorditud signaali järgi. Iga repeater piirab anonüümseid päringuid 4-ga 3 minuti kohta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Puuduta ülal olevat nuppu Otsi. Kui midagi ei ilmu, mine lähemale tuntud repeaterile.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "See seade ei toeta reaalajas QR-koodi skannimist. Kleebi selle asemel meshcore:// link.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "See funktsioon kuulub KiekR Pro juurde.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Lülita oma MeshCore sõlm sisse ja hoia see lähedal. iOS küsib 6-kohalist PIN-koodi esimesel sidumisel.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Kirjuta sõnum…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Kasutajanimi + parool",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Kui repeater saadab su sõnumi uuesti edasi, näed seda siin. Kõik kordussaatmised ei jõua sinuni tagasi: lähim repeater kaotab mõnikord backoff-võidujooksu kaugemal asuvale repeaterile.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Kogu võrk. Valju: iga repeater saadab uuesti edasi. Kasuta säästlikult; suuremad mesh-võrgud maksavad iga üleujutuse eest eetriaega.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Kustutab seadmest kontaktid, kanalid, piirkonnad, eelistused ja identiteedi. Pöördumatu: seda ei saa tagasi võtta. Ekspordi esmalt kõik, mida soovid alles hoida. Kinnitamiseks kirjuta RESET.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Sinu sõlmes on sellel kanalil nimi **%1$s**, kuid kohalikult on see **%2$s**. Neil on sama krüptovõti, seega sõnumid toimivad endiselt. Vali nimi, mille soovid alles jätta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Sinu avalik võti. Partneritel peab see olema oma kontaktides, enne kui nad saavad sinu DM-e dekrüpteerida. QR-koodi kaudu jagamise võimalus lisandub hilisemas uuenduses.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Tühista",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "otse repeaterilt",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "piirkondi pole (wildcard-režiim)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "nimetu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "piirkonnata",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

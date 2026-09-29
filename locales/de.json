@@ -9989,5 +9989,269 @@
   "mynode_clock_repair_restarting": {
     "value": "Der Node startet neu…",
     "_human": true
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / eigener Name",
+    "_human": true
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (senden & vergessen)",
+    "_human": true
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (mindestens einmal)",
+    "_human": true
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (genau einmal)",
+    "_human": true
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 Hex-Zeichen",
+    "_human": true
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Füge einen Hashtag-Kanal wie #zephyr oder den voreingestellten Kanal `public` hinzu und weise ihm dann eine Region für die Repeater-Weiterleitung zu.",
+    "_human": true
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Alle Geräte-Slots sind belegt. Entferne zuerst einen installierten Kanal und versuche es dann erneut.",
+    "_human": true
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Sowohl deine lokale Liste als auch dein Node haben einen Kanal namens **%1$s**, aber mit unterschiedlichen Schlüsseln. Nachrichten lassen sich nicht über beide entschlüsseln. Wähle, welcher Schlüssel der echte ist.",
+    "_human": true
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Änderungen werden auf den gekoppelten Node geschrieben und überstehen Neustarts. LoRa- und PIN-Änderungen betreffen jeden Client, der sich mit diesem Node koppelt.",
+    "_human": true
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Ändert den Advert-Namen des Nodes. Nachbarn übernehmen ihn beim nächsten Advert.",
+    "_human": true
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Kanal nicht gefunden.",
+    "_human": true
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Kanal konnte nicht hinzugefügt werden (ungültiger Name/Schlüssel).",
+    "_human": true
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Antwort des Repeaters konnte nicht entschlüsselt werden. Bitte erneut anmelden.",
+    "_human": true
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Antwort des Repeaters konnte nicht gelesen werden.",
+    "_human": true
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kanäle mit eigenem Namen brauchen einen expliziten 16-Byte-Schlüssel: Namen ohne `#` oder `public` lassen sich nicht ableiten. Genau 16 Bytes, kodiert als 32 Hex-Zeichen.",
+    "_human": true
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Verschiedene Pfade = verschiedene Repeater-Ketten haben deine Nachricht weitergeleitet.",
+    "_human": true
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Zeichnet die Repeater-Kette auf einer Karte. Hops ohne gehörtes Advert können über das Online-Verzeichnis aus der Kartenansicht aufgelöst werden.",
+    "_human": true
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Jeder Hop sind die ersten %1$d Byte(s) des öffentlichen Schlüssels eines Repeaters. Kurze Schlüssel können auf mehrere Repeater passen. Tippe auf das Globus-Symbol, um fehlende Repeater über das Online-Verzeichnis aufzulösen.",
+    "_human": true
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Gib einen Kanalnamen ein.",
+    "_human": true
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Bestehende Kopplungen (auch dieses iPhone) handeln beim nächsten Verbinden die neue PIN neu aus.",
+    "_human": true
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_human": true
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Repeater in Reichweite (%1$d)",
+    "_human": true
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Ungültiger Repeater-Schlüssel.",
+    "_human": true
+  },
+  "ios_connbar_last_sync": {
+    "value": "Zuletzt synchronisiert",
+    "_human": true
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Nur Nachbarn. Leise: kein Flooding. Nutze es, wenn nur nahe Nodes dein Advert lernen sollen.",
+    "_human": true
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Neue 6-stellige PIN",
+    "_human": true
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Noch keine GPS-Standorte",
+    "_human": true
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Noch keine Funktionen für diesen Bereich.",
+    "_human": true
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Noch keine Nachrichten",
+    "_human": true
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Noch keine Repeater mit GPS-Koordinaten gehört.",
+    "_human": true
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Keine Antwort vom Repeater. Bitte erneut versuchen.",
+    "_human": true
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Noch keine Räume mit GPS-Koordinaten gehört.",
+    "_human": true
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Noch keine Sensoren mit GPS-Koordinaten gehört.",
+    "_human": true
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Noch keine Nutzer mit GPS-Koordinaten gehört.",
+    "_human": true
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Kein gültiger meshcore://-Link",
+    "_human": true
+  },
+  "ios_connbar_not_connected": {
+    "value": "Nicht verbunden",
+    "_human": true
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Nichts passte zu „%1$s“.",
+    "_human": true
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Aus: neue Adverts werden verworfen, sobald die Tabelle voll ist. An: der älteste Nicht-Favoriten-Kontakt wird verdrängt, um Platz zu schaffen. Favoriten bleiben immer erhalten.",
+    "_human": true
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Öffne Einstellungen → Pro zum Freischalten.",
+    "_human": true
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Andere Nodes brauchen unser Advert in ihrer Kontakttabelle, bevor sie unsere DMs entschlüsseln können. Beide Optionen senden sofort.",
+    "_human": true
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Kopplung und Live-RSSI kommen im nächsten Build.",
+    "_human": true
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Link einfügen",
+    "_human": true
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Pfad-Hash-Modus",
+    "_human": true
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Region (auf dem Funk)",
+    "_human": true
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Über das Online-Verzeichnis aufgelöste Repeater (Globus-Symbol in einer Zeile) mischen sich in die Liste, wenn dies an ist. Schalte es aus, um nur Nodes zu sehen, die wir tatsächlich über Funk gehört haben.",
+    "_human": true
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Gehörte Wiederholungen",
+    "_human": true
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "QR scannen",
+    "_human": true
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Absendername",
+    "_human": true
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Sendet einen DISCOVER_REQ; jeder Repeater, der ihn hört, antwortet. Ergebnisse erscheinen nach einem ~20-s-Lauschfenster.",
+    "_human": true
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Nach Signal sortiert. Jeder Repeater begrenzt anonyme Anfragen auf 4 pro 3 Minuten.",
+    "_human": true
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Tippe oben auf Suchen. Erscheint nichts, geh näher an einen bekannten Repeater.",
+    "_human": true
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Dieses Gerät unterstützt kein Live-QR-Scannen. Füge stattdessen den meshcore://-Link ein.",
+    "_human": true
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Diese Funktion ist Teil von KiekR Pro.",
+    "_human": true
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Schalte deinen MeshCore-Node ein und halte ihn in der Nähe. iOS fragt beim ersten Koppeln nach der 6-stelligen PIN.",
+    "_human": true
+  },
+  "ios_compose_type_a_message": {
+    "value": "Nachricht eingeben…",
+    "_human": true
+  },
+  "ios_mqtt_username_password": {
+    "value": "Benutzername + Passwort",
+    "_human": true
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Wenn ein Repeater deine Nachricht erneut sendet, siehst du es hier. Nicht jede Wiederholung erreicht dich zurück: Der nächste Repeater verliert manchmal das Backoff-Rennen gegen einen weiter entfernten.",
+    "_human": true
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Ganzes Mesh. Laut: Jeder Repeater sendet erneut. Sparsam einsetzen; größere Meshes zahlen für jeden Flood Sendezeit.",
+    "_human": true
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Löscht Kontakte, Kanäle, Regionen, Einstellungen und Identität auf dem Gerät. Unwiderruflich: Es gibt kein Rückgängig. Exportiere zuerst alles, was du behalten willst. Tippe RESET zum Bestätigen.",
+    "_human": true
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Dein Node hat diesen Kanal als **%1$s** benannt, lokal heißt er aber **%2$s**. Sie teilen denselben Schlüssel, Nachrichten funktionieren also weiter. Wähle einen Namen zum Behalten.",
+    "_human": true
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Dein öffentlicher Schlüssel. Peers brauchen ihn in ihren Kontakten, bevor sie DMs von dir entschlüsseln können. Die QR-Teilen-Option kommt in einem späteren Update.",
+    "_human": true
+  },
+  "ios_conversation_cancel": {
+    "value": "Abbrechen",
+    "_human": true
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "direkt von Repeater",
+    "_human": true
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "keine Regionen (Wildcard-Modus)",
+    "_human": true
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "unbenannt",
+    "_human": true
+  },
+  "ios_channels_unscoped": {
+    "value": "ohne Region",
+    "_human": true
   }
 }

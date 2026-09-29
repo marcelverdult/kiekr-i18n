@@ -12205,5 +12205,335 @@
     "value": "Uzol sa reštartuje…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / vlastný názov",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (odošli a zabudni)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (aspoň raz)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (presne raz)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 hexadecimálnych znakov",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Pridajte hashtagový kanál, napríklad #zephyr, alebo prednastavený kanál `public`, a potom mu priraďte región na preposielanie cez opakovače.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Všetky miesta na zariadení sú obsadené. Najskôr odstráňte nainštalovaný kanál a skúste to znova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Aj váš lokálny zoznam, aj váš uzol majú kanál s názvom **%1$s**, ale s rôznymi šifrovacími kľúčmi. Správy sa medzi nimi nedajú dešifrovať. Vyberte, ktorý kľúč je ten správny.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Zmeny sa zapisujú do spárovaného uzla a prežijú reštart. Úpravy LoRa a PIN ovplyvnia každého klienta, ktorý sa s týmto uzlom spáruje.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Zmení meno uzla v reklame. Susedia si ho prevezmú pri najbližšej reklame.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Kanál sa nenašiel.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Kanál sa nepodarilo pridať (neplatný názov/kľúč).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Odpoveď opakovača sa nepodarilo dešifrovať. Prihláste sa, prosím, znova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Odpoveď opakovača sa nepodarilo prečítať.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kanály s vlastným názvom potrebujú výslovne zadaný 16-bajtový kľúč: názvy bez `#` alebo `public` sa nedajú odvodiť. Presne 16 bajtov, zakódovaných ako 32 hexadecimálnych znakov.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Rôzne cesty = vašu správu preniesli rôzne reťazce opakovačov.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Vykreslí reťaz opakovačov na mape. Skoky bez zachytenej reklamy je možné rozpoznať cez online adresár priamo v zobrazení mapy.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Každý skok predstavuje prvých %1$d bajtov verejného kľúča opakovača. Krátke kľúče sa môžu zhodovať s viacerými opakovačmi. Ťuknutím na ikonu glóbusu rozpoznáte chýbajúce opakovače cez online adresár.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Zadajte názov kanála.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Existujúce spárovania (vrátane tohto iPhonu) sa pri ďalšom pripojení znovu vyjednajú s novým PIN kódom.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Opakovače v dosahu (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Neplatný kľúč opakovača.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Posledná synchronizácia",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Iba susedia. Tiché: bez Floodu. Použite, keď potrebujete, aby vašu reklamu spoznali iba blízke uzly.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "Nový 6-miestny PIN",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Zatiaľ žiadne GPS polohy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Pre túto oblasť zatiaľ nie sú žiadne funkcie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Zatiaľ žiadne správy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Zatiaľ nebol zachytený žiadny opakovač so súradnicami GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Žiadna odpoveď od opakovača. Skúste to, prosím, znova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Zatiaľ nebola zachytená žiadna miestnosť so súradnicami GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Zatiaľ nebol zachytený žiadny senzor so súradnicami GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Zatiaľ nebol zachytený žiadny používateľ so súradnicami GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Neplatný odkaz meshcore://",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Nie ste pripojení",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Nič nezodpovedalo „%1$s“.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Vypnuté: nové reklamy sa po zaplnení tabuľky zahadzujú. Zapnuté: najstarší kontakt, ktorý nie je medzi obľúbenými, sa odstráni, aby sa uvoľnilo miesto. Obľúbené zostávajú vždy zachované.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Odomknite to v Nastaveniach → Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Ostatné uzly potrebujú mať našu reklamu vo svojej tabuľke kontaktov, aby mohli dešifrovať naše DM. Výber ktorejkoľvek možnosti sa odošle okamžite.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Párovanie a živé RSSI prídu v ďalšej verzii.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Vložiť odkaz",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Režim Path-hash",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Región (v pakete)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Opakovače rozpoznané cez online adresár (ikona glóbusu pri riadku) sa pri zapnutí tejto voľby zobrazujú v zozname spolu s ostatnými. Vypnite ju, ak chcete vidieť iba uzly, ktoré sme naozaj zachytili cez rádio.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Zachytené opakovania",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Skenovať QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Meno odosielateľa",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Odošle DISCOVER_REQ; odpovie každý opakovač, ktorý ho zachytí. Výsledky sa zobrazia po ~20 s dlhom počúvaní.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Zoradené podľa signálu. Každý opakovač obmedzuje anonymné požiadavky na 4 za 3 minúty.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Ťuknite vyššie na Skenovať. Ak sa nič nezobrazí, presuňte sa bližšie k známemu opakovaču.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Toto zariadenie nepodporuje živé skenovanie QR. Namiesto toho vložte odkaz meshcore://.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Táto funkcia je súčasťou KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Zapnite svoj uzol MeshCore a majte ho poblíž. iOS vás pri prvom párovaní vyzve na zadanie 6-miestneho PIN kódu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Napíšte správu…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Používateľské meno + heslo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Keď opakovač znovu odvysiela vašu správu, uvidíte ju tu. Nie všetky opakovania sa k vám vrátia: najbližší opakovač niekedy prehrá súboj o vysielaciu prestávku (backoff) so vzdialenejším opakovačom.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Celá sieť. Hlučné: každý opakovač vysiela ďalej. Používajte s mierou; väčšie siete platia vysielací čas za každý Flood.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Vymaže kontakty, kanály, regióny, nastavenia a identitu na zariadení. Nevratné: neexistuje späť. Najprv exportujte všetko, čo si chcete ponechať. Na potvrdenie zadajte RESET.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Váš uzol má tento kanál pomenovaný **%1$s**, ale lokálne sa volá **%2$s**. Zdieľajú rovnaký šifrovací kľúč, takže správy stále fungujú. Vyberte názov, ktorý si ponecháte.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Váš verejný kľúč. Ostatní ho potrebujú mať vo svojich kontaktoch, aby mohli dešifrovať vaše DM. Možnosť zdieľania cez QR príde v neskoršej aktualizácii.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Zrušiť",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "priamo z opakovača",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "žiadne regióny (režim wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "bez mena",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "bez regiónu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

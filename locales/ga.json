@@ -12204,5 +12204,335 @@
     "value": "Tá an nód ag atosú…",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / ainm saincheaptha",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (seol agus déan dearmad)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (uair amháin ar a laghad)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (uair amháin go beacht)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 charachtar heicsidheachúlach",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Cuir cainéal hashtag leis, mar shampla #zephyr, nó an cainéal réamhshocraithe `public`, ansin sann réigiún dó le go ndéanfaidh athsheachadáin é a chur ar aghaidh.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "Tá gach sliotán ar an ngléas tógtha. Bain cainéal suiteáilte ar dtús, agus bain triail eile as ansin.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Tá cainéal darb ainm **%1$s** ag do liosta áitiúil agus ag d'nód araon, ach tá eochracha criptiúcháin éagsúla acu. Ní dhíchóireálfar teachtaireachtaí eatarthu. Roghnaigh cé acu eochair an cheann ceart.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "Scríobhtar athruithe chuig an nód péireáilte agus maireann siad tar éis atosaithe. Bíonn tionchar ag athruithe LoRa agus PIN ar gach cliant a phéireálann leis an nód seo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Athraíonn sé ainm fógra an nóid. Gheobhaidh na comharsana é ag an gcéad fhógra eile.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Níor aimsíodh an cainéal.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Níorbh fhéidir an cainéal a chur leis (ainm/eochair neamhbhailí).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Níorbh fhéidir freagra an athsheachadáin a dhíchriptiú. Logáil isteach arís le do thoil.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Níorbh fhéidir freagra an athsheachadáin a léamh.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Teastaíonn eochair shonrach 16 beart ó chainéil le hainm saincheaptha: ní féidir ainmneacha gan `#` nó `public` a dhíorthú. 16 beart go beacht, ionchódaithe mar 32 charachtar heicsidheachúlach.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Cosáin dhifriúla = chuir slabhraí athsheachadán éagsúla do theachtaireacht ar aghaidh.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Tarraingíonn sé slabhra na n-athsheachadán ar léarscáil. Is féidir hopanna nár cloiseadh fógra dóibh a réiteach tríd an eolaire ar líne, laistigh d'amharc na léarscáile.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Is é gach hop an chéad %1$d beart de eochair phoiblí athsheachadáin. D'fhéadfadh eochracha gearra a bheith comhoiriúnach le hathsheachadáin iomadúla. Tapáil an deilbhín cruinne chun athsheachadáin atá in easnamh a réiteach tríd an eolaire ar líne.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Cuir isteach ainm cainéil.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Déanfaidh naisc phéireáilte atá ann cheana (an iPhone seo san áireamh) athchaibidil ag an gcéad athnascadh eile leis an PIN nua.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Athsheachadáin sa raon (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Eochair athsheachadáin neamhbhailí.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "Sioncrónú deireanach",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Comharsana amháin. Ciúin: gan aon tuile. Úsáid é seo nuair nach gá ach do na nóid atá in aice láimhe eolas a fháil ar d'fhógra.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "PIN nua sé dhigit",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Níl aon suíomhanna GPS fós ann",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Níl aon ghnéithe fós don limistéar seo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Níl aon teachtaireachtaí ann go fóill",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Níor cloiseadh aon athsheachadán le comhordanáidí GPS fós.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Níor tháinig freagra ón athsheachadán. Bain triail eile as le do thoil.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Níor cloiseadh aon seomra le comhordanáidí GPS fós.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Níor cloiseadh aon bhraiteoir le comhordanáidí GPS fós.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Níor cloiseadh aon úsáideoir le comhordanáidí GPS fós.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Ní nasc bailí meshcore:// é",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Níl nasctha",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Ní raibh aon rud comhoiriúnach le \"%1$s\".",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "As: caitear amach fógraí nua a luaithe a líontar an tábla. Ann: baintear an teagmháil neamh-cheanánach is sine chun spás a dhéanamh. Coinnítear ceanáin i gcónaí.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Oscail Socruithe → Pro chun é a dhíghlasáil.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Teastaíonn ár bhfógra ó nóid eile ina gcuid tábla teagmhála sula féidir leo ár nDManna a dhíchódú. Cuireann pé rogha a phiocann tú tús leis láithreach.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Beidh péireáil agus RSSI beo ar fáil sa chéad leagan eile.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Greamaigh nasc",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Mód-path-hash",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Réigiún (ar an aer)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Nuair a bhíonn seo ar siúl, meascann athsheachadáin a réitítear tríd an eolaire ar líne (deilbhín cruinne ar líne) isteach sa liosta. Múch é chun gan ach na nóid a chuala muid i ndáiríre ar an raidió a fheiceáil.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Athchraoltaí cloiste",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Scan QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Ainm an tseoltóra",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Seolann sé DISCOVER_REQ; freagraíonn aon athsheachadán a chloiseann é. Feictear torthaí tar éis fuinneog éisteachta ~20 s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Sórtáilte de réir comhartha. Cuireann gach athsheachadán teorainn le hiarratais gan ainm ag 4 gach 3 nóiméad.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Tapáil Scan thuas. Mura dtaispeántar aon rud, téigh níos gaire d'athsheachadán aitheanta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Ní thacaíonn an gléas seo le scanadh QR beo. Greamaigh an nasc meshcore:// ina áit sin.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Tá an ghné seo mar chuid de KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Cuir do nód MeshCore ar siúl agus coinnigh in aice láimhe é. Iarrfaidh iOS an PIN sé dhigit ort ar an gcéad phéireáil.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Clóscríobh teachtaireacht…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Ainm úsáideora + pasfhocal",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Nuair a athchraolann athsheachadán do theachtaireacht, feicfidh tú anseo é. Ní shroicheann gach athchraoladh ar ais chugat: uaireanta cailleann an t-athsheachadán is gaire an rás moille in aghaidh ceann atá níos faide ar shiúl.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Mogalra iomlán. Os ard: déanann gach athsheachadán athchraoladh. Bain úsáid as go stuama; íocann mogalraí níos mó am aeir as gach tuile.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Scriosann sé teagmhálacha, cainéil, réigiúin, sainroghanna agus aitheantas ar an ngléas. Do-aisiompaithe: níl aon chur ar ais ann. Easpórtáil rud ar bith is mian leat a choinneáil ar dtús. Clóscríobh RESET chun deimhniú.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "Tá an t-ainm **%1$s** ar an gcainéal ag do nód, ach **%2$s** atá air go háitiúil. Tá an eochair chriptithe chéanna acu, mar sin oibríonn teachtaireachtaí fós. Roghnaigh ainm le coinneáil.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "D'eochair phoiblí. Teastaíonn sé seo ó chomhghleacaithe ina gcuid teagmhálacha sula féidir leo do chuid DManna a dhíchódú. Tiocfaidh an rogha comhroinnte QR i nuashonrú níos déanaí.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Cealaigh",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "díreach ón athsheachadán",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "gan réigiún ar bith (mód wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "gan ainm",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "gan réigiún",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

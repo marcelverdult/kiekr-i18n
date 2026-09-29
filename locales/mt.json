@@ -86,7 +86,7 @@
     "_seeded": "2026-06-26"
   },
   "cancel": {
-    "value": "Ħassar",
+    "value": "Ikkanċella",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -2596,7 +2596,7 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_reboot_cancel": {
-    "value": "Ħassar",
+    "value": "Ikkanċella",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -3311,7 +3311,7 @@
     "_seeded": "2026-06-26"
   },
   "nodes_discover_cancel": {
-    "value": "Ħassar",
+    "value": "Ikkanċella",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5314,7 +5314,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_channel_detail_cancel": {
-    "value": "Ħassar",
+    "value": "Ikkanċella",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5494,7 +5494,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_channels_add_cancel": {
-    "value": "Ħassar",
+    "value": "Ikkanċella",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12202,6 +12202,336 @@
   },
   "mynode_clock_repair_restarting": {
     "value": "In-nodu qed jerġa' jibda…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_zephyr_public_custom_name": {
+    "value": "#zephyr / public / isem personalizzat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_0_fire_forget": {
+    "value": "0 (ibgħat u tinsa)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_1_at_least_once": {
+    "value": "1 (mill-inqas darba waħda)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_2_exactly_once": {
+    "value": "2 (darba waħda eżatta)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_32_hex_chars": {
+    "value": "32 karattru hex",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_add_a_hashtag_channel_like_zephyr_or_the_pr": {
+    "value": "Żid kanal hashtag bħal #zephyr, jew il-kanal ippreżettjat `public`, imbagħad agħti reġjun biex ir-repeaters jgħadduh 'l quddiem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_all_device_slots_are_taken_remove_an_instal": {
+    "value": "L-islots kollha tal-apparat huma okkupati. Neħħi kanal installat l-ewwel, imbagħad erġa' pprova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_both_your_local_list_and_your_node_have_a": {
+    "value": "Kemm il-lista lokali tiegħek kif ukoll in-nodu tiegħek għandhom kanal imsejjaħ **%1$s**, iżda b'ċwievet ta' enkrizzjoni differenti. Il-messaġġi ma jinfetħux bejniethom. Agħżel liema ċavetta hi dik vera.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_are_written_to_the_paired_node_and_su": {
+    "value": "It-tibdil jinkiteb fuq in-nodu ppeirjat u jibqa' wara r-riavviji. Bidliet fil-LoRa u l-PIN jaffettwaw kull klijent li jipparja ma' dan in-nodu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
+    "value": "Ibiddel l-isem tar-reklama tan-nodu. Il-ġirien jaqbduh mar-reklama li jmiss.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_channel_not_found": {
+    "value": "Il-kanal ma nstabx.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_could_not_add_channel_invalid_name_key": {
+    "value": "Ma setax jiżdied il-kanal (isem/ċavetta invalidi).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_decrypt_the_repeaters_reply_plea": {
+    "value": "Ma setax jiġi dekriptjat it-tweġiba tar-repeater. Jekk jogħġbok erġa' idħol.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_couldnt_read_the_repeaters_reply": {
+    "value": "Ma setax jinqara t-tweġiba tar-repeater.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_custom_named_channels_need_an_explicit_16": {
+    "value": "Kanali b'isem personalizzat għandhom bżonn ċavetta espliċita ta' 16-il byte: ismijiet mingħajr `#` jew `public` ma jistgħux jiġu dderivati. Eżattament 16-il byte, ikkodifikati bħala 32 karattru hex.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_different_paths_different_repeater_chains": {
+    "value": "Triqat differenti = katini differenti ta' repeaters għaddew il-messaġġ tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
+    "value": "Jiddisinja l-katina tar-repeaters fuq mappa. Il-hops mingħajr reklama misjuba jistgħu jiġu solvuti permezz tad-direttorju onlajn minn ġol-veduta tal-mappa.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
+    "value": "Kull hop huwa l-ewwel %1$d bajt(a) taċ-ċavetta pubblika ta' repeater. Ċwievet qosra jistgħu jaqblu ma' diversi repeaters. Agħfas l-ikona tal-globu biex issolvi repeaters neqsin permezz tad-direttorju onlajn.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_enter_a_channel_name": {
+    "value": "Daħħal isem tal-kanal.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_existing_bonds_including_this_iphone_will_re": {
+    "value": "Il-konnessjonijiet ipparjati eżistenti (inkluż dan l-iPhone) jerġgħu jinnegozjaw fil-konnessjoni li jmiss, bil-PIN il-ġdid.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_hop": {
+    "value": "Hop %1$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_in_range_repeaters": {
+    "value": "Repeaters fil-firxa (%1$d)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_invalid_repeater_key": {
+    "value": "Ċavetta tar-repeater invalida.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_last_sync": {
+    "value": "L-aħħar sinkronizzazzjoni",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
+    "value": "Il-ġirien biss. Kwiet: mingħajr għargħar. Uża meta jkollok bżonn biss li n-nodi fil-qrib jitgħallmu bir-reklama tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_new_6_digit_pin": {
+    "value": "PIN ġdid ta' sitt ċifri",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_gps_locations_yet": {
+    "value": "Għadu ma hemm l-ebda pożizzjoni GPS",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_appshell_no_features_yet_for_this_surface": {
+    "value": "Għadu m'hemm l-ebda funzjoni għal din il-parti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chatlist_no_messages_yet": {
+    "value": "Għad m'hemmx messaġġi",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
+    "value": "Għadu ma nstema' l-ebda repeater b'koordinati GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
+    "value": "Ebda tweġiba mir-repeater. Jekk jogħġbok erġa' pprova.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Għadu ma nstema' l-ebda kamra b'koordinati GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
+    "value": "Għadu ma nstema' l-ebda sensor b'koordinati GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_map_no_users_with_gps_coordinates_have_been_heard_ye": {
+    "value": "Għadu ma nstema' l-ebda utent b'koordinati GPS.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_not_a_valid_meshcore_link": {
+    "value": "Mhux link meshcore:// validu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_not_connected": {
+    "value": "Mhux konness",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_manualpath_nothing_matched": {
+    "value": "Xejn ma qabel ma' \"%1$s\".",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
+    "value": "Mitfi: ir-reklami ġodda jintremew hekk kif it-tabella timtela. Mixgħul: il-kuntatt l-aktar antik li mhux favourit jitneħħa biex isir spazju. Il-favouriti dejjem jinżammu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_open_settings_pro_to_unlock": {
+    "value": "Iftaħ Settings → Pro biex tiftaħ.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
+    "value": "Nodi oħra jeħtieġu r-reklama tagħna fit-tabella tal-kuntatti tagħhom qabel ma jkunu jistgħu jiddekriptjaw il-messaġġi diretti tagħna. Kwalunkwe għażla tispiċċa titħaddem minnufih.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
+    "value": "Il-parjar u l-RSSI live jaslu fil-verżjoni li jmiss.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_paste_link": {
+    "value": "Ilzaq il-link",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_pathlookup_path_hash_mode": {
+    "value": "Modalità path-hash",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_region_on_wire": {
+    "value": "Reġjun (fuq ir-radju)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
+    "value": "Ir-repeaters solvuti permezz tad-direttorju onlajn (ikona tal-globu f'ringiela) jitħalltu fil-lista meta dan ikun mixgħul. Itfih biex tara biss in-nodi li tassew smajna fuq ir-radju.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_repeats_heard": {
+    "value": "Ripetizzjonijiet mismugħa",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_addchannel_scan_qr": {
+    "value": "Skennja QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_sender_name": {
+    "value": "Isem il-mittent",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sends_a_discover_req_any_repeater_that_hears": {
+    "value": "Jibgħat DISCOVER_REQ; kwalunkwe repeater li jismgħu jwieġeb. Ir-riżultati jidhru wara tieqa ta' smigħ ta' ~20 s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_sorted_by_signal_each_repeater_caps_anonymou": {
+    "value": "Issortjati skont is-sinjal. Kull repeater jillimita t-talbiet anonimi għal 4 kull 3 minuti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_tap_scan_above_if_nothing_shows_up_move_clos": {
+    "value": "Agħfas Skennja fuq nett. Jekk ma jidher xejn, avvicina ruħek lejn repeater magħruf.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_qrscanner_this_device_doesnt_support_live_qr_scannin": {
+    "value": "Dan l-apparat ma jappoġġjax l-iskennjar tal-QR live. Minflok, waħħal il-link meshcore://.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_paywall_this_feature_is_part_of_kiekr_pro": {
+    "value": "Din il-funzjoni hija parti minn KiekR Pro.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_turn_on_your_meshcore_node_and_keep_it_nearby": {
+    "value": "Ixgħel in-nodu MeshCore tiegħek u żommu fil-qrib. iOS se jitolbok il-PIN ta' sitt ċifri fl-ewwel parjar.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_compose_type_a_message": {
+    "value": "Ikteb messaġġ…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mqtt_username_password": {
+    "value": "Isem tal-utent + password",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_when_a_repeater_rebroadcasts_your_message": {
+    "value": "Meta repeater jerġa' jxandar il-messaġġ tiegħek, tarah hawn. Mhux kull xandira mill-ġdid tilħaq lura għandek: xi drabi r-repeater l-eqreb jitlef it-tellieqa tal-istennija favur wieħed aktar imbiegħed.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
+    "value": "Mesh sħiħ. Għoli: kull repeater jerġa' jxandar. Uża b'moderazzjoni; meshes akbar iħallsu ħin fl-arja għal kull 'flood'.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
+    "value": "Iħassar il-kuntatti, il-kanali, ir-reġjuni, il-preferenzi u l-identità fuq l-apparat. Irriversibbli: m'hemmx lura. L-ewwel esporta kull ma trid iżżomm. Ikteb RESET biex tikkonferma.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_chconflict_your_node_has_this_channel_named_but_loca": {
+    "value": "In-nodu tiegħek għandu dan il-kanal imsejjaħ **%1$s**, imma lokalment huwa **%2$s**. Jaqsmu l-istess ċavetta ta' enkrizzjoni, għalhekk il-messaġġi għadhom jaħdmu. Agħżel isem wieħed biex iżżomm.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_mynode_your_public_key_peers_need_this_in_their_cont": {
+    "value": "Iċ-ċavetta pubblika tiegħek. Il-kontatti l-oħra jeħtieġu din fil-kuntatti tagħhom qabel ma jkunu jistgħu jiddekriptjaw il-messaġġi diretti tiegħek. L-għażla tal-kondiviżjoni QR se tasal f'aġġornament aktar 'il quddiem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_conversation_cancel": {
+    "value": "Ikkanċella",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_direct_from_repeater": {
+    "value": "dirett mir-repeater",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_regions_no_regions_wildcard_mode": {
+    "value": "l-ebda reġjun (modalità wildcard)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_msgdetail_unnamed": {
+    "value": "mingħajr isem",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ios_channels_unscoped": {
+    "value": "mingħajr reġjun",
     "_ai": true,
     "_seeded": "2026-09-29"
   }
