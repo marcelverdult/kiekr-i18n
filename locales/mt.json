@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "In-nodu jitneħħa qosorament mill-konnessjoni waqt li jerġa' jibda. Uża dan meta t-tagħmir jidher imblokka jew għal hardware li m'għandux buttuna fiżika tar-reset. Fuq nodi mingħajr RTC appoġġjat minn batterija, dan jitnaddaf ukoll l-arloġġ li mar 'il quddiem.",
+    "value": "In-nodu jitneħħa qosorament mill-konnessjoni waqt li jerġa' jibda. Uża dan meta t-tagħmir jidher imblokka jew għal hardware li m'għandux buttuna fiżika tar-reset.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nIs-settings tar-radju jaffettwaw kull messaġġ li n-nodu jibgħat u jirċievi. Jekk is-settings ma jaqblux, ma jkun hemm ebda traffiku sakemm in-netwerk jaqbel.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "In-nodu jirkupra dan il-ħin mill-kuntatti maħżuna tiegħu f'kull restart, għalhekk restart waħdu ma jsolvix il-problema.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Sewwi l-arloġġ",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Issewwi l-arloġġ tan-nodu?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR jikkoreġi t-timestamps tal-futur tal-kuntatti maħżuna fin-nodu u mbagħad jerġa' jibda n-nodu. Ma jintbagħat xejn bir-radju. Is-servers tal-kamra li użajt waqt li l-arloġġ kien 'il quddiem jistgħu jirrifjutaw il-postijiet tiegħek sakemm jerġgħu jibdew huma stess.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Sewwi u erġa' ibda",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Qed jissewwa l-arloġġ…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Qed jinqraw il-kuntatti tan-nodu…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Qed jiġi kkoreġut il-kuntatt %1$d minn %2$d. In-nodu jerġa' jibda meta dan jitlesta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "L-arloġġ tan-nodu għadu 'l quddiem",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Xi kuntatti għad għandhom ħin tal-futur, pereżempju għax in-nodu sema' adverts ġodda waqt it-tiswija. Erġa' ħaddem it-tiswija.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Dehra tal-mappa",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Awtomatiku (bħall-app)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Tapplika għall-mapep kollha. „Awtomatiku“ juża d-dehra tal-app, Ċar u Skur japplikaw biss għall-mappa.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "CLI remota",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Ippermetti CLI remota",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Dan il-kuntatt imbagħad jista' jikkonfigura mill-ġdid in-nodu tiegħek bir-radju, inklużi s-settings tar-radju. Attiva dan biss għall-apparati tiegħek stess.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Iħaddem kmandi CLI fuq in-nodu ta' dan il-kuntatt (firmware 1.18 jew aktar ġdid fuq iż-żewġ naħat). L-ebda tweġiba tfisser: m'hemmx permess hemmhekk jew il-firmware huwa eqdem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Ippermetti",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "In-nodu qed jerġa' jibda…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

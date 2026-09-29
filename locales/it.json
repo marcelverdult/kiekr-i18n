@@ -1600,7 +1600,7 @@
     "_human": true
   },
   "mynode_reboot_dialog_body": {
-    "value": "Il nodo si disconnette brevemente durante il riavvio. Usalo quando il dispositivo sembra bloccato o su hardware senza pulsante reset fisico. Sui nodi senza RTC con batteria tampone questo sistema anche l'orologio.",
+    "value": "Il nodo si disconnette brevemente durante il riavvio. Usalo quando il dispositivo sembra bloccato o su hardware senza pulsante reset fisico.",
     "_human": true
   },
   "mynode_reboot_dialog_title": {
@@ -10742,6 +10742,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nLe impostazioni radio influiscono su ogni messaggio inviato e ricevuto dal nodo. Impostazioni non corrispondenti significano nessun traffico finché la rete non è d'accordo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "A ogni riavvio il nodo recupera quest'ora dai contatti salvati, quindi un riavvio da solo non basta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Ripara orologio",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Riparare l'orologio del nodo?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR corregge i timestamp futuri dei contatti salvati nel nodo e poi riavvia il nodo. Non viene trasmesso nulla via radio. I room server che hai usato mentre l'orologio era in anticipo potrebbero rifiutare i tuoi post finché non si riavviano.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Ripara e riavvia",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Riparazione dell'orologio…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Lettura dei contatti del nodo…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Correzione del contatto %1$d di %2$d. Al termine il nodo si riavvia.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "L'orologio del companion è ancora in anticipo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Alcuni contatti hanno ancora un'ora futura, ad esempio perché il nodo ha ricevuto nuovi advert durante la riparazione. Esegui di nuovo la riparazione.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Aspetto della mappa",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatico (come l'app)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Si applica a tutte le mappe. Automatico usa l'aspetto dell'app, Chiaro e Scuro si applicano solo alla mappa.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "CLI remota",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Consenti CLI remota",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Questo contatto potrà quindi riconfigurare il tuo nodo via radio, incluse le impostazioni radio. Attivalo solo per i tuoi dispositivi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Esegue comandi CLI sul nodo di questo contatto (firmware 1.18 o più recente su entrambi i lati). Nessuna risposta significa: lì manca il permesso oppure il firmware è più vecchio.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Consenti",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Il nodo si sta riavviando…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Noden kobles kortvarig fra mens den starter på nytt. Bruk denne funksjonen når enheten ser ut til å ha hengt seg opp, eller for maskinvare uten en fysisk tilbakestillingsknapp. På noder uten batteribackup for RTC vil dette også nullstille en klokke som har gått for fort.",
+    "value": "Noden kobles kortvarig fra mens den starter på nytt. Bruk denne funksjonen når enheten ser ut til å ha hengt seg opp, eller for maskinvare uten en fysisk tilbakestillingsknapp.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadioinnstillingene påvirker alle meldinger som noden sender og mottar. Hvis innstillingene ikke stemmer overens, vil det ikke være noen trafikk før nettverket er enig.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Noden henter denne tiden fra de lagrede kontaktene sine ved hver omstart, så en omstart alene hjelper ikke.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Reparer klokken",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Reparere nodens klokke?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR retter de fremtidige tidsstemplene i nodens lagrede kontakter og starter deretter noden på nytt. Ingenting sendes over radio. Romservere du brukte mens klokken gikk foran, kan avvise innleggene dine til de selv starter på nytt.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Reparer og start på nytt",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Reparerer klokken…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Leser nodens kontakter…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Retter kontakt %1$d av %2$d. Noden starter på nytt når dette er ferdig.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Nodens klokke går fortsatt foran",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Noen kontakter har fortsatt et fremtidig tidspunkt, for eksempel fordi noden hørte nye adverts under reparasjonen. Kjør reparasjonen én gang til.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Kartutseende",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatisk (som appen)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Gjelder for alle kart. Automatisk bruker appens utseende, Lys og Mørk gjelder bare for kartet.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Fjern-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Tillat fjern-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Denne kontakten kan deretter omkonfigurere noden din via radio, inkludert radioinnstillingene. Aktiver dette bare for dine egne enheter.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Kjører CLI-kommandoer på denne kontaktens node (fastvare 1.18 eller nyere på begge sider). Ingen svar betyr: ingen tillatelse der eller eldre fastvare.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Tillat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Noden starter på nytt…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

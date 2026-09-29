@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Uzol sa počas reštartovania na krátko odpojí. Túto funkciu použite v prípade, že sa zariadenie zdá byť zaseknuté, alebo ak ide o hardvér bez fyzického tlačidla na resetovanie. Na uzloch bez RTC s batériovým zálohováním sa týmto krokom tiež vynulujú hodiny, ktoré sa posunuli dopredu.",
+    "value": "Uzol sa počas reštartovania na krátko odpojí. Túto funkciu použite v prípade, že sa zariadenie zdá byť zaseknuté, alebo ak ide o hardvér bez fyzického tlačidla na resetovanie.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12108,6 +12108,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRádiové nastavenia ovplyvňujú každú správu, ktorú uzol odosiela a prijíma. Pri nezhodných nastaveniach nebude žiadna prevádzka, kým sa sieť nezhodne.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Uzol si tento čas pri každom reštarte obnoví zo svojich uložených kontaktov, takže samotný reštart nepomôže.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Opraviť hodiny",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Opraviť hodiny uzla?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR opraví budúce časové pečiatky uložených kontaktov uzla a potom uzol reštartuje. Rádiom sa nič neodosiela. Izbové servery, ktoré ste používali, kým hodiny išli dopredu, môžu vaše príspevky odmietať, kým sa samy nereštartujú.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Opraviť a reštartovať",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Opravujú sa hodiny…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Načítavajú sa kontakty uzla…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Opravuje sa kontakt %1$d z %2$d. Potom sa uzol reštartuje.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Hodiny uzla stále idú dopredu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Niektoré kontakty stále nesú čas z budúcnosti, napríklad preto, že uzol počas opravy zachytil nové oznámenia. Spustite opravu ešte raz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Vzhľad mapy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automaticky (ako aplikácia)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Platí pre všetky mapy. „Automaticky“ používa vzhľad aplikácie, Svetlý a Tmavý platia len pre mapu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Vzdialené CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Povoliť vzdialené CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Tento kontakt potom môže rádiom prekonfigurovať tvoj uzol vrátane rádiových nastavení. Povoľ to len pre vlastné zariadenia.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Spúšťa CLI príkazy na uzle tohto kontaktu (firmvér 1.18 alebo novší na oboch stranách). Žiadna odpoveď znamená: tam chýba povolenie alebo je firmvér starší.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Povoliť",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Uzol sa reštartuje…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

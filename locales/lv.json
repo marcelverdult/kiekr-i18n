@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Mežgals uz īsu brīdi atvienojas, kamēr tiek pārstartēts. Šo darbību izmantojiet, ja ierīce šķiet iestrēgusi vai ja aparatūrai nav fiziskas atiestatīšanas pogas. Mežgaliem bez baterijas barotā RTC tas arī izlīdzina pulksteņa nobīdi uz priekšu.",
+    "value": "Mežgals uz īsu brīdi atvienojas, kamēr tiek pārstartēts. Šo darbību izmantojiet, ja ierīce šķiet iestrēgusi vai ja aparatūrai nav fiziskas atiestatīšanas pogas.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12108,6 +12108,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadio iestatījumi ietekmē katru ziņu, ko mezgls sūta un saņem. Ja iestatījumi nesakrīt, satiksmes nebūs, kamēr tīkls nebūs vienisprātis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Mezgls pēc katras pārstartēšanas atjauno šo laiku no saglabātajiem kontaktiem, tāpēc ar pārstartēšanu vien nepietiek.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Labot pulksteni",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Labot mezgla pulksteni?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR izlabo nākotnes laikspiedolus mezgla saglabātajos kontaktos un pēc tam pārstartē mezglu. Pa radio nekas netiek sūtīts. Istabas serveri, kurus izmantojāt, kamēr pulkstenis steidzās, var noraidīt jūsu ierakstus, līdz tie paši tiek pārstartēti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Labot un pārstartēt",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Pulkstenis tiek labots…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Tiek nolasīti mezgla kontakti…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Tiek labots kontakts %1$d no %2$d. Pēc tam mezgls tiks pārstartēts.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Mezgla pulkstenis joprojām steidzas",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Dažiem kontaktiem joprojām ir nākotnes laiks, piemēram, tāpēc, ka labošanas laikā mezgls saņēma jaunus paziņojumus. Palaidiet labošanu vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Kartes izskats",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automātiski (kā lietotne)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Attiecas uz visām kartēm. „Automātiski“ izmanto lietotnes izskatu, Gaišs un Tumšs attiecas tikai uz karti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Attālais CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Atļaut attālo CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Šis kontakts pēc tam pa radio var pārkonfigurēt tavu mezglu, ieskaitot radio iestatījumus. Iespējo to tikai savām ierīcēm.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Izpilda CLI komandas šī kontakta mezglā (abās pusēs programmaparatūra 1.18 vai jaunāka). Ja atbildes nav: tur nav atļaujas vai programmaparatūra ir vecāka.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Atļaut",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Mezgls tiek pārstartēts…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Uzel se během restartu na krátkou dobu odpojí. Tuto funkci použijte, pokud se zařízení zdá být zaseknuté, nebo u zařízení bez fyzického tlačítka pro reset. U uzlů bez RTC s bateriovou zálohou se tímto způsobem také vynulují hodiny, které se posunuly dopředu.",
+    "value": "Uzel se během restartu na krátkou dobu odpojí. Tuto funkci použijte, pokud se zařízení zdá být zaseknuté, nebo u zařízení bez fyzického tlačítka pro reset.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12108,6 +12108,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRádiové nastavení ovlivňuje každou zprávu, kterou uzel odesílá a přijímá. Při neshodných nastaveních nedojde k žádnému provozu, dokud se síť neshodne.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Uzel si tento čas při každém restartu obnoví ze svých uložených kontaktů, takže samotný restart nepomůže.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Opravit hodiny",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Opravit hodiny uzlu?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR opraví budoucí časová razítka uložených kontaktů uzlu a poté uzel restartuje. Rádiem se nic neodesílá. Pokojové servery, které jste používali, když hodiny šly napřed, mohou vaše příspěvky odmítat, dokud se samy nerestartují.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Opravit a restartovat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Opravuji hodiny…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Načítám kontakty uzlu…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Opravuji kontakt %1$d z %2$d. Poté se uzel restartuje.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Hodiny uzlu stále jdou napřed",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Některé kontakty stále nesou čas z budoucnosti, například protože uzel během opravy zachytil nové adverty. Spusťte opravu ještě jednou.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Vzhled mapy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automaticky (jako aplikace)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Platí pro všechny mapy. Automaticky používá vzhled aplikace, Světlý a Tmavý platí jen pro mapu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Vzdálené CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Povolit vzdálené CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Tento kontakt pak může rádiem překonfigurovat tvůj uzel, včetně rádiových nastavení. Povol to jen pro vlastní zařízení.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Spouští CLI příkazy na uzlu tohoto kontaktu (firmware 1.18 nebo novější na obou stranách). Žádná odpověď znamená: chybí tam oprávnění, nebo je firmware starší.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Povolit",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Uzel se restartuje…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

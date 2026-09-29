@@ -1600,7 +1600,7 @@
     "_human": true
   },
   "mynode_reboot_dialog_body": {
-    "value": "Le nœud se déconnecte brièvement pendant son redémarrage. Utilisez ceci quand l'appareil semble bloqué ou pour du matériel sans bouton de réinitialisation physique. Sur les nœuds sans RTC à pile de secours, ceci efface aussi une horloge dérivée vers l'avant.",
+    "value": "Le nœud se déconnecte brièvement pendant son redémarrage. Utilisez ceci quand l'appareil semble bloqué ou pour du matériel sans bouton de réinitialisation physique.",
     "_human": true
   },
   "mynode_reboot_dialog_title": {
@@ -10828,6 +10828,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nLes réglages radio affectent tous les messages envoyés et reçus par le nœud. Des réglages différents signifient aucun trafic tant que le réseau ne s'accorde pas.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Le nœud reprend cette heure depuis ses contacts enregistrés à chaque redémarrage, un simple redémarrage ne suffit donc pas.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Réparer l'horloge",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Réparer l'horloge du nœud ?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR corrige les horodatages futurs des contacts enregistrés dans le nœud, puis redémarre le nœud. Rien n'est émis par radio. Les serveurs de room utilisés pendant que l'horloge était en avance peuvent refuser vos messages jusqu'à leur redémarrage.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Réparer et redémarrer",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Réparation de l'horloge…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Lecture des contacts du nœud…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Correction du contact %1$d sur %2$d. Le nœud redémarre ensuite.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "L'horloge du companion est toujours en avance",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Certains contacts portent encore une heure future, par exemple parce que le nœud a reçu de nouveaux adverts pendant la réparation. Relancez la réparation.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Apparence de la carte",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatique (comme l'application)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "S'applique à toutes les cartes. Automatique utilise l'apparence de l'application, Clair et Sombre s'appliquent uniquement à la carte.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "CLI à distance",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Autoriser la CLI à distance",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Ce contact pourra alors reconfigurer ton nœud par radio, y compris les réglages radio. N'active ceci que pour tes propres appareils.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Exécute des commandes CLI sur le nœud de ce contact (firmware 1.18 ou plus récent des deux côtés). Aucune réponse signifie : pas d'autorisation là-bas ou firmware plus ancien.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Autoriser",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Le nœud redémarre…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

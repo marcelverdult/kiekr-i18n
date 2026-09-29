@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "A csomópont az újraindulás során rövid időre lekapcsolódik. Ezt akkor érdemes használni, ha az eszköz úgy tűnik, hogy elakadt, vagy olyan hardver esetében, amelyen nincs fizikai reset gomb. Azokon a csomópontokon, amelyek nem rendelkeznek akkumulátorral táplált RTC-vel, ez a művelet egyben kijavítja az előre eltolódott órát is.",
+    "value": "A csomópont az újraindulás során rövid időre lekapcsolódik. Ezt akkor érdemes használni, ha az eszköz úgy tűnik, hogy elakadt, vagy olyan hardver esetében, amelyen nincs fizikai reset gomb.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nA rádióbeállítások minden olyan üzenetre hatással vannak, amelyet a csomópont küld és fogad. Az egymással nem összeegyeztethető beállítások esetén nem jön létre adatforgalom, amíg a hálózat nem egyezik bele.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "A csomópont minden újraindításkor a tárolt kontaktjaiból állítja vissza ezt az időt, ezért önmagában az újraindítás nem segít.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Óra javítása",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Kijavítod a csomópont óráját?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "A KiekR kijavítja a csomópont tárolt kontaktjainak jövőbeli időbélyegeit, majd újraindítja a csomópontot. Rádión semmi sem kerül kiküldésre. Azok a szobai szerverek, amelyeket akkor használtál, amikor az óra előre járt, elutasíthatják a bejegyzéseidet, amíg újra nem indulnak.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Javítás és újraindítás",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Óra javítása…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "A csomópont kontaktjainak beolvasása…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Kontakt javítása: %1$d / %2$d. A csomópont ezután újraindul.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "A csomópont órája még mindig előre jár",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Néhány kontakt még mindig jövőbeli időt hordoz, például mert a csomópont a javítás közben új hirdetéseket hallott. Futtasd le még egyszer a javítást.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Térkép megjelenése",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatikus (mint az alkalmazás)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Minden térképre vonatkozik. Az Automatikus az alkalmazás megjelenését használja, a Világos és a Sötét csak a térképre vonatkoznak.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Távoli CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Távoli CLI engedélyezése",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Ez a kapcsolat ezután rádión átkonfigurálhatja a csomópontodat, beleértve a rádióbeállításokat is. Csak a saját eszközeidhez engedélyezd.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "CLI-parancsokat futtat ennek a kapcsolatnak a csomópontján (mindkét oldalon 1.18-as vagy újabb firmware). Ha nincs válasz: ott nincs engedély, vagy régebbi a firmware.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Engedélyezés",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "A csomópont újraindul…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

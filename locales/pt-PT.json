@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "O nó fica desconectado por um breve período enquanto reinicia. Utilize esta opção quando o dispositivo parecer estar bloqueado ou no caso de hardware sem um botão de reinicialização física. Em nós sem um RTC alimentado por bateria, isto também corrige um relógio que tenha sofrido um desvio para a frente.",
+    "value": "O nó fica desconectado por um breve período enquanto reinicia. Utilize esta opção quando o dispositivo parecer estar bloqueado ou no caso de hardware sem um botão de reinicialização física.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nAs definições de rádio afetam todas as mensagens que o nó envia e recebe. Definições incompatíveis significam que não há tráfego até que a rede chegue a acordo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "O nó recupera esta hora a partir dos contactos guardados em cada reinício, pelo que um reinício por si só não resolve.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Corrigir relógio",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Corrigir o relógio do nó?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "O KiekR corrige as marcas temporais futuras dos contactos guardados no nó e depois reinicia o nó. Nada é enviado por rádio. Os servidores de sala que utilizou enquanto o relógio estava adiantado podem recusar as suas publicações até reiniciarem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Corrigir e reiniciar",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "A corrigir o relógio…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "A ler os contactos do nó…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "A corrigir o contacto %1$d de %2$d. O nó reinicia quando terminar.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "O relógio do nó continua adiantado",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Alguns contactos ainda têm uma hora futura, por exemplo porque o nó recebeu novos anúncios durante a correção. Execute a correção mais uma vez.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Aspeto do mapa",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automático (como a aplicação)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Aplica-se a todos os mapas. «Automático» usa o aspeto da aplicação, Claro e Escuro aplicam-se apenas ao mapa.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "CLI remota",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Permitir CLI remota",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Este contacto poderá então reconfigurar o teu nó por rádio, incluindo as definições de rádio. Ativa isto apenas para os teus próprios dispositivos.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Executa comandos CLI no nó deste contacto (firmware 1.18 ou mais recente de ambos os lados). Sem resposta significa: sem permissão lá ou firmware mais antigo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Permitir",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "O nó está a reiniciar…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

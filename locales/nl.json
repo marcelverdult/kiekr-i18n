@@ -1600,7 +1600,7 @@
     "_human": true
   },
   "mynode_reboot_dialog_body": {
-    "value": "De node verbreekt kort de verbinding terwijl hij herstart. Gebruik dit als het apparaat vastloopt of bij hardware zonder fysieke resetknop. Bij nodes zonder batterijgevoede RTC wist dit ook een vooruitgelopen klok.",
+    "value": "De node verbreekt kort de verbinding terwijl hij herstart. Gebruik dit als het apparaat vastloopt of bij hardware zonder fysieke resetknop.",
     "_human": true
   },
   "mynode_reboot_dialog_title": {
@@ -10827,6 +10827,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadio-instellingen beïnvloeden elk bericht dat de node verzendt en ontvangt. Niet-overeenkomende instellingen betekenen geen verkeer totdat het netwerk het eens is.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "De node haalt deze tijd bij elke herstart terug uit zijn opgeslagen contacten, dus alleen herstarten helpt niet.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Klok repareren",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Klok van de node repareren?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR corrigeert de toekomstige tijdstempels van de opgeslagen contacten van de node en herstart daarna de node. Er wordt niets via de radio verzonden. Room-servers die je gebruikte terwijl de klok voorliep, kunnen je berichten weigeren tot ze zelf herstarten.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Repareren en herstarten",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Klok wordt gerepareerd…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Contacten van de node worden gelezen…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Contact %1$d van %2$d wordt gecorrigeerd. Daarna herstart de node.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Companion-klok loopt nog steeds voor",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Sommige contacten hebben nog een tijd in de toekomst, bijvoorbeeld omdat de node tijdens de reparatie nieuwe adverts hoorde. Voer de reparatie nog een keer uit.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Kaartweergave",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatisch (zoals de app)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Geldt voor alle kaarten. Automatisch gebruikt de weergave van de app, Licht en Donker gelden alleen voor de kaart.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Externe CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Externe CLI toestaan",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Dit contact kan daarna je node via radio herconfigureren, inclusief de radio-instellingen. Schakel dit alleen in voor je eigen apparaten.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Voert CLI-opdrachten uit op de node van dit contact (firmware 1.18 of nieuwer aan beide kanten). Geen antwoord betekent: daar geen toestemming of oudere firmware.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Toestaan",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "De node wordt herstart…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

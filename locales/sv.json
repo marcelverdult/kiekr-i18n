@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Noden kopplas bort en kort stund medan den startas om. Använd detta när enheten verkar ha hängt sig eller för hårdvara utan en fysisk återställningsknapp. På noder utan batteribackup för RTC återställer detta även en klocka som har gått för långt framåt.",
+    "value": "Noden kopplas bort en kort stund medan den startas om. Använd detta när enheten verkar ha hängt sig eller för hårdvara utan en fysisk återställningsknapp.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadioinställningarna påverkar alla meddelanden som noden skickar och tar emot. Om inställningarna inte stämmer överens sker ingen trafik förrän nätverket godkänner dem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Noden hämtar den här tiden från sina sparade kontakter vid varje omstart, så en omstart räcker inte.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Reparera klockan",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Reparera nodens klocka?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR rättar de framtida tidsstämplarna i nodens sparade kontakter och startar sedan om noden. Inget skickas via radio. Rumsservrar som du använde medan klockan gick före kan avvisa dina inlägg tills de själva startas om.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Reparera och starta om",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Reparerar klockan…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Läser nodens kontakter…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Rättar kontakt %1$d av %2$d. Noden startas om när detta är klart.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Nodens klocka går fortfarande före",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Vissa kontakter har fortfarande en framtida tid, till exempel för att noden hörde nya adverts under reparationen. Kör reparationen en gång till.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Kartutseende",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatiskt (som appen)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Gäller för alla kartor. Automatiskt använder appens utseende, Ljust och Mörkt gäller bara för kartan.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Fjärr-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Tillåt fjärr-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Den här kontakten kan sedan konfigurera om din nod via radio, inklusive radioinställningarna. Aktivera detta bara för dina egna enheter.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Kör CLI-kommandon på den här kontaktens nod (firmware 1.18 eller nyare på båda sidor). Inget svar betyder: ingen behörighet där eller äldre firmware.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Tillåt",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Noden startar om…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

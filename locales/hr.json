@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Čvor se nakratko isključi dok se ponovno pokreće. Koristite ovo kada uređaj izgleda zaglavljeno ili za hardver bez fizičkog gumba za reset. Na čvorovima bez RTC-a s baterijskom podrškom ovo također poništava sat koji je otišao unaprijed.",
+    "value": "Čvor se nakratko isključi dok se ponovno pokreće. Koristite ovo kada uređaj izgleda zaglavljeno ili za hardver bez fizičkog gumba za reset.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12108,6 +12108,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadijske postavke utječu na svaku poruku koju čvor šalje i prima. Nepodudaranje postavki znači da nema prometa dok se mreža ne uskladi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Čvor pri svakom ponovnom pokretanju vraća ovo vrijeme iz svojih spremljenih kontakata, pa samo ponovno pokretanje ne pomaže.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Popravi sat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Popraviti sat čvora?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR ispravlja buduće vremenske žigove spremljenih kontakata čvora, a zatim ponovno pokreće čvor. Ništa se ne šalje radijem. Sobni poslužitelji koje ste koristili dok je sat bio unaprijed mogu odbijati vaše objave dok se sami ponovno ne pokrenu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Popravi i ponovno pokreni",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Popravljanje sata…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Čitanje kontakata čvora…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Ispravljanje kontakta %1$d od %2$d. Čvor se nakon toga ponovno pokreće.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Sat čvora i dalje je unaprijed",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Neki kontakti i dalje nose buduće vrijeme, na primjer jer je čvor tijekom popravka primio nove oglase. Pokrenite popravak još jednom.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Izgled karte",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatski (kao aplikacija)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Vrijedi za sve karte. „Automatski“ koristi izgled aplikacije, Svijetlo i Tamno vrijede samo za kartu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Udaljeni CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Dopusti udaljeni CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Ovaj kontakt tada može radiom ponovno konfigurirati tvoj čvor, uključujući radijske postavke. Omogući ovo samo za vlastite uređaje.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Izvršava CLI naredbe na čvoru ovog kontakta (firmware 1.18 ili noviji s obje strane). Nema odgovora znači: tamo nema dopuštenja ili je firmware stariji.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Dopusti",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Čvor se ponovno pokreće…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

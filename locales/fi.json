@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Solmu katkaisee yhteyden hetkeksi käynnistyessään uudelleen. Käytä tätä toimintoa, kun laite näyttää jumittuneen tai kun kyseessä on laite, jossa ei ole fyysistä nollauspainiketta. Solmuissa, joissa ei ole akkukäyttöistä RTC-kelloa, tämä toiminto nollaa myös eteenpäin siirtyneen kellon.",
+    "value": "Solmu katkaisee yhteyden hetkeksi käynnistyessään uudelleen. Käytä tätä toimintoa, kun laite näyttää jumittuneen tai kun kyseessä on laite, jossa ei ole fyysistä nollauspainiketta.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadioasetukset vaikuttavat jokaiseen viestiin, jonka solmu lähettää ja vastaanottaa. Jos asetukset eivät täsmää, liikennettä ei synny, ennen kuin verkko on yhtä mieltä.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Solmu palauttaa tämän ajan tallennetuista yhteystiedoistaan jokaisella uudelleenkäynnistyksellä, joten pelkkä uudelleenkäynnistys ei auta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Korjaa kello",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Korjataanko solmun kello?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR korjaa solmun tallennettujen yhteystietojen tulevaisuuteen osoittavat aikaleimat ja käynnistää solmun sitten uudelleen. Radion kautta ei lähetetä mitään. Huonepalvelimet, joita käytit kellon ollessa edellä, voivat hylätä viestisi, kunnes ne käynnistyvät uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Korjaa ja käynnistä uudelleen",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Kelloa korjataan…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Luetaan solmun yhteystietoja…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Korjataan yhteystietoa %1$d/%2$d. Solmu käynnistyy uudelleen, kun tämä on valmis.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Solmun kello on yhä edellä",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Joillakin yhteystiedoilla on yhä tulevaisuuden aika, esimerkiksi koska solmu kuuli korjauksen aikana uusia mainoksia. Suorita korjaus vielä kerran.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Kartan ulkoasu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automaattinen (kuten sovellus)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Koskee kaikkia karttoja. Automaattinen käyttää sovelluksen ulkoasua, Vaalea ja Tumma koskevat vain karttaa.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Etä-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Salli etä-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Tämä kontakti voi sitten määrittää solmusi uudelleen radion kautta, mukaan lukien radioasetukset. Ota tämä käyttöön vain omille laitteillesi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Suorittaa CLI-komentoja tämän kontaktin solmussa (laiteohjelmisto 1.18 tai uudempi molemmin puolin). Ei vastausta tarkoittaa: siellä ei ole lupaa tai laiteohjelmisto on vanhempi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Salli",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Solmu käynnistyy uudelleen…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

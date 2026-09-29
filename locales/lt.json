@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Mazgas trumpam atsijungia, kol paleidžiamas iš naujo. Šią funkciją naudokite, kai įrenginys atrodo užstrigęs arba jei įranga neturi fizinio iš naujo paleidimo mygtuko. Mazguose be baterija maitinamo RTC laikrodžio tai taip pat išvalo į priekį pasislinkusį laikrodį.",
+    "value": "Mazgas trumpam atsijungia, kol paleidžiamas iš naujo. Šią funkciją naudokite, kai įrenginys atrodo užstrigęs arba jei įranga neturi fizinio iš naujo paleidimo mygtuko.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12108,6 +12108,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadijo nustatymai veikia kiekvieną pranešimą, kurį mazgas siunčia ir gauna. Jei nustatymai nesutampa, duomenų srauto nebus, kol tinklas nesusitars.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Kiekvieno paleidimo iš naujo metu mazgas atkuria šį laiką iš išsaugotų kontaktų, todėl vien paleidimas iš naujo nepadeda.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Taisyti laikrodį",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Taisyti mazgo laikrodį?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR pataiso ateities laiko žymas išsaugotuose mazgo kontaktuose ir tada paleidžia mazgą iš naujo. Radiju niekas nesiunčiama. Kambario serveriai, kuriuos naudojote, kol laikrodis skubėjo, gali atmesti jūsų įrašus, kol patys nebus paleisti iš naujo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Taisyti ir paleisti iš naujo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Laikrodis taisomas…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Skaitomi mazgo kontaktai…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Taisomas kontaktas %1$d iš %2$d. Baigus mazgas bus paleistas iš naujo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Mazgo laikrodis vis dar skuba",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Kai kurie kontaktai vis dar turi ateities laiką, pavyzdžiui, nes taisymo metu mazgas gavo naujų skelbimų. Paleiskite taisymą dar kartą.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Žemėlapio išvaizda",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatinis (kaip programėlė)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Taikoma visiems žemėlapiams. „Automatinis“ naudoja programėlės išvaizdą, „Šviesus“ ir „Tamsus“ taikomi tik žemėlapiui.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Nuotolinis CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Leisti nuotolinį CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Šis kontaktas tada galės radijo ryšiu perkonfigūruoti tavo mazgą, įskaitant radijo nustatymus. Įjunk tai tik savo įrenginiams.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Vykdo CLI komandas šio kontakto mazge (abiejose pusėse 1.18 ar naujesnė programinė aparatinė įranga). Jokio atsakymo reiškia: ten nėra leidimo arba programinė aparatinė įranga senesnė.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Leisti",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Mazgas paleidžiamas iš naujo…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

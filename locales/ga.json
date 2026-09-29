@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Dícheangann an nód go hachomair agus é ag atosú. Úsáid é seo nuair a bhíonn an gléas i bhfostú nó le haghaidh crua-earraí nach bhfuil cnaipe athshainithe fisiciúil acu. Ar nóid gan RTC le cúltaca ceallra, glanann sé seo clog atá ag dul chun tosaigh freisin.",
+    "value": "Dícheangann an nód go hachomair agus é ag atosú. Úsáid é seo nuair a bhíonn an gléas i bhfostú nó le haghaidh crua-earraí nach bhfuil cnaipe athshainithe fisiciúil acu.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nBíonn tionchar ag socruithe raidió ar gach teachtaireacht a sheolann agus a fhaigheann an nód. Mura n-oireann na socruithe dá chéile, ní bheidh aon trácht ann go n-aontóidh an líonra.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Athshlánaíonn an nód an t-am seo óna theagmhálaithe stóráilte ag gach atosú, mar sin ní leor atosú amháin.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Deisigh an clog",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "An clog an nóid a dheisiú?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "Ceartaíonn KiekR stampaí ama sa todhchaí i dteagmhálaithe stóráilte an nóid agus ansin atosaíonn sé an nód. Ní sheoltar aon rud thar an raidió. D'fhéadfadh freastalaithe seomra a d'úsáid tú agus an clog chun tosaigh do phoist a dhiúltú go dtí go n-atosóidh siad.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Deisigh agus atosaigh",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Ag deisiú an chloig…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Ag léamh theagmhálaithe an nóid…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Ag ceartú teagmhálaí %1$d as %2$d. Atosóidh an nód nuair a bheidh sé seo déanta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Tá clog an nóid fós chun tosaigh",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Tá am sa todhchaí fós ag roinnt teagmhálaithe, mar shampla toisc gur chuala an nód fógraí nua le linn an deisithe. Rith an deisiú arís.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Cuma na léarscáile",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Uathoibríoch (mar an feidhmchlár)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Baineann sé le gach léarscáil. Úsáideann „Uathoibríoch“ cuma an fheidhmchláir, baineann Geal agus Dorcha leis an léarscáil amháin.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "CLI cianda",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Ceadaigh CLI cianda",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Is féidir leis an teagmhálaí seo do nód a athchumrú ansin trí raidió, lena n-áirítear na socruithe raidió. Ná cumasaigh é seo ach do do ghléasanna féin.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Ritheann sé orduithe CLI ar nód an teagmhálaí seo (firmware 1.18 nó níos nuaí ar an dá thaobh). Ciallaíonn gan freagra: níl cead ansin nó tá firmware níos sine ann.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Ceadaigh",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Tá an nód ag atosú…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

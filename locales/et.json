@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Sõlme ühendus katkeb taaskäivitamise ajaks lühikeseks ajaks. Kasutage seda, kui seade näib olevat kinni jäänud või kui tegemist on riistvaraga, millel puudub füüsiline taaskäivitusnupp. Sõlmedel, millel puudub akutoitega RTC, nullib see ka edasi nihkunud kellaaja.",
+    "value": "Sõlme ühendus katkeb taaskäivitamise ajaks lühikeseks ajaks. Kasutage seda, kui seade näib olevat kinni jäänud või kui tegemist on riistvaraga, millel puudub füüsiline taaskäivitusnupp.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12107,6 +12107,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRaadioseaded mõjutavad iga sõnumit, mida sõlm saadab ja vastu võtab. Kui seaded ei ühti, ei liigu andmed enne, kui võrk on üksmeelel.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Sõlm taastab selle aja igal taaskäivitusel oma salvestatud kontaktidest, seega ainult taaskäivitusest ei piisa.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Paranda kell",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Kas parandada sõlme kell?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR parandab sõlme salvestatud kontaktide tulevikus olevad ajatemplid ja taaskäivitab seejärel sõlme. Raadio kaudu ei saadeta midagi. Toaserverid, mida kasutasid ajal, mil kell oli ees, võivad sinu postitusi tagasi lükata, kuni need ise taaskäivituvad.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Paranda ja taaskäivita",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Kella parandamine…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Sõlme kontaktide lugemine…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Kontakti parandamine: %1$d / %2$d. Sõlm taaskäivitub, kui see on tehtud.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Sõlme kell on endiselt ees",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Mõnel kontaktil on endiselt tulevikus olev aeg, näiteks kuna sõlm kuulis parandamise ajal uusi adverte. Käivita parandus veel kord.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Kaardi välimus",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automaatne (nagu rakendus)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Kehtib kõigi kaartide kohta. „Automaatne“ kasutab rakenduse välimust, Hele ja Tume kehtivad ainult kaardi kohta.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Kaug-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Luba kaug-CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "See kontakt saab seejärel sinu sõlme raadio teel ümber seadistada, sealhulgas raadiosätteid. Luba see ainult oma seadmete jaoks.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Käivitab CLI käske selle kontakti sõlmes (püsivara 1.18 või uuem mõlemal poolel). Vastuse puudumine tähendab: seal pole luba või püsivara on vanem.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Luba",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Sõlm taaskäivitub…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

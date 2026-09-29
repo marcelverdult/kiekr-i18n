@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Vozlišče se med ponovnim zagonom za kratek čas odklopi. To uporabite, kadar se zdi, da je naprava zamrznila, ali pri strojni opremi brez fizičnega gumba za ponastavitev. Na vozliščih brez RTC-ja z baterijskim napajanjem to hkrati popravi tudi uro, ki je zaostala.",
+    "value": "Vozlišče se med ponovnim zagonom za kratek čas odklopi. To uporabite, kadar se zdi, da je naprava zamrznila, ali pri strojni opremi brez fizičnega gumba za ponastavitev.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12109,6 +12109,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadijske nastavitve vplivajo na vsako sporočilo, ki ga vozlišče pošlje ali prejme. Pri neujemajočih se nastavitvah ni prometa, dokler se omrežje ne uskladi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Vozlišče ta čas ob vsakem ponovnem zagonu obnovi iz shranjenih kontaktov, zato sam ponovni zagon ne pomaga.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Popravi uro",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Popraviti uro vozlišča?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR popravi prihodnje časovne žige shranjenih kontaktov vozlišča in nato vozlišče znova zažene. Po radiu se nič ne pošlje. Sobni strežniki, ki ste jih uporabljali, medtem ko je ura prehitevala, lahko zavračajo vaše objave, dokler se sami znova ne zaženejo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Popravi in znova zaženi",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Popravljanje ure…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Branje kontaktov vozlišča…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Popravljanje kontakta %1$d od %2$d. Nato se vozlišče znova zažene.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Ura vozlišča še vedno prehiteva",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Nekateri kontakti imajo še vedno čas iz prihodnosti, na primer ker je vozlišče med popravilom prejelo nova obvestila. Popravilo zaženite še enkrat.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Videz zemljevida",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Samodejno (kot aplikacija)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Velja za vse zemljevide. „Samodejno“ uporablja videz aplikacije, Svetlo in Temno veljata samo za zemljevid.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Oddaljeni CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Dovoli oddaljeni CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Ta stik lahko nato prek radia znova konfigurira tvoje vozlišče, vključno z radijskimi nastavitvami. Omogoči to samo za lastne naprave.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Izvaja ukaze CLI na vozlišču tega stika (na obeh straneh firmware 1.18 ali novejši). Brez odgovora pomeni: tam ni dovoljenja ali pa je firmware starejši.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Dovoli",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Vozlišče se znova zaganja…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

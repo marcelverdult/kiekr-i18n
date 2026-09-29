@@ -1910,7 +1910,7 @@
     "_seeded": "2026-05-23"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Węzeł zostanie na krótko odłączony podczas ponownego uruchamiania. Funkcji tej należy używać, gdy urządzenie wydaje się zawieszone lub w przypadku sprzętu pozbawionego fizycznego przycisku resetowania. W węzłach bez zegara RTC z podtrzymaniem bateryjnym powoduje to również skorygowanie zegara, który się przeskoczył do przodu.",
+    "value": "Węzeł zostanie na krótko odłączony podczas ponownego uruchamiania. Funkcji tej należy używać, gdy urządzenie wydaje się zawieszone lub w przypadku sprzętu pozbawionego fizycznego przycisku resetowania.",
     "_ai": true,
     "_seeded": "2026-05-23"
   },
@@ -12100,6 +12100,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nUstawienia radiowe mają wpływ na każdą wiadomość wysyłaną i odbieraną przez węzeł. Niezgodność ustawień oznacza brak ruchu, dopóki sieć nie osiągnie porozumienia.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Przy każdym ponownym uruchomieniu węzeł przywraca ten czas z zapisanych kontaktów, więc samo ponowne uruchomienie nie pomoże.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Napraw zegar",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Naprawić zegar węzła?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR poprawia przyszłe znaczniki czasu zapisanych kontaktów węzła, a następnie uruchamia węzeł ponownie. Nic nie jest wysyłane przez radio. Serwery pokojowe używane w czasie, gdy zegar się spieszył, mogą odrzucać Twoje wpisy, dopóki same nie uruchomią się ponownie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Napraw i uruchom ponownie",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Naprawianie zegara…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Odczytywanie kontaktów węzła…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Poprawianie kontaktu %1$d z %2$d. Po zakończeniu węzeł uruchomi się ponownie.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Zegar węzła nadal się spieszy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Niektóre kontakty nadal mają czas z przyszłości, na przykład dlatego, że węzeł odebrał nowe ogłoszenia podczas naprawy. Uruchom naprawę jeszcze raz.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Wygląd mapy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automatyczny (jak aplikacja)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Dotyczy wszystkich map. Automatyczny używa wyglądu aplikacji, Jasny i Ciemny dotyczą tylko mapy.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "Zdalne CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Zezwól na zdalne CLI",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Ten kontakt będzie mógł wtedy przez radio zmienić konfigurację twojego węzła, w tym ustawienia radiowe. Włączaj to tylko dla własnych urządzeń.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Wykonuje polecenia CLI na węźle tego kontaktu (firmware 1.18 lub nowszy po obu stronach). Brak odpowiedzi oznacza: brak uprawnienia tam albo starszy firmware.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Zezwól",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Węzeł uruchamia się ponownie…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }

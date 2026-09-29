@@ -1250,7 +1250,7 @@
     "_human": true
   },
   "mynode_reboot_dialog_body": {
-    "value": "Der Node trennt kurz die Verbindung, während er neu startet. Nutze dies, wenn das Gerät hängt oder bei Hardware ohne physischen Reset-Knopf. Bei Nodes ohne batteriegepufferte RTC behebt dies auch eine vorgelaufene Uhr.",
+    "value": "Der Node trennt kurz die Verbindung, während er neu startet. Nutze dies, wenn das Gerät hängt oder bei Hardware ohne physischen Reset-Knopf.",
     "_human": true
   },
   "mynode_reboot_dialog_title": {
@@ -9912,6 +9912,82 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nFunkeinstellungen betreffen jede Nachricht, die der Node sendet und empfängt. Bei abweichenden Einstellungen gibt es keinen Verkehr, bis das Netz übereinstimmt.",
+    "_human": true
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Der Node holt sich diese Zeit bei jedem Neustart aus seinen gespeicherten Kontakten zurück, ein Neustart allein hilft also nicht.",
+    "_human": true
+  },
+  "mynode_clock_repair_button": {
+    "value": "Uhr reparieren",
+    "_human": true
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Uhr des Nodes reparieren?",
+    "_human": true
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR korrigiert die Zeitstempel aus der Zukunft in den gespeicherten Kontakten des Nodes und startet ihn danach neu. Dabei wird nichts über Funk gesendet. Raum-Server, die du genutzt hast, während die Uhr vorging, lehnen deine Beiträge eventuell ab, bis sie neu starten.",
+    "_human": true
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Reparieren und neu starten",
+    "_human": true
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Uhr wird repariert…",
+    "_human": true
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Kontakte des Nodes werden gelesen…",
+    "_human": true
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Korrigiere Kontakt %1$d von %2$d. Der Node startet danach neu.",
+    "_human": true
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Companion-Uhr geht immer noch vor",
+    "_human": true
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Einige Kontakte tragen noch eine Zeit aus der Zukunft, zum Beispiel weil der Node während der Reparatur neue Adverts gehört hat. Starte die Reparatur noch einmal.",
+    "_human": true
+  },
+  "map_appearance_title": {
+    "value": "Kartendarstellung",
+    "_human": true
+  },
+  "map_appearance_auto": {
+    "value": "Automatisch (wie App)",
+    "_human": true
+  },
+  "map_appearance_footer": {
+    "value": "Gilt für alle Karten. Automatisch übernimmt die Darstellung der App, Hell und Dunkel gelten nur für die Karte.",
+    "_human": true
+  },
+  "remote_cli_section_title": {
+    "value": "Remote-CLI",
+    "_human": true
+  },
+  "remote_cli_toggle_title": {
+    "value": "Remote-CLI erlauben",
+    "_human": true
+  },
+  "remote_cli_warning": {
+    "value": "Dieser Kontakt kann dann dein Gerät per Funk umkonfigurieren, einschließlich der Funkeinstellungen. Nur für eigene Geräte aktivieren.",
+    "_human": true
+  },
+  "remote_cli_footer_hint": {
+    "value": "Führt CLI-Befehle auf dem Node dieses Kontakts aus (Firmware 1.18 oder neuer auf beiden Seiten). Keine Antwort heißt: dort keine Berechtigung oder ältere Firmware.",
+    "_human": true
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Erlauben",
+    "_human": true
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Der Node startet neu…",
     "_human": true
   }
 }

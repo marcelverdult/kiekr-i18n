@@ -1911,7 +1911,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Nodul se deconectează pentru scurt timp în timpul repornirii. Utilizați această opțiune atunci când dispozitivul pare blocat sau în cazul echipamentelor care nu dispun de un buton fizic de resetare. La nodurile fără ceas RTC alimentat de baterie, această operațiune corectează și eventuala deviere a ceasului în sensul înainte.",
+    "value": "Nodul se deconectează pentru scurt timp în timpul repornirii. Utilizați această opțiune atunci când dispozitivul pare blocat sau în cazul echipamentelor care nu dispun de un buton fizic de resetare.",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -12108,6 +12108,101 @@
   },
   "mynode_radio_apply_confirm_message": {
     "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nSetările radio afectează fiecare mesaj pe care nodul îl transmite și îl primește. În cazul unor setări incompatibile, nu se transmite niciun trafic până când rețeaua nu ajunge la un acord.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_hint": {
+    "value": "Nodul își reface această oră din contactele salvate la fiecare repornire, așa că o simplă repornire nu ajută.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_button": {
+    "value": "Repară ceasul",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_title": {
+    "value": "Repari ceasul nodului?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_body": {
+    "value": "KiekR corectează marcajele temporale din viitor ale contactelor salvate în nod și apoi repornește nodul. Nu se trimite nimic prin radio. Serverele de cameră pe care le-ai folosit cât timp ceasul era în avans pot respinge postările tale până când repornesc.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_confirm_action": {
+    "value": "Repară și repornește",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_running_title": {
+    "value": "Se repară ceasul…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_preparing": {
+    "value": "Se citesc contactele nodului…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_progress": {
+    "value": "Se corectează contactul %1$d din %2$d. Nodul repornește după aceea.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_title": {
+    "value": "Ceasul nodului este încă în avans",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_still_ahead_body": {
+    "value": "Unele contacte au încă o oră din viitor, de exemplu pentru că nodul a primit anunțuri noi în timpul reparației. Rulează reparația încă o dată.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_title": {
+    "value": "Aspectul hărții",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_auto": {
+    "value": "Automat (precum aplicația)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_appearance_footer": {
+    "value": "Se aplică tuturor hărților. „Automat” folosește aspectul aplicației, Luminos și Întunecat se aplică doar hărții.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_section_title": {
+    "value": "CLI la distanță",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_toggle_title": {
+    "value": "Permite CLI la distanță",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_warning": {
+    "value": "Acest contact îți poate apoi reconfigura nodul prin radio, inclusiv setările radio. Activează asta doar pentru propriile tale dispozitive.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_footer_hint": {
+    "value": "Rulează comenzi CLI pe nodul acestui contact (firmware 1.18 sau mai nou pe ambele părți). Niciun răspuns înseamnă: acolo nu există permisiune sau firmware-ul este mai vechi.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "remote_cli_confirm_allow": {
+    "value": "Permite",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_clock_repair_restarting": {
+    "value": "Nodul repornește…",
     "_ai": true,
     "_seeded": "2026-09-29"
   }
