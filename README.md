@@ -10,7 +10,7 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
 | English        | `en` |       100% |  2534 |         0 | kiekr-team |
-| Deutsch        | `de` |     100.0% |  2532 |         1 | kiekr-team |
+| Deutsch        | `de` |       100% |  2533 |         1 | kiekr-team |
 | Español        | `es` |       100% |  1285 |      1249 | community  |
 | Français       | `fr` |       100% |  1284 |      1250 | community  |
 | Nederlands     | `nl` |       100% |  1285 |      1249 | community  |
