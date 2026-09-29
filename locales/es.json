@@ -10389,5 +10389,445 @@
     "value": "Error de transmisión: %1$s",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "mqtt_status_queued_suffix": {
+    "value": " · %1$d en cola",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_summary_full": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_preset_summary": {
+    "value": "%1$.3f MHz · SF %2$d · BW %3$.1f · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_row_summary": {
+    "value": "%1$.3f MHz · SF%2$d · %3$.1f kHz",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_add_to_device_title": {
+    "value": "¿Añadir a este nodo?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_adopted": {
+    "value": "Adoptado del dispositivo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_summary_all": {
+    "value": "Todos los nodos",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_no_private_key": {
+    "value": "El archivo de copia de seguridad no contiene ningún campo 'private_key'",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_action": {
+    "value": "Difundir ahora",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_confirm": {
+    "value": "¿Difundir tu advert a los vecinos en alcance?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_rejected": {
+    "value": "El broker rechazó la conexión (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_unavailable": {
+    "value": "Broker no disponible (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_err_render_title": {
+    "value": "No se puede generar el QR",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_action": {
+    "value": "Cambiar",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_confirm": {
+    "value": "¿Cambiar el PIN de emparejamiento?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_coming_soon": {
+    "value": "Próximamente",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connected": {
+    "value": "Conectado a %1$s, señal %2$d dBm.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_connecting": {
+    "value": "Conectando con %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connecting": {
+    "value": "Conectando con %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_start": {
+    "value": "No se pudo iniciar la conexión: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_code": {
+    "value": "No se pudo instalar en este nodo (código %1$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_txt_msg": {
+    "value": "Mensaje directo (TXT_MSG)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_encrypted": {
+    "value": "Cifrado (.mcbackup)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_replace_warning": {
+    "value": "Los canales, contactos y regiones existentes se borrarán y se sustituirán por el contenido del paquete.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_read_failed": {
+    "value": "No se pudo leer la copia de seguridad: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_neighbours": {
+    "value": "Obteniendo vecinos…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_owner": {
+    "value": "Obteniendo propietario…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_regions": {
+    "value": "Obteniendo regiones…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_stats": {
+    "value": "Obteniendo estadísticas…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_telemetry": {
+    "value": "Obteniendo telemetría…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "traffic_route_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_action": {
+    "value": "Inundar ahora",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_confirm": {
+    "value": "¿Inundar tu advert por toda la malla?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_err_pubkey_unknown": {
+    "value": "Clave pública completa desconocida, a la espera de su advert.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_generated": {
+    "value": "Generado en esta app",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_data": {
+    "value": "Datos de grupo (GRP_DATA)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_txt": {
+    "value": "Texto de grupo (GRP_TXT)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_stale": {
+    "value": "Tiene coordenadas GPS (desactualizadas)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_recent": {
+    "value": "Tiene coordenadas GPS recientes",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_file": {
+    "value": "Importado (archivo)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_hex": {
+    "value": "Importado (hex)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_install_on_node_action": {
+    "value": "Instalar en este nodo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_jwt_build": {
+    "value": "No se pudo crear el JWT: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "help_share_logs_subject": {
+    "value": "Registros de KiekR iOS, %1$s, %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_logging_in": {
+    "value": "Iniciando sesión…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_in_range": {
+    "value": "No hay repetidores en alcance",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_no_node": {
+    "value": "Ningún nodo conectado. Toca para ver los detalles.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_telemetry_channel_node": {
+    "value": "Nodo · canal 1",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_message": {
+    "value": "Solo lo ven los nodos que oyen nuestra radio directamente. Usa la opción Flood si necesitas más alcance.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_pairing": {
+    "value": "Emparejando con %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_pairing": {
+    "value": "Emparejando con %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_admin_err_password_nul": {
+    "value": "La contraseña contiene un byte NUL en la posición %1$d.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_path_key_size": {
+    "value": "Ruta (claves de %1$d bytes)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_status_paused_cellular": {
+    "value": "En pausa: en red móvil%1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_pinging": {
+    "value": "Haciendo ping…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_port_range": {
+    "value": "El puerto debe estar entre 1 y 65535.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_toast_pubkey_copied": {
+    "value": "Clave pública copiada",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_err_read_failed": {
+    "value": "Error de lectura: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_clock": {
+    "value": "Leyendo la hora…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_firmware": {
+    "value": "Leyendo firmware…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_version": {
+    "value": "Leyendo versión…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "repeater_err_rejected_detail": {
+    "value": "Rechazado por el repetidor: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_message": {
+    "value": "Los repetidores lo reenviarán; todos los que estén en alcance de radio, directamente o mediante una cadena, verán tu clave pública y tu nombre.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "customization_reset_confirm": {
+    "value": "¿Restablecer la personalización a los valores predeterminados?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_cli_run_confirm": {
+    "value": "¿Ejecutar «%1$s»?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_running_command": {
+    "value": "Ejecutando comando…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_scanner_unavailable_title": {
+    "value": "Escáner no disponible",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_scanning": {
+    "value": "Buscando",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_scanning": {
+    "value": "Buscando nodos.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_sending_advert": {
+    "value": "Enviando advert…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_setting_name": {
+    "value": "Estableciendo el nombre…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_notice_still_syncing": {
+    "value": "Todavía sincronizando con el nodo, inténtalo de nuevo en un momento.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_stock_json": {
+    "value": "JSON estándar",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_channel_body": {
+    "value": "Los nodos con firmware de fábrica necesitan la clave del canal en una ranura del dispositivo antes de poder transmitir en él.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_contact_body": {
+    "value": "Los nodos con firmware de fábrica necesitan que el destinatario esté añadido en su tabla de ranuras de contactos antes de poder enrutar un DM.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_err_rejected_config": {
+    "value": "El nodo rechazó la configuración de radio (%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "directory_probe_not_directory": {
+    "value": "Esta URL no respondió como una API de directorio",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_favourites_full": {
+    "value": "La lista de contactos de este nodo está llena de favoritos. Quita el favorito de un contacto para hacer sitio.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_tracing_path": {
+    "value": "Rastreando ruta…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_empty_hint": {
+    "value": "Prueba a ampliar tus filtros.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ble_device_name_unknown": {
+    "value": "Desconocido",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_app_value": {
+    "value": "Usar el valor de la app",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_node_value": {
+    "value": "Usar el valor del nodo",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_section_users": {
+    "value": "Usuarios",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_err_malformed_csv": {
+    "value": "respuesta CSV de regiones mal formada: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_response_25s": {
+    "value": "sin respuesta en 25 s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_neighbour_cache_partial": {
+    "value": "parcial, toca actualizar",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_apply_confirm_message": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nLos ajustes de radio afectan a todos los mensajes que el nodo envía y recibe. Si los ajustes no coinciden, no habrá tráfico hasta que la red se ponga de acuerdo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

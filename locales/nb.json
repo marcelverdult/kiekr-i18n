@@ -11669,5 +11669,445 @@
     "value": "Overføringsfeil: %1$s",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "mqtt_status_queued_suffix": {
+    "value": " · %1$d i kø",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_summary_full": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_preset_summary": {
+    "value": "%1$.3f MHz · SF %2$d · BW %3$.1f · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_row_summary": {
+    "value": "%1$.3f MHz · SF%2$d · %3$.1f kHz",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_add_to_device_title": {
+    "value": "Legg til på denne noden?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_adopted": {
+    "value": "Hentet fra enheten",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_summary_all": {
+    "value": "Alle noder",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_no_private_key": {
+    "value": "Sikkerhetskopien inneholder ikke feltet 'private_key'",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_action": {
+    "value": "Send nå",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_confirm": {
+    "value": "Sende annonsen din til naboer innenfor rekkevidde?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_rejected": {
+    "value": "Megleren avviste tilkoblingen (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_unavailable": {
+    "value": "Megleren er utilgjengelig (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_err_render_title": {
+    "value": "Kan ikke lage QR-kode",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_action": {
+    "value": "Endre",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_confirm": {
+    "value": "Endre PIN-koden for paring?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_coming_soon": {
+    "value": "Kommer snart",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connected": {
+    "value": "Koblet til %1$s, signal %2$d dBm.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_connecting": {
+    "value": "Kobler til %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connecting": {
+    "value": "Kobler til %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_start": {
+    "value": "Kunne ikke starte tilkoblingen: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_code": {
+    "value": "Kunne ikke installere på denne noden (kode %1$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_txt_msg": {
+    "value": "Direkte melding (TXT_MSG)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_encrypted": {
+    "value": "Kryptert (.mcbackup)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_replace_warning": {
+    "value": "Eksisterende kanaler, kontakter og regioner fjernes og erstattes deretter med innholdet i pakken.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_read_failed": {
+    "value": "Kunne ikke lese sikkerhetskopien: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_neighbours": {
+    "value": "Henter naboer…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_owner": {
+    "value": "Henter eier…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_regions": {
+    "value": "Henter regioner…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_stats": {
+    "value": "Henter statistikk…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_telemetry": {
+    "value": "Henter telemetri…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "traffic_route_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_action": {
+    "value": "Flood nå",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_confirm": {
+    "value": "Sende Flood-annonsen din til hele nettverket?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_err_pubkey_unknown": {
+    "value": "Den fulle offentlige nøkkelen er ukjent, venter på annonsen.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_generated": {
+    "value": "Generert i denne appen",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_data": {
+    "value": "Gruppedata (GRP_DATA)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_txt": {
+    "value": "Gruppetekst (GRP_TXT)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_stale": {
+    "value": "Har GPS-koordinater (utdaterte)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_recent": {
+    "value": "Har aktuelle GPS-koordinater",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_file": {
+    "value": "Importert (fil)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_hex": {
+    "value": "Importert (hex)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_install_on_node_action": {
+    "value": "Installer på denne noden",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_jwt_build": {
+    "value": "JWT-opprettelse mislyktes: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "help_share_logs_subject": {
+    "value": "KiekR iOS-logger - %1$s - %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_logging_in": {
+    "value": "Logger inn…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_in_range": {
+    "value": "Ingen repeatere innenfor rekkevidde",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_no_node": {
+    "value": "Ingen node tilkoblet. Trykk for detaljer.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_telemetry_channel_node": {
+    "value": "Node · kanal 1",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_message": {
+    "value": "Bare noder som hører radioen vår direkte, ser dette. Bruk Flood-alternativet hvis du trenger større rekkevidde.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_pairing": {
+    "value": "Paring med %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_pairing": {
+    "value": "Paring med %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_admin_err_password_nul": {
+    "value": "Passordet inneholder en NUL-byte ved offset %1$d.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_path_key_size": {
+    "value": "Bane (%1$d-byte nøkler)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_status_paused_cellular": {
+    "value": "Pauset: på mobildata%1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_pinging": {
+    "value": "Pinger…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_port_range": {
+    "value": "Porten må være mellom 1 og 65535.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_toast_pubkey_copied": {
+    "value": "Offentlig nøkkel kopiert",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_err_read_failed": {
+    "value": "Lesing mislyktes: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_clock": {
+    "value": "Leser klokken…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_firmware": {
+    "value": "Leser fastvare…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_version": {
+    "value": "Leser versjon…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "repeater_err_rejected_detail": {
+    "value": "Repeateren avviste: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_message": {
+    "value": "Repeatere sender den videre; alle innenfor radiorekkevidde, direkte eller via en kjede, ser din offentlige nøkkel og navnet ditt.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "customization_reset_confirm": {
+    "value": "Tilbakestille tilpasningene til standard?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_cli_run_confirm": {
+    "value": "Kjøre «%1$s»?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_running_command": {
+    "value": "Kjører kommando…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_scanner_unavailable_title": {
+    "value": "Skanneren er utilgjengelig",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_scanning": {
+    "value": "Skanner",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_scanning": {
+    "value": "Søker etter noder.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_sending_advert": {
+    "value": "Sender annonse…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_setting_name": {
+    "value": "Setter navn…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_notice_still_syncing": {
+    "value": "Synkroniserer fortsatt med noden, prøv igjen om et øyeblikk.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_stock_json": {
+    "value": "Standard-JSON",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_channel_body": {
+    "value": "Noder med standardfirmware må ha kanalnøkkelen i et enhetsspor før de kan sende på den.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_contact_body": {
+    "value": "Noder med standardfirmware må ha mottakeren lagt til i kontaktsporttabellen før de kan sende en DM.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_err_rejected_config": {
+    "value": "Noden avviste radiokonfigurasjonen (%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "directory_probe_not_directory": {
+    "value": "Denne URL-en svarte ikke som et katalog-API",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_favourites_full": {
+    "value": "Denne nodens kontaktliste er full av favoritter. Fjern en kontakt fra favoritter for å frigjøre plass.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_tracing_path": {
+    "value": "Sporer bane…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_empty_hint": {
+    "value": "Prøv å utvide filtrene dine.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ble_device_name_unknown": {
+    "value": "Ukjent",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_app_value": {
+    "value": "Bruk app-verdi",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_node_value": {
+    "value": "Bruk nodeverdi",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_section_users": {
+    "value": "Brukere",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_err_malformed_csv": {
+    "value": "Ugyldig regions-CSV-svar: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_response_25s": {
+    "value": "ingen respons innen 25 s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_neighbour_cache_partial": {
+    "value": "delvis, trykk for å oppdatere",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_apply_confirm_message": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRadioinnstillingene påvirker alle meldinger som noden sender og mottar. Hvis innstillingene ikke stemmer overens, vil det ikke være noen trafikk før nettverket er enig.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

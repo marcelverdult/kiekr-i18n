@@ -11670,5 +11670,445 @@
     "value": "Eroare de transmisie: %1$s",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "mqtt_status_queued_suffix": {
+    "value": " · %1$d în așteptare",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_summary_full": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_preset_summary": {
+    "value": "%1$.3f MHz · SF %2$d · BW %3$.1f · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_row_summary": {
+    "value": "%1$.3f MHz · SF%2$d · %3$.1f kHz",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_add_to_device_title": {
+    "value": "Să adaugi la acest nod?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_adopted": {
+    "value": "Preluată de pe dispozitiv",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_summary_all": {
+    "value": "Toate nodurile",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_no_private_key": {
+    "value": "Fișierul backup nu conține câmpul 'private_key'",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_action": {
+    "value": "Difuzează acum",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_confirm": {
+    "value": "Să difuzezi anunțul tău către vecinii din rază de acțiune?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_rejected": {
+    "value": "Broker-ul a respins conexiunea (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_unavailable": {
+    "value": "Broker-ul nu este disponibil (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_err_render_title": {
+    "value": "Codul QR nu poate fi generat",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_action": {
+    "value": "Schimbă",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_confirm": {
+    "value": "Să schimbi codul PIN de asociere?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_coming_soon": {
+    "value": "Disponibil în curând",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connected": {
+    "value": "Conectat la %1$s, semnal %2$d dBm.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_connecting": {
+    "value": "Se conectează la %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connecting": {
+    "value": "Se conectează la %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_start": {
+    "value": "Nu s-a putut iniția conexiunea: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_code": {
+    "value": "Instalarea pe acest nod a eșuat (cod %1$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_txt_msg": {
+    "value": "Mesaj direct (TXT_MSG)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_encrypted": {
+    "value": "Criptat (.mcbackup)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_replace_warning": {
+    "value": "Canalele, contactele și regiunile existente vor fi șterse, apoi înlocuite cu conținutul pachetului.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_read_failed": {
+    "value": "Citirea backupului a eșuat: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_neighbours": {
+    "value": "Se preiau vecinii…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_owner": {
+    "value": "Se preia proprietarul…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_regions": {
+    "value": "Se preiau regiunile…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_stats": {
+    "value": "Se preiau statisticile…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_telemetry": {
+    "value": "Se preiau datele de telemetrie…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "traffic_route_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_action": {
+    "value": "Flood acum",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_confirm": {
+    "value": "Să difuzezi anunțul tău prin Flood în toată rețeaua mesh?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_err_pubkey_unknown": {
+    "value": "Cheia publică completă necunoscută, se așteaptă anunțul acesteia.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_generated": {
+    "value": "Generată în această aplicație",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_data": {
+    "value": "Date de grup (GRP_DATA)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_txt": {
+    "value": "Text de grup (GRP_TXT)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_stale": {
+    "value": "Are coordonate GPS (expirate)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_recent": {
+    "value": "Are coordonate GPS recente",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_file": {
+    "value": "Importată (fișier)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_hex": {
+    "value": "Importată (hex)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_install_on_node_action": {
+    "value": "Instalează pe acest nod",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_jwt_build": {
+    "value": "Crearea JWT a eșuat: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "help_share_logs_subject": {
+    "value": "Jurnale KiekR iOS, %1$s, %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_logging_in": {
+    "value": "Se autentifică…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_in_range": {
+    "value": "Niciun repetor în rază de acțiune",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_no_node": {
+    "value": "Niciun nod conectat. Atinge pentru detalii.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_telemetry_channel_node": {
+    "value": "Nod · canal 1",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_message": {
+    "value": "Doar nodurile care aud direct semnalul nostru radio văd acest lucru. Folosește opțiunea „flood” dacă ai nevoie de o rază mai mare.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_pairing": {
+    "value": "Se asociază cu %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_pairing": {
+    "value": "Se asociază cu %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_admin_err_password_nul": {
+    "value": "Parola conține un octet NUL la poziția %1$d.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_path_key_size": {
+    "value": "Traseu (chei de %1$d octeți)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_status_paused_cellular": {
+    "value": "În pauză: pe rețeaua mobilă%1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_pinging": {
+    "value": "Se face ping…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_port_range": {
+    "value": "Portul trebuie să fie cuprins între 1 și 65535.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_toast_pubkey_copied": {
+    "value": "Cheie publică copiată",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_err_read_failed": {
+    "value": "Citirea a eșuat: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_clock": {
+    "value": "Se citește ceasul…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_firmware": {
+    "value": "Se citește firmware-ul…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_version": {
+    "value": "Se citește versiunea…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "repeater_err_rejected_detail": {
+    "value": "Repetorul a respins: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_message": {
+    "value": "Repetoarele îl vor retransmite; toți cei aflați în raza radio (direct sau printr-un lanț) văd cheia ta publică și numele tău.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "customization_reset_confirm": {
+    "value": "Să resetezi personalizarea la valorile implicite?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_cli_run_confirm": {
+    "value": "Să rulezi „%1$s”?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_running_command": {
+    "value": "Se execută comanda…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_scanner_unavailable_title": {
+    "value": "Scanerul nu este disponibil",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_scanning": {
+    "value": "Se scanează",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_scanning": {
+    "value": "Se scanează după noduri.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_sending_advert": {
+    "value": "Se trimite anunțul…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_setting_name": {
+    "value": "Se setează numele…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_notice_still_syncing": {
+    "value": "Încă se sincronizează cu nodul, încearcă din nou peste puțin timp.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_stock_json": {
+    "value": "JSON standard",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_channel_body": {
+    "value": "Nodurile cu firmware-ul standard au nevoie ca cheia canalului să fie într-un slot al dispozitivului înainte de a putea transmite pe el.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_contact_body": {
+    "value": "Nodurile cu firmware-ul standard au nevoie ca destinatarul să fie adăugat în tabelul lor de sloturi de contacte înainte de a putea redirecționa un mesaj direct (DM).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_err_rejected_config": {
+    "value": "Nodul a respins configurația radio (%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "directory_probe_not_directory": {
+    "value": "Acest URL nu a răspuns ca un API de director",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_favourites_full": {
+    "value": "Lista de contacte a acestui nod este plină de favorite, elimină un contact de la favorite pentru a face loc.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_tracing_path": {
+    "value": "Se urmărește traseul…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_empty_hint": {
+    "value": "Încearcă să extinzi filtrele.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ble_device_name_unknown": {
+    "value": "Necunoscut",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_app_value": {
+    "value": "Utilizează valoarea aplicației",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_node_value": {
+    "value": "Utilizează valoarea nodului",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_section_users": {
+    "value": "Utilizatori",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_err_malformed_csv": {
+    "value": "răspuns CSV pentru regiuni malformat: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_response_25s": {
+    "value": "niciun răspuns în 25 s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_neighbour_cache_partial": {
+    "value": "parțial, atinge pentru reîmprospătare",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_apply_confirm_message": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nSetările radio afectează fiecare mesaj pe care nodul îl transmite și îl primește. În cazul unor setări incompatibile, nu se transmite niciun trafic până când rețeaua nu ajunge la un acord.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

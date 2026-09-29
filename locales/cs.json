@@ -11670,5 +11670,445 @@
     "value": "Chyba přenosu: %1$s",
     "_ai": true,
     "_seeded": "2026-09-29"
+  },
+  "mqtt_status_queued_suffix": {
+    "value": " · %1$d ve frontě",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_summary_full": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_preset_summary": {
+    "value": "%1$.3f MHz · SF %2$d · BW %3$.1f · CR 4/%4$d",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_row_summary": {
+    "value": "%1$.3f MHz · SF%2$d · %3$.1f kHz",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_add_to_device_title": {
+    "value": "Přidat do tohoto uzlu?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_adopted": {
+    "value": "Převzato ze zařízení",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_summary_all": {
+    "value": "Všechny uzly",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_no_private_key": {
+    "value": "Záložní soubor neobsahuje pole 'private_key'",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_action": {
+    "value": "Odeslat teď",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_confirm": {
+    "value": "Odeslat Advert sousedům v dosahu?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_rejected": {
+    "value": "Broker odmítl spojení (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_broker_unavailable": {
+    "value": "Broker není dostupný (%1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_err_render_title": {
+    "value": "QR kód nelze vytvořit",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_action": {
+    "value": "Změnit",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_pairing_pin_change_confirm": {
+    "value": "Změnit párovací PIN?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_coming_soon": {
+    "value": "Již brzy",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connected": {
+    "value": "Připojeno k %1$s, signál %2$d dBm.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_connecting": {
+    "value": "Připojování k %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_connecting": {
+    "value": "Připojování k %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_start": {
+    "value": "Připojení se nepodařilo spustit: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_code": {
+    "value": "Instalace na tento uzel se nezdařila (kód %1$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_txt_msg": {
+    "value": "Přímá zpráva (TXT_MSG)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_encrypted": {
+    "value": "Šifrováno (.mcbackup)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_replace_warning": {
+    "value": "Stávající kanály, kontakty a regiony budou vymazány a nahrazeny obsahem balíčku.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_import_read_failed": {
+    "value": "Zálohu se nepodařilo přečíst: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_neighbours": {
+    "value": "Načítání sousedů…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_owner": {
+    "value": "Načítání vlastníka…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_regions": {
+    "value": "Načítání regionů…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_stats": {
+    "value": "Načítání statistik…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_fetching_telemetry": {
+    "value": "Načítání telemetrie…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "traffic_route_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_action": {
+    "value": "Zaplavit teď",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_confirm": {
+    "value": "Zaplavit Advert po celé síti?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_err_pubkey_unknown": {
+    "value": "Úplný veřejný klíč není znám, čeká se na jeho Advert.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_generated": {
+    "value": "Vygenerováno v této aplikaci",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_data": {
+    "value": "Skupinová data (GRP_DATA)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_payload_label_grp_txt": {
+    "value": "Skupinový text (GRP_TXT)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_stale": {
+    "value": "Má souřadnice GPS (zastaralé)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_a11y_gps_recent": {
+    "value": "Má aktuální souřadnice GPS",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_file": {
+    "value": "Importováno (soubor)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_identity_source_imported_hex": {
+    "value": "Importováno (hex)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_install_on_node_action": {
+    "value": "Instalovat na tento uzel",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_err_jwt_build": {
+    "value": "Sestavení JWT selhalo: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "help_share_logs_subject": {
+    "value": "KiekR iOS logy, %1$s, %2$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_logging_in": {
+    "value": "Přihlašování…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_in_range": {
+    "value": "Žádné opakovače v dosahu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_no_node": {
+    "value": "Není připojen žádný uzel. Klepnutím zobrazíte podrobnosti.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_telemetry_channel_node": {
+    "value": "Uzel · kanál 1",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_zero_hop_message": {
+    "value": "Toto vidí pouze uzly, které náš signál zachytí přímo. Pokud potřebujete větší dosah, použijte možnost Flood.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_pairing": {
+    "value": "Párování s %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_pairing": {
+    "value": "Párování s %1$s.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_admin_err_password_nul": {
+    "value": "Heslo obsahuje bajt NUL na pozici %1$d.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_detail_path_key_size": {
+    "value": "Cesta (%1$d-bajtové klíče)",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mqtt_status_paused_cellular": {
+    "value": "Pozastaveno: přes mobilní síť%1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_pinging": {
+    "value": "Pingování…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_wifi_err_port_range": {
+    "value": "Port musí být v rozsahu 1 až 65535.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_toast_pubkey_copied": {
+    "value": "Veřejný klíč zkopírován",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_err_read_failed": {
+    "value": "Čtení selhalo: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_clock": {
+    "value": "Čtení hodin…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_firmware": {
+    "value": "Čtení firmwaru…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_reading_version": {
+    "value": "Čtení verze…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "repeater_err_rejected_detail": {
+    "value": "Opakovač odmítl: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_advert_flood_message": {
+    "value": "Opakovače to přeposílají dál; každý v dosahu rádia, přímo nebo přes řetězec, uvidí váš veřejný klíč a jméno.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "customization_reset_confirm": {
+    "value": "Obnovit přizpůsobení na výchozí hodnoty?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_cli_run_confirm": {
+    "value": "Spustit „%1$s“?",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_running_command": {
+    "value": "Spouštění příkazu…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "qr_scanner_unavailable_title": {
+    "value": "Skener není k dispozici",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_status_scanning": {
+    "value": "Skenování",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "conn_a11y_scanning": {
+    "value": "Vyhledávání uzlů.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_sending_advert": {
+    "value": "Odesílání Advertu…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_setting_name": {
+    "value": "Nastavování jména…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_notice_still_syncing": {
+    "value": "Stále probíhá synchronizace s uzlem, zkuste to za chvíli znovu.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "backup_format_stock_json": {
+    "value": "Standardní JSON",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_channel_body": {
+    "value": "Uzly se standardním firmwarem potřebují mít klíč kanálu ve slotu zařízení, než na něm mohou vysílat.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "chat_not_installed_contact_body": {
+    "value": "Uzly se standardním firmwarem potřebují mít příjemce přidaného v tabulce kontaktů, než mohou odeslat DM.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_err_rejected_config": {
+    "value": "Uzel odmítl konfiguraci rádia (%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d).",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "directory_probe_not_directory": {
+    "value": "Tato URL neodpověděla jako API adresáře",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_install_err_favourites_full": {
+    "value": "Seznam kontaktů tohoto uzlu je plný oblíbených, odeberte některý kontakt z oblíbených, abyste uvolnili místo.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_op_tracing_path": {
+    "value": "Sledování cesty…",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_filter_empty_hint": {
+    "value": "Zkuste rozšířit filtry.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "ble_device_name_unknown": {
+    "value": "Neznámé",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_app_value": {
+    "value": "Použít hodnotu z aplikace",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "app_reconcile_use_node_value": {
+    "value": "Použít hodnotu z uzlu",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "nodes_section_users": {
+    "value": "Uživatelé",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_err_malformed_csv": {
+    "value": "neplatná odpověď CSV s regiony: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "regions_lookup_no_response_25s": {
+    "value": "žádná odpověď do 25 s",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "map_neighbour_cache_partial": {
+    "value": "částečné, klepnutím obnovíte",
+    "_ai": true,
+    "_seeded": "2026-09-29"
+  },
+  "mynode_radio_apply_confirm_message": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nRádiové nastavení ovlivňuje každou zprávu, kterou uzel odesílá a přijímá. Při neshodných nastaveních nedojde k žádnému provozu, dokud se síť neshodne.",
+    "_ai": true,
+    "_seeded": "2026-09-29"
   }
 }

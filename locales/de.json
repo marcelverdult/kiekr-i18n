@@ -9561,5 +9561,357 @@
   "nodes_manage_regions_snackbar_transport_error": {
     "value": "Übertragungsfehler: %1$s",
     "_human": true
+  },
+  "mqtt_status_queued_suffix": {
+    "value": " · %1$d in Warteschlange",
+    "_human": true
+  },
+  "mynode_radio_summary_full": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d",
+    "_human": true
+  },
+  "mynode_radio_preset_summary": {
+    "value": "%1$.3f MHz · SF %2$d · BW %3$.1f · CR 4/%4$d",
+    "_human": true
+  },
+  "mynode_radio_row_summary": {
+    "value": "%1$.3f MHz · SF%2$d · %3$.1f kHz",
+    "_human": true
+  },
+  "nodes_add_to_device_title": {
+    "value": "Zu diesem Node hinzufügen?",
+    "_human": true
+  },
+  "mynode_identity_source_adopted": {
+    "value": "Vom Gerät übernommen",
+    "_human": true
+  },
+  "nodes_filter_summary_all": {
+    "value": "Alle Nodes",
+    "_human": true
+  },
+  "mynode_identity_import_no_private_key": {
+    "value": "Die Backup-Datei enthält kein Feld 'private_key'",
+    "_human": true
+  },
+  "mynode_advert_zero_hop_action": {
+    "value": "Jetzt senden",
+    "_human": true
+  },
+  "mynode_advert_zero_hop_confirm": {
+    "value": "Dein Advert an Nachbarn in Reichweite senden?",
+    "_human": true
+  },
+  "mqtt_err_broker_rejected": {
+    "value": "Broker hat die Verbindung abgelehnt (%1$s)",
+    "_human": true
+  },
+  "mqtt_err_broker_unavailable": {
+    "value": "Broker nicht verfügbar (%1$s)",
+    "_human": true
+  },
+  "qr_err_render_title": {
+    "value": "QR-Code kann nicht erzeugt werden",
+    "_human": true
+  },
+  "mynode_pairing_pin_change_action": {
+    "value": "Ändern",
+    "_human": true
+  },
+  "mynode_pairing_pin_change_confirm": {
+    "value": "Kopplungs-PIN ändern?",
+    "_human": true
+  },
+  "app_coming_soon": {
+    "value": "Demnächst verfügbar",
+    "_human": true
+  },
+  "conn_a11y_connected": {
+    "value": "Verbunden mit %1$s, Signal %2$d dBm.",
+    "_human": true
+  },
+  "conn_status_connecting": {
+    "value": "Verbinde mit %1$s",
+    "_human": true
+  },
+  "conn_a11y_connecting": {
+    "value": "Verbinde mit %1$s.",
+    "_human": true
+  },
+  "mynode_wifi_err_start": {
+    "value": "Verbindung konnte nicht gestartet werden: %1$s",
+    "_human": true
+  },
+  "nodes_install_err_code": {
+    "value": "Installation auf diesem Node fehlgeschlagen (Code %1$d).",
+    "_human": true
+  },
+  "chat_detail_payload_label_txt_msg": {
+    "value": "Direktnachricht (TXT_MSG)",
+    "_human": true
+  },
+  "backup_format_encrypted": {
+    "value": "Verschlüsselt (.mcbackup)",
+    "_human": true
+  },
+  "backup_replace_warning": {
+    "value": "Vorhandene Kanäle, Kontakte und Regionen werden gelöscht und durch den Inhalt des Bundles ersetzt.",
+    "_human": true
+  },
+  "mynode_identity_import_read_failed": {
+    "value": "Backup konnte nicht gelesen werden: %1$s",
+    "_human": true
+  },
+  "nodes_op_fetching_neighbours": {
+    "value": "Rufe Nachbarn ab…",
+    "_human": true
+  },
+  "nodes_op_fetching_owner": {
+    "value": "Rufe Besitzer ab…",
+    "_human": true
+  },
+  "nodes_op_fetching_regions": {
+    "value": "Rufe Regionen ab…",
+    "_human": true
+  },
+  "nodes_op_fetching_stats": {
+    "value": "Rufe Statistiken ab…",
+    "_human": true
+  },
+  "nodes_op_fetching_telemetry": {
+    "value": "Rufe Telemetrie ab…",
+    "_human": true
+  },
+  "traffic_route_flood": {
+    "value": "Flood",
+    "_human": true
+  },
+  "mynode_advert_flood_action": {
+    "value": "Jetzt fluten",
+    "_human": true
+  },
+  "mynode_advert_flood_confirm": {
+    "value": "Dein Advert über das gesamte Mesh fluten?",
+    "_human": true
+  },
+  "regions_lookup_err_pubkey_unknown": {
+    "value": "Vollständiger Public Key unbekannt, warte auf sein Advert.",
+    "_human": true
+  },
+  "mynode_identity_source_generated": {
+    "value": "In dieser App erzeugt",
+    "_human": true
+  },
+  "chat_detail_payload_label_grp_data": {
+    "value": "Gruppendaten (GRP_DATA)",
+    "_human": true
+  },
+  "chat_detail_payload_label_grp_txt": {
+    "value": "Gruppentext (GRP_TXT)",
+    "_human": true
+  },
+  "nodes_a11y_gps_stale": {
+    "value": "Hat GPS-Koordinaten (veraltet)",
+    "_human": true
+  },
+  "nodes_a11y_gps_recent": {
+    "value": "Hat aktuelle GPS-Koordinaten",
+    "_human": true
+  },
+  "mynode_identity_source_imported_file": {
+    "value": "Importiert (Datei)",
+    "_human": true
+  },
+  "mynode_identity_source_imported_hex": {
+    "value": "Importiert (Hex)",
+    "_human": true
+  },
+  "chat_install_on_node_action": {
+    "value": "Auf diesem Node installieren",
+    "_human": true
+  },
+  "mqtt_err_jwt_build": {
+    "value": "JWT konnte nicht erstellt werden: %1$s",
+    "_human": true
+  },
+  "help_share_logs_subject": {
+    "value": "KiekR iOS-Logs, %1$s, %2$s",
+    "_human": true
+  },
+  "nodes_op_logging_in": {
+    "value": "Melde an…",
+    "_human": true
+  },
+  "regions_lookup_no_in_range": {
+    "value": "Keine Repeater in Reichweite",
+    "_human": true
+  },
+  "conn_a11y_no_node": {
+    "value": "Kein Node verbunden. Tippe für Details.",
+    "_human": true
+  },
+  "mynode_telemetry_channel_node": {
+    "value": "Node · Kanal 1",
+    "_human": true
+  },
+  "mynode_advert_zero_hop_message": {
+    "value": "Das sehen nur Nodes, die unser Funksignal direkt empfangen. Nutze die Flood-Option, wenn du mehr Reichweite brauchst.",
+    "_human": true
+  },
+  "conn_status_pairing": {
+    "value": "Kopple mit %1$s",
+    "_human": true
+  },
+  "conn_a11y_pairing": {
+    "value": "Kopple mit %1$s.",
+    "_human": true
+  },
+  "nodes_admin_err_password_nul": {
+    "value": "Das Passwort enthält ein NUL-Byte an Position %1$d.",
+    "_human": true
+  },
+  "chat_detail_path_key_size": {
+    "value": "Pfad (%1$d-Byte-Schlüssel)",
+    "_human": true
+  },
+  "mqtt_status_paused_cellular": {
+    "value": "Pausiert: im Mobilfunknetz%1$s",
+    "_human": true
+  },
+  "nodes_op_pinging": {
+    "value": "Pinge…",
+    "_human": true
+  },
+  "mynode_wifi_err_port_range": {
+    "value": "Der Port muss zwischen 1 und 65535 liegen.",
+    "_human": true
+  },
+  "nodes_toast_pubkey_copied": {
+    "value": "Public Key kopiert",
+    "_human": true
+  },
+  "backup_err_read_failed": {
+    "value": "Lesen fehlgeschlagen: %1$s",
+    "_human": true
+  },
+  "nodes_op_reading_clock": {
+    "value": "Lese Uhrzeit…",
+    "_human": true
+  },
+  "nodes_op_reading_firmware": {
+    "value": "Lese Firmware…",
+    "_human": true
+  },
+  "nodes_op_reading_version": {
+    "value": "Lese Version…",
+    "_human": true
+  },
+  "repeater_err_rejected_detail": {
+    "value": "Vom Repeater abgelehnt: %1$s",
+    "_human": true
+  },
+  "mynode_advert_flood_message": {
+    "value": "Repeater senden es weiter. Alle in Funkreichweite, direkt oder über eine Kette, sehen deinen Public Key und Namen.",
+    "_human": true
+  },
+  "customization_reset_confirm": {
+    "value": "Anpassungen auf Standard zurücksetzen?",
+    "_human": true
+  },
+  "nodes_cli_run_confirm": {
+    "value": "„%1$s“ ausführen?",
+    "_human": true
+  },
+  "nodes_op_running_command": {
+    "value": "Führe Befehl aus…",
+    "_human": true
+  },
+  "qr_scanner_unavailable_title": {
+    "value": "Scanner nicht verfügbar",
+    "_human": true
+  },
+  "conn_status_scanning": {
+    "value": "Suche",
+    "_human": true
+  },
+  "conn_a11y_scanning": {
+    "value": "Suche nach Nodes.",
+    "_human": true
+  },
+  "nodes_op_sending_advert": {
+    "value": "Sende Advert…",
+    "_human": true
+  },
+  "nodes_op_setting_name": {
+    "value": "Setze Namen…",
+    "_human": true
+  },
+  "app_notice_still_syncing": {
+    "value": "Synchronisiere noch mit dem Node, versuche es gleich noch einmal.",
+    "_human": true
+  },
+  "backup_format_stock_json": {
+    "value": "Stock-JSON",
+    "_human": true
+  },
+  "chat_not_installed_channel_body": {
+    "value": "Nodes mit Stock-Firmware brauchen den Kanalschlüssel in einem Geräteslot, bevor sie darauf senden können.",
+    "_human": true
+  },
+  "chat_not_installed_contact_body": {
+    "value": "Nodes mit Stock-Firmware brauchen den Empfänger in ihrer Kontakt-Slot-Tabelle, bevor sie eine DM zustellen können.",
+    "_human": true
+  },
+  "mynode_radio_err_rejected_config": {
+    "value": "Der Node hat die Funkkonfiguration abgelehnt (%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d).",
+    "_human": true
+  },
+  "directory_probe_not_directory": {
+    "value": "Diese URL hat nicht als Verzeichnis-API geantwortet",
+    "_human": true
+  },
+  "nodes_install_err_favourites_full": {
+    "value": "Die Kontaktliste dieses Nodes ist voller Favoriten. Entferne einen Favoriten, um Platz zu schaffen.",
+    "_human": true
+  },
+  "nodes_op_tracing_path": {
+    "value": "Verfolge Pfad…",
+    "_human": true
+  },
+  "nodes_filter_empty_hint": {
+    "value": "Versuche, deine Filter zu lockern.",
+    "_human": true
+  },
+  "ble_device_name_unknown": {
+    "value": "Unbekannt",
+    "_human": true
+  },
+  "app_reconcile_use_app_value": {
+    "value": "App-Wert verwenden",
+    "_human": true
+  },
+  "app_reconcile_use_node_value": {
+    "value": "Node-Wert verwenden",
+    "_human": true
+  },
+  "nodes_section_users": {
+    "value": "Nutzer",
+    "_human": true
+  },
+  "regions_err_malformed_csv": {
+    "value": "Fehlerhafte Regions-CSV-Antwort: %1$s",
+    "_human": true
+  },
+  "regions_lookup_no_response_25s": {
+    "value": "keine Antwort innerhalb von 25 s",
+    "_human": true
+  },
+  "map_neighbour_cache_partial": {
+    "value": "unvollständig, zum Aktualisieren tippen",
+    "_human": true
+  },
+  "mynode_radio_apply_confirm_message": {
+    "value": "%1$.3f MHz · BW %2$.1f kHz · SF %3$d · CR 4/%4$d\n\nFunkeinstellungen betreffen jede Nachricht, die der Node sendet und empfängt. Bei abweichenden Einstellungen gibt es keinen Verkehr, bis das Netz übereinstimmt.",
+    "_human": true
   }
 }
