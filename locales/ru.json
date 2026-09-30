@@ -12956,5 +12956,150 @@
     "value": "Удалить всех соседей",
     "_ai": true,
     "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_title": {
+    "value": "Запретить Flood для wildcard (*)?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_body": {
+    "value": "Этот ретранслятор будет отклонять все Flood-пакеты без региона. Пакеты с регионом не затрагиваются.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Пароль комнаты",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Опубликовать от имени сервера",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Сообщение",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Опубликовано",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Гости могут читать",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Любой может присоединиться без пароля и читать, но не может писать.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Участники входят с этим паролем и могут публиковать сообщения. Оставьте пустым, чтобы отключить.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Пароль сохранён.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Добавить обратный путь",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Обратный путь превысил бы максимальную длину пути.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_sensor": {
+    "value": "Подключите свой узел, чтобы управлять этим датчиком",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_room": {
+    "value": "Подключите свой узел, чтобы управлять этим сервером комнаты",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_contact": {
+    "value": "Подключите свой узел, чтобы связаться с этим контактом",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_sensor": {
+    "value": "Ожидание ответа датчика",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_room": {
+    "value": "Ожидание ответа сервера комнаты",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_contact": {
+    "value": "Ожидание ответа",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_dialect_mismatch": {
+    "value": "Эта функция пока не поддерживается на данном датчике.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_contact_missing": {
+    "value": "Контакт датчика не найден.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_not_on_device": {
+    "value": "На вашем узле этот датчик ещё не сохранён. Нажмите ещё раз, чтобы добавить его.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_not_on_device": {
+    "value": "Этот контакт ещё не сохранён на вашем узле. Нажмите ещё раз, чтобы добавить его.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_send_failed": {
+    "value": "Вашему узлу не удалось отправить запрос. Пожалуйста, попробуйте ещё раз.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channels_region_device_default": {
+    "value": "по умолчанию: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channel_detail_region_device_default": {
+    "value": "Нет (по умолчанию: %1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_fill_from_learned_path": {
+    "value": "Заполнить из заученного пути",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_none": {
+    "value": "Для этого контакта нет заученного пути.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_direct": {
+    "value": "Этот контакт достижим напрямую, без ретрансляторов.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_unresolved": {
+    "value": "%1$d из %2$d ретрансляторов в заученном пути неизвестны или неоднозначны.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
   }
 }

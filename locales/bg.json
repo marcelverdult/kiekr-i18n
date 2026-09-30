@@ -12954,5 +12954,150 @@
     "value": "Премахване на всички съседи",
     "_ai": true,
     "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_title": {
+    "value": "Да се забрани ли Flood за wildcard (*)?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_body": {
+    "value": "Този ретранслатор ще отхвърля занапред всеки Flood пакет без регион. Пакетите с регион не се засягат.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Парола на стаята",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Публикувай като сървър",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Съобщение",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Публикувано",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Гостите могат да четат",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Всеки може да се присъедини без парола и да чете, но не и да публикува.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Членовете влизат с тази парола и могат да публикуват. Оставете празно, за да я изключите.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Паролата е запазена.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Добавяне на обратен път",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Обратният път ще надвиши максималната дължина на пътя.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_sensor": {
+    "value": "Свържете възела си, за да управлявате този сензор",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_room": {
+    "value": "Свържете възела си, за да управлявате този сървър за стая",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_contact": {
+    "value": "Свържете възела си, за да достигнете до този контакт",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_sensor": {
+    "value": "Изчакване на отговор от сензора",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_room": {
+    "value": "Изчакване на отговор от сървъра за стая",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_contact": {
+    "value": "Изчакване на отговор",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_dialect_mismatch": {
+    "value": "Тази функция все още не се поддържа от този сензор.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_contact_missing": {
+    "value": "Контактът на сензора не беше намерен.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_not_on_device": {
+    "value": "Възелът ви все още няма запазен този сензор. Докоснете отново, за да го добавите.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_not_on_device": {
+    "value": "Този контакт все още не е запазен на възела ви. Докоснете отново, за да го добавите.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_send_failed": {
+    "value": "Възелът ви не успя да изпрати заявката. Моля, опитайте отново.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channels_region_device_default": {
+    "value": "по подразбиране: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channel_detail_region_device_default": {
+    "value": "Няма (по подразбиране: %1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_fill_from_learned_path": {
+    "value": "Попълване от заучения път",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_none": {
+    "value": "За този контакт няма заучен път.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_direct": {
+    "value": "Този контакт се достига директно, без ретранслатори.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_unresolved": {
+    "value": "%1$d от %2$d ретранслатора в заучения път са неизвестни или нееднозначни.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
   }
 }

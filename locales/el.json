@@ -12954,5 +12954,150 @@
     "value": "Κατάργηση όλων των γειτόνων",
     "_ai": true,
     "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_title": {
+    "value": "Να απαγορευτεί το Flood για το wildcard (*);",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_body": {
+    "value": "Αυτός ο αναμεταδότης θα απορρίπτει στη συνέχεια κάθε πακέτο Flood χωρίς περιοχή. Τα πακέτα με περιοχή δεν επηρεάζονται.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Κωδικός δωματίου",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Δημοσίευση ως διακομιστής",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Μήνυμα",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Δημοσιεύτηκε",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Οι επισκέπτες μπορούν να διαβάζουν",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Οποιοσδήποτε μπορεί να συμμετάσχει χωρίς κωδικό και να διαβάσει, αλλά όχι να δημοσιεύσει.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Τα μέλη συνδέονται με αυτόν τον κωδικό και μπορούν να δημοσιεύουν. Αφήστε κενό για απενεργοποίηση.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Ο κωδικός αποθηκεύτηκε.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Προσθήκη διαδρομής επιστροφής",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Η διαδρομή επιστροφής θα υπερέβαινε το μέγιστο μήκος διαδρομής.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_sensor": {
+    "value": "Συνδέστε τον κόμβο σας για να διαχειριστείτε αυτόν τον αισθητήρα",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_room": {
+    "value": "Συνδέστε τον κόμβο σας για να διαχειριστείτε αυτόν τον διακομιστή δωματίου",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_contact": {
+    "value": "Συνδέστε τον κόμβο σας για να επικοινωνήσετε με αυτήν την επαφή",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_sensor": {
+    "value": "Αναμονή απάντησης από τον αισθητήρα",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_room": {
+    "value": "Αναμονή απάντησης από τον διακομιστή δωματίου",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_contact": {
+    "value": "Αναμονή απάντησης",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_dialect_mismatch": {
+    "value": "Αυτή η λειτουργία δεν υποστηρίζεται ακόμα σε αυτόν τον αισθητήρα.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_contact_missing": {
+    "value": "Δεν εντοπίστηκε η επαφή του αισθητήρα.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_not_on_device": {
+    "value": "Ο κόμβος σας δεν έχει αποθηκεύσει ακόμα αυτόν τον αισθητήρα. Πατήστε ξανά για να τον προσθέσετε.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_not_on_device": {
+    "value": "Αυτή η επαφή δεν έχει αποθηκευτεί ακόμα στον κόμβο σας. Πατήστε ξανά για να την προσθέσετε.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_send_failed": {
+    "value": "Ο κόμβος σας δεν μπόρεσε να στείλει το αίτημα. Παρακαλώ δοκιμάστε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channels_region_device_default": {
+    "value": "προεπιλογή: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channel_detail_region_device_default": {
+    "value": "Κανένα (προεπιλογή: %1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_fill_from_learned_path": {
+    "value": "Συμπλήρωση από τη μαθημένη διαδρομή",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_none": {
+    "value": "Δεν υπάρχει μαθημένη διαδρομή για αυτήν την επαφή.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_direct": {
+    "value": "Αυτή η επαφή προσεγγίζεται απευθείας, χωρίς αναμεταδότες.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_unresolved": {
+    "value": "%1$d από %2$d αναμεταδότες στη μαθημένη διαδρομή είναι άγνωστοι ή διφορούμενοι.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
   }
 }

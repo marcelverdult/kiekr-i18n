@@ -12947,5 +12947,150 @@
     "value": "Usuń wszystkich sąsiadów",
     "_ai": true,
     "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_title": {
+    "value": "Odrzucić flood dla wildcard (*)?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_body": {
+    "value": "Ten przekaźnik będzie wtedy odrzucał każdy pakiet flood bez regionu. Pakiety z regionem nie są tym dotknięte.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_sensor": {
+    "value": "Podłącz swój węzeł, aby zarządzać tym czujnikiem",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_room": {
+    "value": "Podłącz swój węzeł, aby zarządzać tym serwerem pokojowym",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_contact": {
+    "value": "Podłącz swój węzeł, aby dotrzeć do tego kontaktu",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_sensor": {
+    "value": "Oczekiwanie na odpowiedź czujnika",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_room": {
+    "value": "Oczekiwanie na odpowiedź serwera pokojowego",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_contact": {
+    "value": "Oczekiwanie na odpowiedź",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_dialect_mismatch": {
+    "value": "Ta funkcja nie jest jeszcze obsługiwana przez ten czujnik.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_contact_missing": {
+    "value": "Nie znaleziono kontaktu czujnika.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_not_on_device": {
+    "value": "Twój węzeł nie ma jeszcze zapisanego tego czujnika. Dotknij ponownie, aby go dodać.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_not_on_device": {
+    "value": "Ten kontakt nie jest jeszcze zapisany na twoim węźle. Dotknij ponownie, aby go dodać.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_send_failed": {
+    "value": "Twój węzeł nie mógł wysłać żądania. Spróbuj ponownie.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Hasło pokoju",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Publikuj jako serwer",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Wiadomość",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Opublikowano",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Goście mogą czytać",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Każdy może dołączyć bez hasła i czytać, ale nie może publikować.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Członkowie logują się tym hasłem i mogą publikować. Pozostaw puste, aby je wyłączyć.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Hasło zapisane.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Dodaj ścieżkę powrotną",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Ścieżka powrotna przekroczyłaby maksymalną długość ścieżki.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channels_region_device_default": {
+    "value": "domyślnie: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channel_detail_region_device_default": {
+    "value": "Brak (domyślnie: %1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_fill_from_learned_path": {
+    "value": "Wypełnij z wyuczonej ścieżki",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_none": {
+    "value": "Brak wyuczonej ścieżki dla tego kontaktu.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_direct": {
+    "value": "Ten kontakt jest osiągany bezpośrednio, bez przekaźników.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_unresolved": {
+    "value": "%1$d z %2$d przekaźników na wyuczonej ścieżce jest nieznanych lub niejednoznacznych.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
   }
 }

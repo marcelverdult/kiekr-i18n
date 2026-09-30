@@ -12954,5 +12954,150 @@
     "value": "Az összes szomszéd eltávolítása",
     "_ai": true,
     "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_title": {
+    "value": "Letiltja a Floodot a wildcard (*) régiónál?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_manage_regions_deny_wildcard_body": {
+    "value": "Ez a repeater ezután eldob minden olyan Flood-csomagot, amelyhez nem tartozik régió. A régióval rendelkező csomagokat ez nem érinti.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Szoba jelszava",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Közzététel szerverként",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Üzenet",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Közzétéve",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "A vendégek olvashatnak",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Bárki csatlakozhat jelszó nélkül és olvashat, de nem posztolhat.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "A tagok ezzel a jelszóval jelentkeznek be, és posztolhatnak. Hagyja üresen a kikapcsoláshoz.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Jelszó mentve.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Visszaút hozzáadása",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "A visszaút túllépné az útvonal maximális hosszát.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_sensor": {
+    "value": "Csatlakoztasd a node-odat, hogy kezelhesd ezt az érzékelőt",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_room": {
+    "value": "Csatlakoztasd a node-odat, hogy kezelhesd ezt a szobai szervert",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_not_connected_contact": {
+    "value": "Csatlakoztasd a node-odat, hogy elérd ezt a kapcsolatot",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_sensor": {
+    "value": "Várakozás az érzékelő válaszára",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_room": {
+    "value": "Várakozás a szobai szerver válaszára",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_banner_waiting_contact": {
+    "value": "Várakozás válaszra",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_dialect_mismatch": {
+    "value": "Ez a művelet ezen az érzékelőn egyelőre nem támogatott.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_contact_missing": {
+    "value": "Az érzékelő kapcsolata nem található.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_error_not_on_device": {
+    "value": "A node-od még nem tárolja ezt az érzékelőt. Koppints újra a hozzáadásához.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_not_on_device": {
+    "value": "Ez a kapcsolat még nincs eltárolva a node-odon. Koppints újra a hozzáadásához.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "nodes_admin_error_send_failed": {
+    "value": "A node-od nem tudta elküldeni a kérést. Kérjük, próbáld újra.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channels_region_device_default": {
+    "value": "alapértelmezett: %1$s",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "channel_detail_region_device_default": {
+    "value": "Nincs (alapértelmezett: %1$s)",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_fill_from_learned_path": {
+    "value": "Kitöltés a megtanult útból",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_none": {
+    "value": "Ehhez a kapcsolathoz nincs megtanult út.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_direct": {
+    "value": "Ez a kapcsolat közvetlenül elérhető, átjátszók nélkül.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_learned_path_unresolved": {
+    "value": "A megtanult útban lévő %2$d átjátszóból %1$d ismeretlen vagy nem egyértelmű.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
   }
 }

@@ -690,7 +690,7 @@
     "_human": true
   },
   "map_empty_hint_no_type_gps": {
-    "value": "Noch %1$s dieses Typs werben mit GPS-Koordinaten.",
+    "value": "Noch keine %1$s dieses Typs senden GPS-Koordinaten im Advert.",
     "_human": true
   },
   "map_empty_no_nodes": {
@@ -1858,7 +1858,7 @@
     "_human": true
   },
   "nodes_detail_advertised_prefix": {
-    "value": "beworben: %1$s",
+    "value": "im Advert: %1$s",
     "_human": true
   },
   "nodes_detail_age_days_ago": {
@@ -2070,11 +2070,11 @@
     "_human": true
   },
   "nodes_detail_rename_advertised": {
-    "value": "Beworben: %1$s",
+    "value": "Im Advert: %1$s",
     "_human": true
   },
   "nodes_detail_rename_empty_hint": {
-    "value": "Leer lassen, um den announcten Namen zu verwenden.",
+    "value": "Leer lassen, um den Namen aus dem Advert zu verwenden.",
     "_human": true
   },
   "nodes_detail_rename_title": {
@@ -5354,7 +5354,7 @@
     "_human": true
   },
   "nodes_admin_position_hint": {
-    "value": "Legt die beworbene Position des Repeaters fest. Gib Dezimalgrad ein; eine Kartenauswahl ist als Nächstes geplant.",
+    "value": "Legt die Position fest, die der Repeater im Advert sendet. Gib Dezimalgrad ein; eine Kartenauswahl ist als Nächstes geplant.",
     "_human": true
   },
   "nodes_admin_position_save": {
@@ -7195,9 +7195,8 @@
     "_seeded": "2026-08-12"
   },
   "ios_autoadd_auto_add_adverts": {
-    "value": "Anzeigen automatisch hinzufügen",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Adverts automatisch hinzufügen",
+    "_human": true
   },
   "ios_autoadd_overwrite_oldest_when_full": {
     "value": "Älteste Einträge überschreiben, wenn Speicher voll ist",
@@ -7885,9 +7884,8 @@
     "_seeded": "2026-08-12"
   },
   "ios_mynode_broadcast_my_advert": {
-    "value": "Meine Anzeige senden…",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Mein Advert senden…",
+    "_human": true
   },
   "ios_mynode_connect_via_wifi": {
     "value": "Über WLAN verbinden",
@@ -8115,14 +8113,12 @@
     "_seeded": "2026-08-12"
   },
   "ios_nodes_flood_advert": {
-    "value": "Flood-Anzeige",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Flood-Advert",
+    "_human": true
   },
   "ios_nodes_zero_hop_advert": {
-    "value": "Zero-Hop-Ankündigung",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Zero-Hop-Advert",
+    "_human": true
   },
   "ios_nodes_manual_hops": {
     "value": "Manuelle Hops",
@@ -8160,9 +8156,8 @@
     "_seeded": "2026-08-12"
   },
   "ios_nodes_sends_a_rename_to_the_repeater_the_new_n": {
-    "value": "Sendet eine Umbenennung an den Repeater. Der neue Name wird angezeigt, sobald eine neue Ankündigung eintrifft.",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Sendet eine Umbenennung an den Repeater. Der neue Name erscheint, sobald ein neues Advert eintrifft.",
+    "_human": true
   },
   "ios_nodes_favourites_pin_this_repeater_for_quicker": {
     "value": "Mit „Favoriten“ kannst du diesen Repeater für einen schnelleren Zugriff anheften. Du kannst dies jederzeit über die Stern-Schaltfläche unten ändern.",
@@ -8245,9 +8240,8 @@
     "_seeded": "2026-08-12"
   },
   "ios_notifications_master_switch_when_off_kiekr_posts_no_no": {
-    "value": "Hauptschalter. Wenn diese Option deaktiviert ist, sendet KiekR keine Benachrichtigungen zu Nachrichten, Kanälen oder Ankündigungen. Die untenstehenden Einstellungen für die einzelnen Typen bleiben erhalten.",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Hauptschalter. Ist er aus, sendet KiekR keine Benachrichtigungen zu Nachrichten, Kanälen oder Adverts. Die Einstellungen je Typ darunter bleiben erhalten.",
+    "_human": true
   },
   "ios_notifications_direct_messages": {
     "value": "Direktnachrichten",
@@ -8260,14 +8254,12 @@
     "_seeded": "2026-08-12"
   },
   "ios_notifications_adverts": {
-    "value": "Ankündigungen",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Adverts",
+    "_human": true
   },
   "ios_notifications_notify_when_a_node_of_the_selected_type_": {
-    "value": "Benachrichtigung, wenn ein Knoten des ausgewählten Typs auf Sendung geht. Ankündigungen sind standardmäßig laut; aktiviere „Repeater“, wenn du über neue Repeater informiert werden möchtest, sobald sie erscheinen.",
-    "_human": true,
-    "_seeded": "2026-08-12"
+    "value": "Benachrichtigt, wenn ein Knoten des gewählten Typs auf Sendung geht. Adverts kommen standardmäßig sehr häufig; aktiviere „Repeater“, wenn du neue Repeater sofort mitbekommen willst.",
+    "_human": true
   },
   "ios_notifications_notify_when_traffic_arrives_on_a_never_a": {
     "value": "Benachrichtigung, wenn Datenverkehr auf einem noch nicht hinzugefügten Kanal eintrifft",
@@ -10591,6 +10583,122 @@
   },
   "nodes_detail_remove_all_neighbours_button": {
     "value": "Alle Nachbarn entfernen",
+    "_human": true
+  },
+  "nodes_manage_regions_deny_wildcard_title": {
+    "value": "Flood für die Wildcard (*) verbieten?",
+    "_human": true
+  },
+  "nodes_manage_regions_deny_wildcard_body": {
+    "value": "Dieser Repeater verwirft dann jedes Flood-Paket ohne Region. Pakete mit Region sind nicht betroffen.",
+    "_human": true
+  },
+  "nodes_banner_not_connected_sensor": {
+    "value": "Verbinde deinen Knoten, um diesen Sensor zu verwalten",
+    "_human": true
+  },
+  "nodes_banner_not_connected_room": {
+    "value": "Verbinde deinen Knoten, um diesen Raumserver zu verwalten",
+    "_human": true
+  },
+  "nodes_banner_not_connected_contact": {
+    "value": "Verbinde deinen Knoten, um diesen Kontakt zu erreichen",
+    "_human": true
+  },
+  "nodes_banner_waiting_sensor": {
+    "value": "Warten auf Antwort des Sensors",
+    "_human": true
+  },
+  "nodes_banner_waiting_room": {
+    "value": "Warten auf Antwort des Raumservers",
+    "_human": true
+  },
+  "nodes_banner_waiting_contact": {
+    "value": "Warten auf Antwort",
+    "_human": true
+  },
+  "sensor_error_dialect_mismatch": {
+    "value": "Diese Aktion wird auf diesem Sensor noch nicht unterstützt.",
+    "_human": true
+  },
+  "sensor_error_contact_missing": {
+    "value": "Sensor-Kontakt nicht gefunden.",
+    "_human": true
+  },
+  "sensor_error_not_on_device": {
+    "value": "Dein Knoten kennt diesen Sensor noch nicht. Tippe erneut, um ihn hinzuzufügen.",
+    "_human": true
+  },
+  "nodes_admin_error_not_on_device": {
+    "value": "Dieser Kontakt ist noch nicht auf deinem Knoten gespeichert. Tippe erneut, um ihn hinzuzufügen.",
+    "_human": true
+  },
+  "nodes_admin_error_send_failed": {
+    "value": "Dein Knoten konnte die Anfrage nicht senden. Bitte erneut versuchen.",
+    "_human": true
+  },
+  "repeater_cli_room_password": {
+    "value": "Raum-Passwort",
+    "_human": true
+  },
+  "repeater_cli_room_post": {
+    "value": "Als Server posten",
+    "_human": true
+  },
+  "room_admin_post_placeholder": {
+    "value": "Nachricht",
+    "_human": true
+  },
+  "room_admin_post_sent": {
+    "value": "Gepostet",
+    "_human": true
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Gäste dürfen mitlesen",
+    "_human": true
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Jeder kann ohne Passwort beitreten und mitlesen, aber nicht schreiben.",
+    "_human": true
+  },
+  "room_admin_room_password_hint": {
+    "value": "Mitglieder melden sich mit diesem Passwort an und dürfen schreiben. Leer lassen schaltet es ab.",
+    "_human": true
+  },
+  "room_admin_room_password_saved": {
+    "value": "Passwort gespeichert.",
+    "_human": true
+  },
+  "traceroute_append_return_path": {
+    "value": "Rückweg anhängen",
+    "_human": true
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Mit Rückweg wäre der Pfad länger als erlaubt.",
+    "_human": true
+  },
+  "channels_region_device_default": {
+    "value": "Standard: %1$s",
+    "_human": true
+  },
+  "channel_detail_region_device_default": {
+    "value": "Keine (Standard: %1$s)",
+    "_human": true
+  },
+  "traceroute_fill_from_learned_path": {
+    "value": "Aus gelerntem Pfad füllen",
+    "_human": true
+  },
+  "traceroute_learned_path_none": {
+    "value": "Für diesen Kontakt ist kein Pfad gelernt.",
+    "_human": true
+  },
+  "traceroute_learned_path_direct": {
+    "value": "Dieser Kontakt wird direkt erreicht, ohne Repeater.",
+    "_human": true
+  },
+  "traceroute_learned_path_unresolved": {
+    "value": "%1$d von %2$d Repeatern im gelernten Pfad sind unbekannt oder nicht eindeutig.",
     "_human": true
   }
 }
