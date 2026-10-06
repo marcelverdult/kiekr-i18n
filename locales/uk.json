@@ -3,7 +3,7 @@
     "language": "uk",
     "name": "Українська",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Цей ключ уже належить до «%1$s».",
@@ -12662,13 +12662,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Недійсний ключ датчика.",
+  "sensor_login_title": {
+    "value": "Вхід у датчик",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Не вдалося розшифрувати відповідь датчика. Увійдіть знову.",
+  "sensor_save_to_fav_title": {
+    "value": "Зберегти цей датчик в обране?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Обране закріплює цей датчик для швидшого доступу. Це можна змінити будь-коли за допомогою кнопки із зірочкою нижче.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12677,53 +12682,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Не вдалося прочитати відповідь датчика.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Датчик відхилив вхід.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Вхід у датчик",
+  "sensor_login_error_parse_failed": {
+    "value": "Не вдалося прочитати відповідь датчика.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Акселерометр",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Не вдалося розшифрувати відповідь датчика. Увійдіть знову.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Висота",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Аналоговий вхід",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Аналоговий вихід",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Колір",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Концентрація",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Електричний струм",
+  "sensor_login_error_bad_key": {
+    "value": "Недійсний ключ датчика.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12737,8 +12712,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Напрямок",
+  "sensor_lpp_type_analog_input": {
+    "value": "Аналоговий вхід",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Аналоговий вихід",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Загальний датчик",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Освітленість",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Присутність",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Температура",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Вологість",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Акселерометр",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Тиск",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Напруга",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Електричний струм",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Частота",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Відсоток",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Висота",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Концентрація",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Електрична потужність",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12752,63 +12802,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Частота",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Загальний датчик",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Гіроскоп",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Вологість",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Освітленість",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Відсоток",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Електрична потужність",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Присутність",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Тиск",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Перемикач",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Температура",
+  "sensor_lpp_type_direction": {
+    "value": "Напрямок",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12817,18 +12812,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Напруга",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Гіроскоп",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Обране закріплює цей датчик для швидшого доступу. Це можна змінити будь-коли за допомогою кнопки із зірочкою нижче.",
+  "sensor_lpp_type_colour": {
+    "value": "Колір",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Зберегти цей датчик в обране?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Перемикач",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12967,56 +12967,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Пароль кімнати",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Опублікувати від імені сервера",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Повідомлення",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Опубліковано",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Гості можуть читати",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Будь-хто може приєднатися без пароля і читати, але не публікувати.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Учасники входять із цим паролем і можуть публікувати. Залиште порожнім, щоб вимкнути.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Пароль збережено.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Додати зворотний шлях",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Зворотний шлях перевищив би максимальну довжину шляху.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Підключіть свій вузол, щоб керувати цим датчиком",
     "_ai": true,
@@ -13069,6 +13019,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Вашому вузлу не вдалося надіслати запит. Спробуйте ще раз.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Пароль кімнати",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Опублікувати від імені сервера",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Повідомлення",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Опубліковано",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Гості можуть читати",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Будь-хто може приєднатися без пароля і читати, але не публікувати.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Учасники входять із цим паролем і можуть публікувати. Залиште порожнім, щоб вимкнути.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Пароль збережено.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Додати зворотний шлях",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Зворотний шлях перевищив би максимальну довжину шляху.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13222,6 +13222,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Поділитися позицією або контактом",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Поділитися моєю позицією",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Мої контактні дані",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Поділитися контактом…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Ваш вузол не має позиції. Задайте її в розділі Мій вузол.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Не вміщується: у цьому повідомленні не залишилося місця.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Ваші контактні дані ще недоступні. Спочатку підключіть свій вузол і дайте йому назву.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Поділитися контактом",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Збережених контактів ще немає",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Збережені вами контакти з'являться тут.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Чати",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Зберігання повідомлень каналів",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Видаляти повідомлення, старші за",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d днів",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Якщо встановлено обмеження, повідомлення каналів, старіші за вибраний термін, видаляються під час відкриття додатка, не частіше ніж раз на кілька годин. Приватні повідомлення та номери ніколи не зачіпаються. Видалені повідомлення неможливо відновити, а місце у сховищі може звільнитися лише згодом. Після відновлення резервної копії з повідомленнями обмеження призупиняється, доки ви не підтвердите його знову.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "З резервної копії: %1$d днів, неактивно. Виберіть значення ще раз, щоб підтвердити.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Видалити старі повідомлення каналів?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Повідомлення каналів, старші за %1$d днів, буде видалено зараз. Повідомлень: %2$d, каналів: %3$d. Після цього старіші повідомлення каналів видалятимуться автоматично під час кожного відкриття додатка. Цю дію неможливо скасувати.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Жодне повідомлення каналів не старіше за %1$d днів, тому зараз нічого не видаляється. Відтепер старіші повідомлення каналів видалятимуться автоматично під час кожного відкриття додатка.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Видалити та ввімкнути",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Ввімкнути",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Видалення старих повідомлень…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (розрахункове %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Показати QR-код",
     "_ai": true,
@@ -13251,6 +13371,31 @@
     "value": "Не вдалося поділитися контактом (код %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Повідомлення в чатах",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Продовжити пошук",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Пошук повідомлень",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Жодне повідомлення не відповідає вашому пошуку.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Завантажити новіші повідомлення",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Видалити позицію",
@@ -13312,78 +13457,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Поділитися позицією або контактом",
+  "settings_chats_retention_deleted": {
+    "value": "Видалено повідомлень: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Поділитися моєю позицією",
+  "settings_chats_retention_discard": {
+    "value": "Відхилити значення з резервної копії",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Мої контактні дані",
+  "settings_chats_retention_never": {
+    "value": "Ніколи не видаляти",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Поділитися контактом…",
+  "ping_collision_title": {
+    "value": "Попередження про ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Ваш вузол не має позиції. Задайте її в розділі Мій вузол.",
+  "ping_collision_confirm": {
+    "value": "Все одно виконати ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Не вміщується: у цьому повідомленні не залишилося місця.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Ваші контактні дані ще недоступні. Спочатку підключіть свій вузол і дайте йому назву.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Поділитися контактом",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Збережених контактів ще немає",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Збережені вами контакти з'являться тут.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Повідомлення в чатах",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Продовжити пошук",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Пошук повідомлень",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Жодне повідомлення не відповідає вашому пошуку.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Завантажити новіші повідомлення",
+  "ping_collision_message": {
+    "value": "Інші відомі ретранслятори або сервери кімнат мають той самий хеш переходу %1$s, що й %2$s: %3$s. Відповідь може надійти від будь-якого з них.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13457,21 +13557,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Попередження про ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Інші відомі ретранслятори або сервери кімнат мають той самий хеш переходу %1$s, що й %2$s: %3$s. Відповідь може надійти від будь-якого з них.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Все одно виконати ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Вставити координати",
     "_ai": true,
@@ -13479,91 +13564,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Буфер обміну не містить координат на кшталт 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Чати",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Назад",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Зберігання повідомлень каналів",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Видаляти повідомлення, старші за",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d днів",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Якщо встановлено обмеження, повідомлення каналів, старіші за вибраний термін, видаляються під час відкриття додатка, не частіше ніж раз на кілька годин. Приватні повідомлення та номери ніколи не зачіпаються. Видалені повідомлення неможливо відновити, а місце у сховищі може звільнитися лише згодом. Після відновлення резервної копії з повідомленнями обмеження призупиняється, доки ви не підтвердите його знову.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "З резервної копії: %1$d днів, неактивно. Виберіть значення ще раз, щоб підтвердити.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Видалити старі повідомлення каналів?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Повідомлення каналів, старші за %1$d днів, буде видалено зараз. Повідомлень: %2$d, каналів: %3$d. Після цього старіші повідомлення каналів видалятимуться автоматично під час кожного відкриття додатка. Цю дію неможливо скасувати.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Жодне повідомлення каналів не старіше за %1$d днів, тому зараз нічого не видаляється. Відтепер старіші повідомлення каналів видалятимуться автоматично під час кожного відкриття додатка.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Видалити та ввімкнути",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Ввімкнути",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Видалення старих повідомлень…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Ніколи не видаляти",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Видалено повідомлень: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Відхилити значення з резервної копії",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Кілька відомих ретрансляторів мають однаковий префікс %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13602,6 +13602,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Відреагувати",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Часто використовувані",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Смайлики",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Жести",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Серця",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Предмети",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Інше емодзі",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Введіть рівно одне емодзі",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Реакції",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Не доставлено",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Відправлення не вдалося",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Ви вже відреагували цим емодзі",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Ви не можете відреагувати на це повідомлення",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Ця реакція надто довга для відправлення",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Реакція %1$s на: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Реакції на мої повідомлення",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Реакція %1$s, кількість %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Кілька відомих ретрансляторів мають однаковий префікс %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Екран",
     "_ai": true,
@@ -13614,6 +13704,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Поки розмова відкрита і KiekR на передньому плані, екран не вимикається сам. Усюди інде діє звичайний час вимкнення екрана. Це витрачає більше заряду акумулятора.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Поле повідомлення",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Фокус на полі повідомлення під час відкриття",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Коли ввімкнено, клавіатура відкривається, щойно ви відкриваєте розмову, навіть якщо в ній є непрочитані повідомлення. Коли вимкнено, поле отримує фокус лише тоді, коли ви торкаєтеся його або відповідаєте на повідомлення.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Підказки імен",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Шлях Advert",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Немає означає, що для надсилання Flood використовується регіон за замовчуванням вашого companion. Повідомлення відомим прямим шляхом ніколи не несуть регіону. Вкажіть регіон, щоб використовувати інший для цього контакту.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

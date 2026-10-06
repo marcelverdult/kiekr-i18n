@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Această cheie aparține deja site-ului „%1$s”.",
@@ -12661,13 +12661,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Cheie senzor nevalidă.",
+  "sensor_login_title": {
+    "value": "Autentificare senzor",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Răspunsul senzorului nu a putut fi decriptat. Autentifică-te din nou.",
+  "sensor_save_to_fav_title": {
+    "value": "Salvați acest senzor la favorite?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Favoritele fixează acest senzor pentru acces mai rapid. Poți schimba asta oricând din butonul cu stea de mai jos.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12676,53 +12681,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Răspunsul senzorului nu a putut fi citit.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Autentificare respinsă de senzor.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Autentificare senzor",
+  "sensor_login_error_parse_failed": {
+    "value": "Răspunsul senzorului nu a putut fi citit.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Accelerometru",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Răspunsul senzorului nu a putut fi decriptat. Autentifică-te din nou.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Altitudine",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Intrare analogică",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Ieșire analogică",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Culoare",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Concentrație",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Curent electric",
+  "sensor_login_error_bad_key": {
+    "value": "Cheie senzor nevalidă.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12736,8 +12711,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Direcție",
+  "sensor_lpp_type_analog_input": {
+    "value": "Intrare analogică",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Ieșire analogică",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Senzor generic",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Luminozitate",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Prezență",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Temperatură",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Umiditate",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Accelerometru",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Presiune",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Tensiune",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Curent electric",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Frecvență",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Procent",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Altitudine",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Concentrație",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Putere electrică",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12751,63 +12801,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Frecvență",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Senzor generic",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Giroscop",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Umiditate",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Luminozitate",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Procent",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Putere electrică",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Prezență",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Presiune",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Comutator",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Temperatură",
+  "sensor_lpp_type_direction": {
+    "value": "Direcție",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12816,18 +12811,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Tensiune",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Giroscop",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Favoritele fixează acest senzor pentru acces mai rapid. Poți schimba asta oricând din butonul cu stea de mai jos.",
+  "sensor_lpp_type_colour": {
+    "value": "Culoare",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Salvați acest senzor la favorite?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Comutator",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12966,56 +12966,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Parola camerei",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Postează ca server",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Mesaj",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Postat",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Oaspeții pot citi",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Oricine se poate alătura fără parolă și poate citi, dar nu poate posta.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Membrii se autentifică cu această parolă și pot posta. Lăsați gol pentru a o dezactiva.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Parolă salvată.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Adaugă calea de retur",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Calea de retur ar depăși lungimea maximă a căii.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Conectează-ți nodul pentru a gestiona acest senzor",
     "_ai": true,
@@ -13068,6 +13018,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Nodul tău nu a putut trimite cererea. Te rugăm să încerci din nou.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Parola camerei",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Postează ca server",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Mesaj",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Postat",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Oaspeții pot citi",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Oricine se poate alătura fără parolă și poate citi, dar nu poate posta.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Membrii se autentifică cu această parolă și pot posta. Lăsați gol pentru a o dezactiva.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Parolă salvată.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Adaugă calea de retur",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Calea de retur ar depăși lungimea maximă a căii.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13221,6 +13221,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Distribuie o poziție sau un contact",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Distribuie poziția mea",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Datele mele de contact",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Distribuie un contact…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Nodul tău nu are poziție. Seteaz-o în Nodul meu.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Nu încape: nu mai este suficient spațiu în acest mesaj.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Datele tale de contact nu sunt încă disponibile. Conectează mai întâi nodul tău și dă-i un nume.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Distribuie un contact",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Încă nu există contacte salvate",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Contactele pe care le salvezi apar aici.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Discuții",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Înapoi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Păstrarea mesajelor din canale",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Șterge mesajele mai vechi de",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "Zile: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Dacă este setată o limită, mesajele din canale mai vechi decât durata aleasă sunt șterse la deschiderea aplicației, cel mult o dată la câteva ore. Mesajele directe și camerele nu sunt atinse niciodată. Mesajele șterse nu pot fi restaurate, iar spațiul de stocare poate fi eliberat abia mai târziu. După restaurarea unei copii de rezervă cu mesaje, limita este pusă în pauză până o confirmi din nou.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Din copia de rezervă (zile: %1$d), inactiv. Alege din nou valoarea pentru a confirma.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Ștergi mesajele vechi din canale?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Mesajele din canale mai vechi decât limita aleasă (zile: %1$d) vor fi șterse acum. Mesaje: %2$d, canale: %3$d. După aceea, mesajele mai vechi din canale sunt șterse automat de fiecare dată când se deschide aplicația. Această acțiune nu poate fi anulată.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Niciun mesaj din canale nu este mai vechi decât limita aleasă (zile: %1$d), așa că acum nu se șterge nimic. De acum încolo, mesajele mai vechi din canale sunt șterse automat de fiecare dată când se deschide aplicația.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Șterge și activează",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Activează",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Se șterg mesajele vechi…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (calculat %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Afișează codul QR",
     "_ai": true,
@@ -13250,6 +13370,31 @@
     "value": "Contactul nu a putut fi distribuit (cod %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Mesaje din discuții",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Continuă căutarea",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Se caută în mesaje",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Niciun mesaj nu corespunde căutării tale.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Încarcă mesaje mai noi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Șterge poziția",
@@ -13311,78 +13456,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Distribuie o poziție sau un contact",
+  "settings_chats_retention_deleted": {
+    "value": "Mesaje șterse: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Distribuie poziția mea",
+  "settings_chats_retention_discard": {
+    "value": "Renunță la valoarea din copia de rezervă",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Datele mele de contact",
+  "settings_chats_retention_never": {
+    "value": "Nu șterge niciodată",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Distribuie un contact…",
+  "ping_collision_title": {
+    "value": "Avertisment ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Nodul tău nu are poziție. Seteaz-o în Nodul meu.",
+  "ping_collision_confirm": {
+    "value": "Trimite ping oricum",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Nu încape: nu mai este suficient spațiu în acest mesaj.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Datele tale de contact nu sunt încă disponibile. Conectează mai întâi nodul tău și dă-i un nume.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Distribuie un contact",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Încă nu există contacte salvate",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Contactele pe care le salvezi apar aici.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Mesaje din discuții",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Continuă căutarea",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Se caută în mesaje",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Niciun mesaj nu corespunde căutării tale.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Încarcă mesaje mai noi",
+  "ping_collision_message": {
+    "value": "Alte repetoare sau servere de cameră cunoscute folosesc același hash de salt %1$s ca %2$s: %3$s. Răspunsul poate veni de la oricare dintre ele.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13456,21 +13556,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Avertisment ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Alte repetoare sau servere de cameră cunoscute folosesc același hash de salt %1$s ca %2$s: %3$s. Răspunsul poate veni de la oricare dintre ele.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Trimite ping oricum",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Lipește coordonatele",
     "_ai": true,
@@ -13478,91 +13563,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Clipboard-ul nu conține coordonate precum 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Discuții",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Înapoi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Păstrarea mesajelor din canale",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Șterge mesajele mai vechi de",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "Zile: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Dacă este setată o limită, mesajele din canale mai vechi decât durata aleasă sunt șterse la deschiderea aplicației, cel mult o dată la câteva ore. Mesajele directe și camerele nu sunt atinse niciodată. Mesajele șterse nu pot fi restaurate, iar spațiul de stocare poate fi eliberat abia mai târziu. După restaurarea unei copii de rezervă cu mesaje, limita este pusă în pauză până o confirmi din nou.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Din copia de rezervă (zile: %1$d), inactiv. Alege din nou valoarea pentru a confirma.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Ștergi mesajele vechi din canale?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Mesajele din canale mai vechi decât limita aleasă (zile: %1$d) vor fi șterse acum. Mesaje: %2$d, canale: %3$d. După aceea, mesajele mai vechi din canale sunt șterse automat de fiecare dată când se deschide aplicația. Această acțiune nu poate fi anulată.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Niciun mesaj din canale nu este mai vechi decât limita aleasă (zile: %1$d), așa că acum nu se șterge nimic. De acum încolo, mesajele mai vechi din canale sunt șterse automat de fiecare dată când se deschide aplicația.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Șterge și activează",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Activează",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Se șterg mesajele vechi…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Nu șterge niciodată",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Mesaje șterse: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Renunță la valoarea din copia de rezervă",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Mai multe repetoare cunoscute folosesc același prefix %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13601,6 +13601,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Reacționează",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Folosite frecvent",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Emoticoane",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Gesturi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Inimi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Obiecte",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Alt emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Introdu exact un emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Reacții",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Nelivrat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Trimiterea a eșuat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Ai reacționat deja cu acest emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Nu poți reacționa la acest mesaj",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Această reacție este prea lungă pentru a fi trimisă",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "A reacționat cu %1$s la: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Reacții la mesajele mele",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Reacție %1$s, număr %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Mai multe repetoare cunoscute folosesc același prefix %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Ecran",
     "_ai": true,
@@ -13613,6 +13703,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Cât timp o conversație este deschisă și KiekR este în prim-plan, ecranul nu se stinge singur. În rest se aplică timpul normal de stingere a ecranului. Acest lucru consumă mai multă baterie.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Câmpul de mesaj",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Activează câmpul de mesaj la deschidere",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Când este activat, tastatura se deschide imediat ce deschideți o conversație, chiar și atunci când aceasta are mesaje necitite. Când este dezactivat, câmpul este activat doar când îl atingeți sau răspundeți la un mesaj.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Sugestii de nume",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Calea Advertului",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Niciuna folosește regiunea implicită a companion-ului dvs. pentru trimiterile prin inundație. Mesajele pe o rută directă cunoscută nu poartă niciodată o regiune. Atribuiți o regiune pentru a folosi alta pentru acest contact.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Ez a kulcs már a „%1$s” tulajdonát képezi.",
@@ -12660,13 +12660,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Érvénytelen érzékelőkulcs.",
+  "sensor_login_title": {
+    "value": "Bejelentkezés az érzékelőbe",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Az érzékelő válaszát nem sikerült visszafejteni. Jelentkezz be újra.",
+  "sensor_save_to_fav_title": {
+    "value": "Mentsük ezt az érzékelőt a kedvencek közé?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "A kedvencek kitűzik ezt az érzékelőt a gyorsabb eléréshez. Ezt bármikor módosíthatod az alábbi csillag gombbal.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12675,53 +12680,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Az érzékelő válasza nem olvasható.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Az érzékelő elutasította a bejelentkezést.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Bejelentkezés az érzékelőbe",
+  "sensor_login_error_parse_failed": {
+    "value": "Az érzékelő válasza nem olvasható.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Gyorsulásmérő",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Az érzékelő válaszát nem sikerült visszafejteni. Jelentkezz be újra.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Magasság",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Analóg bemenet",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Analóg kimenet",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Szín",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Koncentráció",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Elektromos áram",
+  "sensor_login_error_bad_key": {
+    "value": "Érvénytelen érzékelőkulcs.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12735,8 +12710,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Irány",
+  "sensor_lpp_type_analog_input": {
+    "value": "Analóg bemenet",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Analóg kimenet",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Általános érzékelő",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Fényerősség",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Jelenlét",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Hőmérséklet",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Páratartalom",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Gyorsulásmérő",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Légnyomás",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Feszültség",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Elektromos áram",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Frekvencia",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Százalék",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Magasság",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Koncentráció",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Elektromos teljesítmény",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12750,63 +12800,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Frekvencia",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Általános érzékelő",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Giroszkóp",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Páratartalom",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Fényerősség",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Százalék",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Elektromos teljesítmény",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Jelenlét",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Légnyomás",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Kapcsoló",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Hőmérséklet",
+  "sensor_lpp_type_direction": {
+    "value": "Irány",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12815,18 +12810,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Feszültség",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Giroszkóp",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "A kedvencek kitűzik ezt az érzékelőt a gyorsabb eléréshez. Ezt bármikor módosíthatod az alábbi csillag gombbal.",
+  "sensor_lpp_type_colour": {
+    "value": "Szín",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Mentsük ezt az érzékelőt a kedvencek közé?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Kapcsoló",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12965,56 +12965,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Szoba jelszava",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Közzététel szerverként",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Üzenet",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Közzétéve",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "A vendégek olvashatnak",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Bárki csatlakozhat jelszó nélkül és olvashat, de nem posztolhat.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "A tagok ezzel a jelszóval jelentkeznek be, és posztolhatnak. Hagyja üresen a kikapcsoláshoz.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Jelszó mentve.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Visszaút hozzáadása",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "A visszaút túllépné az útvonal maximális hosszát.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Csatlakoztasd a node-odat, hogy kezelhesd ezt az érzékelőt",
     "_ai": true,
@@ -13067,6 +13017,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "A node-od nem tudta elküldeni a kérést. Kérjük, próbáld újra.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Szoba jelszava",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Közzététel szerverként",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Üzenet",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Közzétéve",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "A vendégek olvashatnak",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Bárki csatlakozhat jelszó nélkül és olvashat, de nem posztolhat.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "A tagok ezzel a jelszóval jelentkeznek be, és posztolhatnak. Hagyja üresen a kikapcsoláshoz.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Jelszó mentve.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Visszaút hozzáadása",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "A visszaút túllépné az útvonal maximális hosszát.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13220,6 +13220,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Pozíció vagy névjegy megosztása",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Saját pozíció megosztása",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Saját elérhetőségeim",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Névjegy megosztása…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "A csomópontodnak nincs pozíciója. Állítsd be az „Az én csomópontom” alatt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Nem fér el: ebben az üzenetben nincs elég hely.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Az elérhetőségeid még nem érhetők el. Először csatlakoztasd a csomópontodat, és adj neki nevet.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Névjegy megosztása",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Még nincsenek mentett névjegyek",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Az általad mentett névjegyek itt jelennek meg.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Csevegések",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Vissza",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Csatornaüzenetek megőrzése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Ennél régebbi üzenetek törlése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d nap",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Ha be van állítva korlát, a kiválasztott időtartamnál régebbi csatornaüzenetek az alkalmazás megnyitásakor törlődnek, legfeljebb néhány óránként. A közvetlen üzenetek és a szobák mindig érintetlenek maradnak. A törölt üzeneteket nem lehet visszaállítani, és a tárhely csak később szabadulhat fel. Üzeneteket tartalmazó biztonsági mentés visszaállítása után a korlát szünetel, amíg újra meg nem erősíted.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Biztonsági mentésből: %1$d nap, nem aktív. A megerősítéshez válaszd ki újra az értéket.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Törlöd a régi csatornaüzeneteket?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "A %1$d napnál régebbi csatornaüzenetek most törlődnek. Üzenetek: %2$d, csatornák: %3$d. Ezután a régebbi csatornaüzenetek automatikusan törlődnek az alkalmazás minden megnyitásakor. Ez nem vonható vissza.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Egyetlen csatornaüzenet sem régebbi %1$d napnál, ezért most nem törlődik semmi. Mostantól a régebbi csatornaüzenetek automatikusan törlődnek az alkalmazás minden megnyitásakor.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Törlés és bekapcsolás",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Bekapcsolás",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Régi üzenetek törlése…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (számított %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "QR-kód megjelenítése",
     "_ai": true,
@@ -13249,6 +13369,31 @@
     "value": "A névjegyet nem sikerült megosztani (kód: %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Üzenetek a csevegésekben",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Keresés folytatása",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Üzenetek keresése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Egy üzenet sem felel meg a keresésnek.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Újabb üzenetek betöltése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Pozíció törlése",
@@ -13310,78 +13455,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Pozíció vagy névjegy megosztása",
+  "settings_chats_retention_deleted": {
+    "value": "Törölt üzenetek: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Saját pozíció megosztása",
+  "settings_chats_retention_discard": {
+    "value": "A biztonsági mentés értékének elvetése",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Saját elérhetőségeim",
+  "settings_chats_retention_never": {
+    "value": "Soha ne törölj",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Névjegy megosztása…",
+  "ping_collision_title": {
+    "value": "Ping figyelmeztetés",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "A csomópontodnak nincs pozíciója. Állítsd be az „Az én csomópontom” alatt.",
+  "ping_collision_confirm": {
+    "value": "Ping mindenképpen",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Nem fér el: ebben az üzenetben nincs elég hely.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Az elérhetőségeid még nem érhetők el. Először csatlakoztasd a csomópontodat, és adj neki nevet.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Névjegy megosztása",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Még nincsenek mentett névjegyek",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Az általad mentett névjegyek itt jelennek meg.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Üzenetek a csevegésekben",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Keresés folytatása",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Üzenetek keresése",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Egy üzenet sem felel meg a keresésnek.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Újabb üzenetek betöltése",
+  "ping_collision_message": {
+    "value": "Más ismert ismétlők vagy szobai szerverek ugyanazt a hop-hasht (%1$s) használják, mint a(z) %2$s: %3$s. A válasz bármelyikük felől érkezhet.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13455,21 +13555,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping figyelmeztetés",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Más ismert ismétlők vagy szobai szerverek ugyanazt a hop-hasht (%1$s) használják, mint a(z) %2$s: %3$s. A válasz bármelyikük felől érkezhet.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Ping mindenképpen",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Koordináták beillesztése",
     "_ai": true,
@@ -13477,91 +13562,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "A vágólap nem tartalmaz olyan koordinátákat, mint 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Csevegések",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Vissza",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Csatornaüzenetek megőrzése",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Ennél régebbi üzenetek törlése",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d nap",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Ha be van állítva korlát, a kiválasztott időtartamnál régebbi csatornaüzenetek az alkalmazás megnyitásakor törlődnek, legfeljebb néhány óránként. A közvetlen üzenetek és a szobák mindig érintetlenek maradnak. A törölt üzeneteket nem lehet visszaállítani, és a tárhely csak később szabadulhat fel. Üzeneteket tartalmazó biztonsági mentés visszaállítása után a korlát szünetel, amíg újra meg nem erősíted.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Biztonsági mentésből: %1$d nap, nem aktív. A megerősítéshez válaszd ki újra az értéket.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Törlöd a régi csatornaüzeneteket?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "A %1$d napnál régebbi csatornaüzenetek most törlődnek. Üzenetek: %2$d, csatornák: %3$d. Ezután a régebbi csatornaüzenetek automatikusan törlődnek az alkalmazás minden megnyitásakor. Ez nem vonható vissza.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Egyetlen csatornaüzenet sem régebbi %1$d napnál, ezért most nem törlődik semmi. Mostantól a régebbi csatornaüzenetek automatikusan törlődnek az alkalmazás minden megnyitásakor.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Törlés és bekapcsolás",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Bekapcsolás",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Régi üzenetek törlése…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Soha ne törölj",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Törölt üzenetek: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "A biztonsági mentés értékének elvetése",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Több ismert ismétlő osztozik az előtagon (%1$s): %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13600,6 +13600,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Reagálás",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Gyakran használt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Hangulatjelek",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Gesztusok",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Szívek",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Tárgyak",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Másik emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Pontosan egy emojit kell megadni",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Reakciók",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Nem lett kézbesítve",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "A küldés sikertelen volt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Már reagáltál ezzel az emojival",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Erre az üzenetre nem lehet reagálni",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Ez a reakció túl hosszú a küldéshez",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "%1$s reakció erre: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "A saját üzeneteimre adott reakciók",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Reakció: %1$s, darabszám: %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Több ismert ismétlő osztozik az előtagon (%1$s): %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Kijelző",
     "_ai": true,
@@ -13612,6 +13702,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Amíg egy beszélgetés nyitva van és a KiekR előtérben fut, a képernyő nem kapcsol ki magától. Máshol a szokásos képernyő-időkorlát érvényes. Ez több akkumulátort fogyaszt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Üzenetmező",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Üzenetmező fókuszálása megnyitáskor",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Bekapcsolva a billentyűzet megnyílik, amint megnyit egy beszélgetést, olvasatlan üzenetek esetén is. Kikapcsolva a mező csak akkor kap fókuszt, ha megérinti, vagy válaszol egy üzenetre.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Névjavaslatok",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Advert útvonala",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "A Nincs beállítás a companion alapértelmezett régióját használja a Flood-küldésekhez. Az ismert közvetlen útvonalon küldött üzenetek soha nem hordoznak régiót. Rendeljen hozzá egy régiót, ha ehhez a névjegyhez másikat szeretne használni.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

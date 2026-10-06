@@ -3,7 +3,7 @@
     "language": "lt",
     "name": "Lietuvių",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Šis raktas jau priklauso „%1$s“.",
@@ -12661,13 +12661,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Neteisingas jutiklio raktas.",
+  "sensor_login_title": {
+    "value": "Prisijungimas prie jutiklio",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Nepavyko iššifruoti jutiklio atsakymo. Prisijunk iš naujo.",
+  "sensor_save_to_fav_title": {
+    "value": "Įrašyti šį jutiklį į mėgstamiausius?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Mėgstamiausi prisega šį jutiklį greitesnei prieigai. Tai gali bet kada pakeisti naudodamas žvaigždutės mygtuką žemiau.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12676,53 +12681,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Nepavyko perskaityti jutiklio atsakymo.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Jutiklis atmetė prisijungimą.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Prisijungimas prie jutiklio",
+  "sensor_login_error_parse_failed": {
+    "value": "Nepavyko perskaityti jutiklio atsakymo.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Akselerometras",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Nepavyko iššifruoti jutiklio atsakymo. Prisijunk iš naujo.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Aukštis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Analoginė įvestis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Analoginė išvestis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Spalva",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Koncentracija",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Elektros srovė",
+  "sensor_login_error_bad_key": {
+    "value": "Neteisingas jutiklio raktas.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12736,8 +12711,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Kryptis",
+  "sensor_lpp_type_analog_input": {
+    "value": "Analoginė įvestis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Analoginė išvestis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Bendrasis jutiklis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Apšvieta",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Buvimas",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Temperatūra",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Drėgmė",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Akselerometras",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Slėgis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Įtampa",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Elektros srovė",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Dažnis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Procentas",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Aukštis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Koncentracija",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Elektros galia",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12751,63 +12801,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Dažnis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Bendrasis jutiklis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Giroskopas",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Drėgmė",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Apšvieta",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Procentas",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Elektros galia",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Buvimas",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Slėgis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Jungiklis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Temperatūra",
+  "sensor_lpp_type_direction": {
+    "value": "Kryptis",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12816,18 +12811,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Įtampa",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Giroskopas",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Mėgstamiausi prisega šį jutiklį greitesnei prieigai. Tai gali bet kada pakeisti naudodamas žvaigždutės mygtuką žemiau.",
+  "sensor_lpp_type_colour": {
+    "value": "Spalva",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Įrašyti šį jutiklį į mėgstamiausius?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Jungiklis",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12966,56 +12966,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Kambario slaptažodis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Paskelbti kaip serveris",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Žinutė",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Paskelbta",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Svečiai gali skaityti",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Bet kas gali prisijungti be slaptažodžio ir skaityti, bet ne skelbti.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Nariai prisijungia šiuo slaptažodžiu ir gali skelbti. Palikite tuščią, kad išjungtumėte.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Slaptažodis išsaugotas.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Pridėti grįžtamąjį kelią",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Grįžtamasis kelias viršytų didžiausią leidžiamą kelio ilgį.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Prijunkite savo mazgą, kad galėtumėte valdyti šį jutiklį",
     "_ai": true,
@@ -13068,6 +13018,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Jūsų mazgui nepavyko išsiųsti užklausos. Bandykite dar kartą.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Kambario slaptažodis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Paskelbti kaip serveris",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Žinutė",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Paskelbta",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Svečiai gali skaityti",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Bet kas gali prisijungti be slaptažodžio ir skaityti, bet ne skelbti.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Nariai prisijungia šiuo slaptažodžiu ir gali skelbti. Palikite tuščią, kad išjungtumėte.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Slaptažodis išsaugotas.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Pridėti grįžtamąjį kelią",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Grįžtamasis kelias viršytų didžiausią leidžiamą kelio ilgį.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13221,6 +13221,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Bendrinti vietą ar kontaktą",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Bendrinti mano vietą",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Mano kontaktiniai duomenys",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Bendrinti kontaktą…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Jūsų mazgas neturi vietos. Nustatykite ją skiltyje Mano mazgas.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Netelpa: šiame pranešime nebeliko pakankamai vietos.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Jūsų kontaktiniai duomenys dar nepasiekiami. Pirmiausia prijunkite savo mazgą ir suteikite jam pavadinimą.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Bendrinti kontaktą",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Dar nėra išsaugotų kontaktų",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Jūsų išsaugoti kontaktai bus rodomi čia.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Pokalbiai",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Atgal",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Kanalų pranešimų saugojimas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Ištrinti pranešimus, senesnius nei",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "Dienų: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Nustačius ribą, kanalų pranešimai, senesni nei pasirinktas laikotarpis, ištrinami atidarius programėlę, ne dažniau kaip kas kelias valandas. Tiesioginiai pranešimai ir kambariai niekada neliečiami. Ištrintų pranešimų atkurti neįmanoma, o saugyklos vietos gali būti atlaisvinta tik vėliau. Atkūrus atsarginę kopiją su pranešimais, riba sustabdoma, kol vėl jos nepatvirtinsite.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Iš atsarginės kopijos (dienų: %1$d) neaktyvu. Norėdami patvirtinti, dar kartą pasirinkite reikšmę.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Ištrinti senus kanalų pranešimus?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanalų pranešimai, senesni nei %1$d dienų, bus ištrinti dabar. Pranešimai: %2$d, kanalai: %3$d. Po to senesni kanalų pranešimai bus automatiškai ištrinami kaskart atidarius programėlę. Šio veiksmo atšaukti nebus galima.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Nė vienas kanalo pranešimas nėra senesnis nei %1$d dienų, todėl dabar nieko netrinama. Nuo šiol senesni kanalų pranešimai bus automatiškai ištrinami kaskart atidarius programėlę.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Ištrinti ir įjungti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Įjungti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Trinami seni pranešimai…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (apskaičiuota %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Rodyti QR kodą",
     "_ai": true,
@@ -13250,6 +13370,31 @@
     "value": "Nepavyko pasidalinti šiuo kontaktu (kodas %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Pranešimai pokalbiuose",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Tęsti paiešką",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Ieškoma pranešimų",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Nė vienas pranešimas neatitinka jūsų paieškos.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Įkelti naujesnius pranešimus",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Ištrinti poziciją",
@@ -13311,78 +13456,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Bendrinti vietą ar kontaktą",
+  "settings_chats_retention_deleted": {
+    "value": "Ištrinti pranešimai: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Bendrinti mano vietą",
+  "settings_chats_retention_discard": {
+    "value": "Atmesti atsarginės kopijos reikšmę",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Mano kontaktiniai duomenys",
+  "settings_chats_retention_never": {
+    "value": "Niekada netrinti",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Bendrinti kontaktą…",
+  "ping_collision_title": {
+    "value": "Ping įspėjimas",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Jūsų mazgas neturi vietos. Nustatykite ją skiltyje Mano mazgas.",
+  "ping_collision_confirm": {
+    "value": "Vis tiek pingoti",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Netelpa: šiame pranešime nebeliko pakankamai vietos.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Jūsų kontaktiniai duomenys dar nepasiekiami. Pirmiausia prijunkite savo mazgą ir suteikite jam pavadinimą.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Bendrinti kontaktą",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Dar nėra išsaugotų kontaktų",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Jūsų išsaugoti kontaktai bus rodomi čia.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Pranešimai pokalbiuose",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Tęsti paiešką",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Ieškoma pranešimų",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Nė vienas pranešimas neatitinka jūsų paieškos.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Įkelti naujesnius pranešimus",
+  "ping_collision_message": {
+    "value": "Kiti žinomi kartotuvai arba kambario serveriai turi tą patį tarpinio mazgo hash %1$s kaip ir %2$s: %3$s. Atsakymas gali ateiti iš bet kurio iš jų.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13456,21 +13556,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping įspėjimas",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Kiti žinomi kartotuvai arba kambario serveriai turi tą patį tarpinio mazgo hash %1$s kaip ir %2$s: %3$s. Atsakymas gali ateiti iš bet kurio iš jų.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Vis tiek pingoti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Įklijuoti koordinates",
     "_ai": true,
@@ -13478,91 +13563,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Iškarpinėje nėra koordinačių, pavyzdžiui, 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Pokalbiai",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Atgal",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Kanalų pranešimų saugojimas",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Ištrinti pranešimus, senesnius nei",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "Dienų: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Nustačius ribą, kanalų pranešimai, senesni nei pasirinktas laikotarpis, ištrinami atidarius programėlę, ne dažniau kaip kas kelias valandas. Tiesioginiai pranešimai ir kambariai niekada neliečiami. Ištrintų pranešimų atkurti neįmanoma, o saugyklos vietos gali būti atlaisvinta tik vėliau. Atkūrus atsarginę kopiją su pranešimais, riba sustabdoma, kol vėl jos nepatvirtinsite.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Iš atsarginės kopijos (dienų: %1$d) neaktyvu. Norėdami patvirtinti, dar kartą pasirinkite reikšmę.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Ištrinti senus kanalų pranešimus?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Kanalų pranešimai, senesni nei %1$d dienų, bus ištrinti dabar. Pranešimai: %2$d, kanalai: %3$d. Po to senesni kanalų pranešimai bus automatiškai ištrinami kaskart atidarius programėlę. Šio veiksmo atšaukti nebus galima.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Nė vienas kanalo pranešimas nėra senesnis nei %1$d dienų, todėl dabar nieko netrinama. Nuo šiol senesni kanalų pranešimai bus automatiškai ištrinami kaskart atidarius programėlę.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Ištrinti ir įjungti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Įjungti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Trinami seni pranešimai…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Niekada netrinti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Ištrinti pranešimai: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Atmesti atsarginės kopijos reikšmę",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Keli žinomi kartotuvai turi tą patį priešdėlį %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13601,6 +13601,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Reaguoti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Dažnai naudojami",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Šypsenėlės",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Gestai",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Širdelės",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Daiktai",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Kitas jaustukas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Įveskite tiksliai vieną jaustuką",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Reakcijos",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Nepristatyta",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Siuntimas nepavyko",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Jau reagavote šiuo jaustuku",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Į šį pranešimą reaguoti negalima",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Ši reakcija per ilga, kad būtų išsiųsta",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Reakcija %1$s į: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Reakcijos į mano pranešimus",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Reakcija %1$s, kiekis %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Keli žinomi kartotuvai turi tą patį priešdėlį %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Ekranas",
     "_ai": true,
@@ -13613,6 +13703,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Kol pokalbis atidarytas ir KiekR veikia pirmame plane, ekranas pats neišsijungia. Visur kitur galioja įprastas ekrano išsijungimo laikas. Tai naudoja daugiau akumuliatoriaus.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Žinutės laukas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Atidarius fokusuoti žinutės lauką",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Kai įjungta, klaviatūra atsidaro vos atidarius pokalbį, net jei jame yra neperskaitytų žinučių. Kai išjungta, laukas fokusuojamas tik tada, kai jį paliečiate arba atsakote į žinutę.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Vardų pasiūlymai",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Advert kelias",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Nėra naudoja jūsų companion numatytąjį regioną siunčiant potvyniu. Žinomu tiesioginiu keliu siunčiami pranešimai niekada neturi regiono. Nurodykite regioną, jei šiam kontaktui norite naudoti kitą.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

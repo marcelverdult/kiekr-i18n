@@ -3,7 +3,7 @@
     "language": "nb",
     "name": "Norsk bokmål",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Denne nøkkelen tilhører allerede «%1$s».",
@@ -12660,13 +12660,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Ugyldig sensornøkkel.",
+  "sensor_login_title": {
+    "value": "Sensorpålogging",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Kunne ikke dekryptere sensorens svar. Logg inn på nytt.",
+  "sensor_save_to_fav_title": {
+    "value": "Lagre denne sensoren som favoritt?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Favoritter fester denne sensoren for raskere tilgang. Du kan endre dette når som helst via stjerneknappen nedenfor.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12675,53 +12680,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Kunne ikke lese sensorens svar.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Pålogging avvist av sensoren.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Sensorpålogging",
+  "sensor_login_error_parse_failed": {
+    "value": "Kunne ikke lese sensorens svar.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Akselerometer",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Kunne ikke dekryptere sensorens svar. Logg inn på nytt.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Høyde",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Analog inngang",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Analog utgang",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Farge",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Konsentrasjon",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Elektrisk strøm",
+  "sensor_login_error_bad_key": {
+    "value": "Ugyldig sensornøkkel.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12735,8 +12710,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Retning",
+  "sensor_lpp_type_analog_input": {
+    "value": "Analog inngang",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Analog utgang",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Generisk sensor",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Lysstyrke",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Tilstedeværelse",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Temperatur",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Luftfuktighet",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Akselerometer",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Trykk",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Spenning",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Elektrisk strøm",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Frekvens",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Prosent",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Høyde",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Konsentrasjon",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Elektrisk effekt",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12750,63 +12800,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Frekvens",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Generisk sensor",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Gyroskop",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Luftfuktighet",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Lysstyrke",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Prosent",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Elektrisk effekt",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Tilstedeværelse",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Trykk",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Bryter",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Temperatur",
+  "sensor_lpp_type_direction": {
+    "value": "Retning",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12815,18 +12810,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Spenning",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Gyroskop",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Favoritter fester denne sensoren for raskere tilgang. Du kan endre dette når som helst via stjerneknappen nedenfor.",
+  "sensor_lpp_type_colour": {
+    "value": "Farge",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Lagre denne sensoren som favoritt?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Bryter",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12965,56 +12965,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Rompassord",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Legg ut som server",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Melding",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Lagt ut",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Gjester kan lese",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Hvem som helst kan bli med uten passord og lese, men ikke publisere.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Medlemmer logger inn med dette passordet og kan publisere. La stå tomt for å slå det av.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Passord lagret.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Legg til returbane",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Returbanen ville overskride maksimal banelengde.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Koble til noden din for å administrere denne sensoren",
     "_ai": true,
@@ -13067,6 +13017,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Noden din kunne ikke sende forespørselen. Prøv på nytt.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Rompassord",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Legg ut som server",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Melding",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Lagt ut",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Gjester kan lese",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Hvem som helst kan bli med uten passord og lese, men ikke publisere.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Medlemmer logger inn med dette passordet og kan publisere. La stå tomt for å slå det av.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Passord lagret.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Legg til returbane",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Returbanen ville overskride maksimal banelengde.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13220,6 +13220,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Del en posisjon eller kontakt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Del min posisjon",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Mine kontaktopplysninger",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Del en kontakt…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Noden din har ingen posisjon. Angi den under Min node.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Passer ikke: det er ikke nok plass igjen i denne meldingen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Kontaktopplysningene dine er ikke tilgjengelige ennå. Koble til noden din og gi den et navn først.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Del en kontakt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Ingen lagrede kontakter ennå",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Kontakter du har lagret, vises her.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Chatter",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Tilbake",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Lagring av kanalmeldinger",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Slett meldinger som er eldre enn",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dager",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Når en grense er satt, slettes kanalmeldinger som er eldre enn den valgte tiden, når appen åpnes, høyst hver få timer. Direkte meldinger og rom berøres aldri. Slettede meldinger kan ikke gjenopprettes, og lagringsplass kan bli frigjort først senere. Etter gjenoppretting av en sikkerhetskopi med meldinger er grensen satt på pause til du bekrefter den på nytt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Fra sikkerhetskopi: %1$d dager, ikke aktiv. Velg verdien på nytt for å bekrefte.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Slette gamle kanalmeldinger?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanalmeldinger som er eldre enn %1$d dager, slettes nå. Meldinger: %2$d, kanaler: %3$d. Deretter slettes eldre kanalmeldinger automatisk hver gang appen åpnes. Dette kan ikke angres.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Ingen kanalmelding er eldre enn %1$d dager, så ingenting slettes nå. Fra nå av slettes eldre kanalmeldinger automatisk hver gang appen åpnes.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Slett og aktiver",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Aktiver",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Sletter gamle meldinger…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (beregnet %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Vis QR-kode",
     "_ai": true,
@@ -13249,6 +13369,31 @@
     "value": "Kunne ikke dele denne kontakten (kode %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Meldinger i chatter",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Fortsett å søke",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Søker i meldinger",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Ingen meldinger samsvarer med søket ditt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Last inn nyere meldinger",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Slett posisjon",
@@ -13310,78 +13455,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Del en posisjon eller kontakt",
+  "settings_chats_retention_deleted": {
+    "value": "Slettede meldinger: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Del min posisjon",
+  "settings_chats_retention_discard": {
+    "value": "Forkast verdien fra sikkerhetskopien",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Mine kontaktopplysninger",
+  "settings_chats_retention_never": {
+    "value": "Aldri slett",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Del en kontakt…",
+  "ping_collision_title": {
+    "value": "Ping-advarsel",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Noden din har ingen posisjon. Angi den under Min node.",
+  "ping_collision_confirm": {
+    "value": "Ping likevel",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Passer ikke: det er ikke nok plass igjen i denne meldingen.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Kontaktopplysningene dine er ikke tilgjengelige ennå. Koble til noden din og gi den et navn først.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Del en kontakt",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Ingen lagrede kontakter ennå",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Kontakter du har lagret, vises her.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Meldinger i chatter",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Fortsett å søke",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Søker i meldinger",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Ingen meldinger samsvarer med søket ditt.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Last inn nyere meldinger",
+  "ping_collision_message": {
+    "value": "Andre kjente repeatere eller romservere har samme hopp-hash %1$s som %2$s: %3$s. Svaret kan komme fra hvilken som helst av dem.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13455,21 +13555,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping-advarsel",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Andre kjente repeatere eller romservere har samme hopp-hash %1$s som %2$s: %3$s. Svaret kan komme fra hvilken som helst av dem.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Ping likevel",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Lim inn koordinater",
     "_ai": true,
@@ -13477,91 +13562,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Utklippstavlen inneholder ikke koordinater som 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Chatter",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Tilbake",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Lagring av kanalmeldinger",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Slett meldinger som er eldre enn",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d dager",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Når en grense er satt, slettes kanalmeldinger som er eldre enn den valgte tiden, når appen åpnes, høyst hver få timer. Direkte meldinger og rom berøres aldri. Slettede meldinger kan ikke gjenopprettes, og lagringsplass kan bli frigjort først senere. Etter gjenoppretting av en sikkerhetskopi med meldinger er grensen satt på pause til du bekrefter den på nytt.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Fra sikkerhetskopi: %1$d dager, ikke aktiv. Velg verdien på nytt for å bekrefte.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Slette gamle kanalmeldinger?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Kanalmeldinger som er eldre enn %1$d dager, slettes nå. Meldinger: %2$d, kanaler: %3$d. Deretter slettes eldre kanalmeldinger automatisk hver gang appen åpnes. Dette kan ikke angres.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Ingen kanalmelding er eldre enn %1$d dager, så ingenting slettes nå. Fra nå av slettes eldre kanalmeldinger automatisk hver gang appen åpnes.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Slett og aktiver",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Aktiver",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Sletter gamle meldinger…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Aldri slett",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Slettede meldinger: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Forkast verdien fra sikkerhetskopien",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Flere kjente repeatere deler prefikset %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13600,6 +13600,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Reager",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Ofte brukt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Smilefjes",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Gester",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Hjerter",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Objekter",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Annen emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Skriv inn nøyaktig én emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Reaksjoner",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Ikke levert",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Sending mislyktes",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Du har allerede reagert med denne emojien",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Du kan ikke reagere på denne meldingen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Denne reaksjonen er for lang til å sendes",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Reagerte med %1$s på: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Reaksjoner på meldingene mine",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Reaksjon %1$s, antall %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Flere kjente repeatere deler prefikset %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Skjerm",
     "_ai": true,
@@ -13612,6 +13702,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Så lenge en samtale er åpen og KiekR er i forgrunnen, slår ikke skjermen seg av av seg selv. Alle andre steder gjelder det vanlige skjermtidsavbruddet. Dette bruker mer batteri.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Meldingsfelt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Fokuser meldingsfeltet ved åpning",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Når dette er på, åpnes tastaturet så snart du åpner en samtale, også når den har uleste meldinger. Når det er av, får feltet bare fokus når du trykker på det eller svarer på en melding.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Navneforslag",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Advert-sti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Ingen bruker standardregionen til companion-enheten din for sendinger med flom. Meldinger over en kjent direkte sti har aldri en region. Angi en region for å bruke en annen for denne kontakten.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

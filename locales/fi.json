@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Tämä avain kuuluu jo ”%1$s” -sivustolle.",
@@ -12660,13 +12660,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Virheellinen anturin avain.",
+  "sensor_login_title": {
+    "value": "Anturikirjautuminen",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Anturin vastausta ei voitu purkaa. Kirjaudu uudelleen.",
+  "sensor_save_to_fav_title": {
+    "value": "Tallennetaanko tämä anturi suosikkeihin?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Suosikit kiinnittävät tämän anturin nopeampaa käyttöä varten. Voit muuttaa tätä milloin tahansa alla olevasta tähtipainikkeesta.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12675,53 +12680,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Anturin vastausta ei voitu lukea.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Anturi hylkäsi kirjautumisen.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Anturikirjautuminen",
+  "sensor_login_error_parse_failed": {
+    "value": "Anturin vastausta ei voitu lukea.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Kiihtyvyysanturi",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Anturin vastausta ei voitu purkaa. Kirjaudu uudelleen.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Korkeus",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Analoginen tulo",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Analoginen lähtö",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Väri",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Pitoisuus",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Sähkövirta",
+  "sensor_login_error_bad_key": {
+    "value": "Virheellinen anturin avain.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12735,8 +12710,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Suunta",
+  "sensor_lpp_type_analog_input": {
+    "value": "Analoginen tulo",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Analoginen lähtö",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Yleisanturi",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Valaistusvoimakkuus",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Läsnäolo",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Lämpötila",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Kosteus",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Kiihtyvyysanturi",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Ilmanpaine",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Jännite",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Sähkövirta",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Taajuus",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Prosentti",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Korkeus",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Pitoisuus",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Sähköteho",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12750,63 +12800,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Taajuus",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Yleisanturi",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Gyroskooppi",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Kosteus",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Valaistusvoimakkuus",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Prosentti",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Sähköteho",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Läsnäolo",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Ilmanpaine",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Kytkin",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Lämpötila",
+  "sensor_lpp_type_direction": {
+    "value": "Suunta",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12815,18 +12810,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Jännite",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Gyroskooppi",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Suosikit kiinnittävät tämän anturin nopeampaa käyttöä varten. Voit muuttaa tätä milloin tahansa alla olevasta tähtipainikkeesta.",
+  "sensor_lpp_type_colour": {
+    "value": "Väri",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Tallennetaanko tämä anturi suosikkeihin?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Kytkin",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12965,56 +12965,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Huoneen salasana",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Julkaise palvelimena",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Viesti",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Julkaistu",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Vieraat voivat lukea",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Kuka tahansa voi liittyä ilman salasanaa ja lukea, mutta ei julkaista.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Jäsenet kirjautuvat tällä salasanalla ja voivat julkaista. Jätä tyhjäksi poistaaksesi sen käytöstä.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Salasana tallennettu.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Lisää paluupolku",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Paluupolku ylittäisi polun enimmäispituuden.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Yhdistä solmusi hallitaksesi tätä anturia",
     "_ai": true,
@@ -13067,6 +13017,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Solmusi ei pystynyt lähettämään pyyntöä. Yritä uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Huoneen salasana",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Julkaise palvelimena",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Viesti",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Julkaistu",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Vieraat voivat lukea",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Kuka tahansa voi liittyä ilman salasanaa ja lukea, mutta ei julkaista.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Jäsenet kirjautuvat tällä salasanalla ja voivat julkaista. Jätä tyhjäksi poistaaksesi sen käytöstä.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Salasana tallennettu.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Lisää paluupolku",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Paluupolku ylittäisi polun enimmäispituuden.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13220,6 +13220,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Jaa sijainti tai yhteystieto",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Jaa oma sijainti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Omat yhteystiedot",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Jaa yhteystieto…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Solmullasi ei ole sijaintia. Aseta se kohdassa Oma solmu.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Ei mahdu: tähän viestiin ei ole enää tarpeeksi tilaa.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Yhteystietojasi ei ole vielä saatavilla. Yhdistä ensin solmusi ja anna sille nimi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Jaa yhteystieto",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Ei vielä tallennettuja yhteystietoja",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Tallentamasi yhteystiedot näkyvät tässä.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Keskustelut",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Takaisin",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Kanavaviestien säilytys",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Poista viestit, jotka ovat vanhempia kuin",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d päivää",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Kun raja on asetettu, valittua ajanjaksoa vanhemmat kanavaviestit poistetaan sovellusta avattaessa, enintään muutaman tunnin välein. Suoriin viesteihin ja huoneisiin ei koskaan kosketa. Poistettuja viestejä ei voi palauttaa, ja tallennustilaa voi vapautua vasta myöhemmin. Kun varmuuskopio viesteineen on palautettu, raja on tauolla, kunnes se vahvistetaan uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Varmuuskopiosta: %1$d päivää, ei käytössä. Vahvista valitsemalla arvo uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Poistetaanko vanhat kanavaviestit?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanavaviestit, jotka ovat vanhempia kuin %1$d päivää, poistetaan nyt. Viestejä: %2$d, kanavia: %3$d. Tämän jälkeen vanhemmat kanavaviestit poistetaan automaattisesti aina, kun sovellus avataan. Tätä ei voi perua.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Mikään kanavaviesti ei ole vanhempi kuin %1$d päivää, joten nyt ei poisteta mitään. Tästä lähtien vanhemmat kanavaviestit poistetaan automaattisesti aina, kun sovellus avataan.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Poista ja ota käyttöön",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Ota käyttöön",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Poistetaan vanhoja viestejä…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (laskettu %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Näytä QR-koodi",
     "_ai": true,
@@ -13249,6 +13369,31 @@
     "value": "Yhteystiedon jakaminen epäonnistui (koodi %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Viestit keskusteluissa",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Jatka hakua",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Etsitään viesteistä",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Hakusi mukaisia viestejä ei löytynyt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Lataa uudemmat viestit",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Poista sijainti",
@@ -13310,78 +13455,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Jaa sijainti tai yhteystieto",
+  "settings_chats_retention_deleted": {
+    "value": "Poistettuja viestejä: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Jaa oma sijainti",
+  "settings_chats_retention_discard": {
+    "value": "Hylkää varmuuskopion arvo",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Omat yhteystiedot",
+  "settings_chats_retention_never": {
+    "value": "Älä koskaan poista",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Jaa yhteystieto…",
+  "ping_collision_title": {
+    "value": "Ping-varoitus",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Solmullasi ei ole sijaintia. Aseta se kohdassa Oma solmu.",
+  "ping_collision_confirm": {
+    "value": "Pingaa silti",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Ei mahdu: tähän viestiin ei ole enää tarpeeksi tilaa.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Yhteystietojasi ei ole vielä saatavilla. Yhdistä ensin solmusi ja anna sille nimi.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Jaa yhteystieto",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Ei vielä tallennettuja yhteystietoja",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Tallentamasi yhteystiedot näkyvät tässä.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Viestit keskusteluissa",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Jatka hakua",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Etsitään viesteistä",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Hakusi mukaisia viestejä ei löytynyt.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Lataa uudemmat viestit",
+  "ping_collision_message": {
+    "value": "Muilla tunnetuilla toistimilla tai huonepalvelimilla on sama hyppy-hash %1$s kuin kohteella %2$s: %3$s. Vastaus voi tulla miltä tahansa niistä.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13455,21 +13555,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping-varoitus",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Muilla tunnetuilla toistimilla tai huonepalvelimilla on sama hyppy-hash %1$s kuin kohteella %2$s: %3$s. Vastaus voi tulla miltä tahansa niistä.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Pingaa silti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Liitä koordinaatit",
     "_ai": true,
@@ -13477,91 +13562,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Leikepöydällä ei ole koordinaatteja, kuten 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Keskustelut",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Takaisin",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Kanavaviestien säilytys",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Poista viestit, jotka ovat vanhempia kuin",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d päivää",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Kun raja on asetettu, valittua ajanjaksoa vanhemmat kanavaviestit poistetaan sovellusta avattaessa, enintään muutaman tunnin välein. Suoriin viesteihin ja huoneisiin ei koskaan kosketa. Poistettuja viestejä ei voi palauttaa, ja tallennustilaa voi vapautua vasta myöhemmin. Kun varmuuskopio viesteineen on palautettu, raja on tauolla, kunnes se vahvistetaan uudelleen.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Varmuuskopiosta: %1$d päivää, ei käytössä. Vahvista valitsemalla arvo uudelleen.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Poistetaanko vanhat kanavaviestit?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Kanavaviestit, jotka ovat vanhempia kuin %1$d päivää, poistetaan nyt. Viestejä: %2$d, kanavia: %3$d. Tämän jälkeen vanhemmat kanavaviestit poistetaan automaattisesti aina, kun sovellus avataan. Tätä ei voi perua.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Mikään kanavaviesti ei ole vanhempi kuin %1$d päivää, joten nyt ei poisteta mitään. Tästä lähtien vanhemmat kanavaviestit poistetaan automaattisesti aina, kun sovellus avataan.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Poista ja ota käyttöön",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Ota käyttöön",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Poistetaan vanhoja viestejä…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Älä koskaan poista",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Poistettuja viestejä: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Hylkää varmuuskopion arvo",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Useat tunnetut toistimet jakavat etuliitteen %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13600,6 +13600,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Reagoi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Usein käytetyt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Hymiöt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Eleet",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Sydämet",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Esineet",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Muu emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Syötä täsmälleen yksi emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Reaktiot",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Ei toimitettu",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Lähetys epäonnistui",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Olet jo reagoinut tällä emojilla",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Tähän viestiin ei voi reagoida",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Tämä reaktio on liian pitkä lähetettäväksi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Reagoi %1$s viestiin: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Reaktiot viesteihini",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Reaktio %1$s, määrä %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Useat tunnetut toistimet jakavat etuliitteen %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Näyttö",
     "_ai": true,
@@ -13612,6 +13702,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Kun keskustelu on auki ja KiekR on etualalla, näyttö ei sammu itsestään. Muualla on voimassa tavallinen näytön aikakatkaisu. Tämä kuluttaa enemmän akkua.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Viestikenttä",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Aktivoi viestikenttä avattaessa",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Kun asetus on päällä, näppäimistö avautuu heti, kun avaat keskustelun, myös silloin, kun siinä on lukemattomia viestejä. Kun asetus on pois päältä, kenttä aktivoituu vain, kun napautat sitä tai vastaat viestiin.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Nimiehdotukset",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Advertin polku",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Ei mitään käyttää tulvalähetyksissä companion-laitteesi oletusaluetta. Tunnetun suoran reitin kautta kulkevat viestit eivät koskaan sisällä aluetta. Määritä alue, jos haluat käyttää tälle yhteystiedolle eri aluetta.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

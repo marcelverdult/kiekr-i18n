@@ -3,7 +3,7 @@
     "language": "ga",
     "name": "Gaeilge",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Is le \"%1$s\" an eochair seo cheana féin.",
@@ -12660,13 +12660,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Eochair bhraiteora neamhbhailí.",
+  "sensor_login_title": {
+    "value": "Logáil isteach braiteora",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Níorbh fhéidir freagra an bhraiteora a dhíchriptiú. Logáil isteach arís.",
+  "sensor_save_to_fav_title": {
+    "value": "An sábháil an braiteoir seo mar cheanáin?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Greamaíonn Ceanáin an braiteoir seo le haghaidh rochtana níos tapúla. Is féidir leat é seo a athrú am ar bith tríd an gcnaipe réalta thíos.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12675,53 +12680,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Níorbh fhéidir freagra an bhraiteora a léamh.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Dhiúltaigh an braiteoir don logáil isteach.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Logáil isteach braiteora",
+  "sensor_login_error_parse_failed": {
+    "value": "Níorbh fhéidir freagra an bhraiteora a léamh.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Luasmhéadar",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Níorbh fhéidir freagra an bhraiteora a dhíchriptiú. Logáil isteach arís.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Airde",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Ionchur analógach",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Aschur analógach",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Dath",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Tiúchan",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Sruth leictreach",
+  "sensor_login_error_bad_key": {
+    "value": "Eochair bhraiteora neamhbhailí.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12735,8 +12710,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Treo",
+  "sensor_lpp_type_analog_input": {
+    "value": "Ionchur analógach",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Aschur analógach",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Braiteoir ginearálta",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Gile",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Láithreacht",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Teocht",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Taise",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Luasmhéadar",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Brú",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Voltas",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Sruth leictreach",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Minicíocht",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Céatadán",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Airde",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Tiúchan",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Cumhacht leictreach",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12750,63 +12800,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Minicíocht",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Braiteoir ginearálta",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Gíreascóp",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Taise",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Gile",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Céatadán",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Cumhacht leictreach",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Láithreacht",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Brú",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Lasc",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Teocht",
+  "sensor_lpp_type_direction": {
+    "value": "Treo",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12815,18 +12810,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Voltas",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Gíreascóp",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Greamaíonn Ceanáin an braiteoir seo le haghaidh rochtana níos tapúla. Is féidir leat é seo a athrú am ar bith tríd an gcnaipe réalta thíos.",
+  "sensor_lpp_type_colour": {
+    "value": "Dath",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "An sábháil an braiteoir seo mar cheanáin?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Lasc",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12965,56 +12965,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Pasfhocal an tseomra",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Postáil mar fhreastalaí",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Teachtaireacht",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Postáilte",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Is féidir le haíonna léamh",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Is féidir le duine ar bith páirt a ghlacadh gan pasfhocal agus léamh, ach ní féidir postáil.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Síníonn baill isteach leis an bpasfhocal seo agus is féidir leo postáil. Fág folamh chun é a mhúchadh.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Pasfhocal sábháilte.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Cuir an chonair fillte leis",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Sháródh an chonair fillte fad uasta na conaire.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Ceangail do nód chun an braiteoir seo a bhainistiú",
     "_ai": true,
@@ -13067,6 +13017,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Níorbh fhéidir le do nód an iarratas a sheoladh. Bain triail eile as, le do thoil.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Pasfhocal an tseomra",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Postáil mar fhreastalaí",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Teachtaireacht",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Postáilte",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Is féidir le haíonna léamh",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Is féidir le duine ar bith páirt a ghlacadh gan pasfhocal agus léamh, ach ní féidir postáil.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Síníonn baill isteach leis an bpasfhocal seo agus is féidir leo postáil. Fág folamh chun é a mhúchadh.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Pasfhocal sábháilte.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Cuir an chonair fillte leis",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Sháródh an chonair fillte fad uasta na conaire.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13220,6 +13220,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Roinn suíomh nó teagmhálaí",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Roinn mo shuíomh",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Mo shonraí teagmhála",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Roinn teagmhálaí…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Níl suíomh ag do nód. Socraigh é faoi Mo nód.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Ní fhéadann sé teacht isteach: níl go leor spáis fágtha sa teachtaireacht seo.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Níl do shonraí teagmhála ar fáil go fóill. Ceangail do nód ar dtús agus tabhair ainm dó.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Roinn teagmhálaí",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Gan teagmhálaithe sábháilte go fóill",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Taispeánfar anseo na teagmhálaithe a shábhálfaidh tú.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Comhráite",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Ar ais",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Coinneáil teachtaireachtaí cainéil",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Scrios teachtaireachtaí atá níos sine ná",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d lá",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Nuair a shocraítear teorainn, scriostar teachtaireachtaí cainéil atá níos sine ná an aois roghnaithe nuair a osclaítear an aip, uair amháin gach cúpla uair an chloig ar a mhéad. Ní dhéantar teagmháil riamh le teachtaireachtaí díreacha ná seomraí. Ní féidir teachtaireachtaí scriosta a aisghabháil, agus b'fhéidir nach saorfar spás stórála go dtí níos déanaí. Tar éis cúltaca le teachtaireachtaí a athchóiriú, cuirtear an teorainn ar sos go dtí go ndeimhní tú arís í.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Ón gcúltaca: %1$d lá, neamhghníomhach. Roghnaigh an luach arís le deimhniú.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Scrios seanteachtaireachtaí cainéil?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Scriosfar teachtaireachtaí cainéil atá níos sine ná %1$d lá anois. Teachtaireachtaí: %2$d, cainéil: %3$d. As sin amach, scriosfar seanteachtaireachtaí cainéil go huathoibríoch aon uair a osclaítear an aip. Ní féidir é seo a chur ar ceal.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Níl aon teachtaireacht cainéil níos sine ná %1$d lá, mar sin ní scriostar aon rud anois. As seo amach, scriosfar seanteachtaireachtaí cainéil go huathoibríoch aon uair a osclaítear an aip.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Scrios agus cumasaigh",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Cumasaigh",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Seanteachtaireachtaí á scriosadh…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (ríofa %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Taispeáin cód QR",
     "_ai": true,
@@ -13249,6 +13369,31 @@
     "value": "Níorbh fhéidir an teagmhálaí seo a roinnt (cód %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Teachtaireachtaí i gcomhráite",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Lean ort ag cuardach",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Ag cuardach teachtaireachtaí",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Níl aon teachtaireacht a mheaitseálann do chuardach.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Luchtaigh teachtaireachtaí níos nuaí",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Scrios an suíomh",
@@ -13310,78 +13455,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Roinn suíomh nó teagmhálaí",
+  "settings_chats_retention_deleted": {
+    "value": "Teachtaireachtaí scriosta: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Roinn mo shuíomh",
+  "settings_chats_retention_discard": {
+    "value": "Caith uait luach an chúltaca",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Mo shonraí teagmhála",
+  "settings_chats_retention_never": {
+    "value": "Ná scrios riamh",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Roinn teagmhálaí…",
+  "ping_collision_title": {
+    "value": "Rabhadh ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Níl suíomh ag do nód. Socraigh é faoi Mo nód.",
+  "ping_collision_confirm": {
+    "value": "Ping ar aon nós",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Ní fhéadann sé teacht isteach: níl go leor spáis fágtha sa teachtaireacht seo.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Níl do shonraí teagmhála ar fáil go fóill. Ceangail do nód ar dtús agus tabhair ainm dó.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Roinn teagmhálaí",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Gan teagmhálaithe sábháilte go fóill",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Taispeánfar anseo na teagmhálaithe a shábhálfaidh tú.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Teachtaireachtaí i gcomhráite",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Lean ort ag cuardach",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Ag cuardach teachtaireachtaí",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Níl aon teachtaireacht a mheaitseálann do chuardach.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Luchtaigh teachtaireachtaí níos nuaí",
+  "ping_collision_message": {
+    "value": "Roinneann athfhillteoirí nó freastalaithe seomra eile atá ar eolas an hais léime %1$s le %2$s: %3$s. D'fhéadfadh an freagra teacht ó aon cheann acu.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13455,21 +13555,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Rabhadh ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Roinneann athfhillteoirí nó freastalaithe seomra eile atá ar eolas an hais léime %1$s le %2$s: %3$s. D'fhéadfadh an freagra teacht ó aon cheann acu.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Ping ar aon nós",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Greamaigh comhordanáidí",
     "_ai": true,
@@ -13477,91 +13562,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Níl comhordanáidí cosúil le 53.5511, 9.9937 ar an gclipbhord.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Comhráite",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Ar ais",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Coinneáil teachtaireachtaí cainéil",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Scrios teachtaireachtaí atá níos sine ná",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d lá",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Nuair a shocraítear teorainn, scriostar teachtaireachtaí cainéil atá níos sine ná an aois roghnaithe nuair a osclaítear an aip, uair amháin gach cúpla uair an chloig ar a mhéad. Ní dhéantar teagmháil riamh le teachtaireachtaí díreacha ná seomraí. Ní féidir teachtaireachtaí scriosta a aisghabháil, agus b'fhéidir nach saorfar spás stórála go dtí níos déanaí. Tar éis cúltaca le teachtaireachtaí a athchóiriú, cuirtear an teorainn ar sos go dtí go ndeimhní tú arís í.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Ón gcúltaca: %1$d lá, neamhghníomhach. Roghnaigh an luach arís le deimhniú.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Scrios seanteachtaireachtaí cainéil?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Scriosfar teachtaireachtaí cainéil atá níos sine ná %1$d lá anois. Teachtaireachtaí: %2$d, cainéil: %3$d. As sin amach, scriosfar seanteachtaireachtaí cainéil go huathoibríoch aon uair a osclaítear an aip. Ní féidir é seo a chur ar ceal.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Níl aon teachtaireacht cainéil níos sine ná %1$d lá, mar sin ní scriostar aon rud anois. As seo amach, scriosfar seanteachtaireachtaí cainéil go huathoibríoch aon uair a osclaítear an aip.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Scrios agus cumasaigh",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Cumasaigh",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Seanteachtaireachtaí á scriosadh…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Ná scrios riamh",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Teachtaireachtaí scriosta: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Caith uait luach an chúltaca",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Roinneann roinnt athfhillteoirí atá ar eolas an réimír %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13600,6 +13600,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Imoibrigh",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Úsáidte go minic",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Aghaidheanna",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Gothaí",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Croíthe",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Rudaí",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Emoji eile",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Cuir isteach emoji amháin go díreach",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Imoibrithe",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Gan seachadadh",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Teip ar an seoladh",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Tá imoibriú déanta agat cheana leis an emoji seo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Ní féidir leat imoibriú ar an teachtaireacht seo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Tá an t-imoibriú seo rófhada le seoladh",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Imoibriú %1$s ar: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Imoibrithe ar mo theachtaireachtaí",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Imoibriú %1$s, líon %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Roinneann roinnt athfhillteoirí atá ar eolas an réimír %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Scáileán",
     "_ai": true,
@@ -13612,6 +13702,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Fad is atá comhrá oscailte agus KiekR sa tulra, ní mhúchann an scáileán é féin. Gach áit eile, tá an t-am múchta gnáth i bhfeidhm. Úsáideann sé seo níos mó ceallra.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Réimse teachtaireachta",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Fócas ar an réimse teachtaireachta ar oscailt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Nuair atá sé air, osclaítear an méarchlár a luaithe a osclaíonn tú comhrá, fiú nuair a bhíonn teachtaireachtaí neamhléite ann. Nuair atá sé as, ní dhírítear an fócas ar an réimse ach nuair a thapálann tú air nó nuair a fhreagraíonn tú teachtaireacht.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Moltaí ainmneacha",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Conair an Advert",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Le Níl aon cheann, úsáidtear réigiún réamhshocraithe do companion le haghaidh seoltaí tuile. Ní iompraíonn teachtaireachtaí ar chonair dhíreach aitheanta réigiún riamh. Sann réigiún chun ceann eile a úsáid don teagmháil seo.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

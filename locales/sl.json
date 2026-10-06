@@ -3,7 +3,7 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Ta ključ že pripada »%1$s«.",
@@ -12662,13 +12662,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Neveljaven ključ senzorja.",
+  "sensor_login_title": {
+    "value": "Prijava v senzor",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Odgovora senzorja ni bilo mogoče dešifrirati. Ponovno se prijavi.",
+  "sensor_save_to_fav_title": {
+    "value": "Shrani ta senzor med priljubljene?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Priljubljene pripnejo ta senzor za hitrejši dostop. To lahko kadar koli spremeniš z gumbom z zvezdico spodaj.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12677,53 +12682,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Odgovora senzorja ni bilo mogoče prebrati.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Senzor je zavrnil prijavo.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Prijava v senzor",
+  "sensor_login_error_parse_failed": {
+    "value": "Odgovora senzorja ni bilo mogoče prebrati.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Pospeškomer",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Odgovora senzorja ni bilo mogoče dešifrirati. Ponovno se prijavi.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Nadmorska višina",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Analogni vhod",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Analogni izhod",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Barva",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Koncentracija",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Električni tok",
+  "sensor_login_error_bad_key": {
+    "value": "Neveljaven ključ senzorja.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12737,8 +12712,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Smer",
+  "sensor_lpp_type_analog_input": {
+    "value": "Analogni vhod",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Analogni izhod",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Splošni senzor",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Osvetljenost",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Prisotnost",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Temperatura",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Vlažnost",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Pospeškomer",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Tlak",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Napetost",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Električni tok",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Frekvenca",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Odstotek",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Nadmorska višina",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Koncentracija",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Električna moč",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12752,63 +12802,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Frekvenca",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Splošni senzor",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Žiroskop",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Vlažnost",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Osvetljenost",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Odstotek",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Električna moč",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Prisotnost",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Tlak",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Stikalo",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Temperatura",
+  "sensor_lpp_type_direction": {
+    "value": "Smer",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12817,18 +12812,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Napetost",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Žiroskop",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Priljubljene pripnejo ta senzor za hitrejši dostop. To lahko kadar koli spremeniš z gumbom z zvezdico spodaj.",
+  "sensor_lpp_type_colour": {
+    "value": "Barva",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Shrani ta senzor med priljubljene?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Stikalo",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12967,56 +12967,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Geslo sobe",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Objavi kot strežnik",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Sporočilo",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Objavljeno",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Gostje lahko berejo",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Vsakdo se lahko pridruži brez gesla in bere, ne more pa objavljati.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Člani se prijavijo s tem geslom in lahko objavljajo. Pustite prazno, da ga izklopite.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Geslo shranjeno.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Dodaj povratno pot",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Povratna pot bi presegla največjo dolžino poti.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Povežite svoje vozlišče, da upravljate ta senzor",
     "_ai": true,
@@ -13069,6 +13019,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Vaše vozlišče ni moglo poslati zahteve. Poskusite znova.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Geslo sobe",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Objavi kot strežnik",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Sporočilo",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Objavljeno",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Gostje lahko berejo",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Vsakdo se lahko pridruži brez gesla in bere, ne more pa objavljati.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Člani se prijavijo s tem geslom in lahko objavljajo. Pustite prazno, da ga izklopite.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Geslo shranjeno.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Dodaj povratno pot",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Povratna pot bi presegla največjo dolžino poti.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13222,6 +13222,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Deli lokacijo ali stik",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Deli mojo lokacijo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Moji kontaktni podatki",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Deli stik…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Vaše vozlišče nima lokacije. Nastavite jo v Moje vozlišče.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Ne gre: v tem sporočilu ni več dovolj prostora.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Vaši kontaktni podatki še niso na voljo. Najprej povežite svoje vozlišče in mu dajte ime.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Deli stik",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Še ni shranjenih stikov",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Stiki, ki jih shranite, se prikažejo tukaj.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Klepeti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Nazaj",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Hramba sporočil v kanalih",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Izbriši sporočila, starejša od",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dni",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Če je omejitev nastavljena, se sporočila v kanalih, starejša od izbranega obdobja, izbrišejo ob odprtju aplikacije, največ vsakih nekaj ur. Neposredna sporočila in sobe ostanejo vedno nedotaknjena. Izbrisanih sporočil ni mogoče obnoviti, prostor za shranjevanje pa se lahko sprosti šele pozneje. Po obnovitvi varnostne kopije s sporočili je omejitev začasno ustavljena, dokler je znova ne potrdite.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Iz varnostne kopije: %1$d dni, ni aktivno. Za potrditev znova izberite vrednost.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Izbrisati stara sporočila v kanalih?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Sporočila v kanalih, starejša od %1$d dni, bodo zdaj izbrisana. Sporočila: %2$d, kanali: %3$d. Nato se starejša sporočila v kanalih izbrišejo samodejno ob vsakem odprtju aplikacije. Tega dejanja ni mogoče razveljaviti.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Nobeno sporočilo v kanalih ni starejše od %1$d dni, zato se zdaj ne izbriše nič. Odslej se starejša sporočila v kanalih izbrišejo samodejno ob vsakem odprtju aplikacije.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Izbriši in vklopi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Vklopi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Brisanje starih sporočil…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (izračunano %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Pokaži kodo QR",
     "_ai": true,
@@ -13251,6 +13371,31 @@
     "value": "Stika ni bilo mogoče deliti (koda %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Sporočila v klepetih",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Nadaljuj iskanje",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Iskanje sporočil",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Nobeno sporočilo ne ustreza vašemu iskanju.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Naloži novejša sporočila",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Izbriši položaj",
@@ -13312,78 +13457,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Deli lokacijo ali stik",
+  "settings_chats_retention_deleted": {
+    "value": "Izbrisana sporočila: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Deli mojo lokacijo",
+  "settings_chats_retention_discard": {
+    "value": "Zavrzi vrednost iz varnostne kopije",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Moji kontaktni podatki",
+  "settings_chats_retention_never": {
+    "value": "Nikoli ne izbriši",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Deli stik…",
+  "ping_collision_title": {
+    "value": "Opozorilo o pingu",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Vaše vozlišče nima lokacije. Nastavite jo v Moje vozlišče.",
+  "ping_collision_confirm": {
+    "value": "Kljub temu pingaj",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Ne gre: v tem sporočilu ni več dovolj prostora.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Vaši kontaktni podatki še niso na voljo. Najprej povežite svoje vozlišče in mu dajte ime.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Deli stik",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Še ni shranjenih stikov",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Stiki, ki jih shranite, se prikažejo tukaj.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Sporočila v klepetih",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Nadaljuj iskanje",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Iskanje sporočil",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Nobeno sporočilo ne ustreza vašemu iskanju.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Naloži novejša sporočila",
+  "ping_collision_message": {
+    "value": "Drugi znani ponavljalniki ali sobni strežniki imajo enak hash skoka %1$s kot %2$s: %3$s. Odgovor lahko pride od katerega koli izmed njih.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13457,21 +13557,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Opozorilo o pingu",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Drugi znani ponavljalniki ali sobni strežniki imajo enak hash skoka %1$s kot %2$s: %3$s. Odgovor lahko pride od katerega koli izmed njih.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Kljub temu pingaj",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Prilepi koordinate",
     "_ai": true,
@@ -13479,91 +13564,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Odložišče ne vsebuje koordinat, kot je 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Klepeti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Nazaj",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Hramba sporočil v kanalih",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Izbriši sporočila, starejša od",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d dni",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Če je omejitev nastavljena, se sporočila v kanalih, starejša od izbranega obdobja, izbrišejo ob odprtju aplikacije, največ vsakih nekaj ur. Neposredna sporočila in sobe ostanejo vedno nedotaknjena. Izbrisanih sporočil ni mogoče obnoviti, prostor za shranjevanje pa se lahko sprosti šele pozneje. Po obnovitvi varnostne kopije s sporočili je omejitev začasno ustavljena, dokler je znova ne potrdite.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Iz varnostne kopije: %1$d dni, ni aktivno. Za potrditev znova izberite vrednost.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Izbrisati stara sporočila v kanalih?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Sporočila v kanalih, starejša od %1$d dni, bodo zdaj izbrisana. Sporočila: %2$d, kanali: %3$d. Nato se starejša sporočila v kanalih izbrišejo samodejno ob vsakem odprtju aplikacije. Tega dejanja ni mogoče razveljaviti.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Nobeno sporočilo v kanalih ni starejše od %1$d dni, zato se zdaj ne izbriše nič. Odslej se starejša sporočila v kanalih izbrišejo samodejno ob vsakem odprtju aplikacije.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Izbriši in vklopi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Vklopi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Brisanje starih sporočil…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Nikoli ne izbriši",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Izbrisana sporočila: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Zavrzi vrednost iz varnostne kopije",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Več znanih ponavljalnikov deli predpono %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13602,6 +13602,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Odzovi se",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Pogosto uporabljeno",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Smeški",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Kretnje",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Srca",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Predmeti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Drug emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Vnesite natanko en emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Odzivi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Ni dostavljeno",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Pošiljanje ni uspelo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "S tem emojijem ste se že odzvali",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Na to sporočilo se ni mogoče odzvati",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Ta odziv je predolg za pošiljanje",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Odziv %1$s na: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Odzivi na moja sporočila",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Odziv %1$s, število %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Več znanih ponavljalnikov deli predpono %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Zaslon",
     "_ai": true,
@@ -13614,6 +13704,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Dokler je pogovor odprt in je KiekR v ospredju, se zaslon ne izklopi sam. Povsod drugje velja običajni čas izklopa zaslona. To porabi več baterije.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Polje za sporočilo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Ob odprtju aktiviraj polje za sporočilo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Ko je vklopljeno, se tipkovnica odpre takoj, ko odprete pogovor, tudi če ima neprebrana sporočila. Ko je izklopljeno, se polje aktivira šele, ko se ga dotaknete ali odgovorite na sporočilo.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Predlogi imen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Pot Adverta",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Nič uporablja privzeto regijo vašega companiona za pošiljanje s poplavo. Sporočila po znani neposredni poti nikoli ne nosijo regije. Določite regijo, če želite za ta stik uporabiti drugo.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

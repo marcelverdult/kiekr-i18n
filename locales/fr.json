@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Cette clé appartient déjà à « %1$s ».",
@@ -11941,6 +11941,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Partager une position ou un contact",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Partager ma position",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Mes coordonnées de contact",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Partager un contact…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Votre nœud n'a pas de position. Définissez-la dans Mon nœud.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Ça ne tient pas : il ne reste pas assez de place dans ce message.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Vos coordonnées de contact ne sont pas encore disponibles. Connectez d'abord votre nœud et donnez-lui un nom.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Partager un contact",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Aucun contact enregistré pour l'instant",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Les contacts que vous avez enregistrés apparaissent ici.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Discussions",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Retour",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Conservation des messages des canaux",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Supprimer les messages plus anciens que",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d jours",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Lorsqu'une limite est définie, les messages des canaux plus anciens que la durée choisie sont supprimés à l'ouverture de l'app, au plus toutes les quelques heures. Les messages directs et les salles ne sont jamais touchés. Les messages supprimés ne peuvent pas être restaurés, et l'espace de stockage peut n'être libéré que plus tard. Après la restauration d'une sauvegarde contenant des messages, la limite est suspendue jusqu'à ce que vous la confirmiez à nouveau.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Depuis la sauvegarde : %1$d jours, inactif. Choisissez à nouveau la valeur pour confirmer.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Supprimer les anciens messages des canaux ?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Les messages des canaux plus anciens que %1$d jours vont être supprimés maintenant. Messages : %2$d, canaux : %3$d. Ensuite, les anciens messages des canaux seront supprimés automatiquement à chaque ouverture de l'app. Cette action est irréversible.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Aucun message de canal n'est plus ancien que %1$d jours, donc rien n'est supprimé pour l'instant. Désormais, les anciens messages des canaux seront supprimés automatiquement à chaque ouverture de l'app.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Supprimer et activer",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Activer",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Suppression des anciens messages…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (calculé %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Afficher le code QR",
     "_ai": true,
@@ -11970,6 +12090,31 @@
     "value": "Impossible de partager ce contact (code %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Messages dans les discussions",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Continuer la recherche",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Recherche dans les messages",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Aucun message ne correspond à votre recherche.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Charger les messages plus récents",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Supprimer la position",
@@ -12031,78 +12176,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Partager une position ou un contact",
+  "settings_chats_retention_never": {
+    "value": "Ne jamais supprimer",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Partager ma position",
+  "settings_chats_retention_deleted": {
+    "value": "Messages supprimés : %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Mes coordonnées de contact",
+  "settings_chats_retention_discard": {
+    "value": "Ignorer la valeur de la sauvegarde",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Partager un contact…",
+  "ping_collision_title": {
+    "value": "Avertissement de ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Votre nœud n'a pas de position. Définissez-la dans Mon nœud.",
+  "ping_collision_message": {
+    "value": "D'autres répéteurs ou serveurs de room connus partagent le hash de saut %1$s avec %2$s : %3$s. La réponse peut venir de n'importe lequel d'entre eux.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Ça ne tient pas : il ne reste pas assez de place dans ce message.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Vos coordonnées de contact ne sont pas encore disponibles. Connectez d'abord votre nœud et donnez-lui un nom.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Partager un contact",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Aucun contact enregistré pour l'instant",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Les contacts que vous avez enregistrés apparaissent ici.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Messages dans les discussions",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Continuer la recherche",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Recherche dans les messages",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Aucun message ne correspond à votre recherche.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Charger les messages plus récents",
+  "ping_collision_confirm": {
+    "value": "Pinguer quand même",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -12176,21 +12276,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Avertissement de ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "D'autres répéteurs ou serveurs de room connus partagent le hash de saut %1$s avec %2$s : %3$s. La réponse peut venir de n'importe lequel d'entre eux.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Pinguer quand même",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Coller les coordonnées",
     "_ai": true,
@@ -12198,91 +12283,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Le presse-papiers ne contient pas de coordonnées comme 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Discussions",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Retour",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Conservation des messages des canaux",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Supprimer les messages plus anciens que",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d jours",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Lorsqu'une limite est définie, les messages des canaux plus anciens que la durée choisie sont supprimés à l'ouverture de l'app, au plus toutes les quelques heures. Les messages directs et les salles ne sont jamais touchés. Les messages supprimés ne peuvent pas être restaurés, et l'espace de stockage peut n'être libéré que plus tard. Après la restauration d'une sauvegarde contenant des messages, la limite est suspendue jusqu'à ce que vous la confirmiez à nouveau.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Depuis la sauvegarde : %1$d jours, inactif. Choisissez à nouveau la valeur pour confirmer.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Supprimer les anciens messages des canaux ?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Les messages des canaux plus anciens que %1$d jours vont être supprimés maintenant. Messages : %2$d, canaux : %3$d. Ensuite, les anciens messages des canaux seront supprimés automatiquement à chaque ouverture de l'app. Cette action est irréversible.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Aucun message de canal n'est plus ancien que %1$d jours, donc rien n'est supprimé pour l'instant. Désormais, les anciens messages des canaux seront supprimés automatiquement à chaque ouverture de l'app.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Supprimer et activer",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Activer",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Suppression des anciens messages…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Ne jamais supprimer",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Messages supprimés : %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Ignorer la valeur de la sauvegarde",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Plusieurs répéteurs connus partagent le préfixe %1$s : %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -12321,6 +12321,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Réagir",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Fréquemment utilisés",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Smileys",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Gestes",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Cœurs",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Objets",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Autre emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Saisissez exactement un emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Réactions",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Non distribué",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Échec de l'envoi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Vous avez déjà réagi avec cet emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Vous ne pouvez pas réagir à ce message",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Cette réaction est trop longue pour être envoyée",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "A réagi avec %1$s à : %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Réactions à mes messages",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Réaction %1$s, nombre %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Plusieurs répéteurs connus partagent le préfixe %1$s : %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Écran",
     "_ai": true,
@@ -12333,6 +12423,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Tant qu'une conversation est ouverte et que KiekR est au premier plan, l'écran ne s'éteint pas tout seul. Partout ailleurs, la mise en veille normale de l'écran s'applique. Cela consomme plus de batterie.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Champ de message",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Activer le champ de message à l'ouverture",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Lorsque l'option est activée, le clavier s'ouvre dès que vous ouvrez une conversation, même si elle contient des messages non lus. Lorsqu'elle est désactivée, le champ n'est activé que lorsque vous le touchez ou répondez à un message.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Suggestions de noms",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Chemin de l'advert",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Aucune utilise la région par défaut de votre companion pour les envois en flood. Les messages passant par un chemin direct connu ne portent jamais de région. Attribuez une région pour en utiliser une autre pour ce contact.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

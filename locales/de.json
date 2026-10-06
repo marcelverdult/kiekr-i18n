@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "kiekr-team",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "app_upgrade_body": {
     "value": "Öffne die App erneut, um die neue Version fertig zu laden.",
@@ -10797,6 +10797,102 @@
     "value": "Beibehalten",
     "_human": true
   },
+  "chat_compose_share_cd": {
+    "value": "Position oder Kontakt teilen",
+    "_human": true
+  },
+  "chat_compose_share_position": {
+    "value": "Meine Position teilen",
+    "_human": true
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Meine Kontaktdaten",
+    "_human": true
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Kontakt teilen…",
+    "_human": true
+  },
+  "chat_compose_share_no_position": {
+    "value": "Dein Node hat keine Position. Lege sie unter Mein Node fest.",
+    "_human": true
+  },
+  "chat_compose_share_too_long": {
+    "value": "Passt nicht: In dieser Nachricht ist nicht genug Platz übrig.",
+    "_human": true
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Deine Kontaktdaten sind noch nicht verfügbar. Verbinde deinen Node und gib ihm zuerst einen Namen.",
+    "_human": true
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Kontakt teilen",
+    "_human": true
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Noch keine gespeicherten Kontakte",
+    "_human": true
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Von dir gespeicherte Kontakte erscheinen hier.",
+    "_human": true
+  },
+  "settings_home_entry_chats": {
+    "value": "Chats",
+    "_human": true
+  },
+  "settings_chats_cd_back": {
+    "value": "Zurück",
+    "_human": true
+  },
+  "settings_chats_retention_header": {
+    "value": "Aufbewahrung von Kanal-Nachrichten",
+    "_human": true
+  },
+  "settings_chats_retention_picker": {
+    "value": "Nachrichten löschen, die älter sind als",
+    "_human": true
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d Tage",
+    "_human": true
+  },
+  "settings_chats_retention_footer": {
+    "value": "Ist ein Limit gesetzt, werden Kanal-Nachrichten, die älter als die gewählte Dauer sind, beim Öffnen der App gelöscht, höchstens alle paar Stunden. Direktnachrichten und Räume bleiben unberührt. Gelöschte Nachrichten lassen sich nicht wiederherstellen, und Speicherplatz wird eventuell erst später frei. Nach dem Wiederherstellen eines Backups mit Nachrichten pausiert die Grenze, bis du sie erneut bestätigst.",
+    "_human": true
+  },
+  "settings_chats_retention_pending": {
+    "value": "Aus dem Backup: %1$d Tage, nicht aktiv. Wähle den Wert erneut, um ihn zu bestätigen.",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Alte Kanal-Nachrichten löschen?",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanal-Nachrichten, die älter als %1$d Tage sind, werden jetzt gelöscht. Nachrichten: %2$d, Kanäle: %3$d. Danach werden ältere Kanal-Nachrichten automatisch gelöscht, sobald die App geöffnet wird. Das kann nicht rückgängig gemacht werden.",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Keine Kanal-Nachricht ist älter als %1$d Tage, daher wird jetzt nichts gelöscht. Ab jetzt werden ältere Kanal-Nachrichten automatisch gelöscht, sobald die App geöffnet wird.",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Löschen und aktivieren",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Aktivieren",
+    "_human": true
+  },
+  "settings_chats_retention_working": {
+    "value": "Alte Nachrichten werden gelöscht ...",
+    "_human": true
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (berechnet %2$s)",
+    "_human": true
+  },
   "nodes_share_menu_qr": {
     "value": "QR-Code zeigen",
     "_human": true
@@ -10819,6 +10915,26 @@
   },
   "nodes_share_advert_toast_failed": {
     "value": "Der Kontakt konnte nicht geteilt werden (Code %1$d).",
+    "_human": true
+  },
+  "chat_search_messages_header": {
+    "value": "Nachrichten in Chats",
+    "_human": true
+  },
+  "chat_search_more": {
+    "value": "Weitersuchen",
+    "_human": true
+  },
+  "chat_search_running": {
+    "value": "Nachrichten werden durchsucht",
+    "_human": true
+  },
+  "chat_search_no_messages": {
+    "value": "Keine Nachricht passt zu deiner Suche.",
+    "_human": true
+  },
+  "chat_load_newer": {
+    "value": "Neuere Nachrichten laden",
     "_human": true
   },
   "mynode_delete_position_row_action": {
@@ -10869,64 +10985,28 @@
     "value": "Die Versionshinweise sind auf Englisch.",
     "_human": true
   },
-  "chat_compose_share_cd": {
-    "value": "Position oder Kontakt teilen",
+  "settings_chats_retention_never": {
+    "value": "Nie löschen",
     "_human": true
   },
-  "chat_compose_share_position": {
-    "value": "Meine Position teilen",
+  "settings_chats_retention_deleted": {
+    "value": "Gelöschte Nachrichten: %1$d",
     "_human": true
   },
-  "chat_compose_share_own_contact": {
-    "value": "Meine Kontaktdaten",
+  "settings_chats_retention_discard": {
+    "value": "Wert aus dem Backup verwerfen",
     "_human": true
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Kontakt teilen…",
+  "ping_collision_title": {
+    "value": "Ping-Warnung",
     "_human": true
   },
-  "chat_compose_share_no_position": {
-    "value": "Dein Node hat keine Position. Lege sie unter Mein Node fest.",
+  "ping_collision_message": {
+    "value": "Andere bekannte Repeater oder Room-Server haben denselben Hop-Hash %1$s wie %2$s: %3$s. Die Antwort kann von jedem von ihnen kommen.",
     "_human": true
   },
-  "chat_compose_share_too_long": {
-    "value": "Passt nicht: In dieser Nachricht ist nicht genug Platz übrig.",
-    "_human": true
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Deine Kontaktdaten sind noch nicht verfügbar. Verbinde deinen Node und gib ihm zuerst einen Namen.",
-    "_human": true
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Kontakt teilen",
-    "_human": true
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Noch keine gespeicherten Kontakte",
-    "_human": true
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Von dir gespeicherte Kontakte erscheinen hier.",
-    "_human": true
-  },
-  "chat_search_messages_header": {
-    "value": "Nachrichten in Chats",
-    "_human": true
-  },
-  "chat_search_more": {
-    "value": "Weitersuchen",
-    "_human": true
-  },
-  "chat_search_running": {
-    "value": "Nachrichten werden durchsucht",
-    "_human": true
-  },
-  "chat_search_no_messages": {
-    "value": "Keine Nachricht passt zu deiner Suche.",
-    "_human": true
-  },
-  "chat_load_newer": {
-    "value": "Neuere Nachrichten laden",
+  "ping_collision_confirm": {
+    "value": "Trotzdem pingen",
     "_human": true
   },
   "mynode_wifi_auto_reconnect_row_title": {
@@ -10985,92 +11065,12 @@
     "value": "Bluetooth-Scan fehlgeschlagen (Code %1$d)",
     "_human": true
   },
-  "ping_collision_title": {
-    "value": "Ping-Warnung",
-    "_human": true
-  },
-  "ping_collision_message": {
-    "value": "Andere bekannte Repeater oder Room-Server haben denselben Hop-Hash %1$s wie %2$s: %3$s. Die Antwort kann von jedem von ihnen kommen.",
-    "_human": true
-  },
-  "ping_collision_confirm": {
-    "value": "Trotzdem pingen",
-    "_human": true
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Koordinaten einfügen",
     "_human": true
   },
   "mynode_advert_paste_invalid": {
     "value": "Die Zwischenablage enthält keine Koordinaten wie 53.5511, 9.9937.",
-    "_human": true
-  },
-  "settings_home_entry_chats": {
-    "value": "Chats",
-    "_human": true
-  },
-  "settings_chats_cd_back": {
-    "value": "Zurück",
-    "_human": true
-  },
-  "settings_chats_retention_header": {
-    "value": "Aufbewahrung von Kanal-Nachrichten",
-    "_human": true
-  },
-  "settings_chats_retention_picker": {
-    "value": "Nachrichten löschen, die älter sind als",
-    "_human": true
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d Tage",
-    "_human": true
-  },
-  "settings_chats_retention_footer": {
-    "value": "Ist ein Limit gesetzt, werden Kanal-Nachrichten, die älter als die gewählte Dauer sind, beim Öffnen der App gelöscht, höchstens alle paar Stunden. Direktnachrichten und Räume bleiben unberührt. Gelöschte Nachrichten lassen sich nicht wiederherstellen, und Speicherplatz wird eventuell erst später frei. Nach dem Wiederherstellen eines Backups mit Nachrichten pausiert die Grenze, bis du sie erneut bestätigst.",
-    "_human": true
-  },
-  "settings_chats_retention_pending": {
-    "value": "Aus dem Backup: %1$d Tage, nicht aktiv. Wähle den Wert erneut, um ihn zu bestätigen.",
-    "_human": true
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Alte Kanal-Nachrichten löschen?",
-    "_human": true
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Kanal-Nachrichten, die älter als %1$d Tage sind, werden jetzt gelöscht. Nachrichten: %2$d, Kanäle: %3$d. Danach werden ältere Kanal-Nachrichten automatisch gelöscht, sobald die App geöffnet wird. Das kann nicht rückgängig gemacht werden.",
-    "_human": true
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Keine Kanal-Nachricht ist älter als %1$d Tage, daher wird jetzt nichts gelöscht. Ab jetzt werden ältere Kanal-Nachrichten automatisch gelöscht, sobald die App geöffnet wird.",
-    "_human": true
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Löschen und aktivieren",
-    "_human": true
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Aktivieren",
-    "_human": true
-  },
-  "settings_chats_retention_working": {
-    "value": "Alte Nachrichten werden gelöscht ...",
-    "_human": true
-  },
-  "settings_chats_retention_never": {
-    "value": "Nie löschen",
-    "_human": true
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Gelöschte Nachrichten: %1$d",
-    "_human": true
-  },
-  "settings_chats_retention_discard": {
-    "value": "Wert aus dem Backup verwerfen",
-    "_human": true
-  },
-  "path_hop_shared_prefix": {
-    "value": "Mehrere bekannte Repeater teilen das Präfix %1$s: %2$s",
     "_human": true
   },
   "settings_chats_drafts_header": {
@@ -11101,6 +11101,78 @@
     "value": "Entwürfe löschen",
     "_human": true
   },
+  "chat_menu_react": {
+    "value": "Reagieren",
+    "_human": true
+  },
+  "reactions_group_frequent": {
+    "value": "Häufig verwendet",
+    "_human": true
+  },
+  "reactions_group_smileys": {
+    "value": "Smileys",
+    "_human": true
+  },
+  "reactions_group_gestures": {
+    "value": "Gesten",
+    "_human": true
+  },
+  "reactions_group_hearts": {
+    "value": "Herzen",
+    "_human": true
+  },
+  "reactions_group_objects": {
+    "value": "Objekte",
+    "_human": true
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Anderes Emoji",
+    "_human": true
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Genau ein Emoji eingeben",
+    "_human": true
+  },
+  "reactions_details_title": {
+    "value": "Reaktionen",
+    "_human": true
+  },
+  "reactions_state_undelivered": {
+    "value": "Nicht zugestellt",
+    "_human": true
+  },
+  "reactions_state_failed": {
+    "value": "Senden fehlgeschlagen",
+    "_human": true
+  },
+  "reactions_error_already_reacted": {
+    "value": "Du hast schon mit diesem Emoji reagiert",
+    "_human": true
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Auf diese Nachricht kann nicht reagiert werden",
+    "_human": true
+  },
+  "reactions_error_too_long": {
+    "value": "Diese Reaktion ist zu lang zum Senden",
+    "_human": true
+  },
+  "reactions_notification_body": {
+    "value": "Hat mit %1$s reagiert: %2$s",
+    "_human": true
+  },
+  "settings_notify_reactions": {
+    "value": "Reaktionen auf meine Nachrichten",
+    "_human": true
+  },
+  "reactions_cd_chip": {
+    "value": "Reaktion %1$s, Anzahl %2$d",
+    "_human": true
+  },
+  "path_hop_shared_prefix": {
+    "value": "Mehrere bekannte Repeater teilen das Präfix %1$s: %2$s",
+    "_human": true
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Anzeige",
     "_human": true
@@ -11111,6 +11183,30 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Solange eine Unterhaltung offen ist und KiekR im Vordergrund läuft, schaltet sich der Bildschirm nicht von selbst aus. Überall sonst gilt die normale Zeitsperre. Das verbraucht mehr Akku.",
+    "_human": true
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Nachrichtenfeld",
+    "_human": true
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Nachrichtenfeld beim Öffnen fokussieren",
+    "_human": true
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Wenn an, öffnet sich die Tastatur, sobald du eine Unterhaltung öffnest, auch wenn sie ungelesene Nachrichten hat. Wenn aus, wird das Feld erst fokussiert, wenn du es antippst oder auf eine Nachricht antwortest.",
+    "_human": true
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Namensvorschläge",
+    "_human": true
+  },
+  "nodes_detail_advert_path": {
+    "value": "Advert-Pfad",
+    "_human": true
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Keine nutzt für Flood-Sendungen die Standardregion deines Companions. Nachrichten über einen bekannten direkten Pfad tragen nie eine Region. Weise eine Region zu, um für diesen Kontakt eine andere zu nutzen.",
     "_human": true
   }
 }

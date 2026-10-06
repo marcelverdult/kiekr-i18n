@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Din iċ-ċavetta diġà tappartjeni lil \"%1$s\".",
@@ -12660,13 +12660,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Ċavetta tas-sensor mhux valida.",
+  "sensor_login_title": {
+    "value": "Login tas-sensor",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Ma setax jiġi dekriptat ir-risposta tas-sensor. Erġa' agħmel login.",
+  "sensor_save_to_fav_title": {
+    "value": "Issejvja dan is-sensor fost il-favoriti?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Il-favoriti jwaħħlu dan is-sensor għal aċċess aktar mgħaġġel. Tista' tibdel dan f'kull ħin permezz tal-buttuna bl-istilla hawn taħt.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12675,53 +12680,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Ma setax jinqara r-risposta tas-sensor.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Is-sensor irrifjuta l-login.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Login tas-sensor",
+  "sensor_login_error_parse_failed": {
+    "value": "Ma setax jinqara r-risposta tas-sensor.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Aċċelerometru",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Ma setax jiġi dekriptat ir-risposta tas-sensor. Erġa' agħmel login.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Għoli",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Input analogu",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Output analogu",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Kulur",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Konċentrazzjoni",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Kurrent elettriku",
+  "sensor_login_error_bad_key": {
+    "value": "Ċavetta tas-sensor mhux valida.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12735,8 +12710,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Direzzjoni",
+  "sensor_lpp_type_analog_input": {
+    "value": "Input analogu",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Output analogu",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Sensor ġeneriku",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Luminożità",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Preżenza",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Temperatura",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Umdità",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Aċċelerometru",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Pressjoni",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Vultaġġ",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Kurrent elettriku",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Frekwenza",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Perċentwal",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Għoli",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Konċentrazzjoni",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Enerġija elettrika",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12750,63 +12800,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Frekwenza",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Sensor ġeneriku",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Ġiroskopju",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Umdità",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Luminożità",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Perċentwal",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Enerġija elettrika",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Preżenza",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Pressjoni",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Swiċċ",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Temperatura",
+  "sensor_lpp_type_direction": {
+    "value": "Direzzjoni",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12815,18 +12810,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Vultaġġ",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Ġiroskopju",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Il-favoriti jwaħħlu dan is-sensor għal aċċess aktar mgħaġġel. Tista' tibdel dan f'kull ħin permezz tal-buttuna bl-istilla hawn taħt.",
+  "sensor_lpp_type_colour": {
+    "value": "Kulur",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Issejvja dan is-sensor fost il-favoriti?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Swiċċ",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12965,56 +12965,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Password tal-kamra",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Ippostja bħala server",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Messaġġ",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Ippostjat",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Il-mistednin jistgħu jaqraw",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Kulħadd jista' jingħaqad mingħajr password u jaqra, iżda mhux jippostja.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Il-membri jidħlu b'din il-password u jistgħu jippostjaw. Ħalliha vojta biex tiddiżattivaha.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Il-password ġiet salvata.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Żid it-triq tar-ritorn",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "It-triq tar-ritorn tkun taqbeż it-tul massimu tat-triq.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Ikkonnettja n-nodu tiegħek biex timmaniġġja dan is-sensor",
     "_ai": true,
@@ -13067,6 +13017,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "In-nodu tiegħek ma setax jibgħat it-talba. Jekk jogħġbok erġa' pprova.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Password tal-kamra",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Ippostja bħala server",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Messaġġ",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Ippostjat",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Il-mistednin jistgħu jaqraw",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Kulħadd jista' jingħaqad mingħajr password u jaqra, iżda mhux jippostja.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Il-membri jidħlu b'din il-password u jistgħu jippostjaw. Ħalliha vojta biex tiddiżattivaha.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Il-password ġiet salvata.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Żid it-triq tar-ritorn",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "It-triq tar-ritorn tkun taqbeż it-tul massimu tat-triq.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13220,6 +13220,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Aqsam pożizzjoni jew kuntatt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Aqsam il-pożizzjoni tiegħi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Id-dettalji tal-kuntatt tiegħi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Aqsam kuntatt…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "In-nod tiegħek m'għandux pożizzjoni. Issettjaha taħt In-nod tiegħi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Ma jidħolx: m'hemmx biżżejjed spazju fdal f'dan il-messaġġ.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Id-dettalji tal-kuntatt tiegħek għadhom mhux disponibbli. L-ewwel qabbad in-nod tiegħek u agħtih isem.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Aqsam kuntatt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Għad m'hemm l-ebda kuntatt salvat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Il-kuntatti li salvajt jidhru hawn.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Ċatti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Lura",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Żamma tal-messaġġi tal-kanali",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Ħassar messaġġi eqdem minn",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "Jiem: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Meta jkun hemm limitu stabbilit, il-messaġġi tal-kanali eqdem mill-perjodu magħżul jitħassru meta tinfetaħ l-app, l-aktar darba kull ftit sigħat. Il-messaġġi diretti u l-kmamar qatt ma jintmessu. Il-messaġġi mħassra ma jistgħux jiġu rkuprati, u l-ispazju tal-ħażna jista' jinħeles aktar tard biss. Wara r-restawr ta' backup b'messaġġi, il-limitu jitwaqqaf temporanjament sakemm tikkonferma mill-ġdid.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Mill-backup (jiem: %1$d), mhux attiv. Agħżel il-valur mill-ġdid biex tikkonferma.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Ħassar il-messaġġi l-qodma tal-kanali?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Il-messaġġi tal-kanali eqdem minn %1$d jiem se jitħassru issa. Messaġġi: %2$d, kanali: %3$d. Minn dak il-ħin 'l quddiem, il-messaġġi tal-kanali l-eqdem jitħassru awtomatikament kull meta tinfetaħ l-app. Dan ma jistax jiġi mreġġa' lura.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "L-ebda messaġġ ta' kanal mhu eqdem minn %1$d jiem, mela issa ma jitħassar xejn. Minn issa 'l quddiem, il-messaġġi tal-kanali l-eqdem jitħassru awtomatikament kull meta tinfetaħ l-app.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Ħassar u attiva",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Attiva",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Qed jitħassru l-messaġġi l-qodma…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (ikkalkolat %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Uri l-kodiċi QR",
     "_ai": true,
@@ -13249,6 +13369,31 @@
     "value": "Ma setax jinqasam dan il-kuntatt (kodiċi %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Messaġġi fiċ-ċatti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Kompli fittex",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Qed jiġu mfittxa l-messaġġi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "L-ebda messaġġ ma jaqbel mat-tfittxija tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Tella' messaġġi aktar ġodda",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Ħassar il-pożizzjoni",
@@ -13310,78 +13455,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Aqsam pożizzjoni jew kuntatt",
+  "settings_chats_retention_deleted": {
+    "value": "Messaġġi mħassra: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Aqsam il-pożizzjoni tiegħi",
+  "settings_chats_retention_discard": {
+    "value": "Ċaħad il-valur tal-backup",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Id-dettalji tal-kuntatt tiegħi",
+  "settings_chats_retention_never": {
+    "value": "Qatt ma tħassar",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Aqsam kuntatt…",
+  "ping_collision_title": {
+    "value": "Twissija dwar ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "In-nod tiegħek m'għandux pożizzjoni. Issettjaha taħt In-nod tiegħi.",
+  "ping_collision_confirm": {
+    "value": "Ping xorta waħda",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Ma jidħolx: m'hemmx biżżejjed spazju fdal f'dan il-messaġġ.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Id-dettalji tal-kuntatt tiegħek għadhom mhux disponibbli. L-ewwel qabbad in-nod tiegħek u agħtih isem.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Aqsam kuntatt",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Għad m'hemm l-ebda kuntatt salvat",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Il-kuntatti li salvajt jidhru hawn.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Messaġġi fiċ-ċatti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Kompli fittex",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Qed jiġu mfittxa l-messaġġi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "L-ebda messaġġ ma jaqbel mat-tfittxija tiegħek.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Tella' messaġġi aktar ġodda",
+  "ping_collision_message": {
+    "value": "Repeaters oħra magħrufa jew servers tal-kamra jaqsmu l-hash tal-hop %1$s ma' %2$s: %3$s. It-tweġiba tista' tiġi minn kwalunkwe wieħed minnhom.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13455,21 +13555,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Twissija dwar ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Repeaters oħra magħrufa jew servers tal-kamra jaqsmu l-hash tal-hop %1$s ma' %2$s: %3$s. It-tweġiba tista' tiġi minn kwalunkwe wieħed minnhom.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Ping xorta waħda",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Ippejstja l-koordinati",
     "_ai": true,
@@ -13477,91 +13562,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Il-clipboard ma fihx koordinati bħal 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Ċatti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Lura",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Żamma tal-messaġġi tal-kanali",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Ħassar messaġġi eqdem minn",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "Jiem: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Meta jkun hemm limitu stabbilit, il-messaġġi tal-kanali eqdem mill-perjodu magħżul jitħassru meta tinfetaħ l-app, l-aktar darba kull ftit sigħat. Il-messaġġi diretti u l-kmamar qatt ma jintmessu. Il-messaġġi mħassra ma jistgħux jiġu rkuprati, u l-ispazju tal-ħażna jista' jinħeles aktar tard biss. Wara r-restawr ta' backup b'messaġġi, il-limitu jitwaqqaf temporanjament sakemm tikkonferma mill-ġdid.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Mill-backup (jiem: %1$d), mhux attiv. Agħżel il-valur mill-ġdid biex tikkonferma.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Ħassar il-messaġġi l-qodma tal-kanali?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Il-messaġġi tal-kanali eqdem minn %1$d jiem se jitħassru issa. Messaġġi: %2$d, kanali: %3$d. Minn dak il-ħin 'l quddiem, il-messaġġi tal-kanali l-eqdem jitħassru awtomatikament kull meta tinfetaħ l-app. Dan ma jistax jiġi mreġġa' lura.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "L-ebda messaġġ ta' kanal mhu eqdem minn %1$d jiem, mela issa ma jitħassar xejn. Minn issa 'l quddiem, il-messaġġi tal-kanali l-eqdem jitħassru awtomatikament kull meta tinfetaħ l-app.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Ħassar u attiva",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Attiva",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Qed jitħassru l-messaġġi l-qodma…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Qatt ma tħassar",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Messaġġi mħassra: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Ċaħad il-valur tal-backup",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Diversi repeaters magħrufa jaqsmu l-prefiss %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13600,6 +13600,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Irreaġixxi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Użati ta' spiss",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Smajls",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Ġesti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Qlub",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Oġġetti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Emoji oħra",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Daħħal emoji wieħed biss",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Reazzjonijiet",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Ma ġiex ikkunsinnat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "It-tbaħħir ma rnexxiex",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Diġà rreaġixxejt b'dan l-emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Ma tistax tirreaġixxi għal dan il-messaġġ",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Din ir-reazzjoni twila wisq biex tintbagħat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Reazzjoni b'%1$s għal: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Reazzjonijiet għall-messaġġi tiegħi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Reazzjoni %1$s, għadd %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Diversi repeaters magħrufa jaqsmu l-prefiss %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Skrin",
     "_ai": true,
@@ -13612,6 +13702,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Sakemm konversazzjoni tkun miftuħa u KiekR ikun fuq quddiem, l-iskrin ma jintefiex waħdu. Kullimkien ieħor japplika l-ħin normali biex jintefa l-iskrin. Dan juża aktar batterija.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Qasam tal-messaġġ",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Iffoka fuq il-qasam tal-messaġġ meta tinfetaħ",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Meta jkun mixgħul, it-tastiera tinfetaħ hekk kif tiftaħ konversazzjoni, anke meta jkollha messaġġi mhux moqrija. Meta jkun mitfi, il-qasam jiġi ffokat biss meta tmissu jew twieġeb għal messaġġ.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Suġġerimenti tal-ismijiet",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Triq tal-Advert",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Xejn juża r-reġjun default tal-companion tiegħek għal bgħit b'għargħar. Messaġġi fuq triq diretta magħrufa qatt ma jġorru reġjun. Assigna reġjun biex tuża wieħed ieħor għal dan il-kuntatt.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

@@ -3,7 +3,7 @@
     "language": "sk",
     "name": "Slovenčina",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Tento kľúč už patrí k „%1$s“.",
@@ -12661,13 +12661,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Neplatný kľúč senzora.",
+  "sensor_login_title": {
+    "value": "Prihlásenie k senzoru",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Odpoveď senzora sa nepodarilo dešifrovať. Prihlás sa znova.",
+  "sensor_save_to_fav_title": {
+    "value": "Uložiť tento senzor medzi obľúbené?",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Obľúbené pripnú tento senzor pre rýchlejší prístup. Kedykoľvek to môžeš zmeniť pomocou tlačidla s hviezdičkou nižšie.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12676,53 +12681,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Odpoveď senzora sa nepodarilo prečítať.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Senzor odmietol prihlásenie.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Prihlásenie k senzoru",
+  "sensor_login_error_parse_failed": {
+    "value": "Odpoveď senzora sa nepodarilo prečítať.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Akcelerometer",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Odpoveď senzora sa nepodarilo dešifrovať. Prihlás sa znova.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Nadmorská výška",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Analógový vstup",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Analógový výstup",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Farba",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Koncentrácia",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Elektrický prúd",
+  "sensor_login_error_bad_key": {
+    "value": "Neplatný kľúč senzora.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12736,8 +12711,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Smer",
+  "sensor_lpp_type_analog_input": {
+    "value": "Analógový vstup",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Analógový výstup",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Všeobecný senzor",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Osvetlenie",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Prítomnosť",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Teplota",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Vlhkosť",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Akcelerometer",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Tlak",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Napätie",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Elektrický prúd",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Frekvencia",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Percento",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Nadmorská výška",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Koncentrácia",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Elektrický výkon",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12751,63 +12801,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Frekvencia",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Všeobecný senzor",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Gyroskop",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Vlhkosť",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Osvetlenie",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Percento",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Elektrický výkon",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Prítomnosť",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Tlak",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Prepínač",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Teplota",
+  "sensor_lpp_type_direction": {
+    "value": "Smer",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12816,18 +12811,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Napätie",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Gyroskop",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Obľúbené pripnú tento senzor pre rýchlejší prístup. Kedykoľvek to môžeš zmeniť pomocou tlačidla s hviezdičkou nižšie.",
+  "sensor_lpp_type_colour": {
+    "value": "Farba",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Uložiť tento senzor medzi obľúbené?",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Prepínač",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12966,56 +12966,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Heslo miestnosti",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Uverejniť ako server",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Správa",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Uverejnené",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Hostia môžu čítať",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Ktokoľvek sa môže pripojiť bez hesla a čítať, ale nie prispievať.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Členovia sa prihlasujú týmto heslom a môžu prispievať. Nechajte prázdne na vypnutie.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Heslo uložené.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Pridať spiatočnú cestu",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Spiatočná cesta by prekročila maximálnu dĺžku cesty.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Pripojte svoj uzol, aby ste mohli tento senzor spravovať",
     "_ai": true,
@@ -13068,6 +13018,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Vášmu uzlu sa nepodarilo odoslať žiadosť. Skúste to prosím znova.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Heslo miestnosti",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Uverejniť ako server",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Správa",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Uverejnené",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Hostia môžu čítať",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Ktokoľvek sa môže pripojiť bez hesla a čítať, ale nie prispievať.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Členovia sa prihlasujú týmto heslom a môžu prispievať. Nechajte prázdne na vypnutie.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Heslo uložené.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Pridať spiatočnú cestu",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Spiatočná cesta by prekročila maximálnu dĺžku cesty.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13221,6 +13221,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Zdieľať polohu alebo kontakt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Zdieľať moju polohu",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Moje kontaktné údaje",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Zdieľať kontakt…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Váš uzol nemá polohu. Nastavte ju v časti Môj uzol.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Nezmestí sa: v tejto správe už nie je dosť miesta.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Vaše kontaktné údaje zatiaľ nie sú k dispozícii. Najprv pripojte svoj uzol a pomenujte ho.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Zdieľať kontakt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Zatiaľ žiadne uložené kontakty",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Kontakty, ktoré si uložíte, sa zobrazia tu.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Chaty",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Späť",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Uchovávanie správ v kanáloch",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Odstrániť správy staršie ako",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dní",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Ak je nastavený limit, správy v kanáloch staršie, ako je zvolené obdobie, sa odstránia pri otvorení aplikácie, najviac raz za niekoľko hodín. Priame správy a izby zostávajú vždy nedotknuté. Odstránené správy sa nedajú obnoviť a úložný priestor sa môže uvoľniť až neskôr. Po obnovení zálohy so správami je limit pozastavený, kým ho znova nepotvrdíte.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Zo zálohy: %1$d dní, neaktívne. Na potvrdenie vyberte hodnotu znova.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Odstrániť staré správy v kanáloch?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Správy v kanáloch staršie ako %1$d dní sa teraz odstránia. Správy: %2$d, kanály: %3$d. Odvtedy sa staršie správy v kanáloch budú odstraňovať automaticky pri každom otvorení aplikácie. Túto akciu nie je možné vrátiť späť.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Žiadna správa v kanáloch nie je staršia ako %1$d dní, preto sa teraz nič neodstráni. Odteraz sa staršie správy v kanáloch budú odstraňovať automaticky pri každom otvorení aplikácie.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Odstrániť a zapnúť",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Zapnúť",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Odstraňujú sa staré správy…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (vypočítané %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Zobraziť QR kód",
     "_ai": true,
@@ -13250,6 +13370,31 @@
     "value": "Kontakt sa nepodarilo zdieľať (kód %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Správy v chatoch",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Hľadať ďalej",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Vyhľadávanie správ",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Vášmu vyhľadávaniu nezodpovedá žiadna správa.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Načítať novšie správy",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Odstrániť polohu",
@@ -13311,78 +13456,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Zdieľať polohu alebo kontakt",
+  "settings_chats_retention_deleted": {
+    "value": "Odstránené správy: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Zdieľať moju polohu",
+  "settings_chats_retention_discard": {
+    "value": "Zahodiť hodnotu zo zálohy",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Moje kontaktné údaje",
+  "settings_chats_retention_never": {
+    "value": "Nikdy neodstraňovať",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Zdieľať kontakt…",
+  "ping_collision_title": {
+    "value": "Upozornenie na ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Váš uzol nemá polohu. Nastavte ju v časti Môj uzol.",
+  "ping_collision_confirm": {
+    "value": "Napriek tomu pingnúť",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Nezmestí sa: v tejto správe už nie je dosť miesta.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Vaše kontaktné údaje zatiaľ nie sú k dispozícii. Najprv pripojte svoj uzol a pomenujte ho.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Zdieľať kontakt",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Zatiaľ žiadne uložené kontakty",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Kontakty, ktoré si uložíte, sa zobrazia tu.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Správy v chatoch",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Hľadať ďalej",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Vyhľadávanie správ",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Vášmu vyhľadávaniu nezodpovedá žiadna správa.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Načítať novšie správy",
+  "ping_collision_message": {
+    "value": "Iné známe opakovače alebo izbové servery majú rovnaký hash skoku %1$s ako %2$s: %3$s. Odpoveď môže prísť od ktoréhokoľvek z nich.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13456,21 +13556,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Upozornenie na ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Iné známe opakovače alebo izbové servery majú rovnaký hash skoku %1$s ako %2$s: %3$s. Odpoveď môže prísť od ktoréhokoľvek z nich.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Napriek tomu pingnúť",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Vložiť súradnice",
     "_ai": true,
@@ -13478,91 +13563,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Schránka neobsahuje súradnice ako 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Chaty",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Späť",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Uchovávanie správ v kanáloch",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Odstrániť správy staršie ako",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d dní",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Ak je nastavený limit, správy v kanáloch staršie, ako je zvolené obdobie, sa odstránia pri otvorení aplikácie, najviac raz za niekoľko hodín. Priame správy a izby zostávajú vždy nedotknuté. Odstránené správy sa nedajú obnoviť a úložný priestor sa môže uvoľniť až neskôr. Po obnovení zálohy so správami je limit pozastavený, kým ho znova nepotvrdíte.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Zo zálohy: %1$d dní, neaktívne. Na potvrdenie vyberte hodnotu znova.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Odstrániť staré správy v kanáloch?",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Správy v kanáloch staršie ako %1$d dní sa teraz odstránia. Správy: %2$d, kanály: %3$d. Odvtedy sa staršie správy v kanáloch budú odstraňovať automaticky pri každom otvorení aplikácie. Túto akciu nie je možné vrátiť späť.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Žiadna správa v kanáloch nie je staršia ako %1$d dní, preto sa teraz nič neodstráni. Odteraz sa staršie správy v kanáloch budú odstraňovať automaticky pri každom otvorení aplikácie.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Odstrániť a zapnúť",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Zapnúť",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Odstraňujú sa staré správy…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Nikdy neodstraňovať",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Odstránené správy: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Zahodiť hodnotu zo zálohy",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Niekoľko známych opakovačov zdieľa predponu %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13601,6 +13601,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Reagovať",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Často používané",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Smajlíky",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Gestá",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Srdcia",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Predmety",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Iné emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Zadajte presne jedno emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Reakcie",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Nedoručené",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Odoslanie sa nepodarilo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Týmto emoji ste už reagovali",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Na túto správu nemožno reagovať",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Táto reakcia je príliš dlhá na odoslanie",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Reakcia %1$s na: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Reakcie na moje správy",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Reakcia %1$s, počet %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Niekoľko známych opakovačov zdieľa predponu %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Obrazovka",
     "_ai": true,
@@ -13613,6 +13703,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Kým je konverzácia otvorená a KiekR beží v popredí, obrazovka sa sama nevypne. Všade inde platí bežný časový limit obrazovky. Spotrebúva to viac batérie.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Pole správy",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Pri otvorení aktivovať pole správy",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Keď je zapnuté, klávesnica sa otvorí hneď, ako otvoríte konverzáciu, aj keď obsahuje neprečítané správy. Keď je vypnuté, pole sa aktivuje, až keď naň ťuknete alebo odpoviete na správu.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Návrhy mien",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Cesta Advertu",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Žiadne použije pri odosielaní povodňou predvolený región vášho companionu. Správy po známej priamej ceste nikdy nenesú región. Priraďte región, ak chcete pre tento kontakt použiť iný.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }

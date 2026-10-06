@@ -3,7 +3,7 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-09-30"
+    "updated": "2026-10-06"
   },
   "add_channel_duplicate_key": {
     "value": "Αυτό το κλειδί ανήκει ήδη στο «%1$s».",
@@ -12660,13 +12660,18 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_bad_key": {
-    "value": "Μη έγκυρο κλειδί αισθητήρα.",
+  "sensor_login_title": {
+    "value": "Σύνδεση αισθητήρα",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_decrypt_failed": {
-    "value": "Δεν ήταν δυνατή η αποκρυπτογράφηση της απάντησης του αισθητήρα. Συνδέσου ξανά.",
+  "sensor_save_to_fav_title": {
+    "value": "Αποθήκευση αυτού του αισθητήρα στα αγαπημένα;",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_save_to_fav_body": {
+    "value": "Τα αγαπημένα καρφιτσώνουν αυτόν τον αισθητήρα για ταχύτερη πρόσβαση. Μπορείς να το αλλάξεις ανά πάσα στιγμή από το κουμπί με το αστέρι παρακάτω.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12675,53 +12680,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_error_parse_failed": {
-    "value": "Δεν ήταν δυνατή η ανάγνωση της απάντησης του αισθητήρα.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "sensor_login_error_rejected": {
     "value": "Η σύνδεση απορρίφθηκε από τον αισθητήρα.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_login_title": {
-    "value": "Σύνδεση αισθητήρα",
+  "sensor_login_error_parse_failed": {
+    "value": "Δεν ήταν δυνατή η ανάγνωση της απάντησης του αισθητήρα.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_accelerometer": {
-    "value": "Επιταχυνσιόμετρο",
+  "sensor_login_error_decrypt_failed": {
+    "value": "Δεν ήταν δυνατή η αποκρυπτογράφηση της απάντησης του αισθητήρα. Συνδέσου ξανά.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_altitude": {
-    "value": "Υψόμετρο",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_input": {
-    "value": "Αναλογική είσοδος",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_analog_output": {
-    "value": "Αναλογική έξοδος",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_colour": {
-    "value": "Χρώμα",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_concentration": {
-    "value": "Συγκέντρωση",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_current": {
-    "value": "Ηλεκτρικό ρεύμα",
+  "sensor_login_error_bad_key": {
+    "value": "Μη έγκυρο κλειδί αισθητήρα.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12735,8 +12710,83 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_direction": {
-    "value": "Κατεύθυνση",
+  "sensor_lpp_type_analog_input": {
+    "value": "Αναλογική είσοδος",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_analog_output": {
+    "value": "Αναλογική έξοδος",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_generic_sensor": {
+    "value": "Γενικός αισθητήρας",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_luminosity": {
+    "value": "Φωτεινότητα",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_presence": {
+    "value": "Παρουσία",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_temperature": {
+    "value": "Θερμοκρασία",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_humidity": {
+    "value": "Υγρασία",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_accelerometer": {
+    "value": "Επιταχυνσιόμετρο",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_pressure": {
+    "value": "Πίεση",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_voltage": {
+    "value": "Τάση",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_current": {
+    "value": "Ηλεκτρικό ρεύμα",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_frequency": {
+    "value": "Συχνότητα",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_percentage": {
+    "value": "Ποσοστό",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_altitude": {
+    "value": "Υψόμετρο",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_concentration": {
+    "value": "Συγκέντρωση",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_power": {
+    "value": "Ηλεκτρική ισχύς",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12750,63 +12800,8 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_frequency": {
-    "value": "Συχνότητα",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_generic_sensor": {
-    "value": "Γενικός αισθητήρας",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gps": {
-    "value": "GPS",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_gyrometer": {
-    "value": "Γυροσκόπιο",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_humidity": {
-    "value": "Υγρασία",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_luminosity": {
-    "value": "Φωτεινότητα",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_percentage": {
-    "value": "Ποσοστό",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_power": {
-    "value": "Ηλεκτρική ισχύς",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_presence": {
-    "value": "Παρουσία",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_pressure": {
-    "value": "Πίεση",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_switch": {
-    "value": "Διακόπτης",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "sensor_lpp_type_temperature": {
-    "value": "Θερμοκρασία",
+  "sensor_lpp_type_direction": {
+    "value": "Κατεύθυνση",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12815,18 +12810,23 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_lpp_type_voltage": {
-    "value": "Τάση",
+  "sensor_lpp_type_gyrometer": {
+    "value": "Γυροσκόπιο",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_body": {
-    "value": "Τα αγαπημένα καρφιτσώνουν αυτόν τον αισθητήρα για ταχύτερη πρόσβαση. Μπορείς να το αλλάξεις ανά πάσα στιγμή από το κουμπί με το αστέρι παρακάτω.",
+  "sensor_lpp_type_colour": {
+    "value": "Χρώμα",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "sensor_save_to_fav_title": {
-    "value": "Αποθήκευση αυτού του αισθητήρα στα αγαπημένα;",
+  "sensor_lpp_type_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "sensor_lpp_type_switch": {
+    "value": "Διακόπτης",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12965,56 +12965,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "repeater_cli_room_password": {
-    "value": "Κωδικός δωματίου",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "repeater_cli_room_post": {
-    "value": "Δημοσίευση ως διακομιστής",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_placeholder": {
-    "value": "Μήνυμα",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_post_sent": {
-    "value": "Δημοσιεύτηκε",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_title": {
-    "value": "Οι επισκέπτες μπορούν να διαβάζουν",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_allow_read_only_hint": {
-    "value": "Οποιοσδήποτε μπορεί να συμμετάσχει χωρίς κωδικό και να διαβάσει, αλλά όχι να δημοσιεύσει.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_hint": {
-    "value": "Τα μέλη συνδέονται με αυτόν τον κωδικό και μπορούν να δημοσιεύουν. Αφήστε κενό για απενεργοποίηση.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "room_admin_room_password_saved": {
-    "value": "Ο κωδικός αποθηκεύτηκε.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_append_return_path": {
-    "value": "Προσθήκη διαδρομής επιστροφής",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "traceroute_return_path_too_long": {
-    "value": "Η διαδρομή επιστροφής θα υπερέβαινε το μέγιστο μήκος διαδρομής.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "nodes_banner_not_connected_sensor": {
     "value": "Συνδέστε τον κόμβο σας για να διαχειριστείτε αυτόν τον αισθητήρα",
     "_ai": true,
@@ -13067,6 +13017,56 @@
   },
   "nodes_admin_error_send_failed": {
     "value": "Ο κόμβος σας δεν μπόρεσε να στείλει το αίτημα. Παρακαλώ δοκιμάστε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_password": {
+    "value": "Κωδικός δωματίου",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "repeater_cli_room_post": {
+    "value": "Δημοσίευση ως διακομιστής",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_placeholder": {
+    "value": "Μήνυμα",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_post_sent": {
+    "value": "Δημοσιεύτηκε",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_title": {
+    "value": "Οι επισκέπτες μπορούν να διαβάζουν",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_allow_read_only_hint": {
+    "value": "Οποιοσδήποτε μπορεί να συμμετάσχει χωρίς κωδικό και να διαβάσει, αλλά όχι να δημοσιεύσει.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_hint": {
+    "value": "Τα μέλη συνδέονται με αυτόν τον κωδικό και μπορούν να δημοσιεύουν. Αφήστε κενό για απενεργοποίηση.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "room_admin_room_password_saved": {
+    "value": "Ο κωδικός αποθηκεύτηκε.",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_append_return_path": {
+    "value": "Προσθήκη διαδρομής επιστροφής",
+    "_ai": true,
+    "_seeded": "2026-09-30"
+  },
+  "traceroute_return_path_too_long": {
+    "value": "Η διαδρομή επιστροφής θα υπερέβαινε το μέγιστο μήκος διαδρομής.",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -13220,6 +13220,126 @@
     "_ai": true,
     "_seeded": "2026-10-05"
   },
+  "chat_compose_share_cd": {
+    "value": "Κοινοποίηση θέσης ή επαφής",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_position": {
+    "value": "Κοινοποίηση της θέσης μου",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_own_contact": {
+    "value": "Τα στοιχεία επαφής μου",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_pick_contact": {
+    "value": "Κοινοποίηση επαφής…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_position": {
+    "value": "Ο κόμβος σας δεν έχει θέση. Ορίστε την στο «Ο κόμβός μου».",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_too_long": {
+    "value": "Δεν χωράει: δεν έχει μείνει αρκετός χώρος σε αυτό το μήνυμα.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_no_own_contact": {
+    "value": "Τα στοιχεία επαφής σας δεν είναι ακόμη διαθέσιμα. Συνδέστε πρώτα τον κόμβο σας και δώστε του ένα όνομα.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_title": {
+    "value": "Κοινοποίηση επαφής",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty": {
+    "value": "Δεν υπάρχουν αποθηκευμένες επαφές",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_share_contact_empty_hint": {
+    "value": "Οι επαφές που έχετε αποθηκεύσει εμφανίζονται εδώ.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Συνομιλίες",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Πίσω",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Διατήρηση μηνυμάτων καναλιών",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Διαγραφή μηνυμάτων παλαιότερων από",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d ημέρες",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Όταν έχει οριστεί όριο, τα μηνύματα καναλιών που είναι παλαιότερα από την επιλεγμένη διάρκεια διαγράφονται όταν ανοίγει η εφαρμογή, το πολύ κάθε λίγες ώρες. Τα άμεσα μηνύματα και τα δωμάτια δεν επηρεάζονται ποτέ. Τα διαγραμμένα μηνύματα δεν μπορούν να επαναφερθούν και ο χώρος αποθήκευσης ίσως ελευθερωθεί αργότερα. Μετά την επαναφορά ενός αντιγράφου ασφαλείας με μηνύματα, το όριο τίθεται σε παύση μέχρι να το επιβεβαιώσετε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Από το αντίγραφο ασφαλείας: %1$d ημέρες, ανενεργό. Επιλέξτε ξανά την τιμή για επιβεβαίωση.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Διαγραφή παλιών μηνυμάτων καναλιών;",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Τα μηνύματα καναλιών που είναι παλαιότερα από %1$d ημέρες θα διαγραφούν τώρα. Μηνύματα: %2$d, κανάλια: %3$d. Στη συνέχεια, τα παλαιότερα μηνύματα καναλιών θα διαγράφονται αυτόματα κάθε φορά που ανοίγει η εφαρμογή. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Κανένα μήνυμα καναλιού δεν είναι παλαιότερο από %1$d ημέρες, επομένως τώρα δεν θα διαγραφεί τίποτα. Από εδώ και στο εξής, τα παλαιότερα μηνύματα καναλιών θα διαγράφονται αυτόματα κάθε φορά που ανοίγει η εφαρμογή.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Διαγραφή και ενεργοποίηση",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Ενεργοποίηση",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Διαγραφή παλιών μηνυμάτων…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_telemetry_power_calculated": {
+    "value": "%1$s (υπολογισμένο %2$s)",
+    "_ai": true,
+    "_seeded": "2026-10-05"
+  },
   "nodes_share_menu_qr": {
     "value": "Εμφάνιση κωδικού QR",
     "_ai": true,
@@ -13249,6 +13369,31 @@
     "value": "Δεν ήταν δυνατή η κοινοποίηση αυτής της επαφής (κωδικός %1$d).",
     "_ai": true,
     "_seeded": "2026-10-05"
+  },
+  "chat_search_messages_header": {
+    "value": "Μηνύματα σε συνομιλίες",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_more": {
+    "value": "Συνέχεια αναζήτησης",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_running": {
+    "value": "Αναζήτηση μηνυμάτων",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_search_no_messages": {
+    "value": "Κανένα μήνυμα δεν ταιριάζει με την αναζήτησή σας.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_load_newer": {
+    "value": "Φόρτωση νεότερων μηνυμάτων",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   },
   "mynode_delete_position_row_action": {
     "value": "Διαγραφή θέσης",
@@ -13310,78 +13455,33 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_cd": {
-    "value": "Κοινοποίηση θέσης ή επαφής",
+  "settings_chats_retention_deleted": {
+    "value": "Διαγραμμένα μηνύματα: %1$d",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_position": {
-    "value": "Κοινοποίηση της θέσης μου",
+  "settings_chats_retention_discard": {
+    "value": "Απόρριψη τιμής αντιγράφου ασφαλείας",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_own_contact": {
-    "value": "Τα στοιχεία επαφής μου",
+  "settings_chats_retention_never": {
+    "value": "Χωρίς διαγραφή",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_pick_contact": {
-    "value": "Κοινοποίηση επαφής…",
+  "ping_collision_title": {
+    "value": "Προειδοποίηση ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_no_position": {
-    "value": "Ο κόμβος σας δεν έχει θέση. Ορίστε την στο «Ο κόμβός μου».",
+  "ping_collision_confirm": {
+    "value": "Ping ούτως ή άλλως",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "chat_compose_share_too_long": {
-    "value": "Δεν χωράει: δεν έχει μείνει αρκετός χώρος σε αυτό το μήνυμα.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_no_own_contact": {
-    "value": "Τα στοιχεία επαφής σας δεν είναι ακόμη διαθέσιμα. Συνδέστε πρώτα τον κόμβο σας και δώστε του ένα όνομα.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_title": {
-    "value": "Κοινοποίηση επαφής",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty": {
-    "value": "Δεν υπάρχουν αποθηκευμένες επαφές",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_compose_share_contact_empty_hint": {
-    "value": "Οι επαφές που έχετε αποθηκεύσει εμφανίζονται εδώ.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_messages_header": {
-    "value": "Μηνύματα σε συνομιλίες",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_more": {
-    "value": "Συνέχεια αναζήτησης",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_running": {
-    "value": "Αναζήτηση μηνυμάτων",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_search_no_messages": {
-    "value": "Κανένα μήνυμα δεν ταιριάζει με την αναζήτησή σας.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "chat_load_newer": {
-    "value": "Φόρτωση νεότερων μηνυμάτων",
+  "ping_collision_message": {
+    "value": "Άλλοι γνωστοί επαναλήπτες ή διακομιστές δωματίου μοιράζονται το hash βήματος %1$s με τον κόμβο %2$s: %3$s. Η απάντηση μπορεί να προέλθει από οποιονδήποτε από αυτούς.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13455,21 +13555,6 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Προειδοποίηση ping",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_message": {
-    "value": "Άλλοι γνωστοί επαναλήπτες ή διακομιστές δωματίου μοιράζονται το hash βήματος %1$s με τον κόμβο %2$s: %3$s. Η απάντηση μπορεί να προέλθει από οποιονδήποτε από αυτούς.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "ping_collision_confirm": {
-    "value": "Ping ούτως ή άλλως",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
   "mynode_advert_paste_coordinates": {
     "value": "Επικόλληση συντεταγμένων",
     "_ai": true,
@@ -13477,91 +13562,6 @@
   },
   "mynode_advert_paste_invalid": {
     "value": "Το πρόχειρο δεν περιέχει συντεταγμένες όπως 53.5511, 9.9937.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_home_entry_chats": {
-    "value": "Συνομιλίες",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_cd_back": {
-    "value": "Πίσω",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_header": {
-    "value": "Διατήρηση μηνυμάτων καναλιών",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_picker": {
-    "value": "Διαγραφή μηνυμάτων παλαιότερων από",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_days": {
-    "value": "%1$d ημέρες",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_footer": {
-    "value": "Όταν έχει οριστεί όριο, τα μηνύματα καναλιών που είναι παλαιότερα από την επιλεγμένη διάρκεια διαγράφονται όταν ανοίγει η εφαρμογή, το πολύ κάθε λίγες ώρες. Τα άμεσα μηνύματα και τα δωμάτια δεν επηρεάζονται ποτέ. Τα διαγραμμένα μηνύματα δεν μπορούν να επαναφερθούν και ο χώρος αποθήκευσης ίσως ελευθερωθεί αργότερα. Μετά την επαναφορά ενός αντιγράφου ασφαλείας με μηνύματα, το όριο τίθεται σε παύση μέχρι να το επιβεβαιώσετε ξανά.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_pending": {
-    "value": "Από το αντίγραφο ασφαλείας: %1$d ημέρες, ανενεργό. Επιλέξτε ξανά την τιμή για επιβεβαίωση.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_title": {
-    "value": "Διαγραφή παλιών μηνυμάτων καναλιών;",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body": {
-    "value": "Τα μηνύματα καναλιών που είναι παλαιότερα από %1$d ημέρες θα διαγραφούν τώρα. Μηνύματα: %2$d, κανάλια: %3$d. Στη συνέχεια, τα παλαιότερα μηνύματα καναλιών θα διαγράφονται αυτόματα κάθε φορά που ανοίγει η εφαρμογή. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_body_none": {
-    "value": "Κανένα μήνυμα καναλιού δεν είναι παλαιότερο από %1$d ημέρες, επομένως τώρα δεν θα διαγραφεί τίποτα. Από εδώ και στο εξής, τα παλαιότερα μηνύματα καναλιών θα διαγράφονται αυτόματα κάθε φορά που ανοίγει η εφαρμογή.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_delete": {
-    "value": "Διαγραφή και ενεργοποίηση",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_confirm_enable": {
-    "value": "Ενεργοποίηση",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_working": {
-    "value": "Διαγραφή παλιών μηνυμάτων…",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_never": {
-    "value": "Χωρίς διαγραφή",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_deleted": {
-    "value": "Διαγραμμένα μηνύματα: %1$d",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "settings_chats_retention_discard": {
-    "value": "Απόρριψη τιμής αντιγράφου ασφαλείας",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "path_hop_shared_prefix": {
-    "value": "Αρκετοί γνωστοί επαναλήπτες μοιράζονται το πρόθεμα %1$s: %2$s",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13600,6 +13600,96 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "chat_menu_react": {
+    "value": "Αντίδραση",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_frequent": {
+    "value": "Συχνά χρησιμοποιούμενα",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_smileys": {
+    "value": "Φατσούλες",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_gestures": {
+    "value": "Χειρονομίες",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_hearts": {
+    "value": "Καρδιές",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_group_objects": {
+    "value": "Αντικείμενα",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_placeholder": {
+    "value": "Άλλο emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_other_emoji_invalid": {
+    "value": "Εισαγάγετε ακριβώς ένα emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_details_title": {
+    "value": "Αντιδράσεις",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_undelivered": {
+    "value": "Δεν παραδόθηκε",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_state_failed": {
+    "value": "Η αποστολή απέτυχε",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_already_reacted": {
+    "value": "Έχετε ήδη αντιδράσει με αυτό το emoji",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_target_unavailable": {
+    "value": "Δεν μπορείτε να αντιδράσετε σε αυτό το μήνυμα",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_error_too_long": {
+    "value": "Αυτή η αντίδραση είναι πολύ μεγάλη για αποστολή",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_notification_body": {
+    "value": "Αντίδραση %1$s στο: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_notify_reactions": {
+    "value": "Αντιδράσεις στα μηνύματά μου",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "reactions_cd_chip": {
+    "value": "Αντίδραση %1$s, πλήθος %2$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "path_hop_shared_prefix": {
+    "value": "Αρκετοί γνωστοί επαναλήπτες μοιράζονται το πρόθεμα %1$s: %2$s",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_keep_screen_on_header": {
     "value": "Οθόνη",
     "_ai": true,
@@ -13612,6 +13702,36 @@
   },
   "settings_chats_keep_screen_on_footer": {
     "value": "Όσο μια συνομιλία είναι ανοιχτή και το KiekR βρίσκεται στο προσκήνιο, η οθόνη δεν σβήνει μόνη της. Παντού αλλού ισχύει ο κανονικός χρόνος σβησίματος της οθόνης. Αυτό καταναλώνει περισσότερη μπαταρία.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_header": {
+    "value": "Πεδίο μηνύματος",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_label": {
+    "value": "Εστίαση στο πεδίο μηνύματος κατά το άνοιγμα",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_autofocus_footer": {
+    "value": "Όταν είναι ενεργοποιημένο, το πληκτρολόγιο ανοίγει μόλις ανοίξετε μια συνομιλία, ακόμη και όταν έχει μη αναγνωσμένα μηνύματα. Όταν είναι απενεργοποιημένο, το πεδίο εστιάζεται μόνο όταν το πατήσετε ή απαντήσετε σε ένα μήνυμα.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "chat_compose_mention_suggestions_cd": {
+    "value": "Προτάσεις ονομάτων",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_advert_path": {
+    "value": "Διαδρομή Advert",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "nodes_detail_region_device_default_footer": {
+    "value": "Το Κανένα χρησιμοποιεί την προεπιλεγμένη περιοχή του companion σας για αποστολές πλημμύρας. Τα μηνύματα μέσω γνωστής άμεσης διαδρομής δεν φέρουν ποτέ περιοχή. Ορίστε μια περιοχή για να χρησιμοποιήσετε διαφορετική για αυτήν την επαφή.",
     "_ai": true,
     "_seeded": "2026-10-06"
   }
