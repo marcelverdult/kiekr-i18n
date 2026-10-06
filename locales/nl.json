@@ -12154,5 +12154,130 @@
     "value": "KiekR volgt standaard de taal van je apparaat. Kies hier een taal om die alleen voor KiekR te gebruiken.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR heeft toestemming nodig om Bluetooth te gebruiken. Sta dit toe in Instellingen om je node te vinden.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth is niet beschikbaar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Dit apparaat kan geen Bluetooth LE gebruiken, dus KiekR kan hier geen nodes vinden. Maak in plaats daarvan verbinding via WiFi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetooth-scan mislukt (code %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ping-waarschuwing",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Andere bekende repeaters of room-servers hebben dezelfde hop-hash %1$s als %2$s: %3$s. Het antwoord kan van elk van hen komen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Toch pingen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Coördinaten plakken",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Het klembord bevat geen coördinaten zoals 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Chats",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Terug",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Bewaartermijn van kanaalberichten",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Berichten verwijderen die ouder zijn dan",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dagen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Als er een limiet is ingesteld, worden kanaalberichten die ouder zijn dan de gekozen termijn verwijderd wanneer de app wordt geopend, hooguit om de paar uur. Directe berichten en ruimtes blijven altijd onaangetast. Verwijderde berichten kunnen niet worden hersteld en opslagruimte komt mogelijk pas later vrij. Na het herstellen van een back-up met berichten is de limiet gepauzeerd totdat je die opnieuw bevestigt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Uit back-up: %1$d dagen, niet actief. Kies de waarde opnieuw om te bevestigen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Oude kanaalberichten verwijderen?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanaalberichten die ouder zijn dan %1$d dagen, worden nu verwijderd. Berichten: %2$d, kanalen: %3$d. Daarna worden oudere kanaalberichten automatisch verwijderd telkens wanneer de app wordt geopend. Dit kan niet ongedaan worden gemaakt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Geen kanaalbericht is ouder dan %1$d dagen, dus er wordt nu niets verwijderd. Vanaf nu worden oudere kanaalberichten automatisch verwijderd telkens wanneer de app wordt geopend.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Verwijderen en inschakelen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Inschakelen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Oude berichten verwijderen…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Nooit verwijderen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Verwijderde berichten: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Back-upwaarde negeren",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

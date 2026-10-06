@@ -13435,5 +13435,130 @@
     "value": "Se reconectează la însoțitorul tău WiFi când legătura cade, când deschizi aplicația și când revine WiFi. Dezactivează opțiunea dacă un alt telefon sau o altă aplicație folosește același însoțitor: acesta acceptă o singură conexiune, deci fiecare reconectare îl deconectează pe celălalt client.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR are nevoie de permisiunea de a folosi Bluetooth. Permite-o în Setări pentru a-ți găsi nodul.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth nu este disponibil",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Acest dispozitiv nu poate folosi Bluetooth LE, așa că KiekR nu poate găsi noduri aici. Conectează-te prin Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Scanarea Bluetooth a eșuat (cod %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Avertisment ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Alte repetoare sau servere de cameră cunoscute folosesc același hash de salt %1$s ca %2$s: %3$s. Răspunsul poate veni de la oricare dintre ele.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Trimite ping oricum",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Lipește coordonatele",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Clipboard-ul nu conține coordonate precum 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Discuții",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Înapoi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Păstrarea mesajelor din canale",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Șterge mesajele mai vechi de",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "Zile: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Dacă este setată o limită, mesajele din canale mai vechi decât durata aleasă sunt șterse la deschiderea aplicației, cel mult o dată la câteva ore. Mesajele directe și camerele nu sunt atinse niciodată. Mesajele șterse nu pot fi restaurate, iar spațiul de stocare poate fi eliberat abia mai târziu. După restaurarea unei copii de rezervă cu mesaje, limita este pusă în pauză până o confirmi din nou.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Din copia de rezervă (zile: %1$d), inactiv. Alege din nou valoarea pentru a confirma.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Ștergi mesajele vechi din canale?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Mesajele din canale mai vechi decât limita aleasă (zile: %1$d) vor fi șterse acum. Mesaje: %2$d, canale: %3$d. După aceea, mesajele mai vechi din canale sunt șterse automat de fiecare dată când se deschide aplicația. Această acțiune nu poate fi anulată.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Niciun mesaj din canale nu este mai vechi decât limita aleasă (zile: %1$d), așa că acum nu se șterge nimic. De acum încolo, mesajele mai vechi din canale sunt șterse automat de fiecare dată când se deschide aplicația.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Șterge și activează",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Activează",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Se șterg mesajele vechi…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Nu șterge niciodată",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Mesaje șterse: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Renunță la valoarea din copia de rezervă",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

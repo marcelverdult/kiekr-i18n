@@ -13435,5 +13435,130 @@
     "value": "Znovu se připojí k vašemu Wi-Fi společníkovi, když se spojení přeruší, když otevřete aplikaci a když se vrátí Wi-Fi. Vypněte to, pokud stejného společníka používá jiný telefon nebo aplikace: přijímá jen jedno spojení, takže každé opětovné připojení odpojí druhého klienta.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR potřebuje oprávnění k používání Bluetooth. Povolte ho v nastavení, aby se našel váš uzel.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth není k dispozici",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Toto zařízení nemůže používat Bluetooth LE, takže KiekR tu nemůže najít uzly. Připojte se místo toho přes Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Vyhledávání přes Bluetooth selhalo (kód %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Upozornění na ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Další známé opakovače nebo pokojové servery mají stejný hash hopu %1$s jako %2$s: %3$s. Odpověď může přijít od kteréhokoli z nich.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Přesto pingnout",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Vložit souřadnice",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Schránka neobsahuje souřadnice jako 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Chaty",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Zpět",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Uchovávání zpráv v kanálech",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Odstranit zprávy starší než",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dní",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Pokud je nastaven limit, zprávy v kanálech starší než zvolená doba se odstraní při otevření aplikace, nejvýše jednou za několik hodin. Soukromé zprávy a pokoje zůstávají vždy nedotčeny. Odstraněné zprávy nelze obnovit a úložný prostor se může uvolnit až později. Po obnovení zálohy se zprávami je limit pozastaven, dokud jej znovu nepotvrdíte.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Ze zálohy: %1$d dní, neaktivní. Pro potvrzení zvolte hodnotu znovu.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Odstranit staré zprávy v kanálech?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Zprávy v kanálech starší než %1$d dní budou nyní odstraněny. Zprávy: %2$d, kanály: %3$d. Poté se starší zprávy v kanálech budou odstraňovat automaticky při každém otevření aplikace. Tuto akci nelze vrátit zpět.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Žádná zpráva v kanálech není starší než %1$d dní, proto se nyní nic neodstraní. Od teď se starší zprávy v kanálech budou odstraňovat automaticky při každém otevření aplikace.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Odstranit a zapnout",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Zapnout",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Odstraňují se staré zprávy…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Nikdy neodstraňovat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Odstraněné zprávy: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Zahodit hodnotu ze zálohy",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

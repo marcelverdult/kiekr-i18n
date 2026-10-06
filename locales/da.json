@@ -13434,5 +13434,130 @@
     "value": "Opretter forbindelsen til din WiFi-ledsager igen, når forbindelsen afbrydes, når du åbner appen, og når WiFi vender tilbage. Slå det fra, hvis en anden telefon eller app bruger den samme ledsager: Den accepterer kun én forbindelse, så hver genforbindelse afbryder den anden klient.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR skal have tilladelse til at bruge Bluetooth. Tillad det i Indstillinger, så din node kan findes.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth er ikke tilgængelig",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Denne enhed kan ikke bruge Bluetooth LE, så KiekR kan ikke finde noder her. Opret forbindelse via Wi-Fi i stedet.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetooth-scanning mislykkedes (kode %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ping-advarsel",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Andre kendte repeatere eller rumservere har samme hop-hash %1$s som %2$s: %3$s. Svaret kan komme fra hvilken som helst af dem.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Ping alligevel",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Indsæt koordinater",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Udklipsholderen indeholder ikke koordinater som 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Chats",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Tilbage",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Opbevaring af kanalbeskeder",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Slet beskeder ældre end",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dage",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Når en grænse er sat, slettes kanalbeskeder, der er ældre end det valgte tidsrum, når appen åbnes, højst hver få timer. Direkte beskeder og rum berøres aldrig. Slettede beskeder kan ikke gendannes, og lagerplads frigives muligvis først senere. Efter gendannelse af en sikkerhedskopi med beskeder er grænsen sat på pause, indtil du bekræfter den igen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Fra sikkerhedskopi: %1$d dage, ikke aktiv. Vælg værdien igen for at bekræfte.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Slet gamle kanalbeskeder?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanalbeskeder, der er ældre end %1$d dage, slettes nu. Beskeder: %2$d, kanaler: %3$d. Herefter slettes ældre kanalbeskeder automatisk, hver gang appen åbnes. Dette kan ikke fortrydes.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Ingen kanalbesked er ældre end %1$d dage, så der slettes intet nu. Fra nu af slettes ældre kanalbeskeder automatisk, hver gang appen åbnes.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Slet og aktivér",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Aktivér",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Sletter gamle beskeder…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Slet aldrig",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Slettede beskeder: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Kassér værdi fra sikkerhedskopi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

@@ -13436,5 +13436,130 @@
     "value": "Перепідключається до вашого Wi-Fi супутника, коли зв'язок обривається, коли ви відкриваєте застосунок і коли повертається Wi-Fi. Вимкніть це, якщо тим самим супутником користується інший телефон або застосунок: він приймає лише одне підключення, тому кожне перепідключення відключає іншого клієнта.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR потрібен дозвіл на використання Bluetooth. Надайте його в Налаштуваннях, щоб знайти ваш вузол.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth недоступний",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Цей пристрій не може використовувати Bluetooth LE, тому KiekR не може знайти тут вузли. Підключіться через Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Не вдалося виконати сканування Bluetooth (код %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Попередження про ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Інші відомі ретранслятори або сервери кімнат мають той самий хеш переходу %1$s, що й %2$s: %3$s. Відповідь може надійти від будь-якого з них.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Все одно виконати ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Вставити координати",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Буфер обміну не містить координат на кшталт 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Чати",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Зберігання повідомлень каналів",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Видаляти повідомлення, старші за",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d днів",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Якщо встановлено обмеження, повідомлення каналів, старіші за вибраний термін, видаляються під час відкриття додатка, не частіше ніж раз на кілька годин. Приватні повідомлення та номери ніколи не зачіпаються. Видалені повідомлення неможливо відновити, а місце у сховищі може звільнитися лише згодом. Після відновлення резервної копії з повідомленнями обмеження призупиняється, доки ви не підтвердите його знову.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "З резервної копії: %1$d днів, неактивно. Виберіть значення ще раз, щоб підтвердити.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Видалити старі повідомлення каналів?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Повідомлення каналів, старші за %1$d днів, буде видалено зараз. Повідомлень: %2$d, каналів: %3$d. Після цього старіші повідомлення каналів видалятимуться автоматично під час кожного відкриття додатка. Цю дію неможливо скасувати.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Жодне повідомлення каналів не старіше за %1$d днів, тому зараз нічого не видаляється. Відтепер старіші повідомлення каналів видалятимуться автоматично під час кожного відкриття додатка.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Видалити та ввімкнути",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Ввімкнути",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Видалення старих повідомлень…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Ніколи не видаляти",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Видалено повідомлень: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Відхилити значення з резервної копії",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

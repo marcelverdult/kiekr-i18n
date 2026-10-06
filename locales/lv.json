@@ -13435,5 +13435,130 @@
     "value": "Atkal savienojas ar tavu Wi-Fi pavadoni, kad savienojums pārtrūkst, kad atver lietotni un kad Wi-Fi atgriežas. Izslēdz to, ja to pašu pavadoni izmanto cits tālrunis vai lietotne: tas pieņem tikai vienu savienojumu, tāpēc katra atkārtota savienošana atvieno otru klientu.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR nepieciešama atļauja izmantot Bluetooth. Atļaujiet to iestatījumos, lai tiktu atrasts jūsu mezgls.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth nav pieejams",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Šī ierīce nevar izmantot Bluetooth LE, tāpēc KiekR šeit nevar atrast mezglus. Tā vietā izveidojiet savienojumu, izmantojot WiFi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetooth skenēšana neizdevās (kods %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ping brīdinājums",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Citiem zināmiem atkārtotājiem vai istabas serveriem ir tāds pats posma hash %1$s kā %2$s: %3$s. Atbilde var nākt no jebkura no tiem.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Tāpat pingot",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Ielīmēt koordinātas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Izgriezumu panelī nav koordinātu, piemēram, 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Tērzēšanas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Atpakaļ",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Kanālu ziņojumu glabāšana",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Dzēst ziņojumus, kas vecāki par",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "Dienas: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Ja ir iestatīts ierobežojums, kanālu ziņojumi, kas vecāki par izvēlēto laiku, tiek dzēsti, atverot lietotni, ne biežāk kā reizi dažās stundās. Privātās ziņas un numuri netiek skarti nekad. Dzēstos ziņojumus nevar atjaunot, un krātuves vieta var tikt atbrīvota tikai vēlāk. Pēc datu dublējuma ar ziņojumiem atjaunošanas ierobežojums tiek apturēts, līdz to atkal apstiprināsiet.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "No datu dublējuma (dienas: %1$d) nav aktīvs. Lai apstiprinātu, izvēlieties vērtību vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Dzēst vecos kanālu ziņojumus?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanālu ziņojumi, kas vecāki par %1$d dienām, tiks dzēsti tagad. Ziņojumi: %2$d, kanāli: %3$d. Pēc tam vecāki kanālu ziņojumi tiks dzēsti automātiski ikreiz, kad tiks atvērta lietotne. Šo darbību nevar atcelt.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Neviens kanāla ziņojums nav vecāks par %1$d dienām, tāpēc tagad nekas netiek dzēsts. Turpmāk vecāki kanālu ziņojumi tiks dzēsti automātiski ikreiz, kad tiks atvērta lietotne.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Dzēst un ieslēgt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Ieslēgt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Dzēš vecos ziņojumus…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Nekad nedzēst",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Dzēstie ziņojumi: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Atmest vērtību no datu dublējuma",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

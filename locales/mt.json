@@ -13434,5 +13434,130 @@
     "value": "Jerġa' jikkonnettja mal-companion WiFi tiegħek meta r-rabta tinqata', meta tiftaħ l-app u meta jirritorna l-WiFi. Itfi dan jekk telefon jew app oħra tuża l-istess companion: jaċċetta konnessjoni waħda biss, għalhekk kull rikonnessjoni tiskonnettja l-klijent l-ieħor.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR jeħtieġ permess biex juża l-Bluetooth. Ippermettih fl-Issettjarijiet biex issib in-nodu tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Il-Bluetooth mhuwiex disponibbli",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Dan l-apparat ma jistax juża Bluetooth LE, għalhekk KiekR ma jistax isib nodi hawn. Ikkonnetta permezz ta' WiFi minflok.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "L-iskennjar tal-Bluetooth falla (kodiċi %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Twissija dwar ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Repeaters oħra magħrufa jew servers tal-kamra jaqsmu l-hash tal-hop %1$s ma' %2$s: %3$s. It-tweġiba tista' tiġi minn kwalunkwe wieħed minnhom.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Ping xorta waħda",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Ippejstja l-koordinati",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Il-clipboard ma fihx koordinati bħal 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Ċatti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Lura",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Żamma tal-messaġġi tal-kanali",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Ħassar messaġġi eqdem minn",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "Jiem: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Meta jkun hemm limitu stabbilit, il-messaġġi tal-kanali eqdem mill-perjodu magħżul jitħassru meta tinfetaħ l-app, l-aktar darba kull ftit sigħat. Il-messaġġi diretti u l-kmamar qatt ma jintmessu. Il-messaġġi mħassra ma jistgħux jiġu rkuprati, u l-ispazju tal-ħażna jista' jinħeles aktar tard biss. Wara r-restawr ta' backup b'messaġġi, il-limitu jitwaqqaf temporanjament sakemm tikkonferma mill-ġdid.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Mill-backup (jiem: %1$d), mhux attiv. Agħżel il-valur mill-ġdid biex tikkonferma.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Ħassar il-messaġġi l-qodma tal-kanali?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Il-messaġġi tal-kanali eqdem minn %1$d jiem se jitħassru issa. Messaġġi: %2$d, kanali: %3$d. Minn dak il-ħin 'l quddiem, il-messaġġi tal-kanali l-eqdem jitħassru awtomatikament kull meta tinfetaħ l-app. Dan ma jistax jiġi mreġġa' lura.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "L-ebda messaġġ ta' kanal mhu eqdem minn %1$d jiem, mela issa ma jitħassar xejn. Minn issa 'l quddiem, il-messaġġi tal-kanali l-eqdem jitħassru awtomatikament kull meta tinfetaħ l-app.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Ħassar u attiva",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Attiva",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Qed jitħassru l-messaġġi l-qodma…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Qatt ma tħassar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Messaġġi mħassra: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Ċaħad il-valur tal-backup",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

@@ -13435,5 +13435,130 @@
     "value": "Iš naujo prisijungia prie tavo „Wi-Fi“ palydovo, kai nutrūksta ryšys, kai atidarai programėlę ir kai vėl atsiranda „Wi-Fi“. Išjunk tai, jei tą patį palydovą naudoja kitas telefonas ar programėlė: jis priima tik vieną ryšį, todėl kiekvienas prisijungimas iš naujo atjungia kitą klientą.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR reikia leidimo naudoti Bluetooth. Leiskite jį Nustatymuose, kad būtų rastas jūsų mazgas.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth nepasiekiamas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Šis įrenginys negali naudoti Bluetooth LE, todėl KiekR čia negali rasti mazgų. Vietoj to prisijunkite per „Wi-Fi“.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetooth nuskaitymas nepavyko (kodas %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ping įspėjimas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Kiti žinomi kartotuvai arba kambario serveriai turi tą patį tarpinio mazgo hash %1$s kaip ir %2$s: %3$s. Atsakymas gali ateiti iš bet kurio iš jų.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Vis tiek pingoti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Įklijuoti koordinates",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Iškarpinėje nėra koordinačių, pavyzdžiui, 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Pokalbiai",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Atgal",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Kanalų pranešimų saugojimas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Ištrinti pranešimus, senesnius nei",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "Dienų: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Nustačius ribą, kanalų pranešimai, senesni nei pasirinktas laikotarpis, ištrinami atidarius programėlę, ne dažniau kaip kas kelias valandas. Tiesioginiai pranešimai ir kambariai niekada neliečiami. Ištrintų pranešimų atkurti neįmanoma, o saugyklos vietos gali būti atlaisvinta tik vėliau. Atkūrus atsarginę kopiją su pranešimais, riba sustabdoma, kol vėl jos nepatvirtinsite.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Iš atsarginės kopijos (dienų: %1$d) neaktyvu. Norėdami patvirtinti, dar kartą pasirinkite reikšmę.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Ištrinti senus kanalų pranešimus?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanalų pranešimai, senesni nei %1$d dienų, bus ištrinti dabar. Pranešimai: %2$d, kanalai: %3$d. Po to senesni kanalų pranešimai bus automatiškai ištrinami kaskart atidarius programėlę. Šio veiksmo atšaukti nebus galima.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Nė vienas kanalo pranešimas nėra senesnis nei %1$d dienų, todėl dabar nieko netrinama. Nuo šiol senesni kanalų pranešimai bus automatiškai ištrinami kaskart atidarius programėlę.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Ištrinti ir įjungti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Įjungti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Trinami seni pranešimai…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Niekada netrinti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Ištrinti pranešimai: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Atmesti atsarginės kopijos reikšmę",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

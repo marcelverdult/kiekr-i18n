@@ -13434,5 +13434,130 @@
     "value": "Yhdistää uudelleen WiFi-seuralaiseesi, kun yhteys katkeaa, kun avaat sovelluksen ja kun WiFi palaa. Poista tämä käytöstä, jos toinen puhelin tai sovellus käyttää samaa seuralaista: se hyväksyy vain yhden yhteyden, joten jokainen uudelleenyhdistäminen katkaisee toisen asiakkaan yhteyden.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR tarvitsee luvan Bluetoothin käyttöön. Salli se Asetuksissa, jotta solmusi löytyy.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth ei ole käytettävissä",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Tämä laite ei voi käyttää Bluetooth LE:tä, joten KiekR ei löydä täältä solmuja. Yhdistä sen sijaan Wi-Fi-verkon kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetooth-haku epäonnistui (koodi %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ping-varoitus",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Muilla tunnetuilla toistimilla tai huonepalvelimilla on sama hyppy-hash %1$s kuin kohteella %2$s: %3$s. Vastaus voi tulla miltä tahansa niistä.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Pingaa silti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Liitä koordinaatit",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Leikepöydällä ei ole koordinaatteja, kuten 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Keskustelut",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Takaisin",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Kanavaviestien säilytys",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Poista viestit, jotka ovat vanhempia kuin",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d päivää",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Kun raja on asetettu, valittua ajanjaksoa vanhemmat kanavaviestit poistetaan sovellusta avattaessa, enintään muutaman tunnin välein. Suoriin viesteihin ja huoneisiin ei koskaan kosketa. Poistettuja viestejä ei voi palauttaa, ja tallennustilaa voi vapautua vasta myöhemmin. Kun varmuuskopio viesteineen on palautettu, raja on tauolla, kunnes se vahvistetaan uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Varmuuskopiosta: %1$d päivää, ei käytössä. Vahvista valitsemalla arvo uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Poistetaanko vanhat kanavaviestit?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanavaviestit, jotka ovat vanhempia kuin %1$d päivää, poistetaan nyt. Viestejä: %2$d, kanavia: %3$d. Tämän jälkeen vanhemmat kanavaviestit poistetaan automaattisesti aina, kun sovellus avataan. Tätä ei voi perua.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Mikään kanavaviesti ei ole vanhempi kuin %1$d päivää, joten nyt ei poisteta mitään. Tästä lähtien vanhemmat kanavaviestit poistetaan automaattisesti aina, kun sovellus avataan.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Poista ja ota käyttöön",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Ota käyttöön",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Poistetaan vanhoja viestejä…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Älä koskaan poista",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Poistettuja viestejä: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Hylkää varmuuskopion arvo",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

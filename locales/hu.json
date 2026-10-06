@@ -13434,5 +13434,130 @@
     "value": "Újra csatlakozik a WiFi-s kísérődhöz, ha megszakad a kapcsolat, ha megnyitod az appot, és ha visszatér a WiFi. Kapcsold ki, ha másik telefon vagy app használja ugyanazt a kísérőt: csak egy kapcsolatot fogad el, ezért minden újracsatlakozás lekapcsolja a másik klienst.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "A KiekR-nek engedélyre van szüksége a Bluetooth használatához. Engedélyezd a Beállításokban, hogy megtalálja a node-odat.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "A Bluetooth nem érhető el",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Ez az eszköz nem tud Bluetooth LE-t használni, ezért a KiekR itt nem talál node-okat. Csatlakozz inkább Wi-Fi-n keresztül.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "A Bluetooth-keresés sikertelen (kód: %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ping figyelmeztetés",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Más ismert ismétlők vagy szobai szerverek ugyanazt a hop-hasht (%1$s) használják, mint a(z) %2$s: %3$s. A válasz bármelyikük felől érkezhet.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Ping mindenképpen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Koordináták beillesztése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "A vágólap nem tartalmaz olyan koordinátákat, mint 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Csevegések",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Vissza",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Csatornaüzenetek megőrzése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Ennél régebbi üzenetek törlése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d nap",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Ha be van állítva korlát, a kiválasztott időtartamnál régebbi csatornaüzenetek az alkalmazás megnyitásakor törlődnek, legfeljebb néhány óránként. A közvetlen üzenetek és a szobák mindig érintetlenek maradnak. A törölt üzeneteket nem lehet visszaállítani, és a tárhely csak később szabadulhat fel. Üzeneteket tartalmazó biztonsági mentés visszaállítása után a korlát szünetel, amíg újra meg nem erősíted.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Biztonsági mentésből: %1$d nap, nem aktív. A megerősítéshez válaszd ki újra az értéket.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Törlöd a régi csatornaüzeneteket?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "A %1$d napnál régebbi csatornaüzenetek most törlődnek. Üzenetek: %2$d, csatornák: %3$d. Ezután a régebbi csatornaüzenetek automatikusan törlődnek az alkalmazás minden megnyitásakor. Ez nem vonható vissza.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Egyetlen csatornaüzenet sem régebbi %1$d napnál, ezért most nem törlődik semmi. Mostantól a régebbi csatornaüzenetek automatikusan törlődnek az alkalmazás minden megnyitásakor.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Törlés és bekapcsolás",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Bekapcsolás",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Régi üzenetek törlése…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Soha ne törölj",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Törölt üzenetek: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "A biztonsági mentés értékének elvetése",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

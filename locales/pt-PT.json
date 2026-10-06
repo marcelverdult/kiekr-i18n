@@ -13434,5 +13434,130 @@
     "value": "Volta a ligar ao teu acompanhante Wi-Fi quando a ligação cai, quando abres a app e quando o Wi-Fi regressa. Desativa isto se outro telemóvel ou app usar o mesmo acompanhante: ele aceita apenas uma ligação, por isso cada religação desliga o outro cliente.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "O KiekR precisa de permissão para usar o Bluetooth. Permite-a nas Definições para encontrar o teu nó.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "O Bluetooth não está disponível",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Este dispositivo não pode usar Bluetooth LE, por isso o KiekR não consegue encontrar nós aqui. Liga-te através de Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Falha na pesquisa por Bluetooth (código %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Aviso de ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Outros repetidores ou servidores de sala conhecidos partilham o hash de salto %1$s com %2$s: %3$s. A resposta pode vir de qualquer um deles.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Fazer ping na mesma",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Colar coordenadas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "A área de transferência não contém coordenadas como 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Conversas",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Voltar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Retenção de mensagens de canais",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Apagar mensagens com mais de",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dias",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Com um limite definido, as mensagens de canais mais antigas do que o período escolhido são apagadas quando a aplicação é aberta, no máximo de poucas em poucas horas. As mensagens diretas e os quartos nunca são afetados. Não é possível restaurar as mensagens apagadas, e o espaço de armazenamento pode ser libertado apenas mais tarde. Depois de restaurar uma cópia de segurança com mensagens, o limite fica em pausa até o confirmar novamente.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Da cópia de segurança: %1$d dias, inativo. Escolha novamente o valor para confirmar.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Apagar mensagens antigas de canais?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "As mensagens de canais com mais de %1$d dias serão apagadas agora. Mensagens: %2$d, canais: %3$d. A partir daí, as mensagens de canais mais antigas são apagadas automaticamente sempre que a aplicação é aberta. Esta ação não pode ser anulada.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Nenhuma mensagem de canal tem mais de %1$d dias, por isso não é apagado nada agora. A partir de agora, as mensagens de canais mais antigas são apagadas automaticamente sempre que a aplicação é aberta.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Apagar e ativar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Ativar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "A apagar mensagens antigas…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Nunca apagar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Mensagens apagadas: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Descartar o valor da cópia de segurança",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

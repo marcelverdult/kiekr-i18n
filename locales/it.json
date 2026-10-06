@@ -12069,5 +12069,130 @@
     "value": "KiekR segue per impostazione predefinita la lingua del dispositivo. Scegli qui una lingua per usarla solo in KiekR.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR ha bisogno del permesso di usare il Bluetooth. Consentilo nelle Impostazioni per trovare il tuo nodo.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Il Bluetooth non è disponibile",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Questo dispositivo non può usare il Bluetooth LE, quindi KiekR non può trovare nodi qui. Connettiti invece tramite Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Scansione Bluetooth non riuscita (codice %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Avviso ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Altri ripetitori o room server noti condividono l'hash dell'hop %1$s con %2$s: %3$s. La risposta può arrivare da uno qualsiasi di essi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Esegui ping comunque",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Incolla le coordinate",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Gli appunti non contengono coordinate come 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Chat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Indietro",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Conservazione dei messaggi dei canali",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Elimina i messaggi più vecchi di",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d giorni",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Se è impostato un limite, i messaggi dei canali più vecchi del periodo scelto vengono eliminati all'apertura dell'app, al massimo ogni poche ore. I messaggi diretti e le stanze non vengono mai toccati. I messaggi eliminati non possono essere ripristinati e lo spazio di archiviazione potrebbe essere liberato solo più tardi. Dopo il ripristino di un backup con messaggi, il limite resta in pausa finché non lo confermi di nuovo.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Dal backup: %1$d giorni, non attivo. Scegli di nuovo il valore per confermare.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Eliminare i vecchi messaggi dei canali?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "I messaggi dei canali più vecchi di %1$d giorni verranno eliminati ora. Messaggi: %2$d, canali: %3$d. Da quel momento, i messaggi più vecchi dei canali vengono eliminati automaticamente a ogni apertura dell'app. Questa operazione non può essere annullata.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Nessun messaggio dei canali è più vecchio di %1$d giorni, quindi ora non viene eliminato nulla. D'ora in poi i messaggi più vecchi dei canali vengono eliminati automaticamente a ogni apertura dell'app.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Elimina e attiva",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Attiva",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Eliminazione dei vecchi messaggi…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Non eliminare mai",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Messaggi eliminati: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Scarta il valore del backup",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

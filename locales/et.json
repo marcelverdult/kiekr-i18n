@@ -13434,5 +13434,130 @@
     "value": "Ühendub uuesti sinu WiFi-kaaslasega, kui ühendus katkeb, kui avad rakenduse ja kui WiFi taastub. Lülita see välja, kui sama kaaslast kasutab teine telefon või rakendus: see võtab vastu ainult ühe ühenduse, nii et iga uuesti ühendamine katkestab teise kliendi.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR vajab luba Bluetoothi kasutamiseks. Luba see Seadetes, et leida oma sõlm.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth pole saadaval",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "See seade ei saa kasutada Bluetooth LE-d, seega ei leia KiekR siin sõlmi. Ühenda selle asemel WiFi kaudu.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetoothi skannimine ebaõnnestus (kood %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Pingi hoiatus",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Teised teadaolevad repiiterid või toaserverid jagavad hüppe räsi %1$s sõlmega %2$s: %3$s. Vastus võib tulla igaühelt neist.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Pingi ikkagi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Kleebi koordinaadid",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Lõikelaual ei ole koordinaate nagu 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Vestlused",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Tagasi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Kanalisõnumite säilitamine",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Kustuta sõnumid, mis on vanemad kui",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d päeva",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Kui piirang on seatud, kustutatakse valitud ajast vanemad kanalisõnumid rakenduse avamisel, kõige rohkem iga paari tunni tagant. Otsesõnumeid ja tube ei puututa kunagi. Kustutatud sõnumeid ei saa taastada ning salvestusruum võib vabaneda alles hiljem. Pärast sõnumitega varukoopia taastamist on piirang peatatud, kuni sa selle uuesti kinnitad.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Varukoopiast: %1$d päeva, pole aktiivne. Kinnitamiseks vali väärtus uuesti.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Kas kustutada vanad kanalisõnumid?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanalisõnumid, mis on vanemad kui %1$d päeva, kustutatakse nüüd. Sõnumeid: %2$d, kanaleid: %3$d. Pärast seda kustutatakse vanemad kanalisõnumid automaatselt iga kord, kui rakendus avatakse. Seda ei saa tagasi võtta.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Ükski kanalisõnum ei ole vanem kui %1$d päeva, seega praegu midagi ei kustutata. Edaspidi kustutatakse vanemad kanalisõnumid automaatselt iga kord, kui rakendus avatakse.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Kustuta ja lülita sisse",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Lülita sisse",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Vanu sõnumeid kustutatakse…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Ära kunagi kustuta",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Kustutatud sõnumeid: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Loobu varukoopia väärtusest",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

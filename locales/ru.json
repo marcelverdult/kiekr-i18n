@@ -13436,5 +13436,130 @@
     "value": "Переподключается к вашему Wi-Fi спутнику при обрыве связи, при открытии приложения и при возвращении Wi-Fi. Отключите это, если тем же спутником пользуется другой телефон или приложение: он принимает только одно подключение, поэтому каждое переподключение отключает другого клиента.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR нужно разрешение на использование Bluetooth. Разрешите его в Настройках, чтобы найти ваш узел.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth недоступен",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Это устройство не может использовать Bluetooth LE, поэтому KiekR не может найти здесь узлы. Подключитесь через Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Не удалось выполнить поиск по Bluetooth (код %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Предупреждение о ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Другие известные ретрансляторы или серверы комнат используют тот же хеш перехода %1$s, что и %2$s: %3$s. Ответ может прийти от любого из них.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Всё равно выполнить ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Вставить координаты",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Буфер обмена не содержит координат вида 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Чаты",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Хранение сообщений каналов",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Удалять сообщения старше",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d дней",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Если задан лимит, сообщения каналов старше выбранного срока удаляются при открытии приложения, не чаще чем раз в несколько часов. Личные сообщения и номера никогда не затрагиваются. Удалённые сообщения нельзя восстановить, а место в хранилище может освободиться только позже. После восстановления резервной копии с сообщениями лимит приостанавливается, пока вы не подтвердите его снова.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Из резервной копии: %1$d дней, не активно. Выберите значение ещё раз, чтобы подтвердить.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Удалить старые сообщения каналов?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Сообщения каналов старше %1$d дней будут удалены сейчас. Сообщений: %2$d, каналов: %3$d. После этого более старые сообщения каналов будут удаляться автоматически при каждом открытии приложения. Это действие нельзя отменить.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Нет сообщений каналов старше %1$d дней, поэтому сейчас ничего не удаляется. Начиная с этого момента более старые сообщения каналов будут удаляться автоматически при каждом открытии приложения.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Удалить и включить",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Включить",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Удаление старых сообщений…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Никогда не удалять",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Удалено сообщений: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Отбросить значение из резервной копии",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

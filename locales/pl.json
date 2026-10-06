@@ -13427,5 +13427,130 @@
     "value": "KiekR domyślnie używa języka Twojego urządzenia. Wybierz tutaj język, aby używać go tylko w KiekR.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR potrzebuje uprawnienia do korzystania z Bluetooth. Zezwól na nie w Ustawieniach, aby znaleźć swój węzeł.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth jest niedostępny",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "To urządzenie nie obsługuje Bluetooth LE, więc KiekR nie może tu znaleźć węzłów. Połącz się zamiast tego przez Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Skanowanie Bluetooth nie powiodło się (kod %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ostrzeżenie przed pingiem",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Inne znane przekaźniki lub serwery pokojowe mają ten sam hash skoku %1$s co %2$s: %3$s. Odpowiedź może pochodzić od dowolnego z nich.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Pinguj mimo to",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Wklej współrzędne",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Schowek nie zawiera współrzędnych takich jak 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Czat",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Powrót",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Przechowywanie wiadomości z kanałów",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Usuń wiadomości starsze niż",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dni",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Gdy ustawiony jest limit, wiadomości z kanałów starsze niż wybrany okres są usuwane po otwarciu aplikacji, najwyżej raz na kilka godzin. Wiadomości prywatne i pokoje pozostają zawsze nietknięte. Usuniętych wiadomości nie można przywrócić, a miejsce w pamięci może zwolnić się dopiero później. Po przywróceniu kopii zapasowej z wiadomościami limit jest wstrzymany, dopóki ponownie go nie potwierdzisz.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Z kopii zapasowej: %1$d dni, nieaktywne. Wybierz wartość ponownie, aby ją potwierdzić.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Usunąć stare wiadomości z kanałów?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Wiadomości z kanałów starsze niż %1$d dni zostaną teraz usunięte. Wiadomości: %2$d, kanały: %3$d. Od tej pory starsze wiadomości z kanałów będą usuwane automatycznie przy każdym otwarciu aplikacji. Tej operacji nie można cofnąć.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Żadna wiadomość z kanałów nie jest starsza niż %1$d dni, więc teraz nic nie zostanie usunięte. Od teraz starsze wiadomości z kanałów będą usuwane automatycznie przy każdym otwarciu aplikacji.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Usuń i włącz",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Włącz",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Usuwanie starych wiadomości…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Nigdy nie usuwaj",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Usunięte wiadomości: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Odrzuć wartość z kopii zapasowej",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

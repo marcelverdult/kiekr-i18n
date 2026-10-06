@@ -10968,5 +10968,105 @@
   "settings_language_footer_inapp": {
     "value": "KiekR folgt standardmäßig deiner Gerätesprache. Wähle hier eine Sprache, um sie nur für KiekR zu verwenden.",
     "_human": true
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR braucht die Berechtigung für Bluetooth. Erlaube sie in den Einstellungen, damit dein Node gefunden wird.",
+    "_human": true
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth ist nicht verfügbar",
+    "_human": true
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Dieses Gerät kann kein Bluetooth LE nutzen, deshalb findet KiekR hier keine Nodes. Verbinde dich stattdessen per WLAN.",
+    "_human": true
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetooth-Scan fehlgeschlagen (Code %1$d)",
+    "_human": true
+  },
+  "ping_collision_title": {
+    "value": "Ping-Warnung",
+    "_human": true
+  },
+  "ping_collision_message": {
+    "value": "Andere bekannte Repeater oder Room-Server haben denselben Hop-Hash %1$s wie %2$s: %3$s. Die Antwort kann von jedem von ihnen kommen.",
+    "_human": true
+  },
+  "ping_collision_confirm": {
+    "value": "Trotzdem pingen",
+    "_human": true
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Koordinaten einfügen",
+    "_human": true
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Die Zwischenablage enthält keine Koordinaten wie 53.5511, 9.9937.",
+    "_human": true
+  },
+  "settings_home_entry_chats": {
+    "value": "Chats",
+    "_human": true
+  },
+  "settings_chats_cd_back": {
+    "value": "Zurück",
+    "_human": true
+  },
+  "settings_chats_retention_header": {
+    "value": "Aufbewahrung von Kanal-Nachrichten",
+    "_human": true
+  },
+  "settings_chats_retention_picker": {
+    "value": "Nachrichten löschen, die älter sind als",
+    "_human": true
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d Tage",
+    "_human": true
+  },
+  "settings_chats_retention_footer": {
+    "value": "Ist ein Limit gesetzt, werden Kanal-Nachrichten, die älter als die gewählte Dauer sind, beim Öffnen der App gelöscht, höchstens alle paar Stunden. Direktnachrichten und Räume bleiben unberührt. Gelöschte Nachrichten lassen sich nicht wiederherstellen, und Speicherplatz wird eventuell erst später frei. Nach dem Wiederherstellen eines Backups mit Nachrichten pausiert die Grenze, bis du sie erneut bestätigst.",
+    "_human": true
+  },
+  "settings_chats_retention_pending": {
+    "value": "Aus dem Backup: %1$d Tage, nicht aktiv. Wähle den Wert erneut, um ihn zu bestätigen.",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Alte Kanal-Nachrichten löschen?",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanal-Nachrichten, die älter als %1$d Tage sind, werden jetzt gelöscht. Nachrichten: %2$d, Kanäle: %3$d. Danach werden ältere Kanal-Nachrichten automatisch gelöscht, sobald die App geöffnet wird. Das kann nicht rückgängig gemacht werden.",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Keine Kanal-Nachricht ist älter als %1$d Tage, daher wird jetzt nichts gelöscht. Ab jetzt werden ältere Kanal-Nachrichten automatisch gelöscht, sobald die App geöffnet wird.",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Löschen und aktivieren",
+    "_human": true
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Aktivieren",
+    "_human": true
+  },
+  "settings_chats_retention_working": {
+    "value": "Alte Nachrichten werden gelöscht ...",
+    "_human": true
+  },
+  "settings_chats_retention_never": {
+    "value": "Nie löschen",
+    "_human": true
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Gelöschte Nachrichten: %1$d",
+    "_human": true
+  },
+  "settings_chats_retention_discard": {
+    "value": "Wert aus dem Backup verwerfen",
+    "_human": true
   }
 }

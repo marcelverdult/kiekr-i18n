@@ -13434,5 +13434,130 @@
     "value": "Återansluter till din WiFi-följeslagare när länken bryts, när du öppnar appen och när WiFi kommer tillbaka. Stäng av det här om en annan telefon eller app använder samma följeslagare: Den tar bara emot en anslutning, så varje återanslutning kopplar från den andra klienten.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR behöver behörighet att använda Bluetooth. Tillåt den i Inställningar så att din nod kan hittas.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth är inte tillgängligt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Den här enheten kan inte använda Bluetooth LE, så KiekR kan inte hitta några noder här. Anslut via Wi-Fi i stället.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Bluetooth-sökningen misslyckades (kod %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Ping-varning",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Andra kända repeatrar eller rumsservrar har samma hopp-hash %1$s som %2$s: %3$s. Svaret kan komma från vilken som helst av dem.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Pinga ändå",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Klistra in koordinater",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Urklipp innehåller inga koordinater som 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Chattar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Tillbaka",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Lagring av kanalmeddelanden",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Ta bort meddelanden som är äldre än",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d dagar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "När en gräns är satt tas kanalmeddelanden som är äldre än den valda tiden bort när appen öppnas, högst var några timmar. Direktmeddelanden och rum berörs aldrig. Borttagna meddelanden kan inte återställas, och lagringsutrymme kan frigöras först senare. Efter att en säkerhetskopia med meddelanden har återställts är gränsen pausad tills du bekräftar den igen.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "Från säkerhetskopia: %1$d dagar, inte aktivt. Välj värdet igen för att bekräfta.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Ta bort gamla kanalmeddelanden?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Kanalmeddelanden som är äldre än %1$d dagar tas bort nu. Meddelanden: %2$d, kanaler: %3$d. Därefter tas äldre kanalmeddelanden bort automatiskt varje gång appen öppnas. Detta går inte att ångra.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Inget kanalmeddelande är äldre än %1$d dagar, så ingenting tas bort nu. Från och med nu tas äldre kanalmeddelanden bort automatiskt varje gång appen öppnas.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Ta bort och aktivera",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Aktivera",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Tar bort gamla meddelanden…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Ta aldrig bort",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Borttagna meddelanden: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Förkasta värdet från säkerhetskopian",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }

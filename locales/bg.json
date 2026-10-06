@@ -13434,5 +13434,130 @@
     "value": "Свързва се отново със съпътстващото ви Wi-Fi устройство, когато връзката прекъсне, когато отворите приложението и когато Wi-Fi се върне. Изключете това, ако друг телефон или приложение използва същото устройство: то приема само една връзка, затова всяко повторно свързване прекъсва другия клиент.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "mynode_scan_permission_hint": {
+    "value": "KiekR се нуждае от разрешение за използване на Bluetooth. Разрешете го в настройките, за да намерите своя възел.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_title": {
+    "value": "Bluetooth не е наличен",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_unsupported_hint": {
+    "value": "Това устройство не може да използва Bluetooth LE, затова KiekR не може да намира възли тук. Свържете се чрез Wi-Fi.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_scan_failed": {
+    "value": "Сканирането през Bluetooth не успя (код %1$d)",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_title": {
+    "value": "Предупреждение за ping",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_message": {
+    "value": "Други известни ретранслатори или сървъри за стая споделят хеша на скока %1$s с %2$s: %3$s. Отговорът може да дойде от всеки от тях.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "ping_collision_confirm": {
+    "value": "Ping все пак",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_coordinates": {
+    "value": "Поставете координати",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_advert_paste_invalid": {
+    "value": "Клипбордът не съдържа координати като 53.5511, 9.9937.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_home_entry_chats": {
+    "value": "Чат",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_cd_back": {
+    "value": "Назад",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_header": {
+    "value": "Съхранение на съобщенията в каналите",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_picker": {
+    "value": "Изтрий съобщения, по-стари от",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_days": {
+    "value": "%1$d дни",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_footer": {
+    "value": "Когато е зададено ограничение, съобщенията в каналите, по-стари от избрания срок, се изтриват при отваряне на приложението, най-много веднъж на няколко часа. Личните съобщения и стаите никога не се засягат. Изтритите съобщения не могат да бъдат възстановени, а мястото за съхранение може да се освободи по-късно. След възстановяване на резервно копие със съобщения ограничението е на пауза, докато не го потвърдите отново.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_pending": {
+    "value": "От резервното копие: %1$d дни, не е активно. Изберете стойността отново, за да я потвърдите.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_title": {
+    "value": "Да се изтрият ли старите съобщения в каналите?",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body": {
+    "value": "Съобщенията в каналите, които са по-стари от %1$d дни, ще бъдат изтрити сега. Съобщения: %2$d, канали: %3$d. След това по-старите съобщения в каналите ще се изтриват автоматично при всяко отваряне на приложението. Това действие не може да бъде отменено.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_body_none": {
+    "value": "Няма съобщения в каналите, по-стари от %1$d дни, затова сега нищо няма да бъде изтрито. Оттук нататък по-старите съобщения в каналите ще се изтриват автоматично при всяко отваряне на приложението.",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_delete": {
+    "value": "Изтрий и включи",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_confirm_enable": {
+    "value": "Включи",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_working": {
+    "value": "Изтриване на старите съобщения…",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_never": {
+    "value": "Никога не изтривай",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_deleted": {
+    "value": "Изтрити съобщения: %1$d",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "settings_chats_retention_discard": {
+    "value": "Отхвърли стойността от резервното копие",
+    "_ai": true,
+    "_seeded": "2026-10-06"
   }
 }
