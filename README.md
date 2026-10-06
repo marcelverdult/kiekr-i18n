@@ -9,34 +9,34 @@ Community-managed translations for the [KiekR](https://kiekr.app) app
 
 | Language       | Code | Completion | Human | AI seeded | Manager    |
 |----------------|------|-----------:|------:|----------:|------------|
-| English        | `en` |       100% |  2726 |         0 | kiekr-team |
-| Deutsch        | `de` |       100% |  2725 |         1 | kiekr-team |
-| Español        | `es` |       100% |  1285 |      1441 | community  |
-| Français       | `fr` |       100% |  1284 |      1442 | community  |
-| Nederlands     | `nl` |       100% |  1285 |      1441 | community  |
-| Italiano       | `it` |       100% |  1370 |      1356 | community  |
-| Português (Brasil) | `pt-BR` |       100% |     6 |      2720 | community  |
-| Polski         | `pl` |       100% |    16 |      2710 | community  |
-| Български      | `bg` |       100% |     5 |      2721 | community  |
-| Čeština        | `cs` |       100% |     5 |      2721 | community  |
-| Dansk          | `da` |       100% |     5 |      2721 | community  |
-| Ελληνικά       | `el` |       100% |     5 |      2721 | community  |
-| Eesti          | `et` |       100% |     5 |      2721 | community  |
-| Suomi          | `fi` |       100% |     5 |      2721 | community  |
-| Gaeilge        | `ga` |       100% |     5 |      2721 | community  |
-| Hrvatski       | `hr` |       100% |     5 |      2721 | community  |
-| Magyar         | `hu` |       100% |     5 |      2721 | community  |
-| Lietuvių       | `lt` |       100% |     5 |      2721 | community  |
-| Latviešu       | `lv` |       100% |     5 |      2721 | community  |
-| Malti          | `mt` |       100% |     5 |      2721 | community  |
-| Norsk bokmål   | `nb` |       100% |     5 |      2721 | community  |
-| Português (Portugal) | `pt-PT` |       100% |     5 |      2721 | community  |
-| Română         | `ro` |       100% |     5 |      2721 | community  |
-| Русский        | `ru` |       100% |     5 |      2721 | community  |
-| Slovenčina     | `sk` |       100% |     5 |      2721 | community  |
-| Slovenščina    | `sl` |       100% |     5 |      2721 | community  |
-| Svenska        | `sv` |       100% |     5 |      2721 | community  |
-| Українська     | `uk` |       100% |     5 |      2721 | community  |
+| English        | `en` |       100% |  2750 |         0 | kiekr-team |
+| Deutsch        | `de` |       100% |  2749 |         1 | kiekr-team |
+| Español        | `es` |       100% |  1285 |      1465 | community  |
+| Français       | `fr` |       100% |  1284 |      1466 | community  |
+| Nederlands     | `nl` |       100% |  1285 |      1465 | community  |
+| Italiano       | `it` |       100% |  1370 |      1380 | community  |
+| Português (Brasil) | `pt-BR` |       100% |     6 |      2744 | community  |
+| Polski         | `pl` |       100% |    16 |      2734 | community  |
+| Български      | `bg` |       100% |     5 |      2745 | community  |
+| Čeština        | `cs` |       100% |     5 |      2745 | community  |
+| Dansk          | `da` |       100% |     5 |      2745 | community  |
+| Ελληνικά       | `el` |       100% |     5 |      2745 | community  |
+| Eesti          | `et` |       100% |     5 |      2745 | community  |
+| Suomi          | `fi` |       100% |     5 |      2745 | community  |
+| Gaeilge        | `ga` |       100% |     5 |      2745 | community  |
+| Hrvatski       | `hr` |       100% |     5 |      2745 | community  |
+| Magyar         | `hu` |       100% |     5 |      2745 | community  |
+| Lietuvių       | `lt` |       100% |     5 |      2745 | community  |
+| Latviešu       | `lv` |       100% |     5 |      2745 | community  |
+| Malti          | `mt` |       100% |     5 |      2745 | community  |
+| Norsk bokmål   | `nb` |       100% |     5 |      2745 | community  |
+| Português (Portugal) | `pt-PT` |       100% |     5 |      2745 | community  |
+| Română         | `ro` |       100% |     5 |      2745 | community  |
+| Русский        | `ru` |       100% |     5 |      2745 | community  |
+| Slovenčina     | `sk` |       100% |     5 |      2745 | community  |
+| Slovenščina    | `sl` |       100% |     5 |      2745 | community  |
+| Svenska        | `sv` |       100% |     5 |      2745 | community  |
+| Українська     | `uk` |       100% |     5 |      2745 | community  |
 
 <!-- status:end -->
 
