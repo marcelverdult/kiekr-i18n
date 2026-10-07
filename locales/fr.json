@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-10-06"
+    "updated": "2026-10-07"
   },
   "add_channel_duplicate_key": {
     "value": "Cette clé appartient déjà à « %1$s ».",
@@ -12455,5 +12455,155 @@
     "value": "Aucune utilise la région par défaut de votre companion pour les envois en flood. Les messages passant par un chemin direct connu ne portent jamais de région. Attribuez une région pour en utiliser une autre pour ce contact.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "chat_translate_action": {
+    "value": "Traduire",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translating": {
+    "value": "Traduction en cours…",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_failed": {
+    "value": "Échec de la traduction",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Traduit depuis %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_show_original": {
+    "value": "Afficher l'original",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_show_translation": {
+    "value": "Afficher la traduction",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_header": {
+    "value": "Traduction",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_offer": {
+    "value": "Proposer la traduction",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_target": {
+    "value": "Traduire vers",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_app_language": {
+    "value": "Langue de l'app",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Traduire avec Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Propulsé par Google Translate",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Traduire avec Google ML Kit ?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "Sous Android, la traduction utilise Google ML Kit. ML Kit envoie des données d'utilisation à Google, par exemple des informations sur l'appareil ainsi que les langues détectées et configurées. Le texte du message reste sur votre appareil.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Activer",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Pas maintenant",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Télécharger les modèles de langue ?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Pour traduire sur votre appareil, KiekR doit télécharger des modèles de langue : %1$s. Chacun pèse environ 30 Mo.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Le téléchargement ne démarre qu'en Wi-Fi. Vous pouvez modifier cela dans Réglages, Discussions.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "L'option Wi-Fi uniquement est désactivée, le téléchargement peut donc utiliser les données mobiles.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Télécharger",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_wifi_only": {
+    "value": "Télécharger les modèles de langue uniquement en Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models": {
+    "value": "Modèles de langue téléchargés",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Aucun modèle de langue téléchargé pour le moment.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Supprimer le modèle de langue %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "La traduction s'exécute sur cet appareil avec Google ML Kit. Le texte du message ne quitte jamais votre téléphone. ML Kit envoie des données d'utilisation à Google. Les modèles de langue pèsent environ 30 Mo chacun et ne sont téléchargés qu'après votre accord.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "La traduction n'est pas disponible sur cet appareil.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_help_about_translation_label": {
+    "value": "Traduction",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Connectez-vous à un réseau Wi-Fi pour télécharger ce modèle de langue, ou désactivez « Télécharger les modèles de langue uniquement en Wi-Fi » dans les réglages.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Wi-Fi requis",
+    "_ai": true,
+    "_seeded": "2026-10-07"
   }
 }

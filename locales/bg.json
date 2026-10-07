@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-10-06"
+    "updated": "2026-10-07"
   },
   "add_channel_duplicate_key": {
     "value": "Този ключ вече принадлежи на „%1$s“.",
@@ -13734,5 +13734,155 @@
     "value": "Няма означава, че при изпращане чрез наводнение се използва регионът по подразбиране на вашия companion. Съобщенията по известен директен път никога не носят регион. Задайте регион, за да използвате друг за този контакт.",
     "_ai": true,
     "_seeded": "2026-10-06"
+  },
+  "chat_translate_action": {
+    "value": "Преведи",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Преведи с Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Преведено от: %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translating": {
+    "value": "Превеждане…",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "С помощта на Google Преводач",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Включи",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "В Android преводът използва Google ML Kit. ML Kit изпраща на Google данни за употреба, например информация за устройството и разпознатите и зададените езици. Текстът на съобщението остава на вашето устройство.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Не сега",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Превеждане с Google ML Kit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Опцията „Само Wi-Fi“ е изключена, затова изтеглянето може да използва мобилни данни.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Изтегли",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "За превод на устройството KiekR трябва да изтегли езикови модели: %1$s. Всеки е около 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Свържете се с Wi-Fi, за да изтеглите този езиков модел, или изключете „Изтегляне на езикови модели само през Wi-Fi“ в Настройки.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Нужна е Wi-Fi мрежа",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Да се изтеглят ли езиковите модели?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Изтеглянето започва само през Wi-Fi. Можете да промените това в Настройки, Чат.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_failed": {
+    "value": "Преводът не бе успешен",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_show_original": {
+    "value": "Покажи оригинала",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_show_translation": {
+    "value": "Покажи превода",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_app_language": {
+    "value": "Език на приложението",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Преводът се извършва на това устройство с Google ML Kit. Текстът на съобщенията никога не напуска вашия телефон. ML Kit изпраща на Google данни за употреба. Езиковите модели са около 30 MB всеки и се изтеглят едва след вашето съгласие.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_header": {
+    "value": "Превод",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Изтрий езиковия модел %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models": {
+    "value": "Изтеглени езикови модели",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Все още няма изтеглени езикови модели.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_offer": {
+    "value": "Предлагай превод",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_target": {
+    "value": "Преведи на",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Преводът не е наличен на това устройство.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_wifi_only": {
+    "value": "Изтегляне на езикови модели само през Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_help_about_translation_label": {
+    "value": "Превод",
+    "_ai": true,
+    "_seeded": "2026-10-07"
   }
 }
