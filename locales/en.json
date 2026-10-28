@@ -3,7 +3,7 @@
     "language": "en",
     "managed_by": "kiekr-team",
     "name": "English",
-    "updated": "2026-10-21"
+    "updated": "2026-10-28"
   },
   "add_channel_duplicate_key": "This key already belongs to \"%1$s\".",
   "add_channel_generate_key": "Generate random key",
@@ -2847,5 +2847,14 @@
   "mynode_config_error_telemetry_rejected": "The node rejected the telemetry sharing setting.",
   "config_error_default_region_rejected": "The node rejected the default region.",
   "config_error_path_hash_mode_rejected": "The node rejected the path hash mode.",
-  "config_error_autoadd_rejected": "The node rejected the auto-add policy."
+  "config_error_autoadd_rejected": "The node rejected the auto-add policy.",
+  "region_picker_node_default_now": "Node default (now: %1$s)",
+  "region_picker_node_default_none": "Node default (none)",
+  "region_picker_node_default_unknown": "Node default (unknown)",
+  "region_picker_without_region": "Without region",
+  "region_picker_without_region_needs_fw": "Needs firmware v12 or newer to send without a region.",
+  "nodes_detail_region_unscoped_footer": "Flood messages to this contact go out without a region, even when your node has a default region.",
+  "chat_scope_unscoped": "without region (channel setting)",
+  "chat_menu_reply_without_region": "Reply without region",
+  "chat_reply_chip_without_region": "Answer without region"
 }
