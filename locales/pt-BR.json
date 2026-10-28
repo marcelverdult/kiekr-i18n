@@ -2782,9 +2782,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Deixe este campo em branco para que os pacotes de flood permaneçam sem escopo.",
+    "value": "• Deixe este campo em branco para enviar pacotes de flood sem região padrão.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Atualizar",
@@ -3098,11 +3098,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "As informações do proprietário ainda não foram recuperadas",
-    "_ai": true,
-    "_seeded": "2026-05-23"
-  },
-  "nodes_detail_no_region": {
-    "value": "Nenhum",
     "_ai": true,
     "_seeded": "2026-05-23"
   },
@@ -5444,11 +5439,6 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Nenhum",
-    "_ai": true,
-    "_seeded": "2026-05-23"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Remover do dispositivo",
     "_ai": true,
@@ -5641,11 +5631,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Ocultar",
-    "_ai": true,
-    "_seeded": "2026-05-23"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "sem região",
     "_ai": true,
     "_seeded": "2026-05-23"
   },
@@ -7120,14 +7105,14 @@
     "_seeded": "2026-05-23"
   },
   "settings_regions_scope_footer_none": {
-    "value": "As mensagens sem escopo são enviadas como flood simples. Todos os repetidores da malha irão retransmiti-las.",
+    "value": "Sem região padrão, as mensagens sem região própria são enviadas como flood simples. Todos os repetidores da malha irão retransmiti-las.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "As transmissões sem escopo são codificadas silenciosamente para a região %1$s. Apenas os repetidores configurados para essa região as retransmitirão.",
+    "value": "As mensagens sem região própria são codificadas silenciosamente para transporte à região %1$s. Apenas os repetidores configurados para essa região as retransmitirão.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Escolha uma região para definir como escopo padrão do nó emparelhado ou “Nenhuma” para flood simples. A configuração é armazenada no nó e permanece mesmo após reinicializações.",
@@ -12511,11 +12496,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "sem região",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Acesso de leitura",
     "_ai": true,
@@ -13048,16 +13028,6 @@
   },
   "traceroute_return_path_too_long": {
     "value": "O caminho de retorno excederia o comprimento máximo do caminho.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channels_region_device_default": {
-    "value": "padrão: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Nenhum (padrão: %1$s)",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -14190,11 +14160,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Responder sem região",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Responder sem região",
     "_ai": true,
     "_seeded": "2026-10-28"

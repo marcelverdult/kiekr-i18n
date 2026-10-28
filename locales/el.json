@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Αφήστε αυτό το πεδίο κενό, ώστε τα πακέτα πλημμύρας να παραμείνουν χωρίς πεδίο εφαρμογής.",
+    "value": "• Αφήστε αυτό το πεδίο κενό για να στέλνονται πακέτα flood χωρίς προεπιλεγμένη περιοχή.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Ανανέωση",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Δεν έχουν ανακτηθεί ακόμη τα στοιχεία του ιδιοκτήτη",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Κανένα",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5443,11 +5438,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Κανένα",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Διαγραφή από τη συσκευή",
     "_ai": true,
@@ -5640,11 +5630,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Απόκρυψη",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "καμία περιοχή",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7119,14 +7104,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Οι αποστολές χωρίς πεδίο εφαρμογής μεταδίδονται ως απλό Flood. Κάθε επαναλήπτης στο δίκτυο mesh θα τις αναμεταδώσει.",
+    "value": "Χωρίς προεπιλεγμένη περιοχή, τα μηνύματα χωρίς δική τους περιοχή μεταδίδονται ως απλό Flood. Κάθε επαναλήπτης στο δίκτυο mesh θα τα αναμεταδώσει.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Οι αποστολές χωρίς πεδίο εφαρμογής κωδικοποιούνται σιωπηρά ως «%1$s». Μόνο οι αναμεταδότες που έχουν ρυθμιστεί για την εν λόγω περιοχή θα τις αναμεταδώσουν.",
+    "value": "Τα μηνύματα χωρίς δική τους περιοχή κωδικοποιούνται σιωπηρά για μεταφορά προς «%1$s». Μόνο οι αναμεταδότες που έχουν ρυθμιστεί για την εν λόγω περιοχή θα τα αναμεταδώσουν.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Επιλέξτε μια περιοχή για να ορίσετε ως προεπιλεγμένο πεδίο εφαρμογής του ζευγαρωμένου κόμβου, ή «None» για απλή διάδοση (Flood). Η ρύθμιση αποθηκεύεται στον κόμβο και διατηρείται μετά από επανεκκινήσεις.",
@@ -12510,11 +12495,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "χωρίς περιοχή",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Πρόσβαση ανάγνωσης",
     "_ai": true,
@@ -13050,16 +13030,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "προεπιλογή: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Κανένα (προεπιλογή: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Συμπλήρωση από τη μαθημένη διαδρομή",
     "_ai": true,
@@ -13435,6 +13405,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Χωρίς διαγραφή",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Διαγραμμένα μηνύματα: %1$d",
     "_ai": true,
@@ -13445,13 +13420,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Χωρίς διαγραφή",
+  "ping_collision_title": {
+    "value": "Προειδοποίηση ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Προειδοποίηση ping",
+  "ping_collision_message": {
+    "value": "Άλλοι γνωστοί επαναλήπτες ή διακομιστές δωματίου μοιράζονται το hash βήματος %1$s με τον κόμβο %2$s: %3$s. Η απάντηση μπορεί να προέλθει από οποιονδήποτε από αυτούς.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13460,8 +13435,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Άλλοι γνωστοί επαναλήπτες ή διακομιστές δωματίου μοιράζονται το hash βήματος %1$s με τον κόμβο %2$s: %3$s. Η απάντηση μπορεί να προέλθει από οποιονδήποτε από αυτούς.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Αυτόματη επανασύνδεση Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Επανασυνδέεται στον συνοδό Wi-Fi σας όταν διακοπεί η σύνδεση, όταν ανοίγετε την εφαρμογή και όταν επιστρέφει το Wi-Fi. Απενεργοποιήστε το αν άλλο τηλέφωνο ή άλλη εφαρμογή χρησιμοποιεί τον ίδιο συνοδό: δέχεται μόνο μία σύνδεση, οπότε κάθε επανασύνδεση αποσυνδέει τον άλλο client.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13502,16 +13482,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "Το KiekR ακολουθεί από προεπιλογή τη γλώσσα της συσκευής σας. Επιλέξτε εδώ μια γλώσσα για να τη χρησιμοποιείτε μόνο στο KiekR.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Αυτόματη επανασύνδεση Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Επανασυνδέεται στον συνοδό Wi-Fi σας όταν διακοπεί η σύνδεση, όταν ανοίγετε την εφαρμογή και όταν επιστρέφει το Wi-Fi. Απενεργοποιήστε το αν άλλο τηλέφωνο ή άλλη εφαρμογή χρησιμοποιεί τον ίδιο συνοδό: δέχεται μόνο μία σύνδεση, οπότε κάθε επανασύνδεση αποσυνδέει τον άλλο client.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13720,83 +13690,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Μετάφραση με Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Μεταφράστηκε από: %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Μετάφραση…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Υποστηρίζεται από τη Μετάφραση Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Ενεργοποίηση",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "Στο Android η μετάφραση χρησιμοποιεί το Google ML Kit. Το ML Kit στέλνει στη Google δεδομένα χρήσης, όπως πληροφορίες συσκευής και τις γλώσσες που εντοπίστηκαν και ορίστηκαν. Το κείμενο του μηνύματος παραμένει στη συσκευή σας.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Όχι τώρα",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Μετάφραση με το Google ML Kit;",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Η επιλογή «Μόνο Wi-Fi» είναι απενεργοποιημένη, επομένως η λήψη ενδέχεται να χρησιμοποιήσει δεδομένα κινητής.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Λήψη",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Για μετάφραση στη συσκευή, το KiekR πρέπει να κατεβάσει μοντέλα γλώσσας: %1$s. Κάθε μοντέλο είναι περίπου 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Συνδεθείτε σε Wi-Fi για να κατεβάσετε αυτό το μοντέλο γλώσσας ή απενεργοποιήστε την επιλογή «Λήψη μοντέλων γλώσσας μόνο μέσω Wi-Fi» στις Ρυθμίσεις.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Απαιτείται Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Λήψη μοντέλων γλώσσας;",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Η λήψη ξεκινά μόνο μέσω Wi-Fi. Μπορείτε να το αλλάξετε στις Ρυθμίσεις, στην ενότητα Συνομιλίες.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Η μετάφραση απέτυχε",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Μεταφράστηκε από: %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13810,33 +13715,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Γλώσσα εφαρμογής",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Η μετάφραση εκτελείται σε αυτήν τη συσκευή με το Google ML Kit. Το κείμενο των μηνυμάτων δεν φεύγει ποτέ από το τηλέφωνό σας. Το ML Kit στέλνει δεδομένα χρήσης στη Google. Τα μοντέλα γλώσσας είναι περίπου 30 MB το καθένα και κατεβαίνουν μόνο μετά τη συγκατάθεσή σας.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Μετάφραση",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Διαγραφή μοντέλου γλώσσας %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Μοντέλα γλώσσας που έχουν ληφθεί",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Δεν έχουν ληφθεί ακόμη μοντέλα γλώσσας.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13850,8 +13730,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Η μετάφραση δεν είναι διαθέσιμη σε αυτήν τη συσκευή.",
+  "settings_chats_translation_app_language": {
+    "value": "Γλώσσα εφαρμογής",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Μετάφραση με Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Υποστηρίζεται από τη Μετάφραση Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Μετάφραση με το Google ML Kit;",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "Στο Android η μετάφραση χρησιμοποιεί το Google ML Kit. Το ML Kit στέλνει στη Google δεδομένα χρήσης, όπως πληροφορίες συσκευής και τις γλώσσες που εντοπίστηκαν και ορίστηκαν. Το κείμενο του μηνύματος παραμένει στη συσκευή σας.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Ενεργοποίηση",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Όχι τώρα",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Λήψη μοντέλων γλώσσας;",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Για μετάφραση στη συσκευή, το KiekR πρέπει να κατεβάσει μοντέλα γλώσσας: %1$s. Κάθε μοντέλο είναι περίπου 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Η λήψη ξεκινά μόνο μέσω Wi-Fi. Μπορείτε να το αλλάξετε στις Ρυθμίσεις, στην ενότητα Συνομιλίες.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Η επιλογή «Μόνο Wi-Fi» είναι απενεργοποιημένη, επομένως η λήψη ενδέχεται να χρησιμοποιήσει δεδομένα κινητής.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Λήψη",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13860,8 +13795,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Μοντέλα γλώσσας που έχουν ληφθεί",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Δεν έχουν ληφθεί ακόμη μοντέλα γλώσσας.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Διαγραφή μοντέλου γλώσσας %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Η μετάφραση εκτελείται σε αυτήν τη συσκευή με το Google ML Kit. Το κείμενο των μηνυμάτων δεν φεύγει ποτέ από το τηλέφωνό σας. Το ML Kit στέλνει δεδομένα χρήσης στη Google. Τα μοντέλα γλώσσας είναι περίπου 30 MB το καθένα και κατεβαίνουν μόνο μετά τη συγκατάθεσή σας.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Η μετάφραση δεν είναι διαθέσιμη σε αυτήν τη συσκευή.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Μετάφραση",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Συνδεθείτε σε Wi-Fi για να κατεβάσετε αυτό το μοντέλο γλώσσας ή απενεργοποιήστε την επιλογή «Λήψη μοντέλων γλώσσας μόνο μέσω Wi-Fi» στις Ρυθμίσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Απαιτείται Wi-Fi",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14189,11 +14159,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Απάντηση χωρίς περιοχή",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Απάντηση χωρίς περιοχή",
     "_ai": true,
     "_seeded": "2026-10-28"

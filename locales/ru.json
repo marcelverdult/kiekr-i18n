@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Оставьте это поле пустым, чтобы пакеты с переполнением оставались вне области действия.",
+    "value": "• Оставьте это поле пустым, чтобы отправлять пакеты flood без региона по умолчанию.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Обновить",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Информация о владельце пока не получена",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Нет",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5445,11 +5440,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Нет",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Удалить с устройства",
     "_ai": true,
@@ -5642,11 +5632,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Скрыть",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "нет региона",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7121,14 +7106,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Сообщения без области действия передаются в виде простого потока (Flood). Каждый ретранслятор в сетке будет их ретранслировать.",
+    "value": "Без региона по умолчанию сообщения без собственного региона передаются как обычный Flood. Каждый ретранслятор в сетке будет их ретранслировать.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Сообщения без указания области действия незаметно кодируются с учетом особенностей транспортной сети в формат «%1$s». Их будут ретранслировать только ретрансляторы, настроенные для данного региона.",
+    "value": "Сообщения без собственного региона незаметно кодируются для транспортировки в регион «%1$s». Их будут ретранслировать только ретрансляторы, настроенные для этого региона.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Выберите регион, который будет установлен в качестве области действия по умолчанию для сопряжённого узла, или «None» для простого распространения (Flood). Этот параметр сохраняется на узле и сохраняется после перезагрузки.",
@@ -12512,11 +12497,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "без региона",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Доступ на чтение",
     "_ai": true,
@@ -13052,16 +13032,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "по умолчанию: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Нет (по умолчанию: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Заполнить из заученного пути",
     "_ai": true,
@@ -13437,6 +13407,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Никогда не удалять",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Удалено сообщений: %1$d",
     "_ai": true,
@@ -13447,13 +13422,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Никогда не удалять",
+  "ping_collision_title": {
+    "value": "Предупреждение о ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Предупреждение о ping",
+  "ping_collision_message": {
+    "value": "Другие известные ретрансляторы или серверы комнат используют тот же хеш перехода %1$s, что и %2$s: %3$s. Ответ может прийти от любого из них.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13462,8 +13437,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Другие известные ретрансляторы или серверы комнат используют тот же хеш перехода %1$s, что и %2$s: %3$s. Ответ может прийти от любого из них.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Автоматически переподключать Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Переподключается к вашему Wi-Fi спутнику при обрыве связи, при открытии приложения и при возвращении Wi-Fi. Отключите это, если тем же спутником пользуется другой телефон или приложение: он принимает только одно подключение, поэтому каждое переподключение отключает другого клиента.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13504,16 +13484,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "По умолчанию KiekR использует язык устройства. Выберите здесь язык, чтобы использовать его только в KiekR.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Автоматически переподключать Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Переподключается к вашему Wi-Fi спутнику при обрыве связи, при открытии приложения и при возвращении Wi-Fi. Отключите это, если тем же спутником пользуется другой телефон или приложение: он принимает только одно подключение, поэтому каждое переподключение отключает другого клиента.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13722,83 +13692,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Перевести через Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Переведено с: %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Перевод…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "На основе Google Переводчика",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Включить",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "В Android перевод использует Google ML Kit. ML Kit отправляет в Google данные об использовании, например сведения об устройстве, а также определённые и заданные языки. Текст сообщений остаётся на вашем устройстве.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Не сейчас",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Переводить с помощью Google ML Kit?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Режим «Только Wi-Fi» выключен, поэтому при загрузке может расходоваться мобильный трафик.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Скачать",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Чтобы переводить на устройстве, KiekR должен скачать языковые модели: %1$s. Каждая занимает около 30 МБ.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Подключитесь к Wi-Fi, чтобы скачать эту языковую модель, или отключите в настройках пункт «Скачивать языковые модели только по Wi-Fi».",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Нужен Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Скачать языковые модели?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Скачивание начнётся только по Wi-Fi. Это можно изменить в настройках, в разделе «Чаты».",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Не удалось выполнить перевод",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Переведено с: %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13812,33 +13717,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Язык приложения",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Перевод выполняется на этом устройстве с помощью Google ML Kit. Текст сообщений никогда не покидает ваш телефон. ML Kit отправляет в Google данные об использовании. Языковые модели занимают около 30 МБ каждая и скачиваются только после вашего согласия.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Перевод",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Удалить языковую модель %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Скачанные языковые модели",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Языковые модели ещё не скачаны.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13852,8 +13732,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Перевод недоступен на этом устройстве.",
+  "settings_chats_translation_app_language": {
+    "value": "Язык приложения",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Перевести через Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "На основе Google Переводчика",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Переводить с помощью Google ML Kit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "В Android перевод использует Google ML Kit. ML Kit отправляет в Google данные об использовании, например сведения об устройстве, а также определённые и заданные языки. Текст сообщений остаётся на вашем устройстве.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Включить",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Не сейчас",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Скачать языковые модели?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Чтобы переводить на устройстве, KiekR должен скачать языковые модели: %1$s. Каждая занимает около 30 МБ.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Скачивание начнётся только по Wi-Fi. Это можно изменить в настройках, в разделе «Чаты».",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Режим «Только Wi-Fi» выключен, поэтому при загрузке может расходоваться мобильный трафик.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Скачать",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13862,8 +13797,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Скачанные языковые модели",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Языковые модели ещё не скачаны.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Удалить языковую модель %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Перевод выполняется на этом устройстве с помощью Google ML Kit. Текст сообщений никогда не покидает ваш телефон. ML Kit отправляет в Google данные об использовании. Языковые модели занимают около 30 МБ каждая и скачиваются только после вашего согласия.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Перевод недоступен на этом устройстве.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Перевод",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Подключитесь к Wi-Fi, чтобы скачать эту языковую модель, или отключите в настройках пункт «Скачивать языковые модели только по Wi-Fi».",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Нужен Wi-Fi",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14193,11 +14163,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Ответить без региона",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Ответить без региона",
     "_ai": true,
     "_seeded": "2026-10-28"

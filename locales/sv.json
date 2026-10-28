@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Lämna detta fält tomt om du vill att översvämningspaket ska förbli utan omfattning.",
+    "value": "• Lämna detta fält tomt för att skicka flood-paket utan standardregion.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Uppdatera",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Ägaruppgifterna har inte hämtats ännu",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Inget",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5443,11 +5438,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Inget",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Ta bort från enheten",
     "_ai": true,
@@ -5640,11 +5630,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Dölj",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "ingen region",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7119,14 +7104,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Sändningar utan mottagarangivelse skickas ut som vanlig Flood. Varje repeater i nätverket kommer att vidarebefordra dem.",
+    "value": "Utan standardregion skickas meddelanden utan egen region ut som vanlig Flood. Varje repeater i nätverket kommer att vidarebefordra dem.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Sändningar utan mottagarområde kodas automatiskt för transport till %1$s. Endast repeatrar som är konfigurerade för den regionen kommer att vidarebefordra dem.",
+    "value": "Meddelanden utan egen region transportkodas automatiskt till %1$s. Endast repeatrar som är konfigurerade för den regionen kommer att vidarebefordra dem.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Välj en region som ska anges som standardomfång för den kopplade noden, eller ”None” för vanlig Flood. Inställningen sparas på noden och bevaras även efter omstart.",
@@ -12510,11 +12495,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "utan region",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Läsåtkomst",
     "_ai": true,
@@ -13050,16 +13030,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "standard: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Inget (standard: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Fyll i från inlärd väg",
     "_ai": true,
@@ -13435,6 +13405,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Ta aldrig bort",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Borttagna meddelanden: %1$d",
     "_ai": true,
@@ -13445,13 +13420,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Ta aldrig bort",
+  "ping_collision_title": {
+    "value": "Ping-varning",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping-varning",
+  "ping_collision_message": {
+    "value": "Andra kända repeatrar eller rumsservrar har samma hopp-hash %1$s som %2$s: %3$s. Svaret kan komma från vilken som helst av dem.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13460,8 +13435,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Andra kända repeatrar eller rumsservrar har samma hopp-hash %1$s som %2$s: %3$s. Svaret kan komma från vilken som helst av dem.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Återanslut WiFi automatiskt",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Återansluter till din WiFi-följeslagare när länken bryts, när du öppnar appen och när WiFi kommer tillbaka. Stäng av det här om en annan telefon eller app använder samma följeslagare: Den tar bara emot en anslutning, så varje återanslutning kopplar från den andra klienten.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13502,16 +13482,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "KiekR följer som standard enhetens språk. Välj ett språk här för att använda det bara i KiekR.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Återanslut WiFi automatiskt",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Återansluter till din WiFi-följeslagare när länken bryts, när du öppnar appen och när WiFi kommer tillbaka. Stäng av det här om en annan telefon eller app använder samma följeslagare: Den tar bara emot en anslutning, så varje återanslutning kopplar från den andra klienten.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13720,83 +13690,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Översätt med Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Översatt från %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Översätter…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Drivs av Google Translate",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Aktivera",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "På Android använder översättningen Google ML Kit. ML Kit skickar användningsdata till Google, till exempel enhetsinformation samt identifierade och inställda språk. Meddelandetexten stannar på din enhet.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Inte nu",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Översätta med Google ML Kit?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Endast Wi-Fi är avstängt, så nedladdningen kan använda mobildata.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Ladda ned",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "För att översätta på din enhet måste KiekR ladda ned språkmodeller: %1$s. Varje modell är cirka 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Anslut till ett Wi-Fi för att ladda ned den här språkmodellen, eller stäng av ”Hämta språkmodeller endast via Wi-Fi” i Inställningar.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Wi-Fi behövs",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Ladda ned språkmodeller?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Nedladdningen startar bara på Wi-Fi. Du kan ändra detta under Inställningar, Chattar.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Översättningen misslyckades",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Översatt från %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13810,33 +13715,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Appens språk",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Översättningen körs på den här enheten med Google ML Kit. Meddelandetexten lämnar aldrig din telefon. ML Kit skickar användningsdata till Google. Språkmodeller är cirka 30 MB vardera och laddas bara ned efter att du har godkänt det.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Översättning",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Ta bort språkmodellen %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Nedladdade språkmodeller",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Inga språkmodeller har laddats ned än.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13850,8 +13730,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Översättning är inte tillgänglig på den här enheten.",
+  "settings_chats_translation_app_language": {
+    "value": "Appens språk",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Översätt med Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Drivs av Google Translate",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Översätta med Google ML Kit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "På Android använder översättningen Google ML Kit. ML Kit skickar användningsdata till Google, till exempel enhetsinformation samt identifierade och inställda språk. Meddelandetexten stannar på din enhet.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Aktivera",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Inte nu",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Ladda ned språkmodeller?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "För att översätta på din enhet måste KiekR ladda ned språkmodeller: %1$s. Varje modell är cirka 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Nedladdningen startar bara på Wi-Fi. Du kan ändra detta under Inställningar, Chattar.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Endast Wi-Fi är avstängt, så nedladdningen kan använda mobildata.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Ladda ned",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13860,8 +13795,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Nedladdade språkmodeller",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Inga språkmodeller har laddats ned än.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Ta bort språkmodellen %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Översättningen körs på den här enheten med Google ML Kit. Meddelandetexten lämnar aldrig din telefon. ML Kit skickar användningsdata till Google. Språkmodeller är cirka 30 MB vardera och laddas bara ned efter att du har godkänt det.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Översättning är inte tillgänglig på den här enheten.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Översättning",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Anslut till ett Wi-Fi för att ladda ned den här språkmodellen, eller stäng av ”Hämta språkmodeller endast via Wi-Fi” i Inställningar.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Wi-Fi behövs",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14189,11 +14159,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Svara utan region",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Svara utan region",
     "_ai": true,
     "_seeded": "2026-10-28"

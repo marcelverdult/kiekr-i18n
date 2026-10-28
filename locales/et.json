@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Jätke see väli tühjaks, et üleujutuspaketid jääksid ulatuseta.",
+    "value": "• Jätke see väli tühjaks, et saata üleujutuspakette ilma vaikepiirkonnata.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Värskenda",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Omaniku andmeid pole veel alla laaditud",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Puudub",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5443,11 +5438,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Puudub",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Seadmest eemaldada",
     "_ai": true,
@@ -5640,11 +5630,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Peida",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "piirkond puudub",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7119,14 +7104,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Piiranguteta saadetised edastatakse tavalise üleujutusena. Iga võrgu kordaja edastab need edasi.",
+    "value": "Ilma vaikepiirkonnata saadetakse oma piirkonnata sõnumid tavalise üleujutusena. Iga võrgu kordaja edastab need edasi.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Piirkonna määramata saadetised kodeeritakse vaikimisi transpordikoodiga „%1$s”. Neid edastavad edasi ainult selle piirkonna jaoks konfigureeritud repiiterid.",
+    "value": "Oma piirkonnata sõnumid kodeeritakse vaikimisi transpordikoodiga piirkonda „%1$s”. Neid edastavad edasi ainult selle piirkonna jaoks konfigureeritud repiiterid.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Vali piirkond, mida soovid määrata paarisoleva sõlme vaikimisi ulatuseks, või vali „None”, kui soovid kasutada tavalist üleujutust. Seade salvestatakse sõlmesse ja säilib ka pärast taaskäivitamist.",
@@ -12510,11 +12495,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "piirkonnata",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Lugemisõigus",
     "_ai": true,
@@ -13050,16 +13030,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "vaikimisi: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Puudub (vaikimisi: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Täida õpitud teest",
     "_ai": true,
@@ -13435,6 +13405,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Ära kunagi kustuta",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Kustutatud sõnumeid: %1$d",
     "_ai": true,
@@ -13445,13 +13420,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Ära kunagi kustuta",
+  "ping_collision_title": {
+    "value": "Pingi hoiatus",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Pingi hoiatus",
+  "ping_collision_message": {
+    "value": "Teised teadaolevad repiiterid või toaserverid jagavad hüppe räsi %1$s sõlmega %2$s: %3$s. Vastus võib tulla igaühelt neist.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13460,8 +13435,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Teised teadaolevad repiiterid või toaserverid jagavad hüppe räsi %1$s sõlmega %2$s: %3$s. Vastus võib tulla igaühelt neist.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Ühenda WiFi automaatselt uuesti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Ühendub uuesti sinu WiFi-kaaslasega, kui ühendus katkeb, kui avad rakenduse ja kui WiFi taastub. Lülita see välja, kui sama kaaslast kasutab teine telefon või rakendus: see võtab vastu ainult ühe ühenduse, nii et iga uuesti ühendamine katkestab teise kliendi.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13502,16 +13482,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "KiekR järgib vaikimisi su seadme keelt. Vali siin keel, et kasutada seda ainult KiekR-is.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Ühenda WiFi automaatselt uuesti",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Ühendub uuesti sinu WiFi-kaaslasega, kui ühendus katkeb, kui avad rakenduse ja kui WiFi taastub. Lülita see välja, kui sama kaaslast kasutab teine telefon või rakendus: see võtab vastu ainult ühe ühenduse, nii et iga uuesti ühendamine katkestab teise kliendi.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13720,83 +13690,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Tõlgi Google'iga",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Tõlgitud keelest %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Tõlgin…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Teenuse pakub Google Translate",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Luba",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "Androidis kasutab tõlge Google ML Kitti. ML Kit saadab Google'ile kasutusandmeid, näiteks seadme teavet ning tuvastatud ja seadistatud keeli. Sõnumi tekst jääb sinu seadmesse.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Mitte praegu",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Kas tõlkida Google ML Kitiga?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Ainult WiFi on välja lülitatud, seega võib allalaadimine kasutada mobiilset andmesidet.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Laadi alla",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Seadmes tõlkimiseks peab KiekR alla laadima keelemudelid: %1$s. Iga mudel on umbes 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Ühenda selle keelemudeli allalaadimiseks WiFi-ga või lülita seadetes välja „Laadi keelemudelid alla ainult WiFi kaudu“.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "WiFi on vajalik",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Kas laadida keelemudelid alla?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Allalaadimine algab ainult WiFi kaudu. Seda saad muuta jaotises Seaded, Vestlused.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Tõlkimine ebaõnnestus",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Tõlgitud keelest %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13810,33 +13715,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Rakenduse keel",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Tõlge töötab selles seadmes Google ML Kiti abil. Sõnumi tekst ei lahku kunagi sinu telefonist. ML Kit saadab Google'ile kasutusandmeid. Keelemudelid on umbes 30 MB igaüks ja need laaditakse alla alles pärast sinu nõusolekut.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Tõlge",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Kustuta keelemudel %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Allalaaditud keelemudelid",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Keelemudeleid pole veel alla laaditud.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13850,8 +13730,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Tõlge pole selles seadmes saadaval.",
+  "settings_chats_translation_app_language": {
+    "value": "Rakenduse keel",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Tõlgi Google'iga",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Teenuse pakub Google Translate",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Kas tõlkida Google ML Kitiga?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "Androidis kasutab tõlge Google ML Kitti. ML Kit saadab Google'ile kasutusandmeid, näiteks seadme teavet ning tuvastatud ja seadistatud keeli. Sõnumi tekst jääb sinu seadmesse.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Luba",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Mitte praegu",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Kas laadida keelemudelid alla?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Seadmes tõlkimiseks peab KiekR alla laadima keelemudelid: %1$s. Iga mudel on umbes 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Allalaadimine algab ainult WiFi kaudu. Seda saad muuta jaotises Seaded, Vestlused.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Ainult WiFi on välja lülitatud, seega võib allalaadimine kasutada mobiilset andmesidet.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Laadi alla",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13860,8 +13795,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Allalaaditud keelemudelid",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Keelemudeleid pole veel alla laaditud.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Kustuta keelemudel %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Tõlge töötab selles seadmes Google ML Kiti abil. Sõnumi tekst ei lahku kunagi sinu telefonist. ML Kit saadab Google'ile kasutusandmeid. Keelemudelid on umbes 30 MB igaüks ja need laaditakse alla alles pärast sinu nõusolekut.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Tõlge pole selles seadmes saadaval.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Tõlge",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Ühenda selle keelemudeli allalaadimiseks WiFi-ga või lülita seadetes välja „Laadi keelemudelid alla ainult WiFi kaudu“.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "WiFi on vajalik",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14189,11 +14159,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Vasta ilma regioonita",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Vasta ilma regioonita",
     "_ai": true,
     "_seeded": "2026-10-28"

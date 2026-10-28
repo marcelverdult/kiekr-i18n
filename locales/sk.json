@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Toto pole nechajte prázdne, ak chcete, aby boli pakety typu „flood“ mimo rozsahu.",
+    "value": "• Toto pole nechajte prázdne, ak chcete odosielať pakety typu „flood“ bez predvolenej oblasti.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Obnoviť",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Informácie o vlastníkovi ešte neboli načítané",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Žiadne",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5444,11 +5439,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Žiadne",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Odstrániť zo zariadenia",
     "_ai": true,
@@ -5641,11 +5631,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Skryť",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "žiadny región",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7120,14 +7105,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Správy bez špecifikovaného rozsahu sa odosielajú ako bežný Flood. Každý opakovač v sieti ich bude ďalej vysielať.",
+    "value": "Bez predvolenej oblasti sa správy bez vlastnej oblasti odosielajú ako bežný Flood. Každý opakovač v sieti ich bude ďalej vysielať.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Odosielania bez špecifikácie dosahu sú bez upozornenia kódované na %1$s. Ich budú opätovne vysielať iba opakovače nakonfigurované pre danú oblasť.",
+    "value": "Správy bez vlastnej oblasti sú bez upozornenia kódované na prenos do oblasti %1$s. Ich budú opätovne vysielať iba opakovače nakonfigurované pre danú oblasť.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Vyberte oblasť, ktorú chcete nastaviť ako predvolený rozsah spárovaného uzla, alebo možnosť „None“ pre bežné šírenie (Flood). Toto nastavenie sa ukladá na uzle a pretrváva aj po reštarte.",
@@ -12511,11 +12496,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "bez regiónu",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Prístup na čítanie",
     "_ai": true,
@@ -13051,16 +13031,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "predvolené: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Žiadne (predvolené: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Vyplniť z naučenej cesty",
     "_ai": true,
@@ -13436,6 +13406,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Nikdy neodstraňovať",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Odstránené správy: %1$d",
     "_ai": true,
@@ -13446,13 +13421,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Nikdy neodstraňovať",
+  "ping_collision_title": {
+    "value": "Upozornenie na ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Upozornenie na ping",
+  "ping_collision_message": {
+    "value": "Iné známe opakovače alebo izbové servery majú rovnaký hash skoku %1$s ako %2$s: %3$s. Odpoveď môže prísť od ktoréhokoľvek z nich.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13461,8 +13436,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Iné známe opakovače alebo izbové servery majú rovnaký hash skoku %1$s ako %2$s: %3$s. Odpoveď môže prísť od ktoréhokoľvek z nich.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Automaticky znova pripojiť Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Znova sa pripojí k vášmu Wi-Fi spoločníkovi, keď sa spojenie preruší, keď otvoríte aplikáciu a keď sa vráti Wi-Fi. Vypnite to, ak rovnakého spoločníka používa iný telefón alebo aplikácia: prijíma len jedno spojenie, takže každé opätovné pripojenie odpojí druhého klienta.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13503,16 +13483,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "KiekR sa predvolene riadi jazykom zariadenia. Tu vyberte jazyk, ktorý sa bude používať len v KiekR.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Automaticky znova pripojiť Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Znova sa pripojí k vášmu Wi-Fi spoločníkovi, keď sa spojenie preruší, keď otvoríte aplikáciu a keď sa vráti Wi-Fi. Vypnite to, ak rovnakého spoločníka používa iný telefón alebo aplikácia: prijíma len jedno spojenie, takže každé opätovné pripojenie odpojí druhého klienta.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13721,83 +13691,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Preložiť cez Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Preložené z: %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Prekladá sa…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Využíva Prekladač Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Zapnúť",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "V systéme Android prekladanie využíva Google ML Kit. ML Kit odosiela spoločnosti Google údaje o používaní, napríklad informácie o zariadení a rozpoznané a nastavené jazyky. Text správy zostáva vo vašom zariadení.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Teraz nie",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Prekladať pomocou Google ML Kit?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Možnosť „Iba Wi-Fi“ je vypnutá, preto sťahovanie môže využiť mobilné dáta.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Stiahnuť",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Na prekladanie v zariadení si KiekR musí stiahnuť jazykové modely: %1$s. Každý má približne 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Pripojte sa k Wi-Fi, aby ste mohli stiahnuť tento jazykový model, alebo v Nastaveniach vypnite možnosť „Sťahovať jazykové modely iba cez Wi-Fi“.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Potrebné Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Stiahnuť jazykové modely?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Sťahovanie sa spustí len cez Wi-Fi. Môžete to zmeniť v Nastaveniach, v časti Chaty.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Preklad zlyhal",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Preložené z: %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13811,33 +13716,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Jazyk aplikácie",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Prekladanie prebieha v tomto zariadení pomocou Google ML Kit. Text správy nikdy neopustí váš telefón. ML Kit odosiela spoločnosti Google údaje o používaní. Jazykové modely majú približne 30 MB a sťahujú sa až po vašom súhlase.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Preklad",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Odstrániť jazykový model %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Stiahnuté jazykové modely",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Zatiaľ nie sú stiahnuté žiadne jazykové modely.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13851,8 +13731,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Preklad nie je v tomto zariadení dostupný.",
+  "settings_chats_translation_app_language": {
+    "value": "Jazyk aplikácie",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Preložiť cez Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Využíva Prekladač Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Prekladať pomocou Google ML Kit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "V systéme Android prekladanie využíva Google ML Kit. ML Kit odosiela spoločnosti Google údaje o používaní, napríklad informácie o zariadení a rozpoznané a nastavené jazyky. Text správy zostáva vo vašom zariadení.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Zapnúť",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Teraz nie",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Stiahnuť jazykové modely?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Na prekladanie v zariadení si KiekR musí stiahnuť jazykové modely: %1$s. Každý má približne 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Sťahovanie sa spustí len cez Wi-Fi. Môžete to zmeniť v Nastaveniach, v časti Chaty.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Možnosť „Iba Wi-Fi“ je vypnutá, preto sťahovanie môže využiť mobilné dáta.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Stiahnuť",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13861,8 +13796,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Stiahnuté jazykové modely",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Zatiaľ nie sú stiahnuté žiadne jazykové modely.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Odstrániť jazykový model %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Prekladanie prebieha v tomto zariadení pomocou Google ML Kit. Text správy nikdy neopustí váš telefón. ML Kit odosiela spoločnosti Google údaje o používaní. Jazykové modely majú približne 30 MB a sťahujú sa až po vašom súhlase.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Preklad nie je v tomto zariadení dostupný.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Preklad",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Pripojte sa k Wi-Fi, aby ste mohli stiahnuť tento jazykový model, alebo v Nastaveniach vypnite možnosť „Sťahovať jazykové modely iba cez Wi-Fi“.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Potrebné Wi-Fi",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14192,11 +14162,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Odpovedať bez regiónu",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Odpovedať bez regiónu",
     "_ai": true,
     "_seeded": "2026-10-28"

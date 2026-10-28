@@ -1802,7 +1802,7 @@
     "_human": true
   },
   "nodes_default_region_bullet3": {
-    "value": "• Lass dieses Feld leer, damit Flood-Pakete ohne Region bleiben.",
+    "value": "• Lass dieses Feld leer, um Flood-Pakete ohne Standardregion zu senden.",
     "_human": true
   },
   "nodes_default_region_cd_refresh": {
@@ -2015,10 +2015,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Eigentümerinfo noch nicht abgerufen",
-    "_human": true
-  },
-  "nodes_detail_no_region": {
-    "value": "Keine",
     "_human": true
   },
   "nodes_detail_no_regions": {
@@ -3586,10 +3582,6 @@
     "value": "Region",
     "_human": true
   },
-  "settings_channel_detail_region_none": {
-    "value": "Keine",
-    "_human": true
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Vom Gerät entfernen",
     "_human": true
@@ -3744,10 +3736,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Ausblenden",
-    "_human": true
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "keine Region",
     "_human": true
   },
   "settings_channels_subtitle_not_on_device": {
@@ -4839,11 +4827,11 @@
     "_human": true
   },
   "settings_regions_scope_footer_none": {
-    "value": "Nicht regionsgebundene Sendungen gehen als einfacher Flood raus. Jeder Repeater im Mesh sendet sie erneut.",
+    "value": "Ohne Standardregion gehen Nachrichten ohne eigene Region als einfacher Flood raus. Jeder Repeater im Mesh sendet sie erneut.",
     "_human": true
   },
   "settings_regions_scope_footer_set": {
-    "value": "Nicht regionsgebundene Sendungen werden stillschweigend auf %1$s transport-kodiert. Nur für diese Region konfigurierte Repeater senden sie erneut.",
+    "value": "Nachrichten ohne eigene Region werden stillschweigend auf %1$s transport-kodiert. Nur für diese Region konfigurierte Repeater senden sie erneut.",
     "_human": true
   },
   "settings_regions_scope_footer_unknown": {
@@ -10226,10 +10214,6 @@
     "value": "unbenannt",
     "_human": true
   },
-  "ios_channels_unscoped": {
-    "value": "ohne Region",
-    "_human": true
-  },
   "sensor_access_read": {
     "value": "Mitleser",
     "_human": true
@@ -10656,14 +10640,6 @@
   },
   "traceroute_return_path_too_long": {
     "value": "Mit Rückweg wäre der Pfad länger als erlaubt.",
-    "_human": true
-  },
-  "channels_region_device_default": {
-    "value": "Standard: %1$s",
-    "_human": true
-  },
-  "channel_detail_region_device_default": {
-    "value": "Keine (Standard: %1$s)",
     "_human": true
   },
   "traceroute_fill_from_learned_path": {
@@ -11571,10 +11547,6 @@
   },
   "chat_menu_reply_without_region": {
     "value": "Ohne Region antworten",
-    "_human": true
-  },
-  "chat_reply_chip_without_region": {
-    "value": "Antwort ohne Region",
     "_human": true
   }
 }

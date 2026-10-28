@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Deixe este campo em branco para que os pacotes de inundação permaneçam sem âmbito.",
+    "value": "• Deixe este campo em branco para enviar pacotes de inundação sem região predefinida.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Atualizar",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "A informação sobre o proprietário ainda não foi obtida",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Nenhum",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5443,11 +5438,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Nenhum",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Remover do dispositivo",
     "_ai": true,
@@ -5640,11 +5630,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Ocultar",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "sem região",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7119,14 +7104,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "As mensagens sem âmbito são enviadas como Flood simples. Todos os repetidores da rede em malha irão retransmiti-las.",
+    "value": "Sem região predefinida, as mensagens sem região própria são enviadas como Flood simples. Todos os repetidores da rede em malha irão retransmiti-las.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "As transmissões sem âmbito são codificadas silenciosamente para a região %1$s. Apenas os repetidores configurados para essa região as retransmitirão.",
+    "value": "As mensagens sem região própria são codificadas silenciosamente para transporte à região %1$s. Apenas os repetidores configurados para essa região as retransmitirão.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Escolha uma região para definir como âmbito predefinido do nó emparelhado, ou «None» para difusão simples. A configuração é guardada no nó e mantém-se após reinicializações.",
@@ -12510,11 +12495,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "sem região",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Acesso de leitura",
     "_ai": true,
@@ -13050,16 +13030,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "padrão: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Nenhum (padrão: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Preencher a partir do caminho aprendido",
     "_ai": true,
@@ -13435,6 +13405,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Nunca apagar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Mensagens apagadas: %1$d",
     "_ai": true,
@@ -13445,13 +13420,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Nunca apagar",
+  "ping_collision_title": {
+    "value": "Aviso de ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Aviso de ping",
+  "ping_collision_message": {
+    "value": "Outros repetidores ou servidores de sala conhecidos partilham o hash de salto %1$s com %2$s: %3$s. A resposta pode vir de qualquer um deles.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13460,8 +13435,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Outros repetidores ou servidores de sala conhecidos partilham o hash de salto %1$s com %2$s: %3$s. A resposta pode vir de qualquer um deles.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Religar o Wi-Fi automaticamente",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Volta a ligar ao teu acompanhante Wi-Fi quando a ligação cai, quando abres a app e quando o Wi-Fi regressa. Desativa isto se outro telemóvel ou app usar o mesmo acompanhante: ele aceita apenas uma ligação, por isso cada religação desliga o outro cliente.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13502,16 +13482,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "Por predefinição, o KiekR segue o idioma do seu dispositivo. Escolha aqui um idioma para o usar apenas no KiekR.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Religar o Wi-Fi automaticamente",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Volta a ligar ao teu acompanhante Wi-Fi quando a ligação cai, quando abres a app e quando o Wi-Fi regressa. Desativa isto se outro telemóvel ou app usar o mesmo acompanhante: ele aceita apenas uma ligação, por isso cada religação desliga o outro cliente.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13720,83 +13690,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Traduzir com o Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Traduzido de %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "A traduzir…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Com tecnologia Google Tradutor",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Ativar",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "No Android, a tradução utiliza o Google ML Kit. O ML Kit envia dados de utilização para a Google, como informações do dispositivo e os idiomas detetados e definidos. O texto da mensagem permanece no seu dispositivo.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Agora não",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Traduzir com o Google ML Kit?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "A opção Apenas Wi-Fi está desativada, pelo que a transferência pode utilizar dados móveis.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Transferir",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Para traduzir no dispositivo, o KiekR tem de transferir modelos de idioma: %1$s. Cada um tem cerca de 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Ligue-se a uma rede Wi-Fi para transferir este modelo de idioma ou desative “Transferir modelos de idioma apenas por Wi-Fi” nas Definições.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Wi-Fi necessário",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Transferir modelos de idioma?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "A transferência só começa em Wi-Fi. Pode alterar isto em Definições, Conversas.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Falha na tradução",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Traduzido de %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13810,33 +13715,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Idioma da aplicação",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "A tradução é executada neste dispositivo com o Google ML Kit. O texto da mensagem nunca sai do seu telemóvel. O ML Kit envia dados de utilização para a Google. Os modelos de idioma têm cerca de 30 MB cada e só são transferidos depois de dar o seu consentimento.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Tradução",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Eliminar o modelo de idioma %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Modelos de idioma transferidos",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Ainda não foi transferido nenhum modelo de idioma.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13850,8 +13730,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "A tradução não está disponível neste dispositivo.",
+  "settings_chats_translation_app_language": {
+    "value": "Idioma da aplicação",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Traduzir com o Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Com tecnologia Google Tradutor",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Traduzir com o Google ML Kit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "No Android, a tradução utiliza o Google ML Kit. O ML Kit envia dados de utilização para a Google, como informações do dispositivo e os idiomas detetados e definidos. O texto da mensagem permanece no seu dispositivo.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Ativar",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Agora não",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Transferir modelos de idioma?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Para traduzir no dispositivo, o KiekR tem de transferir modelos de idioma: %1$s. Cada um tem cerca de 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "A transferência só começa em Wi-Fi. Pode alterar isto em Definições, Conversas.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "A opção Apenas Wi-Fi está desativada, pelo que a transferência pode utilizar dados móveis.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Transferir",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13860,8 +13795,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Modelos de idioma transferidos",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Ainda não foi transferido nenhum modelo de idioma.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Eliminar o modelo de idioma %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "A tradução é executada neste dispositivo com o Google ML Kit. O texto da mensagem nunca sai do seu telemóvel. O ML Kit envia dados de utilização para a Google. Os modelos de idioma têm cerca de 30 MB cada e só são transferidos depois de dar o seu consentimento.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "A tradução não está disponível neste dispositivo.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Tradução",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Ligue-se a uma rede Wi-Fi para transferir este modelo de idioma ou desative “Transferir modelos de idioma apenas por Wi-Fi” nas Definições.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Wi-Fi necessário",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14189,11 +14159,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Responder sem região",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Responder sem região",
     "_ai": true,
     "_seeded": "2026-10-28"

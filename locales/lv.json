@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Atstājiet šo lauku tukšu, lai plūdu paketes paliktu bez darbības jomas.",
+    "value": "• Atstājiet šo lauku tukšu, lai sūtītu flood paketes bez noklusējuma reģiona.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Atjaunināt",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Informācija par īpašnieku vēl nav iegūta",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Nav",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5444,11 +5439,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Nav",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Dzēst no ierīces",
     "_ai": true,
@@ -5641,11 +5631,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Paslēpt",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "nav reģiona",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7120,14 +7105,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Sūtījumi bez mērķa tiek nosūtīti kā parasts plūsmveida pārraides. Katrs tīkla atkārtotājs tos pārraidīs tālāk.",
+    "value": "Bez noklusējuma reģiona sūtījumi bez sava reģiona tiek nosūtīti kā parasts plūsmveida Flood. Katrs tīkla atkārtotājs tos pārraidīs tālāk.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Sūtījumi bez mērķa tiek klusi transportkodēti uz %1$s. Tos pārraidīs tikai tie atkārtotāji, kas konfigurēti šim reģionam.",
+    "value": "Sūtījumi bez sava reģiona tiek klusi transportkodēti uz %1$s. Tos pārraidīs tikai tie atkārtotāji, kas konfigurēti šim reģionam.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Izvēlieties reģionu, ko iestatīt kā pāra mezgla noklusējuma darbības jomu, vai arī izvēlieties „None”, lai izmantotu vienkāršo plūsmveida pārraidi. Šis iestatījums tiek saglabāts mezglā un paliek spēkā arī pēc pārstartēšanas.",
@@ -12511,11 +12496,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "bez reģiona",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Lasīšanas piekļuve",
     "_ai": true,
@@ -13051,16 +13031,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "noklusējums: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Nav (noklusējums: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Aizpildīt no apgūtā ceļa",
     "_ai": true,
@@ -13436,6 +13406,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Nekad nedzēst",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Dzēstie ziņojumi: %1$d",
     "_ai": true,
@@ -13446,13 +13421,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Nekad nedzēst",
+  "ping_collision_title": {
+    "value": "Ping brīdinājums",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping brīdinājums",
+  "ping_collision_message": {
+    "value": "Citiem zināmiem atkārtotājiem vai istabas serveriem ir tāds pats posma hash %1$s kā %2$s: %3$s. Atbilde var nākt no jebkura no tiem.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13461,8 +13436,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Citiem zināmiem atkārtotājiem vai istabas serveriem ir tāds pats posma hash %1$s kā %2$s: %3$s. Atbilde var nākt no jebkura no tiem.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Automātiski atkārtoti savienot Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Atkal savienojas ar tavu Wi-Fi pavadoni, kad savienojums pārtrūkst, kad atver lietotni un kad Wi-Fi atgriežas. Izslēdz to, ja to pašu pavadoni izmanto cits tālrunis vai lietotne: tas pieņem tikai vienu savienojumu, tāpēc katra atkārtota savienošana atvieno otru klientu.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13503,16 +13483,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "Pēc noklusējuma KiekR seko jūsu ierīces valodai. Izvēlieties šeit valodu, ko izmantot tikai KiekR lietotnē.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Automātiski atkārtoti savienot Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Atkal savienojas ar tavu Wi-Fi pavadoni, kad savienojums pārtrūkst, kad atver lietotni un kad Wi-Fi atgriežas. Izslēdz to, ja to pašu pavadoni izmanto cits tālrunis vai lietotne: tas pieņem tikai vienu savienojumu, tāpēc katra atkārtota savienošana atvieno otru klientu.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13721,83 +13691,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Tulkot ar Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Tulkots no valodas: %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Notiek tulkošana…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Nodrošina Google Translate",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Iespējot",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "Android ierīcēs tulkošanai tiek izmantots Google ML Kit. ML Kit nosūta Google lietojuma datus, piemēram, ierīces informāciju un atpazītās un iestatītās valodas. Ziņojuma teksts paliek jūsu ierīcē.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Ne tagad",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Vai tulkot ar Google ML Kit?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Iestatījums “Tikai Wi-Fi” ir izslēgts, tāpēc lejupielādei var tikt izmantoti mobilie dati.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Lejupielādēt",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Lai tulkotu jūsu ierīcē, lietotnei KiekR jālejupielādē valodu modeļi: %1$s. Katrs no tiem ir aptuveni 30 MB liels.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Izveidojiet savienojumu ar Wi-Fi, lai lejupielādētu šo valodas modeli, vai iestatījumos izslēdziet „Lejupielādēt valodu modeļus tikai ar Wi-Fi“.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Nepieciešams Wi-Fi",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Vai lejupielādēt valodu modeļus?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Lejupielāde sākas tikai ar Wi-Fi. To varat mainīt sadaļā Iestatījumi, Čati.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Tulkošana neizdevās",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Tulkots no valodas: %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13811,33 +13716,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Lietotnes valoda",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Tulkošana notiek šajā ierīcē, izmantojot Google ML Kit. Ziņojuma teksts nekad neatstāj jūsu tālruni. ML Kit nosūta Google lietojuma datus. Valodu modeļi ir aptuveni 30 MB lieli, un tie tiek lejupielādēti tikai pēc jūsu piekrišanas.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Tulkošana",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Dzēst valodas modeli %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Lejupielādētie valodu modeļi",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Valodu modeļi vēl nav lejupielādēti.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13851,8 +13731,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Tulkošana šajā ierīcē nav pieejama.",
+  "settings_chats_translation_app_language": {
+    "value": "Lietotnes valoda",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Tulkot ar Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Nodrošina Google Translate",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Vai tulkot ar Google ML Kit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "Android ierīcēs tulkošanai tiek izmantots Google ML Kit. ML Kit nosūta Google lietojuma datus, piemēram, ierīces informāciju un atpazītās un iestatītās valodas. Ziņojuma teksts paliek jūsu ierīcē.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Iespējot",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Ne tagad",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Vai lejupielādēt valodu modeļus?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Lai tulkotu jūsu ierīcē, lietotnei KiekR jālejupielādē valodu modeļi: %1$s. Katrs no tiem ir aptuveni 30 MB liels.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Lejupielāde sākas tikai ar Wi-Fi. To varat mainīt sadaļā Iestatījumi, Čati.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Iestatījums “Tikai Wi-Fi” ir izslēgts, tāpēc lejupielādei var tikt izmantoti mobilie dati.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Lejupielādēt",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13861,8 +13796,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Lejupielādētie valodu modeļi",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Valodu modeļi vēl nav lejupielādēti.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Dzēst valodas modeli %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Tulkošana notiek šajā ierīcē, izmantojot Google ML Kit. Ziņojuma teksts nekad neatstāj jūsu tālruni. ML Kit nosūta Google lietojuma datus. Valodu modeļi ir aptuveni 30 MB lieli, un tie tiek lejupielādēti tikai pēc jūsu piekrišanas.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Tulkošana šajā ierīcē nav pieejama.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Tulkošana",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Izveidojiet savienojumu ar Wi-Fi, lai lejupielādētu šo valodas modeli, vai iestatījumos izslēdziet „Lejupielādēt valodu modeļus tikai ar Wi-Fi“.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Nepieciešams Wi-Fi",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14191,11 +14161,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Atbildēt bez reģiona",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Atbildēt bez reģiona",
     "_ai": true,
     "_seeded": "2026-10-28"

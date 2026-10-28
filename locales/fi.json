@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Jätä tämä kenttä tyhjäksi, jotta tulvapaketit jäävät soveltamisalan ulkopuolelle.",
+    "value": "• Jätä tämä kenttä tyhjäksi, jos haluat lähettää tulvapaketit ilman oletusaluetta.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Päivitä",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Omistajatietoja ei ole vielä haettu",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Ei mitään",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5443,11 +5438,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Ei mitään",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Poista laitteesta",
     "_ai": true,
@@ -5640,11 +5630,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Piilota",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "ei aluetta",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7119,14 +7104,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Lähetykset, joille ei ole määritetty kohdetta, lähetetään tavallisina Flood-viesteinä. Jokainen verkon toistaja välittää ne edelleen.",
+    "value": "Ilman oletusaluetta viestit, joilla ei ole omaa aluetta, lähetetään tavallisina Flood-viesteinä. Jokainen verkon toistaja välittää ne edelleen.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Lähetykset, joille ei ole määritetty kohdealuetta, koodataan hiljaisesti kuljetusmuodossa osoitteeseen %1$s. Vain kyseiselle alueelle määritetyt toistimet lähettävät ne edelleen.",
+    "value": "Viestit, joilla ei ole omaa aluetta, koodataan hiljaisesti kuljetusmuodossa alueelle %1$s. Vain kyseiselle alueelle määritetyt toistimet lähettävät ne edelleen.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Valitse alue, joka asetetaan pariksi liitetyn solmun oletuslaajuudeksi, tai valitse ”None”, jos haluat käyttää tavallista Flood-levitystä. Asetus tallennetaan solmuun ja säilyy uudelleenkäynnistyksen jälkeen.",
@@ -12510,11 +12495,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "ilman aluetta",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Lukuoikeus",
     "_ai": true,
@@ -13050,16 +13030,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "oletus: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Ei mitään (oletus: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Täytä opitusta polusta",
     "_ai": true,
@@ -13435,6 +13405,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Älä koskaan poista",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Poistettuja viestejä: %1$d",
     "_ai": true,
@@ -13445,13 +13420,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Älä koskaan poista",
+  "ping_collision_title": {
+    "value": "Ping-varoitus",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping-varoitus",
+  "ping_collision_message": {
+    "value": "Muilla tunnetuilla toistimilla tai huonepalvelimilla on sama hyppy-hash %1$s kuin kohteella %2$s: %3$s. Vastaus voi tulla miltä tahansa niistä.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13460,8 +13435,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Muilla tunnetuilla toistimilla tai huonepalvelimilla on sama hyppy-hash %1$s kuin kohteella %2$s: %3$s. Vastaus voi tulla miltä tahansa niistä.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Yhdistä WiFi automaattisesti uudelleen",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Yhdistää uudelleen WiFi-seuralaiseesi, kun yhteys katkeaa, kun avaat sovelluksen ja kun WiFi palaa. Poista tämä käytöstä, jos toinen puhelin tai sovellus käyttää samaa seuralaista: se hyväksyy vain yhden yhteyden, joten jokainen uudelleenyhdistäminen katkaisee toisen asiakkaan yhteyden.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13502,16 +13482,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "KiekR käyttää oletuksena laitteesi kieltä. Valitse tästä kieli, jota haluat käyttää vain KiekR:ssä.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Yhdistä WiFi automaattisesti uudelleen",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Yhdistää uudelleen WiFi-seuralaiseesi, kun yhteys katkeaa, kun avaat sovelluksen ja kun WiFi palaa. Poista tämä käytöstä, jos toinen puhelin tai sovellus käyttää samaa seuralaista: se hyväksyy vain yhden yhteyden, joten jokainen uudelleenyhdistäminen katkaisee toisen asiakkaan yhteyden.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13720,83 +13690,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Käännä Googlella",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Käännetty kielestä %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Käännetään…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Palvelun tarjoaa Google Translate",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Ota käyttöön",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "Androidilla käännös käyttää Google ML Kitiä. ML Kit lähettää käyttötietoja Googlelle, esimerkiksi laitetietoja sekä tunnistetut ja asetetut kielet. Viestin teksti pysyy laitteellasi.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Ei nyt",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Käännetäänkö Google ML Kitillä?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Vain Wi-Fi -asetus on pois päältä, joten lataus voi käyttää mobiilidataa.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Lataa",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Kääntääkseen laitteellasi KiekR:n on ladattava kielimallit: %1$s. Kukin niistä on noin 30 Mt.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Yhdistä Wi-Fi-verkkoon ladataksesi tämän kielimallin tai poista käytöstä ”Lataa kielimallit vain Wi-Fi-yhteydellä” Asetuksissa.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Wi-Fi tarvitaan",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Ladataanko kielimallit?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Lataus alkaa vain Wi-Fi-yhteydellä. Voit muuttaa tätä kohdassa Asetukset, Keskustelut.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Käännös epäonnistui",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Käännetty kielestä %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13810,33 +13715,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Sovelluksen kieli",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Käännös toimii tällä laitteella Google ML Kitin avulla. Viestin teksti ei koskaan poistu puhelimestasi. ML Kit lähettää käyttötietoja Googlelle. Kielimallit ovat noin 30 Mt kukin, ja ne ladataan vasta suostumuksesi jälkeen.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Käännös",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Poista kielimalli %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Ladatut kielimallit",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Kielimalleja ei ole vielä ladattu.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13850,8 +13730,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Käännös ei ole saatavilla tällä laitteella.",
+  "settings_chats_translation_app_language": {
+    "value": "Sovelluksen kieli",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Käännä Googlella",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Palvelun tarjoaa Google Translate",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Käännetäänkö Google ML Kitillä?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "Androidilla käännös käyttää Google ML Kitiä. ML Kit lähettää käyttötietoja Googlelle, esimerkiksi laitetietoja sekä tunnistetut ja asetetut kielet. Viestin teksti pysyy laitteellasi.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Ota käyttöön",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Ei nyt",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Ladataanko kielimallit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Kääntääkseen laitteellasi KiekR:n on ladattava kielimallit: %1$s. Kukin niistä on noin 30 Mt.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Lataus alkaa vain Wi-Fi-yhteydellä. Voit muuttaa tätä kohdassa Asetukset, Keskustelut.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Vain Wi-Fi -asetus on pois päältä, joten lataus voi käyttää mobiilidataa.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Lataa",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13860,8 +13795,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Ladatut kielimallit",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Kielimalleja ei ole vielä ladattu.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Poista kielimalli %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Käännös toimii tällä laitteella Google ML Kitin avulla. Viestin teksti ei koskaan poistu puhelimestasi. ML Kit lähettää käyttötietoja Googlelle. Kielimallit ovat noin 30 Mt kukin, ja ne ladataan vasta suostumuksesi jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Käännös ei ole saatavilla tällä laitteella.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Käännös",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Yhdistä Wi-Fi-verkkoon ladataksesi tämän kielimallin tai poista käytöstä ”Lataa kielimallit vain Wi-Fi-yhteydellä” Asetuksissa.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Wi-Fi tarvitaan",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14189,11 +14159,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Vastaa ilman aluetta",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Vastaa ilman aluetta",
     "_ai": true,
     "_seeded": "2026-10-28"

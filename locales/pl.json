@@ -2780,9 +2780,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Pozostaw to pole puste, aby pakiety flood pozostały bez zakresu.",
+    "value": "• Pozostaw to pole puste, aby wysyłać pakiety flood bez domyślnego regionu.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Odśwież",
@@ -3092,11 +3092,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Dane właściciela nie zostały jeszcze pobrane",
-    "_ai": true,
-    "_seeded": "2026-05-23"
-  },
-  "nodes_detail_no_region": {
-    "value": "Brak",
     "_ai": true,
     "_seeded": "2026-05-23"
   },
@@ -5436,11 +5431,6 @@
     "_ai": true,
     "_seeded": "2026-05-23"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Brak",
-    "_ai": true,
-    "_seeded": "2026-05-23"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Usuń z urządzenia",
     "_ai": true,
@@ -5633,11 +5623,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Ukryj",
-    "_ai": true,
-    "_seeded": "2026-05-23"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "brak regionu",
     "_ai": true,
     "_seeded": "2026-05-23"
   },
@@ -7112,14 +7097,14 @@
     "_seeded": "2026-05-23"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Wiadomości bez zakresu są wysyłane jako zwykłe floods. Każdy przekaźnik w siatce będzie je retransmitował.",
+    "value": "Bez domyślnego regionu wiadomości bez własnego regionu są wysyłane jako zwykły Flood. Każdy przekaźnik w siatce będzie je retransmitował.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Wiadomości bez określenia zasięgu są w tle kodowane zgodnie ze standardem „%1$s”. Tylko przekaźniki skonfigurowane dla tego regionu będą je retransmitować.",
+    "value": "Wiadomości bez własnego regionu są po cichu kodowane transportowo dla regionu %1$s. Tylko przekaźniki skonfigurowane dla tego regionu będą je retransmitować.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Wybierz region, który ma zostać ustawiony jako domyślny zakres węzła w trakcie parowania, lub opcję „None” w przypadku zwykłego floodu. Ustawienie to jest zapisywane na węźle i pozostaje zachowane po ponownym uruchomieniu.",
@@ -12503,11 +12488,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "bez regionu",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Dostęp do odczytu",
     "_ai": true,
@@ -13040,16 +13020,6 @@
   },
   "traceroute_return_path_too_long": {
     "value": "Ścieżka powrotna przekroczyłaby maksymalną długość ścieżki.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channels_region_device_default": {
-    "value": "domyślnie: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Brak (domyślnie: %1$s)",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -14184,11 +14154,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Odpowiedz bez regionu",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Odpowiedz bez regionu",
     "_ai": true,
     "_seeded": "2026-10-28"

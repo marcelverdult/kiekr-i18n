@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Ħalli dan il-qasam vojta biex il-pakketti tal-għargħar jibqgħu bla skop.",
+    "value": "• Ħalli dan il-qasam vojt biex tibgħat pakketti flood mingħajr reġjun awtomatiku.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Aġġorna",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Informazzjoni dwar is-sid għadha ma ġietx miġbura.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Xejn",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5443,11 +5438,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Xejn",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Neħħi mill-apparat",
     "_ai": true,
@@ -5640,11 +5630,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Aħbi",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "ebda reġjun",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7119,14 +7104,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "It-trasmissjonijiet mingħajr skop jintbagħtu bħala Flood sempliċi. Kull ripetitur fil-mesh jerġa' jxandarhom.",
+    "value": "Mingħajr reġjun awtomatiku, il-messaġġi mingħajr reġjun tagħhom stess jintbagħtu bħala Flood sempliċi. Kull ripetitur fil-mesh jerġa' jxandarhom.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "It-trasmissjonijiet mingħajr skop huma kodifikati b'mod silenzjuż għall-%1$s. Biss ir-ripetituri kkonfigurati għal dik ir-reġjun se jerġgħu jxandruhom.",
+    "value": "Il-messaġġi mingħajr reġjun tagħhom stess huma kodifikati b'mod silenzjuż għall-%1$s. Biss ir-ripetituri kkonfigurati għal dak ir-reġjun se jerġgħu jxandruhom.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Agħżel reġjun biex tissettja bħala l-iskop default tan-nodu koppjat, jew None għal Flood sempliċi. L-issettjar jinħażen fuq in-nodu u jibqa' wara r-riavvi.",
@@ -12510,11 +12495,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "mingħajr reġjun",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Aċċess għall-qari",
     "_ai": true,
@@ -13050,16 +13030,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "default: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Xejn (default: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Imla mit-triq mgħallma",
     "_ai": true,
@@ -13435,6 +13405,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Qatt ma tħassar",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Messaġġi mħassra: %1$d",
     "_ai": true,
@@ -13445,13 +13420,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Qatt ma tħassar",
+  "ping_collision_title": {
+    "value": "Twissija dwar ping",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Twissija dwar ping",
+  "ping_collision_message": {
+    "value": "Repeaters oħra magħrufa jew servers tal-kamra jaqsmu l-hash tal-hop %1$s ma' %2$s: %3$s. It-tweġiba tista' tiġi minn kwalunkwe wieħed minnhom.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13460,8 +13435,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Repeaters oħra magħrufa jew servers tal-kamra jaqsmu l-hash tal-hop %1$s ma' %2$s: %3$s. It-tweġiba tista' tiġi minn kwalunkwe wieħed minnhom.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Erġa' qabbad il-WiFi awtomatikament",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Jerġa' jikkonnettja mal-companion WiFi tiegħek meta r-rabta tinqata', meta tiftaħ l-app u meta jirritorna l-WiFi. Itfi dan jekk telefon jew app oħra tuża l-istess companion: jaċċetta konnessjoni waħda biss, għalhekk kull rikonnessjoni tiskonnettja l-klijent l-ieħor.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13502,16 +13482,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "B'mod awtomatiku KiekR isegwi l-lingwa tal-apparat tiegħek. Agħżel lingwa hawn biex tużaha għal KiekR biss.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Erġa' qabbad il-WiFi awtomatikament",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Jerġa' jikkonnettja mal-companion WiFi tiegħek meta r-rabta tinqata', meta tiftaħ l-app u meta jirritorna l-WiFi. Itfi dan jekk telefon jew app oħra tuża l-istess companion: jaċċetta konnessjoni waħda biss, għalhekk kull rikonnessjoni tiskonnettja l-klijent l-ieħor.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13720,83 +13690,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Ittraduċi b'Google",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Tradott minn %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Qed jittraduċi…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Mħaddem minn Google Translate",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Attiva",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "Fuq Android, it-traduzzjoni tuża Google ML Kit. ML Kit jibgħat dejta tal-użu lil Google, bħal informazzjoni dwar l-apparat u l-lingwi misjuba u kkonfigurati. It-test tal-messaġġ jibqa' fuq l-apparat tiegħek.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Mhux issa",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Ittraduċi b'Google ML Kit?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "WiFi biss mhuwiex attivat, għalhekk it-tniżżil jista' juża dejta mobbli.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Niżżel",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Biex tittraduċi fuq l-apparat tiegħek, KiekR irid iniżżel mudelli tal-lingwa: %1$s. Kull wieħed huwa madwar 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Ikkonnetta ma' WiFi biex tniżżel dan il-mudell tal-lingwa, jew itfi “Niżżel mudelli tal-lingwa permezz ta' WiFi biss” fl-Issettjarijiet.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Hemm bżonn WiFi",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Niżżel mudelli tal-lingwa?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "It-tniżżil jibda biss fuq WiFi. Tista' tbiddel dan f'Issettjarijiet, Ċatti.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "It-traduzzjoni falliet",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Tradott minn %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13810,33 +13715,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Lingwa tal-app",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "It-traduzzjoni taħdem fuq dan l-apparat b'Google ML Kit. It-test tal-messaġġ qatt ma jħalli t-telefon tiegħek. ML Kit jibgħat dejta tal-użu lil Google. Il-mudelli tal-lingwa huma madwar 30 MB kull wieħed u jitniżżlu biss wara li taqbel.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Traduzzjoni",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Ħassar il-mudell tal-lingwa %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Mudelli tal-lingwa mniżżla",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Għad ma tniżżel l-ebda mudell tal-lingwa.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13850,8 +13730,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "It-traduzzjoni mhijiex disponibbli fuq dan l-apparat.",
+  "settings_chats_translation_app_language": {
+    "value": "Lingwa tal-app",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Ittraduċi b'Google",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Mħaddem minn Google Translate",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Ittraduċi b'Google ML Kit?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "Fuq Android, it-traduzzjoni tuża Google ML Kit. ML Kit jibgħat dejta tal-użu lil Google, bħal informazzjoni dwar l-apparat u l-lingwi misjuba u kkonfigurati. It-test tal-messaġġ jibqa' fuq l-apparat tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Attiva",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Mhux issa",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Niżżel mudelli tal-lingwa?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Biex tittraduċi fuq l-apparat tiegħek, KiekR irid iniżżel mudelli tal-lingwa: %1$s. Kull wieħed huwa madwar 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "It-tniżżil jibda biss fuq WiFi. Tista' tbiddel dan f'Issettjarijiet, Ċatti.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "WiFi biss mhuwiex attivat, għalhekk it-tniżżil jista' juża dejta mobbli.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Niżżel",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13860,8 +13795,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Mudelli tal-lingwa mniżżla",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Għad ma tniżżel l-ebda mudell tal-lingwa.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Ħassar il-mudell tal-lingwa %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "It-traduzzjoni taħdem fuq dan l-apparat b'Google ML Kit. It-test tal-messaġġ qatt ma jħalli t-telefon tiegħek. ML Kit jibgħat dejta tal-użu lil Google. Il-mudelli tal-lingwa huma madwar 30 MB kull wieħed u jitniżżlu biss wara li taqbel.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "It-traduzzjoni mhijiex disponibbli fuq dan l-apparat.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Traduzzjoni",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Ikkonnetta ma' WiFi biex tniżżel dan il-mudell tal-lingwa, jew itfi “Niżżel mudelli tal-lingwa permezz ta' WiFi biss” fl-Issettjarijiet.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Hemm bżonn WiFi",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14192,11 +14162,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Wieġeb mingħajr reġjun",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Wieġeb mingħajr reġjun",
     "_ai": true,
     "_seeded": "2026-10-28"

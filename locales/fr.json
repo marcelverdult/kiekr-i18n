@@ -2340,8 +2340,9 @@
     "_human": true
   },
   "nodes_default_region_bullet3": {
-    "value": "• Laissez ce champ vide pour que les paquets Flood restent sans région.",
-    "_human": true
+    "value": "• Laissez ce champ vide pour envoyer des paquets Flood sans région par défaut.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Actualiser",
@@ -2608,10 +2609,6 @@
     "value": "Les informations sur le propriétaire n'ont pas encore été récupérées",
     "_ai": true,
     "_seeded": "2026-05-23"
-  },
-  "nodes_detail_no_region": {
-    "value": "Aucune",
-    "_human": true
   },
   "nodes_detail_no_regions": {
     "value": "Aucune région découverte pour l'instant",
@@ -4563,10 +4560,6 @@
     "value": "Région",
     "_human": true
   },
-  "settings_channel_detail_region_none": {
-    "value": "Aucune",
-    "_human": true
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Retirer de l'appareil",
     "_human": true
@@ -4721,10 +4714,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Masquer",
-    "_human": true
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "aucune région",
     "_human": true
   },
   "settings_channels_subtitle_not_on_device": {
@@ -5933,12 +5922,14 @@
     "_human": true
   },
   "settings_regions_scope_footer_none": {
-    "value": "Les envois sans région partent en Flood simple. Chaque répéteur du mesh les rediffusera.",
-    "_human": true
+    "value": "Sans région par défaut, les messages sans région propre partent en Flood simple. Chaque répéteur du mesh les rediffusera.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Les envois sans région sont silencieusement codés en transport vers %1$s. Seuls les répéteurs configurés pour cette région les rediffuseront.",
-    "_human": true
+    "value": "Les messages sans région propre sont silencieusement codés en transport vers %1$s. Seuls les répéteurs configurés pour cette région les rediffuseront.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Choisissez une région à définir comme portée par défaut du nœud appairé, ou Aucune pour un Flood simple. Le réglage est stocké sur le nœud et survit aux redémarrages.",
@@ -11234,11 +11225,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "sans région",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Accès en lecture",
     "_ai": true,
@@ -11771,16 +11757,6 @@
   },
   "traceroute_return_path_too_long": {
     "value": "Le chemin de retour dépasserait la longueur maximale du chemin.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channels_region_device_default": {
-    "value": "défaut : %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Aucune (défaut : %1$s)",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12913,11 +12889,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Répondre sans région",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Répondre sans région",
     "_ai": true,
     "_seeded": "2026-10-28"

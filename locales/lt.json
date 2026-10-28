@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Palikite šį laukelį tuščią, jei norite, kad potvynių paketai nebūtų įtraukti į taikymo sritį.",
+    "value": "• Palikite šį laukelį tuščią, jei norite siųsti „flood“ paketus be numatytojo regiono.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Atnaujinti",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "Savininko informacija dar neatsiųsta",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Nėra",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5444,11 +5439,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Nėra",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Pašalinti iš įrenginio",
     "_ai": true,
@@ -5641,11 +5631,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Paslėpti",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "nėra regiono",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7120,14 +7105,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Siuntimai be apibrėžto taikymo srities perduodami kaip paprastas „Flood“. Kiekvienas tinklo kartotuvas juos retransliuos.",
+    "value": "Be numatytojo regiono be savo regiono siunčiami pranešimai perduodami kaip paprastas „Flood“. Kiekvienas tinklo kartotuvas juos retransliuos.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Siuntimai be apibrėžto taikymo srities tyliai perkoduojami į „%1$s“. Juos retransliuos tik tie retransliuotojai, kurie sukonfigūruoti šiam regionui.",
+    "value": "Pranešimai be savo regiono tyliai perkoduojami į „%1$s“. Juos retransliuos tik tie retransliuotojai, kurie sukonfigūruoti šiam regionui.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Pasirinkite regioną, kurį norite nustatyti kaip susietos mazgo numatytąją sritį, arba „None“, jei norite naudoti paprastą „Flood“ režimą. Šis nustatymas išsaugomas mazge ir išlieka po perkrovimo.",
@@ -12511,11 +12496,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "be regiono",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Skaitymo teisė",
     "_ai": true,
@@ -13051,16 +13031,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "numatytasis: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Nėra (numatytasis: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Užpildyti iš išmokto kelio",
     "_ai": true,
@@ -13436,6 +13406,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Niekada netrinti",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Ištrinti pranešimai: %1$d",
     "_ai": true,
@@ -13446,13 +13421,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Niekada netrinti",
+  "ping_collision_title": {
+    "value": "Ping įspėjimas",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping įspėjimas",
+  "ping_collision_message": {
+    "value": "Kiti žinomi kartotuvai arba kambario serveriai turi tą patį tarpinio mazgo hash %1$s kaip ir %2$s: %3$s. Atsakymas gali ateiti iš bet kurio iš jų.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13461,8 +13436,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Kiti žinomi kartotuvai arba kambario serveriai turi tą patį tarpinio mazgo hash %1$s kaip ir %2$s: %3$s. Atsakymas gali ateiti iš bet kurio iš jų.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "Automatiškai iš naujo prisijungti prie „Wi-Fi“",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Iš naujo prisijungia prie tavo „Wi-Fi“ palydovo, kai nutrūksta ryšys, kai atidarai programėlę ir kai vėl atsiranda „Wi-Fi“. Išjunk tai, jei tą patį palydovą naudoja kitas telefonas ar programėlė: jis priima tik vieną ryšį, todėl kiekvienas prisijungimas iš naujo atjungia kitą klientą.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13503,16 +13483,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "Pagal numatytuosius nustatymus KiekR seka jūsų įrenginio kalbą. Pasirinkite čia kalbą, kurią norite naudoti tik KiekR programoje.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "Automatiškai iš naujo prisijungti prie „Wi-Fi“",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Iš naujo prisijungia prie tavo „Wi-Fi“ palydovo, kai nutrūksta ryšys, kai atidarai programėlę ir kai vėl atsiranda „Wi-Fi“. Išjunk tai, jei tą patį palydovą naudoja kitas telefonas ar programėlė: jis priima tik vieną ryšį, todėl kiekvienas prisijungimas iš naujo atjungia kitą klientą.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13721,83 +13691,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Versti naudojant „Google“",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Išversta iš: %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Verčiama…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "Veikia su „Google Translate“",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Įjungti",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "„Android“ vertimui naudojamas „Google ML Kit“. „ML Kit“ siunčia „Google“ naudojimo duomenis, pavyzdžiui, įrenginio informaciją ir aptiktas bei nustatytas kalbas. Pranešimo tekstas lieka jūsų įrenginyje.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Ne dabar",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Versti naudojant „Google ML Kit“?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "Nustatymas „Tik per Wi-Fi“ išjungtas, todėl atsisiuntimui gali būti naudojami mobilieji duomenys.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Atsisiųsti",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Kad galėtų versti jūsų įrenginyje, „KiekR“ turi atsisiųsti kalbos modelius: %1$s. Kiekvienas jų užima apie 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Prisijunkite prie „Wi-Fi“, kad atsisiųstumėte šį kalbos modelį, arba nustatymuose išjunkite „Atsisiųsti kalbos modelius tik per „Wi-Fi““.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Reikalingas „Wi-Fi“",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Atsisiųsti kalbos modelius?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "Atsisiuntimas prasideda tik per „Wi-Fi“. Tai galite pakeisti skiltyje Nustatymai, Pokalbiai.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "Išversti nepavyko",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Išversta iš: %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13811,33 +13716,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Programėlės kalba",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "Vertimas vyksta šiame įrenginyje naudojant „Google ML Kit“. Pranešimo tekstas niekada neišeina iš jūsų telefono. „ML Kit“ siunčia „Google“ naudojimo duomenis. Kalbos modeliai užima apie 30 MB kiekvienas ir atsisiunčiami tik jums sutikus.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Vertimas",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "Ištrinti kalbos modelį %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Atsisiųsti kalbos modeliai",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Kalbos modelių dar neatsisiųsta.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13851,8 +13731,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "Vertimas šiame įrenginyje nepasiekiamas.",
+  "settings_chats_translation_app_language": {
+    "value": "Programėlės kalba",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Versti naudojant „Google“",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "Veikia su „Google Translate“",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Versti naudojant „Google ML Kit“?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "„Android“ vertimui naudojamas „Google ML Kit“. „ML Kit“ siunčia „Google“ naudojimo duomenis, pavyzdžiui, įrenginio informaciją ir aptiktas bei nustatytas kalbas. Pranešimo tekstas lieka jūsų įrenginyje.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Įjungti",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Ne dabar",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Atsisiųsti kalbos modelius?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Kad galėtų versti jūsų įrenginyje, „KiekR“ turi atsisiųsti kalbos modelius: %1$s. Kiekvienas jų užima apie 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "Atsisiuntimas prasideda tik per „Wi-Fi“. Tai galite pakeisti skiltyje Nustatymai, Pokalbiai.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "Nustatymas „Tik per Wi-Fi“ išjungtas, todėl atsisiuntimui gali būti naudojami mobilieji duomenys.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Atsisiųsti",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13861,8 +13796,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Atsisiųsti kalbos modeliai",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Kalbos modelių dar neatsisiųsta.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "Ištrinti kalbos modelį %1$s",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "Vertimas vyksta šiame įrenginyje naudojant „Google ML Kit“. Pranešimo tekstas niekada neišeina iš jūsų telefono. „ML Kit“ siunčia „Google“ naudojimo duomenis. Kalbos modeliai užima apie 30 MB kiekvienas ir atsisiunčiami tik jums sutikus.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "Vertimas šiame įrenginyje nepasiekiamas.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Vertimas",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Prisijunkite prie „Wi-Fi“, kad atsisiųstumėte šį kalbos modelį, arba nustatymuose išjunkite „Atsisiųsti kalbos modelius tik per „Wi-Fi““.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Reikalingas „Wi-Fi“",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14192,11 +14162,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Atsakyti be regiono",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Atsakyti be regiono",
     "_ai": true,
     "_seeded": "2026-10-28"

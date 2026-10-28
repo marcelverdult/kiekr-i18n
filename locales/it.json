@@ -2303,8 +2303,9 @@
     "_human": true
   },
   "nodes_default_region_bullet3": {
-    "value": "• Lascia vuoto questo campo affinché i pacchetti in flood rimangano senza ambito.",
-    "_human": true
+    "value": "• Lascia vuoto questo campo per inviare pacchetti in flood senza regione predefinita.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Aggiorna",
@@ -2557,10 +2558,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "I dati del proprietario non sono ancora stati recuperati",
-    "_human": true
-  },
-  "nodes_detail_no_region": {
-    "value": "Nessuno",
     "_human": true
   },
   "nodes_detail_no_regions": {
@@ -4483,10 +4480,6 @@
     "value": "Regione",
     "_human": true
   },
-  "settings_channel_detail_region_none": {
-    "value": "Nessuno",
-    "_human": true
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Rimuovi dal dispositivo",
     "_human": true
@@ -4641,10 +4634,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Nascondi",
-    "_human": true
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "nessuna regione",
     "_human": true
   },
   "settings_channels_subtitle_not_on_device": {
@@ -5853,12 +5842,14 @@
     "_human": true
   },
   "settings_regions_scope_footer_none": {
-    "value": "I messaggi senza region vengono inviati in flood. Ogni ripetitore della rete mesh li ritrasmetterà.",
-    "_human": true
+    "value": "Senza regione predefinita, i messaggi senza una regione propria vengono inviati in flood. Ogni ripetitore della rete mesh li ritrasmetterà.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "I messaggi senza region vengono codificati in modo trasparente per la regione %1$s. Solo i ripetitori configurati per quella regione li ritrasmetteranno.",
-    "_human": true
+    "value": "I messaggi senza una regione propria vengono codificati in modo trasparente per la regione %1$s. Solo i ripetitori configurati per quella regione li ritrasmetteranno.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Scegli una regione da impostare come predefinita del nodo abbinato, oppure “Nessuna” per il flood semplice. L’impostazione viene memorizzata sul nodo e rimane attiva anche dopo il riavvio.",
@@ -11148,11 +11139,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "senza regione",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Accesso in lettura",
     "_ai": true,
@@ -11685,16 +11671,6 @@
   },
   "traceroute_return_path_too_long": {
     "value": "Il percorso di ritorno supererebbe la lunghezza massima del percorso.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channels_region_device_default": {
-    "value": "predefinito: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Nessuno (predefinito: %1$s)",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12827,11 +12803,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Rispondi senza regione",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Rispondi senza regione",
     "_ai": true,
     "_seeded": "2026-10-28"

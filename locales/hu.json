@@ -2781,9 +2781,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet3": {
-    "value": "• Ha azt szeretné, hogy az árvízcsomagok ne legyenek hatókörbe sorolva, hagyja üresen ezt a mezőt.",
+    "value": "• Ha alapértelmezett régió nélkül szeretné küldeni a flood csomagokat, hagyja üresen ezt a mezőt.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Frissítés",
@@ -3097,11 +3097,6 @@
   },
   "nodes_detail_no_owner_info": {
     "value": "A tulajdonos adatai még nem lettek lekérve",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "nodes_detail_no_region": {
-    "value": "Nincs",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -5443,11 +5438,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_channel_detail_region_none": {
-    "value": "Nincs",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Eltávolítás az eszközről",
     "_ai": true,
@@ -5640,11 +5630,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Elrejtés",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "nincs régió",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -7119,14 +7104,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "A hatókörön kívüli üzenetek egyszerű Floodként kerülnek továbbításra. A hálózat minden átjátszója továbbítja őket.",
+    "value": "Alapértelmezett régió nélkül a saját régióval nem rendelkező üzenetek egyszerű Floodként kerülnek továbbításra. A hálózat minden átjátszója továbbítja őket.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "A hatályon kívüli küldemények automatikusan a „%1$s” kódra kerülnek átkódolásra. Csak az adott régióra beállított átjátszók fogják azokat továbbközvetíteni.",
+    "value": "A saját régióval nem rendelkező üzenetek automatikusan a(z) „%1$s” régióra kerülnek átkódolásra. Csak az adott régióra beállított átjátszók fogják azokat továbbközvetíteni.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Válasszon ki egy régiót, amelyet a párosított csomópont alapértelmezett hatókörének szeretne beállítani, vagy válassza a „None” lehetőséget a sima Flood üzemmódhoz. A beállítás a csomóponton kerül tárolásra, és az újraindítás után is megmarad.",
@@ -12510,11 +12495,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "régió nélkül",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Olvasási hozzáférés",
     "_ai": true,
@@ -13050,16 +13030,6 @@
     "_ai": true,
     "_seeded": "2026-09-30"
   },
-  "channels_region_device_default": {
-    "value": "alapértelmezett: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Nincs (alapértelmezett: %1$s)",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
   "traceroute_fill_from_learned_path": {
     "value": "Kitöltés a megtanult útból",
     "_ai": true,
@@ -13435,6 +13405,11 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
+  "settings_chats_retention_never": {
+    "value": "Soha ne törölj",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
   "settings_chats_retention_deleted": {
     "value": "Törölt üzenetek: %1$d",
     "_ai": true,
@@ -13445,13 +13420,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "settings_chats_retention_never": {
-    "value": "Soha ne törölj",
+  "ping_collision_title": {
+    "value": "Ping figyelmeztetés",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_title": {
-    "value": "Ping figyelmeztetés",
+  "ping_collision_message": {
+    "value": "Más ismert ismétlők vagy szobai szerverek ugyanazt a hop-hasht (%1$s) használják, mint a(z) %2$s: %3$s. A válasz bármelyikük felől érkezhet.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13460,8 +13435,13 @@
     "_ai": true,
     "_seeded": "2026-10-06"
   },
-  "ping_collision_message": {
-    "value": "Más ismert ismétlők vagy szobai szerverek ugyanazt a hop-hasht (%1$s) használják, mint a(z) %2$s: %3$s. A válasz bármelyikük felől érkezhet.",
+  "mynode_wifi_auto_reconnect_row_title": {
+    "value": "WiFi automatikus újracsatlakoztatása",
+    "_ai": true,
+    "_seeded": "2026-10-06"
+  },
+  "mynode_wifi_auto_reconnect_footer": {
+    "value": "Újra csatlakozik a WiFi-s kísérődhöz, ha megszakad a kapcsolat, ha megnyitod az appot, és ha visszatér a WiFi. Kapcsold ki, ha másik telefon vagy app használja ugyanazt a kísérőt: csak egy kapcsolatot fogad el, ezért minden újracsatlakozás lekapcsolja a másik klienst.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13502,16 +13482,6 @@
   },
   "settings_language_footer_inapp": {
     "value": "A KiekR alapból a készüléked nyelvét követi. Válassz itt egy nyelvet, hogy csak a KiekR-ben használd.",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_row_title": {
-    "value": "WiFi automatikus újracsatlakoztatása",
-    "_ai": true,
-    "_seeded": "2026-10-06"
-  },
-  "mynode_wifi_auto_reconnect_footer": {
-    "value": "Újra csatlakozik a WiFi-s kísérődhöz, ha megszakad a kapcsolat, ha megnyitod az appot, és ha visszatér a WiFi. Kapcsold ki, ha másik telefon vagy app használja ugyanazt a kísérőt: csak egy kapcsolatot fogad el, ezért minden újracsatlakozás lekapcsolja a másik klienst.",
     "_ai": true,
     "_seeded": "2026-10-06"
   },
@@ -13720,83 +13690,18 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translate_with_google": {
-    "value": "Fordítás a Google-lel",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translated_from": {
-    "value": "Fordítva ebből: %1$s",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translating": {
     "value": "Fordítás…",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "chat_translation_badge_cd": {
-    "value": "A szolgáltatást a Google Translate nyújtja",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_enable": {
-    "value": "Engedélyezés",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_message": {
-    "value": "Androidon a fordítás a Google ML Kitet használja. Az ML Kit használati adatokat küld a Google-nek, például eszközinformációkat, valamint a felismert és beállított nyelveket. Az üzenet szövege az eszközén marad.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_not_now": {
-    "value": "Most nem",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_consent_title": {
-    "value": "Fordítás a Google ML Kittel?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_any_network": {
-    "value": "A csak Wi-Fi beállítás ki van kapcsolva, ezért a letöltés mobiladatot használhat.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_confirm": {
-    "value": "Letöltés",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_message": {
-    "value": "Az eszközön történő fordításhoz a KiekR-nek nyelvi modelleket kell letöltenie: %1$s. Mindegyik körülbelül 30 MB.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi": {
-    "value": "Csatlakozzon Wi-Fi-hálózathoz a nyelvi modell letöltéséhez, vagy kapcsolja ki a Beállításokban a „Nyelvi modellek letöltése csak Wi-Fi-n” beállítást.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_needs_wifi_title": {
-    "value": "Wi-Fi szükséges",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_title": {
-    "value": "Letölti a nyelvi modelleket?",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "chat_translation_download_wifi_only": {
-    "value": "A letöltés csak Wi-Fi-n indul el. Ezt a Beállítások, Csevegések menüpontban módosíthatja.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "chat_translation_failed": {
     "value": "A fordítás sikertelen",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translated_from": {
+    "value": "Fordítva ebből: %1$s",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13810,33 +13715,8 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_app_language": {
-    "value": "Az alkalmazás nyelve",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_footer": {
-    "value": "A fordítás ezen az eszközön fut a Google ML Kit segítségével. Az üzenet szövege soha nem hagyja el a telefonját. Az ML Kit használati adatokat küld a Google-nek. A nyelvi modellek egyenként körülbelül 30 MB méretűek, és csak a hozzájárulása után töltődnek le.",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
   "settings_chats_translation_header": {
     "value": "Fordítás",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_model_delete_cd": {
-    "value": "A(z) %1$s nyelvi modell törlése",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models": {
-    "value": "Letöltött nyelvi modellek",
-    "_ai": true,
-    "_seeded": "2026-10-07"
-  },
-  "settings_chats_translation_models_empty": {
-    "value": "Még nincs letöltött nyelvi modell.",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13850,8 +13730,63 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
-  "settings_chats_translation_unavailable": {
-    "value": "A fordítás nem érhető el ezen az eszközön.",
+  "settings_chats_translation_app_language": {
+    "value": "Az alkalmazás nyelve",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translate_with_google": {
+    "value": "Fordítás a Google-lel",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_badge_cd": {
+    "value": "A szolgáltatást a Google Translate nyújtja",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_title": {
+    "value": "Fordítás a Google ML Kittel?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_message": {
+    "value": "Androidon a fordítás a Google ML Kitet használja. Az ML Kit használati adatokat küld a Google-nek, például eszközinformációkat, valamint a felismert és beállított nyelveket. Az üzenet szövege az eszközén marad.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_enable": {
+    "value": "Engedélyezés",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_consent_not_now": {
+    "value": "Most nem",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_title": {
+    "value": "Letölti a nyelvi modelleket?",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_message": {
+    "value": "Az eszközön történő fordításhoz a KiekR-nek nyelvi modelleket kell letöltenie: %1$s. Mindegyik körülbelül 30 MB.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_wifi_only": {
+    "value": "A letöltés csak Wi-Fi-n indul el. Ezt a Beállítások, Csevegések menüpontban módosíthatja.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_any_network": {
+    "value": "A csak Wi-Fi beállítás ki van kapcsolva, ezért a letöltés mobiladatot használhat.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_confirm": {
+    "value": "Letöltés",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -13860,8 +13795,43 @@
     "_ai": true,
     "_seeded": "2026-10-07"
   },
+  "settings_chats_translation_models": {
+    "value": "Letöltött nyelvi modellek",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_models_empty": {
+    "value": "Még nincs letöltött nyelvi modell.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_model_delete_cd": {
+    "value": "A(z) %1$s nyelvi modell törlése",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_footer": {
+    "value": "A fordítás ezen az eszközön fut a Google ML Kit segítségével. Az üzenet szövege soha nem hagyja el a telefonját. Az ML Kit használati adatokat küld a Google-nek. A nyelvi modellek egyenként körülbelül 30 MB méretűek, és csak a hozzájárulása után töltődnek le.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "settings_chats_translation_unavailable": {
+    "value": "A fordítás nem érhető el ezen az eszközön.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
   "settings_help_about_translation_label": {
     "value": "Fordítás",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi": {
+    "value": "Csatlakozzon Wi-Fi-hálózathoz a nyelvi modell letöltéséhez, vagy kapcsolja ki a Beállításokban a „Nyelvi modellek letöltése csak Wi-Fi-n” beállítást.",
+    "_ai": true,
+    "_seeded": "2026-10-07"
+  },
+  "chat_translation_download_needs_wifi_title": {
+    "value": "Wi-Fi szükséges",
     "_ai": true,
     "_seeded": "2026-10-07"
   },
@@ -14189,11 +14159,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Válasz régió nélkül",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Válasz régió nélkül",
     "_ai": true,
     "_seeded": "2026-10-28"

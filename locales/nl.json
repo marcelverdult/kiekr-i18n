@@ -2340,8 +2340,9 @@
     "_human": true
   },
   "nodes_default_region_bullet3": {
-    "value": "• Laat dit veld leeg om flood-pakketten zonder regio te houden.",
-    "_human": true
+    "value": "• Laat dit veld leeg om flood-pakketten zonder standaardregio te verzenden.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "nodes_default_region_cd_refresh": {
     "value": "Verversen",
@@ -2608,10 +2609,6 @@
     "value": "Eigenaarsgegevens zijn nog niet opgehaald",
     "_ai": true,
     "_seeded": "2026-05-23"
-  },
-  "nodes_detail_no_region": {
-    "value": "Geen",
-    "_human": true
   },
   "nodes_detail_no_regions": {
     "value": "Nog geen regio's ontdekt",
@@ -4562,10 +4559,6 @@
     "value": "Regio",
     "_human": true
   },
-  "settings_channel_detail_region_none": {
-    "value": "Geen",
-    "_human": true
-  },
   "settings_channel_detail_remove_from_device": {
     "value": "Verwijderen van apparaat",
     "_human": true
@@ -4720,10 +4713,6 @@
   },
   "settings_channels_menu_hide": {
     "value": "Verbergen",
-    "_human": true
-  },
-  "settings_channels_subtitle_no_region": {
-    "value": "geen regio",
     "_human": true
   },
   "settings_channels_subtitle_not_on_device": {
@@ -5932,12 +5921,14 @@
     "_human": true
   },
   "settings_regions_scope_footer_none": {
-    "value": "Ongebonden verzendingen gaan uit als gewone Flood. Elke repeater op de mesh zal ze opnieuw uitzenden.",
-    "_human": true
+    "value": "Zonder standaardregio gaan berichten zonder eigen regio uit als gewone Flood. Elke repeater op de mesh zal ze opnieuw uitzenden.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_set": {
-    "value": "Ongebonden verzendingen worden stilletjes transport-gecodeerd naar %1$s. Alleen repeaters die voor die regio zijn geconfigureerd zullen ze opnieuw uitzenden.",
-    "_human": true
+    "value": "Berichten zonder eigen regio worden stilletjes transport-gecodeerd naar %1$s. Alleen repeaters die voor die regio zijn geconfigureerd zullen ze opnieuw uitzenden.",
+    "_ai": true,
+    "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
     "value": "Kies een regio om in te stellen als het standaardbereik van de gekoppelde node, of Geen voor gewone Flood. De instelling wordt op de node opgeslagen en overleeft herstarts.",
@@ -11233,11 +11224,6 @@
     "_ai": true,
     "_seeded": "2026-09-29"
   },
-  "ios_channels_unscoped": {
-    "value": "zonder regio",
-    "_ai": true,
-    "_seeded": "2026-09-29"
-  },
   "sensor_access_read": {
     "value": "Leestoegang",
     "_ai": true,
@@ -11770,16 +11756,6 @@
   },
   "traceroute_return_path_too_long": {
     "value": "Het terugpad zou de maximale padlengte overschrijden.",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channels_region_device_default": {
-    "value": "standaard: %1$s",
-    "_ai": true,
-    "_seeded": "2026-09-30"
-  },
-  "channel_detail_region_device_default": {
-    "value": "Geen (standaard: %1$s)",
     "_ai": true,
     "_seeded": "2026-09-30"
   },
@@ -12912,11 +12888,6 @@
     "_seeded": "2026-10-28"
   },
   "chat_menu_reply_without_region": {
-    "value": "Antwoorden zonder regio",
-    "_ai": true,
-    "_seeded": "2026-10-28"
-  },
-  "chat_reply_chip_without_region": {
     "value": "Antwoorden zonder regio",
     "_ai": true,
     "_seeded": "2026-10-28"
