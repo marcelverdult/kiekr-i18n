@@ -211,9 +211,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_connect_node_message": {
-    "value": "Conectează-te la un nod din secțiunea „Nodul meu” pentru a-ți vedea conversațiile și canalele.",
+    "value": "Asociază-te cu un nod din secțiunea „Nodul meu” pentru a-ți vedea conversațiile și canalele.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_connect_node_title": {
     "value": "Conectează un nod",
@@ -271,9 +271,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_candidates_explain": {
-    "value": "Mai multe repetoare corespund prefixului de traseu scurt al acestui salt. Nu putem alege automat cel potrivit. Alege-l pe cel care se afla pe traseul tău.",
+    "value": "Mai multe repetoare corespund prefixului scurt de traseu al acestui salt. Nu putem alege automat cel potrivit. Alege-l pe cel care se afla pe traseul tău.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_heard_no_position": {
     "value": "Auzit, poziție necunoscută",
@@ -301,9 +301,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_prefix": {
-    "value": "hop %1$s",
+    "value": "salt %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_incoming": {
     "value": "Intrări",
@@ -346,14 +346,14 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_path_footer_bytes": {
-    "value": "Fiecare etapă reprezintă primul (%1$d) byte(i) din cheia publică a unui repetor. Cheile scurte pot corespunde mai multor repetoare. Atinge globul pentru a căuta etapele lipsă în directorul online.",
+    "value": "Fiecare salt reprezintă primii %1$d octeți din cheia publică a unui repetor. Cheile scurte pot corespunde mai multor repetoare. Atinge globul pentru a căuta salturile lipsă în directorul online.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_header_bytes": {
-    "value": "Cale · %1$d - chei de tip byte",
+    "value": "Cale · chei de %1$d octeți",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_unknown_direct": {
     "value": "necunoscut (rutare directă)",
@@ -366,9 +366,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_payload_advert": {
-    "value": "PUBLICITATE",
+    "value": "ANUNȚ",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_payload_grp_data": {
     "value": "GRP_DATA",
@@ -481,9 +481,9 @@
     "_seeded": "2026-07-22"
   },
   "chat_detail_times_heard": {
-    "value": "Auzit",
+    "value": "De câte ori a fost auzit",
     "_ai": true,
-    "_seeded": "2026-07-22"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_transport_code": {
     "value": "Codul transportului",
@@ -866,9 +866,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_scope_plain_flood": {
-    "value": "Inundație simplă (fără regiune)",
+    "value": "Flood simplu (fără regiune)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_section_channels": {
     "value": "Canale",
@@ -891,9 +891,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_tx_attempt_mode_flood": {
-    "value": "inundație",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_tx_attempt_mode_path": {
     "value": "cale",
@@ -1151,9 +1151,9 @@
     "_seeded": "2026-06-26"
   },
   "map_empty_hint_no_gps": {
-    "value": "Anunțurile cu coordonate GPS ajung aici pe măsură ce sunt ascultate.",
+    "value": "Anunțurile cu coordonate GPS ajung aici pe măsură ce sunt auzite.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_hint_no_type_gps": {
     "value": "Niciun „%1$s” de acest tip nu afișează încă coordonate GPS.",
@@ -1206,9 +1206,9 @@
     "_seeded": "2026-06-26"
   },
   "map_filter_only_heard_in_last": {
-    "value": "Am auzit asta abia în ultima vreme",
+    "value": "Auzite doar în ultimele",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_filter_placeholder": {
     "value": "Filtrează după nume sau cheie publică",
@@ -1326,9 +1326,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_hop_label": {
-    "value": "hop %1$d · %2$s %3$s",
+    "value": "salt %1$d · %2$s%3$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_message_path_title": {
     "value": "Calea mesajului",
@@ -1341,9 +1341,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_no_path_body": {
-    "value": "Niciunul dintre repetitorii acestui mesaj (și nici sursa) nu are coordonate GPS înregistrate. Închide această fereastră, atinge pictograma globului din secțiunea „Traseu” a mesajului, apoi revino.",
+    "value": "Niciunul dintre repetoarele acestui mesaj (și nici sursa) nu are coordonate GPS înregistrate. Închide această fereastră, atinge pictograma globului din secțiunea „Traseu” a mesajului, apoi revino.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_no_path_title": {
     "value": "Nu există o cale care să poată fi parcursă",
@@ -1356,9 +1356,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_pick_reason_fresh": {
-    "value": "proaspăt",
+    "value": "recent",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_pick_reason_gps": {
     "value": "GPS",
@@ -1371,9 +1371,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_pick_reason_sole": {
-    "value": "talpă",
+    "value": "unic",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_pick_reason_suffix": {
     "value": " (%1$s)",
@@ -1491,14 +1491,14 @@
     "_seeded": "2026-06-26"
   },
   "mynode_broadcast_advert_row_title": {
-    "value": "Difuzează reclama mea…",
+    "value": "Difuzează anunțul meu…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_body": {
-    "value": "Ceasul nodului este setat cu o oră înainte față de telefonul tău. Reclamele și comenzile de administrare conțin o marcă temporală din viitor și sunt ignorate în mod silențios de sistemul de protecție anti-replay al rețelei mesh.",
+    "value": "Ceasul nodului este setat înaintea telefonului tău. Anunțurile și comenzile de administrare conțin o marcă temporală din viitor și sunt ignorate în mod silențios de sistemul de protecție anti-replay al rețelei mesh.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_rtc_body": {
     "value": "Acest dispozitiv dispune de un ceas real-time (RTC) alimentat de o baterie de rezervă. Software-ul nu îl poate reseta. Pentru a-l repune în funcțiune, trebuie să actualizați firmware-ul sau să scoateți bateria de rezervă a ceasului RTC.",
@@ -1506,9 +1506,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_clock_ahead_title": {
-    "value": "Ceasul de rezervă este în avans",
+    "value": "Ceasul companionului este în avans",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_in_sync": {
     "value": "ok",
@@ -1516,9 +1516,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_companion_delete_confirm_body": {
-    "value": "Elimină acest contact din listă. Dacă este conectat acum, legătura este întreruptă mai întâi.",
+    "value": "Elimină acest companion din listă. Dacă este conectat acum, legătura este întreruptă mai întâi.",
     "_ai": true,
-    "_seeded": "2026-07-06"
+    "_seeded": "2026-11-03"
   },
   "mynode_config_error_code": {
     "value": "cod de eroare firmware %1$d",
@@ -1581,14 +1581,14 @@
     "_seeded": "2026-06-26"
   },
   "mynode_dialog_broadcast_advert_title": {
-    "value": "Spot publicitar difuzat la televizor",
+    "value": "Difuzare anunț",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_footer": {
-    "value": "Opțiunea „Deconectare” întrerupe conexiunea, dar păstrează legătura în memoria cache. Atingeți „Conectare” pentru a vă reconecta fără a mai fi necesară reasocierea. Opțiunea „Uită” anulează asocierea și șterge memoria cache; nodul trebuie reasociat pentru a reveni.",
+    "value": "Întrerupe legătura. Te poți reconecta oricând din lista de dispozitive companion de mai sus.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_row_title": {
     "value": "Deconectare",
@@ -1651,9 +1651,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_flood_title": {
-    "value": "Umpleți rețeaua",
+    "value": "Flood în rețea",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_forget": {
     "value": "Uită",
@@ -1686,14 +1686,14 @@
     "_seeded": "2026-06-26"
   },
   "mynode_known_companions": {
-    "value": "Însoțitori cunoscuți",
+    "value": "Companioni cunoscuți",
     "_ai": true,
-    "_seeded": "2026-06-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_known_companions_footer": {
-    "value": "Atinge un contact pentru a restabili conexiunea. Glisează pentru a-l șterge din această listă.",
+    "value": "Atinge un companion pentru a restabili conexiunea. Glisează pentru a-l șterge din această listă.",
     "_ai": true,
-    "_seeded": "2026-06-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_label_public_key": {
     "value": "cheie publică",
@@ -2026,14 +2026,14 @@
     "_seeded": "2026-06-26"
   },
   "mynode_status_pairing": {
-    "value": "Se caută pereche…",
+    "value": "Se asociază…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_status_pairing_with": {
-    "value": "Însoțit de un vin „%1$s”…",
+    "value": "Se asociază cu %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_status_scanning": {
     "value": "Se scanează…",
@@ -2086,9 +2086,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_zero_hop_body": {
-    "value": "Doar vecini. Liniște: fără supraîncărcare. Se utilizează doar atunci când nodurile din apropiere trebuie să preia anunțul tău.",
+    "value": "Doar vecini. Liniște: fără flood. Se utilizează doar atunci când nodurile din apropiere trebuie să preia anunțul tău.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_zero_hop_title": {
     "value": "Zero-hop",
@@ -2221,9 +2221,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_install_body_other": {
-    "value": "Nodurile cu firmware-ul din fabrică au nevoie ca dispozitivul să fie introdus într-un slot înainte ca conectorul să îl poată recunoaște (descoperirea traseului, autentificare, telemetrie). Instalați-l acum sau faceți-o mai târziu din pagina de detalii a nodului.",
+    "value": "Nodurile cu firmware-ul din fabrică au nevoie ca contactul să fie introdus într-un slot înainte ca conectorul să îl poată adresa (descoperirea traseului, autentificare, telemetrie). Instalați-l acum sau faceți-o mai târziu din pagina de detalii a nodului.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_install_on_node": {
     "value": "Instalare pe nod",
@@ -2321,9 +2321,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_type_companion": {
-    "value": "Însoțitor",
+    "value": "Companion",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_type_repeater": {
     "value": "Repetor",
@@ -2346,14 +2346,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_advert": {
-    "value": "Reclamă",
+    "value": "Anunț",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_flood": {
-    "value": "Reclamă privind inundațiile",
+    "value": "Anunț flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_zero_hop": {
     "value": "Zero-hop",
@@ -2561,9 +2561,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_position_hint": {
-    "value": "Stabilește poziția afișată a repetorului. Introduceți grade zecimale; se preconizează adăugarea ulterioară a unui selector de hartă.",
+    "value": "Stabilește poziția anunțată a repetorului. Introduceți grade zecimale; se preconizează adăugarea ulterioară a unui selector de hartă.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_position_lat": {
     "value": "Latitudine",
@@ -2826,9 +2826,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_delete_dialog_body": {
-    "value": "Contactul ștergerilor, reclama, parola repetorului, starea de autentificare, datele privind traseul, istoricul CLI, vecinii, starea, telemetria. Mesajele directe sunt păstrate.",
+    "value": "Șterge contactul, anunțul, parola repetorului, starea de autentificare, datele privind traseul, istoricul CLI, vecinii, starea, telemetria. Mesajele directe sunt păstrate.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_delete_dialog_title": {
     "value": "Să ștergem nodul complet?",
@@ -2846,9 +2846,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_advertised_prefix": {
-    "value": "anunț: %1$s",
+    "value": "anunțat: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_age_days_ago": {
     "value": "%1$d acum câteva zile",
@@ -2931,9 +2931,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_flood": {
-    "value": "inundație",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_from_directory": {
     "value": "din directorul online",
@@ -3021,9 +3021,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_manual_hops": {
-    "value": "Sărituri manuale",
+    "value": "Salturi manuale",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_manual_label": {
     "value": "Manual",
@@ -3171,14 +3171,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_rename_advertised": {
-    "value": "Anunț: %1$s",
+    "value": "Anunțat: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_rename_empty_hint": {
-    "value": "Lăsați câmpul gol pentru a utiliza numele afișat.",
+    "value": "Lăsați câmpul gol pentru a utiliza numele anunțat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_rename_title": {
     "value": "Redenumire contact",
@@ -3276,9 +3276,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_unknown_body": {
-    "value": "Nu există încă nicio anunț sau rubrică de contact pentru această cheie publică.",
+    "value": "Nu există încă niciun anunț sau intrare de contact pentru această cheie publică.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_unknown_section": {
     "value": "Nod necunoscut",
@@ -3380,9 +3380,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_msg_repeaters": {
-    "value": "Repetatoarele din apropiere apar aici pe măsură ce anunțurile lor ajung la nodul tău asociat.",
+    "value": "Repetoarele din apropiere apar aici pe măsură ce anunțurile lor ajung la nodul tău asociat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_rooms": {
     "value": "Aici sunt afișate anunțurile serverului de cameră.",
@@ -3390,9 +3390,9 @@
     "_seeded": "2026-09-27"
   },
   "nodes_empty_msg_sensors": {
-    "value": "Aici apar reclamele Sensor.",
+    "value": "Aici apar anunțurile senzorilor.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_users": {
     "value": "Anunțurile altor utilizatori apar aici odată ce pachetele lor ajung la nodul tău asociat.",
@@ -3420,9 +3420,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_no_users": {
-    "value": "Nu s-au primit încă răspunsuri de la utilizatori",
+    "value": "Nu s-au auzit încă utilizatori",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_nothing": {
     "value": "Nu e nimic aici",
@@ -3465,14 +3465,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_filter_online_directory_hint": {
-    "value": "Repetatoarele identificate prin intermediul directorului online sunt incluse în listă atunci când această opțiune este activată. Dezactivați-o pentru a vedea doar nodurile pe care le-am recepționat efectiv prin radio.",
+    "value": "Repetoarele identificate prin intermediul directorului online sunt incluse în listă atunci când această opțiune este activată. Dezactivați-o pentru a vedea doar nodurile pe care le-am recepționat efectiv prin radio.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_filter_only_heard_in_last": {
-    "value": "Am auzit asta abia în ultima vreme",
+    "value": "Auzite doar în ultimele",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_filter_placeholder": {
     "value": "Filtrează după nume sau cheie publică",
@@ -3525,9 +3525,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_last_heard_unknown": {
-    "value": "n-am auzit niciodată",
+    "value": "niciodată auzit",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_add_region": {
     "value": "Adăugare regiune",
@@ -3535,9 +3535,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manage_regions_affected": {
-    "value": "Utilizat de canalul „%1$d” %2$s și %3$d; contact: %4$s. Acestea vor reveni la setarea „fără regiune” (Flood simplu).",
+    "value": "Utilizat de %1$d canal%2$s și %3$d contact%4$s. Acestea vor reveni la setarea „fără regiune” (Flood simplu).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_allow_flood": {
     "value": "Permite Flood",
@@ -3715,9 +3715,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_err_bad_bytes": {
-    "value": "Nu s-au putut citi acei octeți. Folosiți 6 caractere hexazecimale pentru fiecare hop (de exemplu, 1faec3) și separați-le cu virgule, spații sau caractere de linie nouă.",
+    "value": "Nu s-au putut citi acei octeți. Folosiți 6 caractere hexazecimale pentru fiecare salt (de exemplu, 1faec3) și separați-le cu virgule, spații sau caractere de linie nouă.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_err_not_triple": {
     "value": "Fiecare salt are 3 octeți. Rezultă un total de %1$d. Fie prin completare, fie prin trunchiere.",
@@ -3735,9 +3735,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_footer": {
-    "value": "Ocetii sunt stocați cu o lățime de 3 oceti și sunt ajustați la dimensiunea activă a hash-ului căii de transmisie în momentul trimiterii. Se acceptă separatori precum virgulă, spațiu și caracter de linie nouă.",
+    "value": "Octeții sunt stocați cu o lățime de 3 octeți și sunt ajustați la dimensiunea activă a hash-ului căii de transmisie în momentul trimiterii. Se acceptă separatori precum virgulă, spațiu și caracter de linie nouă.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_hide_repeater_list": {
     "value": "Ascunde lista repetatoarelor",
@@ -3745,14 +3745,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_hops_label": {
-    "value": "Hops (câte 3 octeți fiecare)",
+    "value": "Salturi (câte 3 octeți fiecare)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_learned_prefix": {
-    "value": "Sursă: %1$s",
+    "value": "Învățat: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_no_learned_path": {
     "value": "(nu există încă o cale învățată: transmisiile directe ar avea zero salturi)",
@@ -3800,9 +3800,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_use_manual_path_hint": {
-    "value": "Trimiteți folosind octeții de mai jos, în loc de ruta memorată. Lăsați octeții goi pentru a trimite un mesaj Direct fără hopuri.",
+    "value": "Trimiteți folosind octeții de mai jos, în loc de ruta memorată. Lăsați octeții goi pentru a trimite un mesaj Direct fără salturi.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_menu_copy_public_key": {
     "value": "Copiază cheia publică",
@@ -4010,9 +4010,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_sort_key_last_heard": {
-    "value": "Ultimele vești",
+    "value": "Auzit ultima dată",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_sort_key_last_heard_asc": {
     "value": "Cele mai vechi mai întâi",
@@ -4165,9 +4165,9 @@
     "_seeded": "2026-06-26"
   },
   "notif_status_pairing": {
-    "value": "Însoțit de un vin „%1$s”…",
+    "value": "Se asociază cu %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "notif_status_scanning": {
     "value": "Se caută noduri…",
@@ -4235,9 +4235,9 @@
     "_seeded": "2026-07-05"
   },
   "ping_settings_footer": {
-    "value": "Un ping trimite N sonde de un salt către un repetator și raportează timpul dus-întors plus semnalul uplink/downlink. Mostrele sunt trimise pe rând (la distanță de un interval); fiecare așteaptă răspuns până la timeout. Implicit: 3 mostre, interval 2000 ms, timeout 5000 ms.",
+    "value": "Un ping trimite N sonde de un salt către un repetor și raportează timpul dus-întors plus semnalul uplink/downlink. Mostrele sunt trimise pe rând (cu un interval între ele); fiecare așteaptă răspuns până la timeout. Implicit: 3 mostre, interval 2000 ms, timeout 5000 ms.",
     "_ai": true,
-    "_seeded": "2026-07-05"
+    "_seeded": "2026-11-03"
   },
   "ping_timeouts": {
     "value": "Timeout-uri",
@@ -4255,9 +4255,9 @@
     "_seeded": "2026-07-05"
   },
   "repeater_cli_advert": {
-    "value": "Reclamă",
+    "value": "Anunț",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_clear_stats": {
     "value": "Șterge statisticile",
@@ -4610,9 +4610,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_app_types_footer": {
-    "value": "Când aplicația detectează o reclamă de tip activat, adaugă nodul la contactele tale locale, astfel încât acesta să apară în secțiunea „Chat-uri / Noduri”. Tipurile filtrate își pierd cache-ul ECDH, astfel încât mesajele directe primite de la acestea nu pot fi decriptate decât dacă adaugi contactul manual. Modificările se sincronizează cu dispozitivul conectat, dacă acesta este prezent.",
+    "value": "Când aplicația detectează un anunț de tip activat, adaugă nodul la contactele tale locale, astfel încât acesta să apară în secțiunea „Chat-uri / Noduri”. Tipurile filtrate își pierd cache-ul ECDH, astfel încât mesajele directe primite de la acestea nu pot fi decriptate decât dacă adaugi contactul manual. Modificările se sincronizează cu dispozitivul conectat, dacă acesta este prezent.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_app_types_header": {
     "value": "Tipuri de anunțuri care se adaugă automat (aplicație)",
@@ -4650,19 +4650,19 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_companion_distance_header": {
-    "value": "Limita de distanță (însoțitor)",
+    "value": "Limita de distanță (companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_footer": {
-    "value": "Când dispozitivul conectat detectează o anunțare de tip activat, acesta stochează nodul în tabelul său de contacte. Informația se păstrează chiar și după repornire și ajunge la aplicație la următoarea sincronizare.",
+    "value": "Când dispozitivul conectat detectează un anunț de tip activat, acesta stochează nodul în tabelul său de contacte. Informația se păstrează chiar și după repornire și ajunge la aplicație la următoarea sincronizare.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_header": {
-    "value": "Tipuri de anunțuri care se adaugă automat (complementare)",
+    "value": "Tipuri de anunțuri care se adaugă automat (companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_connect_hint": {
     "value": "Conectați un nod pentru a transmite modificările de politici către dispozitivul dumneavoastră.",
@@ -4670,9 +4670,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_full_footer": {
-    "value": "Oprit: se elimină noile reclame. Pornit: cea mai veche reclamă care nu este favorită este eliminată. Reclamele favorite sunt păstrate.",
+    "value": "Oprit: noile anunțuri sunt ignorate. Pornit: cel mai vechi anunț care nu este favorit este eliminat. Anunțurile favorite sunt păstrate.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_full_header": {
     "value": "Când tabelul de contacte este plin",
@@ -4705,9 +4705,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_row_chat": {
-    "value": "Chat (Însoțitor)",
+    "value": "Chat (Companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_row_repeater": {
     "value": "Repetor",
@@ -4745,9 +4745,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoresolve_surface_heard_repeaters": {
-    "value": "Repetori „Heard” care nu figurează în director",
+    "value": "Repetoare auzite care nu figurează în director",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoresolve_surface_neighbours": {
     "value": "Rândurile vecine pe care dispozitivul nu le-a detectat încă",
@@ -4755,9 +4755,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoresolve_surface_path_hops": {
-    "value": "Etape de traseu fără nume",
+    "value": "Salturi de traseu fără nume",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoresolve_surface_regions": {
     "value": "Regiuni lipsă pe Discover",
@@ -4820,9 +4820,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_backup_encrypted_footer": {
-    "value": "Toate datele KiekR (regiuni, date de conectare la repetori, căi manuale, brokeri MQTT etc.), împreună cu fișierul JSON standard, criptate cu AES-256-GCM folosind o frază de acces aleasă de tine. Folosește acest fișier între instalările KiekR.",
+    "value": "Toate datele KiekR (regiuni, date de conectare la repetoare, căi manuale, brokeri MQTT etc.), împreună cu fișierul JSON standard, criptate cu AES-256-GCM folosind o frază de acces aleasă de tine. Folosește acest fișier între instalările KiekR.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_backup_encrypted_header": {
     "value": "Copie de rezervă criptată",
@@ -5735,9 +5735,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_community_map_footer": {
-    "value": "Mirror-urile difuzează anunțuri către publicul comunității MeshCore. Doar prin Wi-Fi. Cel mult o încărcare pe zi per repetor.",
+    "value": "Oglindește anunțurile repetoarelor auzite pe harta publică a comunității MeshCore. Doar prin Wi-Fi. Cel mult o încărcare pe zi per repetor.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_community_map_header": {
     "value": "Harta comunității",
@@ -5760,9 +5760,9 @@
     "_seeded": "2026-06-27"
   },
   "settings_community_coverage_cells": {
-    "value": "Celulele au auzit",
+    "value": "Celule auzite",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_coverage_footer": {
     "value": "Când este activată, aplicația KiekR înregistrează regiunile (și, acolo unde este posibil, repetoarele) pe care le recepționează într-o celulă de hartă cu o rezoluție aproximativă de jumătate de kilometru și încarcă periodic totalurile pe celulă prin Wi-Fi. Poziția ta exactă nu părăsește niciodată telefonul (ci doar celula), iar harta afișează doar ceea ce a fost recepționat acolo, niciodată cine a recepționat. Este un pseudonim separat de identitatea ta KiekR; îl poți dezactiva oricând.",
@@ -6240,9 +6240,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_directory_cache_footer": {
-    "value": "Șterge toate rândurile cu contacte importate din directorul online, precum și cache-ul prefixelor stocat pe disc. Contactele obținute prin transfer de date rămân neschimbate.",
+    "value": "Șterge toate rândurile cu contacte importate din directorul online, precum și cache-ul prefixelor stocat pe disc. Contactele auzite prin radio rămân neschimbate.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_cache_prefix_count": {
     "value": "%1$d prefixe",
@@ -6325,9 +6325,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_directory_reset_confirm_body": {
-    "value": "Șterge toate rândurile cu contacte importate din directorul online, precum și cache-ul prefixelor stocat pe disc. Contactele obținute prin transfer de date rămân neschimbate.",
+    "value": "Șterge toate rândurile cu contacte importate din directorul online, precum și cache-ul prefixelor stocat pe disc. Contactele auzite prin radio rămân neschimbate.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_reset_confirm_title": {
     "value": "Să resetezi cache-ul directorului?",
@@ -6645,9 +6645,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Notifică-mă când un nod de tipul selectat intră în emisie. Anunțurile sunt activate în mod implicit; activează opțiunea „Repeater” dacă dorești să fii informat despre noile repetoare pe măsură ce apar.",
+    "value": "Notifică-mă când un nod de tipul selectat intră în emisie. Anunțurile generează mult zgomot în mod implicit; activează opțiunea „Repeater” dacă dorești să fii informat despre noile repetoare pe măsură ce apar.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_adverts_header": {
     "value": "Anunțuri",
@@ -6695,9 +6695,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_master_footer": {
-    "value": "Comutator principal. Când este dezactivat, KiekR nu afișează nicio notificare pentru mesaje, canale sau reclame. Setările specifice fiecărui tip, prezentate mai jos, sunt păstrate.",
+    "value": "Comutator principal. Când este dezactivat, KiekR nu afișează nicio notificare pentru mesaje, canale sau anunțuri. Setările specifice fiecărui tip, prezentate mai jos, sunt păstrate.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_master_header": {
     "value": "Notificări",
@@ -6750,9 +6750,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_pathlookup_cache_header": {
-    "value": "Cache cu rezoluție de cale",
+    "value": "Cache de rezoluție a căii",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_cache_ttl_label": {
     "value": "Durata de valabilitate a cache-ului (TTL)",
@@ -7075,19 +7075,19 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_remove_in_use_both": {
-    "value": "„%1$s” este încă asociat cu unul sau mai multe canale de tip „%2$d” și cu unul sau mai mulți contacte de tip „%3$d”. Eliminarea acestuia va reseta aceste elemente la starea „fără regiune” (Flood simplu).",
+    "value": "„%1$s” este încă atribuit la %2$d canal(e) și %3$d contact(e). Eliminarea acestuia le va reseta la nicio regiune (Flood simplu).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_channels": {
-    "value": "„%1$s” este încă atribuit unui canal (unor canale) d%2$d. Eliminarea acestuia le resetează la nicio regiune (Flood simplu).",
+    "value": "„%1$s” este încă atribuit la %2$d canal(e). Eliminarea acestuia le resetează la nicio regiune (Flood simplu).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_contacts": {
-    "value": "„%1$s” este încă atribuită unor contacte d%2$d. Eliminarea acesteia le va reseta la nicio regiune (Flood simplu).",
+    "value": "„%1$s” este încă atribuit la %2$d contact(e). Eliminarea acestuia le va reseta la nicio regiune (Flood simplu).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_title": {
     "value": "Regiune încă în uz",
@@ -7115,9 +7115,9 @@
     "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
-    "value": "Alegeți o regiune pe care să o setați ca domeniu de aplicare implicit al nodului asociat sau „None” pentru difuzare simplă (Flood). Setarea este stocată pe nod și se păstrează chiar și după repornire.",
+    "value": "Alegeți o regiune pe care să o setați ca domeniu de aplicare implicit al nodului asociat sau „Niciuna” pentru Flood simplu. Setarea este stocată pe nod și se păstrează chiar și după repornire.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_scope_none_label": {
     "value": "Niciuna",
@@ -7255,9 +7255,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_stats_adverts_heard": {
-    "value": "Reclame ascultate",
+    "value": "Anunțuri auzite",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_stats_by_type_header": {
     "value": "După tip",
@@ -7320,9 +7320,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_tools_background_footer": {
-    "value": "Android suspendă conexiunile de rețea ale aplicațiilor atunci când ecranul este oprit. Exclude KiekR din optimizarea consumului de baterie (și din limitele de pornire automată impuse de producătorul telefonului), astfel încât conexiunea de însoțire să rămână activă în fundal.",
+    "value": "Android suspendă conexiunile de rețea ale aplicațiilor atunci când ecranul este oprit. Exclude KiekR din optimizarea consumului de baterie (și din limitele de pornire automată impuse de producătorul telefonului), astfel încât conexiunea cu companionul să rămână activă în fundal.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_tools_background_header": {
     "value": "Conexiune în fundal",
@@ -7455,9 +7455,9 @@
     "_seeded": "2026-07-05"
   },
   "traceroute_reachability_hint": {
-    "value": "Primul repetator trebuie să te audă, iar tu trebuie să auzi răspunsul ultimului. Alege o cale despre care știi că e accesibilă.",
+    "value": "Primul repetor trebuie să te audă, iar tu trebuie să auzi răspunsul ultimului. Alege o cale despre care știi că e accesibilă.",
     "_ai": true,
-    "_seeded": "2026-07-05"
+    "_seeded": "2026-11-03"
   },
   "traceroute_result": {
     "value": "Rezultat",
@@ -7520,9 +7520,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_connection_banner_pairing": {
-    "value": "Însoțit de un vin „%1$s”…",
+    "value": "Se asociază cu %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_connection_banner_scanning": {
     "value": "Se caută noduri…",
@@ -7535,9 +7535,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_directory_notice_body": {
-    "value": "KiekR poate căuta un repetor necunoscut după codul său hash în directoarele online (o funcție utilă atunci când un hop din traseu apare sub forma unui prefix hexadecimal simplu). Această funcție rămâne dezactivată până când o activezi din Setări → Partajare → Director.",
+    "value": "KiekR poate căuta un repetor necunoscut după codul său hash în directoarele online (o funcție utilă atunci când un salt din traseu apare sub forma unui prefix hexadecimal simplu). Această funcție rămâne dezactivată până când o activezi din Setări → Partajare → Director.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_directory_notice_title": {
     "value": "Căutare în director",
@@ -7610,14 +7610,14 @@
     "_seeded": "2026-06-26"
   },
   "ui_pathhash_use_app_value": {
-    "value": "Valoarea utilizată de aplicație (octeți %1$d)",
+    "value": "Utilizează valoarea aplicației (%1$d octet)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_pathhash_use_node_value": {
-    "value": "Utilizează valoarea nodului (octet %1$d)",
+    "value": "Utilizează valoarea nodului (%1$d octet)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_region_clear_app_default": {
     "value": "Șterge setările implicite ale aplicației",
@@ -7750,9 +7750,9 @@
     "_seeded": "2026-08-04"
   },
   "settings_channels_rejected_footer": {
-    "value": "Canalele pe care le-ați eliminat sau ignorat. Derupeți pentru a restabili unul în lista de canale, sau resetați-le pe toate pentru a le trimite înapoi la Descoperit pentru revizuire. Nimic nu este șters aici.",
+    "value": "Canalele pe care le-ați eliminat sau ignorat. Glisați pentru a restabili unul în lista de canale sau resetați-le pe toate pentru a le trimite înapoi la Descoperit pentru revizuire. Nimic nu este șters aici.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "settings_channels_rejected_restore": {
     "value": "Restaurează",
@@ -7845,9 +7845,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_promo_body": {
-    "value": "Alţi noduri au nevoie de anunţul tău înainte să-ţi poată trimite un mesaj.",
+    "value": "Alte noduri au nevoie de anunțul tău înainte să-ți poată trimite un mesaj.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_location_row_title": {
     "value": "Localizare (GPS)",
@@ -7885,9 +7885,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_onboarding_body": {
-    "value": "Cuplați dispozitivul MeshCore pentru a trimite și primi mesaje în plasă.",
+    "value": "Asociază dispozitivul MeshCore pentru a trimite și primi mesaje în rețeaua mesh.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_state_uptime": {
     "value": "Timp de activitate",
@@ -7895,19 +7895,19 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_share_title": {
-    "value": "Poziția acțiunilor în anunț",
+    "value": "Partajează poziția în anunț",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_share_hint": {
-    "value": "Transmite poziția acestui nod la întreaga plasă în anunțul său  de la GPS dacă este activat, sau o poziție fixă pe care o setați mai jos.",
+    "value": "Transmite poziția acestui nod întregii rețele mesh în anunțul său: de la GPS, dacă este activat, sau o poziție fixă pe care o setezi mai jos.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_shared_position": {
-    "value": "Poziția comună",
+    "value": "Poziție partajată",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_position_not_set": {
     "value": "Nu este stabilită",
@@ -7915,19 +7915,19 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_set_position": {
-    "value": "Poziția stabilită",
+    "value": "Stabilește poziția",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_use_phone_location": {
-    "value": "Foloseşte locaţia telefonului meu.",
+    "value": "Folosește locația telefonului meu",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_position_sheet_title": {
-    "value": "Poziţia anunţului",
+    "value": "Poziția anunțului",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_lat": {
     "value": "Latitudinea",
@@ -7935,14 +7935,14 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_lon": {
-    "value": "Longozitate",
+    "value": "Longitudine",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_broadcast_warning": {
-    "value": "Acest anunț împărtășește poziția acestui nod cu întreaga plasă.",
+    "value": "Acest anunț partajează poziția acestui nod cu întreaga rețea mesh.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_map_hint": {
     "value": "Apăsați pe hartă pentru a seta poziția nodului",
@@ -8235,9 +8235,9 @@
     "_seeded": "2026-08-05"
   },
   "signal_direct_reception_empty_title": {
-    "value": "Nu s-au recepționat încă repetitoare",
+    "value": "Nu s-au recepționat încă repetoare",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "signal_direct_reception_empty_desc": {
     "value": "Repetitoarele pe care nodul tău le recepționează direct apar aici pe măsură ce traficul lor ajunge.",
@@ -8315,9 +8315,9 @@
     "_seeded": "2026-08-05"
   },
   "repeater_stat_flood": {
-    "value": "Pachete de inundație",
+    "value": "Pachete flood",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "repeater_stat_direct": {
     "value": "Pachete directe",
@@ -8525,14 +8525,14 @@
     "_seeded": "2026-08-07"
   },
   "nodes_range_hops": {
-    "value": "%d sărituri",
+    "value": "%d salturi",
     "_ai": true,
-    "_seeded": "2026-08-07"
+    "_seeded": "2026-11-03"
   },
   "nodes_range_one_hop": {
-    "value": "1 săritură",
+    "value": "1 salt",
     "_ai": true,
-    "_seeded": "2026-08-07"
+    "_seeded": "2026-11-03"
   },
   "nodes_signal_desc": {
     "value": "Semnalul %d din 4",
@@ -8692,8 +8692,9 @@
     "_ai": true
   },
   "settings_community_identity_footer": {
-    "value": "O singură identitate pentru fiecare destinație de încărcare. Prefixul „KiekR_” este fix; analizatoarele numără observatorii distincti după acest nume.",
-    "_ai": true
+    "value": "O singură identitate pentru fiecare destinație de încărcare. Prefixul „KiekR_” este fix; analizatoarele numără observatorii distincți după acest nume.",
+    "_ai": true,
+    "_seeded": "2026-11-03"
   },
   "settings_community_fixed_targets_header": {
     "value": "Destinații fixe",
@@ -8837,9 +8838,9 @@
     "_seeded": "2026-08-11"
   },
   "map_path_no_gps_hint": {
-    "value": "Nu există semnal GPS: este posibil ca punctele de tranzit din directorul online să nu poată fi afișate pe hartă. Activați accesul la locație pentru determinarea completă a traseului.",
+    "value": "Nu există semnal GPS: este posibil ca salturile din directorul online să nu poată fi afișate pe hartă. Activați accesul la locație pentru determinarea completă a traseului.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_dialog_body": {
     "value": "Introduceți o valoare inițială de 32 de octeți (64 de caractere hexazecimale) sau o cheie privată extinsă de 64 de octeți (128 de caractere hexazecimale) dintr-o copie de rezervă. Cheia publică derivată este afișată mai jos înainte de salvare.",
@@ -8852,9 +8853,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_import_identity_footer": {
-    "value": "Lipiți o cheie privată hexadecimală de 64 sau 128 de caractere pentru a restaura o identitate salvată în copie de rezervă, salvată local și transmisă către dispozitivul asociat conectat. Opțiunea de export dezvăluie cheia acestui nod, astfel încât să o puteți salva în copie de rezervă.",
+    "value": "Lipiți o cheie privată hexadecimală de 64 sau 128 de caractere pentru a restaura o identitate salvată în copie de rezervă. Se salvează local și se transmite către companionul conectat. Opțiunea de export dezvăluie cheia acestui nod, astfel încât să o puteți salva în copie de rezervă.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_row_subtitle": {
     "value": "Lipiți cheia hexadecimală din copia de rezervă",
@@ -8962,9 +8963,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_connecting_stop_footer": {
-    "value": "Ultimul nod este inaccesibil. Oprește încercarea de conectare și alege un alt partener din lista de mai jos.",
+    "value": "Ultimul nod este inaccesibil. Oprește încercarea de conectare și alege alt companion mai jos.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_sensors_fetching": {
     "value": "Se preiau datele de la senzori…",
@@ -9017,19 +9018,19 @@
     "_seeded": "2026-09-20"
   },
   "ios_autoresolve_when_on_kiekr_may_automatically_issue_di": {
-    "value": "Când e activată, KiekR poate trimite automat căutări în director pentru contextul lipsă pe care aplicația îl observă pasiv: hopuri necunoscute într-un traseu, repeatere auzite care nu sunt încă în director, rânduri de vecini lipsă și regiuni lipsă la o descoperire. Când e dezactivată (implicit), fiecare căutare în director necesită o apăsare.",
+    "value": "Când e activată, KiekR poate trimite automat căutări în director pentru contextul lipsă pe care aplicația îl observă pasiv: salturi necunoscute într-un traseu, repetoare auzite care nu sunt încă în director, rânduri de vecini lipsă și regiuni lipsă la o descoperire. Când e dezactivată (implicit), fiecare căutare în director necesită o apăsare.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_autoresolve_path_hops_without_a_name": {
-    "value": "Hopuri de traseu fără nume",
+    "value": "Salturi de traseu fără nume",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_autoresolve_heard_repeaters_not_in_the_directory": {
-    "value": "Repeatere auzite care nu sunt în director",
+    "value": "Repetoare auzite care nu sunt în director",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_autoresolve_neighbour_rows_the_device_hasn_t_seen_ye": {
     "value": "Rânduri de vecini pe care dispozitivul nu le-a văzut încă",
@@ -9067,9 +9068,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_backup_all_kiekr_data_regions_repeater_logins_m": {
-    "value": "Toate datele KiekR (regiuni, autentificări la repeatere, trasee manuale, brokere MQTT...) plus JSON-ul standard, criptate cu AES-256-GCM folosind o frază de acces la alegerea ta. Folosește această opțiune între instalările KiekR.",
+    "value": "Toate datele KiekR (regiuni, autentificări la repetoare, trasee manuale, brokere MQTT...) plus JSON-ul standard, criptate cu AES-256-GCM folosind o frază de acces la alegerea ta. Folosește această opțiune între instalările KiekR.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_backup_backup": {
     "value": "Backup",
@@ -9447,9 +9448,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_messagedetailshe_resolve_missing_hops_online": {
-    "value": "Rezolvă hopurile lipsă online",
+    "value": "Rezolvă salturile lipsă online",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_messagedetailshe_online_directory_is_off_enable_a_source_": {
     "value": "Directorul online este dezactivat. Activează o sursă din Setări → Partajare → Director.",
@@ -9457,9 +9458,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_messagedetailshe_several_repeaters_match_this_hop_s_short": {
-    "value": "Mai multe repeatere corespund prefixului scurt de traseu al acestui hop. Nu îl putem alege automat pe cel corect. Selectează-l pe cel care a fost pe traseul tău.",
+    "value": "Mai multe repetoare corespund prefixului scurt de traseu al acestui salt. Nu îl putem alege automat pe cel corect. Selectează-l pe cel care a fost pe traseul tău.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_coveragemap_no_hexes_mapped_yet_drive_around_with_th": {
     "value": "Încă nu sunt cartografiate hexagoane. Deplasează-te cu radioul pornit și vor apărea aici.",
@@ -9832,9 +9833,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_manualpathsheet_append_a_repeater": {
-    "value": "Adaugă un repeater",
+    "value": "Adaugă un repetor",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_manualpathsheet_clear_stored_manual_path": {
     "value": "Șterge traseul manual salvat",
@@ -9847,9 +9848,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_manualpathsheet_pick_a_repeater": {
-    "value": "Alege un repeater",
+    "value": "Alege un repetor",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_delete_permanently": {
     "value": "Șterge definitiv",
@@ -9932,9 +9933,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_manual_hops": {
-    "value": "Hopuri manuale",
+    "value": "Salturi manuale",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_manage_regions": {
     "value": "Gestionează regiunile",
@@ -9967,9 +9968,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_sends_a_rename_to_the_repeater_the_new_n": {
-    "value": "Trimite o redenumire către repeater. Noul nume apare după ce ajunge un anunț nou.",
+    "value": "Trimite o redenumire către repetor. Noul nume apare după ce ajunge un anunț nou.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_favourites_pin_this_repeater_for_quicker": {
     "value": "Favoritele fixează acest repeater pentru acces mai rapid. Poți schimba asta oricând din butonul stea de mai jos.",
@@ -10072,9 +10073,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_notifications_notify_when_a_node_of_the_selected_type_": {
-    "value": "Notifică atunci când un nod de tipul selectat apare pe rețea. Anunțurile sunt zgomotoase implicit; activează „Repeater” dacă vrei să fii informat despre repeatere noi pe măsură ce apar.",
+    "value": "Notifică atunci când un nod de tipul selectat apare pe rețea. Anunțurile sunt zgomotoase implicit; activează „Repeater” dacă vrei să fii informat despre repetoare noi pe măsură ce apar.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_notify_when_traffic_arrives_on_a_never_a": {
     "value": "Notifică atunci când ajunge trafic pe un canal nici măcar adăugat vreodată",
@@ -10112,9 +10113,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_pathlookup_multi_byte_hops_require_companion_firmwa": {
-    "value": "Hopurile multi-byte necesită firmware companion v1.15.0 sau mai nou. Companionul tău raportează o versiune mai veche: limitat la 1 byte până la actualizare. Preferința ta anterioară este păstrată și se va reactiva după actualizare.",
+    "value": "Salturile multi-byte necesită firmware companion v1.15.0 sau mai nou. Companionul tău raportează o versiune mai veche: limitat la 1 byte până la actualizare. Preferința ta anterioară este păstrată și se va reactiva după actualizare.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_pathlookup_cache_ttl": {
     "value": "TTL cache",
@@ -10282,9 +10283,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_traceroute_repeaters_you_ve_saved_or_heard_appear_h": {
-    "value": "Repeaterele salvate sau auzite apar aici.",
+    "value": "Repetoarele salvate sau auzite apar aici.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "repeater_err_admin_required_command": {
     "value": "Pentru această comandă este necesară autentificarea de administrator.",
@@ -10472,9 +10473,9 @@
     "_seeded": "2026-09-20"
   },
   "reach_hops_label": {
-    "value": "Max. hopuri văzute",
+    "value": "Max. salturi văzute",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "reach_state_none": {
     "value": "Niciun observator nu l-a auzit încă. Asta nu înseamnă niciodată că trimiterea a eșuat.",
@@ -10522,9 +10523,9 @@
     "_seeded": "2026-09-20"
   },
   "settings_autoadd_master_off_hint": {
-    "value": "Acest nod adaugă automat momentan fiecare tip de anunț („Auto add all”). Filtrele de mai jos nu au niciun efect. O altă aplicație poate fi comutat asta.",
+    "value": "Acest nod adaugă automat momentan fiecare tip de anunț („Auto add all”). Filtrele de mai jos nu au niciun efect. O altă aplicație ar putea să fi schimbat asta.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_master_off_apply": {
     "value": "Aplică filtrele de tip",
@@ -10867,9 +10868,9 @@
     "_seeded": "2026-09-23"
   },
   "signal_direct_reception_info": {
-    "value": "Repetitoare pe care nodul tău le-a recepționat direct, pe baza celor mai recente pachete. Un identificator scurt (de ex. \"85\") poate corespunde mai multor noduri.",
+    "value": "Repetoare pe care nodul tău le-a recepționat direct, pe baza celor mai recente pachete. Un identificator scurt (de ex. \"85\") poate corespunde mai multor noduri.",
     "_ai": true,
-    "_seeded": "2026-09-23"
+    "_seeded": "2026-11-03"
   },
   "signal_direct_reception_ambiguous": {
     "value": "identificator scurt, ambiguu",
@@ -11007,9 +11008,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_ambiguous_count": {
-    "value": "Însoțitori posibili: %1$d",
+    "value": "Companioni posibili: %1$d",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_more_entries": {
     "value": "+ %1$d în plus",
@@ -11022,9 +11023,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_tab_companion": {
-    "value": "Alege însoțitor",
+    "value": "Alege companion",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_add_tab_key": {
     "value": "Introdu cheia",
@@ -11037,9 +11038,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_search_placeholder": {
-    "value": "Caută însoțitor",
+    "value": "Caută companion",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_already_has_role": {
     "value": "are deja %1$s",
@@ -11047,9 +11048,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_companion_hint": {
-    "value": "Doar însoțitori din contactele tale și din anunțurile ascultate. Repetoarele, serverele de cameră și senzorii nu pot fi adăugați.",
+    "value": "Doar companioni din contactele tale și din anunțurile auzite. Repetoarele, serverele de cameră și senzorii nu pot fi adăugați.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_role_for_name": {
     "value": "Rol pentru %1$s",
@@ -11102,19 +11103,19 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_key_status_advert": {
-    "value": "Cunoscut dintr-un anunț ascultat: %1$s",
+    "value": "Cunoscut dintr-un anunț auzit: %1$s",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_status_rejected_repeater": {
-    "value": "Acesta este repetorul %1$s. Doar însoțitorii pot fi adăugați.",
+    "value": "Acesta este repetorul %1$s. Doar companionii pot fi adăugați.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_status_rejected_generic": {
-    "value": "Acesta nu este un însoțitor (%1$s). Doar însoțitorii pot fi adăugați.",
+    "value": "Acesta nu este un companion (%1$s). Doar companionii pot fi adăugați.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_input_hint": {
     "value": "Doar caractere hexazecimale 0-9, a-f. Spațiile și cele două puncte sunt eliminate la lipire. Repetorul are nevoie de cheia completă pentru a o adăuga.",
@@ -11277,9 +11278,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_no_companions": {
-    "value": "Niciun însoțitor cunoscut.",
+    "value": "Niciun companion cunoscut.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_list_empty": {
     "value": "Încă nicio intrare în lista de acces.",
@@ -11602,19 +11603,19 @@
     "_seeded": "2026-09-29"
   },
   "mynode_advert_hint_gps": {
-    "value": "Împărtășește poziția GPS a nodului cu întreaga plasă. Setarea unei poziții fixe dezactivează GPS-ul nodului.",
+    "value": "Partajează poziția GPS a nodului cu întreaga rețea mesh. Setarea unei poziții fixe dezactivează GPS-ul nodului.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_hint_fixed": {
-    "value": "Împărtășește această poziție fixă cu întreaga plasă. Activarea GPS-ului nodului o înlocuiește cu poziția GPS.",
+    "value": "Partajează această poziție fixă cu întreaga rețea mesh. Activarea GPS-ului nodului o înlocuiește cu poziția GPS.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_hint_fixed_no_gps": {
-    "value": "Împărtășește această poziție fixă cu întreaga plasă.",
+    "value": "Partajează această poziție fixă cu întreaga rețea mesh.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_fixed_confirm_title": {
     "value": "Să folosești o poziție fixă?",
@@ -11622,9 +11623,9 @@
     "_seeded": "2026-09-29"
   },
   "mynode_advert_fixed_confirm_message": {
-    "value": "Nodul poate împărtăși doar o singură poziție. O poziție fixă dezactivează GPS-ul nodului, așa că nodul nu mai urmărește propria locație.",
+    "value": "Nodul poate partaja doar o singură poziție. O poziție fixă dezactivează GPS-ul nodului, așa că nodul nu mai urmărește propria locație.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_fixed_confirm_action": {
     "value": "Dezactivează GPS-ul",
@@ -12272,9 +12273,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_msgdetail_hop": {
-    "value": "Hop %1$d",
+    "value": "Salt %1$d",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_regions_in_range_repeaters": {
     "value": "Repetoare în rază de acțiune (%1$d)",
@@ -12292,9 +12293,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
-    "value": "Doar vecinii. Liniște: fără supraîncărcare. Folosiți doar atunci când nodurile din apropiere trebuie să afle anunțul dvs.",
+    "value": "Doar vecinii. Liniște: fără flood. Folosiți doar atunci când nodurile din apropiere trebuie să afle anunțul dvs.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_new_6_digit_pin": {
     "value": "Cod PIN nou din 6 cifre",
@@ -13297,9 +13298,9 @@
     "_seeded": "2026-10-05"
   },
   "nodes_share_menu_advert": {
-    "value": "Distribuie ca Advert zero-hop",
+    "value": "Distribuie ca anunț zero-hop",
     "_ai": true,
-    "_seeded": "2026-10-05"
+    "_seeded": "2026-11-03"
   },
   "nodes_share_advert_toast_ok": {
     "value": "Contact distribuit prin radio (zero-hop).",
@@ -13312,9 +13313,9 @@
     "_seeded": "2026-10-05"
   },
   "nodes_share_advert_toast_unable": {
-    "value": "Dispozitivul tău nu are un Advert salvat pentru acest contact sau nu îl poate trimite.",
+    "value": "Dispozitivul tău nu are un anunț salvat pentru acest contact sau nu îl poate trimite.",
     "_ai": true,
-    "_seeded": "2026-10-05"
+    "_seeded": "2026-11-03"
   },
   "nodes_share_advert_toast_failed": {
     "value": "Contactul nu a putut fi distribuit (cod %1$d).",
@@ -13442,9 +13443,9 @@
     "_seeded": "2026-10-06"
   },
   "mynode_wifi_auto_reconnect_footer": {
-    "value": "Se reconectează la însoțitorul tău WiFi când legătura cade, când deschizi aplicația și când revine WiFi. Dezactivează opțiunea dacă un alt telefon sau o altă aplicație folosește același însoțitor: acesta acceptă o singură conexiune, deci fiecare reconectare îl deconectează pe celălalt client.",
+    "value": "Se reconectează la companionul tău WiFi când legătura cade, când deschizi aplicația și când revine WiFi. Dezactivează opțiunea dacă un alt telefon sau o altă aplicație folosește același companion: acesta acceptă o singură conexiune, deci fiecare reconectare îl deconectează pe celălalt client.",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "nodes_share_advert_toast_syncing": {
     "value": "Dispozitivul tău încă se sincronizează. Încearcă din nou peste un moment.",
@@ -13677,14 +13678,14 @@
     "_seeded": "2026-10-06"
   },
   "nodes_detail_advert_path": {
-    "value": "Calea Advertului",
+    "value": "Calea anunțului",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_region_device_default_footer": {
-    "value": "Implicitul nodului folosește regiunea implicită a companion-ului dvs. pentru trimiterile prin inundație. pentru trimiterile prin inundație. Mesajele pe o rută directă cunoscută nu poartă niciodată o regiune. Atribuiți o regiune pentru a folosi alta pentru acest contact.",
+    "value": "Implicitul nodului folosește regiunea implicită a companion-ului dvs. pentru trimiterile flood. Mesajele pe o rută directă cunoscută nu poartă niciodată o regiune. Atribuiți o regiune pentru a folosi alta pentru acest contact.",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "chat_translate_action": {
     "value": "Tradu",
@@ -13911,14 +13912,14 @@
     "_seeded": "2026-10-17"
   },
   "mynode_node_clock_ahead_subtitle": {
-    "value": "%1$s în avans · reclamele pot fi ignorate",
+    "value": "%1$s în avans · anunțurile pot fi ignorate",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_ahead_subtitle_unknown": {
-    "value": "Reclamele pot fi ignorate",
+    "value": "Anunțurile pot fi ignorate",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_repair_action": {
     "value": "Repară",
@@ -14081,9 +14082,9 @@
     "_seeded": "2026-10-20"
   },
   "traceroute_prefix_footer": {
-    "value": "Pentru un repetator pe care aplicația nu îl cunoaște încă. Traceroute trimite acești octeți drept hash al saltului.",
+    "value": "Pentru un repetor pe care aplicația nu îl cunoaște încă. Traceroute trimite acești octeți drept hash al saltului.",
     "_ai": true,
-    "_seeded": "2026-10-20"
+    "_seeded": "2026-11-03"
   },
   "traceroute_unknown_repeater": {
     "value": "Repetator necunoscut",
@@ -14171,9 +14172,9 @@
     "_seeded": "2026-10-29"
   },
   "nodes_autoadd_banner_device_ignores_filter": {
-    "value": "Nodul tău adaugă singur orice tip de Advert, așa că filtrul de tipuri nu se aplică acolo.",
+    "value": "Nodul tău adaugă singur orice tip de anunț, așa că filtrul de tipuri nu se aplică acolo.",
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-03"
   },
   "nodes_autoadd_banner_hops_direct": {
     "value": "Doar nodurile auzite direct.",

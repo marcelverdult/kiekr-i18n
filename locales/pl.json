@@ -260,9 +260,9 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_echoes_heard": {
-    "value": "Słyszalne echa",
+    "value": "Usłyszane echa",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hash": {
     "value": "Hash",
@@ -270,9 +270,9 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_hop_candidates_explain": {
-    "value": "Kilka przekaźników pasuje do prefiksu najkrótszej ścieżki tego skoku. Nie możemy automatycznie wybrać właściwego. Wybierz ten, który znajdował się na Twojej ścieżce.",
+    "value": "Kilka przekaźników pasuje do krótkiego prefiksu tego skoku. Nie możemy automatycznie wybrać właściwego. Wybierz ten, który znajdował się na Twojej ścieżce.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_heard_no_position": {
     "value": "Usłyszano, pozycja nieznana",
@@ -285,9 +285,9 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_hop_no_match": {
-    "value": "brak wyników w przekaźnikach typu „heard”",
+    "value": "brak dopasowania wśród usłyszanych przekaźników",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_not_found": {
     "value": "brak dopasowania: w katalogu nie znaleziono wpisu dla tego prefiksu",
@@ -320,9 +320,9 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_no_repeats_yet": {
-    "value": "Jak dotąd nie słyszałem żadnych powtórzeń.",
+    "value": "Jak dotąd nie usłyszano żadnych powtórzeń.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_outgoing": {
     "value": "Wychodzące",
@@ -345,14 +345,14 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_path_footer_bytes": {
-    "value": "Każdy skok to pierwsze %1$d bajty klucza publicznego przekaźnika. Krótkie klucze mogą odpowiadać wielu przekaźnikom. Dotknij globusa, aby wyszukać brakujące skoki w katalogu online.",
+    "value": "Każdy skok to pierwsze bajty klucza publicznego przekaźnika (liczba bajtów: %1$d). Krótkie klucze mogą odpowiadać wielu przekaźnikom. Dotknij globusa, aby wyszukać brakujące skoki w katalogu online.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_header_bytes": {
-    "value": "Ścieżka · Klucze typu „%1$d-byte”",
+    "value": "Ścieżka · klucze %1$d-bajtowe",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_unknown_direct": {
     "value": "nieznana (trasowanie bezpośrednie)",
@@ -864,9 +864,9 @@
     "_seeded": "2026-05-23"
   },
   "chat_scope_plain_flood": {
-    "value": "zwykła flood (bez podziału na regiony)",
+    "value": "zwykły flood (bez regionu)",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "chat_section_channels": {
     "value": "Kanały",
@@ -1149,14 +1149,14 @@
     "_seeded": "2026-05-23"
   },
   "map_empty_hint_no_gps": {
-    "value": "Ogłoszenia z współrzędnymi GPS trafiają tutaj w momencie ich odtworzenia.",
+    "value": "Ogłoszenia ze współrzędnymi GPS trafiają tutaj, gdy tylko zostaną odebrane.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "map_empty_hint_no_type_gps": {
-    "value": "Żadna z tego typu stron typu „%1$s” nie podaje na razie współrzędnych GPS.",
+    "value": "%1$s tego typu: żaden nie podaje jeszcze współrzędnych GPS.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "map_empty_no_nodes": {
     "value": "Brak znalezionych węzłów",
@@ -1204,9 +1204,9 @@
     "_seeded": "2026-05-23"
   },
   "map_filter_only_heard_in_last": {
-    "value": "Słyszałem to dopiero ostatnio",
+    "value": "Usłyszano tylko w ciągu ostatnich",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "map_filter_placeholder": {
     "value": "Filtruj według nazwy lub klucza publicznego",
@@ -1324,14 +1324,14 @@
     "_seeded": "2026-05-23"
   },
   "map_path_hop_label": {
-    "value": "skok %1$d · %2$s %3$s",
+    "value": "skok %1$d · %2$s%3$s",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "map_path_message_path_title": {
-    "value": "Ścieżka komunikatu",
+    "value": "Ścieżka wiadomości",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "map_path_no_message": {
     "value": "Nie wybrano żadnej wiadomości.",
@@ -1344,9 +1344,9 @@
     "_seeded": "2026-05-23"
   },
   "map_path_no_path_title": {
-    "value": "Brak ścieżki dostępu",
+    "value": "Nie można ustalić ścieżki",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "map_path_our_node": {
     "value": "Nasz węzeł",
@@ -1369,9 +1369,9 @@
     "_seeded": "2026-05-23"
   },
   "map_path_pick_reason_sole": {
-    "value": "podeszwa",
+    "value": "jedyny",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "map_path_pick_reason_suffix": {
     "value": " (%1$s)",
@@ -1504,9 +1504,9 @@
     "_seeded": "2026-05-23"
   },
   "mynode_clock_ahead_title": {
-    "value": "Zegar pomocniczy wskazuje czas przyszły",
+    "value": "Zegar urządzenia companion jest przestawiony do przodu",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_in_sync": {
     "value": "ok",
@@ -1579,14 +1579,14 @@
     "_seeded": "2026-05-23"
   },
   "mynode_dialog_broadcast_advert_title": {
-    "value": "Ogłoszenie telewizyjne",
+    "value": "Wyemituj ogłoszenie",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_footer": {
-    "value": "Opcja „Odłącz” powoduje przerwanie połączenia, ale zachowuje buforowane połączenie. Naciśnij „Połącz”, aby ponownie nawiązać połączenie bez konieczności ponownego parowania. Opcja „Zapomnij” powoduje usunięcie parowania i wyczyszczenie pamięci podręcznej; aby przywrócić połączenie, należy ponownie sparować węzeł.",
+    "value": "Przerywa połączenie. Możesz ponownie połączyć się w dowolnym momencie z listy urządzeń companion powyżej.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_row_title": {
     "value": "Odłącz",
@@ -1649,9 +1649,9 @@
     "_seeded": "2026-05-23"
   },
   "mynode_flood_title": {
-    "value": "Zapełnij siatkę",
+    "value": "Wyślij flood do całej siatki",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "mynode_forget": {
     "value": "Zapomnij",
@@ -1684,14 +1684,14 @@
     "_seeded": "2026-05-23"
   },
   "mynode_known_companions": {
-    "value": "Znani towarzysze",
+    "value": "Znane urządzenia companion",
     "_ai": true,
-    "_seeded": "2026-06-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_known_companions_footer": {
-    "value": "Dotknij osoby z listy znajomych, aby ponownie nawiązać połączenie. Przesuń palcem, aby usunąć ją z tej listy.",
+    "value": "Dotknij urządzenia companion, aby ponownie nawiązać połączenie. Przesuń palcem, aby usunąć je z tej listy.",
     "_ai": true,
-    "_seeded": "2026-06-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_label_public_key": {
     "value": "klucz publiczny",
@@ -1869,9 +1869,9 @@
     "_seeded": "2026-05-23"
   },
   "mynode_path_hash_mode_row_subtitle": {
-    "value": "%1$d bajt · dotknij, aby edytować",
+    "value": "%1$d B · dotknij, aby edytować",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "mynode_path_hash_mode_row_title": {
     "value": "Tryb skrótu ścieżki",
@@ -1970,9 +1970,9 @@
     "_seeded": "2026-05-23"
   },
   "mynode_section_pair_a_node": {
-    "value": "Połącz węzeł",
+    "value": "Sparuj węzeł",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "mynode_section_status": {
     "value": "Status",
@@ -2030,9 +2030,9 @@
     "_seeded": "2026-05-23"
   },
   "mynode_status_pairing_with": {
-    "value": "W parowaniu z filmem „%1$s”…",
+    "value": "Parowanie z „%1$s”…",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "mynode_status_scanning": {
     "value": "Skanowanie…",
@@ -2220,9 +2220,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_install_body_other": {
-    "value": "Węzły z firmware'em wymagają, aby moduł znajdował się w gnieździe, zanim złącze będzie mogło się z nim połączyć (wykrywanie ścieżki, logowanie, telemetria). Zainstaluj teraz lub zrób to później na stronie szczegółów węzła.",
+    "value": "Węzły z fabrycznym firmware'em wymagają, aby kontakt znajdował się w gnieździe, zanim złącze będzie mogło się z nim połączyć (wykrywanie ścieżki, logowanie, telemetria). Zainstaluj teraz lub zrób to później na stronie szczegółów węzła.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_install_on_node": {
     "value": "Zainstaluj na węźle",
@@ -2320,9 +2320,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_type_companion": {
-    "value": "Towarzyszący",
+    "value": "Companion",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_type_repeater": {
     "value": "Przekaźnik",
@@ -2350,9 +2350,9 @@
     "_seeded": "2026-06-01"
   },
   "nodes_admin_advert_flood": {
-    "value": "Ogłoszenie dotyczące powodzi",
+    "value": "Ogłoszenie flood",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_zero_hop": {
     "value": "Zero-skok",
@@ -2825,9 +2825,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_delete_dialog_body": {
-    "value": "Kontakt z serwerem, ogłoszenie, hasło przekaźnika, stan logowania, dane ścieżki, przewijanie CLI, sąsiedzi, status, telemetria. Wiadomości prywatne są zachowywane.",
+    "value": "Usuwa kontakt, ogłoszenie, hasło przekaźnika, stan logowania, dane ścieżki, historię CLI, sąsiadów, status, telemetrię. Wiadomości prywatne są zachowywane.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_delete_dialog_title": {
     "value": "Całkowicie usunąć węzeł?",
@@ -3171,9 +3171,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_rename_empty_hint": {
-    "value": "Pozostaw puste, aby użyć podanej nazwy.",
+    "value": "Pozostaw puste, aby użyć nazwy z ogłoszenia.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_rename_title": {
     "value": "Zmień nazwę kontaktu",
@@ -3370,9 +3370,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_empty_msg_nothing": {
-    "value": "Jak dotąd nie słyszano o niczym takim.",
+    "value": "Jak dotąd nie usłyszano nic tego typu.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_repeaters": {
     "value": "W tym miejscu wyświetlane są pobliskie przekaźniki, gdy ich ogłoszenia docierają do sparowanego węzła.",
@@ -3405,9 +3405,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_empty_no_rooms": {
-    "value": "Nie ma jeszcze żadnych zgłoszeń",
+    "value": "Na razie nie słychać żadnych serwerów pokojowych",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_sensors": {
     "value": "Na razie nie słychać żadnych czujników",
@@ -3415,9 +3415,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_empty_no_users": {
-    "value": "Nie ma jeszcze żadnych opinii",
+    "value": "Na razie nie słychać żadnych użytkowników",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_nothing": {
     "value": "Nie ma tu nic",
@@ -3465,9 +3465,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_filter_only_heard_in_last": {
-    "value": "Słyszałem to dopiero ostatnio",
+    "value": "Usłyszano tylko w ciągu ostatnich",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_filter_placeholder": {
     "value": "Filtruj według nazwy lub klucza publicznego",
@@ -3520,9 +3520,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_last_heard_unknown": {
-    "value": "nigdy nie słyszałem",
+    "value": "nigdy nie usłyszano",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_add_region": {
     "value": "Dodaj region",
@@ -3530,9 +3530,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manage_regions_affected": {
-    "value": "Wykorzystywane przez kanał %1$d, %2$s oraz %3$d. Kontakt: %4$s. Zostaną one przywrócone do stanu bez regionu (zwykły flood).",
+    "value": "Używane przez: kanały %1$d%2$s, kontakty %3$d%4$s. Zostaną one przywrócone do stanu bez regionu (zwykły flood).",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_allow_flood": {
     "value": "Zezwól na flood",
@@ -3744,9 +3744,9 @@
     "_human": true
   },
   "nodes_manual_learned_prefix": {
-    "value": "Źródło: %1$s",
+    "value": "Zapamiętana ścieżka: %1$s",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_no_learned_path": {
     "value": "(nie ma jeszcze ustalonej ścieżki: bezpośrednie wysyłanie przebiegałoby bez skoków)",
@@ -4003,9 +4003,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_sort_key_last_heard": {
-    "value": "Ostatnie wiadomości",
+    "value": "Ostatnio słyszane",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "nodes_sort_key_last_heard_asc": {
     "value": "Najstarsze najpierw",
@@ -4053,9 +4053,9 @@
     "_seeded": "2026-05-23"
   },
   "nodes_swipe_unfavourite": {
-    "value": "Nie dodaj do ulubionych",
+    "value": "Usuń z ulubionych",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "notif_advert_type_chat_node": {
     "value": "Węzeł czatu",
@@ -4157,9 +4157,9 @@
     "_seeded": "2026-05-23"
   },
   "notif_status_pairing": {
-    "value": "W parowaniu z filmem „%1$s”…",
+    "value": "Parowanie z „%1$s”…",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "notif_status_scanning": {
     "value": "Wyszukiwanie węzłów…",
@@ -4642,9 +4642,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_companion_distance_header": {
-    "value": "Limit odległości (osoba towarzysząca)",
+    "value": "Limit odległości (companion)",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_footer": {
     "value": "Gdy podłączone urządzenie wykryje ogłoszenie typu, który obsługuje, zapisuje ten węzeł w swojej tabeli kontaktów. Informacja ta jest zachowywana po ponownym uruchomieniu urządzenia i przekazywana do aplikacji przy następnym pobraniu danych.",
@@ -4652,9 +4652,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_companion_types_header": {
-    "value": "Rodzaje ogłoszeń do automatycznego dodania (towarzyszące)",
+    "value": "Rodzaje ogłoszeń do automatycznego dodania (companion)",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_connect_hint": {
     "value": "Połącz węzeł, aby przesłać zmiany zasad do swojego urządzenia.",
@@ -4697,9 +4697,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_row_chat": {
-    "value": "Czat (towarzyszący)",
+    "value": "Czat (companion)",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_row_repeater": {
     "value": "Przekaźnik",
@@ -4747,9 +4747,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoresolve_surface_path_hops": {
-    "value": "Przejścia ścieżki bez nazwy",
+    "value": "Skoki ścieżki bez nazwy",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_autoresolve_surface_regions": {
     "value": "Brakujące regiony w sekcji „Odkrywaj”",
@@ -5727,9 +5727,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_community_map_footer": {
-    "value": "Serwery lustrzane odtwarzają ogłoszenia przekaźników na publicznej mapie społeczności MeshCore. Tylko Wi-Fi. Maksymalnie jedno przesłanie danych dziennie z każdego przekaźnika.",
+    "value": "Przekazuje usłyszane ogłoszenia przekaźników na publiczną mapę społeczności MeshCore. Tylko Wi-Fi. Maksymalnie jedno przesłanie dziennie na przekaźnik.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_community_community_map_header": {
     "value": "Mapa społeczności",
@@ -5757,9 +5757,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_coverage_footer": {
-    "value": "Gdy aplikacja KiekR jest włączona, rejestruje ona, które regiony (a tam, gdzie to możliwe, które przekaźniki) odbiera w przybliżonej komórce mapy o rozmiarze około pół kilometra, a następnie okresowo przesyła dane zbiorcze dla poszczególnych komórek przez Wi-Fi. Twoja dokładna pozycja nigdy nie opuszcza telefonu (znana jest jedynie w obrębie danej komórki), a mapa pokazuje wyłącznie to, co zostało tam odebrane, nigdy nie ujawniając, kto to odebrał. Funkcja ta działa pod pseudonimem i jest niezależna od Twojej tożsamości w aplikacji KiekR; możesz ją wyłączyć w dowolnym momencie.",
+    "value": "Gdy opcja jest włączona, KiekR rejestruje, które regiony (a tam, gdzie to możliwe, które przekaźniki) odbiera w przybliżonej komórce mapy o rozmiarze około pół kilometra, a następnie okresowo przesyła dane zbiorcze dla poszczególnych komórek przez Wi-Fi. Twoja dokładna pozycja nigdy nie opuszcza telefonu (znana jest jedynie w obrębie danej komórki), a mapa pokazuje wyłącznie to, co zostało tam odebrane, nigdy nie ujawniając, kto to odebrał. Funkcja ta działa pod pseudonimem i jest niezależna od Twojej tożsamości w aplikacji KiekR; możesz ją wyłączyć w dowolnym momencie.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_coverage_header": {
     "value": "Mapa zasięgu",
@@ -5862,9 +5862,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_mqtt_footer": {
-    "value": "Protokół MQTT działa tylko wtedy, gdy urządzenie jest w trakcie parowania przez Bluetooth. Tożsamość sieci siatki urządzenia nigdy nie jest przesyłana: każdy broker korzysta z własnej, wygenerowanej pary kluczy. Nazwy obserwatorów zawsze zaczynają się od „KiekR_”.",
+    "value": "MQTT przekazuje dane tylko wtedy, gdy jesteś sparowany z urządzeniem przez Bluetooth. Tożsamość sieci siatki urządzenia nigdy nie jest przesyłana: każdy broker korzysta z własnej, wygenerowanej pary kluczy. Nazwy obserwatorów zawsze zaczynają się od „KiekR_”.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_community_mqtt_header": {
     "value": "Przesyłanie danych przez MQTT",
@@ -5972,9 +5972,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_region_map_footer": {
-    "value": "Gdy urządzenie KiekR jest włączone, przesyła na stronę map.kiekr.app wszystkie ogłoszenia z przekaźników odebrane drogą radiową, a także wszelkie regiony lub listy sąsiadów pobrane z przekaźnika. Przesyłane dane są pseudonimowe i nie są powiązane z Twoją tożsamością w KiekR. Pomaga to w tworzeniu publicznej mapy pokazującej, gdzie używane są regiony. Wiadomości, kontakty i Twoja lokalizacja nigdy nie są udostępniane.",
+    "value": "Gdy opcja jest włączona, KiekR przesyła na stronę map.kiekr.app wszystkie ogłoszenia z przekaźników odebrane drogą radiową, a także wszelkie regiony lub listy sąsiadów pobrane z przekaźnika. Przesyłane dane są pseudonimowe i nie są powiązane z Twoją tożsamością w KiekR. Pomaga to w tworzeniu publicznej mapy pokazującej, gdzie używane są regiony. Wiadomości, kontakty i Twoja lokalizacja nigdy nie są udostępniane.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_community_region_map_header": {
     "value": "Mapa regionu",
@@ -6237,9 +6237,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_directory_cache_prefix_count": {
-    "value": "%1$d przedrostki",
+    "value": "Prefiksy: %1$d",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_cache_row_count": {
     "value": "%1$d wiersze",
@@ -6372,9 +6372,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_help_about_firmware_label": {
-    "value": "Firmware w pakiecie",
+    "value": "Firmware sparowanego węzła",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_help_about_header": {
     "value": "O nas",
@@ -6437,9 +6437,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_help_logs_email_firmware": {
-    "value": "Firmware do parowania: %1$s",
+    "value": "Firmware sparowanego węzła: %1$s",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_help_logs_email_identity": {
     "value": "Tożsamość (pierwsze 16 znaków szesnastkowych): %1$s",
@@ -6637,9 +6637,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Powiadom mnie, gdy pojawi się węzeł wybranego typu. Ogłoszenia są domyślnie włączone; włącz opcję „Repeater”, jeśli chcesz otrzymywać powiadomienia o nowych przekaźnikach w miarę ich pojawiania się.",
+    "value": "Powiadom mnie, gdy pojawi się węzeł wybranego typu. Ogłoszenia są domyślnie bardzo częste; włącz opcję „Przekaźnik”, jeśli chcesz otrzymywać powiadomienia o nowych przekaźnikach w miarę ich pojawiania się.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_adverts_header": {
     "value": "Ogłoszenia",
@@ -6742,9 +6742,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_pathlookup_cache_header": {
-    "value": "Pamięć podręczna z rozdzielczością ścieżki",
+    "value": "Pamięć podręczna rozpoznawania ścieżek",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_cache_ttl_label": {
     "value": "Czas życia pamięci podręcznej",
@@ -6807,9 +6807,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_pathlookup_tiebreaker_label": {
-    "value": "Różnica punktów w dogrywce",
+    "value": "Margines rozstrzygania remisu",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_tiebreaker_value": {
     "value": "%1$d %%",
@@ -7012,9 +7012,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_regions_default_scope_unsupported_footer": {
-    "value": "Sparowany węzeł zgłasza błąd firmware’u „%1$s” (poziom protokołu towarzyszącego %2$s); domyślny region wymaga poziomu protokołu 11. Należy zaktualizować firmware do wersji zawierającej kody operacyjne v11.",
+    "value": "Sparowany węzeł zgłasza firmware %1$s (poziom protokołu towarzyszącego %2$s); domyślny region wymaga poziomu protokołu 11. Należy zaktualizować firmware do wersji zawierającej kody operacyjne v11.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_delete_confirm_body": {
     "value": "Usuwa region z urządzenia. Możesz go później ponownie dodać, wpisując jego nazwę.",
@@ -7052,9 +7052,9 @@
     "_seeded": "2026-05-23"
   },
   "settings_regions_none_plain_flood": {
-    "value": "Brak (zwykła flood)",
+    "value": "Brak (zwykły flood)",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove": {
     "value": "Usuń",
@@ -7067,19 +7067,19 @@
     "_seeded": "2026-06-07"
   },
   "settings_regions_remove_in_use_both": {
-    "value": "„%1$s” jest nadal przypisane do kanałów %2$d oraz kontaktów %3$d. Usunięcie tego przypisania spowoduje zresetowanie tych elementów do stanu bez regionu (zwykły flood).",
+    "value": "„%1$s” jest nadal przypisane do liczby kanałów: %2$d oraz liczby kontaktów: %3$d. Usunięcie tego przypisania spowoduje ich zresetowanie do stanu bez regionu (zwykły flood).",
     "_ai": true,
-    "_seeded": "2026-06-07"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_channels": {
-    "value": "„%1$s” jest nadal przypisane do kanałów z regionu %2$d. Usunięcie tego przypisania spowoduje zresetowanie tych kanałów do stanu bez regionu (zwykły flood).",
+    "value": "„%1$s” jest nadal przypisane do liczby kanałów: %2$d. Usunięcie tego przypisania spowoduje zresetowanie tych kanałów do stanu bez regionu (zwykły flood).",
     "_ai": true,
-    "_seeded": "2026-06-07"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_contacts": {
-    "value": "„%1$s” jest nadal przypisane do kontaktów z regionu %2$d. Usunięcie tego przypisania spowoduje zresetowanie tych kontaktów do stanu bez przypisania do regionu (zwykły flood).",
+    "value": "„%1$s” jest nadal przypisane do liczby kontaktów: %2$d. Usunięcie tego przypisania spowoduje zresetowanie tych kontaktów do stanu bez regionu (zwykły flood).",
     "_ai": true,
-    "_seeded": "2026-06-07"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_title": {
     "value": "Region nadal w użyciu",
@@ -7107,9 +7107,9 @@
     "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
-    "value": "Wybierz region, który ma zostać ustawiony jako domyślny zakres węzła w trakcie parowania, lub opcję „None” w przypadku zwykłego floodu. Ustawienie to jest zapisywane na węźle i pozostaje zachowane po ponownym uruchomieniu.",
+    "value": "Wybierz region, który ma zostać ustawiony jako domyślny zakres sparowanego węzła, lub „Brak” w przypadku zwykłego flood. Ustawienie to jest zapisywane na węźle i pozostaje zachowane po ponownym uruchomieniu.",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_scope_none_label": {
     "value": "Brak",
@@ -7482,9 +7482,9 @@
     "_seeded": "2026-10-14"
   },
   "traceroute_target_heard_only": {
-    "value": "tylko słyszał",
+    "value": "tylko usłyszany",
     "_ai": true,
-    "_seeded": "2026-07-01"
+    "_seeded": "2026-11-03"
   },
   "traceroute_title": {
     "value": "Traceroute",
@@ -7512,9 +7512,9 @@
     "_seeded": "2026-05-23"
   },
   "ui_connection_banner_pairing": {
-    "value": "W parowaniu z filmem „%1$s”…",
+    "value": "Parowanie z „%1$s”…",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "ui_connection_banner_scanning": {
     "value": "Wyszukiwanie węzłów…",
@@ -7602,9 +7602,9 @@
     "_seeded": "2026-05-23"
   },
   "ui_pathhash_use_app_value": {
-    "value": "Wartość użycia aplikacji (bajt %1$d)",
+    "value": "Użyj wartości aplikacji (bajt %1$d)",
     "_ai": true,
-    "_seeded": "2026-05-23"
+    "_seeded": "2026-11-03"
   },
   "ui_pathhash_use_node_value": {
     "value": "Użyj wartości węzła (bajt %1$d)",
@@ -7837,9 +7837,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_promo_body": {
-    "value": "Inne węzły potrzebują twojego advertu, zanim będą mogły do ciebie napisać.",
+    "value": "Inne węzły potrzebują Twojego ogłoszenia, zanim będą mogły do Ciebie napisać.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_location_row_title": {
     "value": "Lokalizacja (GPS)",
@@ -7887,14 +7887,14 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_share_title": {
-    "value": "Udostępnij pozycję w advercie",
+    "value": "Udostępnij pozycję w ogłoszeniu",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_share_hint": {
-    "value": "Rozgłasza pozycję tego węzła do całej siatki w swoim advercie: z GPS (jeśli włączony) lub ze stałej pozycji ustawionej poniżej.",
+    "value": "Rozgłasza pozycję tego węzła do całej siatki w swoim ogłoszeniu: z GPS (jeśli włączony) lub ze stałej pozycji ustawionej poniżej.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_shared_position": {
     "value": "Udostępniona pozycja",
@@ -7917,9 +7917,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_position_sheet_title": {
-    "value": "Pozycja advertu",
+    "value": "Pozycja w ogłoszeniu",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_lat": {
     "value": "Szerokość geograficzna",
@@ -7932,9 +7932,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_broadcast_warning": {
-    "value": "Ten advert udostępnia pozycję tego węzła całej siatce.",
+    "value": "To ogłoszenie udostępnia pozycję tego węzła całej siatce.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_map_hint": {
     "value": "Dotknij mapy, aby ustawić pozycję swojego węzła",
@@ -8227,9 +8227,9 @@
     "_seeded": "2026-08-05"
   },
   "signal_direct_reception_empty_title": {
-    "value": "Nie wykryto jeszcze żadnych repeaterów",
+    "value": "Nie wykryto jeszcze żadnych przekaźników",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "signal_direct_reception_empty_desc": {
     "value": "Repeatery, które Twój węzeł odbiera bezpośrednio, pojawiają się tutaj w miarę napływania ich ruchu.",
@@ -8307,9 +8307,9 @@
     "_seeded": "2026-08-05"
   },
   "repeater_stat_flood": {
-    "value": "Pakiety zalewowe",
+    "value": "Pakiety flood",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "repeater_stat_direct": {
     "value": "Pakiety bezpośrednie",
@@ -8422,9 +8422,9 @@
     "_seeded": "2026-08-05"
   },
   "settings_home_sub_autoadd": {
-    "value": "Które reklamy stają się kontaktami",
+    "value": "Które ogłoszenia stają się kontaktami",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "settings_home_sub_regions": {
     "value": "Geograficzne zasięgi transmisji",
@@ -8829,9 +8829,9 @@
     "_seeded": "2026-08-11"
   },
   "map_path_no_gps_hint": {
-    "value": "Brak sygnału GPS: punkty przesiadkowe z katalogu online mogą nie zostać zaznaczone na mapie. Włącz dostęp do lokalizacji, aby uzyskać pełne wyznaczenie trasy.",
+    "value": "Brak sygnału GPS: skoki z katalogu online mogą nie zostać zaznaczone na mapie. Włącz dostęp do lokalizacji, aby uzyskać pełne wyznaczenie ścieżki.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_dialog_body": {
     "value": "Wprowadź 32-bajtowy klucz początkowy (64 znaki szesnastkowe) lub 64-bajtowy rozbudowany klucz prywatny (128 znaków szesnastkowych) z kopii zapasowej. Wyprowadzony klucz publiczny jest wyświetlany poniżej przed zapisaniem.",
@@ -8954,9 +8954,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_connecting_stop_footer": {
-    "value": "Ostatni węzeł jest niedostępny. Przerwij próbę nawiązania połączenia i wybierz innego partnera z poniższej listy.",
+    "value": "Ostatni węzeł jest niedostępny. Przerwij próbę nawiązania połączenia i wybierz inne urządzenie companion z poniższej listy.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_sensors_fetching": {
     "value": "Pobieranie danych z czujników…",
@@ -9009,9 +9009,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_autoresolve_when_on_kiekr_may_automatically_issue_di": {
-    "value": "Gdy opcja jest włączona, KiekR może automatycznie wysyłać zapytania do katalogu w celu uzupełnienia brakujących informacji, które aplikacja wykrywa pasywnie: nieznane przeskoki w ścieżce, wykryte repeatery, których jeszcze nie ma w katalogu, brakujące wiersze sąsiadów oraz brakujące regiony podczas wykrywania. Gdy opcja jest wyłączona (ustawienie domyślne), każde wyszukiwanie w katalogu wymaga dotknięcia.",
+    "value": "Gdy opcja jest włączona, KiekR może automatycznie wysyłać zapytania do katalogu w celu uzupełnienia brakujących informacji, które aplikacja wykrywa pasywnie: nieznane skoki w ścieżce, usłyszane przekaźniki, których jeszcze nie ma w katalogu, brakujące wiersze sąsiadów oraz brakujące regiony podczas wykrywania. Gdy opcja jest wyłączona (ustawienie domyślne), każde wyszukiwanie w katalogu wymaga dotknięcia.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_autoresolve_path_hops_without_a_name": {
     "value": "Skoki w ścieżce bez nazwy",
@@ -9019,9 +9019,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_autoresolve_heard_repeaters_not_in_the_directory": {
-    "value": "Wykryte repeatery nieobecne w katalogu",
+    "value": "Usłyszane przekaźniki nieobecne w katalogu",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_autoresolve_neighbour_rows_the_device_hasn_t_seen_ye": {
     "value": "Wiersze sąsiadów, których urządzenie jeszcze nie widziało",
@@ -9059,9 +9059,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_backup_all_kiekr_data_regions_repeater_logins_m": {
-    "value": "Wszystkie dane KiekR (regiony, loginy do repeaterów, ścieżki ręczne, brokerzy MQTT...) oraz standardowy plik JSON, zaszyfrowane algorytmem AES-256-GCM przy użyciu wybranego przez Ciebie hasła. Używaj tej opcji przy przenoszeniu instalacji KiekR.",
+    "value": "Wszystkie dane KiekR (regiony, loginy do przekaźników, ścieżki ręczne, brokerzy MQTT...) oraz standardowy plik JSON, zaszyfrowane algorytmem AES-256-GCM przy użyciu wybranego przez Ciebie hasła. Używaj tej opcji przy przenoszeniu instalacji KiekR.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_backup_backup": {
     "value": "Kopia zapasowa",
@@ -9239,9 +9239,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_channels_connected_to_a_stock_node_only_channels_": {
-    "value": "Połączono z węzłem systemowym: nadawać mogą tylko kanały zainstalowane na urządzeniu. Przesuń w prawo, aby dodać lub usunąć kanał z urządzenia. Przesuń w lewo, aby usunąć kanał: kanały oznaczone symbolem # zachowują swój klucz, więc można je ponownie dodać po nazwie; kanały z niestandardowymi kluczami są trwale usuwane.",
+    "value": "Połączono z węzłem z fabrycznym firmware'em: nadawać mogą tylko kanały zainstalowane na urządzeniu. Przesuń w prawo, aby dodać lub usunąć kanał z urządzenia. Przesuń w lewo, aby usunąć kanał: kanały oznaczone symbolem # zachowują swój klucz, więc można je ponownie dodać po nazwie; kanały z niestandardowymi kluczami są trwale usuwane.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_channels_channels_must_be_assigned_a_region_to_be": {
     "value": "Kanały muszą mieć przypisany region, aby były powtarzane w większości sieci. Dotknij kanału, aby go przypisać. Przesuń w lewo, aby usunąć: kanały oznaczone symbolem # zachowują swój klucz, więc można je ponownie dodać po nazwie; kanały z niestandardowym kluczem są trwale usuwane.",
@@ -9439,9 +9439,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_messagedetailshe_resolve_missing_hops_online": {
-    "value": "Rozwiązanie brakujących przeskoków online",
+    "value": "Rozwiąż brakujące skoki online",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_messagedetailshe_online_directory_is_off_enable_a_source_": {
     "value": "Katalog online jest wyłączony. Włącz źródło w Ustawieniach → Udostępnianie → Katalog.",
@@ -9449,9 +9449,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_messagedetailshe_several_repeaters_match_this_hop_s_short": {
-    "value": "Kilka repeaterów pasuje do prefiksu krótkiej ścieżki tego przeskoku. Nie możemy automatycznie wybrać właściwego. Wybierz ten, który znajdował się na Twojej ścieżce.",
+    "value": "Kilka przekaźników pasuje do krótkiego prefiksu tego skoku. Nie możemy automatycznie wybrać właściwego. Wybierz ten, który znajdował się na Twojej ścieżce.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_coveragemap_no_hexes_mapped_yet_drive_around_with_th": {
     "value": "Nie przypisano jeszcze żadnych heksów. Przejedź się z włączonym radiem, a pojawią się one tutaj.",
@@ -9494,9 +9494,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_help_paired_firmware": {
-    "value": "Oprogramowanie sprzętowe sparowanych urządzeń",
+    "value": "Firmware sparowanego węzła",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_map_favorites_only": {
     "value": "Tylko ulubione",
@@ -9684,9 +9684,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_mynode_broadcast_my_advert": {
-    "value": "Rozgłoś moją reklamę…",
+    "value": "Rozgłoś moje ogłoszenie…",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_connect_via_wifi": {
     "value": "Połącz przez Wi-Fi",
@@ -9744,9 +9744,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_mynode_saves_the_identity_locally_if_the_key_is": {
-    "value": "Zapisuje tożsamość lokalnie. Jeśli klucz jest oparty na nasieniu (seed) i podłączone jest urządzenie towarzyszące, nasienie jest również przesyłane do urządzenia za pomocą CMD_IMPORT_PRIVATE_KEY. Powoduje to nadpisanie bieżącej tożsamości urządzenia.",
+    "value": "Zapisuje tożsamość lokalnie. Jeśli klucz jest oparty na ziarnie (seed) i podłączone jest urządzenie towarzyszące, ziarno jest również przesyłane do urządzenia za pomocą CMD_IMPORT_PRIVATE_KEY. Powoduje to nadpisanie bieżącej tożsamości urządzenia.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_lora_radio": {
     "value": "Moduł radiowy LoRa",
@@ -9824,9 +9824,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_manualpathsheet_append_a_repeater": {
-    "value": "Dodaj repeater",
+    "value": "Dodaj przekaźnik",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_manualpathsheet_clear_stored_manual_path": {
     "value": "Wyczyść zapisaną ścieżkę ręczną",
@@ -9839,9 +9839,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_manualpathsheet_pick_a_repeater": {
-    "value": "Wybierz repeater",
+    "value": "Wybierz przekaźnik",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_delete_permanently": {
     "value": "Usuń na stałe",
@@ -9924,9 +9924,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_nodes_manual_hops": {
-    "value": "Ręczne przeskoki",
+    "value": "Ręczne skoki",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_manage_regions": {
     "value": "Zarządzaj regionami",
@@ -9959,9 +9959,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_nodes_sends_a_rename_to_the_repeater_the_new_n": {
-    "value": "Wysyła polecenie zmiany nazwy do repeatera. Nowa nazwa pojawi się po nadejściu nowego ogłoszenia.",
+    "value": "Wysyła polecenie zmiany nazwy do przekaźnika. Nowa nazwa pojawi się po nadejściu nowego ogłoszenia.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_favourites_pin_this_repeater_for_quicker": {
     "value": "Dodaj ten repeater do ulubionych, aby uzyskać do niego szybszy dostęp. Możesz to zmienić w dowolnym momencie za pomocą przycisku z gwiazdką poniżej.",
@@ -10064,9 +10064,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_notifications_notify_when_a_node_of_the_selected_type_": {
-    "value": "Powiadamiaj, gdy węzeł wybranego typu rozpocznie nadawanie. Reklamy są domyślnie głośne; włącz opcję „Repeater”, jeśli chcesz być informowany o nowych repeaterach w miarę ich pojawiania się.",
+    "value": "Powiadamiaj, gdy węzeł wybranego typu rozpocznie nadawanie. Ogłoszenia są domyślnie głośne; włącz opcję „Przekaźnik”, jeśli chcesz być informowany o nowych przekaźnikach w miarę ich pojawiania się.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_notify_when_traffic_arrives_on_a_never_a": {
     "value": "Powiadamiaj o ruchu przychodzącym na kanale, którego jeszcze nie dodałeś",
@@ -10104,9 +10104,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_pathlookup_multi_byte_hops_require_companion_firmwa": {
-    "value": "Przesyłanie wielobajtowe wymaga oprogramowania sprzętowego urządzenia towarzyszącego w wersji 1.15.0 lub nowszej. Twoje urządzenie towarzyszące zgłasza starszą wersję: do czasu aktualizacji będzie ograniczone do 1 bajtu. Twoje poprzednie ustawienia zostaną zachowane i zostaną ponownie aktywowane po aktualizacji.",
+    "value": "Skoki wielobajtowe wymagają oprogramowania sprzętowego urządzenia towarzyszącego w wersji 1.15.0 lub nowszej. Twoje urządzenie towarzyszące zgłasza starszą wersję: do czasu aktualizacji będzie ograniczone do 1 bajtu. Twoje poprzednie ustawienia zostaną zachowane i zostaną ponownie aktywowane po aktualizacji.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "ios_pathlookup_cache_ttl": {
     "value": "Czas życia pamięci podręcznej (TTL)",
@@ -10189,9 +10189,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_retriesandtimeou_hard_cap_on_user_initiated_retries_per_o": {
-    "value": "Sztywny limit ponownych prób inicjowanych przez użytkownika na jedną wiadomość wychodzącą (pomarańczowy symbol ↻ na bąbelkach bez potwierdzenia). Po osiągnięciu limitu symbol staje się szary i przestaje akceptować dotknięcia. Domyślnie 5 (odpowiada schematowi automatycznych ponownych prób: 3× bezpośrednie + 2× zalewowe).",
+    "value": "Sztywny limit ponownych prób inicjowanych przez użytkownika na jedną wiadomość wychodzącą (pomarańczowy symbol ↻ na bąbelkach bez potwierdzenia). Po osiągnięciu limitu symbol staje się szary i przestaje akceptować dotknięcia. Domyślnie 5 (odpowiada schematowi automatycznych ponownych prób: 3× bezpośrednie + 2× flood).",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "ios_retriesandtimeou_channel_delay": {
     "value": "Opóźnienie kanału",
@@ -10274,9 +10274,9 @@
     "_seeded": "2026-08-12"
   },
   "ios_traceroute_repeaters_you_ve_saved_or_heard_appear_h": {
-    "value": "W tym miejscu wyświetlane są repeatery, które zapisałeś lub które odebrałeś.",
+    "value": "W tym miejscu wyświetlane są przekaźniki, które zapisałeś lub które odebrałeś.",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "repeater_err_admin_required_command": {
     "value": "Do wykonania tego polecenia wymagane jest zalogowanie się jako administrator.",
@@ -10324,9 +10324,9 @@
     "_seeded": "2026-08-12"
   },
   "map_path_message_path": {
-    "value": "Ścieżka komunikatu",
+    "value": "Ścieżka wiadomości",
     "_ai": true,
-    "_seeded": "2026-08-12"
+    "_seeded": "2026-11-03"
   },
   "conversation_never_refreshed": {
     "value": "Nigdy nie aktualizowano",
@@ -10859,9 +10859,9 @@
     "_seeded": "2026-09-23"
   },
   "signal_direct_reception_info": {
-    "value": "Repeatery, które Twój węzeł odebrał bezpośrednio, na podstawie jego najnowszych pakietów. Krótki identyfikator (np. \"85\") może pasować do więcej niż jednego węzła.",
+    "value": "Przekaźniki, które Twój węzeł odebrał bezpośrednio, na podstawie jego najnowszych pakietów. Krótki identyfikator (np. \"85\") może pasować do więcej niż jednego węzła.",
     "_ai": true,
-    "_seeded": "2026-09-23"
+    "_seeded": "2026-11-03"
   },
   "signal_direct_reception_ambiguous": {
     "value": "krótki identyfikator, niejednoznaczny",
@@ -10999,9 +10999,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_ambiguous_count": {
-    "value": "Możliwi towarzysze: %1$d",
+    "value": "Możliwe urządzenia companion: %1$d",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_more_entries": {
     "value": "+ %1$d więcej",
@@ -11014,9 +11014,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_tab_companion": {
-    "value": "Wybierz towarzysza",
+    "value": "Wybierz companion",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_add_tab_key": {
     "value": "Wpisz klucz",
@@ -11029,9 +11029,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_search_placeholder": {
-    "value": "Szukaj towarzysza",
+    "value": "Szukaj companion",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_already_has_role": {
     "value": "ma już %1$s",
@@ -11039,9 +11039,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_companion_hint": {
-    "value": "Tylko towarzysze z Twoich kontaktów i usłyszanych ogłoszeń. Repeaterów, serwerów pokojowych i czujników nie można dodać.",
+    "value": "Tylko urządzenia companion z Twoich kontaktów i usłyszanych ogłoszeń. Przekaźników, serwerów pokojowych i czujników nie można dodać.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_role_for_name": {
     "value": "Rola dla %1$s",
@@ -11099,14 +11099,14 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_key_status_rejected_repeater": {
-    "value": "To jest Repeater %1$s. Można dodawać tylko towarzyszy.",
+    "value": "To jest przekaźnik %1$s. Można dodawać tylko urządzenia companion.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_status_rejected_generic": {
-    "value": "To nie jest towarzysz (%1$s). Można dodawać tylko towarzyszy.",
+    "value": "To nie jest urządzenie companion (%1$s). Można dodawać tylko urządzenia companion.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_input_hint": {
     "value": "Tylko znaki szesnastkowe 0-9, a-f. Spacje i dwukropki są usuwane podczas wklejania. Repeater potrzebuje pełnego klucza, aby go dodać.",
@@ -11214,9 +11214,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_no_reply_body": {
-    "value": "Repeater może być poza zasięgiem lub ścieżka jest nieaktualna.",
+    "value": "Przekaźnik może być poza zasięgiem lub ścieżka jest nieaktualna.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_last_loaded": {
     "value": "Ostatnio załadowano: %1$s · Wpisy: %2$d",
@@ -11229,9 +11229,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_repeater_replied_prefix": {
-    "value": "Repeater odpowiedział:",
+    "value": "Przekaźnik odpowiedział:",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_resend": {
     "value": "Wyślij ponownie",
@@ -11269,9 +11269,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_no_companions": {
-    "value": "Brak znanych towarzyszy.",
+    "value": "Brak znanych urządzeń companion.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_list_empty": {
     "value": "Na liście dostępu nie ma jeszcze żadnych wpisów.",
@@ -12209,9 +12209,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
-    "value": "Zmienia nazwę advertu node. Sąsiedzi przejmują ją przy następnym advercie.",
+    "value": "Zmienia nazwę węzła w ogłoszeniu. Sąsiedzi przejmują ją przy następnym ogłoszeniu.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_channels_channel_not_found": {
     "value": "Nie znaleziono kanału.",
@@ -12239,19 +12239,19 @@
     "_seeded": "2026-09-29"
   },
   "ios_msgdetail_different_paths_different_repeater_chains": {
-    "value": "Różne ścieżki = różne łańcuchy repeaterów przekazały Twoją wiadomość.",
+    "value": "Różne ścieżki = różne łańcuchy przekaźników przekazały Twoją wiadomość.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
-    "value": "Rysuje łańcuch repeaterów na mapie. Hopy bez usłyszanego advertu można rozwiązać przez katalog online z poziomu widoku mapy.",
+    "value": "Rysuje łańcuch przekaźników na mapie. Skoki bez usłyszanego ogłoszenia można rozwiązać przez katalog online z poziomu widoku mapy.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
-    "value": "Każdy skok to pierwsze %1$d bajty klucza publicznego przekaźnika. Krótkie klucze mogą odpowiadać wielu przekaźnikom. Dotknij ikony globusu, aby rozwiązać brakujące przekaźniki za pomocą katalogu online.",
+    "value": "Każdy skok to pierwsze bajty klucza publicznego przekaźnika (liczba bajtów: %1$d). Krótkie klucze mogą odpowiadać wielu przekaźnikom. Dotknij ikony globusu, aby rozwiązać brakujące przekaźniki za pomocą katalogu online.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_addchannel_enter_a_channel_name": {
     "value": "Wprowadź nazwę kanału.",
@@ -12264,9 +12264,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_msgdetail_hop": {
-    "value": "Hop %1$d",
+    "value": "Skok %1$d",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_regions_in_range_repeaters": {
     "value": "Repeatery w zasięgu (%1$d)",
@@ -12309,9 +12309,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_map_no_repeaters_with_gps_coordinates_have_been_hear": {
-    "value": "Nie usłyszano jeszcze żadnego repeatera ze współrzędnymi GPS.",
+    "value": "Nie usłyszano jeszcze żadnego przekaźnika ze współrzędnymi GPS.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_meshsession_no_reply_from_the_repeater_please_try_ag": {
     "value": "Brak odpowiedzi od repeatera. Spróbuj ponownie.",
@@ -12319,9 +12319,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_map_no_rooms_with_gps_coordinates_have_been_heard_ye": {
-    "value": "Nie usłyszano jeszcze żadnej room ze współrzędnymi GPS.",
+    "value": "Nie usłyszano jeszcze żadnego serwera pokojowego ze współrzędnymi GPS.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_map_no_sensors_with_gps_coordinates_have_been_heard": {
     "value": "Nie usłyszano jeszcze żadnego czujnika ze współrzędnymi GPS.",
@@ -12349,9 +12349,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
-    "value": "Wył.: nowe adverty są odrzucane, gdy tabela się zapełni. Wł.: najstarszy kontakt spoza ulubionych zostaje usunięty, aby zwolnić miejsce. Ulubione są zawsze zachowywane.",
+    "value": "Wył.: nowe ogłoszenia są odrzucane, gdy tabela się zapełni. Wł.: najstarszy kontakt spoza ulubionych zostaje usunięty, aby zwolnić miejsce. Ulubione są zawsze zachowywane.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_paywall_open_settings_pro_to_unlock": {
     "value": "Otwórz Ustawienia → Pro, aby odblokować.",
@@ -12359,9 +12359,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
-    "value": "Inne node potrzebują naszego advertu w swojej tabeli kontaktów, zanim będą mogły odszyfrować nasze DM-y. Wybranie którejkolwiek opcji wysyła go natychmiast.",
+    "value": "Inne węzły potrzebują naszego ogłoszenia w swojej tabeli kontaktów, zanim będą mogły odszyfrować nasze DM-y. Wybranie którejkolwiek opcji wysyła je natychmiast.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
     "value": "Parowanie i RSSI na żywo pojawią się w następnej kompilacji.",
@@ -12384,9 +12384,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_nodes_repeaters_resolved_via_the_online_directory_gl": {
-    "value": "Repeatery rozwiązane przez katalog online (ikona globusa w wierszu) mieszają się z listą, gdy ta opcja jest włączona. Wyłącz ją, aby widzieć tylko węzły, które faktycznie usłyszeliśmy przez radio.",
+    "value": "Przekaźniki rozwiązane przez katalog online (ikona globusa w wierszu) mieszają się z listą, gdy ta opcja jest włączona. Wyłącz ją, aby widzieć tylko węzły, które faktycznie usłyszeliśmy przez radio.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_msgdetail_repeats_heard": {
     "value": "Usłyszane powtórzenia",
@@ -13289,9 +13289,9 @@
     "_seeded": "2026-10-05"
   },
   "nodes_share_menu_advert": {
-    "value": "Udostępnij jako Advert zero-skok",
+    "value": "Udostępnij jako ogłoszenie zero-skok",
     "_ai": true,
-    "_seeded": "2026-10-05"
+    "_seeded": "2026-11-03"
   },
   "nodes_share_advert_toast_ok": {
     "value": "Kontakt udostępniony drogą radiową (zero-skok).",
@@ -13304,9 +13304,9 @@
     "_seeded": "2026-10-05"
   },
   "nodes_share_advert_toast_unable": {
-    "value": "Twoje urządzenie nie ma zapisanego Advertu tego kontaktu lub nie może go wysłać.",
+    "value": "Twoje urządzenie nie ma zapisanego ogłoszenia tego kontaktu lub nie może go wysłać.",
     "_ai": true,
-    "_seeded": "2026-10-05"
+    "_seeded": "2026-11-03"
   },
   "nodes_share_advert_toast_failed": {
     "value": "Nie udało się udostępnić tego kontaktu (kod %1$d).",
@@ -13669,9 +13669,9 @@
     "_seeded": "2026-10-06"
   },
   "nodes_detail_advert_path": {
-    "value": "Ścieżka advertu",
+    "value": "Ścieżka ogłoszenia",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_region_device_default_footer": {
     "value": "Domyślne ustawienie noda używa domyślnego regionu Twojego companion przy wysyłkach flood. Wiadomości wysyłane znaną bezpośrednią ścieżką nigdy nie niosą regionu. Przypisz region, aby użyć innego dla tego kontaktu.",
@@ -14164,9 +14164,9 @@
     "_seeded": "2026-10-29"
   },
   "nodes_autoadd_banner_device_ignores_filter": {
-    "value": "Twój węzeł sam dodaje każdy typ Advert, więc filtr typów tam nie obowiązuje.",
+    "value": "Twój węzeł sam dodaje każdy typ ogłoszenia, więc filtr typów tam nie obowiązuje.",
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-03"
   },
   "nodes_autoadd_banner_hops_direct": {
     "value": "Tylko węzły słyszane bezpośrednio.",

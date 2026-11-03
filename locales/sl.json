@@ -271,9 +271,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_candidates_explain": {
-    "value": "Več ponavljalnikov ustreza predponi najkrajše poti tega skoka. Pravega ne moremo izbrati samodejno. Izberi tistega, ki je bil na tvoji poti.",
+    "value": "Več ponavljalnikov ustreza kratki predponi tega skoka. Pravega ne moremo izbrati samodejno. Izberite tistega, ki je bil na vaši poti.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_heard_no_position": {
     "value": "Slišano, položaj neznan",
@@ -286,14 +286,14 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_no_match": {
-    "value": "ni ujemanja v ponavljalnikih »heard«",
+    "value": "ni ujemanja med slišanimi ponavljalniki",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_not_found": {
-    "value": "ni ujemanja: v imeniku ni vnosa za ta predpono",
+    "value": "ni ujemanja: v imeniku ni vnosa za to predpono",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_outside_radius": {
     "value": "ni ujemanja: najbližji zadetki na spletu so zunaj območja razumnosti",
@@ -311,9 +311,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_map_footer": {
-    "value": "Na zemljevidu prikaže verigo ponavljalnikov. Skoki brez slišane objave se prikažejo kot nerešeni.",
+    "value": "Na zemljevidu prikaže verigo ponavljalnikov. Skoki brez slišanega adverta se prikažejo kot nerešeni.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_message_details": {
     "value": "Podrobnosti sporočila",
@@ -321,9 +321,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_no_repeats_yet": {
-    "value": "Zaenkrat še nisem zaslišal nobenih ponovitev.",
+    "value": "Zaenkrat še ni slišanih ponovitev.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_outgoing": {
     "value": "Odhodni",
@@ -331,9 +331,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_path_backfill_footer": {
-    "value": "To sporočilo je bilo izpraznjeno iz čakalne vrste za povezave brez povezave na povezanem vozlišču. Naprava ne poroča o verigi skokov v zraku, zato poti ni mogoče rekonstruirati.",
+    "value": "To sporočilo je bilo prevzeto iz čakalne vrste brez povezave na seznanjenem vozlišču. Naprava ne poroča o verigi skokov po zraku, zato poti ni mogoče rekonstruirati.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_could_not_decode": {
     "value": "(dekodiranje ni uspelo)",
@@ -346,14 +346,14 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_path_footer_bytes": {
-    "value": "Vsak skok predstavlja prvih %1$d bajtov javnega ključa ponavljalnika. Kratki ključi se lahko ujemajo z več ponavljalniki. Tapnite na zemljevid, da v spletnem imeniku poiščete manjkajoče skoke.",
+    "value": "Vsak skok predstavlja prvih %1$d bajtov javnega ključa ponavljalnika. Kratki ključi se lahko ujemajo z več ponavljalniki. Tapnite globus, da v spletnem imeniku poiščete manjkajoče skoke.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_header_bytes": {
-    "value": "Pot · %1$d -ključev v bajtih",
+    "value": "Pot · %1$d-bajtni ključi",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_unknown_direct": {
     "value": "neznano (neposredno usmerjanje)",
@@ -366,9 +366,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_payload_advert": {
-    "value": "OGLAS",
+    "value": "ADVERT",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_payload_grp_data": {
     "value": "GRP_DATA",
@@ -866,9 +866,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_scope_plain_flood": {
-    "value": "navadna poplava (brez regije)",
+    "value": "navadni flood (brez regije)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_section_channels": {
     "value": "Kanali",
@@ -891,9 +891,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_tx_attempt_mode_flood": {
-    "value": "poplava",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_tx_attempt_mode_path": {
     "value": "pot",
@@ -1151,14 +1151,14 @@
     "_seeded": "2026-06-26"
   },
   "map_empty_hint_no_gps": {
-    "value": "Oglasa z GPS-koordinatami se prikažejo tukaj takoj, ko se predvajajo.",
+    "value": "Adverti z GPS-koordinatami se prikažejo tukaj, takoj ko so slišani.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_hint_no_type_gps": {
-    "value": "%1$sji te vrste še ne oglašujejo GPS-koordinat.",
+    "value": "%1$s te vrste še ne sporočajo GPS-koordinat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_no_nodes": {
     "value": "Ni najdenih vozlišč",
@@ -1206,9 +1206,9 @@
     "_seeded": "2026-06-26"
   },
   "map_filter_only_heard_in_last": {
-    "value": "Slišal sem šele v zadnjem",
+    "value": "Slišano samo v zadnjem",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_filter_placeholder": {
     "value": "Filtriraj po imenu ali javnem ključu",
@@ -1316,19 +1316,19 @@
     "_seeded": "2026-06-26"
   },
   "map_path_cd_fit": {
-    "value": "Fit",
+    "value": "Prilagodi",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_directory_suffix": {
-    "value": " (mapa)",
+    "value": " (imenik)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_hop_label": {
-    "value": "hop %1$d · %2$s %3$s",
+    "value": "hop %1$d · %2$s%3$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_message_path_title": {
     "value": "Pot sporočila",
@@ -1341,9 +1341,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_no_path_body": {
-    "value": "Za nobenega od ponoviteljev tega sporočila (niti za izvor) niso shranjene GPS-koordinate. Zaprite ta pogled, tapnite ikono zemeljske oble v delu s potjo sporočila, nato pa se vrnite.",
+    "value": "Za nobenega od ponavljalnikov tega sporočila (niti za izvor) niso shranjene GPS-koordinate. Zaprite ta pogled, tapnite ikono zemeljske oble v delu s potjo sporočila, nato pa se vrnite.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_no_path_title": {
     "value": "Ni mogoče najti poti",
@@ -1371,9 +1371,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_pick_reason_sole": {
-    "value": "podplat",
+    "value": "edini",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_pick_reason_suffix": {
     "value": " (%1$s)",
@@ -1406,9 +1406,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_unknown_repeater": {
-    "value": "neznani ponovnik",
+    "value": "neznani ponavljalnik",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_unnamed": {
     "value": "(brez imena)",
@@ -1486,19 +1486,19 @@
     "_seeded": "2026-06-26"
   },
   "mynode_broadcast_advert_footer": {
-    "value": "Druga vozlišča morajo imeti naš oglas v svoji tabeli stikov, preden lahko dešifrirajo naša zasebna sporočila. S pritiskom izberite obseg: »zero-hop« je tih (samo sosedje); »flood« je glasen (celotna mreža).",
+    "value": "Druga vozlišča morajo imeti naš advert v svoji tabeli stikov, preden lahko dešifrirajo naša zasebna sporočila. S pritiskom izberite obseg: »zero-hop« je tih (samo sosedje); »flood« je glasen (celotna mreža).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_broadcast_advert_row_title": {
-    "value": "Predvajajte moj oglas…",
+    "value": "Oddajte moj advert…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_body": {
-    "value": "Ura vozlišča je nastavljena na čas, ki je naprej od časa na vašem telefonu. Oglasa in administrativni ukazi vsebujejo časovni žig iz prihodnosti, zato jih zaščita pred ponovnim predvajanjem v omrežju tiho zavrne.",
+    "value": "Ura vozlišča je nastavljena na čas, ki je naprej od časa na vašem telefonu. Adverti in administrativni ukazi vsebujejo časovni žig iz prihodnosti, zato jih zaščita pred ponovnim predvajanjem v omrežju tiho zavrne.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_rtc_body": {
     "value": "Ta naprava ima RTC z rezervno baterijo. Programske rešitve ga ne morejo ponastaviti. Za ponovno vzpostavitev delovanja je treba posodobiti firmware ali odstraniti rezervno baterijo RTC.",
@@ -1506,9 +1506,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_clock_ahead_title": {
-    "value": "Ura na spremljevalnem zaslonu kaže več",
+    "value": "Ura spremljevalca prehiteva",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_in_sync": {
     "value": "ok",
@@ -1576,19 +1576,19 @@
     "_seeded": "2026-06-26"
   },
   "mynode_dialog_broadcast_advert_body": {
-    "value": "Druga vozlišča potrebujejo naš oglas, preden lahko dešifrirajo naša zasebna sporočila. Izberi doseg:",
+    "value": "Druga vozlišča potrebujejo naš advert, preden lahko dešifrirajo naša zasebna sporočila. Izberite doseg:",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_dialog_broadcast_advert_title": {
-    "value": "Televizijski oglas",
+    "value": "Oddajte advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_footer": {
-    "value": "Z izbiro »Prekini povezavo« se povezava prekine, vendar se povezava v predpomnilniku ohrani. S pritiskom na »Poveži« se lahko ponovno povežete brez ponovnega seznanjanja. Z izbiro »Pozabi« se prekine seznanjanje in izbriše predpomnilnik; vozlišče je treba ponovno seznaniti, da se ponovno vzpostavi povezava.",
+    "value": "Prekine povezavo. Ponovno se lahko povežete kadar koli s seznama spremljevalcev zgoraj.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_row_title": {
     "value": "Prekiniti povezavo",
@@ -1646,9 +1646,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_flood_body": {
-    "value": "Celotna mreža. Glasno: vsak ponovnik oddaja sporočilo. Uporabljajte zmerno; oglasi, ki preplavljajo omrežje, plačujejo oddajni čas za vsakega ponovnika.",
+    "value": "Celotna mreža. Glasno: vsak ponavljalnik ponovno odda sporočilo. Uporabljajte zmerno; flood adverti porabijo oddajni čas na vsakem ponavljalniku.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_flood_title": {
     "value": "Preplavite mrežo",
@@ -1661,9 +1661,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_forget_dialog_body": {
-    "value": "Prekine povezavo in izbriše identifikator iz predpomnilnika. Vozlišče se ob naslednjem zagonu aplikacije ne bo samodejno ponovno povezalo. Če ga želite ponovno uporabiti, ga boste morali ponovno povezati.",
+    "value": "Prekine seznanitev in izbriše identifikator iz predpomnilnika. Vozlišče se ob naslednjem zagonu aplikacije ne bo samodejno ponovno povezalo. Če ga želite znova uporabljati, ga boste morali znova seznaniti.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_forget_dialog_title": {
     "value": "Pozabili ste na vozlišče?",
@@ -1671,9 +1671,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_forget_footer": {
-    "value": "Funkcija »Forget« prekine povezavo in izbriše identifikator iz predpomnilnika. Za ponovno vzpostavitev povezave je treba vozlišče ponovno povezati.",
+    "value": "Funkcija »Forget« prekine seznanitev in izbriše identifikator iz predpomnilnika. Za ponovno vzpostavitev povezave je treba vozlišče znova seznaniti.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_forget_node_row_title": {
     "value": "Pozabi na vozlišče",
@@ -1921,9 +1921,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_reconnect_footer": {
-    "value": "Ponovno vzpostavi povezavo s prej sparjenim vozliščem. Ne zahteva vnosa PIN-kode: povezava je še vedno shranjena v predpomnilniku.",
+    "value": "Ponovno vzpostavi povezavo s prej seznanjenim vozliščem. Ne zahteva vnosa PIN-kode: povezava je še vedno shranjena v predpomnilniku.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_save": {
     "value": "Shrani",
@@ -2031,9 +2031,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_status_pairing_with": {
-    "value": "V kombinaciji z »%1$s«…",
+    "value": "Povezovanje z »%1$s«…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_status_scanning": {
     "value": "Skaniranje…",
@@ -2056,9 +2056,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_wifi_dialog_body": {
-    "value": "Privzeto vratno številko za SerialWifiInterface v companion_radio je 5000.",
+    "value": "Privzeta vratna številka za SerialWifiInterface v companion_radio je 5000.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_wifi_dialog_title": {
     "value": "WiFi povezava",
@@ -2086,9 +2086,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_zero_hop_body": {
-    "value": "Samo sosedje. Mirno: brez preobremenitve. Uporabite to, kadar morajo vaš oglas prejeti le bližnja vozlišča.",
+    "value": "Samo sosedje. Tiho: brez floodinga. Uporabite to, kadar mora vaš advert prejeti le bližnja vozlišča.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_zero_hop_title": {
     "value": "Zero-hop",
@@ -2166,9 +2166,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_contact_pubkey_footer": {
-    "value": "Javni ključ je 32-bajtna identiteta stika v šifrirnem sistemu Ed25519, zapisana v obliki 64 heksadecimalnih znakov. V naslednjih obvestilih bodo navedeni podatki o GPS-u, signalu in morebitnih posodobitvah imena.",
+    "value": "Javni ključ je 32-bajtna identiteta stika v šifrirnem sistemu Ed25519, zapisana v obliki 64 heksadecimalnih znakov. Naslednji adverti bodo dopolnili podatke o GPS-u, signalu in morebitne posodobitve imena.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_contact_pubkey_label": {
     "value": "Javni ključ (64 heksadecimalnih znakov)",
@@ -2221,9 +2221,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_install_body_other": {
-    "value": "Vozlišča s tovarniško programsko opremo potrebujejo kontakt v režo, preden ga lahko priključek prepozna (odkrivanje poti, prijava, telemetrija). Namestite ga zdaj ali pa to storite kasneje na strani s podrobnostmi o vozlišču.",
+    "value": "Vozlišča s tovarniško programsko opremo potrebujejo stik v reži, preden ga lahko konektor naslovi (odkrivanje poti, prijava, telemetrija). Namestite ga zdaj ali pa to storite pozneje na strani s podrobnostmi vozlišča.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_install_on_node": {
     "value": "Namestitev na vozlišče",
@@ -2346,14 +2346,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_advert": {
-    "value": "Oglas",
+    "value": "Advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_flood": {
-    "value": "Oglas o poplavah",
+    "value": "Flood advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_zero_hop": {
     "value": "Zero-hop",
@@ -2531,9 +2531,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_name_pending_advert": {
-    "value": "· oglas v pripravi",
+    "value": "· advert čaka",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_no_output": {
     "value": "(brez izpisa)",
@@ -2561,9 +2561,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_position_hint": {
-    "value": "Nastavi oglaševano položaj ponavljalnika. Vnesite decimalne stopinje; izbirnik zemljevida je načrtovana nadaljnja funkcionalnost.",
+    "value": "Nastavi položaj ponavljalnika, ki ga ta objavlja v advertu. Vnesite decimalne stopinje; izbirnik zemljevida je načrtovana nadaljnja funkcionalnost.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_position_lat": {
     "value": "Zemljepisna širina",
@@ -2771,9 +2771,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet1": {
-    "value": "• Obseg paketov za poplave bo omejen na navedeno regijo.",
+    "value": "• Flood paketi bodo omejeni na navedeno regijo.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_default_region_bullet2": {
     "value": "• Le ponavljalniki, ki dovoljujejo dostop do regije, bodo posredovali pakete z omejenim obsegom.",
@@ -2826,9 +2826,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_delete_dialog_body": {
-    "value": "Stik s krpami, oglas, geslo ponovnega dostopa, stanje prijave, podatki o poti, pomikanje nazaj v CLI, sosedje, stanje, telemetrija. Neposredna sporočila se ohranijo.",
+    "value": "Izbriše stik, advert, geslo ponavljalnika, stanje prijave, podatke o poti, zgodovino izpisa CLI, sosede, stanje, telemetrijo. Neposredna sporočila se ohranijo.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_delete_dialog_title": {
     "value": "Ali naj vozlišče v celoti odstranim?",
@@ -2836,9 +2836,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_acl_footer": {
-    "value": "Ob prijavi se ta konektor doda na seznam ACL ponavljalnika, tako da delujejo funkcije odkrivanja poti, sosedov in telemetrije. Polje za geslo pustite prazno, če se želite prijaviti kot gost ali ponovno dodati obstoječi vnos na seznamu ACL, ali pa vnesite geslo »admin« ali »guest«, če želite večji dostop.",
+    "value": "Ob prijavi se ta konektor doda na seznam ACL ponavljalnika, tako da delujejo funkcije odkrivanja poti, sosedov in telemetrije. Polje za geslo pustite prazno, če se želite prijaviti kot gost ali ponovno dodati obstoječi vnos na seznamu ACL, ali pa vnesite geslo skrbnika ali gosta, če želite večji dostop.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_add_to_favorites": {
     "value": "Dodaj med priljubljene",
@@ -2846,9 +2846,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_advertised_prefix": {
-    "value": "oglas: %1$s",
+    "value": "v advertu: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_age_days_ago": {
     "value": "%1$d pred nekaj dnevi",
@@ -2931,9 +2931,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_flood": {
-    "value": "poplava",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_from_directory": {
     "value": "iz spletnega imenika",
@@ -3171,9 +3171,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_rename_advertised": {
-    "value": "Oglas: %1$s",
+    "value": "V advertu: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_rename_empty_hint": {
     "value": "Pustite prazno, če želite uporabiti navedeno ime.",
@@ -3276,9 +3276,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_unknown_body": {
-    "value": "Za ta javni ključ še ni objavljenega oglasa ali kontaktnih podatkov.",
+    "value": "Za ta javni ključ še ni adverta ali vrstice stika.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_unknown_section": {
     "value": "Neznano vozlišče",
@@ -3381,24 +3381,24 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_msg_repeaters": {
-    "value": "Tu se prikažejo bližnji ponavljalniki, ko njihova obvestila prispejo do vašega povezanega vozlišča.",
+    "value": "Tu se prikažejo bližnji ponavljalniki, ko njihovi adverti prispejo do vašega povezanega vozlišča.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_rooms": {
-    "value": "Tu se prikazujejo oglasi za sobne strežnike.",
+    "value": "Tu se prikazujejo adverti sobnih strežnikov.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_sensors": {
-    "value": "Tukaj se prikazujejo oglasi za senzorje.",
+    "value": "Tukaj se prikazujejo adverti senzorjev.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_users": {
-    "value": "Oglasov drugih uporabnikov se tukaj prikažejo, ko njihovi paketi prispejo na tvoj povezan vozlišče.",
+    "value": "Adverti drugih uporabnikov se tukaj prikažejo, ko njihovi paketi prispejo do vašega povezanega vozlišča.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_matches": {
     "value": "Ni zadetkov",
@@ -3406,14 +3406,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_no_repeaters": {
-    "value": "Zaenkrat še ni bilo slišati nobenih ponovitev",
+    "value": "Zaenkrat še ni slišanih ponavljalnikov",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_rooms": {
-    "value": "Še ni bilo nobenih odzivov",
+    "value": "Zaenkrat še ni slišanih sob",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_sensors": {
     "value": "Senzorjev še ni bilo slišati",
@@ -3421,9 +3421,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_no_users": {
-    "value": "Zaenkrat še ni nobenih odzivov uporabnikov",
+    "value": "Zaenkrat še ni slišanih uporabnikov",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_nothing": {
     "value": "Tukaj ni ničesar",
@@ -3471,9 +3471,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_filter_only_heard_in_last": {
-    "value": "Slišal sem šele v zadnjem",
+    "value": "Slišano samo v zadnjem",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_filter_placeholder": {
     "value": "Filtriraj po imenu ali javnem ključu",
@@ -3526,9 +3526,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_last_heard_unknown": {
-    "value": "nikoli nisem slišal",
+    "value": "še nikoli slišano",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_add_region": {
     "value": "Dodaj regijo",
@@ -3536,9 +3536,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manage_regions_affected": {
-    "value": "Uporabljajo ga kanali %1$d, %2$s in %3$d; za stik pišite na %4$s. V tem primeru se bodo vrnili v stanje brez regije (navadni Flood).",
+    "value": "Uporaba: kanali: %1$d%2$s, stiki: %3$d%4$s. Vrnili se bodo na stanje brez regije (navadni Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_allow_flood": {
     "value": "Dovoli Flood",
@@ -3736,9 +3736,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_footer": {
-    "value": "Bajti se shranijo v 3-bajtni širini in se ob pošiljanju prilagodijo velikosti aktivnega hash-ja poti TX. Sprejemajo se ločila, kot so vejica, presledek in nov vrstni red.",
+    "value": "Bajti se shranijo v 3-bajtni širini in se ob pošiljanju prilagodijo velikosti aktivnega hash-ja poti TX. Sprejemajo se vsa ločila: vejica, presledek in nova vrstica.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_hide_repeater_list": {
     "value": "Skrij seznam ponavljalnikov",
@@ -3751,9 +3751,9 @@
     "_seeded": "2026-07-05"
   },
   "nodes_manual_learned_prefix": {
-    "value": "Vir: %1$s",
+    "value": "Naučeno: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_no_learned_path": {
     "value": "(pot še ni bila določena: neposredna pošiljanja bi potekala brez vmesnih skokov)",
@@ -3786,14 +3786,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_picker_placeholder": {
-    "value": "Iskanje po imenu ali heksadecimalnem predponu",
+    "value": "Iskanje po imenu ali heksadecimalni predponi",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_picker_type_to_search": {
-    "value": "Vnesite besedo za iskanje po imenu ali po šestnajstiškem predponu.",
+    "value": "Vnesite besedilo za iskanje po imenu ali heksadecimalni predponi.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_use_manual_path": {
     "value": "Uporabi ročno pot",
@@ -4076,9 +4076,9 @@
     "_seeded": "2026-06-26"
   },
   "notif_advert_type_repeater": {
-    "value": "Ponovnik",
+    "value": "Ponavljalnik",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "notif_advert_type_room": {
     "value": "Soba",
@@ -4166,9 +4166,9 @@
     "_seeded": "2026-06-26"
   },
   "notif_status_pairing": {
-    "value": "V kombinaciji z »%1$s«…",
+    "value": "Povezovanje z »%1$s«…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "notif_status_scanning": {
     "value": "Iskanje vozlišč…",
@@ -4256,9 +4256,9 @@
     "_seeded": "2026-07-05"
   },
   "repeater_cli_advert": {
-    "value": "Oglas",
+    "value": "Advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_clear_stats": {
     "value": "Izbriši statistiko",
@@ -4601,9 +4601,9 @@
     "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
-    "value": "Oglasov, ki so prišli prek več ponavljalnikov, kot je to število, aplikacija ne doda samodejno. 0 = samo neposredno; 64 = neomejeno (omejitev v firmwareu).",
+    "value": "Advertov, ki so prišli prek več ponavljalnikov, kot je to število, aplikacija ne doda samodejno. 0 = samo neposredno; 64 = neomejeno (omejitev v firmwareu).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_app_distance_header": {
     "value": "Omejitev razdalje (aplikacija)",
@@ -4611,14 +4611,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_app_types_footer": {
-    "value": "Ko aplikacija zazna oglas vrste, ki je omogočena, doda vozlišče v vaše lokalne stike, tako da se prikaže v razdelku »Klepeti / Vozlišča«. Pri filtriranih vrstah se izbriše ECDH-predpomnilnik, zato zasebnih sporočil od teh stikov ni mogoče dešifrirati, razen če stik dodate ročno. Spremembe se sinhronizirajo s povezano napravo, če je ta prisotna.",
+    "value": "Ko aplikacija zazna advert omogočene vrste, doda vozlišče v vaše lokalne stike, tako da se prikaže v razdelku »Klepeti / Vozlišča«. Pri filtriranih vrstah se izbriše ECDH-predpomnilnik, zato zasebnih sporočil od teh stikov ni mogoče dešifrirati, razen če stik dodate ročno. Spremembe se sinhronizirajo s povezano napravo, če je ta prisotna.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_app_types_header": {
-    "value": "Vrste oglasov za samodejno dodajanje (aplikacija)",
+    "value": "Vrste advertov za samodejno dodajanje (aplikacija)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_cd_back": {
     "value": "Nazaj",
@@ -4646,9 +4646,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_companion_distance_footer": {
-    "value": "Oglasi, ki so prispeli prek več ponavljalnikov, kot je to število, naprava ne doda samodejno. 0 = samo neposredni; 64 = neomejeno (omejitev v firmwareu).",
+    "value": "Advertov, ki so prispeli prek več ponavljalnikov, kot je to število, naprava ne doda samodejno. 0 = samo neposredno; 64 = neomejeno (omejitev v firmwareu).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_distance_header": {
     "value": "Omejitev razdalje (spremljevalec)",
@@ -4656,14 +4656,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_companion_types_footer": {
-    "value": "Ko povezana naprava zazna oglas ustreznega tipa, shrani vozlišče v svojo tabelo stikov. Ta se ohrani tudi po ponovnem zagonu in se prenese v aplikacijo ob naslednjem prenosu podatkov.",
+    "value": "Ko povezana naprava zazna advert omogočenega tipa, shrani vozlišče v svojo tabelo stikov. Ta se ohrani tudi po ponovnem zagonu in se prenese v aplikacijo ob naslednjem prenosu podatkov.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_header": {
-    "value": "Vrste oglasov za samodejno dodajanje (spremljevalni oglasi)",
+    "value": "Vrste advertov za samodejno dodajanje (spremljevalec)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_connect_hint": {
     "value": "Povežite vozlišče, da boste na svojo napravo prenesli spremembe pravilnikov.",
@@ -4671,9 +4671,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_full_footer": {
-    "value": "Izklopljeno: nove oglase se odstranijo. Vklopljeno: najstarejši oglas, ki ni med priljubljenimi, se odstrani. Priljubljeni oglasi ostanejo.",
+    "value": "Izklopljeno: novi adverti se zavržejo. Vklopljeno: najstarejši vnos, ki ni med priljubljenimi, se odstrani. Priljubljeni ostanejo.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_full_header": {
     "value": "Ko je tabela stikov polna",
@@ -4726,9 +4726,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_title": {
-    "value": "Samodejno dodajanje oglasov",
+    "value": "Samodejno dodajanje advertov",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoresolve_bg_lookups_footer": {
     "value": "Ko je funkcija KiekR vklopljena, lahko aplikacija samodejno sproži poizvedbe v imeniku za manjkajoče podatke, ki jih pasivno zazna: neznane skoke v poti, zaznane ponavljalnike, ki še niso v imeniku, manjkajoče vrstice sosedov in manjkajoče regije med odkrivanjem. Ko je funkcija izklopljena (privzeto), je za vsako poizvedbo v imeniku potrebno dotikanje zaslona.",
@@ -5496,9 +5496,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_channels_add_hint_name_empty": {
-    "value": "Za kanal z oznako # predpostavite # ali za prednastavitev uporabite »Public«.",
+    "value": "Za kanal z oznako # dodajte pred ime znak #, ali uporabite »Public« za prednastavitev.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_channels_add_key_label": {
     "value": "Ključ (32 šestnajstiških znakov)",
@@ -5736,9 +5736,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_community_map_footer": {
-    "value": "Zrcalniki so predvajali oglase o javnem zemljevidu skupnosti MeshCore. Samo prek Wi-Fi. Največ en prenos na ponovnik na dan.",
+    "value": "Slišane adverte ponavljalnikov zrcali na javni zemljevid skupnosti MeshCore. Samo prek Wi-Fi. Največ eno nalaganje na ponavljalnik na dan.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_community_map_header": {
     "value": "Zemljevid skupnosti",
@@ -5761,9 +5761,9 @@
     "_seeded": "2026-06-27"
   },
   "settings_community_coverage_cells": {
-    "value": "Celice so slišale",
+    "value": "Slišane celice",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_coverage_footer": {
     "value": "Ko je aplikacija KiekR vklopljena, beleži, katere regije (in, kjer je to mogoče, katere ponavljalnike) zazna v grobi kartografski celici velikosti približno pol kilometra, ter redno prek Wi-Fi-ja pošilja skupne podatke za vsako celico. Vaša natančna lokacija nikoli ne zapusti telefona (le celico), zemljevid pa vedno prikazuje le, kaj je bilo tam sprejeto, nikoli pa ne razkriva, kdo je to sprejel. Funkcija deluje pod psevdonimom in je ločena od vaše identitete v aplikaciji KiekR; lahko jo kadarkoli izklopite.",
@@ -5981,9 +5981,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_region_map_footer": {
-    "value": "Ko je naprava KiekR vklopljena, na spletno stran map.kiekr.app naloži vsako oglasno sporočilo repetitorja, ki ga sprejme prek radijskega vala, ter vse regije ali sezname sosedov, ki jih pridobiš iz repetitorja. Naložena podatka so psevdonimna in niso povezana s tvojim uporabniškim imenom v aplikaciji KiekR. To pomaga pri izdelavi javnega zemljevida, ki prikazuje, kje se regije uporabljajo. Sporočila, stiki in vaša lokacija se nikoli ne delijo.",
+    "value": "Ko je vklopljeno, KiekR na map.kiekr.app naloži vsak advert ponavljalnika, ki ga sprejme prek radijskih valov, ter vse regije ali sezname sosedov, ki jih pridobite iz ponavljalnika. Nalaganja so psevdonimna in niso povezana z vašo identiteto v aplikaciji KiekR. To pomaga pri izdelavi javnega zemljevida, ki prikazuje, kje se regije uporabljajo. Sporočila, stiki in vaša lokacija se nikoli ne delijo.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_region_map_header": {
     "value": "Zemljevid regije",
@@ -6381,9 +6381,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_help_about_firmware_label": {
-    "value": "Parna programska oprema",
+    "value": "Firmware povezanega vozlišča",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_help_about_header": {
     "value": "O nas",
@@ -6446,9 +6446,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_help_logs_email_firmware": {
-    "value": "Usklajena programska oprema: %1$s",
+    "value": "Firmware povezanega vozlišča: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_help_logs_email_identity": {
     "value": "Identifikator (prvih 16 heksadecimalnih znakov): %1$s",
@@ -6631,9 +6631,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_advert_repeater": {
-    "value": "Ponovnik",
+    "value": "Ponavljalnik",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_advert_room": {
     "value": "Sobni strežnik",
@@ -6646,14 +6646,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Obvesti me, ko se v eter vključi vozlišče izbrane vrste. Oglasa so privzeto glasna; vklopi funkcijo »Repeater«, če želiš biti obveščen o novih repetitorjih takoj, ko se pojavijo.",
+    "value": "Obvesti me, ko se v eter vključi vozlišče izbrane vrste. Adverti so privzeto glasni; vklopite »Ponavljalnik«, če želite biti obveščeni o novih ponavljalnikih takoj, ko se pojavijo.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_adverts_header": {
-    "value": "Oglas",
+    "value": "Adverti",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_cd_back": {
     "value": "Nazaj",
@@ -6696,9 +6696,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_master_footer": {
-    "value": "Glavno stikalo. Ko je izklopljeno, KiekR ne objavlja obvestil o sporočilih, kanalih ali oglasih. Nastavitve za posamezne vrste, navedene spodaj, ostanejo nespremenjene.",
+    "value": "Glavno stikalo. Ko je izklopljeno, KiekR ne objavlja obvestil o sporočilih, kanalih ali advertih. Nastavitve za posamezne vrste, navedene spodaj, ostanejo nespremenjene.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_master_header": {
     "value": "Obvestila",
@@ -6746,14 +6746,14 @@
     "_seeded": "2026-07-05"
   },
   "settings_pathlookup_cache_footer": {
-    "value": "Trajna pomoč pri učenju za kolizije predpon: ko deterministični izbirnik izbere zmagovalca, se (predpona, hop, javni ključ) prestavi, tako da se naslednja izenačenost pri isti predponi razreši na enak način.\n\nTTL predpomnilnika: kako dolgo vnos ostane v predpomnilniku, preden se ponovno uporabi. Privzeto 30 dni, omejitev 1..=180.\n\nRazlika za razrešitev izenačenja: kako blizu si morata biti metrični vrednosti dveh kandidatov (v %%), preden predpomnilnik razreši izenačenje. 0 onemogoči uporabo predpomnilnika (upoštevajo se le natančna izenačenja); 20 je zgornja meja. Privzeto 5 %%.",
+    "value": "Trajna pomoč pri učenju za kolizije predpon: ko deterministični izbirnik izbere zmagovalca, se (predpona, hop, javni ključ) prestavi, tako da se naslednja izenačenost pri isti predponi razreši na enak način.\n\nTTL predpomnilnika: kako dolgo vnos preživi, ne da bi bil ponovno uporabljen. Privzeto 30 dni, omejitev 1..=180.\n\nRazlika za razrešitev izenačenja: kako blizu si morata biti metrični vrednosti dveh kandidatov (v %%), preden predpomnilnik razreši izenačenje. 0 onemogoči uporabo predpomnilnika (upoštevajo se le natančna izenačenja); 20 je zgornja meja. Privzeto 5 %%.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_cache_header": {
-    "value": "Predpomnilnik z ločljivostjo poti",
+    "value": "Predpomnilnik za razreševanje poti",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_cache_ttl_label": {
     "value": "Čas trajanja predpomnilnika (TTL)",
@@ -6791,9 +6791,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_pathlookup_chip_3byte": {
-    "value": "3 bajtov",
+    "value": "3 bajti",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_directory_moved_footer": {
     "value": "Iščete izbirnik vira imenika? Premaknil se je v Nastavitve → Deljenje → Imenik.",
@@ -6816,9 +6816,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_pathlookup_tiebreaker_label": {
-    "value": "Razlika v izločilnih tekmah",
+    "value": "Razlika za razrešitev izenačenja",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_tiebreaker_value": {
     "value": "%1$d %%",
@@ -7061,9 +7061,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_none_plain_flood": {
-    "value": "Nič (samo Flood)",
+    "value": "Brez (navadni Flood)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove": {
     "value": "Odstrani",
@@ -7081,14 +7081,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_remove_in_use_channels": {
-    "value": "»%1$s« je še vedno dodeljen kanalu (kanalom) »%2$d«. Če ga odstranite, se ti kanali ponastavijo na stanje brez regije (navadni Flood).",
+    "value": "»%1$s« je še vedno dodeljen kanalom (%2$d). Če ga odstranite, se ti kanali ponastavijo na stanje brez regije (navadni Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_contacts": {
-    "value": "»%1$s« je še vedno dodeljen stiku/stikom v skupini »%2$d«. Če ga odstranite, se ti stiki ponastavijo na stanje brez regije (navadni Flood).",
+    "value": "»%1$s« je še vedno dodeljen stikom (%2$d). Če ga odstranite, se ti stiki ponastavijo na stanje brez regije (navadni Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_title": {
     "value": "Regija se še vedno uporablja",
@@ -7106,9 +7106,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_scope_footer_none": {
-    "value": "Brez privzete regije se sporočila brez lastne regije pošiljajo kot navadni Flood. Vsak ponovnik v mreži jih bo ponovno oddajal.",
+    "value": "Brez privzete regije se sporočila brez lastne regije pošiljajo kot navadni Flood. Vsak ponavljalnik v mreži jih bo ponovno oddajal.",
     "_ai": true,
-    "_seeded": "2026-10-28"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_scope_footer_set": {
     "value": "Sporočila brez lastne regije se tiho kodirajo za prenos v regijo %1$s. Ponovno jih bodo oddajali le ponavljalniki, nastavljeni za to regijo.",
@@ -7116,9 +7116,9 @@
     "_seeded": "2026-10-28"
   },
   "settings_regions_scope_footer_unknown": {
-    "value": "Izberite regijo, ki jo želite nastaviti kot privzeto območje za povezano vozlišče, ali pa možnost »None« za navadno razširjanje (Flood). Nastavitev se shrani na vozlišče in ostane ohranjena tudi po ponovnem zagonu.",
+    "value": "Izberite regijo, ki jo želite nastaviti kot privzeto območje za povezano vozlišče, ali pa možnost »Brez« za navadni Flood. Nastavitev se shrani na vozlišče in ostane ohranjena tudi po ponovnem zagonu.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_scope_none_label": {
     "value": "Nič",
@@ -7216,9 +7216,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_retries_manual_cap_footer": {
-    "value": "Največje dovoljeno število ponovnih poskusov, ki jih sproži uporabnik za vsako odhodno sporočilo (oranžni simbol ↻ na balončkih brez potrditve). Ko dosežete to omejitev, simbol postane siv in ne sprejema več dotikov. Privzeta vrednost je 5 (ustreza lestvici samodejnih ponovnih poskusov: 3× neposredno + 2× poplavljanje).",
+    "value": "Največje dovoljeno število ponovnih poskusov, ki jih sproži uporabnik za vsako odhodno sporočilo (oranžni simbol ↻ na balončkih brez potrditve). Ko dosežete to omejitev, simbol postane siv in ne sprejema več dotikov. Privzeta vrednost je 5 (ustreza lestvici samodejnih ponovnih poskusov: 3× neposredno + 2× flood).",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "settings_retries_manual_cap_header": {
     "value": "Omejitev števila ročnih ponovnih poskusov",
@@ -7256,9 +7256,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_stats_adverts_heard": {
-    "value": "Slišani oglasi",
+    "value": "Slišani adverti",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_stats_by_type_header": {
     "value": "Po vrsti",
@@ -7521,9 +7521,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_connection_banner_pairing": {
-    "value": "V kombinaciji z »%1$s«…",
+    "value": "Povezovanje z »%1$s«…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_connection_banner_scanning": {
     "value": "Iskanje vozlišč…",
@@ -7536,9 +7536,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_directory_notice_body": {
-    "value": "KiekR lahko prek spletnih imenikov poišče neznani ponovnik na podlagi njegovega hash-a (to je koristno, kadar se skok v poti prikaže kot goli heksadecimalni predpona). Funkcija ostane izklopljena, dokler je ne vklopite v meniju Nastavitve → Deljenje → Imenik.",
+    "value": "KiekR lahko prek spletnih imenikov poišče neznani ponavljalnik na podlagi njegovega hash-a (to je koristno, kadar se skok v poti prikaže kot gola heksadecimalna predpona). Funkcija ostane izklopljena, dokler je ne vklopite v meniju Nastavitve → Deljenje → Imenik.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_directory_notice_title": {
     "value": "Iskanje v imeniku",
@@ -7576,9 +7576,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_map_consent_body": {
-    "value": "KiekR lahko na spletno stran map.kiekr.app naloži vsak oglas o repetitorju, ki ga sprejme prek radijskega signala, pa tudi vse regije ali sezname sosedov, ki jih pridobiš iz repetitorja. Naložene podatke se obdelujejo pod psevdonimom in niso povezane s tvojo identiteto v aplikaciji KiekR. Sporočila, stiki in tvoja lokacija se nikoli ne delijo.\n\nTo lahko kadarkoli spremenite v Nastavitve → Prenos v skupnost.",
+    "value": "KiekR lahko na map.kiekr.app naloži vsak advert ponavljalnika, ki ga sprejme prek radijskih valov, ter vse regije ali sezname sosedov, ki jih pridobite iz ponavljalnika. Nalaganja so psevdonimna in niso povezana z vašo identiteto v aplikaciji KiekR. Sporočila, stiki in vaša lokacija se nikoli ne delijo.\n\nTo lahko kadar koli spremenite v Nastavitve → Prenos v skupnost.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_map_consent_title": {
     "value": "Bi radi pomagali pri izdelavi javnega zemljevida?",
@@ -7846,9 +7846,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_promo_body": {
-    "value": "Drugi vozlišči potrebujejo vaš oglas, preden vam lahko pošljejo sporočilo.",
+    "value": "Druga vozlišča potrebujejo vaš advert, preden vam lahko pošljejo sporočilo.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_location_row_title": {
     "value": "Lokacija (GPS)",
@@ -7896,19 +7896,19 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_share_title": {
-    "value": "Položaj delnic v oglasu",
+    "value": "Delite položaj v advertu",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_share_hint": {
-    "value": "Prenaša položaj tega vozlišča na celotno mrežo v svojem oglasu  iz GPS, če je omogočen, ali fiksni položaj, ki ga nastavite spodaj.",
+    "value": "Položaj tega vozlišča oddaja v celotno mrežo v njegovem advertu: iz GPS, če je omogočen, ali fiksni položaj, ki ga nastavite spodaj.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_shared_position": {
-    "value": "Skupno stališče",
+    "value": "Deljeni položaj",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_position_not_set": {
     "value": "Ni nastavljeno",
@@ -7916,34 +7916,34 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_set_position": {
-    "value": "Nastavitve položaja",
+    "value": "Nastavi položaj",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_use_phone_location": {
-    "value": "Uporabite lokacijo mojega telefona.",
+    "value": "Uporabi lokacijo mojega telefona",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_position_sheet_title": {
-    "value": "Položaj oglasa",
+    "value": "Položaj adverta",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_lat": {
-    "value": "Latitudna razsežnost",
+    "value": "Zemljepisna širina",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_lon": {
-    "value": "Dolžina",
+    "value": "Zemljepisna dolžina",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_broadcast_warning": {
-    "value": "Ta oglas deli položaj tega vozlišča z celotno mrežo.",
+    "value": "Ta advert deli položaj tega vozlišča s celotno mrežo.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_map_hint": {
     "value": "Pritisnite na zemljevid, da nastavite položaj vozlišča",
@@ -8316,9 +8316,9 @@
     "_seeded": "2026-08-05"
   },
   "repeater_stat_flood": {
-    "value": "Paketi poplavljanja",
+    "value": "Flood paketi",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "repeater_stat_direct": {
     "value": "Neposredni paketi",
@@ -8431,9 +8431,9 @@
     "_seeded": "2026-08-05"
   },
   "settings_home_sub_autoadd": {
-    "value": "Kateri oglasi postanejo stiki",
+    "value": "Kateri adverti postanejo stiki",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "settings_home_sub_regions": {
     "value": "Geografski obsegi oddajanja",
@@ -8838,9 +8838,9 @@
     "_seeded": "2026-08-11"
   },
   "map_path_no_gps_hint": {
-    "value": "Ni GPS-signala: spletni vnosi morda ne bodo prikazani na zemljevidu. Omogočite dostop do lokacije za popolno določanje poti.",
+    "value": "Ni GPS-signala: skoki iz spletnega imenika morda ne bodo prikazani na zemljevidu. Omogočite dostop do lokacije za popolno določanje poti.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_dialog_body": {
     "value": "Vnesite 32-bajtno seme (64 heksadecimalnih znakov) ali 64-bajtni razširjeni zasebni ključ (128 heksadecimalnih znakov) iz varnostne kopije. Izpeljani javni ključ se pred shranjevanjem prikaže spodaj.",
@@ -8853,9 +8853,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_import_identity_footer": {
-    "value": "Prilepite 64- ali 128-znakovni heksadecimalni zasebni ključ za obnovitev varnostne kopije identitete, shranjeno lokalno in posredovano povezanemu spremljevalcu. Izvoz razkrije ključ tega vozlišča, da ga lahko varnostno kopirate.",
+    "value": "Prilepite 64- ali 128-znakovni heksadecimalni zasebni ključ za obnovitev varnostno kopirane identitete. Shrani se lokalno in posreduje povezanemu spremljevalcu. Izvoz razkrije ključ tega vozlišča, da ga lahko varnostno kopirate.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_row_subtitle": {
     "value": "Prilepite heksadecimalni ključ iz varnostne kopije",
@@ -9003,9 +9003,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_autoadd_auto_add_adverts": {
-    "value": "Samodejno dodajanje napovedi",
+    "value": "Samodejno dodajanje advertov",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_autoadd_overwrite_oldest_when_full": {
     "value": "Prepisovanje najstarejših ob zapolnjenosti",
@@ -9458,9 +9458,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_messagedetailshe_several_repeaters_match_this_hop_s_short": {
-    "value": "Več ponavljalnikov ustreza predponi kratke poti tega skoka. Pravega ne moremo izbrati samodejno. Izberite tistega, ki je bil na vaši poti.",
+    "value": "Več ponavljalnikov ustreza kratki predponi tega skoka. Pravega ne moremo izbrati samodejno. Izberite tistega, ki je bil na vaši poti.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_coveragemap_no_hexes_mapped_yet_drive_around_with_th": {
     "value": "Še ni preslikanih šesterokotnikov. Peljite se z vklopljenim radiem in prikazali se bodo tukaj.",
@@ -9693,9 +9693,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_mynode_broadcast_my_advert": {
-    "value": "Oddaj mojo napoved …",
+    "value": "Oddajte moj advert…",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_connect_via_wifi": {
     "value": "Poveži prek WiFi",
@@ -9793,9 +9793,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_mynode_broadcast_advert": {
-    "value": "Oddaj napoved",
+    "value": "Oddajte advert",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_addregionsheet_region_name": {
     "value": "Ime regije",
@@ -9923,14 +9923,14 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_flood_advert": {
-    "value": "Flood napoved",
+    "value": "Flood advert",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_zero_hop_advert": {
-    "value": "Zero-hop napoved",
+    "value": "Zero-hop advert",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_manual_hops": {
     "value": "Ročni skoki",
@@ -9968,9 +9968,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_sends_a_rename_to_the_repeater_the_new_n": {
-    "value": "Ponavljalniku pošljete preimenovanje. Novo ime se prikaže, ko prispe nova napoved.",
+    "value": "Ponavljalniku pošlje preimenovanje. Novo ime se prikaže, ko prispe nov advert.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_favourites_pin_this_repeater_for_quicker": {
     "value": "S priljubljenimi ta ponavljalnik pripnete za hitrejši dostop. To lahko kadar koli spremenite s gumbom z zvezdico spodaj.",
@@ -10053,9 +10053,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_notifications_master_switch_when_off_kiekr_posts_no_no": {
-    "value": "Glavno stikalo. Ko je izklopljeno, KiekR ne pošilja obvestil za sporočila, kanale ali napovedi. Nastavitve po vrsti spodaj se ohranijo.",
+    "value": "Glavno stikalo. Ko je izklopljeno, KiekR ne pošilja obvestil za sporočila, kanale ali adverte. Nastavitve po vrsti spodaj se ohranijo.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_direct_messages": {
     "value": "Neposredna sporočila",
@@ -10068,14 +10068,14 @@
     "_seeded": "2026-09-20"
   },
   "ios_notifications_adverts": {
-    "value": "Napovedi",
+    "value": "Adverti",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_notify_when_a_node_of_the_selected_type_": {
-    "value": "Obvesti, ko se v eter oglasi vozlišče izbrane vrste. Napovedi so privzeto pogoste; omogočite Ponavljalnik, če želite izvedeti za nove ponavljalnike takoj, ko se prikažejo.",
+    "value": "Obvesti, ko se v eter oglasi vozlišče izbrane vrste. Adverti so privzeto pogosti; omogočite Ponavljalnik, če želite izvedeti za nove ponavljalnike takoj, ko se prikažejo.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_notify_when_traffic_arrives_on_a_never_a": {
     "value": "Obvesti, ko prispe promet na kanalu, ki še ni bil dodan",
@@ -10478,9 +10478,9 @@
     "_seeded": "2026-09-20"
   },
   "reach_state_none": {
-    "value": "Noben opazovalec ga še ni slišal. To še nikoli ne pomeni, da je pošiljanje spodletelo.",
+    "value": "Noben opazovalec ga še ni slišal. To nikoli ne pomeni, da je pošiljanje spodletelo.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "reach_state_local": {
     "value": "Doslej slišano v eni regiji opazovalcev, verjetno le v bližini.",
@@ -10523,9 +10523,9 @@
     "_seeded": "2026-09-20"
   },
   "settings_autoadd_master_off_hint": {
-    "value": "To vozlišče trenutno samodejno dodaja vsako vrsto napovedi („Auto add all“). Filtri spodaj nimajo učinka. Morda je to preklopila druga aplikacija.",
+    "value": "To vozlišče trenutno samodejno dodaja vsako vrsto adverta („Auto add all“). Filtri spodaj nimajo učinka. Morda je to preklopila druga aplikacija.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_master_off_apply": {
     "value": "Uveljavi filtre vrst",
@@ -11048,9 +11048,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_companion_hint": {
-    "value": "Samo spremljevalci iz vaših stikov in slišanih napovedi. Repeaterjev, sobnih strežnikov in senzorjev ni mogoče dodati.",
+    "value": "Samo spremljevalci iz vaših stikov in slišanih advertov. Ponavljalnikov, sobnih strežnikov in senzorjev ni mogoče dodati.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_role_for_name": {
     "value": "Vloga za %1$s",
@@ -11103,14 +11103,14 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_key_status_advert": {
-    "value": "Znan iz slišane napovedi: %1$s",
+    "value": "Znan iz slišanega adverta: %1$s",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_status_rejected_repeater": {
-    "value": "To je Repeater %1$s. Dodati je mogoče samo spremljevalce.",
+    "value": "To je ponavljalnik %1$s. Dodati je mogoče samo spremljevalce.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_status_rejected_generic": {
     "value": "To ni spremljevalec (%1$s). Dodati je mogoče samo spremljevalce.",
@@ -11223,9 +11223,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_no_reply_body": {
-    "value": "Repeater je morda zunaj dosega ali pa je pot zastarela.",
+    "value": "Ponavljalnik je morda zunaj dosega ali pa je pot zastarela.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_last_loaded": {
     "value": "Nazadnje naloženo: %1$s · Vnosi: %2$d",
@@ -11238,9 +11238,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_repeater_replied_prefix": {
-    "value": "Repeater je odgovoril:",
+    "value": "Ponavljalnik je odgovoril:",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_resend": {
     "value": "Znova pošlji",
@@ -11273,9 +11273,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_source_advert_ago": {
-    "value": "Napoved · %1$s",
+    "value": "Advert · %1$s",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_add_no_companions": {
     "value": "Ni znanih spremljevalcev.",
@@ -12123,9 +12123,9 @@
     "_seeded": "2026-09-29"
   },
   "mynode_clock_still_ahead_body": {
-    "value": "Nekateri kontakti imajo še vedno čas iz prihodnosti, na primer ker je vozlišče med popravilom prejelo nova obvestila. Popravilo zaženite še enkrat.",
+    "value": "Nekateri kontakti imajo še vedno čas iz prihodnosti, na primer ker je vozlišče med popravilom slišalo nove adverte. Popravilo zaženite še enkrat.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "map_appearance_title": {
     "value": "Videz zemljevida",
@@ -12218,9 +12218,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
-    "value": "Spremeni ime vozlišča v oglasu. Sosedje ga prevzamejo ob naslednjem oglasu.",
+    "value": "Spremeni ime vozlišča v advertu. Sosedje ga prevzamejo ob naslednjem advertu.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_channels_channel_not_found": {
     "value": "Kanal ni bil najden.",
@@ -12253,9 +12253,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
-    "value": "Nariše verigo ponavljalnikov na zemljevidu. Skoke brez slišanega oglasa je mogoče razrešiti prek spletnega imenika kar iz pogleda zemljevida.",
+    "value": "Nariše verigo ponavljalnikov na zemljevidu. Skoke brez slišanega adverta je mogoče razrešiti prek spletnega imenika kar iz pogleda zemljevida.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
     "value": "Vsak skok predstavlja prvih %1$d bajtov javnega ključa ponavljalnika. Kratki ključi se lahko ujemajo z več ponavljalniki. Tapnite ikono globusa, da manjkajoče ponavljalnike razrešite prek spletnega imenika.",
@@ -12293,9 +12293,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
-    "value": "Samo sosedje. Tiho: brez Flooda. Uporabite, kadar želite, da vaš oglas prepoznajo le bližnja vozlišča.",
+    "value": "Samo sosedje. Tiho: brez Flooda. Uporabite, kadar želite, da vaš advert prepoznajo le bližnja vozlišča.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_new_6_digit_pin": {
     "value": "Nova 6-mestna PIN-koda",
@@ -12358,9 +12358,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
-    "value": "Izklopljeno: nove oglase po zapolnitvi tabele zavržemo. Vklopljeno: najstarejši stik, ki ni med priljubljenimi, se odstrani, da se sprosti prostor. Priljubljeni ostanejo vedno ohranjeni.",
+    "value": "Izklopljeno: nove adverte po zapolnitvi tabele zavržemo. Vklopljeno: najstarejši stik, ki ni med priljubljenimi, se odstrani, da se sprosti prostor. Priljubljeni ostanejo vedno ohranjeni.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_paywall_open_settings_pro_to_unlock": {
     "value": "Za odklepanje odprite Nastavitve → Pro.",
@@ -12368,9 +12368,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
-    "value": "Druga vozlišča potrebujejo naš oglas v svoji tabeli stikov, preden lahko dešifrirajo naša DM sporočila. Izbira katere koli možnosti se izvede takoj.",
+    "value": "Druga vozlišča potrebujejo naš advert v svoji tabeli stikov, preden lahko dešifrirajo naša DM sporočila. Izbira katere koli možnosti se izvede takoj.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
     "value": "Povezovanje in RSSI v živo prideta v naslednji različici.",
@@ -13683,9 +13683,9 @@
     "_seeded": "2026-10-06"
   },
   "nodes_detail_region_device_default_footer": {
-    "value": "Privzeto vozlišča uporablja privzeto regijo vašega companiona za pošiljanje s poplavo. Sporočila po znani neposredni poti nikoli ne nosijo regije. Določite regijo, če želite za ta stik uporabiti drugo.",
+    "value": "Privzeto vozlišča uporablja privzeto regijo vašega companiona za pošiljanje flood paketov. Sporočila po znani neposredni poti nikoli ne nosijo regije. Določite regijo, če želite za ta stik uporabiti drugo.",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "chat_translate_action": {
     "value": "Prevedi",
@@ -13913,14 +13913,14 @@
     "_seeded": "2026-10-17"
   },
   "mynode_node_clock_ahead_subtitle": {
-    "value": "%1$s naprej · oglasi bodo morda prezrti",
+    "value": "%1$s naprej · adverti bodo morda prezrti",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_ahead_subtitle_unknown": {
-    "value": "Oglasi bodo morda prezrti",
+    "value": "Adverti bodo morda prezrti",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_repair_action": {
     "value": "Popravi",
@@ -14173,9 +14173,9 @@
     "_seeded": "2026-10-29"
   },
   "nodes_autoadd_banner_device_ignores_filter": {
-    "value": "Vaše vozlišče samo doda vsako vrsto Advert, zato filter vrst tam ne velja.",
+    "value": "Vaše vozlišče samodejno doda vsako vrsto adverta, zato filter vrst tam ne velja.",
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-03"
   },
   "nodes_autoadd_banner_hops_direct": {
     "value": "Samo neposredno slišana vozlišča.",
