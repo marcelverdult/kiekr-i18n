@@ -211,9 +211,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_connect_node_message": {
-    "value": "Csatlakoztasd a „Saját csomópont” menüpontban található csomóponttal, hogy megtekintsd a csevegéseidet és csatornáidat.",
+    "value": "Párosíts egy csomópontot a „Saját csomópont” menüpontban, hogy megtekintsd a csevegéseidet és csatornáidat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_connect_node_title": {
     "value": "Csomópont csatlakoztatása",
@@ -271,9 +271,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_candidates_explain": {
-    "value": "Több átjátszó is egyezik ennek az ugrásnak a rövid útvonal-előtagjával. A rendszer nem tudja automatikusan kiválasztani a megfelelőt. Válaszd ki azt, amelyik az útvonaladon volt.",
+    "value": "Több átjátszó előtagja is megegyezik ennek az ugrásnak a rövid előtagjával. A rendszer nem tudja automatikusan kiválasztani a megfelelőt. Válaszd ki azt, amelyik az útvonaladon volt.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_heard_no_position": {
     "value": "Hallva, pozíció ismeretlen",
@@ -301,9 +301,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_prefix": {
-    "value": "%1$s",
+    "value": "ugrás %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_incoming": {
     "value": "Beérkező",
@@ -311,9 +311,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_map_footer": {
-    "value": "Megrajzolja az ismétlőláncot a térképen. A hallott hirdetés nélküli ugrások megoldatlanokként jelennek meg.",
+    "value": "Megrajzolja az átjátszóláncot a térképen. A hallott advert nélküli ugrások feloldatlanként jelennek meg.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_message_details": {
     "value": "Az üzenet részletei",
@@ -321,9 +321,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_no_repeats_yet": {
-    "value": "Eddig még nem hallottam ismétlődést.",
+    "value": "Eddig még nem hallatszott ismétlés.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_outgoing": {
     "value": "Kimenő",
@@ -341,9 +341,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_path_direct_no_repeaters": {
-    "value": "közvetlen (ismétlők nélkül)",
+    "value": "közvetlen (átjátszók nélkül)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_footer_bytes": {
     "value": "Minden ugrás az átjátszó nyilvános kulcsának első %1$d bájtja(i). A rövid kulcsok több átjátszóhoz is tartozhatnak. Érintse meg a földgömböt, hogy az online címjegyzékben megkeresse a hiányzó ugrásokat.",
@@ -351,9 +351,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_path_header_bytes": {
-    "value": "Útvonal · %1$d -byte kulcsok",
+    "value": "Útvonal · %1$d bájtos kulcsok",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_unknown_direct": {
     "value": "ismeretlen (közvetlen útvonal)",
@@ -366,9 +366,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_payload_advert": {
-    "value": "HIRDETÉS",
+    "value": "ADVERT",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_payload_grp_data": {
     "value": "GRP_DATA",
@@ -891,9 +891,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_tx_attempt_mode_flood": {
-    "value": "árvíz",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_tx_attempt_mode_path": {
     "value": "út",
@@ -1151,14 +1151,14 @@
     "_seeded": "2026-06-26"
   },
   "map_empty_hint_no_gps": {
-    "value": "A GPS-koordinátákat tartalmazó hirdetések ide kerülnek, amint meghallgatják őket.",
+    "value": "A GPS-koordinátákat tartalmazó advertek ide kerülnek, amint a rádión megérkeznek.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_hint_no_type_gps": {
-    "value": "Az ilyen típusú „%1$s” hajók egyike sem közli még a GPS-koordinátáit.",
+    "value": "Az ilyen típusú %1$s közül még egy sem közli a GPS-koordinátáit.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_no_nodes": {
     "value": "Nincs megtalált csomópont",
@@ -1206,9 +1206,9 @@
     "_seeded": "2026-06-26"
   },
   "map_filter_only_heard_in_last": {
-    "value": "Csak az elmúlt időszakban hallottam",
+    "value": "Csak az elmúlt időszakban hallott",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_filter_placeholder": {
     "value": "Szűrés név vagy nyilvános kulcs szerint",
@@ -1316,9 +1316,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_cd_fit": {
-    "value": "Méret",
+    "value": "Illesztés",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_directory_suffix": {
     "value": " (könyvtár)",
@@ -1326,9 +1326,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_hop_label": {
-    "value": "hop %1$d · %2$s %3$s",
+    "value": "ugrás %1$d · %2$s%3$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_message_path_title": {
     "value": "Üzenetútvonal",
@@ -1341,14 +1341,14 @@
     "_seeded": "2026-06-26"
   },
   "map_path_no_path_body": {
-    "value": "Ennek az üzenetnek egyetlen továbbítója sem (és a küldő sem) rendelkezik tárolt GPS-koordinátákkal. Zárd be ezt a nézetet, koppints az üzenet útvonalának szakaszán található földgömb ikonra, majd térj vissza ide.",
+    "value": "Ennek az üzenetnek egyetlen átjátszója sem (és a küldő sem) rendelkezik tárolt GPS-koordinátákkal. Zárd be ezt a nézetet, koppints az üzenet útvonalának szakaszán található földgömb ikonra, majd térj vissza ide.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_no_path_title": {
-    "value": "Nincs elérhető útvonal",
+    "value": "Nincs feloldható útvonal",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_our_node": {
     "value": "A mi csomópontunk",
@@ -1371,9 +1371,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_pick_reason_sole": {
-    "value": "talp",
+    "value": "egyetlen",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_pick_reason_suffix": {
     "value": " (%1$s)",
@@ -1381,9 +1381,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_pick_reason_wire": {
-    "value": "huzal",
+    "value": "wire",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_sender": {
     "value": "Feladó",
@@ -1486,19 +1486,19 @@
     "_seeded": "2026-06-26"
   },
   "mynode_broadcast_advert_footer": {
-    "value": "Ahhoz, hogy a többi csomópont vissza tudja fejteni a közvetlen üzeneteinket, a kapcsolati táblázatukban szerepelnie kell a hirdetésünknek. Érintse meg a képernyőt a terjedési mód kiválasztásához: a „zero-hop” csendes (csak a szomszédok); a „flood” hangos (az egész hálózat).",
+    "value": "Ahhoz, hogy a többi csomópont vissza tudja fejteni a közvetlen üzeneteinket, a kapcsolati táblázatukban szerepelnie kell az advertünknek. Érintse meg a képernyőt a terjedési mód kiválasztásához: a „zero-hop” csendes (csak a szomszédok); a „flood” hangos (az egész hálózat).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_broadcast_advert_row_title": {
-    "value": "Tegye közzé a hirdetésemet…",
+    "value": "Advertem szórása…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_body": {
-    "value": "A csomópont órája a telefonodénál előrébb van állítva. A hirdetések és az adminisztrációs parancsok jövőbeli időbélyeggel rendelkeznek, ezért a hálózat visszajátszás-védelmi rendszere észrevétlenül elveti őket.",
+    "value": "A csomópont órája a telefonodénál előrébb van állítva. Az advertek és az adminisztrációs parancsok jövőbeli időbélyeggel rendelkeznek, ezért a hálózat visszajátszás-védelmi rendszere észrevétlenül elveti őket.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_rtc_body": {
     "value": "Ez az eszköz akkumulátorral táplált RTC-vel rendelkezik. A szoftverrel nem lehet visszaállítani. A helyreállításhoz frissítse a firmware-t, vagy vegye ki az RTC tartalékakkumulátorát.",
@@ -1506,9 +1506,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_clock_ahead_title": {
-    "value": "A kiegészítő óra előre jár",
+    "value": "A companion órája előre jár",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_in_sync": {
     "value": "oké",
@@ -1516,9 +1516,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_companion_delete_confirm_body": {
-    "value": "Eltávolítja ezt a társat a listáról. Ha éppen csatlakozva van, a kapcsolat először megszakad.",
+    "value": "Eltávolítja ezt a companiont a listáról. Ha éppen csatlakozva van, a kapcsolat először megszakad.",
     "_ai": true,
-    "_seeded": "2026-07-06"
+    "_seeded": "2026-11-03"
   },
   "mynode_config_error_code": {
     "value": "firmware-hibakód%1$d",
@@ -1556,9 +1556,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "Azoknál az ESP32-es tábláknál, amelyeken a WIFI_SSID-del összeállított kiegészítő firmware fut, adja meg az eszköz IP-címét és TCP-portját.",
+    "value": "Azoknál az ESP32-es tábláknál, amelyeken a WIFI_SSID-del összeállított companion firmware fut, adja meg az eszköz IP-címét és TCP-portját.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_connection_row_title": {
     "value": "Kapcsolat",
@@ -1576,19 +1576,19 @@
     "_seeded": "2026-06-26"
   },
   "mynode_dialog_broadcast_advert_body": {
-    "value": "A többi csomópontnak szüksége van a hirdetésünkre ahhoz, hogy vissza tudja fejteni a közvetlen üzeneteinket. Válassz elérhetőséget:",
+    "value": "A többi csomópontnak szüksége van a advertünkre ahhoz, hogy vissza tudja fejteni a közvetlen üzeneteinket. Válassz elérhetőséget:",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_dialog_broadcast_advert_title": {
-    "value": "Televíziós reklám",
+    "value": "Advert szórása",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_footer": {
-    "value": "A „Disconnect” (Kapcsolat bontása) gomb megnyomásával a kapcsolat megszakad, de a gyorsítótárban tárolt kapcsolat megmarad. A „Connect” (Csatlakozás) gombra kattintva újra csatlakozhat anélkül, hogy újra párosítania kellene. A „Forget” (Felejtés) gomb megnyomásával a párosítás megszűnik és a gyorsítótár kiürül; a csomópont újra csatlakozásához újra kell párosítani.",
+    "value": "Megszakítja a kapcsolatot. Bármikor újra csatlakozhat a fenti companion-listáról.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_row_title": {
     "value": "Kapcsolat bontása",
@@ -1646,14 +1646,14 @@
     "_seeded": "2026-06-26"
   },
   "mynode_flood_body": {
-    "value": "Teljes hálózat. Hangos: minden átjátszó továbbítja az üzenetet. Óvatosan használja; a tömeges hirdetéseknél az adásidő díját átjátszónként kell fizetni.",
+    "value": "Teljes hálózat. Hangos: minden átjátszó újra kisugározza. Óvatosan használja; a flood advertek átjátszónként adásidőt foglalnak.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_flood_title": {
-    "value": "Töltsd meg a hálót",
+    "value": "Mesh elárasztása",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_forget": {
     "value": "Felejtsd el",
@@ -1686,14 +1686,14 @@
     "_seeded": "2026-06-26"
   },
   "mynode_known_companions": {
-    "value": "Ismert társai",
+    "value": "Ismert companionok",
     "_ai": true,
-    "_seeded": "2026-06-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_known_companions_footer": {
-    "value": "Érintse meg a társot az újracsatlakozáshoz. Csúsztassa ujját a listából való törléshez.",
+    "value": "Érintse meg a companiont az újracsatlakozáshoz. Csúsztassa ujját a listából való törléshez.",
     "_ai": true,
-    "_seeded": "2026-06-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_label_public_key": {
     "value": "nyilvános kulcs",
@@ -1721,9 +1721,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_lora_apply_preset_title": {
-    "value": "Alkalmazzuk-e a „%1$s” eljárást a párosított csomópontra?",
+    "value": "Alkalmazod a(z) %1$s előbeállítást a párosított csomóponton?",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_lora_bw_label": {
     "value": "BW (kHz)",
@@ -2031,9 +2031,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_status_pairing_with": {
-    "value": "%1$s-hez ajánlott borok…",
+    "value": "Párosítás ezzel: %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_status_scanning": {
     "value": "Olvasás…",
@@ -2086,9 +2086,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_zero_hop_body": {
-    "value": "Csak a szomszédok számára. Csendes: nincs túlterhelés. Akkor használd, ha csak a közeli csomópontoknak kell megismerniük a hirdetésedet.",
+    "value": "Csak a szomszédok számára. Csendes: nincs flood. Akkor használd, ha csak a közeli csomópontoknak kell megismerniük az adverted.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_zero_hop_title": {
     "value": "Zero-hop",
@@ -2166,9 +2166,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_contact_pubkey_footer": {
-    "value": "A nyilvános kulcs a névjegy 32 bájtos Ed25519 azonosítója, amelyet 64 hexadecimális karakterként írnak le. A későbbi hirdetések kiegészítik a GPS-adatokat, a jelerősséget és az esetleges névváltozásokat.",
+    "value": "A nyilvános kulcs a névjegy 32 bájtos Ed25519 azonosítója, amelyet 64 hexadecimális karakterként írnak le. A későbbi advertek kiegészítik a GPS-adatokat, a jelerősséget és az esetleges névváltozásokat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_contact_pubkey_label": {
     "value": "Nyilvános kulcs (64 hexadecimális karakter)",
@@ -2221,9 +2221,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_install_body_other": {
-    "value": "A gyári firmware-rel rendelkező csomópontok esetében a csatlakozónak csak akkor tudja kezelni az eszközt, ha az a megfelelő bővítőhelyen van (útvonal-felismerés, bejelentkezés, telemetria). Telepítse most, vagy később a csomópont részletes oldaláról.",
+    "value": "A gyári firmware-rel futó csomópontoknál a névjegynek egy tárolóhelyen kell lennie, mielőtt a csatlakozó megcímezhetné (útvonal-felismerés, bejelentkezés, telemetria). Telepítse most, vagy később a csomópont részletes oldaláról.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_install_on_node": {
     "value": "Telepítés a csomópontra",
@@ -2321,9 +2321,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_type_companion": {
-    "value": "Kísérő",
+    "value": "Companion",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_type_repeater": {
     "value": "Ismétlő",
@@ -2346,14 +2346,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_advert": {
-    "value": "Hirdetés",
+    "value": "Advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_flood": {
-    "value": "Árvízre vonatkozó hirdetés",
+    "value": "Flood advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_zero_hop": {
     "value": "Zero-hop",
@@ -2531,9 +2531,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_name_pending_advert": {
-    "value": "· közzététel alatt álló hirdetés",
+    "value": "· függő advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_no_output": {
     "value": "(nincs kimenet)",
@@ -2771,9 +2771,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet1": {
-    "value": "• Az árvízcsomagok hatálya a megadott régióra korlátozódik.",
+    "value": "• A flood csomagok hatálya a megadott régióra korlátozódik.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_default_region_bullet2": {
     "value": "• Csak azok az ismétlők továbbítják a hatókörbe tartozó csomagokat, amelyek engedélyezik az adott régiót.",
@@ -2826,9 +2826,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_delete_dialog_body": {
-    "value": "Kapcsolatok törlése, hirdetés, jelszóismétlő, bejelentkezési állapot, útvonaladatok, CLI-visszatekintés, szomszédok, állapot, telemetria. A közvetlen üzenetek megmaradnak.",
+    "value": "Törli a névjegyet, az advertet, az átjátszó jelszavát, a bejelentkezési állapotot, az útvonaladatokat, a CLI-visszatekintést, a szomszédokat, az állapotot és a telemetriát. A közvetlen üzenetek megmaradnak.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_delete_dialog_title": {
     "value": "Teljesen törölje a csomópontot?",
@@ -2846,9 +2846,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_advertised_prefix": {
-    "value": "hirdetés: %1$s",
+    "value": "hirdetett: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_age_days_ago": {
     "value": "%1$d napja",
@@ -2931,9 +2931,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_flood": {
-    "value": "árvíz",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_from_directory": {
     "value": "online címjegyzékből",
@@ -3116,9 +3116,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_path_refresh_hint": {
-    "value": "Először frissítse az elérési utat, vagy állítson be egy kézi elérési utat.",
+    "value": "Először frissítse az útvonalat, vagy állítson be egy kézi útvonalat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_path_section": {
     "value": "Útvonal",
@@ -3171,14 +3171,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_rename_advertised": {
-    "value": "Hirdetés: %1$s",
+    "value": "Hirdetett: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_rename_empty_hint": {
-    "value": "Ha üresen hagyja, a megadott név kerül felhasználásra.",
+    "value": "Ha üresen hagyja, a hirdetett név lesz használatban.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_rename_title": {
     "value": "Névváltoztatás a névjegyben",
@@ -3276,9 +3276,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_unknown_body": {
-    "value": "Ehhez a nyilvános kulcshoz egyelőre nincs hirdetés vagy kapcsolattartási sor.",
+    "value": "Ehhez a nyilvános kulcshoz egyelőre nincs advert vagy névjegysor.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_unknown_section": {
     "value": "Ismeretlen csomópont",
@@ -3374,29 +3374,29 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_msg_nothing": {
-    "value": "Ilyenről még nem hallottunk.",
+    "value": "Ilyen típusú csomópontot még nem hallottunk.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_repeaters": {
-    "value": "A közeli átjátszók itt jelennek meg, amint hirdetéseik eljutnak a párosított csomópontodhoz.",
+    "value": "A közeli átjátszók itt jelennek meg, amint advertjeik eljutnak a párosított csomópontodhoz.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_rooms": {
-    "value": "Itt jelennek meg a szobai szerverek hirdetései.",
+    "value": "Itt jelennek meg a szobai szerverek advertjei.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_sensors": {
-    "value": "Itt jelennek meg az érzékelőhirdetések.",
+    "value": "Itt jelennek meg az érzékelők advertjei.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_users": {
-    "value": "Más felhasználók hirdetései itt jelennek meg, miután az adatsoruk eléri a párosított csomópontodat.",
+    "value": "Más felhasználók advertjei itt jelennek meg, miután a csomagjaik elérik a párosított csomópontodat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_matches": {
     "value": "Nincs találat",
@@ -3404,24 +3404,24 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_no_repeaters": {
-    "value": "Egyelőre nem hallottam ismétlőket",
+    "value": "Egyelőre nem hallottunk átjátszókat",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_rooms": {
-    "value": "Még nem érkezett bejelentés a szobákról",
+    "value": "Még nem hallottunk szobákat",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_sensors": {
-    "value": "Egyelőre nem hallottam érzékelőket",
+    "value": "Egyelőre nem hallottunk érzékelőket",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_users": {
-    "value": "Még senki sem nyilatkozott",
+    "value": "Még nem hallottunk felhasználókat",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_nothing": {
     "value": "Itt nincs semmi",
@@ -3469,9 +3469,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_filter_only_heard_in_last": {
-    "value": "Csak az elmúlt időszakban hallottam",
+    "value": "Csak az elmúlt időszakban hallott",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_filter_placeholder": {
     "value": "Szűrés név vagy nyilvános kulcs szerint",
@@ -3524,9 +3524,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_last_heard_unknown": {
-    "value": "még soha nem hallottam róla",
+    "value": "még sosem hallott",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_add_region": {
     "value": "Régió hozzáadása",
@@ -3534,9 +3534,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manage_regions_affected": {
-    "value": "Használja a %1$d csatorna, a %2$s és a %3$d. Kapcsolat: %4$s. Ezek visszatérnek a régió nélküli (egyszerű Flood) állapotra.",
+    "value": "%1$d csatorna%2$s és %3$d névjegy%4$s használja. Ezek régió nélküli (egyszerű Flood) állapotra állnak vissza.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_allow_flood": {
     "value": "Flood engedélyezése",
@@ -3714,19 +3714,19 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_err_bad_bytes": {
-    "value": "Ezeket a bájtokat nem sikerült beolvasni. Ugrásonként 6 hexadecimális karaktert használj (pl. 1faec3), és válasszuk szét őket vesszővel, szóközzel vagy új sorral.",
+    "value": "Ezeket a bájtokat nem sikerült beolvasni. Ugrásonként 6 hexadecimális karaktert használj (pl. 1faec3), és válaszd szét őket vesszővel, szóközzel vagy új sorral.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_err_not_triple": {
-    "value": "Minden ugrás 3 bájt. Összesen %1$d áll rendelkezésre. Kiegészítésre vagy levágásra.",
+    "value": "Minden ugrás 3 bájt. Összesen %1$d bájtot adtál meg. Egészítsd ki vagy vágd le.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_err_storage_rejected": {
-    "value": "A tároló elutasította az elérési utat. Ellenőrizze, hogy a névjegy még mindig létezik-e.",
+    "value": "A tároló elutasította az útvonalat. Ellenőrizze, hogy a névjegy még mindig létezik-e.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_err_toggle_state": {
     "value": "Nem sikerült elmenteni a kapcsoló állapotát.",
@@ -3749,9 +3749,9 @@
     "_seeded": "2026-07-05"
   },
   "nodes_manual_learned_prefix": {
-    "value": "Forrás: %1$s",
+    "value": "Megtanult: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_no_learned_path": {
     "value": "(még nincs megtanult útvonal: a közvetlen küldések nulla ugrással történnének)",
@@ -3759,9 +3759,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_path_title": {
-    "value": "Kézi elérési út",
+    "value": "Kézi útvonal",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_picker_empty_desc": {
     "value": "Itt jelennek meg azok az ismétlők és szobai szerverek, amelyeket névjegyként mentettél el.",
@@ -3794,9 +3794,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_use_manual_path": {
-    "value": "Kézi elérési út használata",
+    "value": "Kézi útvonal használata",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_use_manual_path_hint": {
     "value": "A megtanult útvonal helyett az alábbi bájtokkal küldje el. Ha nulla ugrású Direct üzenetet szeretne küldeni, hagyja üresen a bájtokat.",
@@ -4074,9 +4074,9 @@
     "_seeded": "2026-06-26"
   },
   "notif_advert_type_repeater": {
-    "value": "Ismétlő",
+    "value": "Átjátszó",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "notif_advert_type_room": {
     "value": "Szoba",
@@ -4164,9 +4164,9 @@
     "_seeded": "2026-06-26"
   },
   "notif_status_pairing": {
-    "value": "%1$s-hez ajánlott borok…",
+    "value": "Párosítás ezzel: %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "notif_status_scanning": {
     "value": "Csomópontok keresése…",
@@ -4254,9 +4254,9 @@
     "_seeded": "2026-07-05"
   },
   "repeater_cli_advert": {
-    "value": "Hirdetés",
+    "value": "Advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_clear_stats": {
     "value": "Statisztikák törlése",
@@ -4599,9 +4599,9 @@
     "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
-    "value": "Azokat a hirdetéseket, amelyek ennél több átjátszón keresztül érkeztek, az alkalmazás nem veszi fel automatikusan. 0 = csak közvetlen; 64 = korlátlan (firmware-korlát).",
+    "value": "Azokat az adverteket, amelyek ennél több átjátszón keresztül érkeztek, az alkalmazás nem veszi fel automatikusan. 0 = csak közvetlen; 64 = korlátlan (firmware-korlát).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_app_distance_header": {
     "value": "Távolságkorlát (alkalmazás)",
@@ -4609,14 +4609,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_app_types_footer": {
-    "value": "Amikor az alkalmazás egy engedélyezett típusú hirdetést észlel, hozzáadja a csomópontot a helyi névjegyzékedhez, így az megjelenik a „Csevegések / Csomópontok” menüpontban. A kiszűrt típusok elveszítik az ECDH-gyorsítótárukat, így az azokból érkező privát üzenetek nem fejthetők vissza, hacsak nem adod hozzá a névjegyet manuálisan. A változások szinkronizálódnak a csatlakoztatott eszközzel, ha az elérhető.",
+    "value": "Amikor az alkalmazás egy engedélyezett típusú advertet észlel, hozzáadja a csomópontot a helyi névjegyzékedhez, így az megjelenik a „Csevegések / Csomópontok” menüpontban. A kiszűrt típusok elveszítik az ECDH-gyorsítótárukat, így az azokból érkező privát üzenetek nem fejthetők vissza, hacsak nem adod hozzá a névjegyet manuálisan. A változások szinkronizálódnak a csatlakoztatott eszközzel, ha az elérhető.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_app_types_header": {
-    "value": "Automatikusan hozzáadandó hirdetéstípusok (alkalmazás)",
+    "value": "Automatikusan hozzáadandó adverttípusok (alkalmazás)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_cd_back": {
     "value": "Vissza",
@@ -4644,24 +4644,24 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_companion_distance_footer": {
-    "value": "Azokat a hirdetéseket, amelyek ennél több átjátszón keresztül érkeztek, a készülék nem veszi fel automatikusan. 0 = csak közvetlen; 64 = korlátlan (firmware-korlát).",
+    "value": "Azokat az adverteket, amelyek ennél több átjátszón keresztül érkeztek, a készülék nem veszi fel automatikusan. 0 = csak közvetlen; 64 = korlátlan (firmware-korlát).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_distance_header": {
-    "value": "Távolságkorlát (kísérő)",
+    "value": "Távolságkorlát (companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_footer": {
-    "value": "Amikor a csatlakoztatott eszköz egy támogatott típusú hirdetést észlel, a csomópontot elmenti a névjegyzékébe. Ez az adat az újraindítás után is megmarad, és a következő adatletöltéskor eljut az alkalmazáshoz.",
+    "value": "Amikor a csatlakoztatott eszköz egy engedélyezett típusú advertet észlel, a csomópontot elmenti a névjegyzékébe. Ez az adat az újraindítás után is megmarad, és a következő adatletöltéskor eljut az alkalmazáshoz.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_header": {
-    "value": "Automatikusan hozzáadandó hirdetéstípusok (kiegészítő)",
+    "value": "Automatikusan hozzáadandó adverttípusok (companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_connect_hint": {
     "value": "Csatlakoztass egy csomópontot, hogy a szabályzatmódosításokat továbbítsd a készülékedre.",
@@ -4669,9 +4669,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_full_footer": {
-    "value": "Kikapcsolás: az új hirdetések kiesnek. Bekapcsolás: a legrégebbi, nem kedvenc hirdetés kiesik. A kedvencek megmaradnak.",
+    "value": "Kikapcsolva: az új advertek eldobásra kerülnek. Bekapcsolva: a legrégebbi nem kedvenc névjegy kiesik. A kedvencek megmaradnak.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_full_header": {
     "value": "Amikor a kapcsolattartási táblázat megtelik",
@@ -4704,9 +4704,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_row_chat": {
-    "value": "Csevegés (Társ)",
+    "value": "Csevegés (Companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_row_repeater": {
     "value": "Ismétlő",
@@ -4724,9 +4724,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_title": {
-    "value": "Hirdetések automatikus hozzáadása",
+    "value": "Advertek automatikus hozzáadása",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoresolve_bg_lookups_footer": {
     "value": "Ha be van kapcsolva, a KiekR automatikusan kezdeményezhet könyvtárlekérdezéseket az alkalmazás által passzívan észlelt hiányzó kontextusok esetén: például az útvonalon található ismeretlen ugrások, a hallott, de a könyvtárban még nem szereplő átjátszók, a hiányzó szomszédsorok, valamint a felfedezés során hiányzó régiók esetén. Ha ki van kapcsolva (alapértelmezett), minden könyvtárlekérdezéshez egy érintésre van szükség.",
@@ -4744,9 +4744,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoresolve_surface_heard_repeaters": {
-    "value": "A könyvtárban nem szereplő átjátszókat észleltem",
+    "value": "A könyvtárban nem szereplő hallott átjátszók",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoresolve_surface_neighbours": {
     "value": "A szomszéd sorok, amelyeket a készülék még nem látott",
@@ -5734,9 +5734,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_community_map_footer": {
-    "value": "A tükörszerver a MeshCore nyilvános közösségi térképhez kapcsolódó átjátszó-hirdetéseket továbbítja. Kizárólag Wi-Fi-kapcsolat. Naponta legfeljebb egy feltöltés átjátszónként.",
+    "value": "A hallott átjátszó-adverteket tükrözi a nyilvános MeshCore közösségi térképre. Kizárólag Wi-Fi-n. Átjátszónként naponta legfeljebb egy feltöltés.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_community_map_header": {
     "value": "Közösségi térkép",
@@ -5759,9 +5759,9 @@
     "_seeded": "2026-06-27"
   },
   "settings_community_coverage_cells": {
-    "value": "A sejtek hallották",
+    "value": "Hallott cellák",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_coverage_footer": {
     "value": "Bekapcsolt állapotban a KiekR rögzíti, hogy mely régiókat (és amennyiben lehetséges, mely átjátszókat) veszi észre egy körülbelül fél kilométeres nagyságú, durva felbontású térképcellában, és rendszeres időközönként Wi-Fi-n keresztül feltölti a cellánkénti összesített adatokat. A pontos tartózkodási helyed soha nem hagyja el a telefont (csak a cellát), és a térkép mindig csak azt mutatja, hogy mit hallottak ott, soha nem azt, hogy ki hallotta. Álnéven működik, és független a KiekR-azonosságodtól; bármikor kikapcsolhatod.",
@@ -5979,9 +5979,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_region_map_footer": {
-    "value": "Ha a KiekR be van kapcsolva, minden olyan átjátszó-hirdetést feltölt a map.kiekr.app webhelyre, amelyet a levegőben fog, valamint azokat a régiókat és szomszédlistákat is, amelyeket az átjátszótól kap. A feltöltések álnéven történnek, és nincsenek összekapcsolva a KiekR-azonosságoddal. Ez segít létrehozni egy nyilvános térképet arról, hogy hol használják a régiókat. Az üzenetek, a névjegyek és a tartózkodási helyed soha nem kerülnek megosztásra.",
+    "value": "Ha a KiekR be van kapcsolva, minden olyan átjátszó-advertet feltölt a map.kiekr.app webhelyre, amelyet a levegőben fog, valamint azokat a régiókat és szomszédlistákat is, amelyeket az átjátszótól kap. A feltöltések álnéven történnek, és nincsenek összekapcsolva a KiekR-azonosságoddal. Ez segít létrehozni egy nyilvános térképet arról, hogy hol használják a régiókat. Az üzenetek, a névjegyek és a tartózkodási helyed soha nem kerülnek megosztásra.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_region_map_header": {
     "value": "A régió térképe",
@@ -6239,14 +6239,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_directory_cache_footer": {
-    "value": "Eltávolítja az online címjegyzékből importált összes névjegy-sort, valamint a lemezen tárolt előtag-gyorsítótárat. A vezetéken keresztül rögzített névjegyeket ez nem érinti.",
+    "value": "Eltávolítja az online címjegyzékből importált összes névjegy-sort, valamint a lemezen tárolt előtag-gyorsítótárat. A rádión hallott névjegyeket ez nem érinti.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_cache_prefix_count": {
-    "value": "%1$d előtagok",
+    "value": "%1$d előtag",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_cache_row_count": {
     "value": "%1$d sorok",
@@ -6324,9 +6324,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_directory_reset_confirm_body": {
-    "value": "Eltávolítja az online címjegyzékből importált összes névjegy-sort, valamint a lemezen tárolt előtag-gyorsítótárat. A vezetéken keresztül rögzített névjegyeket ez nem érinti.",
+    "value": "Eltávolítja az online címjegyzékből importált összes névjegy-sort, valamint a lemezen tárolt előtag-gyorsítótárat. A rádión hallott névjegyeket ez nem érinti.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_reset_confirm_title": {
     "value": "Vissza kell állítani a könyvtár-gyorsítótárat?",
@@ -6629,9 +6629,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_advert_repeater": {
-    "value": "Ismétlő",
+    "value": "Átjátszó",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_advert_room": {
     "value": "Szobai szerver",
@@ -6644,14 +6644,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Értesítést kap, amikor a kiválasztott típusú csomópont adásba kerül. A hirdetések alapértelmezés szerint hangosak; engedélyezze a „Repeater” funkciót, ha értesülni szeretne az új átjátszók megjelenéséről.",
+    "value": "Értesítést kap, amikor a kiválasztott típusú csomópont adásba kerül. Az advertek alapértelmezés szerint hangosak; engedélyezze a „Repeater” funkciót, ha értesülni szeretne az új átjátszók megjelenéséről.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_adverts_header": {
-    "value": "Hirdetések",
+    "value": "Advertek",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_cd_back": {
     "value": "Vissza",
@@ -6694,9 +6694,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_master_footer": {
-    "value": "Főkapcsoló. Ha ki van kapcsolva, a KiekR nem küld értesítéseket üzenetekről, csatornákról vagy hirdetésekről. Az alábbi típusonkénti beállítások változatlanok maradnak.",
+    "value": "Főkapcsoló. Ha ki van kapcsolva, a KiekR nem küld értesítéseket üzenetekről, csatornákról vagy advertekről. Az alábbi típusonkénti beállítások változatlanok maradnak.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_master_header": {
     "value": "Értesítések",
@@ -6749,9 +6749,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_pathlookup_cache_header": {
-    "value": "Útvonal-felbontású gyorsítótár",
+    "value": "Útvonal-feloldási gyorsítótár",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_cache_ttl_label": {
     "value": "A gyorsítótár TTL-je",
@@ -6859,9 +6859,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_region_discovery_no_repeaters": {
-    "value": "Még nem hallottam ismétlőket. Kattints a „Scan” gombra, hogy megpróbáld.",
+    "value": "Még nem hallottunk átjátszókat. Kattints a „Scan” gombra, hogy megpróbáld.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_region_discovery_no_response": {
     "value": "nincs válasz",
@@ -7019,9 +7019,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_default_scope_unsupported_footer": {
-    "value": "A párosított csomópont a „%1$s” firmware-verziót jelenti (kiegészítő protokollszint: %2$s); az alapértelmezett régióhoz a 11-es protokollszint szükséges. Frissítsen olyan firmware-verzióra, amely tartalmazza a v11 opkódokat.",
+    "value": "A párosított csomópont a „%1$s” firmware-verziót jelenti (companion protokollszint: %2$s); az alapértelmezett régióhoz a 11-es protokollszint szükséges. Frissítsen olyan firmware-verzióra, amely tartalmazza a v11 opkódokat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_delete_confirm_body": {
     "value": "Eltávolítja a régiót a készülékről. Később név alapján újra hozzáadhatja.",
@@ -7074,19 +7074,19 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_remove_in_use_both": {
-    "value": "A „%1$s” még mindig az %2$d csatorná(k)hoz és az %3$d kapcsolattartó(k)hoz van rendelve. Az eltávolításuk esetén ezek visszaállnak „nincs régió” állapotra (egyszerű Flood).",
+    "value": "A „%1$s” még hozzá van rendelve %2$d csatornához és %3$d névjegyhez. Eltávolításakor ezek visszaállnak „nincs régió” állapotra (egyszerű Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_channels": {
-    "value": "A „%1$s” még mindig hozzárendelve van egy vagy több %2$d csatornához. Az eltávolításuk esetén a csatornák régió nélküli állapotba kerülnek (egyszerű Flood).",
+    "value": "A „%1$s” még hozzá van rendelve %2$d csatornához. Eltávolításakor a csatornák régió nélküli állapotba kerülnek (egyszerű Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_contacts": {
-    "value": "A „%1$s” még mindig %2$d kapcsolattartó(k)hoz van rendelve. Az eltávolításuk esetén a kapcsolattartók régió nélküli állapotba kerülnek (egyszerű Flood).",
+    "value": "A „%1$s” még hozzá van rendelve %2$d névjegyhez. Eltávolításakor a névjegyek régió nélküli állapotba kerülnek (egyszerű Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_title": {
     "value": "A régió továbbra is használatban van",
@@ -7214,9 +7214,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_retries_manual_cap_footer": {
-    "value": "A kimenő üzenetenkénti, felhasználó által kezdeményezett újraküldési kísérletek szigorú felső határa (a még nem nyugtázott buborékokon megjelenő narancssárga ↻ szimbólum). A felső határ elérése után a szimbólum szürkére vált, és nem fogadja többé az érintéseket. Alapértelmezett érték: 5 (megegyezik az automatikus újraküldési lépcsőzettel: 3× közvetlen + 2× tömeges).",
+    "value": "A kimenő üzenetenkénti, felhasználó által kezdeményezett újraküldési kísérletek szigorú felső határa (a még nem nyugtázott buborékokon megjelenő narancssárga ↻ szimbólum). A felső határ elérése után a szimbólum szürkére vált, és nem fogadja többé az érintéseket. Alapértelmezett érték: 5 (megegyezik az automatikus újraküldési lépcsőzettel: 3× közvetlen + 2× flood).",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "settings_retries_manual_cap_header": {
     "value": "A kézi újrapróbálkozások számának korlátozása",
@@ -7254,9 +7254,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_stats_adverts_heard": {
-    "value": "Hallott hirdetések",
+    "value": "Hallott advertek",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_stats_by_type_header": {
     "value": "Típus szerint",
@@ -7519,9 +7519,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_connection_banner_pairing": {
-    "value": "%1$s-hez ajánlott borok…",
+    "value": "Párosítás ezzel: %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_connection_banner_scanning": {
     "value": "Csomópontok keresése…",
@@ -7574,9 +7574,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_map_consent_body": {
-    "value": "A KiekR minden olyan átjátszó-hirdetést feltölt a map.kiekr.app oldalra, amelyet a levegőben fog, valamint azokat a régiókat és szomszédlistákat is, amelyeket az átjátszótól tölt le. A feltöltések álnéven történnek, és nincsenek összekapcsolva a KiekR-azonosságoddal. Az üzeneteket, a névjegyeket és a tartózkodási helyedet soha nem osztjuk meg.\n\nEzt bármikor módosíthatod a Beállítások → Közösségi feltöltés menüpontban.",
+    "value": "A KiekR minden olyan átjátszó-advertet feltölt a map.kiekr.app oldalra, amelyet a levegőben fog, valamint azokat a régiókat és szomszédlistákat is, amelyeket az átjátszótól tölt le. A feltöltések álnéven történnek, és nincsenek összekapcsolva a KiekR-azonosságoddal. Az üzeneteket, a névjegyeket és a tartózkodási helyedet soha nem osztjuk meg.\n\nEzt bármikor módosíthatod a Beállítások → Közösségi feltöltés menüpontban.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_map_consent_title": {
     "value": "Segítesz a nyilvános térkép elkészítésében?",
@@ -7749,9 +7749,9 @@
     "_seeded": "2026-08-04"
   },
   "settings_channels_rejected_footer": {
-    "value": "Az eltávolított vagy figyelmen kívül hagyott csatornákat válassza meg, hogy visszaállítsa az egyiket a csatorna listájába, vagy állítsa vissza az összeset, hogy visszaküldje őket a Felfedezetthez a felülvizsgálatra.",
+    "value": "Az eltávolított vagy figyelmen kívül hagyott csatornák. Csúsztasson az egyik visszaállításához a csatornalistába, vagy állítsa vissza az összeset, hogy felülvizsgálatra visszakerüljenek a Felfedezett közé. Itt semmi nem törlődik.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "settings_channels_rejected_restore": {
     "value": "Visszaállítani.",
@@ -7844,9 +7844,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_promo_body": {
-    "value": "Más csomópontoknak szükségük van a hirdetésedre, mielőtt üzenni tudnának.",
+    "value": "Más csomópontoknak szükségük van az advertedre, mielőtt üzenni tudnának.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_location_row_title": {
     "value": "Helymeghatározás (GPS)",
@@ -7884,9 +7884,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_onboarding_body": {
-    "value": "Kapcsolja össze a MeshCore készüléket, hogy üzeneteket küldjön és fogadjon a hálóban.",
+    "value": "Párosítsa a MeshCore készüléket, hogy üzeneteket küldjön és fogadjon a hálóban.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_state_uptime": {
     "value": "Folyamatos üzemidő",
@@ -7894,19 +7894,19 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_share_title": {
-    "value": "A hirdetésben szereplő részvénypozíció",
+    "value": "Pozíció megosztása az advertben",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_share_hint": {
-    "value": "A csomópont pozícióját sugározza az egész hálózattal a hirdetésben  a GPS-ből, ha engedélyezett, vagy egy rögzített pozíció, amit az alábbiakban állított.",
+    "value": "Az advertben az egész hálózattal megosztja a csomópont pozícióját: a GPS-ből, ha engedélyezett, vagy egy alább megadott rögzített pozícióból.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_shared_position": {
-    "value": "Közös álláspont",
+    "value": "Megosztott pozíció",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_position_not_set": {
     "value": "Nem állítva",
@@ -7914,9 +7914,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_set_position": {
-    "value": "Beállított helyzet",
+    "value": "Pozíció beállítása",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_use_phone_location": {
     "value": "Használd a telefonom helymeghatározását.",
@@ -7924,9 +7924,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_position_sheet_title": {
-    "value": "A hirdetés helyzete",
+    "value": "Az advert pozíciója",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_lat": {
     "value": "Szélesség",
@@ -7934,14 +7934,14 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_lon": {
-    "value": "hosszúság",
+    "value": "Hosszúság",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_broadcast_warning": {
-    "value": "Ez a hirdetés megosztja a csomópont pozícióját az egész hálózattal.",
+    "value": "Ez az advert megosztja a csomópont pozícióját az egész hálózattal.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_map_hint": {
     "value": "Kattintson a térképre, hogy beállítsa a csomópont pozícióját",
@@ -8234,9 +8234,9 @@
     "_seeded": "2026-08-05"
   },
   "signal_direct_reception_empty_title": {
-    "value": "Még nem hallott átjátszót",
+    "value": "Még nem hallottunk átjátszót",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "signal_direct_reception_empty_desc": {
     "value": "Azok az átjátszók, amelyeket a csomópontja közvetlenül hall, itt jelennek meg, amint forgalmuk beérkezik.",
@@ -8429,9 +8429,9 @@
     "_seeded": "2026-08-05"
   },
   "settings_home_sub_autoadd": {
-    "value": "Mely hirdetések válnak kapcsolatokká",
+    "value": "Mely advertek válnak névjegyekké",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "settings_home_sub_regions": {
     "value": "Földrajzi adási hatótávolságok",
@@ -8851,9 +8851,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_import_identity_footer": {
-    "value": "Illesszen be egy 64 vagy 128 karakteres hexadecimális titkos kulcsot a biztonsági másolatból származó identitás visszaállításához. A kulcs helyileg mentésre kerül, és továbbításra kerül a csatlakoztatott kiegészítő eszközre. Az exportálás során a csomópont kulcsa láthatóvá válik, így biztonsági másolatot készíthet róla.",
+    "value": "Illesszen be egy 64 vagy 128 karakteres hexadecimális titkos kulcsot a biztonsági másolatból származó identitás visszaállításához. A kulcs helyileg mentésre kerül, és továbbításra kerül a csatlakoztatott companion eszközre. Az exportálás során a csomópont kulcsa láthatóvá válik, így biztonsági másolatot készíthet róla.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_row_subtitle": {
     "value": "Hexadecimális kulcs beillesztése a biztonsági másolatból",
@@ -8961,9 +8961,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_connecting_stop_footer": {
-    "value": "Az utolsó csomópont nem érhető el. Szakítsd meg a csatlakozási kísérletet, és válassz egy másik társat az alábbiak közül.",
+    "value": "Az utolsó csomópont nem érhető el. Szakítsd meg a csatlakozási kísérletet, és válassz egy másik companiont az alábbiak közül.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_sensors_fetching": {
     "value": "Érzékelőadatok letöltése…",
@@ -9001,9 +9001,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_autoadd_auto_add_adverts": {
-    "value": "Hirdetések automatikus hozzáadása",
+    "value": "Advertek automatikus hozzáadása",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_autoadd_overwrite_oldest_when_full": {
     "value": "A legrégebbi bejegyzések felülírása, ha megtelt a tár",
@@ -9456,9 +9456,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_messagedetailshe_several_repeaters_match_this_hop_s_short": {
-    "value": "Több repeater is megfelel ennek a hopnak a rövid útvonal-előtagjára. Nem tudjuk automatikusan kiválasztani a megfelelőt. Válaszd ki azt, amelyik az útvonaladon volt.",
+    "value": "Több repeater előtagja is megegyezik ennek a hopnak a rövid előtagjával. Nem tudjuk automatikusan kiválasztani a megfelelőt. Válaszd ki azt, amelyik az útvonaladon volt.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_coveragemap_no_hexes_mapped_yet_drive_around_with_th": {
     "value": "Még nincsenek feltérképezett hexák. Vezess körbe bekapcsolt rádióval, és megjelennek itt.",
@@ -9691,9 +9691,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_mynode_broadcast_my_advert": {
-    "value": "Hirdetésem elküldése…",
+    "value": "Advertem szórása…",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_connect_via_wifi": {
     "value": "Csatlakozás WiFi-n keresztül",
@@ -9791,9 +9791,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_mynode_broadcast_advert": {
-    "value": "Hirdetés szórása",
+    "value": "Advert szórása",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_addregionsheet_region_name": {
     "value": "Régió neve",
@@ -9921,14 +9921,14 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_flood_advert": {
-    "value": "Flood hirdetés",
+    "value": "Flood advert",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_zero_hop_advert": {
-    "value": "Zero-hop hirdetés",
+    "value": "Zero-hop advert",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_manual_hops": {
     "value": "Manuális hopok",
@@ -9966,9 +9966,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_sends_a_rename_to_the_repeater_the_new_n": {
-    "value": "Átnevezési kérést küld a repeaternek. Az új név akkor jelenik meg, amint egy friss hirdetés megérkezik.",
+    "value": "Átnevezési kérést küld a repeaternek. Az új név akkor jelenik meg, amint egy friss advert megérkezik.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_favourites_pin_this_repeater_for_quicker": {
     "value": "A kedvencek kitűzik ezt a repeatert a gyorsabb hozzáférés érdekében. Ezt bármikor módosíthatod az alábbi csillag gombbal.",
@@ -10051,9 +10051,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_notifications_master_switch_when_off_kiekr_posts_no_no": {
-    "value": "Főkapcsoló. Ha ki van kapcsolva, a KiekR nem küld értesítést üzenetekről, csatornákról vagy hirdetésekről. Az alábbi, típusonkénti beállítások megmaradnak.",
+    "value": "Főkapcsoló. Ha ki van kapcsolva, a KiekR nem küld értesítést üzenetekről, csatornákról vagy advertekről. Az alábbi, típusonkénti beállítások megmaradnak.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_direct_messages": {
     "value": "Közvetlen üzenetek",
@@ -10066,14 +10066,14 @@
     "_seeded": "2026-09-20"
   },
   "ios_notifications_adverts": {
-    "value": "Hirdetések",
+    "value": "Advertek",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_notify_when_a_node_of_the_selected_type_": {
-    "value": "Értesítés, ha egy kiválasztott típusú node adásba kerül. A hirdetések alapértelmezetten zajosak; kapcsold be a Repeatert, ha tudni akarsz az újonnan megjelenő repeaterekről.",
+    "value": "Értesítés, ha egy kiválasztott típusú node adásba kerül. Az advertek alapértelmezetten zajosak; kapcsold be a Repeatert, ha tudni akarsz az újonnan megjelenő repeaterekről.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_notifications_notify_when_traffic_arrives_on_a_never_a": {
     "value": "Értesítés, ha forgalom érkezik egy soha hozzá nem adott csatornán",
@@ -10521,9 +10521,9 @@
     "_seeded": "2026-09-20"
   },
   "settings_autoadd_master_off_hint": {
-    "value": "Ez a node jelenleg minden hirdetéstípust automatikusan hozzáad („Auto add all”). Az alábbi szűrők nincsenek hatással. Lehet, hogy egy másik app kapcsolta át ezt.",
+    "value": "Ez a node jelenleg minden adverttípust automatikusan hozzáad („Auto add all”). Az alábbi szűrők nincsenek hatással. Lehet, hogy egy másik app kapcsolta át ezt.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_master_off_apply": {
     "value": "Típusszűrők alkalmazása",
@@ -11686,9 +11686,9 @@
     "_seeded": "2026-09-29"
   },
   "mynode_advert_zero_hop_confirm": {
-    "value": "Elküldöd a hirdetésedet a hatótávolságon belüli szomszédoknak?",
+    "value": "Elküldöd az adverted a hatótávolságon belüli szomszédoknak?",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "mqtt_err_broker_rejected": {
     "value": "A bróker elutasította a kapcsolatot (%1$s)",
@@ -11796,14 +11796,14 @@
     "_seeded": "2026-09-29"
   },
   "mynode_advert_flood_confirm": {
-    "value": "Terjeszted a hirdetésedet Flood módban az egész hálózatban?",
+    "value": "Terjeszted az adverted Flood módban az egész hálózatban?",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "regions_lookup_err_pubkey_unknown": {
-    "value": "A teljes nyilvános kulcs ismeretlen, várakozás a hirdetésére.",
+    "value": "A teljes nyilvános kulcs ismeretlen, várakozás az advertjére.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_identity_source_generated": {
     "value": "Ebben az alkalmazásban generálva",
@@ -11981,9 +11981,9 @@
     "_seeded": "2026-09-29"
   },
   "nodes_op_sending_advert": {
-    "value": "Hirdetés küldése…",
+    "value": "Advert küldése…",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "nodes_op_setting_name": {
     "value": "Név beállítása…",
@@ -12121,9 +12121,9 @@
     "_seeded": "2026-09-29"
   },
   "mynode_clock_still_ahead_body": {
-    "value": "Néhány kontakt még mindig jövőbeli időt hordoz, például mert a csomópont a javítás közben új hirdetéseket hallott. Futtasd le még egyszer a javítást.",
+    "value": "Néhány kontakt még mindig jövőbeli időt hordoz, például mert a csomópont a javítás közben új adverteket hallott. Futtasd le még egyszer a javítást.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "map_appearance_title": {
     "value": "Térkép megjelenése",
@@ -12216,9 +12216,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
-    "value": "Megváltoztatja a csomópont hirdetési nevét. A szomszédok a következő hirdetéskor veszik át.",
+    "value": "Megváltoztatja a csomópont advertnevét. A szomszédok a következő adverttel veszik át.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_channels_channel_not_found": {
     "value": "A csatorna nem található.",
@@ -12251,9 +12251,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
-    "value": "Megrajzolja az átjátszóláncot a térképen. A hallott hirdetés nélküli ugrások feloldhatók az online címjegyzéken keresztül, közvetlenül a térképnézetből.",
+    "value": "Megrajzolja az átjátszóláncot a térképen. A hallott advert nélküli ugrások feloldhatók az online címjegyzéken keresztül, közvetlenül a térképnézetből.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
     "value": "Minden ugrás az átjátszó nyilvános kulcsának első %1$d bájtja. A rövid kulcsok több átjátszóhoz is illeszkedhetnek. Érintse meg a földgömb ikont a hiányzó átjátszók feloldásához az online címjegyzéken keresztül.",
@@ -12291,9 +12291,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
-    "value": "Csak szomszédok. Csendes: Flood nélkül. Akkor használja, ha csak a közeli csomópontoknak kell megismerniük a hirdetését.",
+    "value": "Csak szomszédok. Csendes: Flood nélkül. Akkor használja, ha csak a közeli csomópontoknak kell megismerniük az advertjét.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_new_6_digit_pin": {
     "value": "Új 6 számjegyű PIN-kód",
@@ -12356,9 +12356,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
-    "value": "Kikapcsolva: az új hirdetések elvesznek, amint a táblázat megtelik. Bekapcsolva: a legrégebbi, nem kedvenc névjegy törlődik, hogy helyet biztosítson. A kedvencek mindig megmaradnak.",
+    "value": "Kikapcsolva: az új advertek elvesznek, amint a táblázat megtelik. Bekapcsolva: a legrégebbi, nem kedvenc névjegy törlődik, hogy helyet biztosítson. A kedvencek mindig megmaradnak.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_paywall_open_settings_pro_to_unlock": {
     "value": "A feloldáshoz nyissa meg: Beállítások → Pro.",
@@ -12366,9 +12366,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
-    "value": "A többi csomópontnak szüksége van a hirdetésünkre a kapcsolati táblázatában ahhoz, hogy vissza tudja fejteni a közvetlen üzeneteinket. Bármelyik opció kiválasztása azonnal elküldi azt.",
+    "value": "A többi csomópontnak szüksége van az advertünkre a kapcsolati táblázatában ahhoz, hogy vissza tudja fejteni a közvetlen üzeneteinket. Bármelyik opció kiválasztása azonnal elküldi azt.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
     "value": "A párosítás és az élő RSSI a következő verzióban érkezik.",
@@ -13426,9 +13426,9 @@
     "_seeded": "2026-10-06"
   },
   "ping_collision_message": {
-    "value": "Más ismert ismétlők vagy szobai szerverek ugyanazt a hop-hasht (%1$s) használják, mint a(z) %2$s: %3$s. A válasz bármelyikük felől érkezhet.",
+    "value": "Más ismert átjátszók vagy szobai szerverek ugyanazt a hop-hasht (%1$s) használják, mint a(z) %2$s: %3$s. A válasz bármelyikük felől érkezhet.",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "ping_collision_confirm": {
     "value": "Ping mindenképpen",
@@ -13441,9 +13441,9 @@
     "_seeded": "2026-10-06"
   },
   "mynode_wifi_auto_reconnect_footer": {
-    "value": "Újra csatlakozik a WiFi-s kísérődhöz, ha megszakad a kapcsolat, ha megnyitod az appot, és ha visszatér a WiFi. Kapcsold ki, ha másik telefon vagy app használja ugyanazt a kísérőt: csak egy kapcsolatot fogad el, ezért minden újracsatlakozás lekapcsolja a másik klienst.",
+    "value": "Újra csatlakozik a WiFi-s companionodhoz, ha megszakad a kapcsolat, ha megnyitod az appot, és ha visszatér a WiFi. Kapcsold ki, ha másik telefon vagy app használja ugyanazt a companiont: csak egy kapcsolatot fogad el, ezért minden újracsatlakozás lekapcsolja a másik klienst.",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "nodes_share_advert_toast_syncing": {
     "value": "Az eszközöd még szinkronizál. Próbáld újra egy pillanat múlva.",
@@ -13636,9 +13636,9 @@
     "_seeded": "2026-10-06"
   },
   "path_hop_shared_prefix": {
-    "value": "Több ismert ismétlő osztozik az előtagon (%1$s): %2$s",
+    "value": "Több ismert átjátszó osztozik az előtagon (%1$s): %2$s",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "settings_chats_keep_screen_on_header": {
     "value": "Kijelző",
@@ -13841,9 +13841,9 @@
     "_seeded": "2026-10-07"
   },
   "chat_detail_heard_from": {
-    "value": "Hallva ismétlőtől",
+    "value": "Hallva átjátszótól",
     "_ai": true,
-    "_seeded": "2026-10-07"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_next_hops": {
     "value": "Tovább ismétlőkön keresztül",
@@ -13909,14 +13909,14 @@
     "_seeded": "2026-10-17"
   },
   "mynode_node_clock_ahead_subtitle": {
-    "value": "%1$s előre · a hirdetések figyelmen kívül maradhatnak",
+    "value": "%1$s előre · az advertek figyelmen kívül maradhatnak",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_ahead_subtitle_unknown": {
-    "value": "A hirdetések figyelmen kívül maradhatnak",
+    "value": "Az advertek figyelmen kívül maradhatnak",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_repair_action": {
     "value": "Javítás",

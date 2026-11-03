@@ -211,9 +211,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_connect_node_message": {
-    "value": "Propojte si tento účet s uzlem v sekci „Můj uzel“, abyste mohli zobrazit své chaty a kanály.",
+    "value": "Spárujte uzel v sekci „Můj uzel“, abyste mohli zobrazit své chaty a kanály.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_connect_node_title": {
     "value": "Připojit uzel",
@@ -271,9 +271,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_candidates_explain": {
-    "value": "Tento předponu nejkratší trasy pro tento skok splňuje několik opakovačů. Nemůžeme vybrat ten správný automaticky. Vyberte ten, který se nacházel na vaší trase.",
+    "value": "Krátkému prefixu cesty tohoto skoku odpovídá několik opakovačů. Správný nemůžeme vybrat automaticky. Vyberte ten, který byl na vaší cestě.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_heard_no_position": {
     "value": "Slyšeno, poloha neznámá",
@@ -286,9 +286,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_no_match": {
-    "value": "žádná shoda v opakovačích typu „heard“",
+    "value": "žádná shoda mezi slyšenými opakovači",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_not_found": {
     "value": "nenalezeno: v adresáři nebyl žádný záznam pro tento prefix",
@@ -311,9 +311,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_map_footer": {
-    "value": "Zobrazí řetězec opakovačů na mapě. Skoky bez zaznamenané reklamy se zobrazují jako nevyřešené.",
+    "value": "Zobrazí řetězec opakovačů na mapě. Skoky bez zaznamenaného advertu se zobrazují jako nevyřešené.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_message_details": {
     "value": "Podrobnosti zprávy",
@@ -321,9 +321,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_no_repeats_yet": {
-    "value": "Zatím jsem neslyšel žádné opakování.",
+    "value": "Zatím nebylo slyšet žádné opakování.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_outgoing": {
     "value": "Odchozí",
@@ -351,9 +351,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_path_header_bytes": {
-    "value": "Cesta · %1$d -klíče typu byte",
+    "value": "Cesta · %1$d-bajtové klíče",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_path_unknown_direct": {
     "value": "neznámá (přímé směrování)",
@@ -366,9 +366,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_payload_advert": {
-    "value": "REKLAMA",
+    "value": "ADVERT",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_payload_grp_data": {
     "value": "GRP_DATA",
@@ -866,9 +866,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_scope_plain_flood": {
-    "value": "obyčejná povodeň (bez určení regionu)",
+    "value": "obyčejný flood (bez určení regionu)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_section_channels": {
     "value": "Kanály",
@@ -891,9 +891,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_tx_attempt_mode_flood": {
-    "value": "povodeň",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_tx_attempt_mode_path": {
     "value": "cesta",
@@ -1151,14 +1151,14 @@
     "_seeded": "2026-06-26"
   },
   "map_empty_hint_no_gps": {
-    "value": "Reklamy s GPS souřadnicemi se zde zobrazují hned po jejich přehrání.",
+    "value": "Adverty s GPS souřadnicemi se zde zobrazí, jakmile jsou zachyceny.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_hint_no_type_gps": {
-    "value": "Žádný z vozů typu „%1$s“ zatím neuvádí GPS souřadnice.",
+    "value": "Žádné uzly typu „%1$s“ zatím neoznamují souřadnice GPS.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_no_nodes": {
     "value": "Nebyly nalezeny žádné uzly",
@@ -1206,9 +1206,9 @@
     "_seeded": "2026-06-26"
   },
   "map_filter_only_heard_in_last": {
-    "value": "Slyšel jsem to teprve nedávno",
+    "value": "Pouze slyšené za posledních",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_filter_placeholder": {
     "value": "Filtrovat podle jména nebo veřejného klíče",
@@ -1316,9 +1316,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_cd_fit": {
-    "value": "Vhodné",
+    "value": "Přizpůsobit",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_directory_suffix": {
     "value": " (adresář)",
@@ -1326,9 +1326,9 @@
     "_seeded": "2026-06-26"
   },
   "map_path_hop_label": {
-    "value": "hop %1$d · %2$s %3$s",
+    "value": "hop %1$d · %2$s%3$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_path_message_path_title": {
     "value": "Cesta zprávy",
@@ -1486,19 +1486,19 @@
     "_seeded": "2026-06-26"
   },
   "mynode_broadcast_advert_footer": {
-    "value": "Aby ostatní uzly mohly dešifrovat naše soukromé zprávy, musí mít v tabulce kontaktů náš záznam. Klepnutím vyberte způsob šíření: „zero-hop“ je tichý (pouze sousedé); „flood“ je hlasitý (celá síť).",
+    "value": "Aby ostatní uzly mohly dešifrovat naše soukromé zprávy, musí mít v tabulce kontaktů náš advert. Klepnutím vyberte způsob šíření: „zero-hop“ je tichý (pouze sousedé); „flood“ je hlasitý (celá síť).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_broadcast_advert_row_title": {
-    "value": "Vysílejte mou reklamu…",
+    "value": "Vysílat můj advert…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_body": {
-    "value": "Hodiny uzlu jsou nastaveny na čas, který je oproti vašemu telefonu posunut dopředu. Reklamy a administrátorské příkazy obsahují časové razítko z budoucnosti a jsou automaticky zablokovány ochranou sítě proti opakovanému přehrání.",
+    "value": "Hodiny uzlu jsou nastaveny na čas, který je oproti vašemu telefonu posunut dopředu. Adverty a administrátorské příkazy obsahují časové razítko z budoucnosti a jsou automaticky zablokovány ochranou sítě proti opakovanému přehrání.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_ahead_rtc_body": {
     "value": "Toto zařízení je vybaveno hodinami RTC s bateriovou zálohou. Software je nemůže vynulovat. K obnovení je třeba provést aktualizaci firmwaru nebo vyjmout záložní baterii hodin RTC.",
@@ -1506,9 +1506,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_clock_ahead_title": {
-    "value": "Doplňkové hodiny jdou napřed",
+    "value": "Hodiny uzlu jdou napřed",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_clock_in_sync": {
     "value": "dobře",
@@ -1556,9 +1556,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "U desek ESP32 s doprovodným firmwarem sestaveným pomocí WIFI_SSID zadejte IP adresu zařízení a TCP port.",
+    "value": "U desek ESP32 s firmwarem companion sestaveným pomocí WIFI_SSID zadejte IP adresu zařízení a TCP port.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_connection_row_title": {
     "value": "Připojení",
@@ -1576,19 +1576,19 @@
     "_seeded": "2026-06-26"
   },
   "mynode_dialog_broadcast_advert_body": {
-    "value": "Ostatní uzly potřebují naši reklamu, aby mohly dešifrovat naše soukromé zprávy. Vyberte dosah:",
+    "value": "Ostatní uzly potřebují náš advert, aby mohly dešifrovat naše soukromé zprávy. Vyberte dosah:",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_dialog_broadcast_advert_title": {
-    "value": "Televizní reklama",
+    "value": "Vysílat advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_footer": {
-    "value": "Funkce „Odpojit“ přeruší spojení, ale zachová uloženou vazbu v mezipaměti. Klepnutím na „Připojit“ se můžete znovu připojit bez nutnosti opakovaného párování. Funkce „Zapomenout“ zruší párování a vymaže mezipaměť; pro obnovení spojení je nutné uzel znovu spárovat.",
+    "value": "Přeruší spojení. Znovu se můžete připojit kdykoli ze seznamu companionů výše.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_disconnect_row_title": {
     "value": "Odpojit",
@@ -1646,9 +1646,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_flood_body": {
-    "value": "Celá síť. Hlasité: každý opakovač vysílá signál dál. Používejte s rozvahou; hromadné reklamy se platí podle vysílacího času na jednotlivých opakovačích.",
+    "value": "Celá síť. Hlasité: každý opakovač vysílá signál dál. Používejte s rozvahou; flood adverty zabírají vysílací čas na každém opakovači.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_flood_title": {
     "value": "Zaplnit síť",
@@ -1681,14 +1681,14 @@
     "_seeded": "2026-06-26"
   },
   "mynode_identity_footer": {
-    "value": "DM jsou podepsány touto identitou. Je převzata z párového uzlu při prvním připojení; zůstává zachována i při opakovaných připojeních, dokud nepřevzete seed jiného uzlu.",
+    "value": "DM jsou podepsány touto identitou. Je převzata ze spárovaného uzlu při prvním připojení; zůstává zachována i při opakovaných připojeních, dokud nepřevzete seed jiného uzlu.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_known_companions": {
-    "value": "Známí společníci",
+    "value": "Známá companion zařízení",
     "_ai": true,
-    "_seeded": "2026-06-29"
+    "_seeded": "2026-11-03"
   },
   "mynode_known_companions_footer": {
     "value": "Klepnutím na zařízení v seznamu jej znovu připojíte. Přejetím prstem jej ze seznamu odstraníte.",
@@ -1856,9 +1856,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_pair_a_node_footer": {
-    "value": "Při prvním spárování se zobrazí dialogové okno pro propojení systému.",
+    "value": "Při prvním spárování se zobrazí systémové dialogové okno pro párování.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_pairing_pin_row_subtitle": {
     "value": "Klepnutím změnit",
@@ -2031,9 +2031,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_status_pairing_with": {
-    "value": "V kombinaci s filmem „%1$s“…",
+    "value": "Párování s %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_status_scanning": {
     "value": "Skenování…",
@@ -2086,9 +2086,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_zero_hop_body": {
-    "value": "Pouze sousedé. Tichý provoz: žádné zahlcení. Používejte pouze v případě, že vaši inzerci potřebují znát pouze uzly v okolí.",
+    "value": "Pouze sousedé. Tichý provoz: žádný flood. Používejte, pokud váš advert potřebují znát pouze uzly v okolí.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "mynode_zero_hop_title": {
     "value": "Zero-hop",
@@ -2166,9 +2166,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_contact_pubkey_footer": {
-    "value": "Veřejný klíč představuje 32-byteovou identitu kontaktu v šifrovacím standardu Ed25519, zapsanou jako 64 hexadecimálních znaků. Následující oznámení doplní údaje o poloze GPS, síle signálu a případné aktualizace jména.",
+    "value": "Veřejný klíč představuje 32-byteovou identitu kontaktu v šifrovacím standardu Ed25519, zapsanou jako 64 hexadecimálních znaků. Následující adverty doplní údaje o poloze GPS, síle signálu a případné aktualizace jména.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_contact_pubkey_label": {
     "value": "Veřejný klíč (64 hexadecimálních znaků)",
@@ -2321,9 +2321,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_add_type_companion": {
-    "value": "Spolupracovník",
+    "value": "Companion",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_type_repeater": {
     "value": "Opakovač",
@@ -2346,14 +2346,14 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_advert": {
-    "value": "Reklama",
+    "value": "Advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_flood": {
-    "value": "Reklama na povodně",
+    "value": "Flood advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_advert_zero_hop": {
     "value": "Zero-hop",
@@ -2531,9 +2531,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_name_pending_advert": {
-    "value": "· připravovaná inzerce",
+    "value": "· čekající advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_no_output": {
     "value": "(žádný výstup)",
@@ -2561,9 +2561,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_position_hint": {
-    "value": "Nastaví inzerovanou polohu opakovače. Zadejte hodnotu v desítkových stupních; v budoucnu se plánuje zavedení výběru z mapy.",
+    "value": "Nastaví polohu opakovače, kterou oznamuje v advertech. Zadejte hodnotu v desítkových stupních; v budoucnu se plánuje zavedení výběru z mapy.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_position_lat": {
     "value": "Zeměpisná šířka",
@@ -2771,9 +2771,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet1": {
-    "value": "• Přenosové pakety budou omezeny na zadaný region.",
+    "value": "• Pakety typu „flood“ budou omezeny na zadaný region.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_default_region_bullet2": {
     "value": "• Pouze opakovače, které mají povolený přístup do daného regionu, budou přenášet pakety s omezeným rozsahem.",
@@ -2826,9 +2826,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_delete_dialog_body": {
-    "value": "Kontakt s utěrkami, reklama, opakované heslo, stav přihlášení, data o cestě, posun záznamu CLI, sousedé, stav, telemetrie. Přímé zprávy se uchovávají.",
+    "value": "Smaže kontakt, advert, heslo opakovače, stav přihlášení, data cesty, historii výstupu CLI, sousedy, stav a telemetrii. Přímé zprávy zůstanou zachovány.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_delete_dialog_title": {
     "value": "Úplně odstranit uzel?",
@@ -2836,9 +2836,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_acl_footer": {
-    "value": "Po přihlášení se tento konektor přidá do seznamu ACL opakovače, aby fungovalo zjišťování tras, sousedů a telemetrie. Chcete-li se přihlásit jako host nebo znovu přiřadit stávající záznam v seznamu ACL, nechte pole pro heslo prázdné; pro širší přístup zadejte heslo „admin“ nebo „guest“.",
+    "value": "Po přihlášení se tento konektor přidá do seznamu ACL opakovače, aby fungovalo zjišťování tras, sousedů a telemetrie. Chcete-li se přihlásit jako host nebo znovu přiřadit stávající záznam v seznamu ACL, nechte pole pro heslo prázdné; pro širší přístup zadejte heslo správce nebo hosta.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_add_to_favorites": {
     "value": "Přidat do oblíbených",
@@ -2846,9 +2846,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_advertised_prefix": {
-    "value": "inzerováno na: %1$s",
+    "value": "oznámeno: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_age_days_ago": {
     "value": "%1$d před několika dny",
@@ -2931,9 +2931,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_flood": {
-    "value": "povodeň",
+    "value": "flood",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_from_directory": {
     "value": "z online adresáře",
@@ -3171,9 +3171,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_rename_advertised": {
-    "value": "Inzerát: %1$s",
+    "value": "Oznámeno: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_rename_empty_hint": {
     "value": "Nechte pole prázdné, chcete-li použít uvedený název.",
@@ -3276,9 +3276,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_unknown_body": {
-    "value": "Pro tento veřejný klíč zatím neexistuje žádný inzerát ani kontaktní řádek.",
+    "value": "Pro tento veřejný klíč zatím neexistuje žádný advert ani kontaktní řádek.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_unknown_section": {
     "value": "Neznámý uzel",
@@ -3375,29 +3375,29 @@
     "_seeded": "2026-06-26"
   },
   "nodes_empty_msg_nothing": {
-    "value": "O ničem takovém se zatím nic neví.",
+    "value": "Zatím nebylo zachyceno nic tohoto typu.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_repeaters": {
-    "value": "Zde se zobrazují blízké opakovače, jakmile jejich oznámení dorazí k vašemu spárovanému uzlu.",
+    "value": "Zde se zobrazují blízké opakovače, jakmile jejich adverty dorazí k vašemu spárovanému uzlu.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_rooms": {
-    "value": "Zde se zobrazují reklamy pokojového serveru.",
+    "value": "Zde se zobrazují adverty pokojového serveru.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_sensors": {
-    "value": "Zde se zobrazují reklamy na senzory.",
+    "value": "Zde se zobrazují adverty senzorů.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_msg_users": {
-    "value": "Inzeráty ostatních uživatelů se zde zobrazí, jakmile jejich pakety dorazí na váš spárovaný uzel.",
+    "value": "Adverty ostatních uživatelů se zde zobrazí, jakmile jejich pakety dorazí na váš spárovaný uzel.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_empty_no_matches": {
     "value": "Žádné výsledky",
@@ -3470,9 +3470,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_filter_only_heard_in_last": {
-    "value": "Slyšel jsem to až v poslední době",
+    "value": "Pouze slyšené za posledních",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_filter_placeholder": {
     "value": "Filtrovat podle jména nebo veřejného klíče",
@@ -3525,9 +3525,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_last_heard_unknown": {
-    "value": "nikdy jsem o tom neslyšel",
+    "value": "nikdy neslyšeno",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_add_region": {
     "value": "Přidat region",
@@ -3535,9 +3535,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manage_regions_affected": {
-    "value": "Používá kanál %1$d, %2$s a %3$d; kontakt: %4$s. Budou se vracet do stavu bez regionu (čistý Flood).",
+    "value": "Používá %1$d kanálů%2$s a %3$d kontaktů%4$s. Vrátí se do stavu bez regionu (obyčejný flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_allow_flood": {
     "value": "Povolit Flood",
@@ -3750,9 +3750,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_learned_prefix": {
-    "value": "Zdroj: %1$s",
+    "value": "Naučeno: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_no_learned_path": {
     "value": "(zatím není definována žádná trasa: přímé odeslání by proběhlo bez přeskoku)",
@@ -4010,9 +4010,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_sort_key_last_heard": {
-    "value": "Naposledy slyšeli",
+    "value": "Naposledy slyšeno",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_sort_key_last_heard_asc": {
     "value": "Nejstarší nejprve",
@@ -4165,9 +4165,9 @@
     "_seeded": "2026-06-26"
   },
   "notif_status_pairing": {
-    "value": "V kombinaci s filmem „%1$s“…",
+    "value": "Párování s %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "notif_status_scanning": {
     "value": "Vyhledávání uzlů…",
@@ -4255,9 +4255,9 @@
     "_seeded": "2026-07-05"
   },
   "repeater_cli_advert": {
-    "value": "Reklama",
+    "value": "Advert",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_clear_stats": {
     "value": "Vymazat statistiky",
@@ -4600,9 +4600,9 @@
     "_seeded": "2026-07-05"
   },
   "settings_autoadd_app_distance_footer": {
-    "value": "Reklamy, které prošly více než tímto počtem opakovačů, aplikace automaticky nepřidává. 0 = pouze přímé; 64 = neomezeně (omezení dané firmwarem).",
+    "value": "Adverty, které prošly více než tímto počtem opakovačů, aplikace automaticky nepřidává. 0 = pouze přímé; 64 = neomezeně (omezení dané firmwarem).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_app_distance_header": {
     "value": "Limit vzdálenosti (aplikace)",
@@ -4610,14 +4610,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_app_types_footer": {
-    "value": "Jakmile aplikace zachytí reklamu typu, který máte povolený, přidá daný uzel do vašich lokálních kontaktů, takže se zobrazí v sekci „Chaty / Uzly“. U vyfiltrovaných typů dojde ke ztrátě ECDH cache, takže soukromé zprávy od nich nelze dešifrovat, pokud daný kontakt nepřidáte ručně. Změny se synchronizují s připojeným zařízením, je-li k dispozici.",
+    "value": "Jakmile aplikace zachytí advert typu, který máte povolený, přidá daný uzel do vašich lokálních kontaktů, takže se zobrazí v sekci „Chaty / Uzly“. U vyfiltrovaných typů dojde ke ztrátě ECDH cache, takže soukromé zprávy od nich nelze dešifrovat, pokud daný kontakt nepřidáte ručně. Změny se synchronizují s připojeným zařízením, je-li k dispozici.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_app_types_header": {
-    "value": "Typy reklam k automatickému přidání (aplikace)",
+    "value": "Typy advertů k automatickému přidání (aplikace)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_cd_back": {
     "value": "Zpět",
@@ -4645,24 +4645,24 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_companion_distance_footer": {
-    "value": "Reklamy, které prošly více než tímto počtem opakovačů, zařízení automaticky nepřidá. 0 = pouze přímé; 64 = neomezeně (limit daný firmwarem).",
+    "value": "Adverty, které prošly více než tímto počtem opakovačů, zařízení automaticky nepřidá. 0 = pouze přímé; 64 = neomezeně (limit daný firmwarem).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_distance_header": {
-    "value": "Vzdálenostní limit (doprovod)",
+    "value": "Vzdálenostní limit (companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_footer": {
-    "value": "Jakmile připojené zařízení zachytí reklamu podporovaného typu, uloží daný uzel do své tabulky kontaktů. Tento záznam zůstane zachován i po restartu a při příštím vybití baterie se data předají do aplikace.",
+    "value": "Jakmile připojené zařízení zachytí advert povoleného typu, uloží daný uzel do své tabulky kontaktů. Tento záznam zůstane zachován i po restartu a do aplikace se dostane při příštím vyprázdnění fronty.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_companion_types_header": {
-    "value": "Typy reklam k automatickému přidání (doplňkové)",
+    "value": "Typy advertů k automatickému přidání (companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_connect_hint": {
     "value": "Připojte uzel, abyste mohli do svého zařízení odesílat změny zásad.",
@@ -4670,9 +4670,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_full_footer": {
-    "value": "Vypnuto: nové reklamy jsou vyřazeny. Zapnuto: nejstarší z těch, které nejsou mezi oblíbenými, je vyřazena. Oblíbené zůstávají.",
+    "value": "Vypnuto: nové adverty jsou vyřazeny. Zapnuto: nejstarší z těch, které nejsou mezi oblíbenými, je vyřazena. Oblíbené zůstávají.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_full_header": {
     "value": "Když je tabulka kontaktů plná",
@@ -4705,9 +4705,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_row_chat": {
-    "value": "Chat (společník)",
+    "value": "Chat (companion)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_row_repeater": {
     "value": "Opakovač",
@@ -4725,9 +4725,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_autoadd_title": {
-    "value": "Automatické přidávání reklam",
+    "value": "Automatické přidávání advertů",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoresolve_bg_lookups_footer": {
     "value": "Je-li funkce KiekR zapnutá, může aplikace automaticky spouštět vyhledávání v adresáři v případě chybějících kontextových údajů, které pasivně zaznamená: neznámé skoky v trase, zachycené opakovače, které ještě nejsou v adresáři, chybějící řádky sousedů a chybějící regiony při vyhledávání. Je-li funkce vypnutá (výchozí nastavení), je pro každé vyhledávání v adresáři nutné klepnutí.",
@@ -5735,9 +5735,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_community_map_footer": {
-    "value": "Zrcadla přijímají reklamy opakovačů na veřejnou mapu komunity MeshCore. Pouze Wi-Fi. Maximálně jeden upload na opakovač denně.",
+    "value": "Zrcadlí zachycené adverty opakovačů na veřejnou mapu komunity MeshCore. Pouze Wi-Fi. Maximálně jeden upload na opakovač denně.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_community_map_header": {
     "value": "Mapa komunity",
@@ -5760,9 +5760,9 @@
     "_seeded": "2026-06-27"
   },
   "settings_community_coverage_cells": {
-    "value": "Buňky slyšely",
+    "value": "Slyšené buňky",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_coverage_footer": {
     "value": "Je-li aplikace KiekR zapnutá, zaznamenává, které oblasti (a pokud je to možné, i které opakovače) zachytí v hrubé mapové buňce o velikosti přibližně půl kilometru, a pravidelně odesílá souhrnné údaje za jednotlivé buňky přes Wi-Fi. Vaše přesná poloha nikdy neopustí telefon (pouze danou buňku) a mapa vždy zobrazuje pouze to, co bylo v daném místě zachyceno, nikdy však neukazuje, kdo to zachytil. Tato funkce je pseudonymní a oddělená od vaší identity v aplikaci KiekR; můžete ji kdykoli vypnout.",
@@ -5980,9 +5980,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_community_region_map_footer": {
-    "value": "Je-li aplikace KiekR zapnutá, nahrává na map.kiekr.app každou reklamu opakovače, kterou zachytí z éteru, a také všechny regiony nebo seznamy sousedů, které z opakovače načtete. Nahrané údaje jsou pseudonymní a nejsou propojeny s vaší identitou v aplikaci KiekR. Pomáhá to vytvářet veřejnou mapu míst, kde se regiony používají. Zprávy, kontakty a vaše poloha nejsou nikdy sdíleny.",
+    "value": "Je-li aplikace KiekR zapnutá, nahrává na map.kiekr.app každý advert opakovače, který zachytí z éteru, a také všechny regiony nebo seznamy sousedů, které z opakovače načtete. Nahrané údaje jsou pseudonymní a nejsou propojeny s vaší identitou v aplikaci KiekR. Pomáhá to vytvářet veřejnou mapu míst, kde se regiony používají. Zprávy, kontakty a vaše poloha nejsou nikdy sdíleny.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_community_region_map_header": {
     "value": "Mapa regionu",
@@ -6240,9 +6240,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_directory_cache_footer": {
-    "value": "Odstraní všechny řádky s kontakty importované z online adresáře i předpisu mezipaměti uloženou na disku. Kontakty získané přímo z kabelu zůstanou nedotčeny.",
+    "value": "Odstraní všechny řádky s kontakty importované z online adresáře i mezipaměť prefixů uloženou na disku. Kontakty získané přímo z kabelu zůstanou nedotčeny.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_cache_prefix_count": {
     "value": "%1$d předpony",
@@ -6325,9 +6325,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_directory_reset_confirm_body": {
-    "value": "Odstraní všechny řádky s kontakty importované z online adresáře i předpisu mezipaměti uloženou na disku. Kontakty získané přímo z kabelu zůstanou nedotčeny.",
+    "value": "Odstraní všechny řádky s kontakty importované z online adresáře i mezipaměť prefixů uloženou na disku. Kontakty získané přímo z kabelu zůstanou nedotčeny.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_directory_reset_confirm_title": {
     "value": "Vynulovat mezipaměť adresářů?",
@@ -6445,9 +6445,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_help_logs_email_firmware": {
-    "value": "Přidružený firmware: %1$s",
+    "value": "Spárovaný firmware: %1$s",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_help_logs_email_identity": {
     "value": "Identifikátor (prvních 16 hexadecimálních znaků): %1$s",
@@ -6645,14 +6645,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Upozornit, když se u vysílání objeví uzel vybraného typu. Reklamy jsou ve výchozím nastavení hlasité; pokud chcete být informováni o nových opakovačích hned, jak se objeví, zapněte funkci „Repeater“.",
+    "value": "Upozornit, když se u vysílání objeví uzel vybraného typu. Adverty jsou ve výchozím nastavení hlučné; pokud chcete být informováni o nových opakovačích hned, jak se objeví, zapněte funkci „Repeater“.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_adverts_header": {
-    "value": "Reklamy",
+    "value": "Adverty",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_cd_back": {
     "value": "Zpět",
@@ -6695,9 +6695,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_master_footer": {
-    "value": "Hlavní přepínač. Je-li vypnutý, KiekR nezobrazuje žádná oznámení o zprávách, kanálech ani reklamách. Níže uvedená nastavení pro jednotlivé typy zůstávají zachována.",
+    "value": "Hlavní přepínač. Je-li vypnutý, KiekR nezobrazuje žádná oznámení o zprávách, kanálech ani advertech. Níže uvedená nastavení pro jednotlivé typy zůstávají zachována.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_notifications_master_header": {
     "value": "Oznámení",
@@ -6745,9 +6745,9 @@
     "_seeded": "2026-07-05"
   },
   "settings_pathlookup_cache_footer": {
-    "value": "Trvalá pomoc při učení pro kolize prefixů: jakmile deterministický výběrový algoritmus vybere vítěze, trojice (prefix, hop, pubkey) se posune, takže při příštím rovnosti hlasů u stejného prefixu dojde k rozlišení stejným způsobem.\n\nTTL mezipaměti: jak dlouho záznam zůstává v mezipaměti, aniž by byl znovu použit. Výchozí hodnota 30 dní, rozsah 1..=180.\n\nRozhodující rozpětí: jak blízko u sebe musí být metriky dvou kandidátů (v %%), než mezipaměť rozhodne o rovnosti. Hodnota 0 deaktivuje použití mezipaměti (kvalifikují se pouze přesné rovnosti); 20 je horní mez. Výchozí hodnota je 5 %%.",
+    "value": "Trvalá pomoc při učení pro kolize prefixů: jakmile deterministický výběrový algoritmus vybere vítěze, trojice (prefix, hop, pubkey) se posune, takže při příští rovnosti hlasů u stejného prefixu dojde k rozlišení stejným způsobem.\n\nTTL mezipaměti: jak dlouho záznam zůstává v mezipaměti, aniž by byl znovu použit. Výchozí hodnota 30 dní, rozsah 1..=180.\n\nRozhodující rozpětí: jak blízko u sebe musí být metriky dvou kandidátů (v %%), než mezipaměť rozhodne o rovnosti. Hodnota 0 deaktivuje použití mezipaměti (kvalifikují se pouze přesné rovnosti); 20 je horní mez. Výchozí hodnota je 5 %%.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_cache_header": {
     "value": "Cache s rozlišením cesty",
@@ -6800,9 +6800,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_pathlookup_encoding_footer_locked": {
-    "value": "Pro vícebajtové skoky je nutný doprovodný firmware verze 1.15.0 nebo novější. Váš doprovodný přístroj hlásí starší verzi: dokud neprovedete aktualizaci, zůstane omezen na 1 bajt. Vaše předchozí nastavení zůstane zachováno a po aktualizaci se znovu aktivuje.",
+    "value": "Pro vícebajtové skoky je nutný firmware companionu verze 1.15.0 nebo novější. Váš companion hlásí starší verzi: dokud neprovedete aktualizaci, zůstane omezen na 1 bajt. Vaše předchozí nastavení zůstane zachováno a po aktualizaci se znovu aktivuje.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_pathlookup_encoding_footer_supported": {
     "value": "Počet bajtů na skok, který se připojuje k trase u nových odchozích paketů, které generujeme. Vyšší hodnoty omezují kolize jmen, ale starší verze firmwaru opakovačů je nemusí předávat dál. Naučené trasy ke známým kontaktům si zachovávají šířku, v jaké byly přijaty. Toto nastavení ovlivňuje pouze trasy typu „flood“ a „anon-reply“. Pro jedinečné trasy se doporučují 3 bajty (2 také fungují); výchozí hodnota firmwaru je 1.",
@@ -7020,9 +7020,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_default_scope_unsupported_footer": {
-    "value": "Spárovaný uzel hlásí verzi firmwaru %1$s (úroveň doprovodného protokolu %2$s); výchozí region vyžaduje úroveň protokolu 11. Proveďte aktualizaci na verzi firmwaru, která obsahuje operační kódy v11.",
+    "value": "Spárovaný uzel hlásí verzi firmwaru %1$s (úroveň protokolu companionu %2$s); výchozí region vyžaduje úroveň protokolu 11. Proveďte aktualizaci na verzi firmwaru, která obsahuje operační kódy v11.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_delete_confirm_body": {
     "value": "Odebere danou oblast z vašeho zařízení. Později ji můžete znovu přidat podle názvu.",
@@ -7060,9 +7060,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_none_plain_flood": {
-    "value": "Žádné (čistá povodeň)",
+    "value": "Žádné (čistý Flood)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove": {
     "value": "Odstranit",
@@ -7075,19 +7075,19 @@
     "_seeded": "2026-06-26"
   },
   "settings_regions_remove_in_use_both": {
-    "value": "„%1$s“ je stále přiřazeno k%2$d kanálům a %3$d kontaktům. Jeho odstranění způsobí, že se tyto položky vrátí do stavu bez přiřazení k regionu (obyčejný Flood).",
+    "value": "„%1$s“ je stále přiřazeno k %2$d kanálům a %3$d kontaktům. Jeho odstranění způsobí, že se tyto položky vrátí do stavu bez přiřazení k regionu (obyčejný Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_channels": {
-    "value": "„%1$s“ je stále přiřazeno k %2$dkému kanálu (kanálům). Jeho odstranění způsobí, že se tyto kanály vrátí do stavu bez přiřazení k regionu (obyčejný Flood).",
+    "value": "„%1$s“ je stále přiřazeno ke kanálům (%2$d). Jeho odstranění způsobí, že se tyto kanály vrátí do stavu bez přiřazení k regionu (obyčejný Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_contacts": {
-    "value": "„%1$s“ je stále přiřazeno k kontaktům typu „%2$d“. Jeho odstranění způsobí, že se tyto kontakty vrátí do stavu bez přiřazení regionu (obyčejný Flood).",
+    "value": "„%1$s“ je stále přiřazeno ke kontaktům (%2$d). Jeho odstranění způsobí, že se tyto kontakty vrátí do stavu bez přiřazení regionu (obyčejný Flood).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_regions_remove_in_use_title": {
     "value": "Region je stále v provozu",
@@ -7215,9 +7215,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_retries_manual_cap_footer": {
-    "value": "Pevný limit počtu opakovaných pokusů iniciovaných uživatelem pro každou odchozí zprávu (oranžový symbol ↻ u bublin bez potvrzení). Jakmile dosáhnete tohoto limitu, symbol zešedne a přestane reagovat na klepnutí. Výchozí hodnota je 5 (odpovídá schématu automatických opakovaných pokusů: 3× přímé + 2× hromadné).",
+    "value": "Pevný limit počtu opakovaných pokusů iniciovaných uživatelem pro každou odchozí zprávu (oranžový symbol ↻ u bublin bez potvrzení). Jakmile dosáhnete tohoto limitu, symbol zešedne a přestane reagovat na klepnutí. Výchozí hodnota je 5 (odpovídá schématu automatických opakovaných pokusů: 3× přímé + 2× flood).",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "settings_retries_manual_cap_header": {
     "value": "Limit ručních opakovaných pokusů",
@@ -7255,9 +7255,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_stats_adverts_heard": {
-    "value": "Slyšené reklamy",
+    "value": "Slyšené adverty",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_stats_by_type_header": {
     "value": "Podle typu",
@@ -7320,9 +7320,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_tools_background_footer": {
-    "value": "Systém Android při vypnuté obrazovce pozastaví síťové připojení aplikací. Vyjměte aplikaci KiekR z optimalizace spotřeby baterie (a také z omezení automatického spouštění nastavených výrobcem telefonu), aby spojení s aplikací zůstalo aktivní na pozadí.",
+    "value": "Systém Android při vypnuté obrazovce pozastaví síťové připojení aplikací. Vyjměte aplikaci KiekR z optimalizace spotřeby baterie (a také z omezení automatického spouštění nastavených výrobcem telefonu), aby spojení s companionem zůstalo aktivní na pozadí.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_tools_background_header": {
     "value": "Propojení v pozadí",
@@ -7520,9 +7520,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_connection_banner_pairing": {
-    "value": "V kombinaci s filmem „%1$s“…",
+    "value": "Párování s %1$s…",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_connection_banner_scanning": {
     "value": "Vyhledávání uzlů…",
@@ -7575,9 +7575,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_map_consent_body": {
-    "value": "Aplikace KiekR dokáže nahrát na map.kiekr.app všechny signály opakovačů, které zachytí ve vzduchu, a také jakékoli regiony nebo seznamy sousedů, které z opakovače získáte. Nahrané údaje jsou pseudonymní a nejsou propojeny s vaší identitou v aplikaci KiekR. Zprávy, kontakty a vaše poloha se nikdy nesdílejí.\n\nToto nastavení můžete kdykoli změnit v části Nastavení → Nahrávání do komunity.",
+    "value": "Aplikace KiekR dokáže nahrát na map.kiekr.app všechny adverty opakovačů, které zachytí ve vzduchu, a také jakékoli regiony nebo seznamy sousedů, které z opakovače získáte. Nahrané údaje jsou pseudonymní a nejsou propojeny s vaší identitou v aplikaci KiekR. Zprávy, kontakty a vaše poloha se nikdy nesdílejí.\n\nToto nastavení můžete kdykoli změnit v části Nastavení → Nahrávání do komunity.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_map_consent_title": {
     "value": "Chcete pomoci s tvorbou veřejné mapy?",
@@ -7615,9 +7615,9 @@
     "_seeded": "2026-06-26"
   },
   "ui_pathhash_use_node_value": {
-    "value": "Použít hodnotu uzlu (%1$d, bajt)",
+    "value": "Použít hodnotu uzlu (%1$d Byte)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "ui_region_clear_app_default": {
     "value": "Vymazat výchozí nastavení aplikace",
@@ -7750,9 +7750,9 @@
     "_seeded": "2026-08-04"
   },
   "settings_channels_rejected_footer": {
-    "value": "Kanály, které jste odstranili nebo ignorovali. Prolétněte, abyste obnovili jeden kanál do seznamu kanálů, nebo je resetujte všechny, abyste je poslali zpět do Objevena pro přezkoumání. Nic zde není odstraněno.",
+    "value": "Kanály, které jste odstranili nebo ignorovali. Přejetím prstem obnovíte kanál do seznamu kanálů, nebo je všechny resetujte a pošlete zpět do sekce Objevené k přezkoumání. Nic zde není odstraněno.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "settings_channels_rejected_restore": {
     "value": "Obnovit",
@@ -7845,9 +7845,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_promo_body": {
-    "value": "Ostatní uzly potřebují vaši reklamu, než vám mohou poslat zprávu.",
+    "value": "Ostatní uzly potřebují váš advert, než vám mohou poslat zprávu.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_location_row_title": {
     "value": "Poloha (GPS)",
@@ -7885,9 +7885,9 @@
     "_seeded": "2026-08-04"
   },
   "mynode_onboarding_body": {
-    "value": "Spojte své zařízení MeshCore k odesílání a přijímání zpráv v síti.",
+    "value": "Spárujte své zařízení MeshCore, abyste mohli odesílat a přijímat zprávy v síti.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_state_uptime": {
     "value": "Provozní doba",
@@ -7895,14 +7895,14 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_share_title": {
-    "value": "Akciová pozice v inzerátu",
+    "value": "Sdílet polohu v advertu",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_share_hint": {
-    "value": "Vysílá pozici tohoto uzlu do celé sítě v reklamě  z GPS, pokud je zapnutá, nebo pevnou pozici, kterou nastavíte níže.",
+    "value": "Vysílá pozici tohoto uzlu do celé sítě v jeho advertu: z GPS, pokud je zapnutá, nebo pevnou pozici, kterou nastavíte níže.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_shared_position": {
     "value": "Sdílená pozice",
@@ -7925,24 +7925,24 @@
     "_seeded": "2026-08-04"
   },
   "mynode_advert_position_sheet_title": {
-    "value": "Poloha inzerátu",
+    "value": "Poloha advertu",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_lat": {
-    "value": "Šířka zeměpisné šířky",
+    "value": "Zeměpisná šířka",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_lon": {
-    "value": "Délková délka",
+    "value": "Zeměpisná délka",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_broadcast_warning": {
-    "value": "Tato reklama sdílí pozici tohoto uzlu s celou sítí.",
+    "value": "Tento advert sdílí pozici tohoto uzlu s celou sítí.",
     "_ai": true,
-    "_seeded": "2026-08-04"
+    "_seeded": "2026-11-03"
   },
   "mynode_advert_map_hint": {
     "value": "Klepněte na mapu, abyste nastavili polohu svého uzlu",
@@ -8430,9 +8430,9 @@
     "_seeded": "2026-08-05"
   },
   "settings_home_sub_autoadd": {
-    "value": "Které reklamy se stanou kontakty",
+    "value": "Které adverty se stanou kontakty",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "settings_home_sub_regions": {
     "value": "Geografické rozsahy vysílání",
@@ -8837,9 +8837,9 @@
     "_seeded": "2026-08-11"
   },
   "map_path_no_gps_hint": {
-    "value": "Žádná poloha GPS: online adresářové odkazy nemusí být na mapě zobrazeny. Povolte přístup k poloze pro úplné určení trasy.",
+    "value": "Žádná poloha GPS: skoky z online adresáře nemusí být na mapě zobrazeny. Povolte přístup k poloze pro úplné určení trasy.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_dialog_body": {
     "value": "Zadejte 32-bajtový seed (64 hexadecimálních znaků) nebo 64-bajtový rozšířený soukromý klíč (128 hexadecimálních znaků) ze zálohy. Odvozený veřejný klíč se před uložením zobrazí níže.",
@@ -8852,9 +8852,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_import_identity_footer": {
-    "value": "Vložte 64- nebo 128-znakový hexadecimální soukromý klíč k obnovení zálohované identity. Uloží se lokálně a odešle se do připojeného doplňkového zařízení. Funkce Export odhalí klíč tohoto uzlu, abyste si jej mohli zálohovat.",
+    "value": "Vložte 64- nebo 128-znakový hexadecimální soukromý klíč k obnovení zálohované identity. Uloží se lokálně a odešle se do připojeného companion zařízení. Funkce Export odhalí klíč tohoto uzlu, abyste si jej mohli zálohovat.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_import_identity_row_subtitle": {
     "value": "Vložit hexadecimální klíč ze zálohy",
@@ -8962,9 +8962,9 @@
     "_seeded": "2026-08-17"
   },
   "mynode_connecting_stop_footer": {
-    "value": "Poslední uzel je nedostupný. Ukončete pokus o připojení a vyberte si jiného partnera z níže uvedených.",
+    "value": "Poslední uzel je nedostupný. Ukončete pokus o připojení a vyberte níže jiný companion.",
     "_ai": true,
-    "_seeded": "2026-08-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_sensors_fetching": {
     "value": "Načítání dat ze senzorů…",
@@ -11007,9 +11007,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_ambiguous_count": {
-    "value": "Možní spolupracovníci: %1$d",
+    "value": "Možné companiony: %1$d",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_more_entries": {
     "value": "+ %1$d další",
@@ -11022,9 +11022,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_tab_companion": {
-    "value": "Vybrat spolupracovníka",
+    "value": "Vybrat companion",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_add_tab_key": {
     "value": "Zadat klíč",
@@ -11037,9 +11037,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_search_placeholder": {
-    "value": "Hledat spolupracovníka",
+    "value": "Hledat companion",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_already_has_role": {
     "value": "již má %1$s",
@@ -11047,9 +11047,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_companion_hint": {
-    "value": "Pouze spolupracovníci z vašich kontaktů a zaslechnutých advertů. Repeatery, pokojové servery a snímače nelze přidat.",
+    "value": "Pouze companiony z vašich kontaktů a zaslechnutých advertů. Repeatery, pokojové servery a snímače nelze přidat.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_role_for_name": {
     "value": "Role pro %1$s",
@@ -11102,19 +11102,19 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_key_status_advert": {
-    "value": "Znám ze zaslechnutého advertu: %1$s",
+    "value": "Známo ze zaslechnutého advertu: %1$s",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_status_rejected_repeater": {
-    "value": "Toto je Repeater %1$s. Přidat lze pouze spolupracovníky.",
+    "value": "Toto je Repeater %1$s. Přidat lze pouze companiony.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_status_rejected_generic": {
-    "value": "Toto není spolupracovník (%1$s). Přidat lze pouze spolupracovníky.",
+    "value": "Toto není companion (%1$s). Přidat lze pouze companiony.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_key_input_hint": {
     "value": "Pouze hexadecimální znaky 0-9, a-f. Mezery a dvojtečky se při vkládání odstraní. Repeater potřebuje k přidání úplný klíč.",
@@ -11277,9 +11277,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_add_no_companions": {
-    "value": "Žádní známí spolupracovníci.",
+    "value": "Žádné známé companiony.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_list_empty": {
     "value": "V seznamu přístupu zatím nejsou žádné záznamy.",
@@ -12217,9 +12217,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_changes_the_nodes_advert_name_neighbours_pick": {
-    "value": "Změní jméno uzlu v reklamě. Sousedé si ho převezmou při příští reklamě.",
+    "value": "Změní jméno uzlu v advertu. Sousedé si ho převezmou při příštím advertu.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_channels_channel_not_found": {
     "value": "Kanál nenalezen.",
@@ -12252,9 +12252,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_msgdetail_draws_the_repeater_chain_on_a_map_hops_wit": {
-    "value": "Vykreslí řetězec opakovačů na mapě. Skoky bez zaslechnuté reklamy lze rozpoznat přes online adresář přímo v zobrazení mapy.",
+    "value": "Vykreslí řetězec opakovačů na mapě. Skoky bez zaslechnutého advertu lze rozpoznat přes online adresář přímo v zobrazení mapy.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_msgdetail_each_hop_is_the_first_byte_s_of_a_repeater": {
     "value": "Každý skok představuje prvních %1$d bajtů veřejného klíče opakovače. Krátké klíče mohou odpovídat více opakovačům. Klepnutím na ikonu globusu rozpoznáte chybějící opakovače přes online adresář.",
@@ -12292,9 +12292,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_neighbours_only_quiet_no_flooding_use_when_yo": {
-    "value": "Pouze sousedé. Tiché: bez Floodu. Použijte, když chcete, aby vaši reklamu poznaly jen blízké uzly.",
+    "value": "Pouze sousedé. Tiché: bez Floodu. Použijte, když chcete, aby váš advert poznaly jen blízké uzly.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_new_6_digit_pin": {
     "value": "Nový 6místný PIN",
@@ -12357,9 +12357,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_autoadd_off_new_adverts_are_dropped_once_the_table_f": {
-    "value": "Vypnuto: nové reklamy se po zaplnění tabulky zahazují. Zapnuto: nejstarší kontakt, který není mezi oblíbenými, se odstraní, aby se uvolnilo místo. Oblíbené zůstávají vždy zachovány.",
+    "value": "Vypnuto: nové adverty se po zaplnění tabulky zahazují. Zapnuto: nejstarší kontakt, který není mezi oblíbenými, se odstraní, aby se uvolnilo místo. Oblíbené zůstávají vždy zachovány.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_paywall_open_settings_pro_to_unlock": {
     "value": "Odemkněte to v Nastavení → Pro.",
@@ -12367,9 +12367,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_other_nodes_need_our_advert_in_their_contact": {
-    "value": "Ostatní uzly potřebují mít naši reklamu ve své tabulce kontaktů, než budou moci dešifrovat naše DM. Výběr kterékoli možnosti se odešle okamžitě.",
+    "value": "Ostatní uzly potřebují mít náš advert ve své tabulce kontaktů, než budou moci dešifrovat naše DM. Výběr kterékoli možnosti se odešle okamžitě.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_connbar_pairing_and_live_rssi_arrive_in_the_next_bui": {
     "value": "Párování a živé RSSI přijdou v příští verzi.",
@@ -12462,9 +12462,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
-    "value": "Vymaže kontakty, kanály, regiony, nastavení a identitu na zařízení. Nevratné: neexistuje zpět. Nejprve exportujte vše, co si chcete ponechat. Pro potvrzení zadejte RESET.",
+    "value": "Vymaže kontakty, kanály, regiony, nastavení a identitu na zařízení. Nevratné: nelze vrátit zpět. Nejprve exportujte vše, co si chcete ponechat. Pro potvrzení zadejte RESET.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_chconflict_your_node_has_this_channel_named_but_loca": {
     "value": "Váš uzel má tento kanál pojmenovaný **%1$s**, ale lokálně se jmenuje **%2$s**. Sdílejí stejný šifrovací klíč, takže zprávy stále fungují. Vyberte název, který si ponecháte.",
@@ -13442,9 +13442,9 @@
     "_seeded": "2026-10-06"
   },
   "mynode_wifi_auto_reconnect_footer": {
-    "value": "Znovu se připojí k vašemu Wi-Fi společníkovi, když se spojení přeruší, když otevřete aplikaci a když se vrátí Wi-Fi. Vypněte to, pokud stejného společníka používá jiný telefon nebo aplikace: přijímá jen jedno spojení, takže každé opětovné připojení odpojí druhého klienta.",
+    "value": "Znovu se připojí k vašemu Wi-Fi companionu, když se spojení přeruší, když otevřete aplikaci a když se vrátí Wi-Fi. Vypněte to, pokud stejný companion používá jiný telefon nebo aplikace: přijímá jen jedno spojení, takže každé opětovné připojení odpojí druhého klienta.",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "nodes_share_advert_toast_syncing": {
     "value": "Vaše zařízení se stále synchronizuje. Zkuste to za chvíli znovu.",
@@ -13682,9 +13682,9 @@
     "_seeded": "2026-10-06"
   },
   "nodes_detail_region_device_default_footer": {
-    "value": "Výchozí nastavení nodu použije pro odesílání povodní výchozí region vašeho companionu. Zprávy po známé přímé cestě nikdy nenesou region. Přiřaďte region, chcete-li pro tento kontakt použít jiný.",
+    "value": "Výchozí nastavení nodu použije pro odesílání typu flood výchozí region vašeho companionu. Zprávy po známé přímé cestě nikdy nenesou region. Přiřaďte region, chcete-li pro tento kontakt použít jiný.",
     "_ai": true,
-    "_seeded": "2026-10-06"
+    "_seeded": "2026-11-03"
   },
   "chat_translate_action": {
     "value": "Přeložit",
@@ -13912,14 +13912,14 @@
     "_seeded": "2026-10-17"
   },
   "mynode_node_clock_ahead_subtitle": {
-    "value": "%1$s napřed · reklamy mohou být ignorovány",
+    "value": "%1$s napřed · adverty mohou být ignorovány",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_ahead_subtitle_unknown": {
-    "value": "Reklamy mohou být ignorovány",
+    "value": "Adverty mohou být ignorovány",
     "_ai": true,
-    "_seeded": "2026-10-17"
+    "_seeded": "2026-11-03"
   },
   "mynode_node_clock_repair_action": {
     "value": "Opravit",
