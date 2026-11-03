@@ -1171,9 +1171,9 @@
     "_seeded": "2026-06-26"
   },
   "map_empty_no_repeaters": {
-    "value": "Der er ingen repeater fundet",
+    "value": "Ingen repeatere med kendt position",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_no_rooms": {
     "value": "Ingen rum med kendt position",
@@ -2471,9 +2471,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_error_contact_missing": {
-    "value": "Repeater-kontakt fundet ikke.",
+    "value": "Repeater-kontakten blev ikke fundet.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_error_crypto": {
     "value": "Krypteringsfejl. Log ind igen, eller prøv igen.",
@@ -2996,9 +2996,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_login_hint_empty": {
-    "value": "Lad feltet være tomt for at forsøge at få gæsteadgang, eller for at tilføje din nøgle igen, hvis den allerede findes på denne repeaterens adgangsoversigt.",
+    "value": "Lad feltet være tomt for at forsøge at få gæsteadgang, eller for at tilføje din nøgle igen, hvis den allerede findes på denne repeaters adgangsliste.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_login_hint_non_empty": {
     "value": "Gemmes efter en vellykket login.",
@@ -3324,9 +3324,9 @@
     "_seeded": "2026-07-05"
   },
   "nodes_discover_group_repeaters": {
-    "value": "Repeaters (%1$d)",
+    "value": "Repeatere (%1$d)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_discover_group_sensors": {
     "value": "Sensorer (%1$d)",
@@ -3739,9 +3739,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_hide_repeater_list": {
-    "value": "Skjul listen over gentagelser",
+    "value": "Skjul listen over repeatere",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_hops_label": {
     "value": "Hop (3 byte hver)",
@@ -3954,9 +3954,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_save_repeater_to_fav_body": {
-    "value": "Tilføj denne gentagelse til dine favoritter for hurtigere adgang. Du kan ændre dette når som helst ved at klikke på stjerneknappen nedenfor.",
+    "value": "Tilføj denne repeater til dine favoritter for hurtigere adgang. Du kan ændre dette når som helst ved at trykke på stjerneknappen nedenfor.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_save_repeater_to_fav_title": {
     "value": "Vil du gemme denne repeater i dine favoritter?",
@@ -6559,9 +6559,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_home_entry_repeater_admin": {
-    "value": "Repeater-administrator",
+    "value": "Repeater-administration",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_home_entry_retries_timeouts": {
     "value": "Gentagelser og tidsgrænser",
@@ -6879,9 +6879,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_region_discovery_repeaters_header_many": {
-    "value": "%1$d gentagere",
+    "value": "%1$d repeatere",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_region_discovery_repeaters_header_one": {
     "value": "1 repeater",
@@ -6889,9 +6889,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_region_discovery_scan_button": {
-    "value": "Søg efter repeater i nærheden",
+    "value": "Søg efter repeatere i nærheden",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_region_discovery_scan_footer": {
     "value": "Sender DISCOVER_REQ; lytter i 20 sekunder efter repeaterne i nærheden.",
@@ -7194,9 +7194,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_retries_channel_delay_footer": {
-    "value": "Hvor længe der skal ventes på et gentagelsesekko på en kanalbesked, før ikonet for gentagelse vises. Standardværdien er 10 s. Sæt værdien lavere for hurtige netværk, hvor man ønsker at gentage forsøget hurtigere; sæt den højere på langsomme eller spredte netværk, hvor det første ekko kan tage 20-30 s.\n\nForsinkelsen for DM-genforsøg er fastsat til 140 s. Den følger varigheden af den automatiske genforsøgsrække på ledningsniveau. Hvis man gjorde den synlig, ville knappen til manuelt genforsøg blive vist, før den automatiske genforsøgsrække er afsluttet, hvilket ville føre til, at manuelle og automatiske genforsøg blev blandet sammen og forvirre boblens forsøgs-tæller.",
+    "value": "Hvor længe der skal ventes på et ekko fra en repeater på en kanalbesked, før ikonet for gentagelse vises. Standardværdien er 10 s. Sæt værdien lavere for hurtige netværk, hvor man ønsker at gentage forsøget hurtigere; sæt den højere på langsomme eller spredte netværk, hvor det første ekko kan tage 20-30 s.\n\nForsinkelsen for DM-genforsøg er fastsat til 140 s. Den følger varigheden af den automatiske genforsøgsrække på ledningsniveau. Hvis man gjorde den synlig, ville knappen til manuelt genforsøg blive vist, før den automatiske genforsøgsrække er afsluttet, hvilket ville føre til, at manuelle og automatiske genforsøg blev blandet sammen og forvirrede boblens forsøgstæller.",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "settings_retries_channel_delay_header": {
     "value": "Forsinkelse ved gentagelse af kanalforsøg",
@@ -7409,9 +7409,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_tools_title": {
-    "value": "Repeater-administrator",
+    "value": "Repeater-administration",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "tools_diagnostics": {
     "value": "Diagnostik",
@@ -8299,9 +8299,9 @@
     "_seeded": "2026-08-05"
   },
   "repeater_stat_airtime_rx": {
-    "value": "RX-sendetid",
+    "value": "RX-modtagetid",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "repeater_stat_recv": {
     "value": "Modtaget",
@@ -8736,14 +8736,14 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_fem_rxgain": {
-    "value": "FEM RX-gevinst",
+    "value": "FEM RX-forstærkning",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_rxgain": {
-    "value": "RX-gevinst",
+    "value": "RX-forstærkning",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_extra_sf": {
     "value": "Ekstra SF",
@@ -8751,9 +8751,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_clkreboot": {
-    "value": "Klokken genstarte",
+    "value": "Ur-genstart",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_af": {
     "value": "Lufttidsfaktor",
@@ -8761,9 +8761,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_int_thresh": {
-    "value": "Træskelværdi for interferens",
+    "value": "Tærskelværdi for interferens",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_agc": {
     "value": "AGC-interval",
@@ -8791,9 +8791,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_board": {
-    "value": "Bestyrelse",
+    "value": "Board",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_bootloader_ver": {
     "value": "Bootloader",
@@ -8801,9 +8801,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_pwrmgt_support": {
-    "value": "Styrke mgmt",
+    "value": "Strømstyring",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_source": {
     "value": "Strømkilde",
@@ -12986,9 +12986,9 @@
     "_seeded": "2026-09-30"
   },
   "repeater_cli_room_post": {
-    "value": "Slå op som server",
+    "value": "Send opslag som server",
     "_ai": true,
-    "_seeded": "2026-09-30"
+    "_seeded": "2026-11-03"
   },
   "room_admin_post_placeholder": {
     "value": "Besked",

@@ -286,9 +286,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_hop_no_match": {
-    "value": "nu s-a găsit nicio potrivire în repetatoarele auzite",
+    "value": "nu s-a găsit nicio potrivire în repetoarele auzite",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_hop_not_found": {
     "value": "nu s-a găsit nicio potrivire: directorul nu conținea nicio intrare pentru acest prefix",
@@ -2776,9 +2776,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_default_region_bullet2": {
-    "value": "• Numai repetatoarele care permit accesul în regiunea respectivă vor transmite pachetele cu domeniu de aplicare limitat.",
+    "value": "• Numai repetoarele care permit accesul în regiunea respectivă vor transmite pachetele cu domeniu de aplicare limitat.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_default_region_bullet3": {
     "value": "• Lăsați acest câmp necompletat pentru a trimite pachete de tip „flood” fără regiune implicită.",
@@ -3186,9 +3186,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_repeater_login_title": {
-    "value": "Autentificare repetată",
+    "value": "Autentificare la repetor",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_retry": {
     "value": "Reîncearcă",
@@ -3510,9 +3510,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_kind_repeaters": {
-    "value": "Repetitoare",
+    "value": "Repetoare",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_kind_rooms": {
     "value": "Camere",
@@ -3740,9 +3740,9 @@
     "_seeded": "2026-11-03"
   },
   "nodes_manual_hide_repeater_list": {
-    "value": "Ascunde lista repetatoarelor",
+    "value": "Ascunde lista repetoarelor",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_hops_label": {
     "value": "Salturi (câte 3 octeți fiecare)",
@@ -3765,9 +3765,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_picker_empty_desc": {
-    "value": "Aici apar repetatoarele și serverele de cameră pe care le-ați salvat ca contacte.",
+    "value": "Aici apar repetoarele și serverele de cameră pe care le-ați salvat ca contacte.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_picker_no_matches": {
     "value": "Nu s-au găsit rezultate pentru „%1$s”.",
@@ -3955,9 +3955,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_save_repeater_to_fav_body": {
-    "value": "Dacă doriți să accesați mai rapid această pagină, adăugați-o la favorite. Puteți modifica această setare oricând folosind butonul cu stea de mai jos.",
+    "value": "Favoritele fixează acest repetor pentru acces mai rapid. Puteți modifica această setare oricând folosind butonul cu stea de mai jos.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_save_repeater_to_fav_title": {
     "value": "Vrei să adaugi acest repetor la favorite?",
@@ -4195,9 +4195,9 @@
     "_seeded": "2026-07-05"
   },
   "ping_detail_blurb": {
-    "value": "Măsoară timpul dus-întors și semnalul uplink/downlink către acest repetator.",
+    "value": "Măsoară timpul dus-întors și semnalul uplink/downlink către acest repetor.",
     "_ai": true,
-    "_seeded": "2026-07-05"
+    "_seeded": "2026-11-03"
   },
   "ping_downlink_snr": {
     "value": "SNR downlink",
@@ -4885,9 +4885,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_backup_import_done": {
-    "value": "Importul s-a finalizat: identități de la %1$d, canale de la %2$d, regiuni de la %3$d, contacte de la %4$d și date de conectare la repetor de la %5$d.",
+    "value": "Importul s-a finalizat: %1$d identități, %2$d canale, %3$d regiuni, %4$d contacte, %5$d autentificări la repetoare.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_backup_import_done_v2": {
     "value": "Importul s-a finalizat: %1$d identități, %2$d canale, %3$d regiuni, %4$d contacte, %5$d autentificări la repetoare, %6$d favorite, %7$d expeditori blocați, %8$d setări.",
@@ -6645,7 +6645,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Notifică-mă când un nod de tipul selectat intră în emisie. Anunțurile generează mult zgomot în mod implicit; activează opțiunea „Repeater” dacă dorești să fii informat despre noile repetoare pe măsură ce apar.",
+    "value": "Notifică-mă când un nod de tipul selectat intră în emisie. Anunțurile generează mult zgomot în mod implicit; activează opțiunea „Repetor” dacă dorești să fii informat despre noile repetoare pe măsură ce apar.",
     "_ai": true,
     "_seeded": "2026-11-03"
   },
@@ -7425,14 +7425,14 @@
     "_seeded": "2026-07-05"
   },
   "traceroute_add_hops_hint": {
-    "value": "Adaugă repetatoarele în ordinea în care sonda trebuie să le viziteze.",
+    "value": "Adaugă repetoarele în ordinea în care sonda trebuie să le viziteze.",
     "_ai": true,
-    "_seeded": "2026-07-05"
+    "_seeded": "2026-11-03"
   },
   "traceroute_add_repeater": {
-    "value": "Adaugă repetator",
+    "value": "Adaugă repetor",
     "_ai": true,
-    "_seeded": "2026-07-05"
+    "_seeded": "2026-11-03"
   },
   "traceroute_choose_on_map": {
     "value": "Alege pe hartă",
@@ -7445,9 +7445,9 @@
     "_seeded": "2026-07-05"
   },
   "traceroute_map_select_hint": {
-    "value": "Atinge repetatoarele în ordinea vizitării",
+    "value": "Atinge repetoarele în ordinea vizitării",
     "_ai": true,
-    "_seeded": "2026-07-05"
+    "_seeded": "2026-11-03"
   },
   "traceroute_no_response": {
     "value": "Niciun răspuns: calea s-ar putea să nu fie accesibilă.",
@@ -8240,9 +8240,9 @@
     "_seeded": "2026-11-03"
   },
   "signal_direct_reception_empty_desc": {
-    "value": "Repetitoarele pe care nodul tău le recepționează direct apar aici pe măsură ce traficul lor ajunge.",
+    "value": "Repetoarele pe care nodul tău le recepționează direct apar aici pe măsură ce traficul lor ajunge.",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "repeater_stat_group_device": {
     "value": "Funcționare",
@@ -8753,9 +8753,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_clkreboot": {
-    "value": "Reluarea cronometrului",
+    "value": "Repornire ceas",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_af": {
     "value": "Factorul timpului de difuzare",
@@ -8793,9 +8793,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_board": {
-    "value": "Consiliu",
+    "value": "Placă",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_bootloader_ver": {
     "value": "Bootloader",
@@ -8803,9 +8803,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_pwrmgt_support": {
-    "value": "Puterea mgmt",
+    "value": "Gestionare energie",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_source": {
     "value": "Sursa de alimentare",
@@ -8833,9 +8833,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_setperm": {
-    "value": "Setă permisiunea",
+    "value": "Setează permisiunea",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "map_path_no_gps_hint": {
     "value": "Nu există semnal GPS: este posibil ca salturile din directorul online să nu poată fi afișate pe hartă. Activați accesul la locație pentru determinarea completă a traseului.",
@@ -9903,9 +9903,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_connect_your_node_to_manage_this_repeate": {
-    "value": "Conectează-ți nodul pentru a gestiona acest repeater",
+    "value": "Conectează-ți nodul pentru a gestiona acest repetor",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_some_admin_controls_status_trace_cli_clo": {
     "value": "Unele controale de administrare (status, trace, CLI, ceas, firmware, poziție, repornire) nu sunt încă disponibile prin conector.",
@@ -9913,9 +9913,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_waiting_for_repeater_reply": {
-    "value": "Se așteaptă răspunsul repeaterului",
+    "value": "Se așteaptă răspunsul repetorului",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_segment": {
     "value": "Segment",
@@ -9973,9 +9973,9 @@
     "_seeded": "2026-11-03"
   },
   "ios_nodes_favourites_pin_this_repeater_for_quicker": {
-    "value": "Favoritele fixează acest repeater pentru acces mai rapid. Poți schimba asta oricând din butonul stea de mai jos.",
+    "value": "Favoritele fixează acest repetor pentru acces mai rapid. Poți schimba asta oricând din butonul stea de mai jos.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_refresh_firmware_version": {
     "value": "Reîmprospătează versiunea firmware",
@@ -10008,9 +10008,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_repeater_login": {
-    "value": "Autentificare la repeater",
+    "value": "Autentificare la repetor",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_clock_is_set_ahead_stock_firmware_refuse": {
     "value": "Ceasul este setat înainte. Firmware-ul standard refuză sincronizarea înapoi.",
@@ -10073,7 +10073,7 @@
     "_seeded": "2026-09-20"
   },
   "ios_notifications_notify_when_a_node_of_the_selected_type_": {
-    "value": "Notifică atunci când un nod de tipul selectat apare pe rețea. Anunțurile sunt zgomotoase implicit; activează „Repeater” dacă vrei să fii informat despre repetoare noi pe măsură ce apar.",
+    "value": "Notifică atunci când un nod de tipul selectat apare pe rețea. Anunțurile sunt zgomotoase implicit; activează „Repetor” dacă vrei să fii informat despre repetoare noi pe măsură ce apar.",
     "_ai": true,
     "_seeded": "2026-11-03"
   },
@@ -10138,9 +10138,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_regions_tap_above_to_add_a_region_by_name_or_sca": {
-    "value": "Apasă „+” de mai sus pentru a adăuga o regiune după nume, sau scanează un repeater din apropiere pentru regiunile pe care le retransmite.",
+    "value": "Apasă „+” de mai sus pentru a adăuga o regiune după nume, sau scanează un repetor din apropiere pentru regiunile pe care le retransmite.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_regions_swipe_a_region_to_remove_it_it_stays_in_": {
     "value": "Glisează o regiune pentru a o elimina. Rămâne în baza de date (și continuă să adnoteze traficul primit), dar dispare din această listă și din selectoarele de canale. Readaug-o după nume pentru a o aduce înapoi.",
@@ -10173,9 +10173,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_retriesandtimeou_repeater_request_timeout": {
-    "value": "Timeout pentru cererea către repeater",
+    "value": "Timeout pentru cererea către repetor",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_retriesandtimeou_request_timeout": {
     "value": "Timeout cerere",
@@ -10253,9 +10253,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_retriesandtimeou_discovers_the_route_to_a_repeater_defaul": {
-    "value": "Descoperă ruta către un repeater. Implicit 0 reîncercări (o singură tentativă). Firmware-ul standard resetează slotul său de trace în așteptare la fiecare cerere nouă, astfel încât o reîncercare pe partea telefonului poate întrerupe un răspuns lent în curs, în loc să îl salveze. Crește doar dacă firmware-ul tău nu mai face asta. 10 s între tentative dacă e crescut.",
+    "value": "Descoperă ruta către un repetor. Implicit 0 reîncercări (o singură tentativă). Firmware-ul standard resetează slotul său de trace în așteptare la fiecare cerere nouă, astfel încât o reîncercare pe partea telefonului poate întrerupe un răspuns lent în curs, în loc să îl salveze. Crește doar dacă firmware-ul tău nu mai face asta. 10 s între tentative dacă e crescut.",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "ios_retriesandtimeou_interval": {
     "value": "Interval",
@@ -10328,9 +10328,9 @@
     "_seeded": "2026-09-20"
   },
   "repeater_err_login_rejected": {
-    "value": "Autentificare respinsă de repeater.",
+    "value": "Autentificare respinsă de repetor.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "map_path_message_path": {
     "value": "Traseul mesajului",
@@ -10343,14 +10343,14 @@
     "_seeded": "2026-09-20"
   },
   "repeater_err_no_response_fw_version": {
-    "value": "Niciun răspuns: acest repeater poate să nu suporte cererile de versiune firmware (necesită fw v2+), sau este în afara razei.",
+    "value": "Niciun răspuns: acest repetor poate să nu suporte cererile de versiune firmware (necesită fw v2+), sau este în afara razei.",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "repeater_err_no_response_owner": {
-    "value": "Niciun răspuns: acest repeater poate să nu suporte informații despre proprietar, sau este în afara razei.",
+    "value": "Niciun răspuns: acest repetor poate să nu suporte informații despre proprietar, sau este în afara razei.",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "repeater_err_not_connected": {
     "value": "Nu este conectat la un dispozitiv companion. Conectează mai întâi un nod.",
@@ -10368,14 +10368,14 @@
     "_seeded": "2026-09-20"
   },
   "repeater_err_not_installed": {
-    "value": "Repeaterul nu este instalat pe nodul conectat. Adaugă-l mai întâi ca contact.",
+    "value": "Repetorul nu este instalat pe nodul conectat. Adaugă-l mai întâi ca contact.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "repeater_err_rejected_relogin": {
-    "value": "Repeaterul a respins cererea. Autentifică-te din nou și încearcă din nou.",
+    "value": "Repetorul a respins cererea. Autentifică-te din nou și încearcă din nou.",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "backup_restore_hint": {
     "value": "Restaurează dintr-un fișier `.json` sau `.mcbackup`. Importurile înlocuiesc implicit: canalele, contactele și regiunile existente sunt șterse, apoi pachetul este inserat. Ține apăsat Confirmă timp de 5 secunde.",
@@ -13043,9 +13043,9 @@
     "_seeded": "2026-09-30"
   },
   "traceroute_learned_path_direct": {
-    "value": "Acest contact este atins direct, fără repetoare.",
+    "value": "Acest contact este accesibil direct, fără repetoare.",
     "_ai": true,
-    "_seeded": "2026-09-30"
+    "_seeded": "2026-11-03"
   },
   "traceroute_learned_path_unresolved": {
     "value": "%1$d din %2$d repetoare din calea învățată sunt necunoscute sau ambigue.",
@@ -14087,9 +14087,9 @@
     "_seeded": "2026-11-03"
   },
   "traceroute_unknown_repeater": {
-    "value": "Repetator necunoscut",
+    "value": "Repetor necunoscut",
     "_ai": true,
-    "_seeded": "2026-10-20"
+    "_seeded": "2026-11-03"
   },
   "traceroute_prefix_known_matches": {
     "value": "Repetoare cunoscute cu prefixul %1$s: %2$s",

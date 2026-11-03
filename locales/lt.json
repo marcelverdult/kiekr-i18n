@@ -3006,9 +3006,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_login_hint_overlength": {
-    "value": "Pakartotinio prisijungimo slaptažodis negali būti ilgesnis nei 15 simbolių. Jei jis ilgesnis, prisijungiant jis bus sutrumpintas.",
+    "value": "Kartotuvo slaptažodis negali būti ilgesnis nei 15 simbolių. Jei jis ilgesnis, prisijungiant jis bus sutrumpintas.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_login_password_label": {
     "value": "„%1$s“ slaptažodis",
@@ -3186,9 +3186,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_repeater_login_title": {
-    "value": "Pakartotinis prisijungimas",
+    "value": "Prisijungimas prie kartotuvo",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_retry": {
     "value": "Bandyk dar kartą",
@@ -4885,9 +4885,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_backup_import_done": {
-    "value": "Importavimas baigtas: „%1$d“ tapatybės, „%2$d“ kanalai, „%3$d“ regionai, „%4$d“ kontaktai, „%5$d“ kartotuvų prisijungimai.",
+    "value": "Importavimas baigtas: %1$d tapatybės, %2$d kanalai, %3$d regionai, %4$d kontaktai, %5$d kartotuvų prisijungimai.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_backup_import_done_v2": {
     "value": "Importavimas baigtas: %1$d tapatybės, %2$d kanalai, %3$d regionai, %4$d kontaktai, %5$d kartotuvų prisijungimai, %6$d parankiniai, %7$d užblokuoti siuntėjai, %8$d nustatymai.",
@@ -6560,9 +6560,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_home_entry_repeater_admin": {
-    "value": "„Repeater“ administratorius",
+    "value": "Retransliatoriaus administravimas",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_home_entry_retries_timeouts": {
     "value": "Pakartotiniai bandymai ir laiko limitai",
@@ -6645,7 +6645,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Pranešti, kai pasirodo pasirinktos rūšies mazgas. Advertai pagal numatytuosius nustatymus yra triukšmingi; įjunkite funkciją „Repeater“, jei norite sužinoti apie naujus retransliatorius, kai tik jie pasirodo.",
+    "value": "Pranešti, kai pasirodo pasirinktos rūšies mazgas. Advertai pagal numatytuosius nustatymus yra triukšmingi; įjunkite „Pakartotuvas“, jei norite sužinoti apie naujus retransliatorius, kai tik jie pasirodo.",
     "_ai": true,
     "_seeded": "2026-11-03"
   },
@@ -6880,9 +6880,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_region_discovery_repeaters_header_many": {
-    "value": "%1$d kartotuvai",
+    "value": "Retransliatoriai: %1$d",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_region_discovery_repeaters_header_one": {
     "value": "1 retransliatorius",
@@ -7365,9 +7365,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_tools_cli_timeout_subtitle": {
-    "value": "Kiek laiko reikia laukti, kol gausite atsakymą iš kartotuvo CLI, prieš nutraukiant bandymą?",
+    "value": "Kiek laiko reikia laukti, kol gausite atsakymą iš kartotuvo CLI, prieš nutraukiant bandymą.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_tools_cli_timeout_title": {
     "value": "CLI laiko limitas",
@@ -7410,9 +7410,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_tools_title": {
-    "value": "„Repeater“ administratorius",
+    "value": "Retransliatoriaus administravimas",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "tools_diagnostics": {
     "value": "Diagnostika",
@@ -8737,14 +8737,14 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_fem_rxgain": {
-    "value": "FEM RX padidėjimas",
+    "value": "FEM RX stiprinimas",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_rxgain": {
-    "value": "RX padidėjimas",
+    "value": "RX stiprinimas",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_extra_sf": {
     "value": "Papildomas SF",
@@ -8752,14 +8752,14 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_clkreboot": {
-    "value": "Laikrodis iš naujo paleistas",
+    "value": "Laikrodžio perkrovimas",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_af": {
-    "value": "Perdavimo laiko veiksnys",
+    "value": "Eterio laiko koeficientas",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_int_thresh": {
     "value": "Interferencijos riba",
@@ -8772,9 +8772,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_multi_acks": {
-    "value": "Daugiasluoksnūs ACK",
+    "value": "Multi-ACK",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_direct_txdelay": {
     "value": "Tiesioginis TX vėlavimas",
@@ -8792,19 +8792,19 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_board": {
-    "value": "Valdyba",
+    "value": "Plokštė",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_bootloader_ver": {
-    "value": "Pradinio įkrovimo įrenginys",
+    "value": "Bootloader",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_support": {
-    "value": "Galios mgmt",
+    "value": "Maitinimo valdymas",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_source": {
     "value": "Energijos šaltinis",
@@ -8812,9 +8812,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_pwrmgt_bootreason": {
-    "value": "Iškrovimo priežastis",
+    "value": "Įkrovimo priežastis",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_bootmv": {
     "value": "Įkrovimo įtampa",

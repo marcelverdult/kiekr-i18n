@@ -2376,9 +2376,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_cd_refresh_clock": {
-    "value": "Obnovit takt opakovače",
+    "value": "Obnovit hodiny opakovače",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_cd_refresh_firmware": {
     "value": "Aktualizovat verzi firmwaru",
@@ -3006,9 +3006,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_login_hint_overlength": {
-    "value": "Heslo pro opakované přihlášení smí mít maximálně 15 znaků. Vše, co je delší, se při přihlášení zkrátí.",
+    "value": "Heslo opakovače smí mít maximálně 15 znaků. Vše, co je delší, se při přihlášení zkrátí.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_login_password_label": {
     "value": "Heslo pro %1$s",
@@ -4310,9 +4310,9 @@
     "_seeded": "2026-06-26"
   },
   "repeater_cli_get_tx": {
-    "value": "TX energie",
+    "value": "Výkon TX",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_group_actions": {
     "value": "Akce",
@@ -4885,9 +4885,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_backup_import_done": {
-    "value": "Import dokončen: %1$d identity, %2$d channels, %3$d regions, %4$d contacts, %5$d repeater logins.",
+    "value": "Import dokončen: %1$d identita, %2$d kanály, %3$d regiony, %4$d kontakty, %5$d přihlášení k opakovačům.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_backup_import_done_v2": {
     "value": "Import dokončen: %1$d identita, %2$d kanály, %3$d regiony, %4$d kontakty, %5$d přihlášení k opakovačům, %6$d oblíbené, %7$d blokovaní odesílatelé, %8$d nastavení.",
@@ -6645,7 +6645,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Upozornit, když se u vysílání objeví uzel vybraného typu. Adverty jsou ve výchozím nastavení hlučné; pokud chcete být informováni o nových opakovačích hned, jak se objeví, zapněte funkci „Repeater“.",
+    "value": "Upozornit, když se u vysílání objeví uzel vybraného typu. Adverty jsou ve výchozím nastavení hlučné; pokud chcete být informováni o nových opakovačích hned, jak se objeví, zapněte možnost „Opakovač“.",
     "_ai": true,
     "_seeded": "2026-11-03"
   },
@@ -6880,9 +6880,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_region_discovery_repeaters_header_many": {
-    "value": "%1$d opakovače",
+    "value": "Opakovače: %1$d",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_region_discovery_repeaters_header_one": {
     "value": "1 opakovač",
@@ -8300,9 +8300,9 @@
     "_seeded": "2026-08-05"
   },
   "repeater_stat_airtime_rx": {
-    "value": "Doba vysílání RX",
+    "value": "Doba příjmu RX",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "repeater_stat_recv": {
     "value": "Přijaté",
@@ -8737,14 +8737,14 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_fem_rxgain": {
-    "value": "Zvýšení FEM RX",
+    "value": "Zesílení FEM RX",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_rxgain": {
-    "value": "Zvýšení RX",
+    "value": "Zesílení RX",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_extra_sf": {
     "value": "Další SF",
@@ -8752,9 +8752,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_clkreboot": {
-    "value": "Zpětné spuštění hodiny",
+    "value": "Restart hodin",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_af": {
     "value": "Faktor vysílacího času",
@@ -8792,9 +8792,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_board": {
-    "value": "Výbor",
+    "value": "Deska",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_bootloader_ver": {
     "value": "Bootloader",
@@ -8802,9 +8802,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_pwrmgt_support": {
-    "value": "Výkon mgmt",
+    "value": "Správa napájení",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_source": {
     "value": "Zdroj napájení",
@@ -8827,9 +8827,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_neighbor_remove": {
-    "value": "Odstranit soused",
+    "value": "Odstranit souseda",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_setperm": {
     "value": "Nastavit povolení",
@@ -9902,9 +9902,9 @@
     "_seeded": "2026-09-20"
   },
   "ios_nodes_connect_your_node_to_manage_this_repeate": {
-    "value": "Připojte svůj uzel, chcete-li tento repeater správovat",
+    "value": "Připojte svůj uzel, chcete-li tento repeater spravovat",
     "_ai": true,
-    "_seeded": "2026-09-20"
+    "_seeded": "2026-11-03"
   },
   "ios_nodes_some_admin_controls_status_trace_cli_clo": {
     "value": "Některé administrátorské ovládací prvky (stav, trasování, CLI, hodiny, firmware, poloha, restart) nejsou přes konektor ještě dostupné.",
