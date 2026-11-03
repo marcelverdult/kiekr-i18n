@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate every locale file in locales/ against the schema and the
-cross-locale invariants documented in CONTRIBUTING.md.
+cross-locale invariants documented in CONTRIBUTING.md, and every
+glossary file in glossary/ against the format in glossary/README.md.
 
 Exit code 0 = clean, 1 = one or more violations. Errors are printed
 in GitHub-Actions error syntax so they show up inline on PRs.
@@ -22,6 +23,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 LOCALES_DIR = ROOT / "locales"
+GLOSSARY_DIR = ROOT / "glossary"
 SCHEMA_FILE = ROOT / "schema" / "i18n.schema.json"
 
 PLACEHOLDER_RE = re.compile(r"%(\d+)\$[sd]|%[sd@]|%(?:\.\d+)?[fld]+")
@@ -64,9 +66,48 @@ def placeholders(s: str | None) -> set[str]:
     return set(m.group(0) for m in PLACEHOLDER_RE.finditer(s))
 
 
+def check_glossaries() -> int:
+    """TSV, two tab-separated columns, no header, one row per term."""
+    errors = 0
+    for path in sorted(GLOSSARY_DIR.glob("*.tsv")):
+        if not (LOCALES_DIR / f"{path.stem}.json").exists():
+            err(path, f"no locales/{path.stem}.json for this glossary")
+            errors += 1
+        raw = path.read_bytes()
+        try:
+            text = raw.decode("utf-8")
+        except UnicodeDecodeError as e:
+            err(path, f"not UTF-8: {e}")
+            errors += 1
+            continue
+        if text.startswith("﻿"):
+            err(path, "starts with a byte order mark")
+            errors += 1
+            text = text[1:]
+        if "\r" in text:
+            err(path, "contains CR; use LF line endings")
+            errors += 1
+        if text and not text.endswith("\n"):
+            err(path, "missing newline at end of file")
+            errors += 1
+        seen: dict[str, int] = {}
+        for n, line in enumerate(text.splitlines(), 1):
+            cols = line.split("\t")
+            if len(cols) != 2 or not cols[0].strip() or not cols[1].strip():
+                err(path, f"line {n}: expected 'term<TAB>translation', got {line!r}")
+                errors += 1
+                continue
+            term = cols[0].strip().lower()
+            if term in seen:
+                err(path, f"line {n}: term {cols[0]!r} already on line {seen[term]}")
+                errors += 1
+            seen.setdefault(term, n)
+    return errors
+
+
 def main() -> int:
     schema = load_schema()
-    errors = 0
+    errors = check_glossaries()
 
     files = sorted(LOCALES_DIR.glob("*.json"))
     if not files:
