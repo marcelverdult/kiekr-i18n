@@ -1171,9 +1171,9 @@
     "_seeded": "2026-06-26"
   },
   "map_empty_no_repeaters": {
-    "value": "Inga repeatrar hittades",
+    "value": "Inga repeatrar med känd position",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "map_empty_no_rooms": {
     "value": "Inga lediga rum",
@@ -2326,9 +2326,9 @@
     "_seeded": "2026-11-03"
   },
   "nodes_add_type_repeater": {
-    "value": "Repetitor",
+    "value": "Repeater",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_add_type_room": {
     "value": "Rumsserver",
@@ -2471,9 +2471,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_error_contact_missing": {
-    "value": "Repetitorkontakten hittades inte.",
+    "value": "Repeaterkontakten hittades inte.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_error_crypto": {
     "value": "Krypteringsfel. Logga in igen eller försök på nytt.",
@@ -2826,7 +2826,7 @@
     "_seeded": "2026-06-26"
   },
   "nodes_delete_dialog_body": {
-    "value": "Raderar kontakt, advert, repeaterns lösenord, inloggningsstatus, sökvägsdata, CLI-rullningshistorik, grannar, status, telemetri. Direktmeddelanden behålls.",
+    "value": "Raderar kontakt, advert, repeaterns lösenord, inloggningsstatus, vägdata, CLI-rullningshistorik, grannar, status, telemetri. Direktmeddelanden behålls.",
     "_ai": true,
     "_seeded": "2026-11-03"
   },
@@ -2871,9 +2871,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_assign_region": {
-    "value": "Ange en region så att repeaterna vidarebefordrar dina meddelanden på rätt kanal. Utan en matchande region avvisar repeaterna inom regionen meddelandet.",
+    "value": "Ange en region så att repeaterna vidarebefordrar dina meddelanden på rätt kanal. Utan en matchande region släpper regionsbegränsade repeatrar meddelandet.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_caps_flags": {
     "value": "caps 0x%1$02X",
@@ -3186,9 +3186,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_detail_repeater_login_title": {
-    "value": "Inloggning för återkommande användare",
+    "value": "Repeater-inloggning",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_detail_retry": {
     "value": "Försök igen",
@@ -3324,9 +3324,9 @@
     "_seeded": "2026-07-05"
   },
   "nodes_discover_group_repeaters": {
-    "value": "Repeaters (%1$d)",
+    "value": "Repeatrar (%1$d)",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_discover_group_sensors": {
     "value": "Sensorer (%1$d)",
@@ -3464,9 +3464,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_filter_online_directory_hint": {
-    "value": "Repeater som identifierats via onlinekatalogen läggs till i listan när denna funktion är aktiverad. Stäng av funktionen för att endast se noder som vi faktiskt har hört via radio.",
+    "value": "Repeatrar som identifierats via onlinekatalogen läggs till i listan när denna funktion är aktiverad. Stäng av funktionen för att endast se noder som vi faktiskt har hört via radio.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_filter_only_heard_in_last": {
     "value": "Endast hörda under den senaste",
@@ -3509,9 +3509,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_kind_repeaters": {
-    "value": "Repetorer",
+    "value": "Repeatrar",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_kind_rooms": {
     "value": "Rum",
@@ -3619,9 +3619,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manage_regions_repeater_fallback": {
-    "value": "Repetitor",
+    "value": "Repeater",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_save": {
     "value": "Spara",
@@ -4269,9 +4269,9 @@
     "_seeded": "2026-06-26"
   },
   "repeater_cli_clock_sync": {
-    "value": "Klock synkronisering",
+    "value": "Klocksynkronisering",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_flood_max_advert": {
     "value": "Flood max advert",
@@ -4709,9 +4709,9 @@
     "_seeded": "2026-11-03"
   },
   "settings_autoadd_row_repeater": {
-    "value": "Repetitor",
+    "value": "Repeater",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_autoadd_row_room": {
     "value": "Rumsserver",
@@ -4819,9 +4819,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_backup_encrypted_footer": {
-    "value": "Alla KiekR-data (regioner, repeater-inloggningar, manuella sökvägar, MQTT-mäklare, ...) samt standard-JSON-filen, krypterad med AES-256-GCM med en lösenfras som du själv väljer. Använd detta mellan olika KiekR-installationer.",
+    "value": "Alla KiekR-data (regioner, repeater-inloggningar, manuella vägar, MQTT-mäklare, ...) samt standard-JSON-filen, krypterad med AES-256-GCM med en lösenfras som du själv väljer. Använd detta mellan olika KiekR-installationer.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_backup_encrypted_header": {
     "value": "Krypterad säkerhetskopia",
@@ -6559,9 +6559,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_home_entry_repeater_admin": {
-    "value": "Repeater-administratör",
+    "value": "Repeateradministration",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_home_entry_retries_timeouts": {
     "value": "Nya försök och tidsgränser",
@@ -7194,9 +7194,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_retries_channel_delay_footer": {
-    "value": "Hur länge man ska vänta på ett eko från en repeater på ett kanalmeldning innan symbolen för nytt försök visas. Standardvärde: 10 s. Sänk värdet för snabba nätverk där man vill göra ett nytt försök tidigare; höj värdet för långsamma eller utspridda nätverk där det första ekot kan ta 20-30 s.\n\nFördröjningen för DM-försök är fastställd till 140 s. Den följer varaktigheten för den automatiska omförsökskedjan på ledningsnivå. Om den vore synlig skulle knappen för manuellt omförsök visas innan den automatiska omförsökskedjan är avslutad, vilket skulle leda till att manuella och automatiska omförsök blandas ihop och förvirra bubblans försöksräknare.",
+    "value": "Hur länge man ska vänta på ett eko från en repeater på ett kanalmeddelande innan symbolen för nytt försök visas. Standardvärde: 10 s. Sänk värdet för snabba nätverk där man vill göra ett nytt försök tidigare; höj värdet för långsamma eller utspridda nätverk där det första ekot kan ta 20-30 s.\n\nFördröjningen för DM-försök är fastställd till 140 s. Den följer varaktigheten för den automatiska omförsökskedjan på ledningsnivå. Om den vore synlig skulle knappen för manuellt omförsök visas innan den automatiska omförsökskedjan är avslutad, vilket skulle leda till att manuella och automatiska omförsök blandas ihop och förvirrar bubblans försöksräknare.",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "settings_retries_channel_delay_header": {
     "value": "Fördröjning vid nytt försök för kanalen",
@@ -7409,9 +7409,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_tools_title": {
-    "value": "Repeater-administratör",
+    "value": "Repeateradministration",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "tools_diagnostics": {
     "value": "Diagnostik",
@@ -8299,9 +8299,9 @@
     "_seeded": "2026-08-05"
   },
   "repeater_stat_airtime_rx": {
-    "value": "RX-sändningstid",
+    "value": "RX-mottagningstid",
     "_ai": true,
-    "_seeded": "2026-08-05"
+    "_seeded": "2026-11-03"
   },
   "repeater_stat_recv": {
     "value": "Mottagna",
@@ -8736,14 +8736,14 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_fem_rxgain": {
-    "value": "FEM RX-vinst",
+    "value": "FEM RX-förstärkning",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_rxgain": {
-    "value": "RX-vinst",
+    "value": "RX-förstärkning",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_extra_sf": {
     "value": "Ytterligare SF",
@@ -8791,9 +8791,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_board": {
-    "value": "Styrelse",
+    "value": "Board",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_bootloader_ver": {
     "value": "Bootloader",
@@ -8801,9 +8801,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_pwrmgt_support": {
-    "value": "Strömmängd mgmt",
+    "value": "Strömhantering",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_source": {
     "value": "Strömkälla",

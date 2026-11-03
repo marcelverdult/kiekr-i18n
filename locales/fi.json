@@ -416,9 +416,9 @@
     "_seeded": "2026-06-26"
   },
   "chat_detail_repeats_footer": {
-    "value": "Kun toistaja välittää viestisi eteenpäin, näet sen täällä.",
+    "value": "Kun toistin välittää viestisi eteenpäin, näet sen täällä.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "chat_detail_rssi": {
     "value": "RSSI",
@@ -1646,7 +1646,7 @@
     "_seeded": "2026-06-26"
   },
   "mynode_flood_body": {
-    "value": "Koko verkko. Meluisaa: jokainen toistin lähettää viestin uudelleen. Käytä säästeliäästi; tulvailmoitukset maksavat lähetysaikaa toistinkohtaisesti.",
+    "value": "Koko verkko. Meluisaa: jokainen toistin lähettää viestin uudelleen. Käytä säästeliäästi; flood-ilmoitukset maksavat lähetysaikaa toistinkohtaisesti.",
     "_ai": true,
     "_seeded": "2026-11-03"
   },
@@ -2396,9 +2396,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_cd_sync_clock": {
-    "value": "Synkronoi toistimen kellon",
+    "value": "Synkronoi toistimen kello",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_channel_cat_environment": {
     "value": "ympäristö",
@@ -2471,9 +2471,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_error_contact_missing": {
-    "value": "Toistimen kosketinta ei löydy.",
+    "value": "Toistimen yhteystietoa ei löydy.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_error_crypto": {
     "value": "Salausvirhe. Kirjaudu sisään uudelleen tai yritä uudelleen.",
@@ -2611,9 +2611,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_admin_reboot_title": {
-    "value": "Käynnistetäänkö toistolaite uudelleen?",
+    "value": "Käynnistetäänkö toistin uudelleen?",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_admin_rename_confirm": {
     "value": "Nimeä uudelleen",
@@ -3664,9 +3664,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manage_regions_snackbar_region_not_found": {
-    "value": "Alue ei löytynyt toistimelta.",
+    "value": "Aluetta ei löytynyt toistimelta.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manage_regions_snackbar_saved": {
     "value": "Tallennettu toistimeen.",
@@ -3699,9 +3699,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_manual_append_repeater": {
-    "value": "Lisää toistimen",
+    "value": "Lisää toistin loppuun",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_manual_cd_autocomplete": {
     "value": "Automaattinen täydennys",
@@ -3954,9 +3954,9 @@
     "_seeded": "2026-06-26"
   },
   "nodes_save_repeater_to_fav_body": {
-    "value": "Lisää tämä toistopiste suosikkeihin, jotta pääset siihen nopeammin. Voit muuttaa tätä milloin tahansa alla olevan tähtipainikkeen avulla.",
+    "value": "Lisää tämä toistin suosikkeihin, jotta pääset siihen nopeammin. Voit muuttaa tätä milloin tahansa alla olevan tähtipainikkeen avulla.",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "nodes_save_repeater_to_fav_title": {
     "value": "Haluatko lisätä tämän toistimen suosikkeihin?",
@@ -6644,7 +6644,7 @@
     "_seeded": "2026-06-26"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Ilmoita, kun valitun tyyppinen solmu tulee lähetykseen. Ilmoitukset ovat oletusarvoisesti äänekkäitä; ota Repeater-toiminto käyttöön, jos haluat saada tiedon uusista toistimista heti niiden ilmestyessä.",
+    "value": "Ilmoita, kun valitun tyyppinen solmu tulee lähetykseen. Ilmoitukset ovat oletusarvoisesti äänekkäitä; ota Toistin käyttöön, jos haluat saada tiedon uusista toistimista heti niiden ilmestyessä.",
     "_ai": true,
     "_seeded": "2026-11-03"
   },
@@ -6879,14 +6879,14 @@
     "_seeded": "2026-06-26"
   },
   "settings_region_discovery_repeaters_header_many": {
-    "value": "%1$d toistimet",
+    "value": "%1$d toistinta",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_region_discovery_repeaters_header_one": {
-    "value": "1 toistimen",
+    "value": "1 toistin",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-03"
   },
   "settings_region_discovery_scan_button": {
     "value": "Etsi lähellä olevia toistimia",
@@ -7194,9 +7194,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_retries_channel_delay_footer": {
-    "value": "Kuinka kauan odotetaan toistimen kaikuviestiä kanavaviestissä, ennen kuin uudelleenkokeilun symboli tuodaan näkyviin. Oletusarvo on 10 s. Arvoa voidaan pienentää nopeissa verkoissa, joissa uudelleenkokeilu halutaan suorittaa aikaisemmin; sitä voidaan suurentaa hitaissa tai laajalle ulottuvissa verkoissa, joissa ensimmäisen kaikuviestin saapuminen voi kestää 20-30 s.\n\nDM-uudelleenkäynnistysviive on kiinteästi 140 s. Se seuraa langatasoisen automaattisen uudelleenkäynnistysketjun kestoa. Jos tämä asetus olisi näkyvissä, manuaalinen uudelleenkäynnistyspainike ilmestyisi ennen automaattisen uudelleenkäynnistysketjun päättymistä, mikä sekoittaisi manuaaliset ja automaattiset uudelleenkäynnistykset ja hämmentäisi kuplan yrityslaskuria.",
+    "value": "Kuinka kauan odotetaan toistimen kaikuviestiä kanavaviestissä, ennen kuin uudelleenkokeilun symboli tuodaan näkyviin. Oletusarvo on 10 s. Arvoa voidaan pienentää nopeissa verkoissa, joissa uudelleenkokeilu halutaan suorittaa aikaisemmin; sitä voidaan suurentaa hitaissa tai laajalle ulottuvissa verkoissa, joissa ensimmäisen kaikuviestin saapuminen voi kestää 20-30 s.\n\nDM-uudelleenyritysviive on kiinteästi 140 s. Se seuraa langatasoisen automaattisen uudelleenyritysketjun kestoa. Jos tämä asetus olisi näkyvissä, manuaalinen uudelleenyrityspainike ilmestyisi ennen automaattisen uudelleenyritysketjun päättymistä, mikä sekoittaisi manuaaliset ja automaattiset uudelleenyritykset ja hämmentäisi kuplan yrityslaskuria.",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "settings_retries_channel_delay_header": {
     "value": "Kanavan uudelleenyrittämisen viive",
@@ -7229,9 +7229,9 @@
     "_seeded": "2026-06-26"
   },
   "settings_retries_owner_info_footer": {
-    "value": "Kuinka monta kertaa sovellus lähettää omistajatietopyynnön uudelleen, jos vastausta ei saavu, ja kuinka kauan se odottaa yritysten välillä. Oletusarvo: 1 uudelleenkäyttö, 8 sekunnin väli. Yksi uudelleenkäyttö riittää yleensä: pyyntö lähetetään tietylle toistimelle, joten yhteyden laatu on ennustettavissa.",
+    "value": "Kuinka monta kertaa sovellus lähettää omistajatietopyynnön uudelleen, jos vastausta ei saavu, ja kuinka kauan se odottaa yritysten välillä. Oletusarvo: 1 uudelleenyritys, 8 sekunnin väli. Yksi uudelleenyritys riittää yleensä: pyyntö lähetetään tietylle toistimelle, joten yhteyden laatu on ennustettavissa.",
     "_ai": true,
-    "_seeded": "2026-10-14"
+    "_seeded": "2026-11-03"
   },
   "settings_retries_owner_info_header": {
     "value": "Omistajan tiedot",
@@ -8756,9 +8756,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_af": {
-    "value": "Lentoajan tekijä",
+    "value": "Lähetysajan kerroin",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_int_thresh": {
     "value": "Häiriön kynnysarvo",
@@ -8771,9 +8771,9 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_multi_acks": {
-    "value": "Multi-ACK-laitteet",
+    "value": "Multi-ACK",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_direct_txdelay": {
     "value": "Suora TX-viive",
@@ -8781,29 +8781,29 @@
     "_seeded": "2026-08-11"
   },
   "repeater_cli_get_adc_mult": {
-    "value": "ADC-moninkertaisin",
+    "value": "ADC-kerroin",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_get_allow_ro": {
-    "value": "Salli lukemattomuus",
+    "value": "Salli vain luku -käyttö",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_board": {
-    "value": "Valtuusto",
+    "value": "Piirilevy",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_bootloader_ver": {
-    "value": "Käynnistäjä",
+    "value": "Bootloader",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_support": {
-    "value": "Teho mgmt",
+    "value": "Virranhallinta",
     "_ai": true,
-    "_seeded": "2026-08-11"
+    "_seeded": "2026-11-03"
   },
   "repeater_cli_pwrmgt_source": {
     "value": "Voimanlähde",
@@ -10916,9 +10916,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_locked_body": {
-    "value": "Et ole kirjautunut Adminina. Repeater lähettää luettelon vain Admineille.",
+    "value": "Et ole kirjautunut Adminina. Toistin lähettää luettelon vain Admineille.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_login_as_admin_cta": {
     "value": "Kirjaudu Adminina",
@@ -11116,9 +11116,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_key_input_hint": {
-    "value": "Vain heksamerkit 0-9, a-f. Välilyönnit ja kaksoispisteet poistetaan liitettäessä. Repeater tarvitsee koko avaimen lisätäkseen sen.",
+    "value": "Vain heksamerkit 0-9, a-f. Välilyönnit ja kaksoispisteet poistetaan liitettäessä. Toistin tarvitsee koko avaimen lisätäkseen sen.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_paste_button": {
     "value": "Liitä",
@@ -11151,9 +11151,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_unknown_box_body": {
-    "value": "Repeater ilmoittaa merkinnästä vain ensimmäiset 6 tavua. Se riittää poistamiseen. Roolin vaihtaminen vaatii koko avaimen.",
+    "value": "Toistin ilmoittaa merkinnästä vain ensimmäiset 6 tavua. Se riittää poistamiseen. Roolin vaihtaminen vaatii koko avaimen.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_enter_full_key": {
     "value": "Syötä koko avain",
@@ -11196,14 +11196,14 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_remove_confirm_self_warning": {
-    "value": "Tämä on oma pääsysi. Tämän jälkeen Repeater ei enää hyväksy Admin-komentoja sinulta, ennen kuin kirjaudut uudelleen Admin-salasanalla.",
+    "value": "Tämä on oma pääsysi. Tämän jälkeen toistin ei enää hyväksy Admin-komentoja sinulta, ennen kuin kirjaudut uudelleen Admin-salasanalla.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_remove_no_confirmation": {
-    "value": "Ei vahvistusta Repeateriltä. Merkintä on saatettu silti poistaa.",
+    "value": "Ei vahvistusta toistimelta. Merkintä on saatettu silti poistaa.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_loading_title": {
     "value": "Pyydetään pääsyluetteloa …",
@@ -11216,9 +11216,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_no_reply_title": {
-    "value": "Ei vastausta Repeateriltä",
+    "value": "Ei vastausta toistimelta",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_no_reply_body": {
     "value": "Toistin voi olla kantaman ulkopuolella, tai reitti on vanhentunut.",
@@ -11251,9 +11251,9 @@
     "_seeded": "2026-09-27"
   },
   "repeater_acl_truncated_body": {
-    "value": "Repeater lähettää enintään %1$d merkintää per vastaus. Muita avaimia voi olla listattuna, vaikka ne eivät näy täällä.",
+    "value": "Toistin lähettää enintään %1$d merkintää per vastaus. Muita avaimia voi olla listattuna, vaikka ne eivät näy täällä.",
     "_ai": true,
-    "_seeded": "2026-09-27"
+    "_seeded": "2026-11-03"
   },
   "repeater_acl_show_more_button": {
     "value": "Näytä %1$d lisää",
@@ -12456,9 +12456,9 @@
     "_seeded": "2026-09-29"
   },
   "ios_mynode_whole_mesh_loud_every_repeater_rebroadcasts_u": {
-    "value": "Koko verkko. Meluisa: jokainen toistin lähettää uudelleen. Käytä säästeliäästi; suuremmat mesh-verkot maksavat lähetysaikaa jokaisesta tulvasta.",
+    "value": "Koko verkko. Meluisa: jokainen toistin lähettää uudelleen. Käytä säästeliäästi; suuremmat mesh-verkot maksavat lähetysaikaa jokaisesta flood-lähetyksestä.",
     "_ai": true,
-    "_seeded": "2026-09-29"
+    "_seeded": "2026-11-03"
   },
   "ios_mynode_wipes_contacts_channels_regions_prefs_and_ide": {
     "value": "Poistaa laitteelta yhteystiedot, kanavat, alueet, asetukset ja identiteetin. Peruuttamatonta: toimintoa ei voi kumota. Vie ensin ulos kaikki, minkä haluat säilyttää. Kirjoita RESET vahvistaaksesi.",
