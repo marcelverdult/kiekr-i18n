@@ -1,13 +1,10 @@
 name: validate
 
+# No paths filter: `check` is a required status check on main, and a
+# workflow skipped by a paths filter never reports it, so PRs outside
+# the filter (glossary, docs) could not be merged without admin rights.
 on:
   pull_request:
-    paths:
-      - 'locales/**'
-      - 'schema/**'
-      - 'tools/validate.py'
-      - 'tools/check_human_protection.py'
-      - '.github/workflows/validate.yml'
 
 permissions:
   contents: read
