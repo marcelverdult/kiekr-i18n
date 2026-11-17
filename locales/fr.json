@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Cette clé appartient déjà à « %1$s ».",
@@ -12967,5 +12967,20 @@
     "value": "Aucun chemin d'advert exploitable n'est enregistré pour ce nœud. Rien n'a été repris.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Les sujets MQTT de cette instance sont vides ou invalides, l'envoi a donc été désactivé. Ouvrez l'instance et corrigez les sujets.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "L'envoi n'a pas pu démarrer (%1$s) et a donc été désactivé.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Les sujets packets et status ne doivent pas être vides ni contenir # ou +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

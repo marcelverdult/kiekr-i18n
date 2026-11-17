@@ -3,7 +3,7 @@
     "language": "pt-BR",
     "name": "Português (Brasil)",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Essa chave já pertence a \"%1$s\".",
@@ -14238,5 +14238,20 @@
     "value": "Não há caminho de anúncio utilizável salvo para este nó. Nada foi aproveitado.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Os tópicos MQTT desta instância estão vazios ou inválidos, por isso o envio foi desativado. Abra a instância e corrija os tópicos.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Não foi possível iniciar o envio (%1$s) e por isso ele foi desativado.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Os tópicos packets e status não podem estar vazios nem conter # ou +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

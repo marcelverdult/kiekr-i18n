@@ -3,7 +3,7 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Ta ključ že pripada »%1$s«.",
@@ -14241,5 +14241,20 @@
     "value": "Za to vozlišče ni shranjene uporabne poti Adverta. Nič ni bilo prevzeto.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Teme MQTT te instance so prazne ali neveljavne, zato je nalaganje izklopljeno. Odprite instanco in popravite teme.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Nalaganja ni bilo mogoče zagnati (%1$s), zato je izklopljeno.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Temi packets in status ne smeta biti prazni in ne smeta vsebovati # ali +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

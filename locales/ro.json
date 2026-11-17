@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Această cheie aparține deja site-ului „%1$s”.",
@@ -14240,5 +14240,20 @@
     "value": "Pentru acest nod nu este salvată nicio cale de anunț utilizabilă. Nu s-a preluat nimic.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Subiectele MQTT ale acestei instanțe sunt goale sau invalide, de aceea încărcarea a fost oprită. Deschideți instanța și corectați subiectele.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Încărcarea nu a putut porni (%1$s) și de aceea a fost oprită.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Subiectele packets și status nu pot fi goale și nu pot conține # sau +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

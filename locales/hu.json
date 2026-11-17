@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Ez a kulcs már a „%1$s” tulajdonát képezi.",
@@ -14237,5 +14237,20 @@
     "value": "Ehhez a csomóponthoz nincs használható advert útvonal elmentve. Semmi nem lett átvéve.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Ennek a példánynak az MQTT-témái üresek vagy érvénytelenek, ezért a feltöltést kikapcsoltuk. Nyissa meg a példányt, és javítsa a témákat.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "A feltöltést nem sikerült elindítani (%1$s), ezért kikapcsoltuk.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "A packets és a status téma nem lehet üres, és nem tartalmazhat # vagy + karaktert.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

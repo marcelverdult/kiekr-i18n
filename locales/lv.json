@@ -3,7 +3,7 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Šī atslēga jau pieder „%1$s“.",
@@ -14239,5 +14239,20 @@
     "value": "Šim mezglam nav saglabāts izmantojams adverta ceļš. Nekas netika pārņemts.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Šīs instances MQTT tēmas ir tukšas vai nederīgas, tāpēc augšupielāde tika izslēgta. Atveriet instanci un izlabojiet tēmas.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Augšupielādi neizdevās startēt (%1$s), tāpēc tā tika izslēgta.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Tēmas packets un status nedrīkst būt tukšas un tajās nedrīkst būt # vai +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

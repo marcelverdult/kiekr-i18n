@@ -3,7 +3,7 @@
     "language": "cs",
     "name": "Čeština",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Tento klíč již patří k „%1$s“.",
@@ -14240,5 +14240,20 @@
     "value": "Pro tento uzel není uložena žádná použitelná cesta Advertu. Nic se nepřevzalo.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Témata MQTT této instance jsou prázdná nebo neplatná, proto bylo nahrávání vypnuto. Otevřete instanci a témata opravte.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Nahrávání se nepodařilo spustit (%1$s), a proto bylo vypnuto.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Témata packets a status nesmějí být prázdná ani obsahovat # nebo +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

@@ -3,7 +3,7 @@
     "language": "en",
     "managed_by": "kiekr-team",
     "name": "English",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": "This key already belongs to \"%1$s\".",
   "add_channel_generate_key": "Generate random key",
@@ -2864,5 +2864,8 @@
   "i18n_op_cancel_waiting_a11y": "Cancel waiting request",
   "nodes_manual_use_advert_path": "Use advert path",
   "nodes_manual_advert_path_width": "The advert path was heard with %1$d-byte hops. A manual path needs 3-byte hops, so nothing was taken over.",
-  "nodes_manual_advert_path_none": "No usable advert path is recorded for this node. Nothing was taken over."
+  "nodes_manual_advert_path_none": "No usable advert path is recorded for this node. Nothing was taken over.",
+  "mqtt_err_topics_invalid": "The MQTT topics of this instance are empty or invalid, so the upload was turned off. Open the instance and fix the topics.",
+  "mqtt_err_start_failed": "The upload could not be started (%1$s), so it was turned off.",
+  "settings_community_val_err_topics": "The packets and status topics must not be empty and must not contain # or +."
 }

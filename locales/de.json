@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "kiekr-team",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "app_upgrade_body": {
     "value": "Öffne die App erneut, um die neue Version fertig zu laden.",
@@ -11607,6 +11607,18 @@
   },
   "nodes_manual_advert_path_none": {
     "value": "Für diesen Knoten ist kein brauchbarer Advert-Pfad gespeichert. Es wurde nichts übernommen.",
+    "_human": true
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Die MQTT-Topics dieser Instanz sind leer oder ungültig, deshalb wurde der Upload ausgeschaltet. Öffne die Instanz und korrigiere die Topics.",
+    "_human": true
+  },
+  "mqtt_err_start_failed": {
+    "value": "Der Upload konnte nicht gestartet werden (%1$s) und wurde deshalb ausgeschaltet.",
+    "_human": true
+  },
+  "settings_community_val_err_topics": {
+    "value": "Die Topics für Packets und Status dürfen nicht leer sein und kein # oder + enthalten.",
     "_human": true
   }
 }

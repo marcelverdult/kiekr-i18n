@@ -3,7 +3,7 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Deze sleutel is al gekoppeld aan \"%1$s\".",
@@ -12966,5 +12966,20 @@
     "value": "Voor deze node is geen bruikbaar advert-pad opgeslagen. Er is niets overgenomen.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "De MQTT-topics van deze instantie zijn leeg of ongeldig, daarom is het uploaden uitgezet. Open de instantie en herstel de topics.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Het uploaden kon niet worden gestart (%1$s) en is daarom uitgezet.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "De topics voor packets en status mogen niet leeg zijn en mogen geen # of + bevatten.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

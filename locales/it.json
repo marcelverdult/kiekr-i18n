@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Questa chiave appartiene già a \"%1$s\".",
@@ -12881,5 +12881,20 @@
     "value": "Per questo nodo non è salvato alcun percorso dell'advert utilizzabile. Non è stato preso nulla.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Gli argomenti MQTT di questa istanza sono vuoti o non validi, quindi il caricamento è stato disattivato. Apri l'istanza e correggi gli argomenti.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Impossibile avviare il caricamento (%1$s), quindi è stato disattivato.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Gli argomenti packets e status non devono essere vuoti né contenere # o +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

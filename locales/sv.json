@@ -3,7 +3,7 @@
     "language": "sv",
     "name": "Svenska",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Den här nyckeln tillhör redan ”%1$s”.",
@@ -14237,5 +14237,20 @@
     "value": "Ingen användbar advert-väg är sparad för den här noden. Ingenting togs över.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "MQTT-ämnena för den här instansen är tomma eller ogiltiga, så uppladdningen stängdes av. Öppna instansen och rätta ämnena.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Uppladdningen kunde inte startas (%1$s) och stängdes därför av.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Ämnena för packets och status får inte vara tomma och får inte innehålla # eller +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "Tämä avain kuuluu jo ”%1$s” -sivustolle.",
@@ -14237,5 +14237,20 @@
     "value": "Tälle solmulle ei ole tallennettu käyttökelpoista ilmoituksen polkua. Mitään ei otettu käyttöön.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Tämän instanssin MQTT-aiheet ovat tyhjiä tai virheellisiä, joten lähetys kytkettiin pois. Avaa instanssi ja korjaa aiheet.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Lähetystä ei voitu käynnistää (%1$s), joten se kytkettiin pois.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Aiheet packets ja status eivät saa olla tyhjiä eivätkä sisältää merkkejä # tai +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }

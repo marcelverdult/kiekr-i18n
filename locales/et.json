@@ -3,7 +3,7 @@
     "language": "et",
     "name": "Eesti",
     "managed_by": "community",
-    "updated": "2026-11-03"
+    "updated": "2026-11-17"
   },
   "add_channel_duplicate_key": {
     "value": "See võti kuulub juba „%1$s“-le.",
@@ -14237,5 +14237,20 @@
     "value": "Sellele sõlmele pole salvestatud kasutatavat adverti marsruuti. Midagi ei võetud üle.",
     "_ai": true,
     "_seeded": "2026-11-03"
+  },
+  "mqtt_err_topics_invalid": {
+    "value": "Selle eksemplari MQTT teemad on tühjad või kehtetud, mistõttu üleslaadimine lülitati välja. Ava eksemplar ja paranda teemad.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "mqtt_err_start_failed": {
+    "value": "Üleslaadimist ei saanud käivitada (%1$s), mistõttu see lülitati välja.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
+  },
+  "settings_community_val_err_topics": {
+    "value": "Teemad packets ja status ei tohi olla tühjad ega sisaldada märki # või +.",
+    "_ai": true,
+    "_seeded": "2026-11-17"
   }
 }
