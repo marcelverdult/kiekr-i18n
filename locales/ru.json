@@ -3,7 +3,7 @@
     "language": "ru",
     "name": "Русский",
     "managed_by": "community",
-    "updated": "2026-11-17"
+    "updated": "2026-11-18"
   },
   "add_channel_duplicate_key": {
     "value": "Этот ключ уже принадлежит «%1$s».",
@@ -14256,5 +14256,15 @@
     "value": "Топики packets и status не должны быть пустыми и не должны содержать # или +.",
     "_ai": true,
     "_seeded": "2026-11-17"
+  },
+  "mqtt_ws_path_label": {
+    "value": "Путь WebSocket",
+    "_ai": true,
+    "_seeded": "2026-11-18"
+  },
+  "mqtt_ws_path_hint": {
+    "value": "По умолчанию путь WebSocket равен /mqtt. Некоторым брокерам вместо этого нужен /.",
+    "_ai": true,
+    "_seeded": "2026-11-18"
   }
 }
