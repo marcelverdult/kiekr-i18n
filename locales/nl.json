@@ -1314,8 +1314,9 @@
     "_human": true
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "Voor ESP32-boards met companion-firmware gebouwd met WIFI_SSID. Voer het IP en de TCP-poort van het apparaat in.",
-    "_human": true
+    "value": "Vereist companion-firmware met WiFi-ondersteuning. Vanaf firmware 1.18 stel je het netwerk in via de apparaatconsole: set wifi.ssid en set wifi.pwd, en start daarna opnieuw op. get wifi.ip toont het IP-adres. Voer het IP-adres en de TCP-poort van het apparaat in (standaard 5000).",
+    "_ai": true,
+    "_seeded": "2026-11-19"
   },
   "mynode_connection_row_title": {
     "value": "Verbinding",

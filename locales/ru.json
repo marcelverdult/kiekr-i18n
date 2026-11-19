@@ -1556,9 +1556,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "Для плат ESP32 с прошивкой companion, скомпилированной с параметром WIFI_SSID. Укажите IP-адрес устройства и порт TCP.",
+    "value": "Нужна прошивка companion с поддержкой WiFi. Начиная с прошивки 1.18 сеть задаётся в консоли устройства: set wifi.ssid и set wifi.pwd, затем перезагрузите. get wifi.ip показывает IP-адрес. Укажите IP-адрес и TCP-порт устройства (по умолчанию 5000).",
     "_ai": true,
-    "_seeded": "2026-11-03"
+    "_seeded": "2026-11-19"
   },
   "mynode_connection_row_title": {
     "value": "Подключение",

@@ -1314,8 +1314,9 @@
     "_human": true
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "Pour les cartes ESP32 sous firmware companion compilé avec WIFI_SSID. Saisissez l'IP et le port TCP de l'appareil.",
-    "_human": true
+    "value": "Nécessite un firmware companion avec prise en charge du WiFi. Depuis le firmware 1.18, le réseau se règle dans la console de l'appareil : set wifi.ssid et set wifi.pwd, puis redémarrez. get wifi.ip affiche l'IP. Saisissez l'IP et le port TCP de l'appareil (par défaut 5000).",
+    "_ai": true,
+    "_seeded": "2026-11-19"
   },
   "mynode_connection_row_title": {
     "value": "Connexion",

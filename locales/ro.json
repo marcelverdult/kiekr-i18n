@@ -1556,9 +1556,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "Pentru plăcile ESP32 care rulează firmware-ul Companion compilat cu WIFI_SSID. Introduceți adresa IP a dispozitivului și portul TCP.",
+    "value": "Necesită firmware companion cu suport WiFi. Începând cu firmware 1.18, rețeaua se setează în consola dispozitivului: set wifi.ssid și set wifi.pwd, apoi repornește. get wifi.ip afișează adresa IP. Introdu adresa IP și portul TCP al dispozitivului (implicit 5000).",
     "_ai": true,
-    "_seeded": "2026-06-26"
+    "_seeded": "2026-11-19"
   },
   "mynode_connection_row_title": {
     "value": "Conexiune",

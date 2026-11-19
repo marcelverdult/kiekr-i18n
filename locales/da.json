@@ -1556,9 +1556,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "For ESP32-kort, der kører companion-firmware, der er kompileret med WIFI_SSID. Indtast enhedens IP-adresse og TCP-port.",
+    "value": "Kræver companion-firmware med WiFi-understøttelse. Fra firmware 1.18 indstilles netværket i enhedskonsollen: set wifi.ssid og set wifi.pwd, derefter genstart. get wifi.ip viser IP-adressen. Indtast enhedens IP-adresse og TCP-port (standard 5000).",
     "_ai": true,
-    "_seeded": "2026-11-03"
+    "_seeded": "2026-11-19"
   },
   "mynode_connection_row_title": {
     "value": "Forbindelse",

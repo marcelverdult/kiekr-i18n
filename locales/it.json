@@ -1314,8 +1314,9 @@
     "_human": true
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "Per schede ESP32 con firmware companion compilato con WIFI_SSID. Inserisci IP e porta TCP del dispositivo.",
-    "_human": true
+    "value": "Richiede un firmware companion con supporto WiFi. Dal firmware 1.18 la rete si imposta nella console del dispositivo: set wifi.ssid e set wifi.pwd, poi riavvia. get wifi.ip mostra l'IP. Inserisci IP e porta TCP del dispositivo (predefinita 5000).",
+    "_ai": true,
+    "_seeded": "2026-11-19"
   },
   "mynode_connection_row_title": {
     "value": "Connessione",

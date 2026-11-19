@@ -1556,9 +1556,9 @@
     "_seeded": "2026-06-26"
   },
   "mynode_connect_via_wifi_footer": {
-    "value": "Azoknál az ESP32-es tábláknál, amelyeken a WIFI_SSID-del összeállított companion firmware fut, adja meg az eszköz IP-címét és TCP-portját.",
+    "value": "WiFi-támogatású companion firmware szükséges. Az 1.18-as firmware-től a hálózatot a készülékkonzolban kell megadni: set wifi.ssid és set wifi.pwd, majd újraindítás. A get wifi.ip megmutatja az IP-címet. Adja meg a készülék IP-címét és TCP-portját (alapértelmezett: 5000).",
     "_ai": true,
-    "_seeded": "2026-11-03"
+    "_seeded": "2026-11-19"
   },
   "mynode_connection_row_title": {
     "value": "Kapcsolat",

@@ -315,7 +315,7 @@
   "mynode_config_error_range": "value was out of the firmware-enforced range",
   "mynode_config_error_suffix": "%1$s Reason: %2$s. The previous value remains active.",
   "mynode_connect": "Connect",
-  "mynode_connect_via_wifi_footer": "For ESP32 boards running companion firmware built with WIFI_SSID. Enter the device's IP and TCP port.",
+  "mynode_connect_via_wifi_footer": "Needs a companion firmware with WiFi support. From firmware 1.18, set the network in the device console: set wifi.ssid and set wifi.pwd, then reboot. get wifi.ip shows the IP. Enter the device's IP and TCP port (default 5000).",
   "mynode_connection_row_title": "Connection",
   "mynode_copied": "%1$s copied",
   "mynode_device_actions_footer": "Reboot restarts the paired node. Factory reset wipes the device's contacts, channels, and prefs. The app's local data is not touched.",
