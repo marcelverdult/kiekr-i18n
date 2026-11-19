@@ -2872,5 +2872,7 @@
   "mqtt_ws_path_hint": "The default is /mqtt. Some brokers use a different path, for example / or /broker.",
   "chat_detail_repeats_heard_explain": "How many times the app heard a repeater send your message on. Identical copies within a few seconds count once.",
   "packet_id_open_analyzer": "Open packet in analyzer",
-  "packet_id_copied": "Packet ID copied"
+  "packet_id_copied": "Packet ID copied",
+  "settings_community_val_err_chars": "The username, client ID and topics must not contain line breaks, tabs or other control characters.",
+  "mqtt_err_identity_invalid": "The username, client ID or topics of this instance contain a forbidden character (for example a line break), so the upload was turned off. Open the instance and retype them."
 }
