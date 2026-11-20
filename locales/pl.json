@@ -3,7 +3,7 @@
     "language": "pl",
     "name": "Polski",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Ten klucz należy już do „%1$s”.",
@@ -14199,9 +14199,14 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Nowe wiadomości: %d",
+    "plural": {
+      "one": "%1$d nowa wiadomość",
+      "few": "%1$d nowe wiadomości",
+      "many": "%1$d nowych wiadomości",
+      "other": "%1$d nowej wiadomości"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Zbyt wiele żądań czeka w kolejce. Spróbuj ponownie za chwilę.",

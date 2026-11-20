@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "kiekr-team",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "app_upgrade_body": {
     "value": "Öffne die App erneut, um die neue Version fertig zu laden.",
@@ -11582,7 +11582,10 @@
     "_human": true
   },
   "notif_bundle_body": {
-    "value": "Neue Nachrichten: %d",
+    "plural": {
+      "one": "%1$d neue Nachricht",
+      "other": "%1$d neue Nachrichten"
+    },
     "_human": true
   },
   "i18n_op_busy": {

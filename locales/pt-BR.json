@@ -3,7 +3,7 @@
     "language": "pt-BR",
     "name": "Português (Brasil)",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Essa chave já pertence a \"%1$s\".",
@@ -14205,9 +14205,12 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Novas mensagens: %d",
+    "plural": {
+      "one": "%1$d nova mensagem",
+      "other": "%1$d novas mensagens"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Há solicitações demais na fila. Tente novamente em instantes.",

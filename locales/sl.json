@@ -3,7 +3,7 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Ta ključ že pripada »%1$s«.",
@@ -14208,9 +14208,14 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Nova sporočila: %d",
+    "plural": {
+      "one": "%1$d novo sporočilo",
+      "two": "%1$d novi sporočili",
+      "few": "%1$d nova sporočila",
+      "other": "%1$d novih sporočil"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Čaka preveč zahtev. Poskusite znova čez trenutek.",

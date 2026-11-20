@@ -3,7 +3,7 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Šī atslēga jau pieder „%1$s“.",
@@ -14206,9 +14206,13 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Jaunas ziņas: %d",
+    "plural": {
+      "zero": "%1$d jaunu ziņu",
+      "one": "%1$d jauna ziņa",
+      "other": "%1$d jaunas ziņas"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Gaida pārāk daudz pieprasījumu. Mēģiniet vēlreiz pēc brīža.",

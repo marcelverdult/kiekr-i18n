@@ -3,7 +3,7 @@
     "language": "sk",
     "name": "Slovenčina",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Tento kľúč už patrí k „%1$s“.",
@@ -14207,9 +14207,13 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Nové správy: %d",
+    "plural": {
+      "one": "%1$d nová správa",
+      "few": "%1$d nové správy",
+      "other": "%1$d nových správ"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Čaká príliš veľa požiadaviek. Skúste to o chvíľu znova.",

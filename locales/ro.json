@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Această cheie aparține deja site-ului „%1$s”.",
@@ -14207,9 +14207,13 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Mesaje noi: %d",
+    "plural": {
+      "one": "%1$d mesaj nou",
+      "few": "%1$d mesaje noi",
+      "other": "%1$d de mesaje noi"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Prea multe cereri așteaptă. Încercați din nou peste puțin timp.",

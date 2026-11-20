@@ -3,7 +3,7 @@
     "language": "cs",
     "name": "Čeština",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Tento klíč již patří k „%1$s“.",
@@ -14207,9 +14207,13 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Nové zprávy: %d",
+    "plural": {
+      "one": "%1$d nová zpráva",
+      "few": "%1$d nové zprávy",
+      "other": "%1$d nových zpráv"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Čeká příliš mnoho požadavků. Zkuste to za chvíli znovu.",

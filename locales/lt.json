@@ -3,7 +3,7 @@
     "language": "lt",
     "name": "Lietuvių",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Šis raktas jau priklauso „%1$s“.",
@@ -14207,9 +14207,13 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Naujos žinutės: %d",
+    "plural": {
+      "one": "%1$d nauja žinutė",
+      "few": "%1$d naujos žinutės",
+      "other": "%1$d naujų žinučių"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Laukia per daug užklausų. Pabandykite dar kartą po akimirkos.",

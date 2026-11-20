@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Questa chiave appartiene già a \"%1$s\".",
@@ -12849,9 +12849,12 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Nuovi messaggi: %d",
+    "plural": {
+      "one": "%1$d nuovo messaggio",
+      "other": "%1$d nuovi messaggi"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Ci sono troppe richieste in attesa. Riprova tra un momento.",

@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "add_channel_duplicate_key": {
     "value": "Този ключ вече принадлежи на „%1$s“.",
@@ -14204,9 +14204,12 @@
     "_seeded": "2026-10-29"
   },
   "notif_bundle_body": {
-    "value": "Нови съобщения: %d",
+    "plural": {
+      "one": "%1$d ново съобщение",
+      "other": "%1$d нови съобщения"
+    },
     "_ai": true,
-    "_seeded": "2026-10-29"
+    "_seeded": "2026-11-20"
   },
   "i18n_op_busy": {
     "value": "Твърде много заявки чакат. Опитайте отново след малко.",
