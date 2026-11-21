@@ -11648,5 +11648,17 @@
   "mqtt_err_identity_invalid": {
     "value": "Benutzername, Client-ID oder Topics dieser Instanz enthalten ein verbotenes Zeichen (zum Beispiel einen Zeilenumbruch), darum wurde der Upload ausgeschaltet. Öffne die Instanz und tippe sie neu ein.",
     "_human": true
+  },
+  "nodes_manual_err_contains_target": {
+    "value": "Dieser Kontakt steht als Hop in seinem eigenen Pfad. Entferne den Hop: Der Pfad listet nur die Repeater dazwischen.",
+    "_human": true
+  },
+  "add_channel_added_notice": {
+    "value": "Kanal „%1$s“ hinzugefügt.",
+    "_human": true
+  },
+  "add_contact_added_notice": {
+    "value": "Kontakt hinzugefügt.",
+    "_human": true
   }
 }
