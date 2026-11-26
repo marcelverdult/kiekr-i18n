@@ -3,7 +3,7 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-26"
   },
   "add_channel_duplicate_key": {
     "value": "Ta ključ že pripada »%1$s«.",
@@ -985,28 +985,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_hero_sub": {
-    "value": "prikaže vsak prejeti okvir, tudi tisto, česar ni mogoče prebrati",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Brez filtra · vsi paketi",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_mesh_active": {
     "value": "Aktivna",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Zasedena",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Tiha",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -1035,43 +1015,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_stat_mesh": {
-    "value": "Mreža",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Večskočno",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "od %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Povpr. SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Ni mogoče dekodirati",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "vseeno na seznamu",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_title": {
     "value": "Promet v živo",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "skupaj",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -5105,11 +5050,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_battery_polling_footer": {
-    "value": "Kako pogosto aplikacija od naprave zahteva podatke o napetosti baterije. Vidno delovanje, ko je aplikacija odprta; delovanje v ozadju, ko je skrita. Višja frekvenca = svežejši podatki, več prometa prek BLE.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_battery_polling_header": {
     "value": "Preverjanje stanja baterije",
     "_ai": true,
@@ -5167,11 +5107,6 @@
   },
   "settings_battery_warn_at_label": {
     "value": "Opozorilo ob",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_battery_warn_footer": {
-    "value": "Obvesti, ko napolnjenost priključene naprave pade na opozorilni odstotek. Varnostni razmik je vrednost, za katero mora odstotek ponovno narasti nad prag, preden se lahko sproži naslednje opozorilo. Razmik povečajte, če se krivulja napolnjenosti baterije ustalijo (LiFePO4, AA).",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -14306,5 +14241,1070 @@
     "value": "Stik je dodan.",
     "_ai": true,
     "_seeded": "2026-11-20"
+  },
+  "chat_compose_over_budget": {
+    "value": "Predolgo za %1$d B. Skrajšaj, da lahko pošlješ.",
+    "_ai": true,
+    "_seeded": "2026-11-21"
+  },
+  "cli_form_applies_after_restart": {
+    "value": "Repetitor to uporabi po ponovnem zagonu.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_command": {
+    "value": "Ukaz",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_send_confirm_title": {
+    "value": "Želite poslati ta ukaz?",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int": {
+    "value": "od %1$d do %2$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int_or_zero": {
+    "value": "0 (izklopljeno) ali od %1$d do %2$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_decimal": {
+    "value": "od %1$s do %2$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_empty": {
+    "value": "Vnesite vrednost.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_a_number": {
+    "value": "Vnesite število.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_out_of_range": {
+    "value": "Biti mora med %1$s in %2$s.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_an_option": {
+    "value": "Izberite eno od: %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_too_long": {
+    "value": "Predolgo: največ %1$d bajtov.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_forbidden_chars": {
+    "value": "Ti znaki niso dovoljeni: %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_hex": {
+    "value": "Uporabite samo šestnajstiške števke (od 0 do 9, od a do f).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_hex_length": {
+    "value": "Potrebnih je od %1$d do %2$d bajtov (od %3$d do %4$d števk).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_title": {
+    "value": "Privzete vrednosti CLI in skripti",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode": {
+    "value": "Ko se dotaknete ukaza",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode_one": {
+    "value": "Ko se ga dotaknete",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask": {
+    "value": "Vprašaj",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill": {
+    "value": "Vnaprej izpolni",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send": {
+    "value": "Pošlji takoj",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask_help": {
+    "value": "Odpre obrazec s praznimi polji.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill_help": {
+    "value": "Odpre obrazec z izpolnjenimi vašimi privzetimi vrednostmi.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send_help": {
+    "value": "Takoj pošlje vaše privzete vrednosti. Samo za neškodljive ukaze.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_same_as_all": {
+    "value": "Enako kot vsi ukazi",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_defaults": {
+    "value": "Moje privzete vrednosti",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_default_values": {
+    "value": "Privzete vrednosti",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_empty_stay_empty": {
+    "value": "Prazna polja ostanejo v obrazcu prazna.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_risky_always_ask": {
+    "value": "Ukazi, ki vas lahko zaklenejo ali ponovno zaženejo repetitor, vedno najprej vprašajo, ne glede na to, kaj izberete tukaj.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_scripts": {
+    "value": "Moji skripti",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scripts_footer": {
+    "value": "Skript se izvede le, ko ga zaženete, po en ukaz naenkrat, in počaka na vsak odgovor.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_commands_count": {
+    "value": "Ukazov: %1$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_new_script": {
+    "value": "Nov skript",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_import_script": {
+    "value": "Uvozi skript",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scan_script": {
+    "value": "Skeniraj kodo QR skripta",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_file_unreadable": {
+    "value": "Te datoteke ni bilo mogoče prebrati.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_too_big": {
+    "value": "Ta skript je prevelik.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_not_a_script": {
+    "value": "To ni skript KiekR.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_newer_version": {
+    "value": "Ta skript je iz novejše različice KiekR.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_invalid": {
+    "value": "Ta skript ima vrednosti, ki jih repetitor ne bi sprejel.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_name_too_long": {
+    "value": "To ime je predolgo.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_step": {
+    "value": "Korak %1$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_remove_step": {
+    "value": "Odstrani korak",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_add_command": {
+    "value": "Dodaj ukaz",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_too_many": {
+    "value": "Ta skript ima preveč ukazov.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asks_risky": {
+    "value": "Vpraša pred vsakim pošiljanjem",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asked_when_runs": {
+    "value": "Vpraša se ob zagonu",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_default": {
+    "value": "Moja privzeta vrednost",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_ask": {
+    "value": "Vprašaj ob zagonu",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_fixed": {
+    "value": "Stalna vrednost",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_share_file": {
+    "value": "Deli kot datoteko",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_too_long": {
+    "value": "Predolgo za kodo QR. Delite jo kot datoteko.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_hint": {
+    "value": "Skenirajte to v KiekR na drugem telefonu: Nastavitve, Privzete vrednosti CLI in skripti, Uvozi skript.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_title": {
+    "value": "Koda QR",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_unknown_verb": {
+    "value": "Ta ukaz ni na voljo v skriptih.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_slot_count": {
+    "value": "Vrednosti ne ustrezajo temu ukazu.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_secret": {
+    "value": "Geslo se vpraša ob vsakem zagonu in se nikoli ne shrani.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_scripts": {
+    "value": "Skripti",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_commands": {
+    "value": "Ukazi",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_at_most": {
+    "value": "Največ",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_ask_before_sending": {
+    "value": "Vprašaj pred pošiljanjem",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_time_footer": {
+    "value": "Čas je zgornja meja: vsak ukaz čaka največ toliko, kolikor znaša vaša časovna omejitev zahteve. Nič se ne pošlje, dokler se ne dotaknete Začni.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_values_to_enter": {
+    "value": "Vrednosti za vnos",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_missing_defaults": {
+    "value": "Najprej nastavite privzete vrednosti za te ukaze (Nastavitve, Privzete vrednosti CLI in skripti):",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_start": {
+    "value": "Začni",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_bad_value": {
+    "value": "Repetitor ne sprejme ene od vrednosti. Preverite vnos.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_summary": {
+    "value": "%1$d opravljeno, %2$d preskočeno, %3$d neuspešno",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_stopped": {
+    "value": "Ustavljeno. Nič več se ne pošlje.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_paused_footer": {
+    "value": "Izvajanje čaka na vas. Nič drugega se ne pošlje.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_skip": {
+    "value": "Preskoči ta ukaz",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_running": {
+    "value": "Izvaja se",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_failed": {
+    "value": "Neuspešno",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_declined": {
+    "value": "Ni potrjeno",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_skipped": {
+    "value": "Preskočeno",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_waiting": {
+    "value": "Čaka",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_allow_read_only": {
+    "value": "Dovoli samo branje",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_bandwidth_khz": {
+    "value": "Pasovna širina (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_cad": {
+    "value": "CAD",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_coding_rate": {
+    "value": "Hitrost kodiranja",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_delay_s": {
+    "value": "Zakasnitev (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_duty_cycle": {
+    "value": "Delovni cikel (%)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_epoch_seconds": {
+    "value": "Sekunde epohe",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_factor": {
+    "value": "Faktor",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_frequency_mhz": {
+    "value": "Frekvenca (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hops": {
+    "value": "Skoki",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hours": {
+    "value": "Ure",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_interval_s": {
+    "value": "Interval (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_latitude": {
+    "value": "Zemljepisna širina",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_longitude": {
+    "value": "Zemljepisna dolžina",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_loop_detect": {
+    "value": "Zaznavanje zank",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes": {
+    "value": "Minute",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes_until_it_reverts": {
+    "value": "Minute do povrnitve",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_mode": {
+    "value": "Način",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multi_acks": {
+    "value": "Več ACK",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multiplier": {
+    "value": "Množitelj",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_name": {
+    "value": "Ime",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_guest_password": {
+    "value": "Novo geslo za goste",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_password": {
+    "value": "Novo geslo",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_permission_byte": {
+    "value": "Bajt dovoljenj",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_dbm": {
+    "value": "Moč (dBm)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_saving": {
+    "value": "Varčevanje z energijo",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_public_key_hex": {
+    "value": "Javni ključ (hex)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_rx_gain": {
+    "value": "Ojačitev RX",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_repeat_mode": {
+    "value": "Način ponavljanja",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_spreading_factor": {
+    "value": "Faktor razprševanja",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_text": {
+    "value": "Besedilo",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_threshold": {
+    "value": "Prag",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_packets": {
+    "value": "Paketi",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_summary": {
+    "value": "Povzetek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10s": {
+    "value": "10 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1m": {
+    "value": "1 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10m": {
+    "value": "10 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1h": {
+    "value": "1 h",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_rate": {
+    "value": "Hitrost",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_avg_snr": {
+    "value": "Povp. SNR",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10s": {
+    "value": "zadnjih 10 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1m": {
+    "value": "zadnja minuta",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10m": {
+    "value": "zadnjih 10 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1h": {
+    "value": "zadnja ura",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10s": {
+    "value": "pred 10 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1m": {
+    "value": "pred 60 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10m": {
+    "value": "pred 10 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1h": {
+    "value": "pred 1 h",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_now": {
+    "value": "zdaj",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_n_packets": {
+    "plural": {
+      "one": "%1$d paket",
+      "two": "%1$d paketa",
+      "few": "%1$d paketi",
+      "other": "%1$d paketov"
+    },
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "nodes_type_all": {
+    "value": "Vse %d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_range_note": {
+    "value": "Prikazanih zadnjih %1$d min. Medpomnilnik sprejme 10 000 okvirjev in je po ponovnem zagonu prazen.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_types": {
+    "value": "Vrste paketov",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_senders": {
+    "value": "Najaktivnejši pošiljatelji",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hop_1": {
+    "value": "1 skok",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_n": {
+    "value": "Skoki: %1$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_3plus": {
+    "value": "3+",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_saver": {
+    "value": "Varčen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_normal": {
+    "value": "Običajen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_fast": {
+    "value": "Hiter",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_sec": {
+    "value": "%1$d s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_min": {
+    "value": "%1$d min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_hint_short": {
+    "value": "Vsakih %1$s, ko je aplikacija odprta, vsakih %2$s v ozadju",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_polling_footer_short": {
+    "value": "Krajši interval prikaže svežejši odčitek, a porabi več Bluetootha.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_row": {
+    "value": "Lastne vrednosti",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_footer": {
+    "value": "Kako pogosto aplikacija vpraša napravo za raven baterije, ko je odprta in v ozadju.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_warn_footer_short": {
+    "value": "Ponovno opozori šele, ko baterija naraste vsaj za %1$d odstotnih točk nad to mejo.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_rearm_footer": {
+    "value": "Za koliko mora baterija naraščati nad mejo opozorila, preden lahko znova opozori. Povečajte vrednost, če je krivulja baterije ravna.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_title": {
+    "value": "Povezava Wi-Fi se ob ugasnjenem zaslonu zaustavi",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_body": {
+    "value": "iOS zaustavi KiekR v ozadju. Sporočila čakajo na vašem vozlišču, dokler ne odprete aplikacije.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_title": {
+    "value": "Profil akumulatorja",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_cell": {
+    "value": "Vrsta celice",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source": {
+    "value": "Vir vrste celice",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_user": {
+    "value": "Vaša izbira",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_detected": {
+    "value": "Zaznano",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_assumed": {
+    "value": "Predpostavljeno",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_readings": {
+    "value": "Meritve",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_detected_row": {
+    "value": "Zaznano iz meritev",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_not_enough": {
+    "value": "Meritev je še premalo",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo1s": {
+    "value": "LiPo 1S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo2s": {
+    "value": "LiPo 2S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lifepo4": {
+    "value": "LiFePO4",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_none": {
+    "value": "Brez akumulatorja",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_choose_header": {
+    "value": "Izberite vrsto celice",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_reset": {
+    "value": "Ponastavi na samodejno",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_variant_curve": {
+    "value": "Odstotek izračuna krivulja, ki ste jo nastavili za to vrsto naprave (Nastavitve, Krivulja napetosti akumulatorja).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_no_battery_note": {
+    "value": "Brez akumulatorja: »Moje vozlišče« prikaže napetost, ne odstotka.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_footer": {
+    "value": "Vozlišče sporoča le napetost, nikoli vrste celice. KiekR jo sklepa iz meritev. Vaša izbira vedno velja.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "map_coverage_layer": {
+    "value": "Plast pokritosti",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "ios_lookup_online": {
+    "value": "Poišči na spletu",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_nodes_directory_source_footer": {
+    "value": "Ponavljalniki, najdeni prek spletnega imenika (ikona zbirke podatkov v vrstici), se ob vklopu pomešajo v seznam. Izklopi, če želiš videti samo vozlišča, ki smo jih res slišali po radiu.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_msgdetail_path_footer_lookup": {
+    "value": "Vsak skok je prvih %1$d bajtov javnega ključa ponavljalnika. Kratki ključi lahko ustrezajo več ponavljalnikom. Tapni „Poišči na spletu“, da razrešiš manjkajoče ponavljalnike prek spletnega imenika.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "map_path_no_path_body_lookup": {
+    "value": "Za nobenega od ponavljalnikov tega sporočila (niti za izvor) niso shranjene GPS-koordinate. Zaprite ta pogled, tapnite „Poišči na spletu“ v delu s potjo sporočila, nato pa se vrnite.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_good": {
+    "value": "Dobra",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_low": {
+    "value": "Nizka",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_critical": {
+    "value": "Kritična",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_almost_full": {
+    "value": "Skoraj polno",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_full": {
+    "value": "Polno",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline": {
+    "value": "Brez povezave",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper": {
+    "value": "Pomočnik zemljevida",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver": {
+    "value": "Wardriver",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline_desc": {
+    "value": "Ostane na radiu. Nič se ne posreduje na splet.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper_desc": {
+    "value": "Posreduje oglase repetitorjev na javni zemljevid, poleg regij in seznamov sosedov, ki jih prenesete z repetitorja.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_observer_desc": {
+    "value": "Posreduje vsak paket, ki ga ta telefon sliši, da lahko drugi spremljajo promet mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver_desc": {
+    "value": "Posreduje vzorce pokritosti z vašim položajem, medtem ko vozite ali hodite.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_this_phone": {
+    "value": "Ta telefon",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_public_note": {
+    "value": "Radijski promet je javen. To samo določa, kaj ta telefon posreduje na splet.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_choose_title": {
+    "value": "Kaj naj ta telefon deli?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_message": {
+    "value": "Ta telefon bo na splet posredoval vsak slišan paket, tudi šifrirane bajte, ki jih sami ne morete prebrati. Neposredna sporočila ostanejo šifrirana. Kadar koli se lahko vrnete.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_action": {
+    "value": "Preklopi na Observer",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_title": {
+    "value": "Preklopiti na Wardriver?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_message": {
+    "value": "Ta telefon bo na splet posredoval vzorce pokritosti z vašim položajem, medtem ko sliši mesh. Vezani so na psevdonimno identiteto aplikacije, ne na vaše vozlišče. Kadar koli se lahko vrnete.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_action": {
+    "value": "Preklopi na Wardriver",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_title": {
+    "value": "Potrebna sta ime opazovalca in IATA",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_message": {
+    "value": "Observer in Wardriver objavljata pod vašim imenom opazovalca in kodo IATA. Najprej nastavite oboje v Nalaganju skupnosti, nato znova izberite ta način.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_sends_to": {
+    "value": "Pošilja na",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_all_targets": {
+    "value": "Vsi cilji",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "targets_title": {
+    "value": "Cilji",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_targets_message": {
+    "value": "Brokerji, Observer in Wardriver objavljajo pod vašim imenom opazovalca in kodo IATA. Najprej nastavite oboje v Cilji, nato poskusite znova.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ui_map_consent_body_sharing": {
+    "value": "KiekR lahko na map.kiekr.app naloži vsak advert ponavljalnika, ki ga sprejme prek radijskih valov, ter vse regije ali sezname sosedov, ki jih pridobite iz ponavljalnika. Nalaganja so psevdonimna in niso povezana z vašo identiteto v aplikaciji KiekR. Sporočila, stiki in vaša lokacija se nikoli ne delijo.\n\nTo lahko kadar koli spremenite v Nastavitve → Deljenje.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_rules": {
+    "value": "Pravila",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_name": {
+    "value": "Ime opazovalca",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_directory_footer": {
+    "value": "Samo pridobi podatke, ob dotiku",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_channels_chats": {
+    "value": "Kanali in klepeti",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_contacts_blocked": {
+    "value": "Stiki in blokirani uporabniki",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_regions_directory": {
+    "value": "Regije in imenik",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_notifications_battery": {
+    "value": "Obvestila in baterija",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_appearance_language": {
+    "value": "Videz in jezik",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_about_help": {
+    "value": "O aplikaciji, pravila in pomoč",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_recommended": {
+    "value": "Priporočeno",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_continue": {
+    "value": "Naprej",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_hint": {
+    "value": "To lahko kadar koli spremeniš v Nastavitve → Deljenje.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_on": {
+    "value": "Vklopljeno",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_all_types": {
+    "value": "Vse vrste",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_chat_only": {
+    "value": "Samo klepet",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_types_count": {
+    "value": "%1$d od 4 vrst",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_tools_diagnostics": {
+    "value": "Orodja in diagnostika",
+    "_ai": true,
+    "_seeded": "2026-11-26"
   }
 }

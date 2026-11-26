@@ -3,7 +3,7 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-26"
   },
   "add_channel_duplicate_key": {
     "value": "Deze sleutel is al gekoppeld aan \"%1$s\".",
@@ -830,28 +830,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_hero_sub": {
-    "value": "toont elk ontvangen frame, ook wat niet leesbaar is",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Ongefilterd · alle pakketten",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_mesh_active": {
     "value": "Actief",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Druk",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Rustig",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -880,43 +860,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_stat_mesh": {
-    "value": "Mesh",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Multi-hop",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "van %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Gem. SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Niet te decoderen",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "toch vermeld",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_title": {
     "value": "Live verkeer",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "totaal",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -4285,10 +4230,6 @@
     "value": "OK",
     "_human": true
   },
-  "settings_battery_polling_footer": {
-    "value": "Hoe vaak de app het apparaat om accuspanning vraagt. Zichtbaar loopt terwijl de app open is; achtergrond terwijl hij verborgen is. Sneller tempo = verser uitlezing, meer BLE-verkeer.",
-    "_human": true
-  },
   "settings_battery_polling_header": {
     "value": "Accu-polling",
     "_human": true
@@ -4335,10 +4276,6 @@
   },
   "settings_battery_warn_at_label": {
     "value": "Waarschuwen bij",
-    "_human": true
-  },
-  "settings_battery_warn_footer": {
-    "value": "Stuur een melding wanneer het verbonden apparaat tot het waarschuwingspercentage daalt. De her-activeringsmarge bepaalt hoe ver het percentage weer boven de drempel moet stijgen voordat de volgende waarschuwing kan afgaan. Verbreed hem als je accucurve afvlakt (LiFePO4, AA).",
     "_human": true
   },
   "settings_battery_warn_header": {
@@ -13032,5 +12969,1068 @@
     "value": "Contact toegevoegd.",
     "_ai": true,
     "_seeded": "2026-11-20"
+  },
+  "chat_compose_over_budget": {
+    "value": "%1$d B te lang. Kort in om te verzenden.",
+    "_ai": true,
+    "_seeded": "2026-11-21"
+  },
+  "cli_form_applies_after_restart": {
+    "value": "De repeater past dit toe na een herstart.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_command": {
+    "value": "Commando",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_send_confirm_title": {
+    "value": "Dit commando verzenden?",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int": {
+    "value": "%1$d tot %2$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int_or_zero": {
+    "value": "0 (uit) of %1$d tot %2$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_decimal": {
+    "value": "%1$s tot %2$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_empty": {
+    "value": "Voer een waarde in.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_a_number": {
+    "value": "Voer een getal in.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_out_of_range": {
+    "value": "Moet tussen %1$s en %2$s liggen.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_an_option": {
+    "value": "Kies een van: %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_too_long": {
+    "value": "Te lang: maximaal %1$d bytes.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_forbidden_chars": {
+    "value": "Deze tekens zijn niet toegestaan: %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_hex": {
+    "value": "Gebruik alleen hexadecimale cijfers (0 tot 9, a tot f).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_hex_length": {
+    "value": "Vereist %1$d tot %2$d bytes (%3$d tot %4$d cijfers).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_title": {
+    "value": "CLI-standaarden en scripts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode": {
+    "value": "Wanneer je een commando aantikt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode_one": {
+    "value": "Wanneer je het aantikt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask": {
+    "value": "Vragen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill": {
+    "value": "Vooraf invullen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send": {
+    "value": "Direct verzenden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask_help": {
+    "value": "Opent het formulier met lege velden.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill_help": {
+    "value": "Opent het formulier met je standaardwaarden ingevuld.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send_help": {
+    "value": "Verzendt je standaardwaarden direct. Alleen voor onschadelijke commando's.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_same_as_all": {
+    "value": "Zelfde als alle commando's",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_defaults": {
+    "value": "Mijn standaardwaarden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_default_values": {
+    "value": "Standaardwaarden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_empty_stay_empty": {
+    "value": "Lege velden blijven leeg in het formulier.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_risky_always_ask": {
+    "value": "Commando's die je buiten kunnen sluiten of de repeater herstarten, vragen altijd eerst, wat je hier ook kiest.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_scripts": {
+    "value": "Mijn scripts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scripts_footer": {
+    "value": "Een script draait alleen als jij het start, één commando tegelijk, en wacht op elk antwoord.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_commands_count": {
+    "value": "%1$d commando's",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_new_script": {
+    "value": "Nieuw script",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_import_script": {
+    "value": "Script importeren",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scan_script": {
+    "value": "Script-QR-code scannen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_file_unreadable": {
+    "value": "Dit bestand kon niet worden gelezen.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_too_big": {
+    "value": "Dit script is te groot.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_not_a_script": {
+    "value": "Dit is geen KiekR-script.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_newer_version": {
+    "value": "Dit script komt uit een nieuwere versie van KiekR.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_invalid": {
+    "value": "Dit script bevat waarden die de repeater niet zou accepteren.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_name_too_long": {
+    "value": "Deze naam is te lang.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_step": {
+    "value": "Stap %1$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_remove_step": {
+    "value": "Stap verwijderen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_add_command": {
+    "value": "Commando toevoegen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_too_many": {
+    "value": "Dit script heeft te veel commando's.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asks_risky": {
+    "value": "Vraagt vóór elke verzending",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asked_when_runs": {
+    "value": "Wordt gevraagd bij uitvoeren",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_default": {
+    "value": "Mijn standaardwaarde",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_ask": {
+    "value": "Vragen bij uitvoeren",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_fixed": {
+    "value": "Vaste waarde",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_share_file": {
+    "value": "Delen als bestand",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_too_long": {
+    "value": "Te lang voor een QR-code. Deel het als bestand.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_hint": {
+    "value": "Scan dit in KiekR op de andere telefoon: Instellingen, CLI-standaarden en scripts, Script importeren.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_title": {
+    "value": "QR-code",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_unknown_verb": {
+    "value": "Dit commando is niet beschikbaar in scripts.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_slot_count": {
+    "value": "De waarden passen niet bij dit commando.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_secret": {
+    "value": "Een wachtwoord wordt bij elke uitvoering gevraagd en nooit opgeslagen.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_scripts": {
+    "value": "Scripts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_commands": {
+    "value": "Commando's",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_at_most": {
+    "value": "Maximaal",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_ask_before_sending": {
+    "value": "Vragen vóór verzenden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_time_footer": {
+    "value": "De tijd is een bovengrens: elk commando wacht hooguit zo lang als je time-out voor verzoeken. Er wordt niets verzonden voordat je op Start tikt.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_values_to_enter": {
+    "value": "In te voeren waarden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_missing_defaults": {
+    "value": "Stel eerst je standaardwaarden voor deze commando's in (Instellingen, CLI-standaarden en scripts):",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_start": {
+    "value": "Start",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_bad_value": {
+    "value": "Een waarde wordt niet geaccepteerd door de repeater. Controleer de invoer.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_summary": {
+    "value": "%1$d klaar, %2$d overgeslagen, %3$d mislukt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_stopped": {
+    "value": "Gestopt. Er wordt niets meer verzonden.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_paused_footer": {
+    "value": "De uitvoering wacht op jou. Er wordt verder niets verzonden.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_skip": {
+    "value": "Dit commando overslaan",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_running": {
+    "value": "Bezig",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_failed": {
+    "value": "Mislukt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_declined": {
+    "value": "Niet bevestigd",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_skipped": {
+    "value": "Overgeslagen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_waiting": {
+    "value": "Wacht",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_allow_read_only": {
+    "value": "Alleen-lezen toestaan",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_bandwidth_khz": {
+    "value": "Bandbreedte (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_cad": {
+    "value": "CAD",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_coding_rate": {
+    "value": "Coderingssnelheid",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_delay_s": {
+    "value": "Vertraging (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_duty_cycle": {
+    "value": "Duty cycle (%)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_epoch_seconds": {
+    "value": "Epoch-seconden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_factor": {
+    "value": "Factor",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_frequency_mhz": {
+    "value": "Frequentie (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hops": {
+    "value": "Hops",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hours": {
+    "value": "Uren",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_interval_s": {
+    "value": "Interval (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_latitude": {
+    "value": "Breedtegraad",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_longitude": {
+    "value": "Lengtegraad",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_loop_detect": {
+    "value": "Lusdetectie",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes": {
+    "value": "Minuten",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes_until_it_reverts": {
+    "value": "Minuten tot het terugdraait",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_mode": {
+    "value": "Modus",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multi_acks": {
+    "value": "Multi-ACK's",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multiplier": {
+    "value": "Vermenigvuldiger",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_name": {
+    "value": "Naam",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_guest_password": {
+    "value": "Nieuw gastwachtwoord",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_password": {
+    "value": "Nieuw wachtwoord",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_permission_byte": {
+    "value": "Rechtenbyte",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_dbm": {
+    "value": "Vermogen (dBm)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_saving": {
+    "value": "Energiebesparing",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_public_key_hex": {
+    "value": "Publieke sleutel (hex)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_rx_gain": {
+    "value": "RX-versterking",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_repeat_mode": {
+    "value": "Herhaalmodus",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_spreading_factor": {
+    "value": "Spreidingsfactor",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_text": {
+    "value": "Tekst",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_threshold": {
+    "value": "Drempel",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_packets": {
+    "value": "Pakketten",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_summary": {
+    "value": "Overzicht",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10s": {
+    "value": "10 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1m": {
+    "value": "1 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10m": {
+    "value": "10 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1h": {
+    "value": "1 u",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_rate": {
+    "value": "Snelheid",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_avg_snr": {
+    "value": "Gem. SNR",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10s": {
+    "value": "laatste 10 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1m": {
+    "value": "laatste minuut",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10m": {
+    "value": "laatste 10 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1h": {
+    "value": "laatste uur",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10s": {
+    "value": "10 s geleden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1m": {
+    "value": "60 s geleden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10m": {
+    "value": "10 min geleden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1h": {
+    "value": "1 u geleden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_now": {
+    "value": "nu",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_n_packets": {
+    "plural": {
+      "one": "%1$d pakket",
+      "other": "%1$d pakketten"
+    },
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "nodes_type_all": {
+    "value": "Alle %d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_range_note": {
+    "value": "De laatste %1$d min worden getoond. De buffer bevat 10.000 frames en is na een herstart leeg.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_types": {
+    "value": "Pakkettypen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_senders": {
+    "value": "Luidste zenders",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hop_1": {
+    "value": "1 hop",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_n": {
+    "value": "%1$d hops",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_3plus": {
+    "value": "3+",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_saver": {
+    "value": "Zuinig",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_normal": {
+    "value": "Normaal",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_fast": {
+    "value": "Snel",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_sec": {
+    "value": "%1$d s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_min": {
+    "value": "%1$d min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_hint_short": {
+    "value": "Elke %1$s bij geopende app, elke %2$s op de achtergrond",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_polling_footer_short": {
+    "value": "Een korter interval toont een actuelere waarde, maar gebruikt meer Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_row": {
+    "value": "Eigen waarden",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_footer": {
+    "value": "Hoe vaak de app het batterijniveau bij het apparaat opvraagt, met de app open en op de achtergrond.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_warn_footer_short": {
+    "value": "Waarschuwt pas opnieuw nadat de batterij minstens %1$d procentpunten hoger was.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_rearm_footer": {
+    "value": "Hoeveel de batterij boven de waarschuwingsgrens moet stijgen voordat opnieuw kan worden gewaarschuwd. Vergroot dit als de batterijcurve vlak is.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_title": {
+    "value": "De wifi-verbinding pauzeert als het scherm uit is",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_body": {
+    "value": "iOS stopt KiekR op de achtergrond. Berichten wachten op je node tot je de app opent.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_title": {
+    "value": "Accuprofiel",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_cell": {
+    "value": "Celtype",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source": {
+    "value": "Bron van het celtype",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_user": {
+    "value": "Jouw keuze",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_detected": {
+    "value": "Herkend",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_assumed": {
+    "value": "Aangenomen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_readings": {
+    "value": "Metingen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_detected_row": {
+    "value": "Herkend uit metingen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_not_enough": {
+    "value": "Nog te weinig metingen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo1s": {
+    "value": "LiPo 1S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo2s": {
+    "value": "LiPo 2S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lifepo4": {
+    "value": "LiFePO4",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_none": {
+    "value": "Geen accu",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_choose_header": {
+    "value": "Kies het celtype",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_reset": {
+    "value": "Terugzetten op automatisch",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_variant_curve": {
+    "value": "Een curve die je voor dit apparaattype hebt ingesteld, berekent het percentage (Instellingen, Accucurve).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_no_battery_note": {
+    "value": "Geen accu: ‘Mijn node’ toont de spanning en geen percentage.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_footer": {
+    "value": "De node meldt alleen de spanning, nooit het celtype. KiekR leidt het af uit de metingen. Jouw keuze gaat altijd voor.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "map_coverage_layer": {
+    "value": "Dekkingslaag",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "ios_lookup_online": {
+    "value": "Online opzoeken",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_nodes_directory_source_footer": {
+    "value": "Repeaters die via de online gids zijn gevonden (databasepictogram op de rij) worden in de lijst gemengd als dit aan staat. Zet uit om alleen nodes te zien die we echt via radio hebben gehoord.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_msgdetail_path_footer_lookup": {
+    "value": "Elke hop zijn de eerste %1$d bytes van de publieke sleutel van een repeater. Korte sleutels kunnen bij meerdere repeaters passen. Tik op “Online opzoeken” om ontbrekende repeaters via de online gids op te lossen.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "map_path_no_path_body_lookup": {
+    "value": "Geen van de repeaters van dit bericht (en geen oorsprong) heeft GPS-coördinaten opgeslagen. Sluit deze weergave, tik op ‘Online opzoeken’ bij het padgedeelte van het bericht en kom dan terug.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_good": {
+    "value": "Goed",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_low": {
+    "value": "Laag",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_critical": {
+    "value": "Kritiek",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_almost_full": {
+    "value": "Bijna vol",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_full": {
+    "value": "Vol",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline": {
+    "value": "Offline",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper": {
+    "value": "Kaarthelper",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver": {
+    "value": "Wardriver",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline_desc": {
+    "value": "Blijft op de radio. Er wordt niets doorgestuurd naar internet.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper_desc": {
+    "value": "Stuurt repeater-adverts door naar de openbare kaart, plus regio's en buurlijsten die je bij een repeater ophaalt.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_observer_desc": {
+    "value": "Stuurt elk pakket door dat deze telefoon hoort, zodat anderen het mesh-verkeer kunnen volgen.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver_desc": {
+    "value": "Stuurt dekkingsmetingen met je positie door terwijl je rijdt of loopt.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_this_phone": {
+    "value": "Deze telefoon",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_public_note": {
+    "value": "Radioverkeer is openbaar. Dit bepaalt alleen wat deze telefoon naar internet doorstuurt.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_choose_title": {
+    "value": "Wat moet deze telefoon delen?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_message": {
+    "value": "Deze telefoon stuurt elk pakket dat hij hoort door naar internet, ook versleutelde bytes die je zelf niet kunt lezen. Directe berichten blijven versleuteld. Je kunt altijd terugschakelen.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_action": {
+    "value": "Overschakelen naar Observer",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_title": {
+    "value": "Overschakelen naar Wardriver?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_message": {
+    "value": "Deze telefoon stuurt dekkingsmetingen met je positie door naar internet terwijl hij het mesh hoort. Ze hangen aan een pseudonieme app-identiteit, niet aan je node. Je kunt altijd terugschakelen.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_action": {
+    "value": "Overschakelen naar Wardriver",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_title": {
+    "value": "Observernaam en IATA nodig",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_message": {
+    "value": "Observer en Wardriver publiceren onder je observernaam en IATA-code. Stel eerst beide in bij Community-upload en kies deze modus daarna opnieuw.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_sends_to": {
+    "value": "Verzendt naar",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_all_targets": {
+    "value": "Alle doelen",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "targets_title": {
+    "value": "Doelen",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_targets_message": {
+    "value": "Brokers, Observer en Wardriver publiceren onder je waarnemersnaam en IATA-code. Stel eerst beide in bij Doelen en probeer het dan opnieuw.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ui_map_consent_body_sharing": {
+    "value": "KiekR kan elke repeater-advert die het over de lucht hoort uploaden naar map.kiekr.app, plus eventuele regio's of burenlijsten die je van een repeater ophaalt. Uploads zijn pseudoniem en niet gekoppeld aan je KiekR-identiteit. Berichten, contacten en je locatie worden nooit gedeeld.\n\nJe kunt dit altijd wijzigen bij Instellingen → Delen.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_rules": {
+    "value": "Regels",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_name": {
+    "value": "Naam waarnemer",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_directory_footer": {
+    "value": "Haalt alleen gegevens op, na een tik",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_channels_chats": {
+    "value": "Kanalen en chats",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_contacts_blocked": {
+    "value": "Contacten en geblokkeerde gebruikers",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_regions_directory": {
+    "value": "Regio's en adressenlijst",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_notifications_battery": {
+    "value": "Meldingen en batterij",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_appearance_language": {
+    "value": "Uiterlijk en taal",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_about_help": {
+    "value": "Over, regels en help",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_recommended": {
+    "value": "Aanbevolen",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_continue": {
+    "value": "Doorgaan",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_hint": {
+    "value": "Je kunt dit altijd wijzigen onder Instellingen → Delen.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_on": {
+    "value": "Aan",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_all_types": {
+    "value": "Alle typen",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_chat_only": {
+    "value": "Alleen chat",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_types_count": {
+    "value": "%1$d van 4 typen",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_tools_diagnostics": {
+    "value": "Hulpmiddelen en diagnose",
+    "_ai": true,
+    "_seeded": "2026-11-26"
   }
 }

@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-26"
   },
   "add_channel_duplicate_key": {
     "value": "Cette clé appartient déjà à « %1$s ».",
@@ -830,28 +830,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_hero_sub": {
-    "value": "affiche chaque trame reçue, même ce qui est illisible",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Non filtré · tous les paquets",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_mesh_active": {
     "value": "Actif",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Occupé",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Calme",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -880,43 +860,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_stat_mesh": {
-    "value": "Maillage",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Multi-saut",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "sur %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "SNR / RSSI moyens",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Indécodable",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "quand même listé",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_title": {
     "value": "Trafic en direct",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "total",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -4286,10 +4231,6 @@
     "value": "OK",
     "_human": true
   },
-  "settings_battery_polling_footer": {
-    "value": "Fréquence à laquelle l'app demande à l'appareil la tension de la batterie. Visible s'exécute quand l'app est ouverte ; arrière-plan quand elle est masquée. Une cadence plus rapide = lecture plus fraîche, plus de trafic BLE.",
-    "_human": true
-  },
   "settings_battery_polling_header": {
     "value": "Interrogation de la batterie",
     "_human": true
@@ -4336,10 +4277,6 @@
   },
   "settings_battery_warn_at_label": {
     "value": "Avertir à",
-    "_human": true
-  },
-  "settings_battery_warn_footer": {
-    "value": "Notifie lorsque l'appareil connecté tombe au pourcentage d'avertissement. L'écart de réarmement est de combien le pourcentage doit remonter au-dessus du seuil avant que le prochain avertissement puisse se déclencher. Élargissez-le si votre courbe de batterie forme un plateau (LiFePO4, AA).",
     "_human": true
   },
   "settings_battery_warn_header": {
@@ -6206,9 +6143,9 @@
     "_seeded": "2026-07-01"
   },
   "traceroute_hops": {
-    "value": "Houblon",
+    "value": "Sauts",
     "_ai": true,
-    "_seeded": "2026-07-01"
+    "_seeded": "2026-11-25"
   },
   "traceroute_map_select_hint": {
     "value": "Appuyez sur les répéteurs dans l'ordre de la visite",
@@ -13033,5 +12970,1069 @@
     "value": "Contact ajouté.",
     "_ai": true,
     "_seeded": "2026-11-20"
+  },
+  "chat_compose_over_budget": {
+    "value": "%1$d o de trop. Raccourcis pour envoyer.",
+    "_ai": true,
+    "_seeded": "2026-11-21"
+  },
+  "cli_form_applies_after_restart": {
+    "value": "Le répéteur applique ceci après un redémarrage.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_command": {
+    "value": "Commande",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_send_confirm_title": {
+    "value": "Envoyer cette commande ?",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int": {
+    "value": "%1$d à %2$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int_or_zero": {
+    "value": "0 (désactivé) ou %1$d à %2$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_decimal": {
+    "value": "%1$s à %2$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_empty": {
+    "value": "Saisissez une valeur.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_a_number": {
+    "value": "Saisissez un nombre.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_out_of_range": {
+    "value": "Doit être compris entre %1$s et %2$s.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_an_option": {
+    "value": "Choisissez parmi : %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_too_long": {
+    "value": "Trop long : %1$d octets au maximum.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_forbidden_chars": {
+    "value": "Ces caractères ne sont pas autorisés : %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_hex": {
+    "value": "Utilisez uniquement des chiffres hexadécimaux (0 à 9, a à f).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_hex_length": {
+    "value": "Il faut %1$d à %2$d octets (%3$d à %4$d chiffres).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_title": {
+    "value": "Valeurs par défaut CLI et scripts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode": {
+    "value": "Quand vous touchez une commande",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode_one": {
+    "value": "Quand vous la touchez",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask": {
+    "value": "Demander",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill": {
+    "value": "Préremplir",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send": {
+    "value": "Envoyer aussitôt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask_help": {
+    "value": "Ouvre le formulaire avec des champs vides.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill_help": {
+    "value": "Ouvre le formulaire avec vos valeurs par défaut renseignées.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send_help": {
+    "value": "Envoie aussitôt vos valeurs par défaut. Uniquement pour les commandes anodines.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_same_as_all": {
+    "value": "Comme toutes les commandes",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_defaults": {
+    "value": "Mes valeurs par défaut",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_default_values": {
+    "value": "Valeurs par défaut",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_empty_stay_empty": {
+    "value": "Les champs vides restent vides dans le formulaire.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_risky_always_ask": {
+    "value": "Les commandes qui peuvent vous bloquer l'accès ou redémarrer le répéteur demandent toujours confirmation d'abord, quel que soit votre choix ici.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_scripts": {
+    "value": "Mes scripts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scripts_footer": {
+    "value": "Un script ne s'exécute que lorsque vous le lancez, une commande à la fois, et attend chaque réponse.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_commands_count": {
+    "value": "%1$d commandes",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_new_script": {
+    "value": "Nouveau script",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_import_script": {
+    "value": "Importer un script",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scan_script": {
+    "value": "Scanner le QR code d'un script",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_file_unreadable": {
+    "value": "Ce fichier n'a pas pu être lu.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_too_big": {
+    "value": "Ce script est trop volumineux.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_not_a_script": {
+    "value": "Ce n'est pas un script KiekR.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_newer_version": {
+    "value": "Ce script provient d'une version plus récente de KiekR.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_invalid": {
+    "value": "Ce script contient des valeurs que le répéteur n'accepterait pas.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_name_too_long": {
+    "value": "Ce nom est trop long.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_step": {
+    "value": "Étape %1$d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_remove_step": {
+    "value": "Supprimer l'étape",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_add_command": {
+    "value": "Ajouter une commande",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_too_many": {
+    "value": "Ce script contient trop de commandes.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asks_risky": {
+    "value": "Demande avant chaque envoi",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asked_when_runs": {
+    "value": "Demandé à l'exécution",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_default": {
+    "value": "Ma valeur par défaut",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_ask": {
+    "value": "Demander à l'exécution",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_fixed": {
+    "value": "Valeur fixe",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_share_file": {
+    "value": "Partager en fichier",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_too_long": {
+    "value": "Trop long pour un QR code. Partagez-le en fichier.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_hint": {
+    "value": "Scannez ceci dans KiekR sur l'autre téléphone : Réglages, Valeurs par défaut CLI et scripts, Importer un script.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_title": {
+    "value": "QR code",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_unknown_verb": {
+    "value": "Cette commande n'est pas disponible dans les scripts.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_slot_count": {
+    "value": "Les valeurs ne conviennent pas à cette commande.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_secret": {
+    "value": "Un mot de passe est demandé à chaque exécution et n'est jamais enregistré.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_scripts": {
+    "value": "Scripts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_commands": {
+    "value": "Commandes",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_at_most": {
+    "value": "Au plus",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_ask_before_sending": {
+    "value": "Demander avant l'envoi",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_time_footer": {
+    "value": "La durée est une borne supérieure : chaque commande attend au plus votre délai de requête. Rien n'est envoyé tant que vous n'appuyez pas sur Démarrer.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_values_to_enter": {
+    "value": "Valeurs à saisir",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_missing_defaults": {
+    "value": "Définissez d'abord vos valeurs par défaut pour ces commandes (Réglages, Valeurs par défaut CLI et scripts) :",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_start": {
+    "value": "Démarrer",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_bad_value": {
+    "value": "Le répéteur n'accepte pas l'une des valeurs. Vérifiez la saisie.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_summary": {
+    "value": "%1$d terminées, %2$d ignorées, %3$d échouées",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_stopped": {
+    "value": "Arrêté. Plus rien n'est envoyé.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_paused_footer": {
+    "value": "L'exécution vous attend. Rien d'autre n'est envoyé.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_skip": {
+    "value": "Ignorer cette commande",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_running": {
+    "value": "En cours",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_failed": {
+    "value": "Échec",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_declined": {
+    "value": "Non confirmé",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_skipped": {
+    "value": "Ignorée",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_waiting": {
+    "value": "En attente",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_allow_read_only": {
+    "value": "Autoriser en lecture seule",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_bandwidth_khz": {
+    "value": "Bande passante (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_cad": {
+    "value": "CAD",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_coding_rate": {
+    "value": "Taux de codage",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_delay_s": {
+    "value": "Délai (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_duty_cycle": {
+    "value": "Rapport cyclique (%)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_epoch_seconds": {
+    "value": "Secondes epoch",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_factor": {
+    "value": "Facteur",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_frequency_mhz": {
+    "value": "Fréquence (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hops": {
+    "value": "Sauts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hours": {
+    "value": "Heures",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_interval_s": {
+    "value": "Intervalle (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_latitude": {
+    "value": "Latitude",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_longitude": {
+    "value": "Longitude",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_loop_detect": {
+    "value": "Détection de boucle",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes": {
+    "value": "Minutes",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes_until_it_reverts": {
+    "value": "Minutes avant le retour en arrière",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_mode": {
+    "value": "Mode",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multi_acks": {
+    "value": "Multi-ACK",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multiplier": {
+    "value": "Multiplicateur",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_name": {
+    "value": "Nom",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_guest_password": {
+    "value": "Nouveau mot de passe invité",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_password": {
+    "value": "Nouveau mot de passe",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_permission_byte": {
+    "value": "Octet de permissions",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_dbm": {
+    "value": "Puissance (dBm)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_saving": {
+    "value": "Économie d'énergie",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_public_key_hex": {
+    "value": "Clé publique (hex)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_rx_gain": {
+    "value": "Gain RX",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_repeat_mode": {
+    "value": "Mode de répétition",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_spreading_factor": {
+    "value": "Facteur d'étalement",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_text": {
+    "value": "Texte",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_threshold": {
+    "value": "Seuil",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_packets": {
+    "value": "Paquets",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_summary": {
+    "value": "Résumé",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10s": {
+    "value": "10 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1m": {
+    "value": "1 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10m": {
+    "value": "10 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1h": {
+    "value": "1 h",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_rate": {
+    "value": "Débit",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_avg_snr": {
+    "value": "SNR moyen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10s": {
+    "value": "10 dernières s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1m": {
+    "value": "dernière minute",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10m": {
+    "value": "10 dernières min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1h": {
+    "value": "dernière heure",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10s": {
+    "value": "il y a 10 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1m": {
+    "value": "il y a 60 s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10m": {
+    "value": "il y a 10 min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1h": {
+    "value": "il y a 1 h",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_now": {
+    "value": "maintenant",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_n_packets": {
+    "plural": {
+      "one": "%1$d paquet",
+      "many": "%1$d de paquets",
+      "other": "%1$d paquets"
+    },
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "nodes_type_all": {
+    "value": "Tous %d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_range_note": {
+    "value": "Affichage des %1$d dernières minutes. La mémoire tampon contient 10 000 trames et est vide après un redémarrage.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_types": {
+    "value": "Types de paquets",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_senders": {
+    "value": "Émetteurs les plus actifs",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hop_1": {
+    "value": "1 saut",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_n": {
+    "value": "%1$d sauts",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_3plus": {
+    "value": "3+",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_saver": {
+    "value": "Économe",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_normal": {
+    "value": "Normal",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_fast": {
+    "value": "Rapide",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_sec": {
+    "value": "%1$d s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_min": {
+    "value": "%1$d min",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_hint_short": {
+    "value": "Toutes les %1$s à l'ouverture, toutes les %2$s en arrière-plan",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_polling_footer_short": {
+    "value": "Un intervalle plus court donne une lecture plus récente, mais consomme plus de Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_row": {
+    "value": "Valeurs personnalisées",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_footer": {
+    "value": "Fréquence à laquelle l'app demande le niveau de batterie à l'appareil, app ouverte et en arrière-plan.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_warn_footer_short": {
+    "value": "N'avertit à nouveau qu'une fois la batterie remontée d'au moins %1$d points de pourcentage au-dessus.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_rearm_footer": {
+    "value": "De combien la batterie doit remonter au-dessus de la limite d'alerte avant de pouvoir avertir à nouveau. Augmentez cette valeur si la courbe de batterie est plate.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_title": {
+    "value": "La connexion Wi-Fi se met en pause quand l'écran est éteint",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_body": {
+    "value": "iOS arrête KiekR en arrière-plan. Les messages attendent sur votre nœud jusqu'à ce que vous ouvriez l'app.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_title": {
+    "value": "Profil de batterie",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_cell": {
+    "value": "Type de cellule",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source": {
+    "value": "Source du type de cellule",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_user": {
+    "value": "Votre choix",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_detected": {
+    "value": "Détecté",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_assumed": {
+    "value": "Supposé",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_readings": {
+    "value": "Mesures",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_detected_row": {
+    "value": "Détecté à partir des mesures",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_not_enough": {
+    "value": "Pas encore assez de mesures",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo1s": {
+    "value": "LiPo 1S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo2s": {
+    "value": "LiPo 2S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lifepo4": {
+    "value": "LiFePO4",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_none": {
+    "value": "Pas de batterie",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_choose_header": {
+    "value": "Choisir le type de cellule",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_reset": {
+    "value": "Rétablir en automatique",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_variant_curve": {
+    "value": "Une courbe que vous avez définie pour ce type d’appareil calcule le pourcentage (Réglages, Courbe de batterie).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_no_battery_note": {
+    "value": "Pas de batterie : « Mon nœud » affiche la tension et aucun pourcentage.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_footer": {
+    "value": "Le nœud ne transmet que la tension, jamais le type de cellule. KiekR le déduit des mesures. Votre choix prévaut toujours.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "map_coverage_layer": {
+    "value": "Couche de couverture",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "ios_lookup_online": {
+    "value": "Rechercher en ligne",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_nodes_directory_source_footer": {
+    "value": "Les répéteurs trouvés via l'annuaire en ligne (icône de base de données sur la ligne) s'ajoutent à la liste quand c'est activé. Désactive pour ne voir que les nœuds réellement entendus par radio.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_msgdetail_path_footer_lookup": {
+    "value": "Chaque saut correspond aux %1$d premiers octets de la clé publique d'un répéteur. Les clés courtes peuvent correspondre à plusieurs répéteurs. Touche « Rechercher en ligne » pour retrouver les répéteurs manquants via l'annuaire en ligne.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "map_path_no_path_body_lookup": {
+    "value": "Aucun des répéteurs de ce message (ni l'origine) n'a de coordonnées GPS enregistrées. Fermez cette vue, touchez « Rechercher en ligne » dans la section chemin du message, puis revenez.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_good": {
+    "value": "Bonne",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_low": {
+    "value": "Faible",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_critical": {
+    "value": "Critique",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_almost_full": {
+    "value": "Presque plein",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_full": {
+    "value": "Plein",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline": {
+    "value": "Hors ligne",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper": {
+    "value": "Aide cartographique",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver": {
+    "value": "Wardriver",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline_desc": {
+    "value": "Reste sur la radio. Rien n'est transmis à Internet.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper_desc": {
+    "value": "Transmet les annonces des répéteurs à la carte publique, ainsi que les régions et listes de voisins que tu récupères auprès d'un répéteur.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_observer_desc": {
+    "value": "Transmet chaque paquet que ce téléphone entend, pour que d'autres puissent suivre le trafic du mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver_desc": {
+    "value": "Transmet des mesures de couverture avec ta position pendant que tu roules ou marches.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_this_phone": {
+    "value": "Ce téléphone",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_public_note": {
+    "value": "Le trafic radio est public. Cela décide seulement ce que ce téléphone transmet à Internet.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_choose_title": {
+    "value": "Que doit partager ce téléphone ?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_message": {
+    "value": "Ce téléphone transmettra à Internet chaque paquet qu'il entend, y compris des octets chiffrés que tu ne peux pas lire toi-même. Les messages directs restent chiffrés. Tu peux revenir en arrière à tout moment.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_action": {
+    "value": "Passer à Observer",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_title": {
+    "value": "Passer à Wardriver ?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_message": {
+    "value": "Ce téléphone transmettra à Internet des mesures de couverture avec ta position pendant qu'il entend le mesh. Elles sont liées à une identité d'appli pseudonyme, pas à ton nœud. Tu peux revenir en arrière à tout moment.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_action": {
+    "value": "Passer à Wardriver",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_title": {
+    "value": "Nom d'observateur et IATA requis",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_message": {
+    "value": "Observer et Wardriver publient sous ton nom d'observateur et ton code IATA. Renseigne les deux d'abord dans Envoi communautaire, puis choisis à nouveau ce mode.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_sends_to": {
+    "value": "Envoie vers",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_all_targets": {
+    "value": "Toutes les cibles",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "targets_title": {
+    "value": "Cibles",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_targets_message": {
+    "value": "Les brokers, Observer et Wardriver publient sous ton nom d'observateur et ton code IATA. Renseigne d'abord les deux dans Cibles, puis réessaie.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ui_map_consent_body_sharing": {
+    "value": "KiekR peut envoyer chaque advert de répéteur entendu sur les ondes vers map.kiekr.app, ainsi que les régions ou listes de voisins récupérées d'un répéteur. Les envois sont pseudonymes et non liés à votre identité KiekR. Les messages, contacts et votre position ne sont jamais partagés.\n\nVous pouvez modifier cela à tout moment dans Réglages → Partage.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_rules": {
+    "value": "Règles",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_name": {
+    "value": "Nom de l'observateur",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_directory_footer": {
+    "value": "Récupère seulement des données, sur appui",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_channels_chats": {
+    "value": "Canaux et discussions",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_contacts_blocked": {
+    "value": "Contacts et utilisateurs bloqués",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_regions_directory": {
+    "value": "Régions et annuaire",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_notifications_battery": {
+    "value": "Notifications et batterie",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_appearance_language": {
+    "value": "Apparence et langue",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_about_help": {
+    "value": "À propos, règles et aide",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_recommended": {
+    "value": "Recommandé",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_continue": {
+    "value": "Continuer",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_hint": {
+    "value": "Tu peux le modifier à tout moment dans Réglages → Partage.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_on": {
+    "value": "Activé",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_all_types": {
+    "value": "Tous les types",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_chat_only": {
+    "value": "Chat uniquement",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_types_count": {
+    "value": "%1$d types sur 4",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_tools_diagnostics": {
+    "value": "Outils et diagnostic",
+    "_ai": true,
+    "_seeded": "2026-11-26"
   }
 }

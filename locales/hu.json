@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-11-19"
+    "updated": "2026-11-26"
   },
   "add_channel_duplicate_key": {
     "value": "Ez a kulcs már a „%1$s” tulajdonát képezi.",
@@ -985,28 +985,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_hero_sub": {
-    "value": "minden vett keretet megmutat, azt is, ami nem olvasható",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_hero_title": {
-    "value": "Szűretlen · minden csomag",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_mesh_active": {
     "value": "Aktív",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_busy": {
-    "value": "Forgalmas",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_mesh_quiet": {
-    "value": "Csendes",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -1035,43 +1015,8 @@
     "_ai": true,
     "_seeded": "2026-07-05"
   },
-  "live_traffic_stat_mesh": {
-    "value": "Háló",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_multihop": {
-    "value": "Többugrásos",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_of": {
-    "value": "/ %1$d",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_snr_rssi": {
-    "value": "Átl. SNR / RSSI",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_stat_undecodable": {
-    "value": "Nem dekódolható",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_still_listed": {
-    "value": "mégis listázva",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
   "live_traffic_title": {
     "value": "Élő forgalom",
-    "_ai": true,
-    "_seeded": "2026-07-05"
-  },
-  "live_traffic_total": {
-    "value": "összesen",
     "_ai": true,
     "_seeded": "2026-07-05"
   },
@@ -5103,11 +5048,6 @@
     "_ai": true,
     "_seeded": "2026-06-26"
   },
-  "settings_battery_polling_footer": {
-    "value": "Az alkalmazás milyen gyakran kéri le az eszköz akkumulátorának feszültségét. Az alkalmazás megnyitott állapotában látható módban, elrejtett állapotában pedig háttérmódban fut. A gyorsabb lépésszám = frissebb mérési eredmény, több BLE-forgalom.",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
   "settings_battery_polling_header": {
     "value": "Az akkumulátor állapotának lekérdezése",
     "_ai": true,
@@ -5165,11 +5105,6 @@
   },
   "settings_battery_warn_at_label": {
     "value": "Figyelmeztetés a következő időpontban:",
-    "_ai": true,
-    "_seeded": "2026-06-26"
-  },
-  "settings_battery_warn_footer": {
-    "value": "Értesítsen, ha a csatlakoztatott eszköz töltöttségi szintje a figyelmeztető százalékra csökken. Az újraindítási késleltetés azt jelenti, hogy a százalékos értéknek mennyivel kell a küszöbérték fölé emelkednie, mielőtt a következő figyelmeztetés elindulhat. Növelje ezt az értéket, ha az akkumulátor töltöttségi görbéje eléri a platót (LiFePO4, AA).",
     "_ai": true,
     "_seeded": "2026-06-26"
   },
@@ -14302,5 +14237,1068 @@
     "value": "A névjegy hozzáadva.",
     "_ai": true,
     "_seeded": "2026-11-20"
+  },
+  "chat_compose_over_budget": {
+    "value": "%1$d B-tal túl hosszú. Rövidítsd a küldéshez.",
+    "_ai": true,
+    "_seeded": "2026-11-21"
+  },
+  "cli_form_applies_after_restart": {
+    "value": "Az átjátszó újraindítás után alkalmazza ezt.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_command": {
+    "value": "Parancs",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_send_confirm_title": {
+    "value": "Elküldöd ezt a parancsot?",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int": {
+    "value": "%1$d és %2$d között",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_int_or_zero": {
+    "value": "0 (ki) vagy %1$d és %2$d között",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_range_decimal": {
+    "value": "%1$s és %2$s között",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_empty": {
+    "value": "Adj meg egy értéket.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_a_number": {
+    "value": "Adj meg egy számot.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_out_of_range": {
+    "value": "%1$s és %2$s között kell lennie.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_an_option": {
+    "value": "Válassz egyet: %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_too_long": {
+    "value": "Túl hosszú: legfeljebb %1$d bájt.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_forbidden_chars": {
+    "value": "Ezek a karakterek nem engedélyezettek: %1$s",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_not_hex": {
+    "value": "Csak hexadecimális számjegyeket használj (0-9, a-f).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_form_err_hex_length": {
+    "value": "%1$d-%2$d bájt kell (%3$d-%4$d számjegy).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_title": {
+    "value": "CLI alapértékek és szkriptek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode": {
+    "value": "Amikor egy parancsra koppintasz",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_tap_mode_one": {
+    "value": "Amikor rákoppintasz",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask": {
+    "value": "Rákérdez",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill": {
+    "value": "Előtöltés",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send": {
+    "value": "Azonnali küldés",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_ask_help": {
+    "value": "Üres mezőkkel nyitja meg az űrlapot.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_prefill_help": {
+    "value": "Kitöltött alapértékeiddel nyitja meg az űrlapot.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_mode_send_help": {
+    "value": "Azonnal elküldi az alapértékeidet. Csak ártalmatlan parancsokhoz.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_same_as_all": {
+    "value": "Mint az összes parancs",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_defaults": {
+    "value": "Saját alapértékeim",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_default_values": {
+    "value": "Alapértékek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_empty_stay_empty": {
+    "value": "Az üres mezők üresek maradnak az űrlapon.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_risky_always_ask": {
+    "value": "Azok a parancsok, amelyek kizárhatnak vagy újraindíthatják az átjátszót, mindig előbb rákérdeznek, bármit választasz itt.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_my_scripts": {
+    "value": "Saját szkriptjeim",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scripts_footer": {
+    "value": "A szkript csak akkor fut, ha te indítod el, egyszerre egy parancs, és minden válaszra vár.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_commands_count": {
+    "value": "%1$d parancs",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_new_script": {
+    "value": "Új szkript",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_import_script": {
+    "value": "Szkript importálása",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_scan_script": {
+    "value": "Szkript QR-kódjának beolvasása",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_settings_file_unreadable": {
+    "value": "Ezt a fájlt nem sikerült beolvasni.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_too_big": {
+    "value": "Ez a szkript túl nagy.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_not_a_script": {
+    "value": "Ez nem KiekR-szkript.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_newer_version": {
+    "value": "Ez a szkript a KiekR újabb verziójából származik.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_import_invalid": {
+    "value": "Ebben a szkriptben olyan értékek vannak, amelyeket az átjátszó nem fogadna el.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_name_too_long": {
+    "value": "Ez a név túl hosszú.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_step": {
+    "value": "%1$d. lépés",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_remove_step": {
+    "value": "Lépés eltávolítása",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_add_command": {
+    "value": "Parancs hozzáadása",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_too_many": {
+    "value": "Ebben a szkriptben túl sok parancs van.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asks_risky": {
+    "value": "Minden küldés előtt rákérdez",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_asked_when_runs": {
+    "value": "Futtatáskor rákérdez",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_default": {
+    "value": "Saját alapértékem",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_ask": {
+    "value": "Rákérdezés futtatáskor",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_slot_fixed": {
+    "value": "Rögzített érték",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_share_file": {
+    "value": "Megosztás fájlként",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_too_long": {
+    "value": "Túl hosszú QR-kódnak. Oszd meg fájlként.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_hint": {
+    "value": "Olvasd be ezt a másik telefon KiekR-jében: Beállítások, CLI alapértékek és szkriptek, Szkript importálása.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_qr_title": {
+    "value": "QR-kód",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_unknown_verb": {
+    "value": "Ez a parancs szkriptekben nem érhető el.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_slot_count": {
+    "value": "Az értékek nem illenek ehhez a parancshoz.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_editor_err_secret": {
+    "value": "A jelszót minden futtatáskor megkérdezi, és sosem menti el.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_scripts": {
+    "value": "Szkriptek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_commands": {
+    "value": "Parancsok",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_at_most": {
+    "value": "Legfeljebb",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_ask_before_sending": {
+    "value": "Rákérdezés küldés előtt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_time_footer": {
+    "value": "Az idő felső korlát: minden parancs legfeljebb a kérés időkorlátjáig vár. Semmi nem megy el, amíg nem koppintasz az Indításra.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_values_to_enter": {
+    "value": "Megadandó értékek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_missing_defaults": {
+    "value": "Először állítsd be az alapértékeidet ezekhez a parancsokhoz (Beállítások, CLI alapértékek és szkriptek):",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_start": {
+    "value": "Indítás",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_bad_value": {
+    "value": "Az átjátszó nem fogad el egy értéket. Ellenőrizd a megadottakat.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_summary": {
+    "value": "%1$d kész, %2$d kihagyva, %3$d sikertelen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_stopped": {
+    "value": "Leállítva. Több nem megy el.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_paused_footer": {
+    "value": "A futás rád vár. Más nem megy el.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_skip": {
+    "value": "Parancs kihagyása",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_running": {
+    "value": "Fut",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_failed": {
+    "value": "Sikertelen",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_declined": {
+    "value": "Nincs megerősítve",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_skipped": {
+    "value": "Kihagyva",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "cli_run_status_waiting": {
+    "value": "Vár",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_allow_read_only": {
+    "value": "Csak olvasás engedélyezése",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_bandwidth_khz": {
+    "value": "Sávszélesség (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_cad": {
+    "value": "CAD",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_coding_rate": {
+    "value": "Kódolási arány",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_delay_s": {
+    "value": "Késleltetés (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_duty_cycle": {
+    "value": "Kitöltési tényező (%)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_epoch_seconds": {
+    "value": "Epoch másodpercek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_factor": {
+    "value": "Tényező",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_frequency_mhz": {
+    "value": "Frekvencia (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hops": {
+    "value": "Ugrások",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_hours": {
+    "value": "Órák",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_interval_s": {
+    "value": "Időköz (s)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_latitude": {
+    "value": "Szélesség",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_longitude": {
+    "value": "Hosszúság",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_loop_detect": {
+    "value": "Hurokészlelés",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes": {
+    "value": "Percek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_minutes_until_it_reverts": {
+    "value": "Percek a visszaállásig",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_mode": {
+    "value": "Mód",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multi_acks": {
+    "value": "Többszörös ACK",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_multiplier": {
+    "value": "Szorzó",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_name": {
+    "value": "Név",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_guest_password": {
+    "value": "Új vendégjelszó",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_new_password": {
+    "value": "Új jelszó",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_permission_byte": {
+    "value": "Jogosultsági bájt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_dbm": {
+    "value": "Teljesítmény (dBm)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_power_saving": {
+    "value": "Energiatakarékosság",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_public_key_hex": {
+    "value": "Nyilvános kulcs (hex)",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_rx_gain": {
+    "value": "RX erősítés",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_repeat_mode": {
+    "value": "Ismétlési mód",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_spreading_factor": {
+    "value": "Szórási tényező",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_text": {
+    "value": "Szöveg",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "repeater_cli_param_threshold": {
+    "value": "Küszöb",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_packets": {
+    "value": "Csomagok",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_seg_summary": {
+    "value": "Összegzés",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10s": {
+    "value": "10 mp",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1m": {
+    "value": "1 perc",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_10m": {
+    "value": "10 perc",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_win_1h": {
+    "value": "1 óra",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_rate": {
+    "value": "Gyakoriság",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_avg_snr": {
+    "value": "Átl. SNR",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10s": {
+    "value": "utolsó 10 mp",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1m": {
+    "value": "utolsó 1 perc",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_10m": {
+    "value": "utolsó 10 perc",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_last_1h": {
+    "value": "utolsó 1 óra",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10s": {
+    "value": "10 mp-cel ezelőtt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1m": {
+    "value": "60 mp-cel ezelőtt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_10m": {
+    "value": "10 perccel ezelőtt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_ago_1h": {
+    "value": "1 órával ezelőtt",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_chart_now": {
+    "value": "most",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_n_packets": {
+    "plural": {
+      "one": "%1$d csomag",
+      "other": "%1$d csomag"
+    },
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "nodes_type_all": {
+    "value": "Mind: %d",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_range_note": {
+    "value": "Az utolsó %1$d perc látható. A puffer 10 000 keretet tárol, és újraindítás után üres.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_types": {
+    "value": "Csomagtípusok",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_sum_senders": {
+    "value": "Legaktívabb küldők",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hop_1": {
+    "value": "1 ugrás",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_n": {
+    "value": "%1$d ugrás",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "live_traffic_hops_3plus": {
+    "value": "3+",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_saver": {
+    "value": "Takarékos",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_normal": {
+    "value": "Normál",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_fast": {
+    "value": "Gyors",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_sec": {
+    "value": "%1$d mp",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_dur_min": {
+    "value": "%1$d perc",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_tier_hint_short": {
+    "value": "Megnyitott appnál %1$s, a háttérben %2$s időközönként",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_polling_footer_short": {
+    "value": "Rövidebb időköz frissebb értéket mutat, de több Bluetooth-forgalommal jár.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_row": {
+    "value": "Egyéni értékek",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_custom_footer": {
+    "value": "Milyen gyakran kérdezi le az app az eszköz akkumulátorszintjét megnyitott appnál és a háttérben.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_warn_footer_short": {
+    "value": "Csak akkor figyelmeztet újra, ha az akkumulátor legalább %1$d százalékponttal e fölé emelkedett.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "settings_battery_rearm_footer": {
+    "value": "Mennyivel kell az akkumulátornak a figyelmeztetési határ fölé emelkednie, mielőtt újra figyelmeztethet. Növeld az értéket, ha az akkumulátorgörbe lapos.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_title": {
+    "value": "A Wi-Fi-kapcsolat szünetel, ha a képernyő ki van kapcsolva",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "wifi_background_notice_body": {
+    "value": "Az iOS leállítja a KiekR-t a háttérben. Az üzenetek a csomópontodon várnak, amíg meg nem nyitod az appot.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_title": {
+    "value": "Akkumulátorprofil",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_cell": {
+    "value": "Cellatípus",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source": {
+    "value": "A cellatípus forrása",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_user": {
+    "value": "Saját választás",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_detected": {
+    "value": "Felismert",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_source_assumed": {
+    "value": "Feltételezett",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_readings": {
+    "value": "Mérések",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_detected_row": {
+    "value": "A mérésekből felismerve",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_not_enough": {
+    "value": "Még túl kevés a mérés",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo1s": {
+    "value": "LiPo 1S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lipo2s": {
+    "value": "LiPo 2S",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_lifepo4": {
+    "value": "LiFePO4",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_chem_none": {
+    "value": "Nincs akkumulátor",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_choose_header": {
+    "value": "Cellatípus kiválasztása",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_reset": {
+    "value": "Visszaállítás automatikusra",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_variant_curve": {
+    "value": "A százalékot egy általad az eszköztípushoz beállított görbe számítja (Beállítások, Az akkumulátor teljesítménygörbéje).",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_no_battery_note": {
+    "value": "Nincs akkumulátor: „Az én csomópontom” a feszültséget mutatja, százalékot nem.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "battery_profile_footer": {
+    "value": "A csomópont csak a feszültséget jelenti, a cellatípust soha. A KiekR a mérésekből következtet rá. A saját választásod mindig érvényes.",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "map_coverage_layer": {
+    "value": "Lefedettségi réteg",
+    "_ai": true,
+    "_seeded": "2026-11-25"
+  },
+  "ios_lookup_online": {
+    "value": "Keresés online",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_nodes_directory_source_footer": {
+    "value": "Az online címtáron keresztül feloldott ismétlők (adatbázis ikon a soron) bekapcsolt állapotban bekerülnek a listába. Kapcsold ki, ha csak a ténylegesen rádión hallott csomópontokat akarod látni.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ios_msgdetail_path_footer_lookup": {
+    "value": "Minden ugrás egy ismétlő nyilvános kulcsának első %1$d bájtja. A rövid kulcsok több ismétlőre is illeszkedhetnek. Koppints a „Keresés online“ gombra a hiányzó ismétlők online címtáron keresztüli feloldásához.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "map_path_no_path_body_lookup": {
+    "value": "Ennek az üzenetnek egyetlen átjátszója sem (és a küldő sem) rendelkezik tárolt GPS-koordinátákkal. Zárd be ezt a nézetet, koppints az üzenet útvonalának szakaszában a „Keresés online“ gombra, majd térj vissza ide.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_good": {
+    "value": "Jó",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_low": {
+    "value": "Alacsony",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_status_critical": {
+    "value": "Kritikus",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_almost_full": {
+    "value": "Majdnem tele",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "mynode_storage_full": {
+    "value": "Tele",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline": {
+    "value": "Offline",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper": {
+    "value": "Térképsegéd",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver": {
+    "value": "Wardriver",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_offline_desc": {
+    "value": "A rádión marad. Semmi sem kerül át az internetre.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_map_helper_desc": {
+    "value": "Továbbítja az átjátszók hirdetéseit a nyilvános térképre, valamint az átjátszóról lekért régiókat és szomszédlistákat.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_observer_desc": {
+    "value": "Továbbít minden csomagot, amit ez a telefon hall, hogy mások követhessék a mesh forgalmat.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_mode_wardriver_desc": {
+    "value": "Továbbítja a lefedettségi mintákat a pozícióddal, miközben vezetsz vagy sétálsz.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_this_phone": {
+    "value": "Ez a telefon",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_public_note": {
+    "value": "A rádióforgalom nyilvános. Ez csak azt dönti el, mit továbbít ez a telefon az internetre.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_choose_title": {
+    "value": "Mit osszon meg ez a telefon?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_message": {
+    "value": "Ez a telefon az internetre továbbít minden hallott csomagot, a titkosított bájtokat is, amelyeket te magad nem tudsz elolvasni. A közvetlen üzenetek titkosítva maradnak. Bármikor visszaválthatsz.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_confirm_action": {
+    "value": "Váltás Observerre",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_title": {
+    "value": "Váltás Wardriverre?",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_message": {
+    "value": "Ez a telefon az internetre továbbítja a lefedettségi mintákat a pozícióddal, amíg hallja a mesht. Ezek egy álnevesített alkalmazásazonosítóhoz kötődnek, nem a csomópontodhoz. Bármikor visszaválthatsz.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_wardriver_confirm_action": {
+    "value": "Váltás Wardriverre",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_title": {
+    "value": "Megfigyelő neve és IATA szükséges",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_message": {
+    "value": "Az Observer és a Wardriver a megfigyelő neved és az IATA-kódod alatt publikál. Előbb állítsd be mindkettőt a Közösségi feltöltésben, aztán válaszd újra ezt a módot.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_sends_to": {
+    "value": "Ide küld",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_all_targets": {
+    "value": "Minden cél",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "targets_title": {
+    "value": "Célok",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_identity_targets_message": {
+    "value": "A brókerek, az Observer és a Wardriver a megfigyelői neveddel és az IATA-kódoddal publikálnak. Állítsd be mindkettőt előbb a Célok alatt, aztán próbáld újra.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "ui_map_consent_body_sharing": {
+    "value": "A KiekR minden olyan átjátszó-advertet feltölt a map.kiekr.app oldalra, amelyet a levegőben fog, valamint azokat a régiókat és szomszédlistákat is, amelyeket az átjátszótól tölt le. A feltöltések álnéven történnek, és nincsenek összekapcsolva a KiekR-azonosságoddal. Az üzeneteket, a névjegyeket és a tartózkodási helyedet soha nem osztjuk meg.\n\nEzt bármikor módosíthatod a Beállítások → Megosztás.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_rules": {
+    "value": "Szabályok",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_observer_name": {
+    "value": "Megfigyelő neve",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_directory_footer": {
+    "value": "Csak adatot kér le, koppintásra",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_channels_chats": {
+    "value": "Csatornák és csevegések",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_contacts_blocked": {
+    "value": "Névjegyek és letiltott felhasználók",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_regions_directory": {
+    "value": "Régiók és címtár",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_notifications_battery": {
+    "value": "Értesítések és akkumulátor",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_appearance_language": {
+    "value": "Megjelenés és nyelv",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_about_help": {
+    "value": "Névjegy, szabályok és súgó",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_recommended": {
+    "value": "Ajánlott",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_continue": {
+    "value": "Tovább",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "sharing_first_run_hint": {
+    "value": "Ezt bármikor megváltoztathatod a Beállítások → Megosztás menüben.",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_on": {
+    "value": "Be",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_all_types": {
+    "value": "Minden típus",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_chat_only": {
+    "value": "Csak chat",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_state_types_count": {
+    "value": "%1$d a 4 típusból",
+    "_ai": true,
+    "_seeded": "2026-11-26"
+  },
+  "settings_group_tools_diagnostics": {
+    "value": "Eszközök és diagnosztika",
+    "_ai": true,
+    "_seeded": "2026-11-26"
   }
 }
